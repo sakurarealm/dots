@@ -1,0 +1,418 @@
+{
+  "title": "昨日工作完成物与恢复缺口对照",
+  "checked_at_utc": "2026-10-09T09:11:06.890188+00:00",
+  "incident": {
+    "window_utc": "2026-10-09 06:23–06:25",
+    "finding": "原共享项目内容突然不可见；原因未确认，不能认定永久删除"
+  },
+  "method": [
+    "历史交付记录与当前可读取文件、Sites版本/部署记录对照",
+    "本次重读78 GLB和36 PNG并计算SHA256；32 ZIP全部成员解压CRC核验，30个独立包hash",
+    "未执行原项目代码、未运行游戏测试、未调用Codex、未修改权限或发布站点",
+    "Sites元数据和部署成功记录不等于源归档下载成功或实时功能验收"
+  ],
+  "summary": {
+    "projects": 11,
+    "model_files_verified": 78,
+    "model_previous_hash_matches": 78,
+    "ui_images_hashed": 36,
+    "zip_files_crc_pass": 32,
+    "unique_zip_sha256": 30,
+    "source_fragments_hashed": 5,
+    "source_archives_downloaded": 0
+  },
+  "priorities": [
+    {
+      "priority": "P0",
+      "action": "先保全现存离机副本并确认原始源码归档恢复渠道；公开备份与私有源码权限分开",
+      "done_when": "远端回读完整hash一致，且原归档的可恢复来源与权限明确"
+    },
+    {
+      "priority": "P1",
+      "action": "恢复可维护基线，再补Web v7、岛屿布局、花园及关键UI；重建审计台账和方块ID映射",
+      "done_when": "文件恢复可检验，增量差异明确，逐项目验收通过"
+    },
+    {
+      "priority": "P2",
+      "action": "真实高德接入与已被否定的六风格重做",
+      "done_when": "先取得所需授权/方向验收，再完成功能与手机验证"
+    }
+  ],
+  "projects": [
+    {
+      "id": "web",
+      "name": "Aether Web 体素重构",
+      "priority": "P1",
+      "expected": "按用户最新顺序：先沙盒体素（分块/加载/碰撞/编辑/存档）、方块放置、NPC、建筑及完整UI迁移，再做经营；当前不做经营打磨，并保留可维护源码",
+      "historical_evidence": [
+        "历史交付：v1至v6已上线；SurfaceNets，cube/slab/wall放置移除与地形回填，存档XYZ及相邻碰撞块等待恢复",
+        "普通存档曾做实际Edge测试；地下恢复只有模拟测试",
+        "v7备份导入仅本地测试，未发布"
+      ],
+      "current_verified": [
+        "Sites当前仍报告v6发布成功，commit b912b32cb75018a72d183b42cb4d9992b32df436",
+        "v6归档记录22文件、2242560字节、SHA256 0f94315d5e90a91f37021576ba858e601a428c5598405d3a3d192e4c9f3b9fad；本次实取失败，未验证源码字节"
+      ],
+      "missing_or_unrecovered": [
+        "本地可维护源码未恢复",
+        "v7导入备份实现、配套测试与相对v6差异尚未恢复"
+      ],
+      "never_completed_or_not_accepted": [
+        "地下场景真实浏览器恢复验收",
+        "完整迁移范围不能据v6已上线推断全部完成"
+      ],
+      "recovery_options": [
+        "先恢复v6源版本，再根据历史记录重建v7增量，避免整站重做",
+        "恢复后先用新测试存档做导出→导入→重新加载与地下碰撞恢复检查"
+      ],
+      "approval_needed": [
+        "只读版本核对无需新增批准；当前归档读取受限，须先解决访问或由用户提供合法导出",
+        "可用既有云端工具在已授权Web任务范围内恢复与重建，不必为此新调用Codex；只有选择调用Codex进行重建、测试或继续任务时，才须事前批准；发布遵循该任务已有授权"
+      ]
+    },
+    {
+      "id": "island",
+      "name": "岛屿生活玩法与移动布局",
+      "priority": "P1",
+      "expected": "可操作的探索、建设、木屋规划、寻路、建筑占位、中文反馈与手机界面",
+      "historical_evidence": [
+        "v5已上线，v6已保存未发布",
+        "小窗开拓→建设→木屋规划反馈曾通过",
+        "后续寻路、占位、中文反馈、固定状态条在本地修改；日记遮资源、状态条挤列表曾失败，紧凑CSS仅构建通过"
+      ],
+      "current_verified": [
+        "Sites显示线上v5发布成功；v6 deployment_id为空",
+        "v6归档7文件、4997120字节、SHA256 6c875e8a16b9742da6813541b278daaeb6a957881a39e268195187080d0c5a00；实取失败"
+      ],
+      "missing_or_unrecovered": [
+        "v6源归档尚未取回",
+        "后续未保存进Sites的本地修改缺失风险最高"
+      ],
+      "never_completed_or_not_accepted": [
+        "移动布局验收未完成",
+        "v6未上线；后续修改不能算线上已有"
+      ],
+      "recovery_options": [
+        "先拿回v6，并与线上v5做文件差异",
+        "优先修日记/资源/列表遮挡，再补寻路和建筑占位回归；保留原存档"
+      ],
+      "approval_needed": [
+        "恢复读取受限须合法导出或访问恢复",
+        "若调用Codex修复/测试须预先明确批准；岛屿v6发布仍待该项授权确认"
+      ]
+    },
+    {
+      "id": "panda",
+      "name": "团芽单熊猫与三熊猫花园",
+      "priority": "P1",
+      "expected": "稳定宠物点击、动画、喂食、移动端，并完成花园整合和持久化",
+      "historical_evidence": [
+        "单熊猫v5已发布；射线点击、重复动作、动画事件、上下文丢失处理与移动网格修复",
+        "390×700、320×568曾本地检查；喂食8→7是合成数据",
+        "三熊猫花园仅独立本地运行时"
+      ],
+      "current_verified": [
+        "Sites当前v5发布成功，commit b6e2003944172557f23f94d898b4e4037a487c17",
+        "归档78文件、5079040字节、SHA256 bd6ed1b23bd75afa7741fa19f7341c5e0c3eeb1301fd36bfe781e2271dbeebe5；实取失败"
+      ],
+      "missing_or_unrecovered": [
+        "v5可维护源文件尚未恢复",
+        "三熊猫花园运行时及相关资产尚未恢复"
+      ],
+      "never_completed_or_not_accepted": [
+        "三熊猫花园从未完成线上集成",
+        "生产D1喂食与持久化未验收",
+        "多人存档未完成"
+      ],
+      "recovery_options": [
+        "先恢复v5作为可用基线，再按单独功能分支重建花园",
+        "使用测试账号验证喂食持久化、后台返回、重复点击，不能用合成8→7冒充数据库通过"
+      ],
+      "approval_needed": [
+        "源恢复受限需合法导出或访问恢复",
+        "若调用Codex花园重建/测试需批准；会改变生产进度的验证需用户选择测试账号/允许范围"
+      ]
+    },
+    {
+      "id": "amap",
+      "name": "高德地图、GPS与轨迹",
+      "priority": "P2",
+      "expected": "真实地图接入、位置权限与轨迹验证",
+      "historical_evidence": [
+        "历史记录仅显示团芽线上v5的SVG演示",
+        "规则回复并非LLM接入"
+      ],
+      "current_verified": [
+        "没有本次可核验的真实地图/GPS/轨迹代码或生产验收文件"
+      ],
+      "missing_or_unrecovered": [
+        "未找到真实服务实现证据，因此不列为已做成后丢失"
+      ],
+      "never_completed_or_not_accepted": [
+        "真实地图、GPS、轨迹均未验证",
+        "凭证、条款、隐私与位置授权步骤未完成"
+      ],
+      "recovery_options": [
+        "先确定服务账号与开发环境、位置数据用途和保留策略，再接入真实SDK",
+        "明确区分演示轨迹、模拟定位和真实GPS测试"
+      ],
+      "approval_needed": [
+        "若调用Codex，须事前批准",
+        "新建/配置持久凭证与扩权须动作时确认；密钥输入由用户安全交接",
+        "向高德传送真实位置及浏览器位置权限需明确批准；条款按实际页面确认"
+      ]
+    },
+    {
+      "id": "unity",
+      "name": "Unity完整工程与PixelPlanet + PSX Sky",
+      "priority": "P1",
+      "expected": "完整Aether工程能恢复、打开、编译并复现用户需要的场景截图",
+      "historical_evidence": [
+        "最小smoke曾20.48秒、exit 0，发生在睡前；不是完整工程通过",
+        "完整工程受9个Git UPM依赖、10个LFS对象（223806253字节）、SQLite/磁盘问题阻塞"
+      ],
+      "current_verified": [
+        "当前没有完整Unity工程或完整运行日志可逐字节复核",
+        "存在若干旧独立材质/几何资源包，不等于工程依赖已恢复"
+      ],
+      "missing_or_unrecovered": [
+        "完整工程本地拷贝、测试日志与可运行编辑器环境尚未恢复"
+      ],
+      "never_completed_or_not_accepted": [
+        "完整Aether从未确认测试通过",
+        "PixelPlanet + PSX Sky编辑与截图未启动，等待明确Codex批准"
+      ],
+      "recovery_options": [
+        "先恢复完整源码、Packages锁定文件及实际LFS对象，逐项核查依赖",
+        "保留最小smoke与完整工程测试两套状态；完整工程成功后再做场景编辑和截图"
+      ],
+      "approval_needed": [
+        "若调用Codex启动、继续、修改或测试，须事前批准",
+        "访问原仓库或第三方依赖需可用权限；扩展账号访问另确认"
+      ]
+    },
+    {
+      "id": "review",
+      "name": "Aether源码审核与问题复现",
+      "priority": "P1",
+      "expected": "可追溯文件清单、全量审核覆盖率、问题证据及验证状态",
+      "historical_evidence": [
+        "总范围5472文件；正式合并口径1158（1035全文、123部分）",
+        "后续工作清单曾记录1052全文+116部分；最后两处复核投影为1054全文+114部分=1168，未并入正式汇总",
+        "最后两处P2：VoxelVolumeFracture.cs 540–546非零方向单seed可能漏断肢；723–729分离蓝图可能漏tint，未运行复现"
+      ],
+      "current_verified": [
+        "原完整源快照与完整审核报告本次不可取回",
+        "旧南瓜参考包中4份CS与1份HLSL仍可读取，已单独计算hash；不是5472文件复原"
+      ],
+      "missing_or_unrecovered": [
+        "正式审计台账、逐文件证据和待合并增量尚未恢复"
+      ],
+      "never_completed_or_not_accepted": [
+        "从未全审；1168/5472约21.35%为全文或部分合计，不是完整审阅率",
+        "两处P2未复现，且结论绑定旧ad23快照，不能认定当前代码仍有同样问题"
+      ],
+      "recovery_options": [
+        "先恢复台账和对应快照身份，再合并增量，不能从记忆补写成已审证据",
+        "可通过已授权的Aether只读审查核对当前代码；之后仅对仍存在的问题提出最小复现"
+      ],
+      "approval_needed": [
+        "Aether只读查代码无需再次批准；不改代码、不跑测试、不启动执行任务",
+        "若调用Codex复现/修复/继续执行须事前批准"
+      ]
+    },
+    {
+      "id": "archive",
+      "name": "Aether源归档与仓库备份",
+      "priority": "P0",
+      "expected": "独立于云电脑的完整可恢复源代码及资源备份",
+      "historical_evidence": [
+        "历史记录源归档4860487678字节，SHA前缀ad23…；当前没有完整hash可复验",
+        "曾选择性提取5472份CS，不是完整Git仓库",
+        "此前Dreamtowards/Aether连接读取404，仅表明当前连接无法读取"
+      ],
+      "current_verified": [
+        "本次未找到该4.86GB完整归档或完整Git副本",
+        "当前新公开备份目标为用户已批准的sakurarealm/dots，已验证可推送，正另行备份；最终覆盖范围与远端回读以该任务结果为准"
+      ],
+      "missing_or_unrecovered": [
+        "完整原归档、LFS实体与源码版本链未恢复"
+      ],
+      "never_completed_or_not_accepted": [
+        "完整离机备份此前未建立可验证成功记录"
+      ],
+      "recovery_options": [
+        "优先由原始仓库/原上传者提供完整归档与完整SHA，下载到新目录，核验长度、hash、CRC和LFS",
+        "平台排查旧存储关联/快照，原因仍未确认，不能把当前不可见写成永久删除",
+        "公开成果备份与私有源代码备份分开审批，远端回读hash匹配后才计完成"
+      ],
+      "approval_needed": [
+        "读取已有授权来源无需批准；增加GitHub安装范围/凭证须动作时确认",
+        "向官方支持发送会话、故障或项目细节前明确批准数据与接收方",
+        "不得把原私有源码自动上传到公开sakurarealm/dots；需要用户明确批准披露范围"
+      ]
+    },
+    {
+      "id": "board",
+      "name": "工作看板与控制状态",
+      "priority": "P1",
+      "expected": "可查看真实最新进度、拖拽排序与明确的执行状态",
+      "historical_evidence": [
+        "线上v9在睡前发布；最后确认批次4任务+4事件",
+        "后续5项写入未获审核放行；两条已应用命令只涉及reorder/inertprobe"
+      ],
+      "current_verified": [
+        "Sites当前v9发布成功",
+        "v9归档记录1939文件、242022400字节、SHA256 07a854d61e66be0595750a848f379808e50146e94e4e50d75844cf89279c6aa4",
+        "归档超过当前下载工具32MiB上限，未尝试；不计源码已恢复"
+      ],
+      "missing_or_unrecovered": [
+        "本地看板工程与控制器代码未恢复",
+        "最新状态未全部同步"
+      ],
+      "never_completed_or_not_accepted": [
+        "登录阻塞后的拖拽验收未完成",
+        "旧心跳不是控制器仍运行的证据"
+      ],
+      "recovery_options": [
+        "看板v9归档是重要恢复线索：1939文件可能含早期资源，但未打开前不能承诺其内容",
+        "解决合法源导出后先静态检查归档范围，再以只读快照补齐进度",
+        "拖拽只用可撤销测试任务；真实执行命令另审批"
+      ],
+      "approval_needed": [
+        "只读核对无需额外批准；超限导出需支持的合法下载方式，不能绕过拒绝",
+        "恢复控制执行和状态写入须在具体授权范围内；若调用Codex则须事前批准"
+      ]
+    },
+    {
+      "id": "full_ui",
+      "name": "完整UI与最新设计图",
+      "priority": "P1",
+      "expected": "完整系统页面、最新FullSystem-v10/WhiteGlassImmersive-v40参考及菜单/仓库/任务实装截图",
+      "historical_evidence": [
+        "历史记录有185张最新本地图未上传",
+        "FullSystem-v10、WhiteGlassImmersive-v40独立图片尚未找到",
+        "历史与候选UI参考已曾交付，不能与最新实装混同"
+      ],
+      "current_verified": [
+        "36张恢复图片全部实际读取并计算SHA256，大小36/36与清单一致",
+        "其中18张历史图+18张取回PNG；总数不等于新增完整页面数"
+      ],
+      "missing_or_unrecovered": [
+        "185张最新本地图与可编辑来源未恢复",
+        "两套具名最新独立参考未找到"
+      ],
+      "never_completed_or_not_accepted": [
+        "没有新编译的菜单、仓库、任务运行截图验收证据",
+        "静态图、组件样张、手机缩放都不等于游戏实装或移动运行通过"
+      ],
+      "recovery_options": [
+        "先从36张保留视觉基线并标版本，查已保存的SVG/设计源是否能合法取回",
+        "若185张与最新源无法取回，先重做核心3页及组件状态；逐页确认后扩全系统，避免批量重画错误方向"
+      ],
+      "approval_needed": [
+        "只读查找和恢复合法已存文件无需额外批准",
+        "若调用Codex重建UI/编译/截图，须事前批准；实装源码公开共享另审批"
+      ]
+    },
+    {
+      "id": "minecraft645",
+      "name": "Minecraft645全量方块与六风格矩阵",
+      "priority": "P1",
+      "expected": "645基础方块、额外方块、完整ID对应、6风格覆盖、可导入资产与手机测试",
+      "historical_evidence": [
+        "历史05:03记录full645base生成650个GLB（645+5额外）",
+        "六风格记录483个ID×6=2898份，仍有162个基础ID缺风格；两组范围不能直接相减当恢复缺口",
+        "既存小包包含织机、砂轮、栅栏、活板门等部分家族"
+      ],
+      "current_verified": [
+        "650与2898全量目录未找到，无逐文件hash和完整ID清单可比",
+        "旧部分资产包实际字节存在，32份ZIP均全成员CRC通过；不是全量目录覆盖验收",
+        "既有7文件/4家族/5材质集仅是部分回退线索；织机2708三角面超2500预算208，砂轮1248，材质doubleSided，手机通过0"
+      ],
+      "missing_or_unrecovered": [
+        "650基础产物完整集与2898六风格完整集尚未恢复",
+        "完整生成脚本、ID映射与批量质检清单未恢复"
+      ],
+      "never_completed_or_not_accepted": [
+        "162个ID六风格原本未补齐",
+        "既有输出不等于艺术质量、手机性能或项目集成通过"
+      ],
+      "recovery_options": [
+        "先取得原ID清单与生成源，再用现存小包建立可复验映射，切勿把同名重复当不同方块",
+        "若只能重建：先普通块/透明块/特殊几何/交互块各取样，验证碰撞、端盖、材质预算后再扩全量",
+        "织机先减面至预算并复测；doubleSided需逐面检查，不能一键删除而破坏薄片"
+      ],
+      "approval_needed": [
+        "资产清点无需新增批准；若调用Codex生成/适配/测试，须事前批准",
+        "若需获取第三方素材或上传原项目内容，按来源许可和目标权限另确认"
+      ]
+    },
+    {
+      "id": "sixstyles",
+      "name": "10题材×6风格候选",
+      "priority": "P2",
+      "expected": "60个有清晰造型、材质和视觉语言区分的候选，并完成手机与风格验收",
+      "historical_evidence": [
+        "已交付10个主题包×6=60新候选；另有18旧候选",
+        "用户已否定风格区分度，验收0通过"
+      ],
+      "current_verified": [
+        "78个GLB实际重读，78/78 SHA与清单一致；60新+18旧不能混称78新",
+        "纹理内嵌，共7个独立图像hash；已有60张几何缩略图和雨塔多视角/剪影核验",
+        "雨塔01/03/04/05结构接近，02/06有明显几何差异；端盖修订仍不能自动视为风格通过"
+      ],
+      "missing_or_unrecovered": [
+        "候选GLB本身已恢复；完整可编辑生成源/风格工艺是否完整仍需从包内逐项核验，不以GLB存在代替"
+      ],
+      "never_completed_or_not_accepted": [
+        "风格验收0通过、手机运行验收0通过",
+        "名称和颜色差异不能充当六种造型风格的证据"
+      ],
+      "recovery_options": [
+        "保留现有包作为被否定基线，先重做同一题材的少量差异明显样品",
+        "同角度灰模/剪影先验形，再验贴图；通过后才展开10题材，避免继续产出同构60份"
+      ],
+      "approval_needed": [
+        "只读视觉比对无需批准；若调用Codex重做/继续执行/测试，须事前批准；重要风格选择由用户验收"
+      ]
+    }
+  ],
+  "additional_source_fragments": [
+    {
+      "file": "carved-merged-packet-v-axmu8ase/Aether_Carved_Pumpkin_Reference_v01/references/ChunkMeshGenerator.cs",
+      "bytes": 71625,
+      "sha256": "6b69da88c439c954abc70a0647a07fe57329d526a662418ab71e0054c5e29be7"
+    },
+    {
+      "file": "carved-merged-packet-v-axmu8ase/Aether_Carved_Pumpkin_Reference_v01/references/TerrainStyleManager.cs",
+      "bytes": 36948,
+      "sha256": "ee72bd46a7fc42306afffd9fdfcf874ababd79c190e14ad4e7f3b456b3ea5653"
+    },
+    {
+      "file": "carved-merged-packet-v-axmu8ase/Aether_Carved_Pumpkin_Reference_v01/references/TerrainTexBlend.hlsl",
+      "bytes": 48943,
+      "sha256": "08b2b281db535f222791eb500761a3fbf39b8c857bafb7fd85bb830640cb758d"
+    },
+    {
+      "file": "carved-merged-packet-v-axmu8ase/Aether_Carved_Pumpkin_Reference_v01/references/VoxShapeRegistry.cs",
+      "bytes": 2001,
+      "sha256": "2e4a1a68b84c512352c2ab3cb3ee7ace40c954bddfbdae0226f36e3fc76c869b"
+    },
+    {
+      "file": "carved-merged-packet-v-axmu8ase/Aether_Carved_Pumpkin_Reference_v01/references/MinecraftBlocks.cs",
+      "bytes": 10423,
+      "sha256": "013cb943c9fcf3b0d3660a6f959edcfd73f67ae5cf153b951d22a795a1be1071"
+    }
+  ],
+  "supporting_files": [
+    "verified-file-inventory.json",
+    "sites-persistence-evidence.json"
+  ],
+  "limitations": [
+    "用户侧“昨天”以此前项目连续工作为范围，不把睡后指南时间窗当全部昨日任务；历史数量来自已提供记录，不能伪装成当前文件统计",
+    "Library精确标题检索无匹配不能证明文件不存在；本报告未据搜索阴性判永久丢失",
+    "4个站点的部署状态已读取，但本次未重新登录进行实时功能测试",
+    "sakurarealm/dots公开备份已获用户批准且已验证可推送；覆盖范围与远端回读校验结果仍由备份任务确认。此前原始源码Dreamtowards/Aether访问404是另一独立阻塞"
+  ]
+}

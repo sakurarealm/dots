@@ -1,0 +1,526 @@
+{
+  "checked_at_utc": "2026-10-09T09:05:00Z",
+  "note": "Version records and reported hashes are metadata, not downloaded source verification. Three archive reads failed; no alternate access attempted.",
+  "sites": [
+    {
+      "title": "Aether · Web 重构实验",
+      "slug": "aether-web-reconstruction",
+      "project_id": "appgprj_6ac8239874008191af0741778df2d67e",
+      "access_mode": "custom",
+      "url": "https://aether-web-reconstruction.sakurarealmwuhen.chatgpt.site",
+      "latest_version": 6,
+      "versions": [
+        {
+          "id": "appgprj_6ac8239874008191af0741778df2d67e~appgver_23971bd982888191881930de5ad71572",
+          "project_id": "appgprj_6ac8239874008191af0741778df2d67e",
+          "version_number": 6,
+          "source": {
+            "commit_sha": "b912b32cb75018a72d183b42cb4d9992b32df436"
+          },
+          "archive_storage": {
+            "archive_format": "tar",
+            "sediment_file_id": "file_000000002dac8230accfc0b7c00e89f5",
+            "content_hash": "sha256:0f94315d5e90a91f37021576ba858e601a428c5598405d3a3d192e4c9f3b9fad",
+            "size_bytes": 2242560,
+            "file_count": 22
+          },
+          "screenshot_url": null,
+          "deployment_id": "appgdep_6ac86a6d7a108191af1be691ac7ef4fe"
+        },
+        {
+          "id": "appgprj_6ac8239874008191af0741778df2d67e~appgver_70e1d4a955348191b4d8b9316180e0bd",
+          "project_id": "appgprj_6ac8239874008191af0741778df2d67e",
+          "version_number": 5,
+          "source": {
+            "commit_sha": "5f5a8d9a5b71e47524a8f7853dd424c03cedb577"
+          },
+          "archive_storage": {
+            "archive_format": "tar",
+            "sediment_file_id": "file_000000001d2081f599a95f64fb41e89e",
+            "content_hash": "sha256:9b2bc807bb1c6ac7f37caf09827be8c66b5ffa38080c4aade16131e201686f11",
+            "size_bytes": 2242560,
+            "file_count": 22
+          },
+          "screenshot_url": null,
+          "deployment_id": "appgdep_6ac864a793048191ae11cdf2d37e3ee9"
+        },
+        {
+          "id": "appgprj_6ac8239874008191af0741778df2d67e~appgver_130a11bf4d3c8191a6619a9e495bf6ab",
+          "project_id": "appgprj_6ac8239874008191af0741778df2d67e",
+          "version_number": 4,
+          "source": {
+            "commit_sha": "6d3e77f47feb34ac67a325ee65ddcb999efac131"
+          },
+          "archive_storage": {
+            "archive_format": "tar",
+            "sediment_file_id": "file_0000000007c881f5882a94e43712f268",
+            "content_hash": "sha256:f5b62d843757356f7d81ccdf16db999a41af6287051b02c3bec074132d72edf9",
+            "size_bytes": 2242560,
+            "file_count": 22
+          },
+          "screenshot_url": null,
+          "deployment_id": "appgdep_6ac84814e3748191b6656483421fd504"
+        },
+        {
+          "id": "appgprj_6ac8239874008191af0741778df2d67e~appgver_469311b86c9881919276285d17adc432",
+          "project_id": "appgprj_6ac8239874008191af0741778df2d67e",
+          "version_number": 3,
+          "source": {
+            "commit_sha": "2556dd5c0fd49eb6eda607856ffd4f2c33064750"
+          },
+          "archive_storage": {
+            "archive_format": "tar",
+            "sediment_file_id": "file_00000000f7c081f5a6d7903dff102e2d",
+            "content_hash": "sha256:7681cbc24a28995c38c5029256cbeacc284e096ecc3a59445700aef9bb4c3c8e",
+            "size_bytes": 2211840,
+            "file_count": 17
+          },
+          "screenshot_url": null,
+          "deployment_id": "appgdep_6ac83c486c848191a29337412524df53"
+        },
+        {
+          "id": "appgprj_6ac8239874008191af0741778df2d67e~appgver_92f65f0d60708191b4d1d9393cb9fef2",
+          "project_id": "appgprj_6ac8239874008191af0741778df2d67e",
+          "version_number": 2,
+          "source": {
+            "commit_sha": "8a85e1a81884ea49e9bbbf883bac592b88ed3a31"
+          },
+          "archive_storage": {
+            "archive_format": "tar",
+            "sediment_file_id": "file_00000000a35c81f5add43af33e55c5f3",
+            "content_hash": "sha256:9f54a31b74dbe6c5e6d3f7c1aefa042244d6d8726130dd050a65dffc7f8365f5",
+            "size_bytes": 2181120,
+            "file_count": 12
+          },
+          "screenshot_url": null,
+          "deployment_id": "appgdep_6ac82b7f0b2c8191b53673a9f4731f91"
+        },
+        {
+          "id": "appgprj_6ac8239874008191af0741778df2d67e~appgver_f1b6c11cd2088191bf7d6678ac08ed14",
+          "project_id": "appgprj_6ac8239874008191af0741778df2d67e",
+          "version_number": 1,
+          "source": {
+            "commit_sha": "3008bccbfce95220ee1548cc2d5313a07d57276c"
+          },
+          "archive_storage": {
+            "archive_format": "tar",
+            "sediment_file_id": "file_00000000c1e48230a47755430e359aca",
+            "content_hash": "sha256:a6ed99eaa404a04c09d3ee44e2375a1bedb1aad4b0b4bc4853ce98b1bcbc7e63",
+            "size_bytes": 2160640,
+            "file_count": 7
+          },
+          "screenshot_url": null,
+          "deployment_id": "appgdep_6ac8264127e08191aea28a832bdb6840"
+        }
+      ],
+      "download_attempt": {
+        "error": "file could not be authorized or resolved"
+      }
+    },
+    {
+      "title": "团芽 · 口袋里的小伙伴",
+      "slug": "tuanya-companion",
+      "project_id": "appgprj_6ac7eaea11a881919700488890a17bcb",
+      "access_mode": "custom",
+      "url": "https://tuanya-companion.sakurarealmwuhen.chatgpt.site",
+      "latest_version": 5,
+      "versions": [
+        {
+          "id": "appgprj_6ac7eaea11a881919700488890a17bcb~appgver_a631a26bf0e481919d8532d87453c9ab",
+          "project_id": "appgprj_6ac7eaea11a881919700488890a17bcb",
+          "version_number": 5,
+          "source": {
+            "commit_sha": "b6e2003944172557f23f94d898b4e4037a487c17"
+          },
+          "archive_storage": {
+            "archive_format": "tar",
+            "sediment_file_id": "file_00000000760c823088d02341f04b0355",
+            "content_hash": "sha256:bd6ed1b23bd75afa7741fa19f7341c5e0c3eeb1301fd36bfe781e2271dbeebe5",
+            "size_bytes": 5079040,
+            "file_count": 78
+          },
+          "screenshot_url": null,
+          "deployment_id": "appgdep_6ac852cc11c081918add3d2e1bd9e218"
+        },
+        {
+          "id": "appgprj_6ac7eaea11a881919700488890a17bcb~appgver_fc1c9b2ce95481919a07f062c2c7b2ce",
+          "project_id": "appgprj_6ac7eaea11a881919700488890a17bcb",
+          "version_number": 4,
+          "source": {
+            "commit_sha": "e87555516b12fbc5235fa7bc18bf9f99e6ee59f5"
+          },
+          "archive_storage": {
+            "archive_format": "tar",
+            "sediment_file_id": "file_00000000863c8207a14cac57ec19ede4",
+            "content_hash": "sha256:233481698a1cce0ea741e6f040757aa236f3fe66027e3f62c30d8d3196456bb9",
+            "size_bytes": 5079040,
+            "file_count": 78
+          },
+          "screenshot_url": null,
+          "deployment_id": "appgdep_6ac8133203d88191adf3d6276a9a4cd9",
+          "screenshot_url_redaction": {
+            "reason": "Temporary authorization URL omitted from public evidence",
+            "expiry_utc_from_se": "2026-10-09T10:04:13Z"
+          }
+        },
+        {
+          "id": "appgprj_6ac7eaea11a881919700488890a17bcb~appgver_a0e8f2af9d7881919313d046d08e20b2",
+          "project_id": "appgprj_6ac7eaea11a881919700488890a17bcb",
+          "version_number": 3,
+          "source": {
+            "commit_sha": "91d871db7ef208738474efc275ab91bd85ad0b2b"
+          },
+          "archive_storage": {
+            "archive_format": "tar",
+            "sediment_file_id": "file_00000000aed8820784fd81b49db349d0",
+            "content_hash": "sha256:218d1c5a8e865ffd83afed91d51964c5de8fb8227eda084f7e687b02571325a9",
+            "size_bytes": 5263360,
+            "file_count": 78
+          },
+          "screenshot_url": null,
+          "deployment_id": "appgdep_6ac7f59634f88191b1dd99ae1fe5bda6"
+        },
+        {
+          "id": "appgprj_6ac7eaea11a881919700488890a17bcb~appgver_8631b0044cd081918fd34400925f018f",
+          "project_id": "appgprj_6ac7eaea11a881919700488890a17bcb",
+          "version_number": 2,
+          "source": {
+            "commit_sha": "769a1dd9b5a3b7063ee9c02058da4a90ecb0a9e4"
+          },
+          "archive_storage": {
+            "archive_format": "tar",
+            "sediment_file_id": "file_000000004bd88207892a18703db6e3a0",
+            "content_hash": "sha256:37813aea3cbad9cc4e236efbce3337853478556519808f3e265a8e854aaf4d72",
+            "size_bytes": 5201920,
+            "file_count": 78
+          },
+          "screenshot_url": null,
+          "deployment_id": "appgdep_6ac7f3ec998881919e93d5446f2fe730"
+        },
+        {
+          "id": "appgprj_6ac7eaea11a881919700488890a17bcb~appgver_3f53c90a078c8191852487151c56ffb1",
+          "project_id": "appgprj_6ac7eaea11a881919700488890a17bcb",
+          "version_number": 1,
+          "source": {
+            "commit_sha": "99e2eb8dba458e9dd07f497585a8f8a53bfd85fa"
+          },
+          "archive_storage": {
+            "archive_format": "tar",
+            "sediment_file_id": "file_00000000b45c82078a4a884a8245c143",
+            "content_hash": "sha256:caddfb911a583ed0fe5c359c2e78d30efce02402afa83c94fb36d14eb75d0c52",
+            "size_bytes": 2887680,
+            "file_count": 72
+          },
+          "screenshot_url": null,
+          "deployment_id": "appgdep_6ac7ee0d50108191ac28e14ec6f8f096"
+        }
+      ],
+      "download_attempt": {
+        "error": "file could not be authorized or resolved"
+      }
+    },
+    {
+      "title": "岛屿生活 · Aether 微缩世界",
+      "slug": "aether-island-life",
+      "project_id": "appgprj_6ac7ca16bdd4819189921e36271e02a1",
+      "access_mode": "public",
+      "url": "https://aether-island-life.sakurarealmwuhen.chatgpt.site",
+      "latest_version": 6,
+      "versions": [
+        {
+          "id": "appgprj_6ac7ca16bdd4819189921e36271e02a1~appgver_d25b5c1b8c888191a19e808a23ba147d",
+          "project_id": "appgprj_6ac7ca16bdd4819189921e36271e02a1",
+          "version_number": 6,
+          "source": {
+            "commit_sha": "7afb35e003cfebb5b95531773f28b7b375de7802"
+          },
+          "archive_storage": {
+            "archive_format": "tar",
+            "sediment_file_id": "file_00000000692c81f5b24e80c83ff30a49",
+            "content_hash": "sha256:6c875e8a16b9742da6813541b278daaeb6a957881a39e268195187080d0c5a00",
+            "size_bytes": 4997120,
+            "file_count": 7
+          },
+          "screenshot_url": null,
+          "deployment_id": null
+        },
+        {
+          "id": "appgprj_6ac7ca16bdd4819189921e36271e02a1~appgver_566d4b8f1d088191a868991efaea0ff1",
+          "project_id": "appgprj_6ac7ca16bdd4819189921e36271e02a1",
+          "version_number": 5,
+          "source": {
+            "commit_sha": "c9587a8efd2369a2ab98aee77872ad26643d24a4"
+          },
+          "archive_storage": {
+            "archive_format": "tar",
+            "sediment_file_id": "file_000000009a608207a67b929e1656f442",
+            "content_hash": "sha256:ee8a47279c4a7dd76fc3335c2307b2982a403c7e0d5669ca8914e883058a4a0b",
+            "size_bytes": 4997120,
+            "file_count": 7
+          },
+          "screenshot_url": null,
+          "deployment_id": "appgdep_6ac80d3fb4c881918e143661a7cb49a8"
+        },
+        {
+          "id": "appgprj_6ac7ca16bdd4819189921e36271e02a1~appgver_27e0723d317481918f677fedc44af31e",
+          "project_id": "appgprj_6ac7ca16bdd4819189921e36271e02a1",
+          "version_number": 4,
+          "source": {
+            "commit_sha": "0c3cb878d990993af3789867435171ff97307bc9"
+          },
+          "archive_storage": {
+            "archive_format": "tar",
+            "sediment_file_id": "file_00000000cc788207a142c4ffcbbb186a",
+            "content_hash": "sha256:1a8ad7e262fe6e87b37607104bbefdb745062a06fde772b4a30dda2b10a5115b",
+            "size_bytes": 4966400,
+            "file_count": 7
+          },
+          "screenshot_url": null,
+          "deployment_id": "appgdep_6ac7f18c488081919436bf618acd878a"
+        },
+        {
+          "id": "appgprj_6ac7ca16bdd4819189921e36271e02a1~appgver_ba58e404597c8191b7e3464c252f4a65",
+          "project_id": "appgprj_6ac7ca16bdd4819189921e36271e02a1",
+          "version_number": 3,
+          "source": {
+            "commit_sha": "93f0dc93019eb06d2c0eec652f3b21ab23c3f9b0"
+          },
+          "archive_storage": {
+            "archive_format": "tar",
+            "sediment_file_id": "file_00000000d49c82079aab7fe658b20761",
+            "content_hash": "sha256:e66c0445b3d8c62313273f8ec6bfc915acf5004a3a5dea955a9cc053f991f6bc",
+            "size_bytes": 4771840,
+            "file_count": 7
+          },
+          "screenshot_url": null,
+          "deployment_id": "appgdep_6ac7e685043c8191a939cb94a944c765"
+        },
+        {
+          "id": "appgprj_6ac7ca16bdd4819189921e36271e02a1~appgver_80f6cf9b4e048191a2246a83e49fe091",
+          "project_id": "appgprj_6ac7ca16bdd4819189921e36271e02a1",
+          "version_number": 2,
+          "source": {
+            "commit_sha": "8c47be5bd50864a5ec808f9615120239d7798da6"
+          },
+          "archive_storage": {
+            "archive_format": "tar",
+            "sediment_file_id": "file_00000000db90820789eb86e29098e445",
+            "content_hash": "sha256:d2bff68f6e6ad148c959a1fbb44eb7d92899003a234f4ccd8e27635d0a5c626f",
+            "size_bytes": 4741120,
+            "file_count": 5
+          },
+          "screenshot_url": null,
+          "deployment_id": "appgdep_6ac7d83b03748191a76fb39db75dd6d8"
+        },
+        {
+          "id": "appgprj_6ac7ca16bdd4819189921e36271e02a1~appgver_7f8ac9a2356481918a9f0b5ed0bcb2b0",
+          "project_id": "appgprj_6ac7ca16bdd4819189921e36271e02a1",
+          "version_number": 1,
+          "source": {
+            "commit_sha": "fdeace4979bb90f509493b64fcf26eb9015d71e0"
+          },
+          "archive_storage": {
+            "archive_format": "tar",
+            "sediment_file_id": "file_00000000a9b08207a1b49028d948a655",
+            "content_hash": "sha256:67dc1f137e3d5a8698bbf7ba4bda41047fbd67e1bec622eb335a5f4275aabac4",
+            "size_bytes": 4567040,
+            "file_count": 5
+          },
+          "screenshot_url": null,
+          "deployment_id": "appgdep_6ac7cdf505e081918c4d6d6ef8d34122"
+        }
+      ],
+      "download_attempt": {
+        "error": "file could not be authorized or resolved"
+      }
+    },
+    {
+      "title": "Aether 进度工作台",
+      "slug": "aether-workbench-20261008",
+      "project_id": "appgprj_6ac762f9272881918f577470c48ea515",
+      "access_mode": "custom",
+      "url": "https://aether-workbench-20261008.sakurarealmwuhen.chatgpt.site",
+      "latest_version": 9,
+      "versions": [
+        {
+          "id": "appgprj_6ac762f9272881918f577470c48ea515~appgver_ba73136a21048191a8399aa0c029f54a",
+          "project_id": "appgprj_6ac762f9272881918f577470c48ea515",
+          "version_number": 9,
+          "source": {
+            "commit_sha": "1a8a1d0efe225372dbf3df8ceda533845c8c1af4"
+          },
+          "archive_storage": {
+            "archive_format": "tar",
+            "sediment_file_id": "file_000000000e4881f5b2c6212c566fbbbb",
+            "content_hash": "sha256:07a854d61e66be0595750a848f379808e50146e94e4e50d75844cf89279c6aa4",
+            "size_bytes": 242022400,
+            "file_count": 1939
+          },
+          "screenshot_url": null,
+          "deployment_id": "appgdep_6ac81bdfb8888191a14a48260ace801f"
+        },
+        {
+          "id": "appgprj_6ac762f9272881918f577470c48ea515~appgver_d32e9bb7ccfc81919112e699927f265e",
+          "project_id": "appgprj_6ac762f9272881918f577470c48ea515",
+          "version_number": 8,
+          "source": {
+            "commit_sha": "e8715e873438b497d50869785cbcfa1ad48bd701"
+          },
+          "archive_storage": {
+            "archive_format": "tar",
+            "sediment_file_id": "file_000000004b1c82079f4351f5470da59b",
+            "content_hash": "sha256:838df0241bdbb84f4b0e13dc6534b28cb4aea2269e5e48a4d5126f14f8f33edb",
+            "size_bytes": 190976000,
+            "file_count": 1859
+          },
+          "screenshot_url": null,
+          "deployment_id": "appgdep_6ac7f0deea608191988860bb82bdd685"
+        },
+        {
+          "id": "appgprj_6ac762f9272881918f577470c48ea515~appgver_11c10a2d9ec88191bdae45314a1b2b30",
+          "project_id": "appgprj_6ac762f9272881918f577470c48ea515",
+          "version_number": 7,
+          "source": {
+            "commit_sha": "484a4cd20fa2fb61fa60f3c53ad45f364ab8601a"
+          },
+          "archive_storage": {
+            "archive_format": "tar",
+            "sediment_file_id": "file_00000000712c8207adef3b4ea17af001",
+            "content_hash": "sha256:ed3f8fbefbe4c14d739567762c70d0fd952a4000c63d466bc216f9b15b4334ef",
+            "size_bytes": 172800000,
+            "file_count": 1717
+          },
+          "screenshot_url": null,
+          "deployment_id": "appgdep_6ac7d25de4588191837a7a94c24e6eec",
+          "screenshot_url_redaction": {
+            "reason": "Temporary authorization URL omitted from public evidence",
+            "expiry_utc_from_se": "2026-10-09T10:04:14Z"
+          }
+        },
+        {
+          "id": "appgprj_6ac762f9272881918f577470c48ea515~appgver_7362fb157dbc819191d5edfeb15a350f",
+          "project_id": "appgprj_6ac762f9272881918f577470c48ea515",
+          "version_number": 6,
+          "source": {
+            "commit_sha": "8a826a8cac26d4fc6bbf9866eff74d95fb11d76c"
+          },
+          "archive_storage": {
+            "archive_format": "tar",
+            "sediment_file_id": "file_0000000087548211b58a312da54f9925",
+            "content_hash": "sha256:9bb6fa373bbe42ffe9f00cef88478667f1bd059bf970c759552521ebd12cee85",
+            "size_bytes": 172800000,
+            "file_count": 1716
+          },
+          "screenshot_url": null,
+          "deployment_id": "appgdep_6ac7cc9da69c81919be0d5be02710fea",
+          "screenshot_url_redaction": {
+            "reason": "Temporary authorization URL omitted from public evidence",
+            "expiry_utc_from_se": "2026-10-09T10:04:14Z"
+          }
+        },
+        {
+          "id": "appgprj_6ac762f9272881918f577470c48ea515~appgver_b5550e99719c8191b311e5d77d849613",
+          "project_id": "appgprj_6ac762f9272881918f577470c48ea515",
+          "version_number": 5,
+          "source": {
+            "commit_sha": "30441adfa6896e9e2d0d553f6a57ddea6b5a9810"
+          },
+          "archive_storage": {
+            "archive_format": "tar",
+            "sediment_file_id": "file_00000000dc288211a139a4aca4ad1c20",
+            "content_hash": "sha256:f870d1e39f62bed8439ee393dfd7b6f83c90fb5f75857bffc9b2c646b51b12cf",
+            "size_bytes": 172779520,
+            "file_count": 1714
+          },
+          "screenshot_url": null,
+          "deployment_id": "appgdep_6ac7c8e44e7c81919a9c7e70982ec7ca",
+          "screenshot_url_redaction": {
+            "reason": "Temporary authorization URL omitted from public evidence",
+            "expiry_utc_from_se": "2026-10-09T10:04:14Z"
+          }
+        },
+        {
+          "id": "appgprj_6ac762f9272881918f577470c48ea515~appgver_73529cb6ecd48191afeae466a4df2424",
+          "project_id": "appgprj_6ac762f9272881918f577470c48ea515",
+          "version_number": 4,
+          "source": {
+            "commit_sha": "98823ab6da220286fc969bbee7cba67aa3f325e2"
+          },
+          "archive_storage": {
+            "archive_format": "tar",
+            "sediment_file_id": "file_000000004f1882099f2db7c44c06a5ea",
+            "content_hash": "sha256:4c3f362e940025f976e9e221160b265b5e63637c9d656cc17d5251b4a80db935",
+            "size_bytes": 172769280,
+            "file_count": 1714
+          },
+          "screenshot_url": null,
+          "deployment_id": "appgdep_6ac7b78ad1808191a629f6be65026c6a",
+          "screenshot_url_redaction": {
+            "reason": "Temporary authorization URL omitted from public evidence",
+            "expiry_utc_from_se": "2026-10-09T10:04:14Z"
+          }
+        },
+        {
+          "id": "appgprj_6ac762f9272881918f577470c48ea515~appgver_01be593e659c8191a4d4cfeec0b96344",
+          "project_id": "appgprj_6ac762f9272881918f577470c48ea515",
+          "version_number": 3,
+          "source": {
+            "commit_sha": "a0b852b4f7b00081bf905970755683916d7a80f5"
+          },
+          "archive_storage": {
+            "archive_format": "tar",
+            "sediment_file_id": "file_000000007a48821193eb858058e114cd",
+            "content_hash": "sha256:6284443ad48aa80076b0084d1ea346b8d6341a0948c75e030db34a620072a65e",
+            "size_bytes": 172707840,
+            "file_count": 1709
+          },
+          "screenshot_url": null,
+          "deployment_id": "appgdep_6ac785ee79c481918a101826ff8aac93"
+        },
+        {
+          "id": "appgprj_6ac762f9272881918f577470c48ea515~appgver_de93274fe61c8191a97760f23cbf904f",
+          "project_id": "appgprj_6ac762f9272881918f577470c48ea515",
+          "version_number": 2,
+          "source": {
+            "commit_sha": "48deebd69fcb5e39a96707f85a922bc824a56b58"
+          },
+          "archive_storage": {
+            "archive_format": "tar",
+            "sediment_file_id": "file_00000000cf288207b1cacc3e4de971df",
+            "content_hash": "sha256:adf565aedf17d246cabddb8643e59372712e3a8cc5bbf7d63936373279cf028b",
+            "size_bytes": 172707840,
+            "file_count": 1709
+          },
+          "screenshot_url": null,
+          "deployment_id": "appgdep_6ac77e5b96208191aa1ebb0e36060039"
+        },
+        {
+          "id": "appgprj_6ac762f9272881918f577470c48ea515~appgver_05848cd5d8108191bb729b701e7d56f1",
+          "project_id": "appgprj_6ac762f9272881918f577470c48ea515",
+          "version_number": 1,
+          "source": {
+            "commit_sha": "be8c08c00d58e15db8d3c4c4bd305f93fedce324"
+          },
+          "archive_storage": {
+            "archive_format": "tar",
+            "sediment_file_id": "file_0000000077888211afcb6d9d531e4f1f",
+            "content_hash": "sha256:1e5d730bc4eeb9e3305e38b865c2511cc5d938ec5e18020a384dd99d87c6e622",
+            "size_bytes": 170383360,
+            "file_count": 1690
+          },
+          "screenshot_url": null,
+          "deployment_id": "appgdep_6ac76a4321188191bf67a1fb6d5acbb3"
+        }
+      ],
+      "download_attempt": {
+        "attempted": false,
+        "reason": "看板归档242022400 bytes，超过当前下载工具32 MiB上限；未尝试"
+      }
+    }
+  ],
+  "publication_sanitization": {
+    "sanitized_at_utc": "2026-10-09T10:22:20.593471+00:00",
+    "temporary_authorization_urls_removed": 5,
+    "note": "The five temporary screenshot URLs were present in an earlier public commit. Their se expiration values were 2026-10-09T10:04:13Z or 2026-10-09T10:04:14Z. This correction does not rewrite Git history."
+  }
+}

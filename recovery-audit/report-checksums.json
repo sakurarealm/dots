@@ -1,0 +1,22 @@
+[
+  {
+    "file": "recovery-gap-register.json",
+    "bytes": 21156,
+    "sha256": "f7fcb9d8c5a547c3b0c9bcbbf704ac4f9a742ab26ab36e00100e9b6d17d9ca46"
+  },
+  {
+    "file": "recovery-gap-register.md",
+    "bytes": 17528,
+    "sha256": "bbd28c5ef7f9f4d099a3a1dcbc73d8845b006a45fe9bdd62bf30053fd13a1913"
+  },
+  {
+    "file": "verified-file-inventory.json",
+    "bytes": 106171,
+    "sha256": "b6bc33b0ab57b746c37d2a9b0c792c4f3a8308efbb197c636477acfa539137c5"
+  },
+  {
+    "file": "sites-persistence-evidence.json",
+    "bytes": 22784,
+    "sha256": "39d8db74d27b5b97ba4c9ce9eaeda014bd2a69c5abace4ddd601fa1393783d90"
+  }
+]
