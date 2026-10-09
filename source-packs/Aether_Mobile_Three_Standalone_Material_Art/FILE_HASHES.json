@@ -1,0 +1,337 @@
+[
+  {
+    "path": "materials/oak_planks/APPROVAL_SCOPE.json",
+    "bytes": 1042,
+    "sha256": "67ccd49f656192632f780e7cd30d8f2e6e26522222a3c85d5ae333f13b849237"
+  },
+  {
+    "path": "materials/oak_planks/README.txt",
+    "bytes": 471,
+    "sha256": "5b8f7c0f09341912d740b68a126812609053aead1cee657758f447608bc4e43e"
+  },
+  {
+    "path": "materials/oak_planks/oak_material_library.blend",
+    "bytes": 1642424,
+    "sha256": "c2b13ade0e0d0d7a003c2e291c1b8c2ca02f886e7a66b8d1fa68d91d8aa9ab68"
+  },
+  {
+    "path": "materials/oak_planks/review_mobile_256.png",
+    "bytes": 459194,
+    "sha256": "eb9b1e494c6870b0fc55a7315c37a3d5d80c4c737ad71b2e28bbed6f9a1b7557"
+  },
+  {
+    "path": "materials/oak_planks/textures/candidate_512/basecolor.png",
+    "bytes": 226298,
+    "sha256": "3ef497d9c74f42db633f9434d4593c3b5b0a65f6044c093efe9cb3f174b24031"
+  },
+  {
+    "path": "materials/oak_planks/textures/candidate_512/dram_native.png",
+    "bytes": 2200,
+    "sha256": "ea896b01b49b6027a511976b22bc95be2838f9d8b33f6454970465b6b9ad9e29"
+  },
+  {
+    "path": "materials/oak_planks/textures/candidate_512/hdrp_mask_bridge.png",
+    "bytes": 2199,
+    "sha256": "4b35916012ffb4a8690fb47d280a1cf3ece653dbdec6be358892a7c7864cc496"
+  },
+  {
+    "path": "materials/oak_planks/textures/candidate_512/normal_flat_gl.png",
+    "bytes": 1878,
+    "sha256": "82f11923d5e92211b66b39625b072ffe33f61bf04f348340efb7cdaf4fe207b4"
+  },
+  {
+    "path": "materials/oak_planks/textures/candidate_512/roughness_constant.png",
+    "bytes": 1302,
+    "sha256": "72a3412b45297200b01f9ba27a3480007aa8c436450bc55a3583f4c9f497b5a1"
+  },
+  {
+    "path": "materials/oak_planks/textures/master_1024/basecolor.png",
+    "bytes": 821952,
+    "sha256": "f2d6953d3728dc957e678db77f7b69d9b626a87b9669eb6f8a2759790d5d32f5"
+  },
+  {
+    "path": "materials/oak_planks/textures/master_1024/dram_native.png",
+    "bytes": 6490,
+    "sha256": "2395d3d25cdd8b7b8e80e5be7fe90e93fda11245cb30dd7c192d7f957532744d"
+  },
+  {
+    "path": "materials/oak_planks/textures/master_1024/hdrp_mask_bridge.png",
+    "bytes": 6490,
+    "sha256": "3d9bd67bdcf7f781929a2be03d7e385e130253903b1a802482141e6f2ea0f8a9"
+  },
+  {
+    "path": "materials/oak_planks/textures/master_1024/normal_flat_gl.png",
+    "bytes": 5334,
+    "sha256": "86993e9276b669289b91c2563b704bd0116c0c59af1949f08c79bfc2e2e8ff9b"
+  },
+  {
+    "path": "materials/oak_planks/textures/master_1024/roughness_constant.png",
+    "bytes": 3158,
+    "sha256": "a4f3e3a8618185c4bc566af0cc9afb88ecefe0178d952801f8cbadbba0dd0883"
+  },
+  {
+    "path": "materials/oak_planks/textures/mobile_256/basecolor.png",
+    "bytes": 60940,
+    "sha256": "7f9d6d2caea0a79e2c83524b073b5b53f8769257296294ed2e83a5a716106ba6"
+  },
+  {
+    "path": "materials/oak_planks/textures/mobile_256/dram_native.png",
+    "bytes": 855,
+    "sha256": "72e97201fe529a141b6a03f9df6cf65dcab640da620883edda618edb238602a3"
+  },
+  {
+    "path": "materials/oak_planks/textures/mobile_256/hdrp_mask_bridge.png",
+    "bytes": 856,
+    "sha256": "c32a60c9189143b8fb25a7ef77d9a6d2d438765a94cb7584dab792fb82550524"
+  },
+  {
+    "path": "materials/oak_planks/textures/mobile_256/normal_flat_gl.png",
+    "bytes": 758,
+    "sha256": "3da5bc6d17269b64269aa10035fa934ac6664827eecc2f8b105d23ff5c4993e1"
+  },
+  {
+    "path": "materials/oak_planks/textures/mobile_256/roughness_constant.png",
+    "bytes": 566,
+    "sha256": "3ab835e05aaf212d42283e109b330860d0ca4da641fad146260977ac4f186ac7"
+  },
+  {
+    "path": "materials/white_concrete/APPROVAL_SCOPE.json",
+    "bytes": 1221,
+    "sha256": "a66059ed40930e4a1bb97a1c2090b8987da17ed54ae26a403560fcf0665d3cee"
+  },
+  {
+    "path": "materials/white_concrete/README.txt",
+    "bytes": 524,
+    "sha256": "c7caace5dbe3c511e37215f0b5dda3422174ac4233f79059f243b2a2d1de596a"
+  },
+  {
+    "path": "materials/white_concrete/review_mobile_256.png",
+    "bytes": 406888,
+    "sha256": "d01702f77a985e38541f3e486f7fde33b425d13a8a3f2e491fd8f5ba045803e7"
+  },
+  {
+    "path": "materials/white_concrete/textures/candidate_512/basecolor.png",
+    "bytes": 268518,
+    "sha256": "9c46ed1c0754833bb53dd29cac87f2b9b27e86220154e4172b76036e3db0971f"
+  },
+  {
+    "path": "materials/white_concrete/textures/candidate_512/dram_native.png",
+    "bytes": 2200,
+    "sha256": "283aae5f4fa6f189fa6ff94fe12f6356fe6db39f1344094704fd73b227592875"
+  },
+  {
+    "path": "materials/white_concrete/textures/candidate_512/hdrp_mask_bridge.png",
+    "bytes": 2199,
+    "sha256": "ad91a3e37032d7eb2daddff2404c8d74e97ac57ebd6f2ad9ea5452294837075c"
+  },
+  {
+    "path": "materials/white_concrete/textures/candidate_512/normal_flat_gl.png",
+    "bytes": 1878,
+    "sha256": "82f11923d5e92211b66b39625b072ffe33f61bf04f348340efb7cdaf4fe207b4"
+  },
+  {
+    "path": "materials/white_concrete/textures/candidate_512/roughness_constant.png",
+    "bytes": 1302,
+    "sha256": "056764f24c44bf5b7902b30bef577b8d52ad8c8737c32fe0ecef828e1ef1cce7"
+  },
+  {
+    "path": "materials/white_concrete/textures/master_1024/basecolor.png",
+    "bytes": 1091067,
+    "sha256": "2497e70d9b2738d7ff0135e2b1f6e022abe8b492fada00aabf43c73e5971c4fc"
+  },
+  {
+    "path": "materials/white_concrete/textures/master_1024/dram_native.png",
+    "bytes": 6490,
+    "sha256": "22f75c677ef42dd08ecaf3676bd37f2b03349e589657aad04c5d75ea636b4f7a"
+  },
+  {
+    "path": "materials/white_concrete/textures/master_1024/hdrp_mask_bridge.png",
+    "bytes": 6490,
+    "sha256": "1e0c29b67c572027f637367bb7fcdcf97dfd762f691fcb513eaef33087a4edf1"
+  },
+  {
+    "path": "materials/white_concrete/textures/master_1024/normal_flat_gl.png",
+    "bytes": 5334,
+    "sha256": "86993e9276b669289b91c2563b704bd0116c0c59af1949f08c79bfc2e2e8ff9b"
+  },
+  {
+    "path": "materials/white_concrete/textures/master_1024/roughness_constant.png",
+    "bytes": 3158,
+    "sha256": "3ba77f27a25ca0119fe413f2f5b5e5f62bcc117afb6a7f8564332cb0e17f3d17"
+  },
+  {
+    "path": "materials/white_concrete/textures/mobile_128/basecolor.png",
+    "bytes": 15882,
+    "sha256": "35b01f1c620c93d67d113b289bceb822d984b788c457ea5b93920100775776af"
+  },
+  {
+    "path": "materials/white_concrete/textures/mobile_128/dram_native.png",
+    "bytes": 391,
+    "sha256": "6feeea000241c78ef048fb1252c07f2a472571614d299ab1e4edb86462a87d91"
+  },
+  {
+    "path": "materials/white_concrete/textures/mobile_128/hdrp_mask_bridge.png",
+    "bytes": 392,
+    "sha256": "34af57b6acb8874519b6c9edaa599e01ad1c6e368ca0b65cece135b58958eab2"
+  },
+  {
+    "path": "materials/white_concrete/textures/mobile_128/normal_flat_gl.png",
+    "bytes": 358,
+    "sha256": "4236ad31ba241c42888f0d700a04ddfd5bd9adde213df97069dafaaf8848ed39"
+  },
+  {
+    "path": "materials/white_concrete/textures/mobile_128/roughness_constant.png",
+    "bytes": 151,
+    "sha256": "d0551c2709348c3232bdfcb6b3c7270f23c0d0782dbd2c8784aadf36264267fb"
+  },
+  {
+    "path": "materials/white_concrete/textures/mobile_256/basecolor.png",
+    "bytes": 62549,
+    "sha256": "d0c6f5e8e00672dbc5e29cc36bb1818ecf87c58656559f3b1803e3e03484fc5b"
+  },
+  {
+    "path": "materials/white_concrete/textures/mobile_256/dram_native.png",
+    "bytes": 855,
+    "sha256": "5e46f1b55898e2671a23fb51ecb7ba015dc28b595a0b0c477833e8c325f5f935"
+  },
+  {
+    "path": "materials/white_concrete/textures/mobile_256/hdrp_mask_bridge.png",
+    "bytes": 856,
+    "sha256": "0f63a594dab5b111bb8ed4e31dfc5ab194f74a415e02c9e95c548f7ae68391bf"
+  },
+  {
+    "path": "materials/white_concrete/textures/mobile_256/normal_flat_gl.png",
+    "bytes": 758,
+    "sha256": "3da5bc6d17269b64269aa10035fa934ac6664827eecc2f8b105d23ff5c4993e1"
+  },
+  {
+    "path": "materials/white_concrete/textures/mobile_256/roughness_constant.png",
+    "bytes": 566,
+    "sha256": "feb93b92926ec75d6f2224eb9f0bf2f880a9c8a8891da4027445b895218e2b4c"
+  },
+  {
+    "path": "materials/white_concrete/white_concrete_material_library.blend",
+    "bytes": 2005584,
+    "sha256": "3f71202811c78f8cb5e2f799a0c75ed8b06a9d8bd7a661669a9fed6d9b74381e"
+  },
+  {
+    "path": "materials/iron_block/APPROVAL_SCOPE.json",
+    "bytes": 1220,
+    "sha256": "e31259585c70b2a2f2eae3fdd7f4621f7d3c63e1c7f8ae0ca9ff9785ed428271"
+  },
+  {
+    "path": "materials/iron_block/README.txt",
+    "bytes": 630,
+    "sha256": "08ed5f1342a6e99745c5c92cdb7773ab04897aad17afb07985b0f5525cb6c12a"
+  },
+  {
+    "path": "materials/iron_block/iron_block_material_library.blend",
+    "bytes": 1694984,
+    "sha256": "aa2a18c514c8e3d6440d979e4548c67ac19ef316c98fc510e80d19084b48c59a"
+  },
+  {
+    "path": "materials/iron_block/review_mobile_256.png",
+    "bytes": 417406,
+    "sha256": "b65f68a24c6a0638b6eab6fa33d58dfb27c14cab9251eea3800ec2b0357c205f"
+  },
+  {
+    "path": "materials/iron_block/textures/candidate_512/basecolor.png",
+    "bytes": 209975,
+    "sha256": "c708e6c4930b561d10485d5294bb34d5763a8d43904489f3d1e5545282586d8f"
+  },
+  {
+    "path": "materials/iron_block/textures/candidate_512/dram_native.png",
+    "bytes": 2203,
+    "sha256": "e64a7bbead08d3f68c1f00c2c6384996b06ce6053deea2a91651ba494922ea79"
+  },
+  {
+    "path": "materials/iron_block/textures/candidate_512/hdrp_mask_bridge.png",
+    "bytes": 2201,
+    "sha256": "9c28297b55abb314dc8d02b7dd537ecfd053e4d3de25fef5736356f06aa7f5b1"
+  },
+  {
+    "path": "materials/iron_block/textures/candidate_512/normal_flat_gl.png",
+    "bytes": 1878,
+    "sha256": "82f11923d5e92211b66b39625b072ffe33f61bf04f348340efb7cdaf4fe207b4"
+  },
+  {
+    "path": "materials/iron_block/textures/candidate_512/roughness_constant.png",
+    "bytes": 1301,
+    "sha256": "1fe09bd7dfc16da2b476ca6290de7dc93b30f600ec7527e871ebabe974de0c23"
+  },
+  {
+    "path": "materials/iron_block/textures/master_1024/basecolor.png",
+    "bytes": 855319,
+    "sha256": "a8fb78e7f96d554f0170c26dd7fbb53991551e14df14eb8ac22514abd4e64f3c"
+  },
+  {
+    "path": "materials/iron_block/textures/master_1024/dram_native.png",
+    "bytes": 6492,
+    "sha256": "d0f609d115e9a7f39bf2be58f51001f5a99048332656e17b49da138248c187d5"
+  },
+  {
+    "path": "materials/iron_block/textures/master_1024/hdrp_mask_bridge.png",
+    "bytes": 6490,
+    "sha256": "dbe989600cec639395e3d52bdbec51adc201fd42f27436ddfc476ab229ae1f64"
+  },
+  {
+    "path": "materials/iron_block/textures/master_1024/normal_flat_gl.png",
+    "bytes": 5334,
+    "sha256": "86993e9276b669289b91c2563b704bd0116c0c59af1949f08c79bfc2e2e8ff9b"
+  },
+  {
+    "path": "materials/iron_block/textures/master_1024/roughness_constant.png",
+    "bytes": 3157,
+    "sha256": "cabf8af6e460c65a9230ac06a2477186bd5798aa9e932b59056d9022748a750e"
+  },
+  {
+    "path": "materials/iron_block/textures/mobile_128/basecolor.png",
+    "bytes": 12773,
+    "sha256": "06c7f19abf4a0974f9aceed387ed15f7d902648c066d8b80908ff0c9eda6acd0"
+  },
+  {
+    "path": "materials/iron_block/textures/mobile_128/dram_native.png",
+    "bytes": 394,
+    "sha256": "025b136691ff5860f7c84099900b3d86b5352a2a9d3ee5a8cb4a948c8dfb8765"
+  },
+  {
+    "path": "materials/iron_block/textures/mobile_128/hdrp_mask_bridge.png",
+    "bytes": 392,
+    "sha256": "9092cfc5929c41e4057ec6c2107046609684dfd5ae803cf9399b582399340067"
+  },
+  {
+    "path": "materials/iron_block/textures/mobile_128/normal_flat_gl.png",
+    "bytes": 358,
+    "sha256": "4236ad31ba241c42888f0d700a04ddfd5bd9adde213df97069dafaaf8848ed39"
+  },
+  {
+    "path": "materials/iron_block/textures/mobile_128/roughness_constant.png",
+    "bytes": 149,
+    "sha256": "d169cc9a922b4acdca910c2806ae4bc1996a937644964e182aa3c4abf6b21d0d"
+  },
+  {
+    "path": "materials/iron_block/textures/mobile_256/basecolor.png",
+    "bytes": 49349,
+    "sha256": "f005e5ea6bb0fcea2524e87967a73793e07ecd93473d3d6bcd8a2974817a9651"
+  },
+  {
+    "path": "materials/iron_block/textures/mobile_256/dram_native.png",
+    "bytes": 858,
+    "sha256": "d2b2ec66848b90bdcf3b46506366902093523bd9b85c276775a86eb867c8e6b6"
+  },
+  {
+    "path": "materials/iron_block/textures/mobile_256/hdrp_mask_bridge.png",
+    "bytes": 856,
+    "sha256": "8e5f0a4d299f142689dae2197b2f9d81e4a6a9192662d4d6e8a05795141b1091"
+  },
+  {
+    "path": "materials/iron_block/textures/mobile_256/normal_flat_gl.png",
+    "bytes": 758,
+    "sha256": "3da5bc6d17269b64269aa10035fa934ac6664827eecc2f8b105d23ff5c4993e1"
+  },
+  {
+    "path": "materials/iron_block/textures/mobile_256/roughness_constant.png",
+    "bytes": 565,
+    "sha256": "c2e791ac936f46bc8498d1e9aab440161d46106eac1e724ff23552cc0b6d4d08"
+  }
+]

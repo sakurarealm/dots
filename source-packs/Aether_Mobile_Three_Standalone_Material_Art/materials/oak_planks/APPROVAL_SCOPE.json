@@ -1,0 +1,21 @@
+{
+  "scope": "standalone material ART APPROVED 8/10 only",
+  "block_accepted": false,
+  "Unity_import": "NOT RUN",
+  "mobile_device": "NOT RUN",
+  "mesh": "one shared unmodified12-triangle review cube; no runtime replacement",
+  "materials": 3,
+  "tex_hashes": {
+    "master_1024": "f2d6953d3728dc957e678db77f7b69d9b626a87b9669eb6f8a2759790d5d32f5",
+    "candidate_512": "3ef497d9c74f42db633f9434d4593c3b5b0a65f6044c093efe9cb3f174b24031",
+    "mobile_256": "7f9d6d2caea0a79e2c83524b073b5b53f8769257296294ed2e83a5a716106ba6"
+  },
+  "color": "warm muted grey-brown oak",
+  "UV_contract": "2m surface period, strokes alongV",
+  "shader": "Blender3-band directional emission review bridge; NOT Unity shader/material",
+  "excluded": "all failed stone/brick versions are not in this package",
+  "review_coverage": "same-camera source/candidate/mobile, repeated-wrap and small wooden rails",
+  "external_texture_paths": "Blender-relative //textures/<variant>/basecolor.png",
+  "packed_images_retained": true,
+  "path_update_changed_artwork": false
+}
