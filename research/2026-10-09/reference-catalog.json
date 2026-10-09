@@ -1,0 +1,349 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-09",
+  "purpose": "Public-source reference research and independently written methodology; no private implementation or third-party raw assets.",
+  "items": [
+    {
+      "id": "rea",
+      "title": "REA · 参考实现研究工具",
+      "category": "项目与工具",
+      "identity": "morluto/rea，官方仓库已确认",
+      "source": "https://github.com/morluto/rea",
+      "license": "MIT；第三方研究对象另行核验",
+      "version": "cfce91d418fbcde4a9ef283a61549279751854e7 / package 6.2.0",
+      "coverage": "实读 README、完整目录、文档、工具合同及关键实现；不是逐文件全文通读。",
+      "stages": [
+        "源码重点审读",
+        "未制作",
+        "未安装",
+        "未运行",
+        "不适用"
+      ],
+      "takeaways": "证据分层、最小输入、版本对比与 unknown 保留；普通源码审查仍优先直接阅读。",
+      "missing": "没有 REA 实测；未验证 npm tarball、目标工程 集成或 Unity 资产恢复。"
+    },
+    {
+      "id": "pixel-planet",
+      "title": "Pixel Planet · 程序化星球",
+      "category": "项目与工具",
+      "identity": "Francisco Cidade 官方 Godot shader",
+      "source": "https://fcidade.itch.io/pixel-planet-godot-shader-free",
+      "license": "包内 CC0 1.0 已确认",
+      "version": "Shader SHA256 9a2f37c620d0a8c9cf7343bd35faea90b985e0fddfcf78fef618013384964862",
+      "coverage": "官方项目 ZIP / shader / LICENSE 已读；独立 Unity 原型与 CPU 数学对照。",
+      "stages": [
+        "源码及许可",
+        "独立原型",
+        "C# API 通过",
+        "引擎未运行",
+        "仅 CPU 预览"
+      ],
+      "takeaways": "星球插画和真实进度分离；未知总量不伪造百分比；session 与取消竞态分离。",
+      "missing": "3037 状态机断言、24/24 数学对照不是 HLSL 编译或 GPU 验收；未接入 目标工程。"
+    },
+    {
+      "id": "psx-sky",
+      "title": "PSX Sky Sampler · 天空备选",
+      "category": "项目与工具",
+      "identity": "Munchkin Gaming / 官方作者页",
+      "source": "https://munchkin-jonesy.itch.io/psx-sky-sampler",
+      "license": "可个人/商业项目使用；禁止 raw 素材分享、再分发或转售",
+      "version": "PSX_Sky_Sampler_v1；2026-10-09 核验",
+      "coverage": "ZIP CRC、包内许可、README、50 PNG 尺寸和演示代码只读检查。",
+      "stages": [
+        "包与许可核验",
+        "适配设计",
+        "未编译",
+        "未运行",
+        "未 GPU 验收"
+      ],
+      "takeaways": "HDRP Volume 实例、固定曝光 A/B、Original 完整恢复和天空/反射更新策略。",
+      "missing": "没有当前 HDRP package lock、场景 Volume、真机成本；不向网页或 Git 复制素材。"
+    },
+    {
+      "id": "procedural-animals",
+      "title": "Procedural Animals · 狼原型",
+      "category": "项目与工具",
+      "identity": "Majid Manzarpour 官方仓库",
+      "source": "https://github.com/majidmanzarpour/threejs-procedural-animals",
+      "license": "上游 MIT；保留 notices；原型包需逐文件核清后再分发",
+      "version": "c95ae49346aa8e140a924376cec6cf0073d99512 / 0.1.0",
+      "coverage": "重点读取生成、SDF、蒙皮、骨架与狼模块；仅一只灰狼的 Unity-native 窄范围原型。",
+      "stages": [
+        "源码重点审读",
+        "一只狼",
+        "C# API 通过",
+        "离线数值通过",
+        "Unity 未验收"
+      ],
+      "takeaways": "Surface Nets、37 骨、4 权重、独立三档几何与动作分层；不能把 24 物种宣传当完整移植。",
+      "missing": "原步态/谐波权重/完整毛发未移植；运行、shader、画质、FPS 与手机性能未验证。"
+    },
+    {
+      "id": "jelly-painting",
+      "title": "Jelly Painting · 手绘果冻",
+      "category": "项目与工具",
+      "identity": "mesq / Misha Kiiatkin 官方演示",
+      "source": "https://mesq.me/jelly-painting/",
+      "license": "原作品代码/美术授权未确认；Blocks 非商业许可不能当 Three.js MIT",
+      "version": "原作 2026-10-04 发布；自有学习样例 2026-10-08",
+      "coverage": "作者技术拆分与网页可读信息；原创网格/画笔高度/弹簧形变，未复制原作。",
+      "stages": [
+        "资料核验",
+        "原创学习样例",
+        "C# 双输入通过",
+        "Unity 未运行",
+        "仅数学预览"
+      ],
+      "takeaways": "手绘法线、梯度与固定抖动分层；先隔离比较静态材质和形变。",
+      "missing": "原 demo 未成功呈现；alpha 不等于折射，弹簧形变不是完整软体；HDRP shader 未编译。"
+    },
+    {
+      "id": "insel-fever",
+      "title": "Insel Fever · 微缩岛屿",
+      "category": "视觉与交互参考",
+      "identity": "同名发布站强匹配候选；未证实为截图原版",
+      "source": "https://insel-fever.vercel.app/",
+      "license": "原作者与整站代码/资产许可未确认",
+      "version": "已读 hash 发布包：index-BDOxJVYt / water-AHSMv5wz / fx-b95vOrY9 / ui-DZdUlWzq",
+      "coverage": "实际读取若干浏览器发布 JS，不是取得开发源码仓库；未跑实时画面对照。",
+      "stages": [
+        "有限核验",
+        "未制作",
+        "未执行",
+        "未执行",
+        "未验收"
+      ],
+      "takeaways": "总览/跟随/巡游、生活状态联动、岸距驱动水体、带滞后的画质分级。",
+      "missing": "截图对应关系、官方开发仓库、许可证与真机指标。"
+    },
+    {
+      "id": "grande-pickaxe",
+      "title": "Grande Pickaxe · 体素采矿沙盘",
+      "category": "视觉与交互参考",
+      "identity": "Hamster of Orion 原作者帖文",
+      "source": "https://x.com/hamsteroforion/status/2107739902343332105",
+      "license": "源码及资产许可未确认",
+      "version": "2026-10-07 帖文；关联技术回复已核验",
+      "coverage": "帖文/oEmbed 与作者技术说明；没有完整工程源码。",
+      "stages": [
+        "有限核验",
+        "未制作",
+        "未执行",
+        "未执行",
+        "未验收"
+      ],
+      "takeaways": "CPU 水量/水位与 GPU 表面分离；挖洞排水、少 HUD、清晰动作反馈。",
+      "missing": "网格、物理、存档、寻路实现与性能证据。"
+    },
+    {
+      "id": "liquid-corridor",
+      "title": "Liquid Corridor · 液态走廊",
+      "category": "视觉与交互参考",
+      "identity": "截图署名 Sabo Sugi / @sabosugi；精确 Pen 未识别",
+      "source": "https://codepen.io/sabosugi",
+      "license": "未确认该 Pen 身份、可见性和外部资产许可",
+      "version": "2026-10-08 截图研究",
+      "coverage": "截图与作者主页线索；没有原 Pen 正文或准确源码。",
+      "stages": [
+        "有限核验",
+        "未制作",
+        "未执行",
+        "未执行",
+        "未验收"
+      ],
+      "takeaways": "局部传送门/梦境材质；保留角色、交互边界可读性。",
+      "missing": "精确 Pen URL、源码、许可；不能确认 ray marching / SDF 或真实流体。"
+    },
+    {
+      "id": "hiroshi-island",
+      "title": "Hiroshi’s island · 溪流画面",
+      "category": "视觉与交互参考",
+      "identity": "截图标题与 Process zero 发布者已记录；原作者待核",
+      "source": "",
+      "license": "未知",
+      "version": "2026-10-08 截图研究",
+      "coverage": "单张视频截图；没有精确原演示、源码或可复核运行过程。",
+      "stages": [
+        "有限核验",
+        "未制作",
+        "未执行",
+        "未执行",
+        "未验收"
+      ],
+      "takeaways": "浅水见底、石头切流、低对比高光、昼夜读感。",
+      "missing": "原站/作者/仓库及许可；截图不能证明生成过程或性能。"
+    },
+    {
+      "id": "live-panel",
+      "title": "live-panel-skill · 分工可视化",
+      "category": "项目与工具",
+      "identity": "ythx-101 公开复刻；原架构归因 @thedelost",
+      "source": "https://github.com/ythx-101/live-panel-skill",
+      "license": "本索引不复制代码；许可复用前另核",
+      "version": "2026-10-08 读取 README 与示例配置",
+      "coverage": "读来源与模拟配置；不是原作者生产工作流审计。",
+      "stages": [
+        "资料核验",
+        "未采用",
+        "未执行",
+        "未执行",
+        "不适用"
+      ],
+      "takeaways": "短任务、读取/写入隔离、证据验收；模拟数字不能证明节省额度。",
+      "missing": "原作者生产配置、真实成本对照与 目标工程 结果。"
+    },
+    {
+      "id": "unity-spark",
+      "title": "Unity Spark · 产品路线观察",
+      "category": "项目与工具",
+      "identity": "Unity / Google 官方公告",
+      "source": "https://unity.com/spark",
+      "license": "产品条款与素材权利需独立核验",
+      "version": "2026-10-08 历史资料快照",
+      "coverage": "读官方公告与产品页；未取得创作访问或工程导入/导出证据。",
+      "stages": [
+        "公告核验",
+        "未试用",
+        "未执行",
+        "未执行",
+        "不适用"
+      ],
+      "takeaways": "观察浏览器内玩法原型能力；已有 Unity 工程兼容需单独验证。",
+      "missing": "资格、收费、导出、既有工程导入与商业素材条件。"
+    },
+    {
+      "id": "jev",
+      "title": "Jev · 结构化决策模型",
+      "category": "项目与工具",
+      "identity": "TypeSafe 官方介绍",
+      "source": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "license": "服务/模型许可与数据政策采用前另核",
+      "version": "2026-10-08 历史资料快照",
+      "coverage": "厂商说明；没有 目标工程 上实测。",
+      "stages": [
+        "资料核验",
+        "未接入",
+        "未执行",
+        "未执行",
+        "不适用"
+      ],
+      "takeaways": "结构化输出和正确判断不同；按最终验收成本评价路由。",
+      "missing": "本项目准确性、总成本、延迟、数据边界。"
+    },
+    {
+      "id": "source-first",
+      "title": "Source-first · SVG 与模型配方",
+      "category": "方法与风格",
+      "identity": "既有生产流程比较研究",
+      "source": "",
+      "license": "自写方法论；上游具体素材仍逐项核验",
+      "version": "2026-10-08 研究与后续自有实验",
+      "coverage": "比较可编辑 SVG、参数化几何、栅格表面与音效证据；非单一开源项目。",
+      "stages": [
+        "流程研究",
+        "有独立实验",
+        "不适用",
+        "非引擎验收",
+        "见作品档案"
+      ],
+      "takeaways": "先保留可编辑源，再渲染和检查；SVG 不替代自然纹理或所有三维建模。",
+      "missing": "每类资产的重复生成与风格验收；不把产出数量当成质量。"
+    },
+    {
+      "id": "xhs-6ac85f160000000015013215",
+      "title": "此前岛屿结合项目",
+      "category": "待识别来源",
+      "identity": "小红书笔记已定位，项目身份未确认",
+      "source": "https://www.xiaohongshu.com/explore/6ac85f160000000015013215",
+      "license": "未知；未建立可复制/商用许可",
+      "version": "笔记 ID 6ac85f160000000015013215",
+      "coverage": "未取得足以确认项目的标题、作者、原站和源码；不能用相似作品替代。",
+      "stages": [
+        "身份待核",
+        "未制作",
+        "未执行",
+        "未执行",
+        "未验收"
+      ],
+      "takeaways": "先完成来源链，再判断源码、效果与 目标工程 的关系。",
+      "missing": "原作者、项目名、官方仓库、固定版本、许可证。"
+    },
+    {
+      "id": "xhs-6a9e2eb900000000120363c5",
+      "title": "探索地图 · LOD 与云雾",
+      "category": "待识别来源",
+      "identity": "小红书笔记已定位，项目身份未确认",
+      "source": "https://www.xiaohongshu.com/explore/6a9e2eb900000000120363c5",
+      "license": "未知；未建立可复制/商用许可",
+      "version": "笔记 ID 6a9e2eb900000000120363c5",
+      "coverage": "未取得足以确认项目的标题、作者、原站和源码；不能用相似作品替代。",
+      "stages": [
+        "身份待核",
+        "未制作",
+        "未执行",
+        "未执行",
+        "未验收"
+      ],
+      "takeaways": "先完成来源链，再判断源码、效果与 目标工程 的关系。",
+      "missing": "原作者、项目名、官方仓库、固定版本、许可证。"
+    },
+    {
+      "id": "xhs-6ac4f874000000001402d8c1",
+      "title": "沙盒生成源码对照",
+      "category": "待识别来源",
+      "identity": "小红书笔记已定位，项目身份未确认",
+      "source": "https://www.xiaohongshu.com/explore/6ac4f874000000001402d8c1",
+      "license": "未知；未建立可复制/商用许可",
+      "version": "笔记 ID 6ac4f874000000001402d8c1",
+      "coverage": "未取得足以确认项目的标题、作者、原站和源码；不能用相似作品替代。",
+      "stages": [
+        "身份待核",
+        "未制作",
+        "未执行",
+        "未执行",
+        "未验收"
+      ],
+      "takeaways": "先完成来源链，再判断源码、效果与 目标工程 的关系。",
+      "missing": "原作者、项目名、官方仓库、固定版本、许可证。"
+    },
+    {
+      "id": "xhs-6abc778f000000001802f29a",
+      "title": "独立项目技术适配",
+      "category": "待识别来源",
+      "identity": "小红书笔记已定位，项目身份未确认",
+      "source": "https://www.xiaohongshu.com/explore/6abc778f000000001802f29a",
+      "license": "未知；未建立可复制/商用许可",
+      "version": "笔记 ID 6abc778f000000001802f29a",
+      "coverage": "未取得足以确认项目的标题、作者、原站和源码；不能用相似作品替代。",
+      "stages": [
+        "身份待核",
+        "未制作",
+        "未执行",
+        "未执行",
+        "未验收"
+      ],
+      "takeaways": "先完成来源链，再判断源码、效果与 目标工程 的关系。",
+      "missing": "原作者、项目名、官方仓库、固定版本、许可证。"
+    },
+    {
+      "id": "xhs-6ac7e468000000001203f729",
+      "title": "原站与技术适配",
+      "category": "待识别来源",
+      "identity": "小红书笔记已定位，项目身份未确认",
+      "source": "https://www.xiaohongshu.com/explore/6ac7e468000000001203f729",
+      "license": "未知；未建立可复制/商用许可",
+      "version": "笔记 ID 6ac7e468000000001203f729",
+      "coverage": "未取得足以确认项目的标题、作者、原站和源码；不能用相似作品替代。",
+      "stages": [
+        "身份待核",
+        "未制作",
+        "未执行",
+        "未执行",
+        "未验收"
+      ],
+      "takeaways": "先完成来源链，再判断源码、效果与 目标工程 的关系。",
+      "missing": "原作者、项目名、官方仓库、固定版本、许可证。"
+    }
+  ]
+}
