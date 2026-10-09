@@ -1,0 +1,23 @@
+{
+  "scope": "Standalone material art plus editable Blender library and cyclic packing arithmetic QA",
+  "score": 7.9,
+  "block_or_state_accepted": false,
+  "Unity_import": "NOT RUN",
+  "URP_material_port": "NOT RUN",
+  "mobile_device": "NOT RUN",
+  "mesh": "One unchanged 12-triangle shared review cube; not runtime mesh replacement",
+  "materials": 4,
+  "review_coverage": "Original, targeted iron repair, same-camera four texture resolutions, real2x2,96px/48px projected-size QA",
+  "texture_hashes": {
+    "master_1024": "2497e70d9b2738d7ff0135e2b1f6e022abe8b492fada00aabf43c73e5971c4fc",
+    "candidate_512": "9c46ed1c0754833bb53dd29cac87f2b9b27e86220154e4172b76036e3db0971f",
+    "mobile_256": "d0c6f5e8e00672dbc5e29cc36bb1818ecf87c58656559f3b1803e3e03484fc5b",
+    "mobile_128": "35b01f1c620c93d67d113b289bceb822d984b788c457ea5b93920100775776af"
+  },
+  "UV_contract": "2m surface period, each1m faceUV0..0.5; not runtime texIdUV",
+  "shader": "Three-band directional emission REVIEW bridge only; not Unity native material",
+  "metal_shader_blocker": false,
+  "external_texture_paths": "Blender-relative //textures/<variant>/basecolor.png",
+  "packed_images_retained": true,
+  "path_update_changed_artwork": false
+}
