@@ -1,0 +1,99 @@
+{
+  "id": "aether_wooden_barrel_v01_LOD1",
+  "lod_level": 1,
+  "blender_version": "4.3.2",
+  "triangles": 1392,
+  "vertices": 740,
+  "polygons": 670,
+  "material_slots": [
+    "M_Shared_WarmWood",
+    "M_Shared_MatteIron"
+  ],
+  "component_vertex_groups": [
+    "Stave_00",
+    "Stave_01",
+    "Stave_02",
+    "Stave_03",
+    "Stave_04",
+    "Stave_05",
+    "Stave_06",
+    "Stave_07",
+    "Stave_08",
+    "Stave_09",
+    "Stave_10",
+    "Stave_11",
+    "Stave_12",
+    "Stave_13",
+    "Stave_14",
+    "Stave_15",
+    "Iron_Hoop_00",
+    "Iron_Hoop_01",
+    "Lid_Plank_00",
+    "Lid_Plank_01",
+    "Lid_Plank_02",
+    "Lid_Plank_03",
+    "Lid_Plank_04",
+    "Bottom_Closure"
+  ],
+  "dimensions_m": [
+    0.9299942851066589,
+    0.9299942851066589,
+    1.059999942779541
+  ],
+  "bounds_m": {
+    "min": [
+      -0.46499714255332947,
+      -0.46499714255332947,
+      0.0
+    ],
+    "max": [
+      0.46499714255332947,
+      0.46499714255332947,
+      1.059999942779541
+    ]
+  },
+  "pivot_world_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "rotation_euler": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "uv": {
+    "layers": [
+      "UV0"
+    ],
+    "loop_count": 2732,
+    "finite": true,
+    "range_min": [
+      -8.508137944174265e-11,
+      0.0
+    ],
+    "range_max": [
+      0.9491655230522156,
+      0.9491655230522156
+    ],
+    "layout": "Active UV0 has intentionally repeated/overlapping directional wood islands; unused primitive UVMap removed from production source/exports. Frozen sample carrier left unchanged."
+  },
+  "mesh_qa": {
+    "zero_area_faces": 0,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "disconnected_parts": "Intentional closed stave/board/rivet components; no boolean union required"
+  },
+  "export_scope": "Offline Blender FBX/GLB; actual Unity import/runtime/shader/phone performance not tested",
+  "import_recommendation": {
+    "scale_factor": 1.0,
+    "unity_shader": "Assign approved project cel shader to meaningful named slots",
+    "collider": "Barrel: capsule or 16-sided convex hull; composter: 4 box walls plus floor, no collision on compost leaf details"
+  },
+  "preview_shader": "Principled shared source material under stylized high-contrast lighting; no claim of baked/native cel shader"
+}

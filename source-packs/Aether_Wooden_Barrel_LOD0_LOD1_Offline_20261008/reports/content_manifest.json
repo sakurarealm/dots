@@ -1,0 +1,125 @@
+{
+  "scope": "Exact standard wooden barrel + LOD1 bundle contents, excluding this manifest itself",
+  "files": [
+    {
+      "path": "source/aether_wooden_barrel_v01.blend",
+      "bytes": 860068,
+      "sha256": "beecada89147fc237044b9db91147d6f647c0758572136042dc5ce62dae37ccf"
+    },
+    {
+      "path": "source/aether_wooden_barrel_v01_LOD1.blend",
+      "bytes": 705008,
+      "sha256": "08418fe863c6be6c8fd23b4d400d2282b05d132209fc7f0e28dabfeeecb20110"
+    },
+    {
+      "path": "exports/aether_wooden_barrel_v01_LOD1.fbx",
+      "bytes": 134588,
+      "sha256": "8bdb5fef61d70f328aea03c5facc4c0244eeb84ca955f5528c33ad053c2c83e4"
+    },
+    {
+      "path": "exports/aether_wooden_barrel_v01_LOD1.glb",
+      "bytes": 175556,
+      "sha256": "6b0adb77c8420e6aec86719210feea2c5881f76f57e2b2e1b5d8cc0cc7292953"
+    },
+    {
+      "path": "exports/aether_wooden_barrel_v01.fbx",
+      "bytes": 168796,
+      "sha256": "96096f0f3eca1f2f722a89682422e8f381b8e0fb078b8c4f6cd89d57b552f129"
+    },
+    {
+      "path": "exports/aether_wooden_barrel_v01.glb",
+      "bytes": 291436,
+      "sha256": "47954d1d26a432ec9cf0df1a93d4cf4ffd5041b241a6d64023f21222e0e048a3"
+    },
+    {
+      "path": "textures/T_Wood_Warm_BaseColor.png",
+      "bytes": 91512,
+      "sha256": "7944c393fc2b1520170d9d02d611b193461aa98b86e42cd28051ffffe42ae4e0"
+    },
+    {
+      "path": "recipes/assets.json",
+      "bytes": 2160,
+      "sha256": "61e3dda720665e3e16d2b2a0cd88d78be867f6ba2075698fff5a1fe5c365394a"
+    },
+    {
+      "path": "scripts/build_assets.py",
+      "bytes": 17876,
+      "sha256": "6d80aa1692c7988a9bd9d4023312182db4570b285e651645ae02d03c458976bb"
+    },
+    {
+      "path": "scripts/project_lod_comparison.py",
+      "bytes": 2859,
+      "sha256": "2e469e34c416a6bc6a7b1eda1e4a11efc240b1522b6c5fafd3eed914294f454e"
+    },
+    {
+      "path": "scripts/verify_exports.py",
+      "bytes": 2154,
+      "sha256": "e37f14e40aac9d82b351ed8025151705c9aa33b2ca267b8e496761ced48f1712"
+    },
+    {
+      "path": "scripts/clean_final_exports.py",
+      "bytes": 1495,
+      "sha256": "0f71a098e958dd0c4f393f4f6d2c378bc35e2d97282317cdb98b2dd8b6607a87"
+    },
+    {
+      "path": "reports/export_roundtrip.json",
+      "bytes": 5108,
+      "sha256": "5ab7505cd7cef4a5429fcf830837229a3904eefaa5f1ad389d5c2616c5aa23ee"
+    },
+    {
+      "path": "reports/barrel_lod1_manifest.json",
+      "bytes": 2276,
+      "sha256": "f5e537e702f2d20aa66aa558c425598ccafe74c4b56fcc0a844bd3ffe56e20cf"
+    },
+    {
+      "path": "reports/barrel_manifest.json",
+      "bytes": 2429,
+      "sha256": "f1e1d63cf70fa3b281dd731271d9893aa432de13cdcd79239bbc19327f33d1c2"
+    },
+    {
+      "path": "reports/lod_comparison.json",
+      "bytes": 1929,
+      "sha256": "12902e9e61d89937acc9906965805ba1ba8fe1de06b9e82a6f1b27790d622a14"
+    },
+    {
+      "path": "previews/barrel_turntable_contact_1024.png",
+      "bytes": 1369219,
+      "sha256": "e17b65374faec0247696803cbff32a453a6db1253e792faf58c11eb67f76661e"
+    },
+    {
+      "path": "previews/barrel_hero_1024.png",
+      "bytes": 1627040,
+      "sha256": "847142a56c9ac9afb7c40c42d936160d57cf6796564bc943c627c2b08662b389"
+    },
+    {
+      "path": "previews/barrel_turn_00_512.png",
+      "bytes": 422931,
+      "sha256": "89b5007d41fc0338390e6429328cc93df6e341834db34b4c32cc06e770f4dc12"
+    },
+    {
+      "path": "previews/barrel_lod1_hero_512.png",
+      "bytes": 421236,
+      "sha256": "16b77e81b728462c06a22fdfa342547686ad693ba9c5dedd2726155fa027a432"
+    },
+    {
+      "path": "previews/barrel_turn_03_512.png",
+      "bytes": 431466,
+      "sha256": "599180e4a69462ac1eb7995164da562257ebf7a5959c38078e930f9e3902fd61"
+    },
+    {
+      "path": "previews/barrel_turn_01_512.png",
+      "bytes": 421510,
+      "sha256": "e8a1b07b65e5d004b82541611148e270a382dcc14570ba12b83a12bd07409a55"
+    },
+    {
+      "path": "previews/barrel_turn_02_512.png",
+      "bytes": 433483,
+      "sha256": "d51a4789186f885ac66acdba30fb23e6fe80e38c140f275d3140154bb1c38f69"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 2908,
+      "sha256": "2d786b80e34c94d5b861b1aec46c01cc21428599f350d6b29335d1e647764f86"
+    }
+  ]
+}

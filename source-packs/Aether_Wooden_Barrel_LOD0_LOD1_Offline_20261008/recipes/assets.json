@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "unit": "1 Blender unit = 1 metre; intended Unity metre scale, not Unity-tested",
+  "asset_axis": "+Z up in Blender; FBX exported -Z forward, Y up; GLB glTF Y up",
+  "pivot": "base center (0,0,0)",
+  "style_reference": "Historical approved workbench preview; warm low-frequency wood, broad facets, restrained dark iron; current project standard not verified",
+  "shared_materials": {
+    "M_Shared_WarmWood": {
+      "basecolor_texture": "textures/T_Wood_Warm_BaseColor.png",
+      "reuse": "unchanged 512px source from aether_04_shared_resources_2026-10-07.zip",
+      "roughness": 0.86,
+      "metallic": 0.0
+    },
+    "M_Shared_MatteIron": {
+      "basecolor_srgb": [
+        0.22,
+        0.27,
+        0.29
+      ],
+      "roughness": 0.78,
+      "metallic": 0.15
+    },
+    "M_CompostOrganic": {
+      "basecolor_srgb": [
+        0.22,
+        0.145,
+        0.07
+      ],
+      "roughness": 1.0,
+      "metallic": 0.0
+    },
+    "M_CompostLeaf": {
+      "basecolor_srgb": [
+        0.33,
+        0.41,
+        0.16
+      ],
+      "roughness": 1.0,
+      "metallic": 0.0
+    }
+  },
+  "barrel": {
+    "id": "aether_wooden_barrel_v01",
+    "height": 1.06,
+    "radius_bottom": 0.385,
+    "radius_mid": 0.465,
+    "radius_top": 0.397,
+    "staves": 16,
+    "wall_thickness": 0.034,
+    "seam_radians": 0.007,
+    "hoop_height": 0.076,
+    "hoop_positions": [
+      0.175,
+      0.825
+    ],
+    "lid_height": 0.994,
+    "lid_planks": 5,
+    "bevel_width": 0.004,
+    "render_sample": "previews/barrel_sample_v01.png",
+    "review_iteration": 2,
+    "directed_improvement": "First rendered sample exposed pre-save relative texture resolution and material-slot consolidation bug; packed source immediately, reapplied face material indices after clearing slots, preserving iron-vs-wood identity"
+  },
+  "composter": {
+    "id": "aether_wooden_composter_v01",
+    "footprint": 0.98,
+    "height": 1.0,
+    "slat_tiers": 5,
+    "slat_height": 0.123,
+    "slat_gap": 0.035,
+    "post_width": 0.082,
+    "board_thickness": 0.041,
+    "rim_width": 0.074,
+    "fill_height": 0.61,
+    "fill_optional": true,
+    "bevel_width": 0.004
+  }
+}

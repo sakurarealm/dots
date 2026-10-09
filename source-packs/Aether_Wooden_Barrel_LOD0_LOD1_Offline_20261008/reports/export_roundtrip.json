@@ -1,0 +1,223 @@
+{
+  "scope": "Actual Blender 4.3.2 FBX and GLB importer roundtrip only. Unity importer/runtime, project shader, collision/gameplay/phone budgets untested.",
+  "records": [
+    {
+      "file": "exports/aether_wooden_barrel_v01.fbx",
+      "sha256": "96096f0f3eca1f2f722a89682422e8f381b8e0fb078b8c4f6cd89d57b552f129",
+      "bytes": 168796,
+      "mesh_objects": 1,
+      "triangles": 3000,
+      "material_slots": [
+        "M_Shared_WarmWood",
+        "M_Shared_MatteIron"
+      ],
+      "bounds_m": {
+        "min": [
+          -0.4644116163253784,
+          -0.46441152691841125,
+          -6.212893310930667e-08
+        ],
+        "max": [
+          0.4644116163253784,
+          0.4644117057323456,
+          1.0600000619888306
+        ]
+      },
+      "dimensions_m": [
+        0.9288232326507568,
+        0.9288232326507568,
+        1.0600001241177637
+      ],
+      "origin_points_world_m": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "uv_loops": 6052,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "textures": [
+        {
+          "name": "T_Wood_Warm_BaseColor.png",
+          "dimensions": [
+            512,
+            512
+          ],
+          "packed": true,
+          "exists_or_packed": true
+        },
+        {
+          "name": "T_Wood_Warm_BaseColor.png.001",
+          "dimensions": [
+            512,
+            512
+          ],
+          "packed": true,
+          "exists_or_packed": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "file": "exports/aether_wooden_barrel_v01.glb",
+      "sha256": "47954d1d26a432ec9cf0df1a93d4cf4ffd5041b241a6d64023f21222e0e048a3",
+      "bytes": 291436,
+      "mesh_objects": 1,
+      "triangles": 3000,
+      "material_slots": [
+        "M_Shared_WarmWood",
+        "M_Shared_MatteIron"
+      ],
+      "bounds_m": {
+        "min": [
+          -0.4644116163253784,
+          -0.4644116163253784,
+          0.0
+        ],
+        "max": [
+          0.4644116163253784,
+          0.4644116163253784,
+          1.059999942779541
+        ]
+      },
+      "dimensions_m": [
+        0.9288232326507568,
+        0.9288232326507568,
+        1.059999942779541
+      ],
+      "origin_points_world_m": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "uv_loops": 9000,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 5604,
+      "textures": [
+        {
+          "name": "T_Wood_Warm_BaseColor",
+          "dimensions": [
+            512,
+            512
+          ],
+          "packed": true,
+          "exists_or_packed": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "file": "exports/aether_wooden_barrel_v01_LOD1.fbx",
+      "sha256": "8bdb5fef61d70f328aea03c5facc4c0244eeb84ca955f5528c33ad053c2c83e4",
+      "bytes": 134588,
+      "mesh_objects": 1,
+      "triangles": 1392,
+      "material_slots": [
+        "M_Shared_WarmWood",
+        "M_Shared_MatteIron"
+      ],
+      "bounds_m": {
+        "min": [
+          -0.46499714255332947,
+          -0.4649970531463623,
+          -6.272407659935197e-08
+        ],
+        "max": [
+          0.46499714255332947,
+          0.46499723196029663,
+          1.0600000619888306
+        ]
+      },
+      "dimensions_m": [
+        0.9299942851066589,
+        0.9299942851066589,
+        1.0600001247129072
+      ],
+      "origin_points_world_m": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "uv_loops": 2732,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 0,
+      "textures": [
+        {
+          "name": "T_Wood_Warm_BaseColor.png",
+          "dimensions": [
+            512,
+            512
+          ],
+          "packed": true,
+          "exists_or_packed": true
+        },
+        {
+          "name": "T_Wood_Warm_BaseColor.png.001",
+          "dimensions": [
+            512,
+            512
+          ],
+          "packed": true,
+          "exists_or_packed": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "file": "exports/aether_wooden_barrel_v01_LOD1.glb",
+      "sha256": "6b0adb77c8420e6aec86719210feea2c5881f76f57e2b2e1b5d8cc0cc7292953",
+      "bytes": 175556,
+      "mesh_objects": 1,
+      "triangles": 1392,
+      "material_slots": [
+        "M_Shared_WarmWood",
+        "M_Shared_MatteIron"
+      ],
+      "bounds_m": {
+        "min": [
+          -0.46499714255332947,
+          -0.46499714255332947,
+          0.0
+        ],
+        "max": [
+          0.46499714255332947,
+          0.46499714255332947,
+          1.059999942779541
+        ]
+      },
+      "dimensions_m": [
+        0.9299942851066589,
+        0.9299942851066589,
+        1.059999942779541
+      ],
+      "origin_points_world_m": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "uv_loops": 4176,
+      "zero_area_faces": 0,
+      "nonmanifold_edges": 2284,
+      "textures": [
+        {
+          "name": "T_Wood_Warm_BaseColor",
+          "dimensions": [
+            512,
+            512
+          ],
+          "packed": true,
+          "exists_or_packed": true
+        }
+      ],
+      "pass": true
+    }
+  ]
+}

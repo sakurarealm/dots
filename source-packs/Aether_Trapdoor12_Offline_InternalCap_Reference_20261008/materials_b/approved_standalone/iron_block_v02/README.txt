@@ -1,0 +1,3 @@
+iron_block v02: standalone material art approved, 7.6/10.
+Material identity: cool silver-grey brushed iron with restrained broad horizontal bands. This library and imagery are review/authoring assets, not an integrated Unity block, native .mat, URP port or device test. The review cube is unchanged and has 12 triangles, 1 material slot. Four albedo sizes 1024/512/256/128 are supplied; actual atlas or device savings are unmeasured. UV 2m repeat; neutral data maps are optional compatibility bridges.
+Iron authored texture is bypassed by the historical BK family 3 shader override and requires explicit target-shader adaptation.
