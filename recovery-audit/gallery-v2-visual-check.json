@@ -1,0 +1,25 @@
+{
+  "checked_at_utc": "2026-10-09T09:35:13Z",
+  "source_commit": "e8e425fef697120244eaab4b359bc823f97eb558",
+  "actual_browser": "Cloud Linux Microsoft Edge 155, sandbox retained, ANGLE SwiftShader",
+  "observed": [
+    "Selected rain-tower subject: 6/6 real GLB loaded together",
+    "Dragged one model: other visible styles changed angle in sync",
+    "Prior-version button displayed 18 models and three subject buttons",
+    "All-models load action completed 78/78 real GLB load events with visible model rendering",
+    "Preview height increased from300to450 CSSpx; super-large650px andfullscreen buttons implemented",
+    "With78loaded, draggingfirstmodel changed visible othermodel camera angle",
+    "Singlemodel fullscreen opened and displayed fullgeometry; Escape exit requested",
+    "Fullscreen Escape exit visually confirmed",
+    "Superlarge toggle changed grid to single650px-preview column with working model display"
+  ],
+  "limits": [
+    "No real-phone performance acceptance",
+    "78 loaded does not establish every surface/style quality acceptance"
+  ],
+  "resources_at_78_loaded": {
+    "host_mem_available_mib": 6732,
+    "host_mem_total_mib": 9990,
+    "cgroup_cap": "unverified"
+  }
+}

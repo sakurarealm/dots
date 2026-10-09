@@ -1,0 +1,13 @@
+{
+  "checked_at_utc": "2026-10-09T09:25:24Z",
+  "browser": "Official Linux Microsoft Edge 155 with sandbox and ANGLE SwiftShader",
+  "gallery_local": {
+    "desktop": "Observed actual GLB load and mouse rotation; UI original-image modal; tab switching",
+    "narrow_window": "Observed approximately 500px browser window, navigation and one-column report layout; not real mobile acceptance"
+  },
+  "island_live": {
+    "url": "https://aether-island-life.sakurarealmwuhen.chatgpt.site",
+    "observed": "ERR_CONNECTION_REFUSED in cloud Edge; no gameplay loaded",
+    "scope": "Cloud-browser connection observation only; does not prove global site outage or login requirement"
+  }
+}
