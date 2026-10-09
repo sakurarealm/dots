@@ -1,0 +1,30 @@
+{
+  "file": "genshin_cel_bread_cart.png",
+  "actual_glb": "genshin_cel_bread_cart.glb",
+  "actual_glb_sha256": "f7744f85316c60b49f7c198283026e2fa5c3557821b50759d8cc5e55715696a9",
+  "actual_triangle_count_read_from_glb": 3856,
+  "embedded_atlas": "genshin_cel_atlas_runtime1024.png",
+  "uv_origin": "glTF top-left; CPU lookup explicitly converts helper convention",
+  "dimensions": [
+    640,
+    720
+  ],
+  "camera_direction": [
+    6,
+    -8,
+    4.05
+  ],
+  "camera_center": [
+    0.016331933438777924,
+    -0.07077594846487045,
+    1.2642717361450195
+  ],
+  "camera_ortho_width": 3.059199810028076,
+  "lights": "warm key, cool sky proxy, restrained rim; true geometry depth-map soft shadows",
+  "texture_strategy": "approved or premium image-generated broad material swatches, large semantic UV islands; no sine/noise replacement texture",
+  "software_cpu_preview": true,
+  "NOT_Blender_or_Unity_validation": true,
+  "rss_peak_kib": 165944,
+  "duration_seconds": 1.86,
+  "triangle_budget_pass": true
+}

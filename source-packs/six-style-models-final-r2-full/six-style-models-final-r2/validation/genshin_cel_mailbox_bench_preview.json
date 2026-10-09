@@ -1,0 +1,30 @@
+{
+  "file": "genshin_cel_mailbox_bench.png",
+  "actual_glb": "genshin_cel_mailbox_bench.glb",
+  "actual_glb_sha256": "1cff131d036a89d10ea95dacafb1fa8a3ecda9c86f656db6823543f66f929b67",
+  "actual_triangle_count_read_from_glb": 2930,
+  "embedded_atlas": "genshin_cel_atlas_runtime1024.png",
+  "uv_origin": "glTF top-left; CPU lookup explicitly converts helper convention",
+  "dimensions": [
+    640,
+    720
+  ],
+  "camera_direction": [
+    6,
+    -8,
+    4.05
+  ],
+  "camera_center": [
+    0.09624060243368149,
+    -0.09604287892580032,
+    0.9651057720184326
+  ],
+  "camera_ortho_width": 2.6727335453033447,
+  "lights": "warm key, cool sky proxy, restrained rim; true geometry depth-map soft shadows",
+  "texture_strategy": "approved or premium image-generated broad material swatches, large semantic UV islands; no sine/noise replacement texture",
+  "software_cpu_preview": true,
+  "NOT_Blender_or_Unity_validation": true,
+  "rss_peak_kib": 166400,
+  "duration_seconds": 2.08,
+  "triangle_budget_pass": true
+}

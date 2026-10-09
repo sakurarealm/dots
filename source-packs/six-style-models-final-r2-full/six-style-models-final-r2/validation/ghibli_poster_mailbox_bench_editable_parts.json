@@ -1,0 +1,10 @@
+{
+  "file": "ghibli_poster_mailbox_bench_editable_parts.glb",
+  "sha256": "9cf2fbd8ab9fce94c498d933b8b7c0cdfca8c565f0e89c0ec3a6c0f6cf04b288",
+  "bytes": 1408808,
+  "separately_editable_mesh_nodes": 110,
+  "triangles": 2798,
+  "same_runtime_mesh_source": "ghibli_poster_mailbox_bench.glb",
+  "materials": 3,
+  "purpose": "Editable source, not optimized runtime draw-call budget"
+}

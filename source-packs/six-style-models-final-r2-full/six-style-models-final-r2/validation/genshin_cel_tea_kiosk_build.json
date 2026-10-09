@@ -1,0 +1,16 @@
+{
+  "file": "genshin_cel_tea_kiosk.glb",
+  "sha256": "6975c4310efccf035ffeed48078cf9bfca30470d37403c6119aec9c55487ac13",
+  "bytes": 1464156,
+  "triangles": 3872,
+  "editable_parts": 114,
+  "actual_materials": 3,
+  "actual_primitives": 3,
+  "atlas_file": "atlases/genshin_cel_atlas_runtime1024.png",
+  "atlas_sha256": "43592365a4625f0f0f399cea5b5c7da3bce6f3418ba47de41499b85ceb785156",
+  "uv_inner_cell_margin": 0.13,
+  "style_direction": "genshin_cel",
+  "build_rss_peak_kib": 60740,
+  "texture_quality_reference": "Approved earlier flower stall, not the rejected technical fixture",
+  "runtime_validation": "pending; GLB numerical round-trip follows separately"
+}

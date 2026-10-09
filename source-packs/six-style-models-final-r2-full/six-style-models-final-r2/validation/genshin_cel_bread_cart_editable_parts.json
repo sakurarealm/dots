@@ -1,0 +1,10 @@
+{
+  "file": "genshin_cel_bread_cart_editable_parts.glb",
+  "sha256": "cb103173523dabf827aa3c46a67b4a7fbe39c85c86cd26d0b0439359099c0de0",
+  "bytes": 1599140,
+  "separately_editable_mesh_nodes": 127,
+  "triangles": 3856,
+  "same_runtime_mesh_source": "genshin_cel_bread_cart.glb",
+  "materials": 3,
+  "purpose": "Editable source, not optimized runtime draw-call budget"
+}

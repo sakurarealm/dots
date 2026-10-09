@@ -1,0 +1,30 @@
+{
+  "file": "ghibli_poster_bread_cart.png",
+  "actual_glb": "ghibli_poster_bread_cart.glb",
+  "actual_glb_sha256": "0da3beb2f30fea531f213b398dd9dede07fb746fefdea855a1676cac5bf059dc",
+  "actual_triangle_count_read_from_glb": 3854,
+  "embedded_atlas": "ghibli_poster_atlas_r3_runtime1024.png",
+  "uv_origin": "glTF top-left; CPU lookup explicitly converts helper convention",
+  "dimensions": [
+    640,
+    720
+  ],
+  "camera_direction": [
+    6,
+    -8,
+    4.05
+  ],
+  "camera_center": [
+    0.07347466051578522,
+    -0.06979946792125702,
+    1.2778409719467163
+  ],
+  "camera_ortho_width": 2.966599941253662,
+  "lights": "warm key, cool sky proxy, restrained rim; true geometry depth-map soft shadows",
+  "texture_strategy": "approved or premium image-generated broad material swatches, large semantic UV islands; no sine/noise replacement texture",
+  "software_cpu_preview": true,
+  "NOT_Blender_or_Unity_validation": true,
+  "rss_peak_kib": 166164,
+  "duration_seconds": 2.35,
+  "triangle_budget_pass": true
+}

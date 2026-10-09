@@ -1,0 +1,10 @@
+{
+  "file": "genshin_cel_tea_kiosk_editable_parts.glb",
+  "sha256": "ecd03f89d5d332bd8f0cf69ea8dbe64927c4ca2de66ee16675071ba7a8eb6794",
+  "bytes": 1588300,
+  "separately_editable_mesh_nodes": 114,
+  "triangles": 3872,
+  "same_runtime_mesh_source": "genshin_cel_tea_kiosk.glb",
+  "materials": 3,
+  "purpose": "Editable source, not optimized runtime draw-call budget"
+}

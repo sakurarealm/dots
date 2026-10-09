@@ -1,0 +1,10 @@
+{
+  "file": "endfield_pbr_anime_bread_cart_editable_parts.glb",
+  "sha256": "b2888573e8a2d45613688ac0228c12ab5532fb53d7076de30103b406d5def5d1",
+  "bytes": 2624148,
+  "separately_editable_mesh_nodes": 105,
+  "triangles": 3372,
+  "same_runtime_mesh_source": "endfield_pbr_anime_bread_cart.glb",
+  "materials": 3,
+  "purpose": "Editable source, not optimized runtime draw-call budget"
+}

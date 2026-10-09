@@ -1,0 +1,30 @@
+{
+  "file": "ghibli_poster_mailbox_bench.png",
+  "actual_glb": "ghibli_poster_mailbox_bench.glb",
+  "actual_glb_sha256": "1ebe055f21827d0baa4811e25b5229a8e95140adf2c340bc812a951a3380d7e3",
+  "actual_triangle_count_read_from_glb": 2798,
+  "embedded_atlas": "ghibli_poster_atlas_r3_runtime1024.png",
+  "uv_origin": "glTF top-left; CPU lookup explicitly converts helper convention",
+  "dimensions": [
+    640,
+    720
+  ],
+  "camera_direction": [
+    6,
+    -8,
+    4.05
+  ],
+  "camera_center": [
+    0.09808557480573654,
+    -0.09629327058792114,
+    0.9568387866020203
+  ],
+  "camera_ortho_width": 2.675384998321533,
+  "lights": "warm key, cool sky proxy, restrained rim; true geometry depth-map soft shadows",
+  "texture_strategy": "approved or premium image-generated broad material swatches, large semantic UV islands; no sine/noise replacement texture",
+  "software_cpu_preview": true,
+  "NOT_Blender_or_Unity_validation": true,
+  "rss_peak_kib": 166316,
+  "duration_seconds": 1.78,
+  "triangle_budget_pass": true
+}

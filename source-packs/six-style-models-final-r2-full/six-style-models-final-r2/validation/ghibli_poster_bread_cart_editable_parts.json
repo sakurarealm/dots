@@ -1,0 +1,10 @@
+{
+  "file": "ghibli_poster_bread_cart_editable_parts.glb",
+  "sha256": "5d139ff5cfe9fd81ea9ef50c93c5fbe03804d8ffad7290b340d9128471dd764d",
+  "bytes": 1523444,
+  "separately_editable_mesh_nodes": 113,
+  "triangles": 3854,
+  "same_runtime_mesh_source": "ghibli_poster_bread_cart.glb",
+  "materials": 3,
+  "purpose": "Editable source, not optimized runtime draw-call budget"
+}

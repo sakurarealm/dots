@@ -1,0 +1,10 @@
+{
+  "file": "genshin_cel_mailbox_bench_editable_parts.glb",
+  "sha256": "eeff2a0ab27eb02a6e26cdc9d41f7d42195d4a84b8dba5ec618cd188d9aa0ed8",
+  "bytes": 1490220,
+  "separately_editable_mesh_nodes": 117,
+  "triangles": 2930,
+  "same_runtime_mesh_source": "genshin_cel_mailbox_bench.glb",
+  "materials": 3,
+  "purpose": "Editable source, not optimized runtime draw-call budget"
+}

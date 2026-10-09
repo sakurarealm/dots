@@ -1,0 +1,10 @@
+{
+  "file": "bloomwalker_painterly_mailbox_bench_editable_parts.glb",
+  "sha256": "50c2c4a229c525980c298fec77eb7cf57e3c5b591ca2e9b80bdbeb21c330e952",
+  "bytes": 1611080,
+  "separately_editable_mesh_nodes": 138,
+  "triangles": 3582,
+  "same_runtime_mesh_source": "bloomwalker_painterly_mailbox_bench.glb",
+  "materials": 3,
+  "purpose": "Editable source, not optimized runtime draw-call budget"
+}

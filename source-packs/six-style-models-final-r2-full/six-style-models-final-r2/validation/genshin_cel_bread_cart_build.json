@@ -1,0 +1,16 @@
+{
+  "file": "genshin_cel_bread_cart.glb",
+  "sha256": "f7744f85316c60b49f7c198283026e2fa5c3557821b50759d8cc5e55715696a9",
+  "bytes": 1462444,
+  "triangles": 3856,
+  "editable_parts": 127,
+  "actual_materials": 3,
+  "actual_primitives": 3,
+  "atlas_file": "atlases/genshin_cel_atlas_runtime1024.png",
+  "atlas_sha256": "43592365a4625f0f0f399cea5b5c7da3bce6f3418ba47de41499b85ceb785156",
+  "uv_inner_cell_margin": 0.13,
+  "style_direction": "genshin_cel",
+  "build_rss_peak_kib": 60648,
+  "texture_quality_reference": "Approved earlier flower stall, not the rejected technical fixture",
+  "runtime_validation": "pending; GLB numerical round-trip follows separately"
+}

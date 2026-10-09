@@ -1,0 +1,30 @@
+{
+  "file": "bloomwalker_painterly_mailbox_bench.png",
+  "actual_glb": "bloomwalker_painterly_mailbox_bench.glb",
+  "actual_glb_sha256": "eba456bdde77de8226fdc89b3b495db84a74fa6bfa40eeb422db3f561ace7e85",
+  "actual_triangle_count_read_from_glb": 3582,
+  "embedded_atlas": "bloomwalker_painterly_atlas_r3_runtime1024.png",
+  "uv_origin": "glTF top-left; CPU lookup explicitly converts helper convention",
+  "dimensions": [
+    640,
+    720
+  ],
+  "camera_direction": [
+    6,
+    -8,
+    4.05
+  ],
+  "camera_center": [
+    0.16342569887638092,
+    -0.09579510241746902,
+    0.9741735458374023
+  ],
+  "camera_ortho_width": 2.780526876449585,
+  "lights": "warm key, cool sky proxy, restrained rim; true geometry depth-map soft shadows",
+  "texture_strategy": "approved or premium image-generated broad material swatches, large semantic UV islands; no sine/noise replacement texture",
+  "software_cpu_preview": true,
+  "NOT_Blender_or_Unity_validation": true,
+  "rss_peak_kib": 166540,
+  "duration_seconds": 2.53,
+  "triangle_budget_pass": true
+}

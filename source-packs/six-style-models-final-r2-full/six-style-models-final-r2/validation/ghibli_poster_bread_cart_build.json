@@ -1,0 +1,16 @@
+{
+  "file": "ghibli_poster_bread_cart.glb",
+  "sha256": "0da3beb2f30fea531f213b398dd9dede07fb746fefdea855a1676cac5bf059dc",
+  "bytes": 1402616,
+  "triangles": 3854,
+  "editable_parts": 113,
+  "actual_materials": 3,
+  "actual_primitives": 3,
+  "atlas_file": "atlases/ghibli_poster_atlas_r3_runtime1024.png",
+  "atlas_sha256": "da60ba59dc62331a57a59f1f345a3777ce2ebbd72d3f13ea11501b26f6604f37",
+  "uv_inner_cell_margin": 0.13,
+  "style_direction": "ghibli_poster",
+  "build_rss_peak_kib": 60432,
+  "texture_quality_reference": "Approved earlier flower stall, not the rejected technical fixture",
+  "runtime_validation": "pending; GLB numerical round-trip follows separately"
+}

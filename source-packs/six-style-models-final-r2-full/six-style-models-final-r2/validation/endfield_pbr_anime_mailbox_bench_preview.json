@@ -1,0 +1,30 @@
+{
+  "file": "endfield_pbr_anime_mailbox_bench.png",
+  "actual_glb": "endfield_pbr_anime_mailbox_bench.glb",
+  "actual_glb_sha256": "6b74d4b30c2e0d8a9d74febaec49b46e77f601220d973ffbbe70bc3f97cbbfef",
+  "actual_triangle_count_read_from_glb": 3308,
+  "embedded_atlas": "endfield_pbr_atlas_runtime1024.png",
+  "uv_origin": "glTF top-left; CPU lookup explicitly converts helper convention",
+  "dimensions": [
+    640,
+    720
+  ],
+  "camera_direction": [
+    6,
+    -8,
+    4.05
+  ],
+  "camera_center": [
+    0.08560488373041153,
+    -0.10014883428812027,
+    0.9566737413406372
+  ],
+  "camera_ortho_width": 2.6911392211914062,
+  "lights": "warm key, cool sky proxy, restrained rim; true geometry depth-map soft shadows",
+  "texture_strategy": "approved or premium image-generated broad material swatches, large semantic UV islands; no sine/noise replacement texture",
+  "software_cpu_preview": true,
+  "NOT_Blender_or_Unity_validation": true,
+  "rss_peak_kib": 170548,
+  "duration_seconds": 1.85,
+  "triangle_budget_pass": true
+}

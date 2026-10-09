@@ -1,0 +1,16 @@
+{
+  "file": "endfield_pbr_anime_bread_cart.glb",
+  "sha256": "2d80150a6f87863919e62bf97cf353c7dd5cf191f5696f799d114494b3c7bd8f",
+  "bytes": 2512644,
+  "triangles": 3372,
+  "editable_parts": 105,
+  "actual_materials": 3,
+  "actual_primitives": 3,
+  "atlas_file": "atlases/endfield_pbr_atlas_runtime1024.png",
+  "atlas_sha256": "d2e5c6044eaad2399d596c2d66bf95024cd73e92f3c3e6bd8e3a55c78e127a9a",
+  "uv_inner_cell_margin": 0.13,
+  "style_direction": "endfield_pbr_anime",
+  "build_rss_peak_kib": 61872,
+  "texture_quality_reference": "Approved earlier flower stall, not the rejected technical fixture",
+  "runtime_validation": "pending; GLB numerical round-trip follows separately"
+}

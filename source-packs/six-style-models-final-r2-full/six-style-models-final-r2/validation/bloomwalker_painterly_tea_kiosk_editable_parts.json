@@ -1,0 +1,10 @@
+{
+  "file": "bloomwalker_painterly_tea_kiosk_editable_parts.glb",
+  "sha256": "ae4b9b62966dd0152e99b7a69dd1cbbf083ae41b966746f62b90b9683e816115",
+  "bytes": 1687340,
+  "separately_editable_mesh_nodes": 129,
+  "triangles": 4382,
+  "same_runtime_mesh_source": "bloomwalker_painterly_tea_kiosk.glb",
+  "materials": 3,
+  "purpose": "Editable source, not optimized runtime draw-call budget"
+}

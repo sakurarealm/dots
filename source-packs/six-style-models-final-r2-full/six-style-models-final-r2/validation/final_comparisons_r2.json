@@ -1,0 +1,234 @@
+{
+  "scope": "Layout-only composition from the 18 current preview PNGs. No image-generated prop replacement or painting. Labels are candidate descriptions, not art acceptance.",
+  "font": "DejaVu Sans / DejaVu Sans Bold; fonts not bundled",
+  "records": [
+    {
+      "file": "comparisons/bread_cart_six_directions_final_r2.png",
+      "dimensions": [
+        1368,
+        1254
+      ],
+      "sha256": "d26c98d010ab65ac9c239d314f55662ee03e844bbca311538e05cb8b7230a1f5",
+      "cells": [
+        {
+          "style": "oil_handpaint",
+          "preview": "previews/oil_handpaint_bread_cart.png",
+          "source_sha256": "d8035af0abd4da42cddc156013d1082be72302c92b7037215735631596c77f52",
+          "paste_box": [
+            24,
+            96,
+            448,
+            573
+          ]
+        },
+        {
+          "style": "genshin_cel",
+          "preview": "previews/genshin_cel_bread_cart.png",
+          "source_sha256": "08147e6ebdc92ff4ef85f6346cb411c9430fc60a47214d4e063cef49b3cbd364",
+          "paste_box": [
+            472,
+            96,
+            896,
+            573
+          ]
+        },
+        {
+          "style": "endfield_pbr_anime",
+          "preview": "previews/endfield_pbr_anime_bread_cart.png",
+          "source_sha256": "1fba1c84137232d0c8c1ef6827959cfa4abeeacb89dfa284b2858baf142303de",
+          "paste_box": [
+            920,
+            96,
+            1344,
+            573
+          ]
+        },
+        {
+          "style": "ghibli_poster",
+          "preview": "previews/ghibli_poster_bread_cart.png",
+          "source_sha256": "8b103708247e130617cf6a8c81e74cb8ce9fbc3a2597ec0c4fec283f554d1770",
+          "paste_box": [
+            24,
+            648,
+            448,
+            1125
+          ]
+        },
+        {
+          "style": "bloomwalker_painterly",
+          "preview": "previews/bloomwalker_painterly_bread_cart.png",
+          "source_sha256": "1a019e1b45dac515e6ef82e950c11036c2d6e31d973c3f7080829caa6bcf0945",
+          "paste_box": [
+            472,
+            648,
+            896,
+            1125
+          ]
+        },
+        {
+          "style": "bk_project_candidate",
+          "preview": "previews/bk_project_candidate_bread_cart.png",
+          "source_sha256": "5442b5a99f77d9864ba7824cb7f808cc2e80571728b6ffee5fe108592fdde8e8",
+          "paste_box": [
+            920,
+            648,
+            1344,
+            1125
+          ]
+        }
+      ]
+    },
+    {
+      "file": "comparisons/tea_kiosk_six_directions_final_r2.png",
+      "dimensions": [
+        1368,
+        1254
+      ],
+      "sha256": "a233137749fd92be773265982a6d113820135650aa6010de7bce716329903846",
+      "cells": [
+        {
+          "style": "oil_handpaint",
+          "preview": "previews/oil_handpaint_tea_kiosk.png",
+          "source_sha256": "c7c307f212905df8a76847cbbe3f96fafdef725e3b154397266f9b495267edfc",
+          "paste_box": [
+            24,
+            96,
+            448,
+            573
+          ]
+        },
+        {
+          "style": "genshin_cel",
+          "preview": "previews/genshin_cel_tea_kiosk.png",
+          "source_sha256": "13d436382a706614c7044cdebe20119ca9f65832df50295d8da8529670cde927",
+          "paste_box": [
+            472,
+            96,
+            896,
+            573
+          ]
+        },
+        {
+          "style": "endfield_pbr_anime",
+          "preview": "previews/endfield_pbr_anime_tea_kiosk.png",
+          "source_sha256": "659debd8478f973b403c05a11cb139c1356f9afc6e331add1b639f2ba538d30d",
+          "paste_box": [
+            920,
+            96,
+            1344,
+            573
+          ]
+        },
+        {
+          "style": "ghibli_poster",
+          "preview": "previews/ghibli_poster_tea_kiosk.png",
+          "source_sha256": "a485fe60fc3d16a758c36aa8adedbf4a9cd15cb20de888294fda6d2cf6ffddde",
+          "paste_box": [
+            24,
+            648,
+            448,
+            1125
+          ]
+        },
+        {
+          "style": "bloomwalker_painterly",
+          "preview": "previews/bloomwalker_painterly_tea_kiosk.png",
+          "source_sha256": "5689d512ee79467c78a3d1ec5ef30ac300d43318074cfb2f866b209ed80dbf5d",
+          "paste_box": [
+            472,
+            648,
+            896,
+            1125
+          ]
+        },
+        {
+          "style": "bk_project_candidate",
+          "preview": "previews/bk_project_candidate_tea_kiosk.png",
+          "source_sha256": "49e1d0ae5626761c3cb079c71b60cc08e0af1a4a1201fdc6ce1fc25f06814abb",
+          "paste_box": [
+            920,
+            648,
+            1344,
+            1125
+          ]
+        }
+      ]
+    },
+    {
+      "file": "comparisons/mailbox_bench_six_directions_final_r2.png",
+      "dimensions": [
+        1368,
+        1254
+      ],
+      "sha256": "266882c4cf3c5f58b615a2cc9a8e3f42dcf65f16c6391388ed863b8ee3770898",
+      "cells": [
+        {
+          "style": "oil_handpaint",
+          "preview": "previews/oil_handpaint_mailbox_bench.png",
+          "source_sha256": "d716cf0a11bc4dcefaf30d3819722bf0d3a0641b87f1835719999a49382b5644",
+          "paste_box": [
+            24,
+            96,
+            448,
+            573
+          ]
+        },
+        {
+          "style": "genshin_cel",
+          "preview": "previews/genshin_cel_mailbox_bench.png",
+          "source_sha256": "6f3a4548521baf16ca32cf3e90dceafc25c3fdb33835763f5ca50c8001926592",
+          "paste_box": [
+            472,
+            96,
+            896,
+            573
+          ]
+        },
+        {
+          "style": "endfield_pbr_anime",
+          "preview": "previews/endfield_pbr_anime_mailbox_bench.png",
+          "source_sha256": "b9bb39dbaf0fccf93840e6f8ea29b77adeef39ec3de7dcd624673e549966b087",
+          "paste_box": [
+            920,
+            96,
+            1344,
+            573
+          ]
+        },
+        {
+          "style": "ghibli_poster",
+          "preview": "previews/ghibli_poster_mailbox_bench.png",
+          "source_sha256": "3976a0c25f8b09ab4ca1e93e2834fb57ba5a457aa0378162ea9f821f5d6be5f5",
+          "paste_box": [
+            24,
+            648,
+            448,
+            1125
+          ]
+        },
+        {
+          "style": "bloomwalker_painterly",
+          "preview": "previews/bloomwalker_painterly_mailbox_bench.png",
+          "source_sha256": "f213abe5cb0ca6d9424a83a0f1dd816211c0966ba3486d5b94101db42a507e05",
+          "paste_box": [
+            472,
+            648,
+            896,
+            1125
+          ]
+        },
+        {
+          "style": "bk_project_candidate",
+          "preview": "previews/bk_project_candidate_mailbox_bench.png",
+          "source_sha256": "49f6a0adb6f2df1349be7e6c19936a538c928b3d5a84dee5d684990a8d4ac825",
+          "paste_box": [
+            920,
+            648,
+            1344,
+            1125
+          ]
+        }
+      ]
+    }
+  ]
+}

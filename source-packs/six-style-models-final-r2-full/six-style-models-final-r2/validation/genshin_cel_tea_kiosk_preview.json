@@ -1,0 +1,30 @@
+{
+  "file": "genshin_cel_tea_kiosk.png",
+  "actual_glb": "genshin_cel_tea_kiosk.glb",
+  "actual_glb_sha256": "6975c4310efccf035ffeed48078cf9bfca30470d37403c6119aec9c55487ac13",
+  "actual_triangle_count_read_from_glb": 3872,
+  "embedded_atlas": "genshin_cel_atlas_runtime1024.png",
+  "uv_origin": "glTF top-left; CPU lookup explicitly converts helper convention",
+  "dimensions": [
+    640,
+    720
+  ],
+  "camera_direction": [
+    6,
+    -8,
+    4.05
+  ],
+  "camera_center": [
+    -0.030930303037166595,
+    0.026990436017513275,
+    1.1284581422805786
+  ],
+  "camera_ortho_width": 2.835099935531616,
+  "lights": "warm key, cool sky proxy, restrained rim; true geometry depth-map soft shadows",
+  "texture_strategy": "approved or premium image-generated broad material swatches, large semantic UV islands; no sine/noise replacement texture",
+  "software_cpu_preview": true,
+  "NOT_Blender_or_Unity_validation": true,
+  "rss_peak_kib": 166576,
+  "duration_seconds": 2.01,
+  "triangle_budget_pass": true
+}

@@ -1,0 +1,30 @@
+{
+  "file": "endfield_pbr_anime_bread_cart.png",
+  "actual_glb": "endfield_pbr_anime_bread_cart.glb",
+  "actual_glb_sha256": "2d80150a6f87863919e62bf97cf353c7dd5cf191f5696f799d114494b3c7bd8f",
+  "actual_triangle_count_read_from_glb": 3372,
+  "embedded_atlas": "endfield_pbr_atlas_runtime1024.png",
+  "uv_origin": "glTF top-left; CPU lookup explicitly converts helper convention",
+  "dimensions": [
+    640,
+    720
+  ],
+  "camera_direction": [
+    6,
+    -8,
+    4.05
+  ],
+  "camera_center": [
+    0.09937717765569687,
+    -0.0449196957051754,
+    1.2713282108306885
+  ],
+  "camera_ortho_width": 2.8952999114990234,
+  "lights": "warm key, cool sky proxy, restrained rim; true geometry depth-map soft shadows",
+  "texture_strategy": "approved or premium image-generated broad material swatches, large semantic UV islands; no sine/noise replacement texture",
+  "software_cpu_preview": true,
+  "NOT_Blender_or_Unity_validation": true,
+  "rss_peak_kib": 170352,
+  "duration_seconds": 2.6,
+  "triangle_budget_pass": true
+}

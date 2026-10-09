@@ -1,0 +1,30 @@
+{
+  "file": "endfield_pbr_anime_tea_kiosk.png",
+  "actual_glb": "endfield_pbr_anime_tea_kiosk.glb",
+  "actual_glb_sha256": "96af89a1e1ab4df032bee061e3ccdd2e5188b71e6c4cdd71908364cf5600e871",
+  "actual_triangle_count_read_from_glb": 4707,
+  "embedded_atlas": "endfield_pbr_atlas_runtime1024.png",
+  "uv_origin": "glTF top-left; CPU lookup explicitly converts helper convention",
+  "dimensions": [
+    640,
+    720
+  ],
+  "camera_direction": [
+    6,
+    -8,
+    4.05
+  ],
+  "camera_center": [
+    -0.05068344622850418,
+    0.02416025847196579,
+    1.1550389528274536
+  ],
+  "camera_ortho_width": 2.8756887912750244,
+  "lights": "warm key, cool sky proxy, restrained rim; true geometry depth-map soft shadows",
+  "texture_strategy": "approved or premium image-generated broad material swatches, large semantic UV islands; no sine/noise replacement texture",
+  "software_cpu_preview": true,
+  "NOT_Blender_or_Unity_validation": true,
+  "rss_peak_kib": 170832,
+  "duration_seconds": 2.47,
+  "triangle_budget_pass": true
+}

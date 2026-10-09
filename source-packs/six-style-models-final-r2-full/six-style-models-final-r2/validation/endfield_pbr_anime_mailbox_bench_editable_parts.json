@@ -1,0 +1,10 @@
+{
+  "file": "endfield_pbr_anime_mailbox_bench_editable_parts.glb",
+  "sha256": "f6f2f9db6bd9ac596a4d9e46923a65a95e7cd80f13b190ecd0d975fe72cb2d03",
+  "bytes": 2617396,
+  "separately_editable_mesh_nodes": 103,
+  "triangles": 3308,
+  "same_runtime_mesh_source": "endfield_pbr_anime_mailbox_bench.glb",
+  "materials": 3,
+  "purpose": "Editable source, not optimized runtime draw-call budget"
+}

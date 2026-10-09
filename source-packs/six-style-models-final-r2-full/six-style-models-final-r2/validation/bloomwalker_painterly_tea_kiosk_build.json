@@ -1,0 +1,16 @@
+{
+  "file": "bloomwalker_painterly_tea_kiosk.glb",
+  "sha256": "d0aff60ab2980f9250bc93dedd998d7abc1e2b8b87321b512cb4b50304a5dc1d",
+  "bytes": 1544140,
+  "triangles": 4382,
+  "editable_parts": 129,
+  "actual_materials": 3,
+  "actual_primitives": 2,
+  "atlas_file": "atlases/bloomwalker_painterly_atlas_r3_runtime1024.png",
+  "atlas_sha256": "f6857899f381281e15c814aef33429349be284b4808d30dca322e6f0bc3acb95",
+  "uv_inner_cell_margin": 0.13,
+  "style_direction": "bloomwalker_painterly",
+  "build_rss_peak_kib": 61508,
+  "texture_quality_reference": "Approved earlier flower stall, not the rejected technical fixture",
+  "runtime_validation": "pending; GLB numerical round-trip follows separately"
+}
