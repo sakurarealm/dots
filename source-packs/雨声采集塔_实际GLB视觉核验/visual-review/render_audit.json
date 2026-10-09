@@ -1,0 +1,800 @@
+{
+  "zip": "01_雨声采集塔_六方向GLB候选_端盖修订.zip",
+  "zip_sha256": "abec399953b5c22b42206db957db8f88c06a2ceb835348c89ec14b2da1a4bfb0",
+  "mapping": [
+    "01 Genshin / cel candidate",
+    "02 Endfield / PBR anime",
+    "03 Ghibli / gouache candidate",
+    "04 BK / uncalibrated",
+    "05 Hand-painted oil candidate",
+    "06 Bloomwalker / soft paint"
+  ],
+  "view_definition": {
+    "three_quarter": [
+      35,
+      15
+    ],
+    "front_plus_z": [
+      0,
+      0
+    ],
+    "side_plus_x": [
+      90,
+      0
+    ]
+  },
+  "camera_target": [
+    0,
+    1.15,
+    0
+  ],
+  "pixels_per_world_unit": 87,
+  "model_tile_resolution": [
+    256,
+    256
+  ],
+  "max_address_space_bytes": 268435456,
+  "max_rss_kib": 91592,
+  "models": [
+    {
+      "nodes": [
+        {
+          "name": "rain_tower",
+          "mesh": 0
+        }
+      ],
+      "bounds_min": [
+        -0.5899999737739563,
+        0.018321573734283447,
+        -0.6003999710083008
+      ],
+      "bounds_max": [
+        0.5899999737739563,
+        2.25,
+        0.6003999710083008
+      ],
+      "triangles": 2852,
+      "materials": [
+        {
+          "name": "BroadPaint_genshin_cel",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 0.86,
+            "metallicFactor": 0
+          }
+        },
+        {
+          "name": "SelectiveMetal_genshin_cel",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 0.3,
+            "metallicFactor": 0.95
+          }
+        },
+        {
+          "name": "PaintedFoliage_genshin_cel",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 0.9,
+            "metallicFactor": 0
+          }
+        }
+      ],
+      "accessors": [
+        {
+          "bufferView": 0,
+          "componentType": 5126,
+          "count": 5016,
+          "type": "VEC3",
+          "min": [
+            -0.5899999737739563,
+            0.018321573734283447,
+            -0.5899999737739563
+          ],
+          "max": [
+            0.5899999737739563,
+            2.25,
+            0.5899999737739563
+          ]
+        },
+        {
+          "bufferView": 1,
+          "componentType": 5126,
+          "count": 5016,
+          "type": "VEC3",
+          "min": [
+            -0.999591052532196,
+            -0.9996427297592163,
+            -0.9984217882156372
+          ],
+          "max": [
+            0.9990237355232239,
+            0.9968014359474182,
+            0.9984217882156372
+          ]
+        },
+        {
+          "bufferView": 2,
+          "componentType": 5126,
+          "count": 5016,
+          "type": "VEC2"
+        },
+        {
+          "bufferView": 3,
+          "componentType": 5125,
+          "count": 5016,
+          "type": "SCALAR"
+        },
+        {
+          "bufferView": 4,
+          "componentType": 5126,
+          "count": 3540,
+          "type": "VEC3",
+          "min": [
+            -0.5218571424484253,
+            0.32288098335266113,
+            -0.6003999710083008
+          ],
+          "max": [
+            0.5218571424484253,
+            2.24780011177063,
+            0.6003999710083008
+          ]
+        },
+        {
+          "bufferView": 5,
+          "componentType": 5126,
+          "count": 3540,
+          "type": "VEC3",
+          "min": [
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "max": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "bufferView": 6,
+          "componentType": 5126,
+          "count": 3540,
+          "type": "VEC2"
+        },
+        {
+          "bufferView": 7,
+          "componentType": 5125,
+          "count": 3540,
+          "type": "SCALAR"
+        }
+      ],
+      "file": "01_原神参考_赛璐璐.glb",
+      "sha256": "a2d831691bba39024f4676394def1f0ef657d682a9f76727350a010707d71ef1"
+    },
+    {
+      "nodes": [
+        {
+          "name": "rain_tower",
+          "mesh": 0
+        }
+      ],
+      "bounds_min": [
+        -0.5986806154251099,
+        0.009999997913837433,
+        -0.48500001430511475
+      ],
+      "bounds_max": [
+        0.5986806154251099,
+        2.190758228302002,
+        0.48500001430511475
+      ],
+      "triangles": 3464,
+      "materials": [
+        {
+          "name": "BroadPaint_endfield_pbr_anime",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 1,
+            "metallicFactor": 1,
+            "metallicRoughnessTexture": {
+              "index": 1
+            }
+          }
+        },
+        {
+          "name": "SelectiveMetal_endfield_pbr_anime",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 1,
+            "metallicFactor": 1,
+            "metallicRoughnessTexture": {
+              "index": 1
+            }
+          }
+        },
+        {
+          "name": "PaintedFoliage_endfield_pbr_anime",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 1,
+            "metallicFactor": 1,
+            "metallicRoughnessTexture": {
+              "index": 1
+            }
+          }
+        }
+      ],
+      "accessors": [
+        {
+          "bufferView": 0,
+          "componentType": 5126,
+          "count": 2616,
+          "type": "VEC3",
+          "min": [
+            -0.4150000214576721,
+            0.009999997913837433,
+            -0.46373066306114197
+          ],
+          "max": [
+            0.5349999666213989,
+            1.3600000143051147,
+            0.46373066306114197
+          ]
+        },
+        {
+          "bufferView": 1,
+          "componentType": 5126,
+          "count": 2616,
+          "type": "VEC3",
+          "min": [
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "max": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "bufferView": 2,
+          "componentType": 5126,
+          "count": 2616,
+          "type": "VEC2"
+        },
+        {
+          "bufferView": 3,
+          "componentType": 5125,
+          "count": 2616,
+          "type": "SCALAR"
+        },
+        {
+          "bufferView": 4,
+          "componentType": 5126,
+          "count": 7776,
+          "type": "VEC3",
+          "min": [
+            -0.5986806154251099,
+            0.044999994337558746,
+            -0.48500001430511475
+          ],
+          "max": [
+            0.5986806154251099,
+            2.190758228302002,
+            0.48500001430511475
+          ]
+        },
+        {
+          "bufferView": 5,
+          "componentType": 5126,
+          "count": 7776,
+          "type": "VEC3",
+          "min": [
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "max": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "bufferView": 6,
+          "componentType": 5126,
+          "count": 7776,
+          "type": "VEC2"
+        },
+        {
+          "bufferView": 7,
+          "componentType": 5125,
+          "count": 7776,
+          "type": "SCALAR"
+        }
+      ],
+      "file": "02_终末地参考_物理动漫.glb",
+      "sha256": "b5b9d4e364d819c43323a077a1a237cb57ef9dce108f290931fc57f598839fe7"
+    },
+    {
+      "nodes": [
+        {
+          "name": "rain_tower",
+          "mesh": 0
+        }
+      ],
+      "bounds_min": [
+        -0.6353665590286255,
+        0.021124277263879776,
+        -0.6046475768089294
+      ],
+      "bounds_max": [
+        0.555366575717926,
+        2.1416268348693848,
+        0.5846475958824158
+      ],
+      "triangles": 3692,
+      "materials": [
+        {
+          "name": "BroadPaint_ghibli_poster",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 0.98,
+            "metallicFactor": 0
+          }
+        },
+        {
+          "name": "SelectiveMetal_ghibli_poster",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 0.8,
+            "metallicFactor": 0.95
+          }
+        },
+        {
+          "name": "PaintedFoliage_ghibli_poster",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 0.96,
+            "metallicFactor": 0
+          }
+        }
+      ],
+      "accessors": [
+        {
+          "bufferView": 0,
+          "componentType": 5126,
+          "count": 11076,
+          "type": "VEC3",
+          "min": [
+            -0.6353665590286255,
+            0.021124277263879776,
+            -0.6046475768089294
+          ],
+          "max": [
+            0.555366575717926,
+            2.1416268348693848,
+            0.5846475958824158
+          ]
+        },
+        {
+          "bufferView": 1,
+          "componentType": 5126,
+          "count": 11076,
+          "type": "VEC3",
+          "min": [
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "max": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "bufferView": 2,
+          "componentType": 5126,
+          "count": 11076,
+          "type": "VEC2"
+        },
+        {
+          "bufferView": 3,
+          "componentType": 5125,
+          "count": 11076,
+          "type": "SCALAR"
+        }
+      ],
+      "file": "03_宫崎骏参考_水粉.glb",
+      "sha256": "2b176f727c05101d7d1d69b9e7278548e53597af20a4111a0f13cc0a54495395"
+    },
+    {
+      "nodes": [
+        {
+          "name": "rain_tower",
+          "mesh": 0
+        }
+      ],
+      "bounds_min": [
+        -0.5659999847412109,
+        0.03947517275810242,
+        -0.5659999847412109
+      ],
+      "bounds_max": [
+        0.5659999847412109,
+        2.065000057220459,
+        0.5659999847412109
+      ],
+      "triangles": 5216,
+      "materials": [
+        {
+          "name": "BroadPaint_bk_project_candidate",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 0.88,
+            "metallicFactor": 0
+          }
+        },
+        {
+          "name": "SelectiveMetal_bk_project_candidate",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 0.42,
+            "metallicFactor": 0.95
+          }
+        },
+        {
+          "name": "PaintedFoliage_bk_project_candidate",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 0.84,
+            "metallicFactor": 0
+          }
+        }
+      ],
+      "accessors": [
+        {
+          "bufferView": 0,
+          "componentType": 5126,
+          "count": 15648,
+          "type": "VEC3",
+          "min": [
+            -0.5659999847412109,
+            0.03947517275810242,
+            -0.5659999847412109
+          ],
+          "max": [
+            0.5659999847412109,
+            2.065000057220459,
+            0.5659999847412109
+          ]
+        },
+        {
+          "bufferView": 1,
+          "componentType": 5126,
+          "count": 15648,
+          "type": "VEC3",
+          "min": [
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "max": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "bufferView": 2,
+          "componentType": 5126,
+          "count": 15648,
+          "type": "VEC2"
+        },
+        {
+          "bufferView": 3,
+          "componentType": 5125,
+          "count": 15648,
+          "type": "SCALAR"
+        }
+      ],
+      "file": "04_BK候选_未校准.glb",
+      "sha256": "cec6d78df8be221e739b84f7a5bb5eab0567a408482665fe440984db13451e14"
+    },
+    {
+      "nodes": [
+        {
+          "name": "rain_tower",
+          "mesh": 0
+        }
+      ],
+      "bounds_min": [
+        -0.6909999847412109,
+        0.019765198230743408,
+        -0.6476529240608215
+      ],
+      "bounds_max": [
+        0.5604959726333618,
+        2.190621852874756,
+        0.5676528811454773
+      ],
+      "triangles": 2972,
+      "materials": [
+        {
+          "name": "BroadPaint_oil_handpaint",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 0.91,
+            "metallicFactor": 0
+          }
+        },
+        {
+          "name": "SelectiveMetal_oil_handpaint",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 0.5,
+            "metallicFactor": 0.95
+          }
+        },
+        {
+          "name": "PaintedFoliage_oil_handpaint",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 0.91,
+            "metallicFactor": 0
+          }
+        }
+      ],
+      "accessors": [
+        {
+          "bufferView": 0,
+          "componentType": 5126,
+          "count": 8520,
+          "type": "VEC3",
+          "min": [
+            -0.6909999847412109,
+            0.019765198230743408,
+            -0.6476529240608215
+          ],
+          "max": [
+            0.5604959726333618,
+            2.190621852874756,
+            0.5676528811454773
+          ]
+        },
+        {
+          "bufferView": 1,
+          "componentType": 5126,
+          "count": 8520,
+          "type": "VEC3",
+          "min": [
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "max": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "bufferView": 2,
+          "componentType": 5126,
+          "count": 8520,
+          "type": "VEC2"
+        },
+        {
+          "bufferView": 3,
+          "componentType": 5125,
+          "count": 8520,
+          "type": "SCALAR"
+        },
+        {
+          "bufferView": 4,
+          "componentType": 5126,
+          "count": 396,
+          "type": "VEC3",
+          "min": [
+            -0.39499998092651367,
+            1.3025000095367432,
+            0.23250000178813934
+          ],
+          "max": [
+            0.4750000238418579,
+            1.6475000381469727,
+            0.2574999928474426
+          ]
+        },
+        {
+          "bufferView": 5,
+          "componentType": 5126,
+          "count": 396,
+          "type": "VEC3",
+          "min": [
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "max": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "bufferView": 6,
+          "componentType": 5126,
+          "count": 396,
+          "type": "VEC2"
+        },
+        {
+          "bufferView": 7,
+          "componentType": 5125,
+          "count": 396,
+          "type": "SCALAR"
+        }
+      ],
+      "file": "05_手绘油画候选.glb",
+      "sha256": "60f44a013e3a185de8ac6ab80e9fdaa202bae35bc74e7e92c2287a5cac942cfc"
+    },
+    {
+      "nodes": [
+        {
+          "name": "rain_tower",
+          "mesh": 0
+        }
+      ],
+      "bounds_min": [
+        -0.7799999713897705,
+        -0.00834382139146328,
+        -0.5479999780654907
+      ],
+      "bounds_max": [
+        0.4788573682308197,
+        2.25,
+        0.466928094625473
+      ],
+      "triangles": 3952,
+      "materials": [
+        {
+          "name": "BroadPaint_bloomwalker_painterly",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 0.8,
+            "metallicFactor": 0
+          }
+        },
+        {
+          "name": "SelectiveMetal_bloomwalker_painterly",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 0.49,
+            "metallicFactor": 0.95
+          }
+        },
+        {
+          "name": "PaintedFoliage_bloomwalker_painterly",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 0.78,
+            "metallicFactor": 0
+          }
+        }
+      ],
+      "accessors": [
+        {
+          "bufferView": 0,
+          "componentType": 5126,
+          "count": 11856,
+          "type": "VEC3",
+          "min": [
+            -0.7799999713897705,
+            -0.00834382139146328,
+            -0.5479999780654907
+          ],
+          "max": [
+            0.4788573682308197,
+            2.25,
+            0.466928094625473
+          ]
+        },
+        {
+          "bufferView": 1,
+          "componentType": 5126,
+          "count": 11856,
+          "type": "VEC3",
+          "min": [
+            -0.9998860955238342,
+            -0.9995610117912292,
+            -0.9999856948852539
+          ],
+          "max": [
+            0.9993115663528442,
+            0.9992932677268982,
+            0.9999975562095642
+          ]
+        },
+        {
+          "bufferView": 2,
+          "componentType": 5126,
+          "count": 11856,
+          "type": "VEC2"
+        },
+        {
+          "bufferView": 3,
+          "componentType": 5125,
+          "count": 11856,
+          "type": "SCALAR"
+        }
+      ],
+      "file": "06_Bloomwalker参考_柔绘.glb",
+      "sha256": "dc0b4a82cb991ec2d6e28bcbe5e3227df66c8fda75b9f6410b73b6803a44ac20"
+    }
+  ],
+  "limitations": [
+    "CPU approximate diffuse lighting, not full glTF PBR; metallic/roughness textures not rendered.",
+    "No custom style shader, outline, shadow, AO, transparency blending, animation, engine or mobile validation.",
+    "Nearest-neighbor base-color sampling; no antialiasing at 256px tile resolution.",
+    "Front +Z and side +X are declared camera conventions, not authored front metadata.",
+    "Camera, framing, lighting and original transforms are consistent across all models."
+  ]
+}
