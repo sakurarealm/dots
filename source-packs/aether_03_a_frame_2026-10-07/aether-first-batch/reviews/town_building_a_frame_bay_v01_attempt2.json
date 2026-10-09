@@ -1,0 +1,139 @@
+{
+  "id": "town_building_a_frame_bay_v01",
+  "verdict": "PASS",
+  "score": 15,
+  "dims": {
+    "silhouette": 3,
+    "proportion": 3,
+    "color_id": 2,
+    "material": 2,
+    "emissive": 3,
+    "craft": 2
+  },
+  "attempt": 2,
+  "reviewer": "independent_revised_asset_visual_review",
+  "reviewed_at_utc": "2026-10-07T21:54:45.392963+00:00",
+  "gate": {
+    "scale": "each dimension 0-3",
+    "pass_minimum": 13,
+    "zero_dimension_allowed": false,
+    "second_failure": "ESCALATED; no additional automatic rework"
+  },
+  "asset_scope": "1m-deep repeatable A-frame bay module, not a finished building. Full-building wall/door/interior/6 attachments/lamps/site requirements do not apply.",
+  "emissive_applicability": "No emissive feature is required for this static structural module. Score 3 recognizes no false emissive interaction cue; it is not a shader or lighting validation.",
+  "issues": [
+    "非阻断：同机位LOD1/2接头黄铜片仍在，但LOD0左右节点黑钉头与屋脊暗部特征明显消失。后续若优化，请将这几处主要黑钉头排除木件整体简化，或在同一共享材质上保留相当大小的暗色节点；不要再声称五金视觉完全无损。",
+    "非阻断：detail中黄铜片读成哑光黄绿色板，金属/木材区分尚弱。后续在现有共享黄铜材质内提升局部反射/明度分离，同时保持小面积五金与哑光木主体，不增加材质层级。"
+  ],
+  "dimension_reasons": {
+    "silhouette": "正面与透视均为明确陡A字，四柱/横梁/斜撑可读，透明图标缩小后类别仍成立。",
+    "proportion": "跨度、屋顶高度与薄片进深的视觉关系合理，支撑没有明显拉伸或穿插。报告称4m结构跨度/1m进深/0.40m檐口/44.52度；精确数值来自附带报告而非看图量测。",
+    "color_id": "暖木主体+单一绿色小点缀，深色屋缘已与板面分离；配色克制但金属与木同属近似暖色，节点色彩层级仍偏弱。",
+    "material": "宽低频笔触与沿梁长轴渐变可见，板材有轻微逐板色差，木主体哑光，无高频窄纹主导；黄铜仍偏哑光，绿布较平板，故不满分。",
+    "emissive": "无发光白斑、无假交互提示，符合本构件范围，不要求加灯。",
+    "craft": "几何板缝/节点/支撑清楚，灰模大面干净；LOD1/2主形和接头片保持，但黑钉头对比损失，未满分。"
+  },
+  "first_round_comparison": {
+    "first_round_verdict": "FAIL",
+    "first_round_score": 11,
+    "first_round_report": "/workspace/shared/aether-assets/reviews/town_building_a_frame_bay_v01.json",
+    "roof": "视觉已改善为陡A字",
+    "dark_caps": "视觉已有深浅层级",
+    "wood_frequency": "已明显降低，宽顺纹明暗可读",
+    "lod_nodes": "接头片/布可读改善，但黑钉头细节仍有损失"
+  },
+  "images": [
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_building_a_frame_bay_v01/front.png",
+      "sha256": "63d53508c2eca6cdf0fbc50de53cb5e326eeeaaf5ccd483ea2f2d567d8057705",
+      "opened_with": "view_image",
+      "observation": "正视陡A字清楚，屋顶与跨度不再扁平；左右檐口伸出支柱，前后结构支撑可辨。压边与屋板已有深浅分离，左右节点片和钉头可见；绿色单点缀可见，没有发光白斑。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_building_a_frame_bay_v01/back.png",
+      "sha256": "276a040f76986f38a6eea3f6358711eb72d17661d5e93d4de57248c46d867ccf",
+      "opened_with": "view_image",
+      "observation": "与正面结构对应，屋脊与斜梁连贯，后侧无额外色彩或假发光。左右支柱及斜撑读得清楚，未见明显穿模或破面。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_building_a_frame_bay_v01/left.png",
+      "sha256": "ef793c5cfe93de565663b104ab099a570e9452cda10cff46d7dd33cb9a9d9467",
+      "opened_with": "view_image",
+      "observation": "薄片式1m重复进深的构件轮廓明确，屋面板缝为几何边界，板间有轻微明度差，边框比板面深。不是完整建筑，不按缺墙/门/灯扣分。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_building_a_frame_bay_v01/right.png",
+      "sha256": "d1873936cf7cd2146ad5959db0f19f4baf3de3dc3b8ae963c5fda60f7e219c42",
+      "opened_with": "view_image",
+      "observation": "与左视相符，支柱、屋面外缘连接清楚。低频木色方向较首轮说明中的细密重复条纹改善；未见非对称破损。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_building_a_frame_bay_v01/top.png",
+      "sha256": "4b087ef10f39f7d8b7ad90c7395b8b5933c11794a413aa97e52b6a8c63372a2b",
+      "opened_with": "view_image",
+      "observation": "两坡板材和中央屋脊界线可读，周边压条明显更深。板材颜色变化柔和，仍是规整等距模块，未见大块UV错位。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_building_a_frame_bay_v01/perspective.png",
+      "sha256": "98d28180260b965062465e20d56439508d31b9ef5ae21fc6fd29ce558426c15d",
+      "opened_with": "view_image",
+      "observation": "A字梁架、四立柱、横梁与斜撑关系清楚，边框与屋板不同明度。若干屋板缝可透见背景，不把它当屋面密封或天气验证；黄铜片面积小但能辨认。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_building_a_frame_bay_v01/detail.png",
+      "sha256": "08ca2eb87b3c8f9684ca0026015be16d74da4a88291087885ac29a7a985cf86a",
+      "opened_with": "view_image",
+      "observation": "宽顺构件方向明暗笔触替代高频窄纹；木梁宽面和边面清楚。黄铜片及圆钉存在，但整体偏哑光黄绿，金属反射身份较弱；绿布仍接近平板片，未见穿插。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_building_a_frame_bay_v01/clay.png",
+      "sha256": "f3410ee0e6d50c61c275b04f20bfef58bae2573234643f2dab881dc763c948cf",
+      "opened_with": "view_image",
+      "observation": "灰模可辨梁柱大面、斜撑、屋面板缝及节点厚度，无描边。构件转折干净，未见明显碎面或悬空支撑。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_building_a_frame_bay_v01/lod0.png",
+      "sha256": "57a91b190a19691ec8b070b0987f66f9bf4b03d741f2cd2f5273894aa34545f6",
+      "opened_with": "view_image",
+      "observation": "同机位主剪影、深色屋缘、黄铜片、绿布及黑钉头均可读，作为LOD视觉对照基准。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_building_a_frame_bay_v01/lod1.png",
+      "sha256": "6f9512cdaceea6457a9db0c93461db4783c7234cc6b51d0f990d09ab916645da",
+      "opened_with": "view_image",
+      "observation": "主剪影、屋板、节点黄铜片和绿布保留；与同机位LOD0相比，左右节点黑色钉头与屋脊黑色小形状的对比消失，不能称五金视觉完全无损。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_building_a_frame_bay_v01/lod2.png",
+      "sha256": "8ab3d4cb2765cb650ed62dab9b87e123faeae5c954a15308a1ea7e2d03eb73ab",
+      "opened_with": "view_image",
+      "observation": "A字主剪影、支柱/斜撑、板材节奏、接头片和绿布仍保留；简化后板缝略变化，黑钉头同LOD1较弱/不可见。只证明此棚拍距离轮廓可读，不证明运行时LOD切换稳定。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_building_a_frame_bay_v01/icon.png",
+      "sha256": "719b57337d5d2491cb88828c7fd2c932a8adb0f7d7a50234ecfaa088a0bcd1a9",
+      "opened_with": "view_image",
+      "observation": "透明图标中的A字木构件类别仍可识别，没有把文字或库存烘入。小绿布和五金在256图标里非常细，不拿缩略图替代细节图评审。"
+    }
+  ],
+  "references_read": [
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Tools/ArtForge/PROMPT_review.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/ArtDirection/2026-10-03_治愈奇幻风格化改造方案.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/ArtDirection/2026-09-29_未眠野美术三纪律落地.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/ArtStudy/2026-10-01_美术参考与原创资产管线.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/TownGameplay/2026-09-29/ART-P0-SAMPLES.md"
+  ],
+  "reference_limits": "2026-10-03 proposal B2/M1-M4 is used as provisional sample direction. Earlier 2026-09-30 outline/rim-light/Standard instructions conflict with later no-outline direction and are not imposed. This report is not proof of current Unity project rules.",
+  "evidence_report_read": "/workspace/shared/aether-assets/reports/town_building_a_frame_bay_v01.json",
+  "not_validated": [
+    "Unity import",
+    "Unity runtime",
+    "HDRP shader/material appearance",
+    "collision/navigation",
+    "LOD screen-space transitions or TAA",
+    "multi-module repeating seam render",
+    "UV pixel-density audit",
+    "source material properties or exact geometric slope by independent measurement"
+  ],
+  "boundary": "Independent image-based verdict only. All 12 listed images actually opened sequentially with view_image. No source/export/image modifications, no Blender execution, no Codex task, no user computer, no Unity pass claim."
+}

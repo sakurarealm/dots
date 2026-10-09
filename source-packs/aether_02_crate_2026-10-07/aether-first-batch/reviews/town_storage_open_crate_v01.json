@@ -1,0 +1,133 @@
+{
+  "id": "town_storage_open_crate_v01",
+  "verdict": "PASS",
+  "score": 16,
+  "dims": {
+    "silhouette": 3,
+    "proportion": 3,
+    "color_id": 3,
+    "material": 2,
+    "emissive": 3,
+    "craft": 2
+  },
+  "attempt": 1,
+  "reviewer": "independent_revised_asset_visual_review",
+  "reviewed_at_utc": "2026-10-07T22:06:40.933932+00:00",
+  "gate": {
+    "scale": "each dimension 0-3",
+    "pass_minimum": 13,
+    "zero_dimension_allowed": false,
+    "second_failure": "ESCALATED; no additional automatic rework"
+  },
+  "asset_scope": "Reusable empty open wooden carrying crate. No inventory contents or game registry implied; grip/collision behavior is outside this image-only review.",
+  "emissive_applicability": "No emissive feature is required for this ordinary static empty container sample. Score 3 recognizes no false emissive interaction cue; no lighting/shader validation is implied.",
+  "issues": [
+    "非阻断：LOD0左右侧顶框端头短黑缝在LOD1消失，LOD2顶框/角柱边缘局部削成尖三角、上方绿小片轮廓变大。后续简化时保护顶框外轮廓与角柱接头的主要边界，统一端头收口，并按实际引擎切换屏幕占比检查跳变。",
+    "非阻断：detail中绿色片厚直，短上片与长下片连续挂接不明显，偏硬板。后续用薄边、1-2条低模折痕与可见的挂接/折返改善布感，保留既有绿色材质；避免覆盖更多握孔。",
+    "非阻断：黄铜条在近景偏哑光黄绿，与木材表面反射层级相近。后续在现有共享黄铜材质内适度提升反射/明度区别，继续保持少量五金，不增加材质槽或装饰灯。"
+  ],
+  "dimension_reasons": {
+    "silhouette": "透视/顶视/图标都能直接读成开放空木箱，水平板条与上沿握孔是清楚的类别信息。",
+    "proportion": "箱宽/深/高视觉比例合理，板厚和角柱有支撑逻辑；0.75x0.50x0.50m主体及4.65cm握孔净高来自附带报告，图里未独立量测，抓握可用性须实机验证。",
+    "color_id": "暖棕木材占主导，绿色片为唯一明显饱和点缀，黄铜色克制；内部较暗帮助读空腔，无杂色竞争。",
+    "material": "顺长轴宽低频木色变化与哑光木体块可读，无细密重复纹主导。布片硬直、黄铜条反射身份弱，材质分工有空间。",
+    "emissive": "无发光白斑和假交互提示，本件不要求人为加灯。",
+    "craft": "顶面转角大黑块未见，真实板缝/握孔/内腔较干净；侧端短黑缝及LOD1/2转角变化仍见，不能称LOD外观无损。"
+  },
+  "images": [
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_storage_open_crate_v01/front.png",
+      "sha256": "bc67e23960ab28028fabfbfe74a12814c10a4d3cc45b24d6680c1c14beb9af16",
+      "opened_with": "view_image",
+      "observation": "木箱长侧的水平板条、真实板缝、顶部长握孔及两条小面积黄铜色件可见。绿色片为单点缀；主体不发光，箱体未烘入内容物。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_storage_open_crate_v01/back.png",
+      "sha256": "1dbe59f067ca0b5aab208b0fd4aa7e0f09a06a6850ca218da3a82a6374f2f24a",
+      "opened_with": "view_image",
+      "observation": "背侧同样有长握孔，槽后空间可见，前侧绿色片透过孔缝局部可见。支撑与板条对应，无明显板面错位。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_storage_open_crate_v01/left.png",
+      "sha256": "8629de4e8d4d464d1de5b67fa713de2a1276ca4975b169146013d7246517db8f",
+      "opened_with": "view_image",
+      "observation": "短侧板条与底板关系清楚；上方两端仍有短黑色矩形缝口，该外观不等同于已消除的顶面四角大黑块，也不能只凭图判定成因。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_storage_open_crate_v01/right.png",
+      "sha256": "2bb799358a435d07a70b6314510a2d30eca4db191de6251d0f55483f8e204e6a",
+      "opened_with": "view_image",
+      "observation": "与左视一致，上方两端短黑缝仍可见；绿色片在一端侧缘可见，没有额外饱和色争焦点。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_storage_open_crate_v01/top.png",
+      "sha256": "6f51ea8bf7ec62e83f0618f12fbb15569b75a00b3b77be7e715cf4a3dc1b8ec6",
+      "opened_with": "view_image",
+      "observation": "开口与空箱内部四块底板清楚，顶框转角没有大片黑顶面；顶框及底板颜色统一而有沿长轴低频渐变。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_storage_open_crate_v01/perspective.png",
+      "sha256": "62d4484bcdf7f3014cdae36d1652a75c7096ad8cc0f6bd8e812fa8b40ee6ee29",
+      "opened_with": "view_image",
+      "observation": "开放箱口、内侧支柱、板条间隙、前后握孔均可辨；顶框不再有大片黑块，端头短黑缝仍见。黄色五金和绿色片可辨，但布片较直硬。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_storage_open_crate_v01/detail.png",
+      "sha256": "bd08f9cf079f219cae71186bb1169d69522cc37a35f1f2e39b28fba41b97a8ef",
+      "opened_with": "view_image",
+      "observation": "木板顺长轴宽低频笔触/渐变可见；近景绿色长片厚且平直，短上片与长下片之间连续挂接不明显；黄铜条偏哑光黄绿，金属身份弱于木材。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_storage_open_crate_v01/clay.png",
+      "sha256": "545eaba0ce647cb457a518139d5b6017a4b08d9bb32474e18e7d01c92b4d1c20",
+      "opened_with": "view_image",
+      "observation": "灰模开放箱口、板缝、握孔及支撑可读，未见大面积破面或悬空箱壁，无黑色描边。端头黑缝仍见，绿色对应的片为平板状几何。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_storage_open_crate_v01/lod0.png",
+      "sha256": "f1ba0218cf3f1c8b76136c2d92dd78f4cc72e64b14040c1d6385028e320743c6",
+      "opened_with": "view_image",
+      "observation": "同机位空箱主轮廓、握孔、板材节奏、五金条和绿色片完整，顶框端头短黑缝可见。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_storage_open_crate_v01/lod1.png",
+      "sha256": "f3ea508a41389a5a994c0e3f707e4ce2511ca00c179eafb1ead3e3274d24b4a2",
+      "opened_with": "view_image",
+      "observation": "开口、握孔、板缝及五金/绿色片保持；LOD0侧顶框端头黑缝消失，转角边面略改变，不能称完全无损。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_storage_open_crate_v01/lod2.png",
+      "sha256": "fe556dba6b0463cc59cdc0a0f0b8446e0f2fa3d951c24c7f8d2c48f952ddfe52",
+      "opened_with": "view_image",
+      "observation": "开放箱体和握孔仍可辨，五金/绿色主片保留；部分顶框和角柱边缘变成较尖三角形，侧板接缝/转角轮廓有明显变化，上方绿色小片轮廓也变大。需要按引擎实际屏幕占比验切换。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_storage_open_crate_v01/icon.png",
+      "sha256": "577bfb5b1114ea85aaae988cf0bb0d85dc08212315a0d249fe51499e87f794ac",
+      "opened_with": "view_image",
+      "observation": "透明256图标仍能读成空开口木箱，内腔、水平板材和绿色标记成立，无文字或库存内容。"
+    }
+  ],
+  "references_read": [
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Tools/ArtForge/PROMPT_review.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/ArtDirection/2026-10-03_治愈奇幻风格化改造方案.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/ArtDirection/2026-09-29_未眠野美术三纪律落地.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/ArtStudy/2026-10-01_美术参考与原创资产管线.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/TownGameplay/2026-09-29/ART-P0-SAMPLES.md"
+  ],
+  "reference_limits": "Newest supplied 2026-10-03 proposal M1-M4 used as provisional sample style. Earlier outline/rim-light/Standard instructions are not imposed. No current-workspace/latest-rule guarantee.",
+  "evidence_report_read": "/workspace/shared/aether-assets/reports/town_storage_open_crate_v01.json",
+  "not_validated": [
+    "Unity import",
+    "Unity runtime",
+    "HDRP shader/material appearance",
+    "collision/navigation",
+    "LOD screen-space transitions/TAA",
+    "hand grip/IK suitability",
+    "inventory integration or registry",
+    "independent absolute scale measurement",
+    "UV pixel-density audit",
+    "cause of side top-frame short black slits"
+  ],
+  "boundary": "Independent image-based verdict only. All 12 listed images actually opened sequentially with view_image after maker confirmed final corner-corrected set complete. No source/export/image modifications, no Blender execution, no Codex task, no user computer, no Unity pass claim."
+}

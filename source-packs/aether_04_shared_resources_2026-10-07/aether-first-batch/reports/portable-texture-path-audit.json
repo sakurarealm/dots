@@ -1,0 +1,191 @@
+[
+  {
+    "asset": "town_building_a_frame_bay_v01",
+    "original_source_untouched": true,
+    "geometry_uv_transform_sha256_before": "c48879048003f848173e4296d09352ca0b547dee6cbde8b74008b9aa5e40e140",
+    "geometry_uv_transform_sha256_after": "c48879048003f848173e4296d09352ca0b547dee6cbde8b74008b9aa5e40e140",
+    "geometry_uv_transform_unchanged": true,
+    "images": [
+      {
+        "image": "T_Cloth_Canvas_BaseColor.png",
+        "path": "//../textures/T_Cloth_Canvas_BaseColor.png",
+        "external_file_exists_after_extract_layout": true,
+        "packed": true
+      },
+      {
+        "image": "T_Cloth_Canvas_NormalGL.png",
+        "path": "//../textures/T_Cloth_Canvas_NormalGL.png",
+        "external_file_exists_after_extract_layout": true,
+        "packed": true
+      },
+      {
+        "image": "T_Cloth_Canvas_Roughness.png",
+        "path": "//../textures/T_Cloth_Canvas_Roughness.png",
+        "external_file_exists_after_extract_layout": true,
+        "packed": true
+      },
+      {
+        "image": "T_Metal_Brass_BaseColor.png",
+        "path": "//../textures/T_Metal_Brass_BaseColor.png",
+        "external_file_exists_after_extract_layout": true,
+        "packed": true
+      },
+      {
+        "image": "T_Metal_Brass_NormalGL.png",
+        "path": "//../textures/T_Metal_Brass_NormalGL.png",
+        "external_file_exists_after_extract_layout": true,
+        "packed": true
+      },
+      {
+        "image": "T_Metal_Brass_Roughness.png",
+        "path": "//../textures/T_Metal_Brass_Roughness.png",
+        "external_file_exists_after_extract_layout": true,
+        "packed": true
+      },
+      {
+        "image": "T_Wood_Warm_BaseColor.png",
+        "path": "//../textures/T_Wood_Warm_BaseColor.png",
+        "external_file_exists_after_extract_layout": true,
+        "packed": true
+      },
+      {
+        "image": "T_Wood_Warm_NormalGL.png",
+        "path": "//../textures/T_Wood_Warm_NormalGL.png",
+        "external_file_exists_after_extract_layout": true,
+        "packed": true
+      },
+      {
+        "image": "T_Wood_Warm_Roughness.png",
+        "path": "//../textures/T_Wood_Warm_Roughness.png",
+        "external_file_exists_after_extract_layout": true,
+        "packed": true
+      }
+    ]
+  },
+  {
+    "asset": "town_shared_workbench_v01",
+    "original_source_untouched": true,
+    "geometry_uv_transform_sha256_before": "903535f98a7d5bdd70396466c58e6126928d65d9e27aa7289fda0293989b6511",
+    "geometry_uv_transform_sha256_after": "903535f98a7d5bdd70396466c58e6126928d65d9e27aa7289fda0293989b6511",
+    "geometry_uv_transform_unchanged": true,
+    "images": [
+      {
+        "image": "T_Cloth_Canvas_BaseColor.png",
+        "path": "//../textures/T_Cloth_Canvas_BaseColor.png",
+        "external_file_exists_after_extract_layout": true,
+        "packed": true
+      },
+      {
+        "image": "T_Cloth_Canvas_NormalGL.png",
+        "path": "//../textures/T_Cloth_Canvas_NormalGL.png",
+        "external_file_exists_after_extract_layout": true,
+        "packed": true
+      },
+      {
+        "image": "T_Cloth_Canvas_Roughness.png",
+        "path": "//../textures/T_Cloth_Canvas_Roughness.png",
+        "external_file_exists_after_extract_layout": true,
+        "packed": true
+      },
+      {
+        "image": "T_Metal_Brass_BaseColor.png",
+        "path": "//../textures/T_Metal_Brass_BaseColor.png",
+        "external_file_exists_after_extract_layout": true,
+        "packed": true
+      },
+      {
+        "image": "T_Metal_Brass_NormalGL.png",
+        "path": "//../textures/T_Metal_Brass_NormalGL.png",
+        "external_file_exists_after_extract_layout": true,
+        "packed": true
+      },
+      {
+        "image": "T_Metal_Brass_Roughness.png",
+        "path": "//../textures/T_Metal_Brass_Roughness.png",
+        "external_file_exists_after_extract_layout": true,
+        "packed": true
+      },
+      {
+        "image": "T_Wood_Warm_BaseColor.png",
+        "path": "//../textures/T_Wood_Warm_BaseColor.png",
+        "external_file_exists_after_extract_layout": true,
+        "packed": true
+      },
+      {
+        "image": "T_Wood_Warm_NormalGL.png",
+        "path": "//../textures/T_Wood_Warm_NormalGL.png",
+        "external_file_exists_after_extract_layout": true,
+        "packed": true
+      },
+      {
+        "image": "T_Wood_Warm_Roughness.png",
+        "path": "//../textures/T_Wood_Warm_Roughness.png",
+        "external_file_exists_after_extract_layout": true,
+        "packed": true
+      }
+    ]
+  },
+  {
+    "asset": "town_storage_open_crate_v01",
+    "original_source_untouched": true,
+    "geometry_uv_transform_sha256_before": "820a7d9f31c80e9a19fb3319a44d7ba615aee890d7b392e61af795ae419de1d5",
+    "geometry_uv_transform_sha256_after": "820a7d9f31c80e9a19fb3319a44d7ba615aee890d7b392e61af795ae419de1d5",
+    "geometry_uv_transform_unchanged": true,
+    "images": [
+      {
+        "image": "T_Cloth_Canvas_BaseColor.png",
+        "path": "//../textures/T_Cloth_Canvas_BaseColor.png",
+        "external_file_exists_after_extract_layout": true,
+        "packed": true
+      },
+      {
+        "image": "T_Cloth_Canvas_NormalGL.png",
+        "path": "//../textures/T_Cloth_Canvas_NormalGL.png",
+        "external_file_exists_after_extract_layout": true,
+        "packed": true
+      },
+      {
+        "image": "T_Cloth_Canvas_Roughness.png",
+        "path": "//../textures/T_Cloth_Canvas_Roughness.png",
+        "external_file_exists_after_extract_layout": true,
+        "packed": true
+      },
+      {
+        "image": "T_Metal_Brass_BaseColor.png",
+        "path": "//../textures/T_Metal_Brass_BaseColor.png",
+        "external_file_exists_after_extract_layout": true,
+        "packed": true
+      },
+      {
+        "image": "T_Metal_Brass_NormalGL.png",
+        "path": "//../textures/T_Metal_Brass_NormalGL.png",
+        "external_file_exists_after_extract_layout": true,
+        "packed": true
+      },
+      {
+        "image": "T_Metal_Brass_Roughness.png",
+        "path": "//../textures/T_Metal_Brass_Roughness.png",
+        "external_file_exists_after_extract_layout": true,
+        "packed": true
+      },
+      {
+        "image": "T_Wood_Warm_BaseColor.png",
+        "path": "//../textures/T_Wood_Warm_BaseColor.png",
+        "external_file_exists_after_extract_layout": true,
+        "packed": true
+      },
+      {
+        "image": "T_Wood_Warm_NormalGL.png",
+        "path": "//../textures/T_Wood_Warm_NormalGL.png",
+        "external_file_exists_after_extract_layout": true,
+        "packed": true
+      },
+      {
+        "image": "T_Wood_Warm_Roughness.png",
+        "path": "//../textures/T_Wood_Warm_Roughness.png",
+        "external_file_exists_after_extract_layout": true,
+        "packed": true
+      }
+    ]
+  }
+]

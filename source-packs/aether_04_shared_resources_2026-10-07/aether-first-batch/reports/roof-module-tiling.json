@@ -1,0 +1,14 @@
+{
+  "repeat_depth_m": 1.0,
+  "visual_depth_extent_m": [
+    -0.5,
+    0.5
+  ],
+  "three_bays_y_positions_m": [
+    0,
+    1,
+    2
+  ],
+  "aabb_positive_volume_overlap": false,
+  "proof": "Each bay render mesh stays within [-0.5,+0.5]m in local Y, so 1m repeats only touch at the boundaries."
+}
