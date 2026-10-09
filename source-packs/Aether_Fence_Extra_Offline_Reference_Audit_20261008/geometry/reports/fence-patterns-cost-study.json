@@ -1,0 +1,174 @@
+{
+  "scope": "Independent reference assembly and rendering study; not engine integration or phone measurement",
+  "patterns": [
+    {
+      "pattern": "line",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "join_count": 3,
+      "unculled_closed_cell_triangles": 264,
+      "removed_physically_hidden_contact_cap_triangles": 24,
+      "assembled_triangles": 240,
+      "surface_area_m2": 7.5,
+      "volume_m3": 0.39062499999999994,
+      "non_manifold_edges": 0,
+      "native_integrated": false,
+      "collider_tested": false
+    },
+    {
+      "pattern": "corner",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "join_count": 2,
+      "unculled_closed_cell_triangles": 184,
+      "removed_physically_hidden_contact_cap_triangles": 16,
+      "assembled_triangles": 168,
+      "surface_area_m2": 5.375,
+      "volume_m3": 0.28124999999999994,
+      "non_manifold_edges": 0,
+      "native_integrated": false,
+      "collider_tested": false
+    },
+    {
+      "pattern": "T",
+      "cells": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "join_count": 3,
+      "unculled_closed_cell_triangles": 268,
+      "removed_physically_hidden_contact_cap_triangles": 24,
+      "assembled_triangles": 244,
+      "surface_area_m2": 7.5,
+      "volume_m3": 0.3906249999999999,
+      "non_manifold_edges": 0,
+      "native_integrated": false,
+      "collider_tested": false
+    },
+    {
+      "pattern": "four_way",
+      "cells": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "join_count": 4,
+      "unculled_closed_cell_triangles": 356,
+      "removed_physically_hidden_contact_cap_triangles": 32,
+      "assembled_triangles": 324,
+      "surface_area_m2": 9.625,
+      "volume_m3": 0.4999999999999998,
+      "non_manifold_edges": 0,
+      "native_integrated": false,
+      "collider_tested": false
+    }
+  ],
+  "mask10_representations": {
+    "closed_union_triangles": 84,
+    "overlapping_boxes_triangles": 60,
+    "trimmed_rails_partial_hidden_cap_triangles": 52,
+    "partial52_closed_union": false,
+    "partial52_partial_post_join_surface_remains_internal": true,
+    "partial52_validated_collider": false
+  },
+  "fourway_representation_triangles": {
+    "closed_union": 160,
+    "overlapping_boxes": 108,
+    "partial_hidden_rail_caps": 92
+  },
+  "selected_mobile_representation": null,
+  "mobile_pass": false,
+  "partial52_tradeoff": "Trims overlapping rail portions and removes their hidden mouth caps, but keeps the post face behind rail joints. It is a render-only comparison with open rail component boundaries, not a closed collision shell or full internal-face removal.",
+  "partial52_actual_export": {
+    "file": "exports/oak_fence_partial52_render_reference.glb",
+    "file_bytes": 231444,
+    "attributes": {
+      "POSITION": {
+        "count": 104,
+        "type": "VEC3",
+        "componentType": 5126,
+        "payload_bytes": 1248
+      },
+      "NORMAL": {
+        "count": 104,
+        "type": "VEC3",
+        "componentType": 5126,
+        "payload_bytes": 1248
+      },
+      "TEXCOORD_0": {
+        "count": 104,
+        "type": "VEC2",
+        "componentType": 5126,
+        "payload_bytes": 832
+      }
+    },
+    "material_basecolor_texcoord": 0,
+    "material_double_sided": false,
+    "index_count": 156,
+    "index_componentType": 5123,
+    "index_payload_bytes": 312,
+    "mesh_accessor_payload_bytes": 3640,
+    "scope": "Actual serialized GLB accessors; excludes GPU alignment, upload buffers, engine duplication and all textures. No chunk runtime memory claim."
+  },
+  "partial52_export_material": "Standard PBR bridge with shared oak512; review diffuse-toon image is a separate approximation",
+  "overlapping60_render_observation": "A black coplanar-overlap patch appeared on the post top in the Blender comparison; native Unity rendering is not proven."
+}

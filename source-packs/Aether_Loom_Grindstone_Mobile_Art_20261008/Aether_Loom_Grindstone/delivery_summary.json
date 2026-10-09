@@ -1,0 +1,38 @@
+{
+  "assets": [
+    {
+      "asset": "grindstone",
+      "triangles": 1248,
+      "runtime_meshes": 2,
+      "materials_used": 6,
+      "material_slots_total": 9,
+      "dimensions_m": [
+        1.0099999606609344,
+        0.6700000166893005,
+        1.159999966621399
+      ],
+      "source_component_count": 26,
+      "geometry_uv_qa_passed": true,
+      "visual_status": "author checked actual four-view contact sheet; independent review pending",
+      "project_status": "historical assumptions; current project/Unity/cel shader/phone acceptance unverified"
+    },
+    {
+      "asset": "loom",
+      "triangles": 2708,
+      "runtime_meshes": 3,
+      "materials_used": 6,
+      "material_slots_total": 9,
+      "dimensions_m": [
+        1.090000033378601,
+        0.9100000262260437,
+        1.3599998950958252
+      ],
+      "source_component_count": 79,
+      "geometry_uv_qa_passed": true,
+      "visual_status": "author checked actual four-view contact sheet; independent review pending",
+      "project_status": "historical assumptions; current project/Unity/cel shader/phone acceptance unverified"
+    }
+  ],
+  "roundtrip_passed": true,
+  "acceptance": "independent review pending; no Unity or target-phone acceptance"
+}

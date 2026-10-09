@@ -1,0 +1,413 @@
+{
+  "source_state": "historical 0956b077",
+  "state_count": 16,
+  "states": [
+    {
+      "mask": 0,
+      "mask_bit_order": [
+        "south",
+        "west",
+        "north",
+        "east"
+      ],
+      "triangles": 12,
+      "gpu_attribute_key_estimate": 24,
+      "visual_state_review": "rendered_pending_independent_review",
+      "native_neighbor_test": false
+    },
+    {
+      "mask": 1,
+      "mask_bit_order": [
+        "south",
+        "west",
+        "north",
+        "east"
+      ],
+      "triangles": 50,
+      "gpu_attribute_key_estimate": 78,
+      "visual_state_review": "rendered_pending_independent_review",
+      "native_neighbor_test": false
+    },
+    {
+      "mask": 2,
+      "mask_bit_order": [
+        "south",
+        "west",
+        "north",
+        "east"
+      ],
+      "triangles": 48,
+      "gpu_attribute_key_estimate": 78,
+      "visual_state_review": "rendered_pending_independent_review",
+      "native_neighbor_test": false
+    },
+    {
+      "mask": 3,
+      "mask_bit_order": [
+        "south",
+        "west",
+        "north",
+        "east"
+      ],
+      "triangles": 86,
+      "gpu_attribute_key_estimate": 132,
+      "visual_state_review": "rendered_pending_independent_review",
+      "native_neighbor_test": false
+    },
+    {
+      "mask": 4,
+      "mask_bit_order": [
+        "south",
+        "west",
+        "north",
+        "east"
+      ],
+      "triangles": 50,
+      "gpu_attribute_key_estimate": 78,
+      "visual_state_review": "rendered_pending_independent_review",
+      "native_neighbor_test": false
+    },
+    {
+      "mask": 5,
+      "mask_bit_order": [
+        "south",
+        "west",
+        "north",
+        "east"
+      ],
+      "triangles": 88,
+      "gpu_attribute_key_estimate": 132,
+      "visual_state_review": "rendered_pending_independent_review",
+      "native_neighbor_test": false
+    },
+    {
+      "mask": 6,
+      "mask_bit_order": [
+        "south",
+        "west",
+        "north",
+        "east"
+      ],
+      "triangles": 86,
+      "gpu_attribute_key_estimate": 132,
+      "visual_state_review": "rendered_pending_independent_review",
+      "native_neighbor_test": false
+    },
+    {
+      "mask": 7,
+      "mask_bit_order": [
+        "south",
+        "west",
+        "north",
+        "east"
+      ],
+      "triangles": 124,
+      "gpu_attribute_key_estimate": 186,
+      "visual_state_review": "rendered_pending_independent_review",
+      "native_neighbor_test": false
+    },
+    {
+      "mask": 8,
+      "mask_bit_order": [
+        "south",
+        "west",
+        "north",
+        "east"
+      ],
+      "triangles": 48,
+      "gpu_attribute_key_estimate": 78,
+      "visual_state_review": "rendered_pending_independent_review",
+      "native_neighbor_test": false
+    },
+    {
+      "mask": 9,
+      "mask_bit_order": [
+        "south",
+        "west",
+        "north",
+        "east"
+      ],
+      "triangles": 86,
+      "gpu_attribute_key_estimate": 132,
+      "visual_state_review": "rendered_pending_independent_review",
+      "native_neighbor_test": false
+    },
+    {
+      "mask": 10,
+      "mask_bit_order": [
+        "south",
+        "west",
+        "north",
+        "east"
+      ],
+      "triangles": 84,
+      "gpu_attribute_key_estimate": 132,
+      "visual_state_review": "rendered_pending_independent_review",
+      "native_neighbor_test": false
+    },
+    {
+      "mask": 11,
+      "mask_bit_order": [
+        "south",
+        "west",
+        "north",
+        "east"
+      ],
+      "triangles": 122,
+      "gpu_attribute_key_estimate": 186,
+      "visual_state_review": "rendered_pending_independent_review",
+      "native_neighbor_test": false
+    },
+    {
+      "mask": 12,
+      "mask_bit_order": [
+        "south",
+        "west",
+        "north",
+        "east"
+      ],
+      "triangles": 86,
+      "gpu_attribute_key_estimate": 132,
+      "visual_state_review": "rendered_pending_independent_review",
+      "native_neighbor_test": false
+    },
+    {
+      "mask": 13,
+      "mask_bit_order": [
+        "south",
+        "west",
+        "north",
+        "east"
+      ],
+      "triangles": 124,
+      "gpu_attribute_key_estimate": 186,
+      "visual_state_review": "rendered_pending_independent_review",
+      "native_neighbor_test": false
+    },
+    {
+      "mask": 14,
+      "mask_bit_order": [
+        "south",
+        "west",
+        "north",
+        "east"
+      ],
+      "triangles": 122,
+      "gpu_attribute_key_estimate": 186,
+      "visual_state_review": "rendered_pending_independent_review",
+      "native_neighbor_test": false
+    },
+    {
+      "mask": 15,
+      "mask_bit_order": [
+        "south",
+        "west",
+        "north",
+        "east"
+      ],
+      "triangles": 160,
+      "gpu_attribute_key_estimate": 240,
+      "visual_state_review": "rendered_pending_independent_review",
+      "native_neighbor_test": false
+    }
+  ],
+  "modes_in_comparison_top_to_bottom": [
+    "cell-local reset",
+    "explicit world-offset + part-direction review UV",
+    "projection-only native triplanar-rule approximation"
+  ],
+  "renderer": "Blender 4.3.2 Cycles CPU / diffuse toon approximation",
+  "threads": 2,
+  "samples": 16,
+  "shared_materials": 1,
+  "wood_512_sha256": "3ef497d9c74f42db633f9434d4593c3b5b0a65f6044c093efe9cb3f174b24031",
+  "phase_contract": {
+    "scope": "Reference UV arithmetic and review demonstration only; native shader not changed",
+    "repeat_meters": 2.0,
+    "case_count": 24,
+    "joins": [
+      {
+        "grain_axis": 0,
+        "normal_axis": 2,
+        "join_height": 0.375,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 0,
+        "normal_axis": 2,
+        "join_height": 0.5,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 0,
+        "normal_axis": 2,
+        "join_height": 0.625,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 0,
+        "normal_axis": 2,
+        "join_height": 0.75,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 0,
+        "normal_axis": 2,
+        "join_height": 0.875,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 0,
+        "normal_axis": 2,
+        "join_height": 1.0,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 0,
+        "normal_axis": 1,
+        "join_height": 0.375,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 0,
+        "normal_axis": 1,
+        "join_height": 0.5,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 0,
+        "normal_axis": 1,
+        "join_height": 0.625,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 0,
+        "normal_axis": 1,
+        "join_height": 0.75,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 0,
+        "normal_axis": 1,
+        "join_height": 0.875,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 0,
+        "normal_axis": 1,
+        "join_height": 1.0,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 2,
+        "normal_axis": 0,
+        "join_height": 0.375,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 2,
+        "normal_axis": 0,
+        "join_height": 0.5,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 2,
+        "normal_axis": 0,
+        "join_height": 0.625,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 2,
+        "normal_axis": 0,
+        "join_height": 0.75,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 2,
+        "normal_axis": 0,
+        "join_height": 0.875,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 2,
+        "normal_axis": 0,
+        "join_height": 1.0,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 2,
+        "normal_axis": 1,
+        "join_height": 0.375,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 2,
+        "normal_axis": 1,
+        "join_height": 0.5,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 2,
+        "normal_axis": 1,
+        "join_height": 0.625,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 2,
+        "normal_axis": 1,
+        "join_height": 0.75,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 2,
+        "normal_axis": 1,
+        "join_height": 0.875,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 2,
+        "normal_axis": 1,
+        "join_height": 1.0,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      }
+    ],
+    "post_grain_axis": "Y",
+    "rail_grain_axis": "X or Z according to connected arm",
+    "native_vertex_buffer_uv0": [
+      33,
+      0
+    ],
+    "native_shader_conflict": "CalcAtlasTriplanarUV uses p.zy/p.xz/p.xy; it knows surface normal but not rail versus post grain axis. Replacing UV0 with surface UV would destroy texId meaning.",
+    "required_native_adaptation": "Separately design and verify a grain-axis signal or equivalent shape-aware shader selection while preserving texId, tint, atlas gutters, world phase and shared batching.",
+    "native_integrated": false,
+    "mobile_pass": false
+  },
+  "native_hlsl_executed": false,
+  "native_integrated": false,
+  "mobile_pass": false,
+  "staging_note": "Object placement in the page is separate from the explicitly supplied logical cell-world origin. This is a reference UV bake, not native world-triplanar execution."
+}

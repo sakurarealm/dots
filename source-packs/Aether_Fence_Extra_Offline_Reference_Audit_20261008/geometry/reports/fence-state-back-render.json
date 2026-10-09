@@ -1,0 +1,9 @@
+{
+  "state_count": 16,
+  "camera_complements_front": true,
+  "source_state": "historical 0956b077",
+  "native_integrated": false,
+  "mobile_pass": false,
+  "threads": 2,
+  "samples": 16
+}

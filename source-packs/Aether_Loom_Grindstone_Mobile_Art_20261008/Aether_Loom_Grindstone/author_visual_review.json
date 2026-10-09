@@ -1,0 +1,35 @@
+{
+  "reviewer": "author inspection",
+  "scope": "actual Blender images and offline geometry; no independent acceptance claim",
+  "grindstone": {
+    "images": [
+      "hero_512.png",
+      "rear_512.png",
+      "front_512.png",
+      "side_512.png",
+      "grindstone_contact_1024.png"
+    ],
+    "findings": [
+      "Wheel, frame, operator rest, tray and crank are readable",
+      "Directed improvement added supported tool rest and runtime batching",
+      "Broad stone face remains very light under soft studio lighting; material is a neutral bridge"
+    ],
+    "status": "ready for independent review"
+  },
+  "loom": {
+    "images": [
+      "hero_512.png",
+      "rear_512.png",
+      "front_512.png",
+      "side_512.png",
+      "loom_contact_1024.png"
+    ],
+    "findings": [
+      "Loom frame, warp/reed, cloth roll and two treadles are readable in real geometry",
+      "Three runtime meshes retain heddle lift and beater swing pivots",
+      "31 narrow warp strands may alias at distant icon sizes; no phone/TAA test",
+      "2708 triangles exceeds original 2500 planning target by 208"
+    ],
+    "status": "ready for independent review"
+  }
+}

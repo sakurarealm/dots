@@ -1,0 +1,714 @@
+{
+  "reviewer": "Independent fence geometry/visual review",
+  "scope": "Read-only artifact audit and existing-image visual inspection; no source edits or rerenders",
+  "source_state": "Supplied historical 0956b077 sources; latest repository revision not established",
+  "engine_executed": false,
+  "blender_executed": false,
+  "device_test": false,
+  "canonical_expected_boxes_unity": [
+    [
+      [
+        0.375,
+        0.0,
+        0.375
+      ],
+      [
+        0.625,
+        1.0,
+        0.625
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.375,
+        0.4375
+      ],
+      [
+        0.5,
+        0.625,
+        0.5625
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.75,
+        0.4375
+      ],
+      [
+        0.5,
+        1.0,
+        0.5625
+      ]
+    ],
+    [
+      [
+        0.5,
+        0.375,
+        0.4375
+      ],
+      [
+        1.0,
+        0.625,
+        0.5625
+      ]
+    ],
+    [
+      [
+        0.5,
+        0.75,
+        0.4375
+      ],
+      [
+        1.0,
+        1.0,
+        0.5625
+      ]
+    ]
+  ],
+  "glb": {
+    "oak_fence_mobile_candidate.glb": {
+      "triangles": 84,
+      "serialized_vertices": 132,
+      "coordinate_welded_positions": 44,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.375
+        ],
+        [
+          1.0,
+          1.0,
+          0.625
+        ]
+      ],
+      "surface_area_m2": 2.25,
+      "signed_volume_m3": 0.109375,
+      "degenerate_triangles": 0,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "normal_mismatch_triangles": 0,
+      "non_axis_aligned_triangles": 0,
+      "boundary_sample_count": 4620,
+      "boundary_sample_failures": 0,
+      "directional_uv_vertex_checks_failed": 0,
+      "directional_uv_triangle_classes": {
+        "rail_x_normal_axis_1": 20,
+        "rail_x_normal_axis_0": 8,
+        "rail_x_normal_axis_2": 16,
+        "post_normal_axis_1": 8,
+        "post_normal_axis_0": 28,
+        "post_normal_axis_2": 4
+      },
+      "attributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0"
+      ],
+      "material_count": 1,
+      "primitive_count": 1,
+      "node_transforms": [
+        {
+          "mesh": 0,
+          "name": "OPT_oak_fence"
+        }
+      ],
+      "material": {
+        "extensions": {
+          "KHR_materials_specular": {
+            "specularFactor": 0.1599999964237213
+          }
+        },
+        "name": "MAT_Block_oak_planks",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicFactor": 0,
+          "roughnessFactor": 0.699999988079071
+        }
+      },
+      "embedded_texture_sha256": "3ef497d9c74f42db633f9434d4593c3b5b0a65f6044c093efe9cb3f174b24031",
+      "actual_serialized_mesh_accessor_payload_bytes": 4728,
+      "file_bytes": 232468,
+      "serialized_gltf_uv_bounds": [
+        [
+          0.1875,
+          0.5
+        ],
+        [
+          0.5,
+          1.0
+        ]
+      ]
+    },
+    "oak_fence_box_combo_comparison.glb": {
+      "triangles": 60,
+      "serialized_vertices": 120,
+      "coordinate_welded_positions": 32,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.375
+        ],
+        [
+          1.0,
+          1.0,
+          0.625
+        ]
+      ],
+      "surface_area_m2": 2.875,
+      "signed_volume_m3": 0.12500000000000006,
+      "degenerate_triangles": 0,
+      "coordinate_welded_non_two_incidence_edges": 8,
+      "edge_orientation_mismatches": 0,
+      "normal_mismatch_triangles": 0,
+      "non_axis_aligned_triangles": 0,
+      "boundary_sample_count": 3300,
+      "boundary_sample_failures": 936,
+      "directional_uv_vertex_checks_failed": 0,
+      "directional_uv_triangle_classes": {},
+      "attributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0"
+      ],
+      "material_count": 1,
+      "primitive_count": 1,
+      "node_transforms": [
+        {
+          "mesh": 0,
+          "name": "BOX_COMBO_60_oak_fence"
+        }
+      ],
+      "material": {
+        "extensions": {
+          "KHR_materials_specular": {
+            "specularFactor": 0.1599999964237213
+          }
+        },
+        "name": "MAT_Block_oak_planks",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicFactor": 0,
+          "roughnessFactor": 0.699999988079071
+        }
+      },
+      "embedded_texture_sha256": "3ef497d9c74f42db633f9434d4593c3b5b0a65f6044c093efe9cb3f174b24031",
+      "actual_serialized_mesh_accessor_payload_bytes": 4200,
+      "file_bytes": 231948,
+      "serialized_gltf_uv_bounds": [
+        [
+          0.1875,
+          0.5
+        ],
+        [
+          0.5,
+          1.0
+        ]
+      ]
+    }
+  },
+  "fbx": {
+    "oak_fence_master.fbx": {
+      "triangles": 288,
+      "serialized_vertices": 146,
+      "coordinate_welded_positions": 146,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.375
+        ],
+        [
+          1.0,
+          1.0,
+          0.625
+        ]
+      ],
+      "surface_area_m2": 2.25,
+      "signed_volume_m3": 0.10937499999999996,
+      "degenerate_triangles": 0,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "normal_mismatch_triangles": 0,
+      "non_axis_aligned_triangles": 0,
+      "boundary_sample_count": 15840,
+      "boundary_sample_failures": 0,
+      "directional_uv_vertex_checks_failed": 0,
+      "directional_uv_triangle_classes": {},
+      "format_version": 7400,
+      "material_object_count": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional",
+        "Historical_UV0_texId_DO_NOT_BIND"
+      ],
+      "model_transforms_and_units": [
+        [
+          "UnitScaleFactor",
+          "double",
+          "Number",
+          "",
+          1.0
+        ],
+        [
+          "Lcl Translation",
+          "Lcl Translation",
+          "",
+          "A",
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          "Lcl Rotation",
+          "Lcl Rotation",
+          "",
+          "A",
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          "Lcl Scaling",
+          "Lcl Scaling",
+          "",
+          "A",
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          "Lcl Rotation",
+          "Lcl Rotation",
+          "",
+          "A",
+          -90.00000933466734,
+          0.0,
+          0.0
+        ],
+        [
+          "Lcl Scaling",
+          "Lcl Scaling",
+          "",
+          "A",
+          100.0,
+          100.0,
+          100.0
+        ]
+      ]
+    },
+    "oak_fence_mobile_candidate.fbx": {
+      "triangles": 84,
+      "serialized_vertices": 44,
+      "coordinate_welded_positions": 44,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.375
+        ],
+        [
+          1.0,
+          1.0,
+          0.625
+        ]
+      ],
+      "surface_area_m2": 2.25,
+      "signed_volume_m3": 0.109375,
+      "degenerate_triangles": 0,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "normal_mismatch_triangles": 0,
+      "non_axis_aligned_triangles": 0,
+      "boundary_sample_count": 4620,
+      "boundary_sample_failures": 0,
+      "directional_uv_vertex_checks_failed": 0,
+      "directional_uv_triangle_classes": {},
+      "format_version": 7400,
+      "material_object_count": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "model_transforms_and_units": [
+        [
+          "UnitScaleFactor",
+          "double",
+          "Number",
+          "",
+          1.0
+        ],
+        [
+          "Lcl Translation",
+          "Lcl Translation",
+          "",
+          "A",
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          "Lcl Rotation",
+          "Lcl Rotation",
+          "",
+          "A",
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          "Lcl Scaling",
+          "Lcl Scaling",
+          "",
+          "A",
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          "Lcl Rotation",
+          "Lcl Rotation",
+          "",
+          "A",
+          -90.00000933466734,
+          0.0,
+          0.0
+        ],
+        [
+          "Lcl Scaling",
+          "Lcl Scaling",
+          "",
+          "A",
+          100.0,
+          100.0,
+          100.0
+        ]
+      ]
+    },
+    "oak_fence_box_combo_comparison.fbx": {
+      "triangles": 60,
+      "serialized_vertices": 40,
+      "coordinate_welded_positions": 32,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.375
+        ],
+        [
+          1.0,
+          1.0,
+          0.625
+        ]
+      ],
+      "surface_area_m2": 2.875,
+      "signed_volume_m3": 0.12500000000000003,
+      "degenerate_triangles": 0,
+      "coordinate_welded_non_two_incidence_edges": 8,
+      "edge_orientation_mismatches": 0,
+      "normal_mismatch_triangles": 0,
+      "non_axis_aligned_triangles": 0,
+      "boundary_sample_count": 3300,
+      "boundary_sample_failures": 936,
+      "directional_uv_vertex_checks_failed": 0,
+      "directional_uv_triangle_classes": {},
+      "format_version": 7400,
+      "material_object_count": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "model_transforms_and_units": [
+        [
+          "UnitScaleFactor",
+          "double",
+          "Number",
+          "",
+          1.0
+        ],
+        [
+          "Lcl Translation",
+          "Lcl Translation",
+          "",
+          "A",
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          "Lcl Rotation",
+          "Lcl Rotation",
+          "",
+          "A",
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          "Lcl Scaling",
+          "Lcl Scaling",
+          "",
+          "A",
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          "Lcl Rotation",
+          "Lcl Rotation",
+          "",
+          "A",
+          -90.00000933466734,
+          0.0,
+          0.0
+        ],
+        [
+          "Lcl Scaling",
+          "Lcl Scaling",
+          "",
+          "A",
+          100.0,
+          100.0,
+          100.0
+        ]
+      ]
+    }
+  },
+  "images": {
+    "master_geometry": {
+      "dimensions": [
+        640,
+        640
+      ],
+      "v01_same_pixels": true,
+      "actually_viewed_by_reviewer": true
+    },
+    "optimized_geometry": {
+      "dimensions": [
+        640,
+        640
+      ],
+      "v01_same_pixels": true,
+      "actually_viewed_by_reviewer": true
+    },
+    "optimized_mobile256": {
+      "dimensions": [
+        640,
+        640
+      ],
+      "v01_same_pixels": true,
+      "actually_viewed_by_reviewer": true
+    },
+    "back_low": {
+      "dimensions": [
+        640,
+        640
+      ],
+      "v01_same_pixels": true,
+      "actually_viewed_by_reviewer": true
+    },
+    "clay": {
+      "dimensions": [
+        640,
+        640
+      ],
+      "v01_same_pixels": true,
+      "actually_viewed_by_reviewer": true
+    }
+  },
+  "artifact_sha256": {
+    "exports/oak_fence_mobile_candidate.glb": "bb83112776789b5ac2d9000046f2729df0bfd66eff1cbaafa15aeb7c23c92bdc",
+    "exports/oak_fence_box_combo_comparison.glb": "f6f25fe2425195c972435d398d8baf94439603280a19362e7e9a0d9821c5782c",
+    "exports/oak_fence_master.fbx": "9dcb765a89f05ee2250ca21b66f4817250a47c9cc53d822d993585b0d2606a71",
+    "exports/oak_fence_mobile_candidate.fbx": "a38a1749817b8671e3ab37275fb0c8406ff31917d43b3f5f8e63e18df0797a21",
+    "exports/oak_fence_box_combo_comparison.fbx": "cfff58ce7305c72a684fd7279cba7c1525fab75d55dcdbd2d8cc2bf3751a41ef",
+    "previews/oak_fence_master_geometry.png": "820149b404194e155df294ff6d76c993c683806f8bca3bd0436ddec779bdcc7b",
+    "previews/oak_fence_optimized_geometry.png": "b94e7d8f8d9c9b04ea2d346d00084c8ece8ff4ad19d69902ba1d4d2f1f60dd2b",
+    "previews/oak_fence_optimized_mobile256.png": "0b313d169f1e47a8093340370f8c6f969cfde223a461514f913c8a2775c4cb56",
+    "previews/oak_fence_back_low.png": "5472f2d3beef5ba3b238aa35252c2a1871d1e1cc95a18351447e3d07a00abb23",
+    "previews/oak_fence_clay.png": "d49382c9bc80ba8b3a60ab207cb3dd970f77d51e80a541add86e27dbd4aae1ff",
+    "source/oak_fence_master_and_candidate.blend": "2b92b5532c56591fd2356c121a44fabf06c69c5d94d3933b7555f9de51a9a39f"
+  },
+  "secondary_uv_optimization": {
+    "unchanged_values": {
+      "POSITION": true,
+      "NORMAL": true,
+      "TEXCOORD_0": true,
+      "INDEX": true
+    },
+    "old_attributes": [
+      "POSITION",
+      "NORMAL",
+      "TEXCOORD_0",
+      "TEXCOORD_1"
+    ],
+    "old_mesh_accessor_payload_bytes": 5784,
+    "new_mesh_accessor_payload_bytes": 4728,
+    "removed_payload_bytes": 1056,
+    "scope": "Serialized export stream only; no claim about native chunk/GPU memory"
+  },
+  "master_candidate_same_view": {
+    "MAD_RGB255": 2.197265625e-05,
+    "pixels_any_channel_difference_gt2": 2
+  },
+  "source_binary_readonly_checks": {
+    "decoded_blend_header": "BLENDER-v403",
+    "exact_shared_png_found_packed": true,
+    "shared_texture_sha256": "3ef497d9c74f42db633f9434d4593c3b5b0a65f6044c093efe9cb3f174b24031",
+    "object_and_uv_names_present": {
+      "MASTER_oak_fence": true,
+      "OPT_oak_fence": true,
+      "BOX_COMBO_60_oak_fence": true,
+      "ReviewUV_2mRepeat_RailDirectional": true,
+      "Historical_UV0_texId_DO_NOT_BIND": true
+    },
+    "scope": "Binary presence and exact packed image bytes; not an interactive editability or visibility test"
+  },
+  "supplied_all_state_report_consistency": {
+    "fence_case_count": 16,
+    "cases": [
+      {
+        "mask": 0,
+        "reported_triangles": 12,
+        "volume_consistent": true,
+        "area_consistent": true,
+        "bounds_consistent": true,
+        "reported_visual_state_review": "not_run"
+      },
+      {
+        "mask": 1,
+        "reported_triangles": 50,
+        "volume_consistent": true,
+        "area_consistent": true,
+        "bounds_consistent": true,
+        "reported_visual_state_review": "not_run"
+      },
+      {
+        "mask": 2,
+        "reported_triangles": 48,
+        "volume_consistent": true,
+        "area_consistent": true,
+        "bounds_consistent": true,
+        "reported_visual_state_review": "not_run"
+      },
+      {
+        "mask": 3,
+        "reported_triangles": 86,
+        "volume_consistent": true,
+        "area_consistent": true,
+        "bounds_consistent": true,
+        "reported_visual_state_review": "not_run"
+      },
+      {
+        "mask": 4,
+        "reported_triangles": 50,
+        "volume_consistent": true,
+        "area_consistent": true,
+        "bounds_consistent": true,
+        "reported_visual_state_review": "not_run"
+      },
+      {
+        "mask": 5,
+        "reported_triangles": 88,
+        "volume_consistent": true,
+        "area_consistent": true,
+        "bounds_consistent": true,
+        "reported_visual_state_review": "not_run"
+      },
+      {
+        "mask": 6,
+        "reported_triangles": 86,
+        "volume_consistent": true,
+        "area_consistent": true,
+        "bounds_consistent": true,
+        "reported_visual_state_review": "not_run"
+      },
+      {
+        "mask": 7,
+        "reported_triangles": 124,
+        "volume_consistent": true,
+        "area_consistent": true,
+        "bounds_consistent": true,
+        "reported_visual_state_review": "not_run"
+      },
+      {
+        "mask": 8,
+        "reported_triangles": 48,
+        "volume_consistent": true,
+        "area_consistent": true,
+        "bounds_consistent": true,
+        "reported_visual_state_review": "not_run"
+      },
+      {
+        "mask": 9,
+        "reported_triangles": 86,
+        "volume_consistent": true,
+        "area_consistent": true,
+        "bounds_consistent": true,
+        "reported_visual_state_review": "not_run"
+      },
+      {
+        "mask": 10,
+        "reported_triangles": 84,
+        "volume_consistent": true,
+        "area_consistent": true,
+        "bounds_consistent": true,
+        "reported_visual_state_review": "not_run"
+      },
+      {
+        "mask": 11,
+        "reported_triangles": 122,
+        "volume_consistent": true,
+        "area_consistent": true,
+        "bounds_consistent": true,
+        "reported_visual_state_review": "not_run"
+      },
+      {
+        "mask": 12,
+        "reported_triangles": 86,
+        "volume_consistent": true,
+        "area_consistent": true,
+        "bounds_consistent": true,
+        "reported_visual_state_review": "not_run"
+      },
+      {
+        "mask": 13,
+        "reported_triangles": 124,
+        "volume_consistent": true,
+        "area_consistent": true,
+        "bounds_consistent": true,
+        "reported_visual_state_review": "not_run"
+      },
+      {
+        "mask": 14,
+        "reported_triangles": 122,
+        "volume_consistent": true,
+        "area_consistent": true,
+        "bounds_consistent": true,
+        "reported_visual_state_review": "not_run"
+      },
+      {
+        "mask": 15,
+        "reported_triangles": 160,
+        "volume_consistent": true,
+        "area_consistent": true,
+        "bounds_consistent": true,
+        "reported_visual_state_review": "not_run"
+      }
+    ],
+    "scope": "Consistency check of supplied derived-state report, not independent generated/exported all-state meshes or engine execution"
+  },
+  "decision": {
+    "overall": "candidate",
+    "representative_offline_geometry": "verified",
+    "representative_visual": "retain_as_offline_visual_technical_sample",
+    "all_state_block_accepted": false,
+    "mobile_pass": false,
+    "runtime_option_selected": false,
+    "opaque_glb_backface_culling_pending": false
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "created_at_utc": "2026-10-08T11:23:00.004460+00:00",
+  "files": [
+    {
+      "file": "README.md",
+      "bytes": 4663,
+      "sha256": "22295346ab1a049360673db1339ad1baf2b90044e81ec80719d400f0ac034938"
+    },
+    {
+      "file": "assumptions.json",
+      "bytes": 2246,
+      "sha256": "0c027f9adcf234c922475279fab2640960971ea235d5fe26a8ef1e198a682f9f"
+    },
+    {
+      "file": "author_visual_review.json",
+      "bytes": 1155,
+      "sha256": "be219f967dee970371effce16569c030bb9f846c5573a2d7976d5208ea6b6bf9"
+    },
+    {
+      "file": "delivery_summary.json",
+      "bytes": 1231,
+      "sha256": "b78a424bf26a7f0e8377e26efacf75697f1e9a72a0c31d49edbaf7a93b9b85c4"
+    },
+    {
+      "file": "grindstone/final/front_512.png",
+      "bytes": 380274,
+      "sha256": "31fd7e2e9c0c12c9c0fb248e06f648dfb89b27d0ad0ea18822f1390842697373"
+    },
+    {
+      "file": "grindstone/final/grindstone.blend",
+      "bytes": 1052476,
+      "sha256": "5a6be2da835284971c7a0e823db651e358e66396702f2afe069bea6477ea040c"
+    },
+    {
+      "file": "grindstone/final/grindstone.fbx",
+      "bytes": 182300,
+      "sha256": "8769df360b8d89cfbf59798fef2d3cbb0c63287b9ca2da55be64a2dc6dc05e18"
+    },
+    {
+      "file": "grindstone/final/grindstone.glb",
+      "bytes": 221948,
+      "sha256": "c2c97d00363eb862b28b8f83d5ea4ae078d161dbc6fb0fbf4e4de724b66f03bb"
+    },
+    {
+      "file": "grindstone/final/grindstone_contact_1024.png",
+      "bytes": 1109266,
+      "sha256": "ee0ffdf389def9331bc56059c45a13d5b5ab22503ad823acac23835c99f886f0"
+    },
+    {
+      "file": "grindstone/final/grindstone_contact_512.png",
+      "bytes": 239328,
+      "sha256": "3021e4fcda2086901510a4d5a48bd423b4445d972428df44500c2ec1fe7c1825"
+    },
+    {
+      "file": "grindstone/final/hero_1024.png",
+      "bytes": 1487904,
+      "sha256": "e12d8d970bdf328fc054585db1bc5efc2f0474222eee6935ea95294ddf971a18"
+    },
+    {
+      "file": "grindstone/final/hero_512.png",
+      "bytes": 390571,
+      "sha256": "d77aeb83f01515f60bbc85eedaf83fc101e09a2c23b208bdccd5e894e8ed5b7c"
+    },
+    {
+      "file": "grindstone/final/manifest.json",
+      "bytes": 2659,
+      "sha256": "1e7c9644e490a06cc93018202777269e2ba461e1d4a3d062338795118b4dc7a1"
+    },
+    {
+      "file": "grindstone/final/mesh_qa.json",
+      "bytes": 14190,
+      "sha256": "c6e1f854fe9f7f90f8b9c97377c40b564715a7c8758c6c8a6cb605c57d0c5650"
+    },
+    {
+      "file": "grindstone/final/rear_512.png",
+      "bytes": 404672,
+      "sha256": "e5f78293b035650e12207aa831ba275913565e37b7507821cda0461cdca7b13b"
+    },
+    {
+      "file": "grindstone/final/runtime_mesh_qa.json",
+      "bytes": 2222,
+      "sha256": "d549c4c090899ff14e6ac6e7798741b70613e87248c9a95df1b3853de5bffe56"
+    },
+    {
+      "file": "grindstone/final/side_512.png",
+      "bytes": 365502,
+      "sha256": "721e9bfb682d04798f75d4a90df2e7b2de6f694a6d3844a1c9f33faa8cfaf922"
+    },
+    {
+      "file": "grindstone/sample/hero_512.png",
+      "bytes": 402767,
+      "sha256": "fb9d37998c86577bcfdbedd558d3225a99fcaa65474f0d9394273fd6ae6c62af"
+    },
+    {
+      "file": "grindstone/sample_review.json",
+      "bytes": 676,
+      "sha256": "42d83937bd3f7c150c4b882ecdd9124d4dc01a8e9a0a0c2d185149acc8b6fa27"
+    },
+    {
+      "file": "loom/final/front_512.png",
+      "bytes": 399100,
+      "sha256": "7b6af7e37683f37f74095b5ae30e66968415209d499cc41e3e443701624a9eac"
+    },
+    {
+      "file": "loom/final/hero_1024.png",
+      "bytes": 1628038,
+      "sha256": "9c7db82f26b2efca41a24da8118c82c9adb51a5dc4a4d99c4eb6a64c730284ca"
+    },
+    {
+      "file": "loom/final/hero_512.png",
+      "bytes": 434452,
+      "sha256": "15af6d1e219fadc81c60aed742e1a5563331b5571b0c14fd5be563e36a7d0224"
+    },
+    {
+      "file": "loom/final/loom.blend",
+      "bytes": 1473224,
+      "sha256": "5e4971cb0c6bcd05d69915aeed3b29a748a6e25f6f1a4af0283b2025a76117b1"
+    },
+    {
+      "file": "loom/final/loom.fbx",
+      "bytes": 254956,
+      "sha256": "202c192a60f961fb89cb8933ce22c427114d008dd87e7776f23a469960a42571"
+    },
+    {
+      "file": "loom/final/loom.glb",
+      "bytes": 360800,
+      "sha256": "cf94dfb6aad293901a0b7efbe33699e8623f40879a726fd91070441c5626dc67"
+    },
+    {
+      "file": "loom/final/loom_contact_1024.png",
+      "bytes": 1199702,
+      "sha256": "d05f4022ae01dbbb2ad47922d21af206c14934b54c45299b76f8d58c862fee44"
+    },
+    {
+      "file": "loom/final/loom_contact_512.png",
+      "bytes": 269306,
+      "sha256": "9f710294136476ca10694f18a7d94fbf9d59e818e99f9783f7b6d1aa7e7f3e37"
+    },
+    {
+      "file": "loom/final/manifest.json",
+      "bytes": 2623,
+      "sha256": "dd46717722a375449dba7b1a9422b94740d65a57dca9a0549bf923b642ed6365"
+    },
+    {
+      "file": "loom/final/mesh_qa.json",
+      "bytes": 40628,
+      "sha256": "3eca7f2a5324340748315a6b47bdcd5bc40c384286ba368027cab25bac29d164"
+    },
+    {
+      "file": "loom/final/rear_512.png",
+      "bytes": 429116,
+      "sha256": "6f917a1ce91db854b21de6a4b74a51eff71fc8d33002f3388ab7da71c0bc09a2"
+    },
+    {
+      "file": "loom/final/runtime_mesh_qa.json",
+      "bytes": 2650,
+      "sha256": "c6ecb67385fecc4c39b29ae359e36662725320529afd3edcbced33f22aac09d6"
+    },
+    {
+      "file": "loom/final/side_512.png",
+      "bytes": 380654,
+      "sha256": "2b3665700df368cce4c25223baf10814fef46ebda322f23d5b95c63f8c1aae58"
+    },
+    {
+      "file": "recipes/grindstone.json",
+      "bytes": 550,
+      "sha256": "90ef0d16b3e1e4553ecad053c0c08974e763bb69c95910f6daa412df001cee41"
+    },
+    {
+      "file": "recipes/loom.json",
+      "bytes": 903,
+      "sha256": "381e49df9fcdd3599a8d09a7748edac3607f534428b5fa976742e12bfb1c3a51"
+    },
+    {
+      "file": "reference/approved_workbench_perspective.png",
+      "bytes": 1028384,
+      "sha256": "08ebf3b71fa5a32ca46d52a84fd41abefb085d4777dd1628b423def758e96a77"
+    },
+    {
+      "file": "reference/texture_provenance.json",
+      "bytes": 852,
+      "sha256": "15b675a9283cf9b7936f1bd36047208bd4489daf2f243b47cef59ad2968e4642"
+    },
+    {
+      "file": "roundtrip_report.json",
+      "bytes": 5420,
+      "sha256": "277eaf31a6abc50d6fd6cf112591c9e7da45e9347316d1173601f3a611bb410f"
+    },
+    {
+      "file": "scripts/build_props.py",
+      "bytes": 22436,
+      "sha256": "8bcb67b72242abbb3b0648010d7d59f66f9bf767709a1814b3914aa07e42f99b"
+    },
+    {
+      "file": "scripts/finalize_delivery.py",
+      "bytes": 6755,
+      "sha256": "0ccd07b266da0f04a6ca127c05f965a2c63819f7f5412b57dd20fc697719ffb8"
+    },
+    {
+      "file": "scripts/verify_exports.py",
+      "bytes": 4085,
+      "sha256": "0b65efec38a3735832c139bdcf27d9a05f1b406e20e733c680f4c976048bc29b"
+    },
+    {
+      "file": "textures/T_Cloth_Canvas_BaseColor.png",
+      "bytes": 46426,
+      "sha256": "3f1197ee39196d9848a95f8921ab5afe3c66fcd3bf6ffaad13cbc7cc89f0e7e0"
+    },
+    {
+      "file": "textures/T_Metal_Brass_BaseColor.png",
+      "bytes": 34125,
+      "sha256": "55d6007ba1f89a84ce9499b451164c4e0c8468c26a16a9f372a8dad8bd30b707"
+    },
+    {
+      "file": "textures/T_Wood_Warm_BaseColor.png",
+      "bytes": 91512,
+      "sha256": "7944c393fc2b1520170d9d02d611b193461aa98b86e42cd28051ffffe42ae4e0"
+    }
+  ]
+}

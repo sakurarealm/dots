@@ -1,0 +1,1183 @@
+{
+  "scope": "Only new existing multicell, contact-cap, partial52 cost and complementary-back evidence",
+  "read_only_source": true,
+  "blender_executed": false,
+  "render_executed": false,
+  "native_executed": false,
+  "Unity_executed": false,
+  "phone_executed": false,
+  "Codex_invoked": false,
+  "assets_modified": false,
+  "prior_review_read_before_work": "oak_fence_v02_independent_review.md",
+  "handoff_fingerprints": [
+    {
+      "path": "source/oak_fence_patterns_cost_reference.blend",
+      "size_bytes": 329853,
+      "sha256": "6e4dd05a12d1ca47d5e79920450d3478db11c5f4c5abf3bc88641b9b3b967ea8",
+      "handoff_exact_match": true
+    },
+    {
+      "path": "exports/oak_fence_partial52_render_reference.glb",
+      "size_bytes": 231444,
+      "sha256": "7d9abef66338527e39f452b472de0d4f54aab5f5c100602c540a6d4b5c340885",
+      "handoff_exact_match": true
+    },
+    {
+      "path": "reports/fence-patterns-cost-study.json",
+      "size_bytes": 4429,
+      "sha256": "c62b34109ac00eb5109ae82238878ff561e5464600157421cd6c574151b2e385",
+      "handoff_exact_match": true
+    },
+    {
+      "path": "scripts/render_fence_patterns_cost.py",
+      "size_bytes": 8853,
+      "sha256": "ddb07e38b61920a551e7b8d669391580bce644c0468f8b7fca9517704570bbd3",
+      "handoff_exact_match": true
+    },
+    {
+      "path": "scripts/fix_partial52_export.py",
+      "size_bytes": 1891,
+      "sha256": "e5a51a7633db9b7e87ea035211960a9e01cadcc7dccb013383881e1623d9758d",
+      "handoff_exact_match": true
+    },
+    {
+      "path": "previews/oak_fence_multicell_world_phase_raw.png",
+      "size_bytes": 1252311,
+      "sha256": "d4296d21ba9caf25b96683bf9582b31ad7a523f7b79f15466b14e7b3cd9bf97a",
+      "handoff_exact_match": true
+    },
+    {
+      "path": "previews/oak_fence_multicell_world_phase.png",
+      "size_bytes": 854402,
+      "sha256": "bccb25e2513ffdde177568133b454f401ac13b36d86ef93b27b706b4aed8fb19",
+      "handoff_exact_match": true
+    },
+    {
+      "path": "previews/oak_fence_representation_cost_raw.png",
+      "size_bytes": 658739,
+      "sha256": "dbc6876edb05607f4c2efd1b61655bc1e3048ab51b583748da2f9059520fa29f",
+      "handoff_exact_match": true
+    },
+    {
+      "path": "previews/oak_fence_representation_cost.png",
+      "size_bytes": 468128,
+      "sha256": "4a2130f36aea7e2fcb963f1617bc2a007c3553cd376187758f933bf5dd41e5f8",
+      "handoff_exact_match": true
+    },
+    {
+      "path": "previews/oak_fence_connection16_back_contact.png",
+      "size_bytes": 1237676,
+      "sha256": "651637b3ef69d6f3d44e498f45583962e17791a601c3151d06fe6f4588265687",
+      "handoff_exact_match": true
+    },
+    {
+      "path": "reports/fence-state-back-render.json",
+      "size_bytes": 187,
+      "sha256": "761a5673a190bdade8b922b288ca23458c4ebe5ecdbde5bcf5110c518d39da30",
+      "handoff_exact_match": true
+    },
+    {
+      "path": "reviews/fence_states_stairs_independent_audit.json",
+      "size_bytes": 45367,
+      "sha256": "e1f59961aa59c7329443ac11ef4b50a71f5645efcdd04f2ac61adf1739721659",
+      "handoff_exact_match": true
+    }
+  ],
+  "source_header": "BLENDER-v403",
+  "source_decompressed_bytes": 790216,
+  "source_reference_shared_oak_png_exact_packed": true,
+  "actual_saved_source_material_graph": {
+    "nodes": [
+      {
+        "name": "Principled BSDF",
+        "type": "ShaderNodeBsdfPrincipled"
+      },
+      {
+        "name": "Material Output",
+        "type": "ShaderNodeOutputMaterial"
+      },
+      {
+        "name": "Image Texture",
+        "type": "ShaderNodeTexImage"
+      },
+      {
+        "name": "Toon BSDF",
+        "type": "ShaderNodeBsdfToon"
+      }
+    ],
+    "links": [
+      {
+        "from": {
+          "name": "Image Texture",
+          "type": "ShaderNodeTexImage"
+        },
+        "to": {
+          "name": "Principled BSDF",
+          "type": "ShaderNodeBsdfPrincipled"
+        }
+      },
+      {
+        "from": {
+          "name": "Image Texture",
+          "type": "ShaderNodeTexImage"
+        },
+        "to": {
+          "name": "Toon BSDF",
+          "type": "ShaderNodeBsdfToon"
+        }
+      },
+      {
+        "from": {
+          "name": "Toon BSDF",
+          "type": "ShaderNodeBsdfToon"
+        },
+        "to": {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial"
+        }
+      }
+    ],
+    "actual_saved_source_output_linked_from_toon_not_principled": true,
+    "scope": "Actual saved source SDNA node/link bytes; no shader execution"
+  },
+  "comparison_state_reference_sha256": "30b3d1a564176919fca17416eb3f7dcf67275d76a9779fedd0f8b0756ec07f41",
+  "patterns": [
+    {
+      "pattern": "line",
+      "logical_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "object": "PATTERN_line",
+      "source_mesh_vertices": 116,
+      "source_mesh_polygons": 78,
+      "triangles_from_polygon_corner_count": 240,
+      "independent_unculled_closed_cell_triangles": 264,
+      "removed_contact_cap_triangles": 24,
+      "removed_contact_cap_polygons": 12,
+      "matched_opposite_cap_polygon_pairs": 6,
+      "removed_cap_area_m2": 0.375,
+      "retained_geometry_uv_one_to_one_equals_shifted_state_faces_minus_paired_caps": true,
+      "all_unremoved_faces_retained": true,
+      "uv_loop_checks": 396,
+      "uv_loop_mismatches": 0,
+      "joins": [
+        {
+          "cells": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "axis": 0,
+          "actual_exposed_loop_pairs": 16,
+          "maximum_uv_error": 0.0
+        },
+        {
+          "cells": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "axis": 0,
+          "actual_exposed_loop_pairs": 16,
+          "maximum_uv_error": 0.0
+        },
+        {
+          "cells": [
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "axis": 0,
+          "actual_exposed_loop_pairs": 16,
+          "maximum_uv_error": 0.0
+        }
+      ],
+      "topology": {
+        "coordinate_welded_non_two_incidence_edges": 0,
+        "coordinate_welded_boundary_edges": 0,
+        "edge_orientation_mismatches": 0,
+        "surface_area_m2": 7.5,
+        "signed_surface_integral_m3": 0.390625
+      },
+      "boundary_partition": {
+        "partition_rectangle_count": 304,
+        "rectangle_categories": {
+          "external_correct": 304
+        },
+        "area_categories_m2": {
+          "external_correct": 7.5
+        },
+        "expected_union_exterior_area_m2": 7.5,
+        "unique_actual_exterior_area_m2": 7.5,
+        "missing_union_exterior_rectangle_count": 0,
+        "extra_exterior_rectangle_count": 0,
+        "missing_union_exterior_area_m2": 0,
+        "coplanar_duplicate_exterior_area_m2": 0.0,
+        "all_polygon_partition_areas_match_Newell": true,
+        "scope": "Exact planar partition of supplied axis-aligned source polygons against manual box union; not native render/collision execution"
+      },
+      "material_slots": 1,
+      "uv_layer_names": [
+        "WorldOffsetDirectionReview"
+      ],
+      "staging_location_separate_from_logical_world_uv": [
+        -0.16752183437347412,
+        -2.005577564239502,
+        1.6392565965652466
+      ],
+      "source_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "pattern": "corner",
+      "logical_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "object": "PATTERN_corner",
+      "source_mesh_vertices": 82,
+      "source_mesh_polygons": 52,
+      "triangles_from_polygon_corner_count": 168,
+      "independent_unculled_closed_cell_triangles": 184,
+      "removed_contact_cap_triangles": 16,
+      "removed_contact_cap_polygons": 8,
+      "matched_opposite_cap_polygon_pairs": 4,
+      "removed_cap_area_m2": 0.25,
+      "retained_geometry_uv_one_to_one_equals_shifted_state_faces_minus_paired_caps": true,
+      "all_unremoved_faces_retained": true,
+      "uv_loop_checks": 272,
+      "uv_loop_mismatches": 0,
+      "joins": [
+        {
+          "cells": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "axis": 0,
+          "actual_exposed_loop_pairs": 16,
+          "maximum_uv_error": 0.0
+        },
+        {
+          "cells": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "axis": 2,
+          "actual_exposed_loop_pairs": 16,
+          "maximum_uv_error": 0.0
+        }
+      ],
+      "topology": {
+        "coordinate_welded_non_two_incidence_edges": 0,
+        "coordinate_welded_boundary_edges": 0,
+        "edge_orientation_mismatches": 0,
+        "surface_area_m2": 5.375,
+        "signed_surface_integral_m3": 0.28125
+      },
+      "boundary_partition": {
+        "partition_rectangle_count": 296,
+        "rectangle_categories": {
+          "external_correct": 296
+        },
+        "area_categories_m2": {
+          "external_correct": 5.375
+        },
+        "expected_union_exterior_area_m2": 5.375,
+        "unique_actual_exterior_area_m2": 5.375,
+        "missing_union_exterior_rectangle_count": 0,
+        "extra_exterior_rectangle_count": 0,
+        "missing_union_exterior_area_m2": 0,
+        "coplanar_duplicate_exterior_area_m2": 0.0,
+        "all_polygon_partition_areas_match_Newell": true,
+        "scope": "Exact planar partition of supplied axis-aligned source polygons against manual box union; not native render/collision execution"
+      },
+      "material_slots": 1,
+      "uv_layer_names": [
+        "WorldOffsetDirectionReview"
+      ],
+      "staging_location_separate_from_logical_world_uv": [
+        -2.9959897994995117,
+        0.9433274865150452,
+        1.6392568349838257
+      ],
+      "source_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "pattern": "T",
+      "logical_cells": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "object": "PATTERN_T",
+      "source_mesh_vertices": 118,
+      "source_mesh_polygons": 76,
+      "triangles_from_polygon_corner_count": 244,
+      "independent_unculled_closed_cell_triangles": 268,
+      "removed_contact_cap_triangles": 24,
+      "removed_contact_cap_polygons": 12,
+      "matched_opposite_cap_polygon_pairs": 6,
+      "removed_cap_area_m2": 0.375,
+      "retained_geometry_uv_one_to_one_equals_shifted_state_faces_minus_paired_caps": true,
+      "all_unremoved_faces_retained": true,
+      "uv_loop_checks": 396,
+      "uv_loop_mismatches": 0,
+      "joins": [
+        {
+          "cells": [
+            [
+              -1,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "axis": 0,
+          "actual_exposed_loop_pairs": 16,
+          "maximum_uv_error": 0.0
+        },
+        {
+          "cells": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "axis": 0,
+          "actual_exposed_loop_pairs": 16,
+          "maximum_uv_error": 0.0
+        },
+        {
+          "cells": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "axis": 2,
+          "actual_exposed_loop_pairs": 16,
+          "maximum_uv_error": 0.0
+        }
+      ],
+      "topology": {
+        "coordinate_welded_non_two_incidence_edges": 0,
+        "coordinate_welded_boundary_edges": 0,
+        "edge_orientation_mismatches": 0,
+        "surface_area_m2": 7.5,
+        "signed_surface_integral_m3": 0.390625
+      },
+      "boundary_partition": {
+        "partition_rectangle_count": 388,
+        "rectangle_categories": {
+          "external_correct": 388
+        },
+        "area_categories_m2": {
+          "external_correct": 7.5
+        },
+        "expected_union_exterior_area_m2": 7.5,
+        "unique_actual_exterior_area_m2": 7.5,
+        "missing_union_exterior_rectangle_count": 0,
+        "extra_exterior_rectangle_count": 0,
+        "missing_union_exterior_area_m2": 0,
+        "coplanar_duplicate_exterior_area_m2": 0.0,
+        "all_polygon_partition_areas_match_Newell": true,
+        "scope": "Exact planar partition of supplied axis-aligned source polygons against manual box union; not native render/collision execution"
+      },
+      "material_slots": 1,
+      "uv_layer_names": [
+        "WorldOffsetDirectionReview"
+      ],
+      "staging_location_separate_from_logical_world_uv": [
+        2.3293230533599854,
+        -0.35999417304992676,
+        -1.6392568349838257
+      ],
+      "source_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "pattern": "four_way",
+      "logical_cells": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "object": "PATTERN_four_way",
+      "source_mesh_vertices": 156,
+      "source_mesh_polygons": 98,
+      "triangles_from_polygon_corner_count": 324,
+      "independent_unculled_closed_cell_triangles": 356,
+      "removed_contact_cap_triangles": 32,
+      "removed_contact_cap_polygons": 16,
+      "matched_opposite_cap_polygon_pairs": 8,
+      "removed_cap_area_m2": 0.5,
+      "retained_geometry_uv_one_to_one_equals_shifted_state_faces_minus_paired_caps": true,
+      "all_unremoved_faces_retained": true,
+      "uv_loop_checks": 520,
+      "uv_loop_mismatches": 0,
+      "joins": [
+        {
+          "cells": [
+            [
+              -1,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "axis": 0,
+          "actual_exposed_loop_pairs": 16,
+          "maximum_uv_error": 0.0
+        },
+        {
+          "cells": [
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "axis": 2,
+          "actual_exposed_loop_pairs": 16,
+          "maximum_uv_error": 0.0
+        },
+        {
+          "cells": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "axis": 0,
+          "actual_exposed_loop_pairs": 16,
+          "maximum_uv_error": 0.0
+        },
+        {
+          "cells": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "axis": 2,
+          "actual_exposed_loop_pairs": 16,
+          "maximum_uv_error": 0.0
+        }
+      ],
+      "topology": {
+        "coordinate_welded_non_two_incidence_edges": 0,
+        "coordinate_welded_boundary_edges": 0,
+        "edge_orientation_mismatches": 0,
+        "surface_area_m2": 9.625,
+        "signed_surface_integral_m3": 0.5
+      },
+      "boundary_partition": {
+        "partition_rectangle_count": 480,
+        "rectangle_categories": {
+          "external_correct": 480
+        },
+        "area_categories_m2": {
+          "external_correct": 9.625
+        },
+        "expected_union_exterior_area_m2": 9.625,
+        "unique_actual_exterior_area_m2": 9.625,
+        "missing_union_exterior_rectangle_count": 0,
+        "extra_exterior_rectangle_count": 0,
+        "missing_union_exterior_area_m2": 0,
+        "coplanar_duplicate_exterior_area_m2": 0.0,
+        "all_polygon_partition_areas_match_Newell": true,
+        "scope": "Exact planar partition of supplied axis-aligned source polygons against manual box union; not native render/collision execution"
+      },
+      "material_slots": 1,
+      "uv_layer_names": [
+        "WorldOffsetDirectionReview"
+      ],
+      "staging_location_separate_from_logical_world_uv": [
+        -1.3324781656265259,
+        2.005577564239502,
+        -1.6392565965652466
+      ],
+      "source_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "cost_source_meshes": {
+    "COST_union": {
+      "triangles_from_polygon_corner_count": 84,
+      "source_vertices": 44,
+      "polygons": 28,
+      "topology": {
+        "coordinate_welded_non_two_incidence_edges": 0,
+        "coordinate_welded_boundary_edges": 0,
+        "edge_orientation_mismatches": 0,
+        "surface_area_m2": 2.25,
+        "signed_surface_integral_m3": 0.109375
+      },
+      "boundary_partition": {
+        "partition_rectangle_count": 88,
+        "rectangle_categories": {
+          "external_correct": 88
+        },
+        "area_categories_m2": {
+          "external_correct": 2.25
+        },
+        "expected_union_exterior_area_m2": 2.25,
+        "unique_actual_exterior_area_m2": 2.25,
+        "missing_union_exterior_rectangle_count": 0,
+        "extra_exterior_rectangle_count": 0,
+        "missing_union_exterior_area_m2": 0,
+        "coplanar_duplicate_exterior_area_m2": 0.0,
+        "all_polygon_partition_areas_match_Newell": true,
+        "scope": "Exact planar partition of supplied axis-aligned source polygons against manual box union; not native render/collision execution"
+      },
+      "source_staging_location": [
+        1.4560879468917847,
+        -0.9707252383232117,
+        -0.0
+      ],
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ]
+    },
+    "COST_boxes60": {
+      "triangles_from_polygon_corner_count": 60,
+      "source_vertices": 40,
+      "polygons": 30,
+      "topology": {
+        "coordinate_welded_non_two_incidence_edges": 8,
+        "coordinate_welded_boundary_edges": 0,
+        "edge_orientation_mismatches": 0,
+        "surface_area_m2": 2.875,
+        "signed_surface_integral_m3": 0.125
+      },
+      "boundary_partition": {
+        "partition_rectangle_count": 92,
+        "rectangle_categories": {
+          "external_correct": 70,
+          "interior_surface": 22
+        },
+        "area_categories_m2": {
+          "external_correct": 2.28125,
+          "interior_surface": 0.59375
+        },
+        "expected_union_exterior_area_m2": 2.25,
+        "unique_actual_exterior_area_m2": 2.25,
+        "missing_union_exterior_rectangle_count": 0,
+        "extra_exterior_rectangle_count": 0,
+        "missing_union_exterior_area_m2": 0,
+        "coplanar_duplicate_exterior_area_m2": 0.03125,
+        "all_polygon_partition_areas_match_Newell": true,
+        "scope": "Exact planar partition of supplied axis-aligned source polygons against manual box union; not native render/collision execution"
+      },
+      "source_staging_location": [
+        -0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ]
+    },
+    "COST_partial52_render_only": {
+      "triangles_from_polygon_corner_count": 52,
+      "source_vertices": 40,
+      "polygons": 26,
+      "topology": {
+        "coordinate_welded_non_two_incidence_edges": 16,
+        "coordinate_welded_boundary_edges": 16,
+        "edge_orientation_mismatches": 16,
+        "surface_area_m2": 2.375,
+        "signed_surface_integral_m3": 0.11458333333333334
+      },
+      "boundary_partition": {
+        "partition_rectangle_count": 72,
+        "rectangle_categories": {
+          "external_correct": 68,
+          "interior_surface": 4
+        },
+        "area_categories_m2": {
+          "external_correct": 2.25,
+          "interior_surface": 0.125
+        },
+        "expected_union_exterior_area_m2": 2.25,
+        "unique_actual_exterior_area_m2": 2.25,
+        "missing_union_exterior_rectangle_count": 0,
+        "extra_exterior_rectangle_count": 0,
+        "missing_union_exterior_area_m2": 0,
+        "coplanar_duplicate_exterior_area_m2": 0.0,
+        "all_polygon_partition_areas_match_Newell": true,
+        "scope": "Exact planar partition of supplied axis-aligned source polygons against manual box union; not native render/collision execution"
+      },
+      "source_staging_location": [
+        -1.4560879468917847,
+        0.9707252383232117,
+        0.0
+      ],
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "rail_mouth_caps_remaining": 0,
+      "whole_post_side_faces_retained": 2,
+      "retained_interior_post_join_area_m2": 0.125,
+      "closed_union": false,
+      "collider_approved": false
+    },
+    "partial52_not_raw60_attribute_subset": {
+      "exact_retained_polygon_position_uv_subset": false,
+      "new_or_changed_polygon_position_uv_signatures": 16,
+      "exact_unchanged_whole_post_faces": 6,
+      "exact_unchanged_exposed_rail_outer_caps": 4,
+      "new_rail_mouth_caps_remaining": 0,
+      "cropped_rail_side_top_bottom_polygons": 16,
+      "source_positions_new_from_trim": [
+        [
+          0.375,
+          0.375,
+          0.4375
+        ],
+        [
+          0.375,
+          0.375,
+          0.5625
+        ],
+        [
+          0.375,
+          0.625,
+          0.4375
+        ],
+        [
+          0.375,
+          0.625,
+          0.5625
+        ],
+        [
+          0.375,
+          0.75,
+          0.4375
+        ],
+        [
+          0.375,
+          0.75,
+          0.5625
+        ],
+        [
+          0.375,
+          1.0,
+          0.4375
+        ],
+        [
+          0.375,
+          1.0,
+          0.5625
+        ],
+        [
+          0.625,
+          0.375,
+          0.4375
+        ],
+        [
+          0.625,
+          0.375,
+          0.5625
+        ],
+        [
+          0.625,
+          0.625,
+          0.4375
+        ],
+        [
+          0.625,
+          0.625,
+          0.5625
+        ],
+        [
+          0.625,
+          0.75,
+          0.4375
+        ],
+        [
+          0.625,
+          0.75,
+          0.5625
+        ],
+        [
+          0.625,
+          1.0,
+          0.4375
+        ],
+        [
+          0.625,
+          1.0,
+          0.5625
+        ]
+      ],
+      "scope": "Rail lengths/endpoints changed as well as mouth deletion; cannot claim exact raw vertex-attribute interpolation preservation"
+    }
+  },
+  "actual_serialized_cost_comparison": {
+    "rows": [
+      {
+        "file": "exports/oak_fence_mobile_candidate.glb",
+        "sha256": "bb83112776789b5ac2d9000046f2729df0bfd66eff1cbaafa15aeb7c23c92bdc",
+        "file_bytes": 232468,
+        "triangles": 84,
+        "serialized_attribute_vertices": 132,
+        "serialized_mesh_accessor_payload_bytes": 4728,
+        "index_count": 252,
+        "nodes": [
+          {
+            "mesh": 0,
+            "name": "OPT_oak_fence"
+          }
+        ]
+      },
+      {
+        "file": "exports/oak_fence_box_combo_comparison.glb",
+        "sha256": "f6f25fe2425195c972435d398d8baf94439603280a19362e7e9a0d9821c5782c",
+        "file_bytes": 231948,
+        "triangles": 60,
+        "serialized_attribute_vertices": 120,
+        "serialized_mesh_accessor_payload_bytes": 4200,
+        "index_count": 180,
+        "nodes": [
+          {
+            "mesh": 0,
+            "name": "BOX_COMBO_60_oak_fence"
+          }
+        ]
+      },
+      {
+        "file": "exports/oak_fence_partial52_render_reference.glb",
+        "sha256": "7d9abef66338527e39f452b472de0d4f54aab5f5c100602c540a6d4b5c340885",
+        "file_bytes": 231444,
+        "triangles": 52,
+        "serialized_attribute_vertices": 104,
+        "serialized_mesh_accessor_payload_bytes": 3640,
+        "index_count": 156,
+        "nodes": [
+          {
+            "mesh": 0,
+            "name": "COST_partial52_render_only",
+            "translation": [
+              -1.4560879468917847,
+              0,
+              -0.9707252383232117
+            ]
+          }
+        ]
+      }
+    ],
+    "partial52_vs_raw60_triangle_reduction_percent": 13.333333333333334,
+    "partial52_vs_raw60_mesh_payload_reduction_bytes": 560,
+    "partial52_vs_raw60_mesh_payload_reduction_percent": 13.333333333333334,
+    "union84_vs_raw60_triangle_increase_percent": 40.0,
+    "scope": "Actual serialized accessor and whole file bytes only; no GPU alignment, chunk buffer, draw-call, energy or phone-performance claim"
+  },
+  "partial52_glb": {
+    "file_bytes": 231444,
+    "sha256": "7d9abef66338527e39f452b472de0d4f54aab5f5c100602c540a6d4b5c340885",
+    "actual_mesh_accessor_payload_bytes": 3640,
+    "attributes": {
+      "POSITION": {
+        "count": 104,
+        "componentType": 5126,
+        "type": "VEC3",
+        "payload_bytes": 1248
+      },
+      "NORMAL": {
+        "count": 104,
+        "componentType": 5126,
+        "type": "VEC3",
+        "payload_bytes": 1248
+      },
+      "TEXCOORD_0": {
+        "count": 104,
+        "componentType": 5126,
+        "type": "VEC2",
+        "payload_bytes": 832
+      }
+    },
+    "index_count": 156,
+    "index_componentType": 5123,
+    "index_payload_bytes": 312,
+    "nodes": [
+      {
+        "mesh": 0,
+        "name": "COST_partial52_render_only",
+        "translation": [
+          -1.4560879468917847,
+          0,
+          -0.9707252383232117
+        ]
+      }
+    ],
+    "source_node_staging_translation_present": true,
+    "serialized_position_uv_normal_values_equal_source_face_corners": true,
+    "all_26_source_rectangles_covered_by_exactly_two_exported_triangles": true,
+    "exported_triangles_missing_overlapping_or_outside_source_polygons": 0,
+    "checks": {
+      "triangles": 52,
+      "serialized_vertices": 104,
+      "coordinate_welded_positions": 40,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.375
+        ],
+        [
+          1.0,
+          1.0,
+          0.625
+        ]
+      ],
+      "surface_area_m2": 2.375,
+      "signed_volume_m3": 0.11458333333333331,
+      "degenerate_triangles": 0,
+      "coordinate_welded_non_two_incidence_edges": 16,
+      "edge_orientation_mismatches": 16,
+      "normal_mismatch_triangles": 0,
+      "non_axis_aligned_triangles": 0,
+      "boundary_sample_count": 2860,
+      "boundary_sample_failures": 76,
+      "directional_uv_vertex_checks_failed": 0,
+      "directional_uv_triangle_classes": {
+        "post_normal_axis_0": 4,
+        "post_normal_axis_1": 4,
+        "post_normal_axis_2": 4,
+        "rail_x_normal_axis_0": 8,
+        "rail_x_normal_axis_1": 16,
+        "rail_x_normal_axis_2": 16
+      },
+      "boundary_sample_categories": {
+        "external_correct": 2784,
+        "interior_surface": 76
+      },
+      "failure_triangles": [
+        {
+          "triangle": 0,
+          "normal_axis": 0,
+          "post_side_plane": 0.375,
+          "sample_failure_categories": {
+            "interior_surface": 29
+          }
+        },
+        {
+          "triangle": 1,
+          "normal_axis": 0,
+          "post_side_plane": 0.375,
+          "sample_failure_categories": {
+            "interior_surface": 9
+          }
+        },
+        {
+          "triangle": 2,
+          "normal_axis": 0,
+          "post_side_plane": 0.625,
+          "sample_failure_categories": {
+            "interior_surface": 29
+          }
+        },
+        {
+          "triangle": 3,
+          "normal_axis": 0,
+          "post_side_plane": 0.625,
+          "sample_failure_categories": {
+            "interior_surface": 9
+          }
+        }
+      ],
+      "all_76_failed_boundary_samples_are_retained_post_interior_not_missing_exterior": true
+    },
+    "material": {
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0.1599999964237213
+        }
+      },
+      "name": "MAT_Block_oak_planks",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.699999988079071
+      }
+    },
+    "opaque": true,
+    "double_sided": false,
+    "embedded_texture_sha256": "3ef497d9c74f42db633f9434d4593c3b5b0a65f6044c093efe9cb3f174b24031",
+    "shared_oak_png_matches_embedded": true,
+    "local_grid_bounds_do_not_remove_exported_node_staging": true,
+    "source_diffuse_toon_and_export_PBR_not_same_shader": true
+  },
+  "fourway92_scope": "Arithmetic 12 post + 8 rails*10 triangles = 92; no actual partial92 mesh, GLB or all16 adapter verified",
+  "images": {
+    "oak_fence_multicell_world_phase_raw.png": {
+      "size": [
+        1280,
+        1080
+      ],
+      "sha256": "d4296d21ba9caf25b96683bf9582b31ad7a523f7b79f15466b14e7b3cd9bf97a",
+      "actually_viewed": true
+    },
+    "oak_fence_multicell_world_phase.png": {
+      "size": [
+        1280,
+        1180
+      ],
+      "sha256": "bccb25e2513ffdde177568133b454f401ac13b36d86ef93b27b706b4aed8fb19",
+      "actually_viewed": true
+    },
+    "oak_fence_representation_cost_raw.png": {
+      "size": [
+        1280,
+        540
+      ],
+      "sha256": "dbc6876edb05607f4c2efd1b61655bc1e3048ab51b583748da2f9059520fa29f",
+      "actually_viewed": true
+    },
+    "oak_fence_representation_cost.png": {
+      "size": [
+        1280,
+        650
+      ],
+      "sha256": "4a2130f36aea7e2fcb963f1617bc2a007c3553cd376187758f933bf5dd41e5f8",
+      "actually_viewed": true
+    },
+    "oak_fence_connection16_back_contact.png": {
+      "size": [
+        1280,
+        1390
+      ],
+      "sha256": "651637b3ef69d6f3d44e498f45583962e17791a601c3151d06fe6f4588265687",
+      "actually_viewed": true
+    }
+  },
+  "annotated_multicell_to_raw": {
+    "raw_size": [
+      1280,
+      1080
+    ],
+    "annotated_size": [
+      1280,
+      1180
+    ],
+    "annotated_body_difference_bbox": [
+      18,
+      18,
+      902,
+      579
+    ],
+    "scope": "Caption overlay may differ; both original files separately viewed"
+  },
+  "annotated_cost_to_raw": {
+    "raw_size": [
+      1280,
+      540
+    ],
+    "annotated_size": [
+      1280,
+      650
+    ],
+    "annotated_body_difference_bbox": [
+      21,
+      534,
+      1163,
+      540
+    ],
+    "scope": "Caption overlay may differ; both original files separately viewed"
+  },
+  "complementary_back_view_provenance": {
+    "back_script_sha256": "5cf05d9fd78c1309cc029aedbe09cb236e724eef3751da7574f0f8b835075997",
+    "loads_existing_state_reference": true,
+    "front_camera_blender_xyz": [
+      3.7,
+      4.3,
+      3.5
+    ],
+    "back_camera_blender_xyz": [
+      -2.7,
+      -4.3,
+      3.5
+    ],
+    "both_cameras_above_object_not_underside": true,
+    "actual_state_mask_triangles": {
+      "0000": 12,
+      "0001": 50,
+      "0010": 48,
+      "0011": 86,
+      "0100": 50,
+      "0101": 88,
+      "0110": 86,
+      "0111": 124,
+      "1000": 48,
+      "1001": 86,
+      "1010": 84,
+      "1011": 122,
+      "1100": 86,
+      "1101": 124,
+      "1110": 122,
+      "1111": 160
+    },
+    "all16_second_oblique_view_actually_viewed": true,
+    "scope": "Existing PNG plus source/script provenance, no independent rerender or native neighbor resolution"
+  },
+  "decision": {
+    "multicell_paired_contact_cap_only_removal": "verified_four_existing_offline_patterns",
+    "multicell_actual_stored_world_phase_loops": "verified_X_and_Z_joins_in_four_existing_patterns",
+    "partial52_actual_GLB_bytes_source_geometry": "verified_mask10_render_reference_only",
+    "complementary_back16_visual": "reviewed_second_above_oblique_view_no_new_visible_geometry_blocker",
+    "overlap60_black_top_patch": "visually_present_in_existing_Blend_diffuse_toon_reference",
+    "partial52_clean_exterior": false,
+    "partial52_closed_collider": false,
+    "all16_partial_adapter_verified": false,
+    "native_scalar_uv_interface_changed": false,
+    "full_state_block_accepted": false,
+    "native_integrated": false,
+    "mobile_pass": false,
+    "production_art_accepted": false,
+    "selected_mobile_representation": null
+  }
+}

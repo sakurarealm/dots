@@ -1,0 +1,50 @@
+{
+  "historical_design_assumptions": {
+    "baseline": "0956b0777cf007a7a3b1ed799f7ade777f14c80d",
+    "source": "Recovered shared-resource README and inspected accepted workbench rendering",
+    "units": "1 unit = 1 metre",
+    "pivot": "structural base centre (0,0,0), +Z up in Blender; operator faces +Y from negative Y",
+    "style": "warm shared wood, broad low-frequency color, readable flat facets, limited matte brass, one moss green cloth accent",
+    "fbx_axes": {
+      "forward": "-Z",
+      "up": "Y"
+    },
+    "project_status": "Historical standalone conventions only; latest project clone absent. No current compliance is claimed."
+  },
+  "material_bridge": "Principled BSDF exported for portable GLB/FBX review. This does not reproduce the Aether project cel shader. Actual cel lighting, import normals, texture compression and target-phone performance require project tests.",
+  "resource_gate": {
+    "minimum_MemAvailable_GiB": 2,
+    "minimum_disk_free_GiB": 3,
+    "blender_threads": 2,
+    "max_parallel_blender_processes_this_task": 1
+  },
+  "not_tested": [
+    "Unity import and prefabs",
+    "current project asset rules",
+    "game shaders and actual cel bands",
+    "character animation / IK",
+    "interaction logic",
+    "collision and navigation",
+    "target phone GPU/CPU/memory performance"
+  ],
+  "textures_recovered": [
+    {
+      "file": "textures/T_Wood_Warm_BaseColor.png",
+      "source_zip": "aether_04_shared_resources_2026-10-07.zip",
+      "source_entry": "aether-first-batch/textures/T_Wood_Warm_BaseColor.png",
+      "sha256": "7944c393fc2b1520170d9d02d611b193461aa98b86e42cd28051ffffe42ae4e0"
+    },
+    {
+      "file": "textures/T_Cloth_Canvas_BaseColor.png",
+      "source_zip": "aether_04_shared_resources_2026-10-07.zip",
+      "source_entry": "aether-first-batch/textures/T_Cloth_Canvas_BaseColor.png",
+      "sha256": "3f1197ee39196d9848a95f8921ab5afe3c66fcd3bf6ffaad13cbc7cc89f0e7e0"
+    },
+    {
+      "file": "textures/T_Metal_Brass_BaseColor.png",
+      "source_zip": "aether_04_shared_resources_2026-10-07.zip",
+      "source_entry": "aether-first-batch/textures/T_Metal_Brass_BaseColor.png",
+      "sha256": "55d6007ba1f89a84ce9499b451164c4e0c8468c26a16a9f372a8dad8bd30b707"
+    }
+  ]
+}

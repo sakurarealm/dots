@@ -1,0 +1,1921 @@
+{
+  "scope": "Independent source-byte/UV arithmetic checks and actual existing-image inspection",
+  "blender_executed": false,
+  "engine_executed": false,
+  "device_test": false,
+  "fence_states": [
+    {
+      "object": "STATE_0000",
+      "vertices": 8,
+      "polygons": 6,
+      "triangles_from_polygon_corner_count": 12,
+      "bounds": [
+        [
+          0.375,
+          0.0,
+          0.375
+        ],
+        [
+          0.625,
+          1.0,
+          0.625
+        ]
+      ],
+      "expected_bounds_match": true,
+      "surface_area_m2": 1.125,
+      "signed_volume_m3": 0.0625,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "non_axis_aligned_polygons": 0,
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "uv_loop_checks": 24,
+      "uv_loop_mismatches": 0,
+      "source_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source_object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mask": 0,
+      "expected_volume_matches": true,
+      "expected_area_matches": true,
+      "visual_coverage": "Actually reviewed in one top/oblique contact-sheet angle"
+    },
+    {
+      "object": "STATE_0001",
+      "vertices": 27,
+      "polygons": 16,
+      "triangles_from_polygon_corner_count": 50,
+      "bounds": [
+        [
+          0.375,
+          0.0,
+          0.375
+        ],
+        [
+          0.625,
+          1.0,
+          1.0
+        ]
+      ],
+      "expected_bounds_match": true,
+      "surface_area_m2": 1.6875,
+      "signed_volume_m3": 0.0859375,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "non_axis_aligned_polygons": 0,
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "uv_loop_checks": 82,
+      "uv_loop_mismatches": 0,
+      "source_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source_object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mask": 1,
+      "expected_volume_matches": true,
+      "expected_area_matches": true,
+      "visual_coverage": "Actually reviewed in one top/oblique contact-sheet angle"
+    },
+    {
+      "object": "STATE_0010",
+      "vertices": 26,
+      "polygons": 17,
+      "triangles_from_polygon_corner_count": 48,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.375
+        ],
+        [
+          0.625,
+          1.0,
+          0.625
+        ]
+      ],
+      "expected_bounds_match": true,
+      "surface_area_m2": 1.6875,
+      "signed_volume_m3": 0.0859375,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "non_axis_aligned_polygons": 0,
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "uv_loop_checks": 82,
+      "uv_loop_mismatches": 0,
+      "source_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source_object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mask": 2,
+      "expected_volume_matches": true,
+      "expected_area_matches": true,
+      "visual_coverage": "Actually reviewed in one top/oblique contact-sheet angle"
+    },
+    {
+      "object": "STATE_0011",
+      "vertices": 45,
+      "polygons": 27,
+      "triangles_from_polygon_corner_count": 86,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.375
+        ],
+        [
+          0.625,
+          1.0,
+          1.0
+        ]
+      ],
+      "expected_bounds_match": true,
+      "surface_area_m2": 2.25,
+      "signed_volume_m3": 0.109375,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "non_axis_aligned_polygons": 0,
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "uv_loop_checks": 140,
+      "uv_loop_mismatches": 0,
+      "source_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source_object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mask": 3,
+      "expected_volume_matches": true,
+      "expected_area_matches": true,
+      "visual_coverage": "Actually reviewed in one top/oblique contact-sheet angle"
+    },
+    {
+      "object": "STATE_0100",
+      "vertices": 27,
+      "polygons": 16,
+      "triangles_from_polygon_corner_count": 50,
+      "bounds": [
+        [
+          0.375,
+          0.0,
+          0.0
+        ],
+        [
+          0.625,
+          1.0,
+          0.625
+        ]
+      ],
+      "expected_bounds_match": true,
+      "surface_area_m2": 1.6875,
+      "signed_volume_m3": 0.0859375,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "non_axis_aligned_polygons": 0,
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "uv_loop_checks": 82,
+      "uv_loop_mismatches": 0,
+      "source_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source_object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mask": 4,
+      "expected_volume_matches": true,
+      "expected_area_matches": true,
+      "visual_coverage": "Actually reviewed in one top/oblique contact-sheet angle"
+    },
+    {
+      "object": "STATE_0101",
+      "vertices": 46,
+      "polygons": 26,
+      "triangles_from_polygon_corner_count": 88,
+      "bounds": [
+        [
+          0.375,
+          0.0,
+          0.0
+        ],
+        [
+          0.625,
+          1.0,
+          1.0
+        ]
+      ],
+      "expected_bounds_match": true,
+      "surface_area_m2": 2.25,
+      "signed_volume_m3": 0.109375,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "non_axis_aligned_polygons": 0,
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "uv_loop_checks": 140,
+      "uv_loop_mismatches": 0,
+      "source_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source_object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mask": 5,
+      "expected_volume_matches": true,
+      "expected_area_matches": true,
+      "visual_coverage": "Actually reviewed in one top/oblique contact-sheet angle"
+    },
+    {
+      "object": "STATE_0110",
+      "vertices": 45,
+      "polygons": 27,
+      "triangles_from_polygon_corner_count": 86,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.625,
+          1.0,
+          0.625
+        ]
+      ],
+      "expected_bounds_match": true,
+      "surface_area_m2": 2.25,
+      "signed_volume_m3": 0.109375,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "non_axis_aligned_polygons": 0,
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "uv_loop_checks": 140,
+      "uv_loop_mismatches": 0,
+      "source_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source_object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mask": 6,
+      "expected_volume_matches": true,
+      "expected_area_matches": true,
+      "visual_coverage": "Actually reviewed in one top/oblique contact-sheet angle"
+    },
+    {
+      "object": "STATE_0111",
+      "vertices": 64,
+      "polygons": 37,
+      "triangles_from_polygon_corner_count": 124,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.625,
+          1.0,
+          1.0
+        ]
+      ],
+      "expected_bounds_match": true,
+      "surface_area_m2": 2.8125,
+      "signed_volume_m3": 0.1328125,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "non_axis_aligned_polygons": 0,
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "uv_loop_checks": 198,
+      "uv_loop_mismatches": 0,
+      "source_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source_object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mask": 7,
+      "expected_volume_matches": true,
+      "expected_area_matches": true,
+      "visual_coverage": "Actually reviewed in one top/oblique contact-sheet angle"
+    },
+    {
+      "object": "STATE_1000",
+      "vertices": 26,
+      "polygons": 17,
+      "triangles_from_polygon_corner_count": 48,
+      "bounds": [
+        [
+          0.375,
+          0.0,
+          0.375
+        ],
+        [
+          1.0,
+          1.0,
+          0.625
+        ]
+      ],
+      "expected_bounds_match": true,
+      "surface_area_m2": 1.6875,
+      "signed_volume_m3": 0.0859375,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "non_axis_aligned_polygons": 0,
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "uv_loop_checks": 82,
+      "uv_loop_mismatches": 0,
+      "source_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source_object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mask": 8,
+      "expected_volume_matches": true,
+      "expected_area_matches": true,
+      "visual_coverage": "Actually reviewed in one top/oblique contact-sheet angle"
+    },
+    {
+      "object": "STATE_1001",
+      "vertices": 45,
+      "polygons": 27,
+      "triangles_from_polygon_corner_count": 86,
+      "bounds": [
+        [
+          0.375,
+          0.0,
+          0.375
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "expected_bounds_match": true,
+      "surface_area_m2": 2.25,
+      "signed_volume_m3": 0.10937500000000001,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "non_axis_aligned_polygons": 0,
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "uv_loop_checks": 140,
+      "uv_loop_mismatches": 0,
+      "source_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source_object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mask": 9,
+      "expected_volume_matches": true,
+      "expected_area_matches": true,
+      "visual_coverage": "Actually reviewed in one top/oblique contact-sheet angle"
+    },
+    {
+      "object": "STATE_1010",
+      "vertices": 44,
+      "polygons": 28,
+      "triangles_from_polygon_corner_count": 84,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.375
+        ],
+        [
+          1.0,
+          1.0,
+          0.625
+        ]
+      ],
+      "expected_bounds_match": true,
+      "surface_area_m2": 2.25,
+      "signed_volume_m3": 0.10937500000000001,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "non_axis_aligned_polygons": 0,
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "uv_loop_checks": 140,
+      "uv_loop_mismatches": 0,
+      "source_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source_object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mask": 10,
+      "expected_volume_matches": true,
+      "expected_area_matches": true,
+      "visual_coverage": "Actually reviewed in one top/oblique contact-sheet angle"
+    },
+    {
+      "object": "STATE_1011",
+      "vertices": 63,
+      "polygons": 38,
+      "triangles_from_polygon_corner_count": 122,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.375
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "expected_bounds_match": true,
+      "surface_area_m2": 2.8125,
+      "signed_volume_m3": 0.1328125,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "non_axis_aligned_polygons": 0,
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "uv_loop_checks": 198,
+      "uv_loop_mismatches": 0,
+      "source_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source_object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mask": 11,
+      "expected_volume_matches": true,
+      "expected_area_matches": true,
+      "visual_coverage": "Actually reviewed in one top/oblique contact-sheet angle"
+    },
+    {
+      "object": "STATE_1100",
+      "vertices": 45,
+      "polygons": 27,
+      "triangles_from_polygon_corner_count": 86,
+      "bounds": [
+        [
+          0.375,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.625
+        ]
+      ],
+      "expected_bounds_match": true,
+      "surface_area_m2": 2.25,
+      "signed_volume_m3": 0.10937500000000003,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "non_axis_aligned_polygons": 0,
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "uv_loop_checks": 140,
+      "uv_loop_mismatches": 0,
+      "source_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source_object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mask": 12,
+      "expected_volume_matches": true,
+      "expected_area_matches": true,
+      "visual_coverage": "Actually reviewed in one top/oblique contact-sheet angle"
+    },
+    {
+      "object": "STATE_1101",
+      "vertices": 64,
+      "polygons": 37,
+      "triangles_from_polygon_corner_count": 124,
+      "bounds": [
+        [
+          0.375,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "expected_bounds_match": true,
+      "surface_area_m2": 2.8125,
+      "signed_volume_m3": 0.13281250000000003,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "non_axis_aligned_polygons": 0,
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "uv_loop_checks": 198,
+      "uv_loop_mismatches": 0,
+      "source_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source_object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mask": 13,
+      "expected_volume_matches": true,
+      "expected_area_matches": true,
+      "visual_coverage": "Actually reviewed in one top/oblique contact-sheet angle"
+    },
+    {
+      "object": "STATE_1110",
+      "vertices": 63,
+      "polygons": 38,
+      "triangles_from_polygon_corner_count": 122,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.625
+        ]
+      ],
+      "expected_bounds_match": true,
+      "surface_area_m2": 2.8125,
+      "signed_volume_m3": 0.1328125,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "non_axis_aligned_polygons": 0,
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "uv_loop_checks": 198,
+      "uv_loop_mismatches": 0,
+      "source_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source_object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mask": 14,
+      "expected_volume_matches": true,
+      "expected_area_matches": true,
+      "visual_coverage": "Actually reviewed in one top/oblique contact-sheet angle"
+    },
+    {
+      "object": "STATE_1111",
+      "vertices": 82,
+      "polygons": 48,
+      "triangles_from_polygon_corner_count": 160,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "expected_bounds_match": true,
+      "surface_area_m2": 3.375,
+      "signed_volume_m3": 0.15625000000000003,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "non_axis_aligned_polygons": 0,
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "uv_loop_checks": 256,
+      "uv_loop_mismatches": 0,
+      "source_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source_object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mask": 15,
+      "expected_volume_matches": true,
+      "expected_area_matches": true,
+      "visual_coverage": "Actually reviewed in one top/oblique contact-sheet angle"
+    }
+  ],
+  "fence_chains": [
+    {
+      "object": "local_reset_cell_0",
+      "vertices": 26,
+      "polygons": 17,
+      "triangles_from_polygon_corner_count": 48,
+      "bounds": [
+        [
+          0.375,
+          0.0,
+          0.375
+        ],
+        [
+          1.0,
+          1.0,
+          0.625
+        ]
+      ],
+      "expected_bounds_match": true,
+      "surface_area_m2": 1.6875,
+      "signed_volume_m3": 0.0859375,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "non_axis_aligned_polygons": 0,
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "uv_loop_checks": 82,
+      "uv_loop_mismatches": 0,
+      "source_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source_object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mode": "local_reset",
+      "logical_world_origin": [
+        0,
+        0,
+        0
+      ],
+      "staging_location_is_separate": [
+        -0.2006506323814392,
+        -0.578799843788147,
+        1.3142414093017578
+      ]
+    },
+    {
+      "object": "local_reset_cell_1",
+      "vertices": 44,
+      "polygons": 28,
+      "triangles_from_polygon_corner_count": 84,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.375
+        ],
+        [
+          1.0,
+          1.0,
+          0.625
+        ]
+      ],
+      "expected_bounds_match": true,
+      "surface_area_m2": 2.25,
+      "signed_volume_m3": 0.10937500000000001,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "non_axis_aligned_polygons": 0,
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "uv_loop_checks": 140,
+      "uv_loop_mismatches": 0,
+      "source_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source_object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mode": "local_reset",
+      "logical_world_origin": [
+        1,
+        0,
+        0
+      ],
+      "staging_location_is_separate": [
+        0.7993493676185608,
+        -0.578799843788147,
+        1.3142414093017578
+      ]
+    },
+    {
+      "object": "local_reset_cell_2",
+      "vertices": 44,
+      "polygons": 28,
+      "triangles_from_polygon_corner_count": 84,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.375
+        ],
+        [
+          1.0,
+          1.0,
+          0.625
+        ]
+      ],
+      "expected_bounds_match": true,
+      "surface_area_m2": 2.25,
+      "signed_volume_m3": 0.10937500000000001,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "non_axis_aligned_polygons": 0,
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "uv_loop_checks": 140,
+      "uv_loop_mismatches": 0,
+      "source_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source_object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mode": "local_reset",
+      "logical_world_origin": [
+        2,
+        0,
+        0
+      ],
+      "staging_location_is_separate": [
+        1.799349308013916,
+        -0.578799843788147,
+        1.3142414093017578
+      ]
+    },
+    {
+      "object": "local_reset_cell_3",
+      "vertices": 26,
+      "polygons": 17,
+      "triangles_from_polygon_corner_count": 48,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.375
+        ],
+        [
+          0.625,
+          1.0,
+          0.625
+        ]
+      ],
+      "expected_bounds_match": true,
+      "surface_area_m2": 1.6875,
+      "signed_volume_m3": 0.0859375,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "non_axis_aligned_polygons": 0,
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "uv_loop_checks": 82,
+      "uv_loop_mismatches": 0,
+      "source_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source_object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mode": "local_reset",
+      "logical_world_origin": [
+        3,
+        0,
+        0
+      ],
+      "staging_location_is_separate": [
+        2.799349308013916,
+        -0.578799843788147,
+        1.3142414093017578
+      ]
+    },
+    {
+      "object": "world_directional_cell_0",
+      "vertices": 26,
+      "polygons": 17,
+      "triangles_from_polygon_corner_count": 48,
+      "bounds": [
+        [
+          0.375,
+          0.0,
+          0.375
+        ],
+        [
+          1.0,
+          1.0,
+          0.625
+        ]
+      ],
+      "expected_bounds_match": true,
+      "surface_area_m2": 1.6875,
+      "signed_volume_m3": 0.0859375,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "non_axis_aligned_polygons": 0,
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "uv_loop_checks": 82,
+      "uv_loop_mismatches": 0,
+      "source_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source_object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mode": "world_directional",
+      "logical_world_origin": [
+        0,
+        0,
+        0
+      ],
+      "staging_location_is_separate": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "object": "world_directional_cell_1",
+      "vertices": 44,
+      "polygons": 28,
+      "triangles_from_polygon_corner_count": 84,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.375
+        ],
+        [
+          1.0,
+          1.0,
+          0.625
+        ]
+      ],
+      "expected_bounds_match": true,
+      "surface_area_m2": 2.25,
+      "signed_volume_m3": 0.10937500000000001,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "non_axis_aligned_polygons": 0,
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "uv_loop_checks": 140,
+      "uv_loop_mismatches": 0,
+      "source_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source_object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mode": "world_directional",
+      "logical_world_origin": [
+        1,
+        0,
+        0
+      ],
+      "staging_location_is_separate": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "object": "world_directional_cell_2",
+      "vertices": 44,
+      "polygons": 28,
+      "triangles_from_polygon_corner_count": 84,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.375
+        ],
+        [
+          1.0,
+          1.0,
+          0.625
+        ]
+      ],
+      "expected_bounds_match": true,
+      "surface_area_m2": 2.25,
+      "signed_volume_m3": 0.10937500000000001,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "non_axis_aligned_polygons": 0,
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "uv_loop_checks": 140,
+      "uv_loop_mismatches": 0,
+      "source_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source_object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mode": "world_directional",
+      "logical_world_origin": [
+        2,
+        0,
+        0
+      ],
+      "staging_location_is_separate": [
+        2.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "object": "world_directional_cell_3",
+      "vertices": 26,
+      "polygons": 17,
+      "triangles_from_polygon_corner_count": 48,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.375
+        ],
+        [
+          0.625,
+          1.0,
+          0.625
+        ]
+      ],
+      "expected_bounds_match": true,
+      "surface_area_m2": 1.6875,
+      "signed_volume_m3": 0.0859375,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "non_axis_aligned_polygons": 0,
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "uv_loop_checks": 82,
+      "uv_loop_mismatches": 0,
+      "source_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source_object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mode": "world_directional",
+      "logical_world_origin": [
+        3,
+        0,
+        0
+      ],
+      "staging_location_is_separate": [
+        3.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "object": "native_projection_approx_cell_0",
+      "vertices": 26,
+      "polygons": 17,
+      "triangles_from_polygon_corner_count": 48,
+      "bounds": [
+        [
+          0.375,
+          0.0,
+          0.375
+        ],
+        [
+          1.0,
+          1.0,
+          0.625
+        ]
+      ],
+      "expected_bounds_match": true,
+      "surface_area_m2": 1.6875,
+      "signed_volume_m3": 0.0859375,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "non_axis_aligned_polygons": 0,
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "uv_loop_checks": 82,
+      "uv_loop_mismatches": 0,
+      "source_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source_object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mode": "native_projection_approx",
+      "logical_world_origin": [
+        0,
+        0,
+        0
+      ],
+      "staging_location_is_separate": [
+        0.2006506323814392,
+        0.578799843788147,
+        -1.3142414093017578
+      ]
+    },
+    {
+      "object": "native_projection_approx_cell_1",
+      "vertices": 44,
+      "polygons": 28,
+      "triangles_from_polygon_corner_count": 84,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.375
+        ],
+        [
+          1.0,
+          1.0,
+          0.625
+        ]
+      ],
+      "expected_bounds_match": true,
+      "surface_area_m2": 2.25,
+      "signed_volume_m3": 0.10937500000000001,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "non_axis_aligned_polygons": 0,
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "uv_loop_checks": 140,
+      "uv_loop_mismatches": 0,
+      "source_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source_object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mode": "native_projection_approx",
+      "logical_world_origin": [
+        1,
+        0,
+        0
+      ],
+      "staging_location_is_separate": [
+        1.200650691986084,
+        0.578799843788147,
+        -1.3142414093017578
+      ]
+    },
+    {
+      "object": "native_projection_approx_cell_2",
+      "vertices": 44,
+      "polygons": 28,
+      "triangles_from_polygon_corner_count": 84,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.375
+        ],
+        [
+          1.0,
+          1.0,
+          0.625
+        ]
+      ],
+      "expected_bounds_match": true,
+      "surface_area_m2": 2.25,
+      "signed_volume_m3": 0.10937500000000001,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "non_axis_aligned_polygons": 0,
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "uv_loop_checks": 140,
+      "uv_loop_mismatches": 0,
+      "source_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source_object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mode": "native_projection_approx",
+      "logical_world_origin": [
+        2,
+        0,
+        0
+      ],
+      "staging_location_is_separate": [
+        2.200650691986084,
+        0.578799843788147,
+        -1.3142414093017578
+      ]
+    },
+    {
+      "object": "native_projection_approx_cell_3",
+      "vertices": 26,
+      "polygons": 17,
+      "triangles_from_polygon_corner_count": 48,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.375
+        ],
+        [
+          0.625,
+          1.0,
+          0.625
+        ]
+      ],
+      "expected_bounds_match": true,
+      "surface_area_m2": 1.6875,
+      "signed_volume_m3": 0.0859375,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "non_axis_aligned_polygons": 0,
+      "material_slots": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "uv_loop_checks": 82,
+      "uv_loop_mismatches": 0,
+      "source_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source_object_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mode": "native_projection_approx",
+      "logical_world_origin": [
+        3,
+        0,
+        0
+      ],
+      "staging_location_is_separate": [
+        3.200650691986084,
+        0.578799843788147,
+        -1.3142414093017578
+      ]
+    }
+  ],
+  "fence_joins": {
+    "local_reset": [
+      {
+        "cells": [
+          0,
+          1
+        ],
+        "actual_surface_loop_pairs": 16,
+        "maximum_uv_error": 0.5,
+        "minimum_uv_error": 0.5
+      },
+      {
+        "cells": [
+          1,
+          2
+        ],
+        "actual_surface_loop_pairs": 16,
+        "maximum_uv_error": 0.5,
+        "minimum_uv_error": 0.5
+      },
+      {
+        "cells": [
+          2,
+          3
+        ],
+        "actual_surface_loop_pairs": 16,
+        "maximum_uv_error": 0.5,
+        "minimum_uv_error": 0.5
+      }
+    ],
+    "world_directional": [
+      {
+        "cells": [
+          0,
+          1
+        ],
+        "actual_surface_loop_pairs": 16,
+        "maximum_uv_error": 0.0,
+        "minimum_uv_error": 0.0
+      },
+      {
+        "cells": [
+          1,
+          2
+        ],
+        "actual_surface_loop_pairs": 16,
+        "maximum_uv_error": 0.0,
+        "minimum_uv_error": 0.0
+      },
+      {
+        "cells": [
+          2,
+          3
+        ],
+        "actual_surface_loop_pairs": 16,
+        "maximum_uv_error": 0.0,
+        "minimum_uv_error": 0.0
+      }
+    ],
+    "native_projection_approx": [
+      {
+        "cells": [
+          0,
+          1
+        ],
+        "actual_surface_loop_pairs": 16,
+        "maximum_uv_error": 0.0,
+        "minimum_uv_error": 0.0
+      },
+      {
+        "cells": [
+          1,
+          2
+        ],
+        "actual_surface_loop_pairs": 16,
+        "maximum_uv_error": 0.0,
+        "minimum_uv_error": 0.0
+      },
+      {
+        "cells": [
+          2,
+          3
+        ],
+        "actual_surface_loop_pairs": 16,
+        "maximum_uv_error": 0.0,
+        "minimum_uv_error": 0.0
+      }
+    ]
+  },
+  "images": {
+    "oak_fence_connection16_contact.png": {
+      "size": [
+        1280,
+        1390
+      ],
+      "actually_viewed": true
+    },
+    "oak_fence_phase_comparison.png": {
+      "size": [
+        1280,
+        1060
+      ],
+      "actually_viewed": true
+    },
+    "stone_brick_stairs_master_geometry.png": {
+      "size": [
+        640,
+        640
+      ],
+      "actually_viewed": true
+    },
+    "stone_brick_stairs_optimized_geometry.png": {
+      "size": [
+        640,
+        640
+      ],
+      "actually_viewed": true
+    },
+    "stone_brick_stairs_optimized_mobile256.png": {
+      "size": [
+        640,
+        640
+      ],
+      "actually_viewed": true
+    },
+    "stone_brick_stairs_back_low.png": {
+      "size": [
+        640,
+        640
+      ],
+      "actually_viewed": true
+    },
+    "stone_brick_stairs_clay.png": {
+      "size": [
+        640,
+        640
+      ],
+      "actually_viewed": true
+    }
+  },
+  "artifact_sha256": {
+    "source/oak_fence_connection_phase_reference.blend": "30b3d1a564176919fca17416eb3f7dcf67275d76a9779fedd0f8b0756ec07f41",
+    "previews/oak_fence_connection16_contact.png": "0ba343930ca7916f99655fe90ed04d07f871a042be91994fc95089103318aa8f",
+    "previews/oak_fence_phase_comparison.png": "db98a16498130689f54756202b09bda2aa9feafa203efd72c56ad73308ebe34b",
+    "exports/stone_brick_stairs_master.fbx": "6fd35f208ad710b87d4e46b14deb24acb6ee5eba5905097612856dc1856db899",
+    "exports/stone_brick_stairs_mobile_candidate.fbx": "a737c6ea70fdb74e74f45c69a00f5388385448dc0a6c1b2841c3b2e2e3590a89",
+    "exports/stone_brick_stairs_mobile_candidate.glb": "3230139e4a2e2feca1490cec57271915391010d48c6b6865548e80ba0701ae93",
+    "source/stone_brick_stairs_master_and_candidate.blend": "ef2268267a217c089ee98624f9152d73346860c82dfc9f9a297ba453478e10f4",
+    "previews/stone_brick_stairs_master_geometry.png": "81feb775dd733adef7773270d7d0787098c067a17b7eca7d9d3616fc6be4064d",
+    "previews/stone_brick_stairs_optimized_geometry.png": "3c3597998c39e7e661d0e952cfbe7981d47b4852062ae6777851f11f18df5c54",
+    "previews/stone_brick_stairs_optimized_mobile256.png": "d1b7ad71c9b3ab0c7b6f330000607ebc4af24387c334860967d31f61dde4f715",
+    "previews/stone_brick_stairs_back_low.png": "080814dc2bc4a454e94b62a4242cd70cc72fad8f89a1f66a9e713b9554f842ff",
+    "previews/stone_brick_stairs_clay.png": "b484341d8dd6b3204176300dab2848a8a5ab9681ad20887ac6a53db22ef14119"
+  },
+  "stairs": {
+    "glb": {
+      "triangles": 20,
+      "serialized_vertices": 36,
+      "coordinate_welded_positions": 12,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "surface_area_m2": 5.5,
+      "signed_volume_m3": 0.7499999999999999,
+      "degenerate_triangles": 0,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "normal_mismatch_triangles": 0,
+      "non_axis_aligned_triangles": 0,
+      "boundary_sample_count": 1100,
+      "boundary_sample_failures": 0,
+      "directional_uv_vertex_checks_failed": 0,
+      "directional_uv_triangle_classes": {},
+      "default_projection_uv_failures": 0,
+      "material": {
+        "extensions": {
+          "KHR_materials_specular": {
+            "specularFactor": 0.1599999964237213
+          }
+        },
+        "name": "MAT_Block_stone_bricks",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicFactor": 0,
+          "roughnessFactor": 0.800000011920929
+        }
+      },
+      "attributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0"
+      ],
+      "embedded_texture_sha256": "323bbb4bfa4a2b813ae31220fb4ad0b2d452d87e1c4f7e5fdb9421b0b3b33333",
+      "actual_mesh_accessor_payload_bytes": 1272
+    },
+    "secondary_optimization": {
+      "geometry_normals_uv0_indices_unchanged_from_v01": {
+        "POSITION": true,
+        "NORMAL": true,
+        "TEXCOORD_0": true,
+        "INDEX": true
+      },
+      "old_accessor_payload": 1560,
+      "new_accessor_payload": 1272,
+      "removed_uv1_bytes": 288
+    },
+    "stone_brick_stairs_master.fbx": {
+      "triangles": 176,
+      "serialized_vertices": 90,
+      "coordinate_welded_positions": 90,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "surface_area_m2": 5.5,
+      "signed_volume_m3": 0.7499999999999994,
+      "degenerate_triangles": 0,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "normal_mismatch_triangles": 0,
+      "non_axis_aligned_triangles": 0,
+      "boundary_sample_count": 9680,
+      "boundary_sample_failures": 0,
+      "directional_uv_vertex_checks_failed": 0,
+      "directional_uv_triangle_classes": {},
+      "format_version": 7400,
+      "material_object_count": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional",
+        "Historical_UV0_texId_DO_NOT_BIND"
+      ],
+      "model_transforms_and_units": [
+        [
+          "UnitScaleFactor",
+          "double",
+          "Number",
+          "",
+          1.0
+        ],
+        [
+          "Lcl Translation",
+          "Lcl Translation",
+          "",
+          "A",
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          "Lcl Rotation",
+          "Lcl Rotation",
+          "",
+          "A",
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          "Lcl Scaling",
+          "Lcl Scaling",
+          "",
+          "A",
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          "Lcl Rotation",
+          "Lcl Rotation",
+          "",
+          "A",
+          -90.00000933466734,
+          0.0,
+          0.0
+        ],
+        [
+          "Lcl Scaling",
+          "Lcl Scaling",
+          "",
+          "A",
+          100.0,
+          100.0,
+          100.0
+        ]
+      ]
+    },
+    "stone_brick_stairs_mobile_candidate.fbx": {
+      "triangles": 20,
+      "serialized_vertices": 12,
+      "coordinate_welded_positions": 12,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "surface_area_m2": 5.5,
+      "signed_volume_m3": 0.7499999999999999,
+      "degenerate_triangles": 0,
+      "coordinate_welded_non_two_incidence_edges": 0,
+      "edge_orientation_mismatches": 0,
+      "normal_mismatch_triangles": 0,
+      "non_axis_aligned_triangles": 0,
+      "boundary_sample_count": 1100,
+      "boundary_sample_failures": 0,
+      "directional_uv_vertex_checks_failed": 0,
+      "directional_uv_triangle_classes": {},
+      "format_version": 7400,
+      "material_object_count": 1,
+      "uv_layer_names": [
+        "ReviewUV_2mRepeat_RailDirectional"
+      ],
+      "model_transforms_and_units": [
+        [
+          "UnitScaleFactor",
+          "double",
+          "Number",
+          "",
+          1.0
+        ],
+        [
+          "Lcl Translation",
+          "Lcl Translation",
+          "",
+          "A",
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          "Lcl Rotation",
+          "Lcl Rotation",
+          "",
+          "A",
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          "Lcl Scaling",
+          "Lcl Scaling",
+          "",
+          "A",
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          "Lcl Rotation",
+          "Lcl Rotation",
+          "",
+          "A",
+          -90.00000933466734,
+          0.0,
+          0.0
+        ],
+        [
+          "Lcl Scaling",
+          "Lcl Scaling",
+          "",
+          "A",
+          100.0,
+          100.0,
+          100.0
+        ]
+      ]
+    },
+    "v05_provenance": {
+      "exact_v05_texture_packed_in_blend": true,
+      "actual_v05_texture_sha256": "323bbb4bfa4a2b813ae31220fb4ad0b2d452d87e1c4f7e5fdb9421b0b3b33333",
+      "texture_matches_glb_embedded_image": true
+    },
+    "same_view_master_candidate": {
+      "MAD_RGB255": 3.824869791666667e-05,
+      "pixels_any_channel_difference_gt2": 3
+    },
+    "same_view_512_256": {
+      "MAD_RGB255": 0.3336181640625,
+      "pixels_any_channel_difference_gt2": 21813
+    }
+  },
+  "fence_reference_exact_shared_texture_packed": true,
+  "independent_24_arithmetic_samples": {
+    "count": 24,
+    "rows": [
+      {
+        "grain_axis": 0,
+        "normal_axis": 2,
+        "join_height": 0.375,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 0,
+        "normal_axis": 2,
+        "join_height": 0.5,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 0,
+        "normal_axis": 2,
+        "join_height": 0.625,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 0,
+        "normal_axis": 2,
+        "join_height": 0.75,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 0,
+        "normal_axis": 2,
+        "join_height": 0.875,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 0,
+        "normal_axis": 2,
+        "join_height": 1.0,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 0,
+        "normal_axis": 1,
+        "join_height": 0.375,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 0,
+        "normal_axis": 1,
+        "join_height": 0.5,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 0,
+        "normal_axis": 1,
+        "join_height": 0.625,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 0,
+        "normal_axis": 1,
+        "join_height": 0.75,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 0,
+        "normal_axis": 1,
+        "join_height": 0.875,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 0,
+        "normal_axis": 1,
+        "join_height": 1.0,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 2,
+        "normal_axis": 0,
+        "join_height": 0.375,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 2,
+        "normal_axis": 0,
+        "join_height": 0.5,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 2,
+        "normal_axis": 0,
+        "join_height": 0.625,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 2,
+        "normal_axis": 0,
+        "join_height": 0.75,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 2,
+        "normal_axis": 0,
+        "join_height": 0.875,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 2,
+        "normal_axis": 0,
+        "join_height": 1.0,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 2,
+        "normal_axis": 1,
+        "join_height": 0.375,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 2,
+        "normal_axis": 1,
+        "join_height": 0.5,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 2,
+        "normal_axis": 1,
+        "join_height": 0.625,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 2,
+        "normal_axis": 1,
+        "join_height": 0.75,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 2,
+        "normal_axis": 1,
+        "join_height": 0.875,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      },
+      {
+        "grain_axis": 2,
+        "normal_axis": 1,
+        "join_height": 1.0,
+        "world_offset_join_uv_error": 0.0,
+        "local_reset_join_uv_error": 0.5
+      }
+    ],
+    "matches_supplied_rows": true,
+    "scope": "Arithmetic points, not a claim of 24 physical surface joins; actual stored source-loop pairs checked separately"
+  },
+  "negative_and_chunklike_world_origin_extra_tests": {
+    "cases": 28,
+    "maximum_error": 0.0,
+    "scope": "Reference arithmetic, no chunk accessor or float-origin runtime behavior executed"
+  },
+  "decision": {
+    "fence_single_angle_16_derived_state_visual_review": "reviewed_no_new_visible_geometry_blocker",
+    "fence_actual_baked_world_offset_uv_reference": "verified_offline_reference_only",
+    "stairs_representative_v05_geometry_material_composite": "retain_as_offline_visual_technical_sample",
+    "all_state_block_accepted": false,
+    "native_integrated": false,
+    "mobile_pass": false
+  }
+}
