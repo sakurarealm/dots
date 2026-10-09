@@ -1,0 +1,23 @@
+{
+  "raw_candidate_same_camera": {
+    "MAD_RGB_0_255": 2.86102294921875e-06,
+    "max_channel_difference": 4,
+    "pixels_any_channel_difference_gt2": 4
+  },
+  "candidate512_256_same_camera": {
+    "MAD_RGB_0_255": 0.05019513765970866,
+    "max_channel_difference": 3,
+    "pixels_any_channel_difference_gt2": 11
+  },
+  "raw_overlap_darkening_retained_not_finished_art_approval": true,
+  "new_material_art_approvals": 0,
+  "contact_image_sha256": {
+    "previews/trapdoor12_candidate_front_contact.png": "edb4174bc9907db9a6b644da705f22075e8720602129233cc7e23a8c74a9b678",
+    "previews/trapdoor12_candidate_reverse_under_contact.png": "192cd26b185a2a1e66689c841b2d83b87e8edd5b15bb46ab126ee098c3aea07e",
+    "previews/trapdoor12_candidate_front256_contact.png": "3d8b2866bcc65392dc9fd961cee9d207ae5b1b31cbde34734e400155f7a58a78",
+    "previews/trapdoor12_raw_candidate_closed_open_contact.png": "8a6d48e9705777dd67746942ce19824c84554116e706840856958357088d7ff7"
+  },
+  "native_integrated": false,
+  "full_block_accepted": false,
+  "mobile_pass": false
+}

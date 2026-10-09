@@ -1,0 +1,295 @@
+{
+  "source": "historical VoxelBlockPhysics.cs only",
+  "states": [
+    {
+      "metadata": 0,
+      "historical_original_solid_sheet_box": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.1875,
+          1.0
+        ]
+      ],
+      "volume_m3": 0.1875,
+      "four_hole_visual_union_volume_m3": 0.1142578125,
+      "collision_minus_visual_volume_m3": 0.0732421875
+    },
+    {
+      "metadata": 1,
+      "historical_original_solid_sheet_box": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.1875,
+          1.0
+        ]
+      ],
+      "volume_m3": 0.1875,
+      "four_hole_visual_union_volume_m3": 0.1142578125,
+      "collision_minus_visual_volume_m3": 0.0732421875
+    },
+    {
+      "metadata": 2,
+      "historical_original_solid_sheet_box": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.1875,
+          1.0
+        ]
+      ],
+      "volume_m3": 0.1875,
+      "four_hole_visual_union_volume_m3": 0.1142578125,
+      "collision_minus_visual_volume_m3": 0.0732421875
+    },
+    {
+      "metadata": 3,
+      "historical_original_solid_sheet_box": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.1875,
+          1.0
+        ]
+      ],
+      "volume_m3": 0.1875,
+      "four_hole_visual_union_volume_m3": 0.1142578125,
+      "collision_minus_visual_volume_m3": 0.0732421875
+    },
+    {
+      "metadata": 4,
+      "historical_original_solid_sheet_box": [
+        [
+          0.0,
+          0.8125,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "volume_m3": 0.1875,
+      "four_hole_visual_union_volume_m3": 0.1142578125,
+      "collision_minus_visual_volume_m3": 0.0732421875
+    },
+    {
+      "metadata": 5,
+      "historical_original_solid_sheet_box": [
+        [
+          0.0,
+          0.8125,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "volume_m3": 0.1875,
+      "four_hole_visual_union_volume_m3": 0.1142578125,
+      "collision_minus_visual_volume_m3": 0.0732421875
+    },
+    {
+      "metadata": 6,
+      "historical_original_solid_sheet_box": [
+        [
+          0.0,
+          0.8125,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "volume_m3": 0.1875,
+      "four_hole_visual_union_volume_m3": 0.1142578125,
+      "collision_minus_visual_volume_m3": 0.0732421875
+    },
+    {
+      "metadata": 7,
+      "historical_original_solid_sheet_box": [
+        [
+          0.0,
+          0.8125,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "volume_m3": 0.1875,
+      "four_hole_visual_union_volume_m3": 0.1142578125,
+      "collision_minus_visual_volume_m3": 0.0732421875
+    },
+    {
+      "metadata": 8,
+      "historical_original_solid_sheet_box": [
+        [
+          0.0,
+          0.0,
+          0.8125
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "volume_m3": 0.1875,
+      "four_hole_visual_union_volume_m3": 0.1142578125,
+      "collision_minus_visual_volume_m3": 0.0732421875
+    },
+    {
+      "metadata": 9,
+      "historical_original_solid_sheet_box": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.1875,
+          1.0,
+          1.0
+        ]
+      ],
+      "volume_m3": 0.1875,
+      "four_hole_visual_union_volume_m3": 0.1142578125,
+      "collision_minus_visual_volume_m3": 0.0732421875
+    },
+    {
+      "metadata": 10,
+      "historical_original_solid_sheet_box": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.1875
+        ]
+      ],
+      "volume_m3": 0.1875,
+      "four_hole_visual_union_volume_m3": 0.1142578125,
+      "collision_minus_visual_volume_m3": 0.0732421875
+    },
+    {
+      "metadata": 11,
+      "historical_original_solid_sheet_box": [
+        [
+          0.8125,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "volume_m3": 0.1875,
+      "four_hole_visual_union_volume_m3": 0.1142578125,
+      "collision_minus_visual_volume_m3": 0.0732421875
+    },
+    {
+      "metadata": 12,
+      "historical_original_solid_sheet_box": [
+        [
+          0.0,
+          0.0,
+          0.8125
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "volume_m3": 0.1875,
+      "four_hole_visual_union_volume_m3": 0.1142578125,
+      "collision_minus_visual_volume_m3": 0.0732421875
+    },
+    {
+      "metadata": 13,
+      "historical_original_solid_sheet_box": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.1875,
+          1.0,
+          1.0
+        ]
+      ],
+      "volume_m3": 0.1875,
+      "four_hole_visual_union_volume_m3": 0.1142578125,
+      "collision_minus_visual_volume_m3": 0.0732421875
+    },
+    {
+      "metadata": 14,
+      "historical_original_solid_sheet_box": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.1875
+        ]
+      ],
+      "volume_m3": 0.1875,
+      "four_hole_visual_union_volume_m3": 0.1142578125,
+      "collision_minus_visual_volume_m3": 0.0732421875
+    },
+    {
+      "metadata": 15,
+      "historical_original_solid_sheet_box": [
+        [
+          0.8125,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "volume_m3": 0.1875,
+      "four_hole_visual_union_volume_m3": 0.1142578125,
+      "collision_minus_visual_volume_m3": 0.0732421875
+    }
+  ],
+  "actual_physics_or_interaction_run": false,
+  "candidate_render_mesh_not_collision_replacement": true
+}

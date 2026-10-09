@@ -1,0 +1,2617 @@
+{
+  "review": "independent limited offline geometry reference only",
+  "method": "Historical C# read, independent source-contract boxes, direct SDNA/GLB/FBX byte parsing; no Blender process/import, render, Unity, Codex, native source changes or phone run",
+  "expected_source": "historical 0956b0777cf007a7a3b1ed799f7ade777f14c80d, ChunkMeshGenerator.cs:964-1042, Vox.cs:101-127, VoxelBlockPhysics.cs:40-44",
+  "independent_checks_pass": true,
+  "limited_offline_geometry_reference_pass": true,
+  "metadata_endpoints": 16,
+  "distinct_occupancies": 6,
+  "historical_catalog_names": 645,
+  "historical_shape12_names": [
+    "spruce_trapdoor",
+    "dark_oak_trapdoor",
+    "iron_trapdoor"
+  ],
+  "source_target_meshes": 36,
+  "source_preview_helper_meshes": 1,
+  "GLB_state_meshes": 32,
+  "FBX_candidate_geometries": 16,
+  "one_shared_source_target_material": true,
+  "GLB_one_material_single_sided_opaque": true,
+  "approved_512_map_sha256": "c708e6c4930b561d10485d5294bb34d5763a8d43904489f3d1e5545282586d8f",
+  "source_packed_images": [
+    {
+      "name": "basecolor.png",
+      "bytes": 209975,
+      "sha256": "c708e6c4930b561d10485d5294bb34d5763a8d43904489f3d1e5545282586d8f"
+    }
+  ],
+  "costs": {
+    "raw_GLB": {
+      "bytes": 305080,
+      "unique_mesh_range_bytes": 74160,
+      "accessor_reference_range_sum": 80640,
+      "embedded_images": [
+        {
+          "sha256": "c708e6c4930b561d10485d5294bb34d5763a8d43904489f3d1e5545282586d8f",
+          "bytes": 209975
+        }
+      ]
+    },
+    "candidate_GLB": {
+      "bytes": 288872,
+      "unique_mesh_range_bytes": 57680,
+      "accessor_reference_range_sum": 62720,
+      "embedded_images": [
+        {
+          "sha256": "c708e6c4930b561d10485d5294bb34d5763a8d43904489f3d1e5545282586d8f",
+          "bytes": 209975
+        }
+      ]
+    }
+  },
+  "physical_mesh_range_saving_B": 16480,
+  "whole_GLB_saving_B": 16208,
+  "file_bytes_not_runtime_allocation_or_frame_measurement": true,
+  "source_cases": {
+    "COMPARE_trapdoor12_candidate_meta00": {
+      "triangles": 56,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.1875,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "1": 28,
+        "2": 64,
+        "3": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 112,
+      "actual_saved_quad_faces": 28,
+      "expanded_triangle_corners": 168
+    },
+    "COMPARE_trapdoor12_candidate_meta08": {
+      "triangles": 56,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.8125
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "1": 28,
+        "2": 64,
+        "3": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 112,
+      "actual_saved_quad_faces": 28,
+      "expanded_triangle_corners": 168
+    },
+    "COMPARE_trapdoor12_raw_meta00": {
+      "triangles": 72,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.1875,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "2": 100,
+        "4": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 144,
+      "actual_saved_quad_faces": 36,
+      "expanded_triangle_corners": 216
+    },
+    "COMPARE_trapdoor12_raw_meta08": {
+      "triangles": 72,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.8125
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "2": 100,
+        "4": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 144,
+      "actual_saved_quad_faces": 36,
+      "expanded_triangle_corners": 216
+    },
+    "TRAPDOOR12_candidate_meta00": {
+      "triangles": 56,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.1875,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "1": 28,
+        "2": 64,
+        "3": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 112,
+      "actual_saved_quad_faces": 28,
+      "expanded_triangle_corners": 168
+    },
+    "TRAPDOOR12_candidate_meta01": {
+      "triangles": 56,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.1875,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "1": 28,
+        "2": 64,
+        "3": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 112,
+      "actual_saved_quad_faces": 28,
+      "expanded_triangle_corners": 168
+    },
+    "TRAPDOOR12_candidate_meta02": {
+      "triangles": 56,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.1875,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "1": 28,
+        "2": 64,
+        "3": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 112,
+      "actual_saved_quad_faces": 28,
+      "expanded_triangle_corners": 168
+    },
+    "TRAPDOOR12_candidate_meta03": {
+      "triangles": 56,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.1875,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "1": 28,
+        "2": 64,
+        "3": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 112,
+      "actual_saved_quad_faces": 28,
+      "expanded_triangle_corners": 168
+    },
+    "TRAPDOOR12_candidate_meta04": {
+      "triangles": 56,
+      "bounds": [
+        [
+          0.0,
+          0.8125,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "1": 28,
+        "2": 64,
+        "3": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 112,
+      "actual_saved_quad_faces": 28,
+      "expanded_triangle_corners": 168
+    },
+    "TRAPDOOR12_candidate_meta05": {
+      "triangles": 56,
+      "bounds": [
+        [
+          0.0,
+          0.8125,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "1": 28,
+        "2": 64,
+        "3": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 112,
+      "actual_saved_quad_faces": 28,
+      "expanded_triangle_corners": 168
+    },
+    "TRAPDOOR12_candidate_meta06": {
+      "triangles": 56,
+      "bounds": [
+        [
+          0.0,
+          0.8125,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "1": 28,
+        "2": 64,
+        "3": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 112,
+      "actual_saved_quad_faces": 28,
+      "expanded_triangle_corners": 168
+    },
+    "TRAPDOOR12_candidate_meta07": {
+      "triangles": 56,
+      "bounds": [
+        [
+          0.0,
+          0.8125,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "1": 28,
+        "2": 64,
+        "3": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 112,
+      "actual_saved_quad_faces": 28,
+      "expanded_triangle_corners": 168
+    },
+    "TRAPDOOR12_candidate_meta08": {
+      "triangles": 56,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.8125
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "1": 28,
+        "2": 64,
+        "3": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 112,
+      "actual_saved_quad_faces": 28,
+      "expanded_triangle_corners": 168
+    },
+    "TRAPDOOR12_candidate_meta09": {
+      "triangles": 56,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.1875,
+          1.0,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "1": 28,
+        "2": 64,
+        "3": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 112,
+      "actual_saved_quad_faces": 28,
+      "expanded_triangle_corners": 168
+    },
+    "TRAPDOOR12_candidate_meta10": {
+      "triangles": 56,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.1875
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "1": 28,
+        "2": 64,
+        "3": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 112,
+      "actual_saved_quad_faces": 28,
+      "expanded_triangle_corners": 168
+    },
+    "TRAPDOOR12_candidate_meta11": {
+      "triangles": 56,
+      "bounds": [
+        [
+          0.8125,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "1": 28,
+        "2": 64,
+        "3": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 112,
+      "actual_saved_quad_faces": 28,
+      "expanded_triangle_corners": 168
+    },
+    "TRAPDOOR12_candidate_meta12": {
+      "triangles": 56,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.8125
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "1": 28,
+        "2": 64,
+        "3": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 112,
+      "actual_saved_quad_faces": 28,
+      "expanded_triangle_corners": 168
+    },
+    "TRAPDOOR12_candidate_meta13": {
+      "triangles": 56,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.1875,
+          1.0,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "1": 28,
+        "2": 64,
+        "3": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 112,
+      "actual_saved_quad_faces": 28,
+      "expanded_triangle_corners": 168
+    },
+    "TRAPDOOR12_candidate_meta14": {
+      "triangles": 56,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.1875
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "1": 28,
+        "2": 64,
+        "3": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 112,
+      "actual_saved_quad_faces": 28,
+      "expanded_triangle_corners": 168
+    },
+    "TRAPDOOR12_candidate_meta15": {
+      "triangles": 56,
+      "bounds": [
+        [
+          0.8125,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "1": 28,
+        "2": 64,
+        "3": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 112,
+      "actual_saved_quad_faces": 28,
+      "expanded_triangle_corners": 168
+    },
+    "TRAPDOOR12_raw_meta00": {
+      "triangles": 72,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.1875,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "2": 100,
+        "4": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 144,
+      "actual_saved_quad_faces": 36,
+      "expanded_triangle_corners": 216
+    },
+    "TRAPDOOR12_raw_meta01": {
+      "triangles": 72,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.1875,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "2": 100,
+        "4": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 144,
+      "actual_saved_quad_faces": 36,
+      "expanded_triangle_corners": 216
+    },
+    "TRAPDOOR12_raw_meta02": {
+      "triangles": 72,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.1875,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "2": 100,
+        "4": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 144,
+      "actual_saved_quad_faces": 36,
+      "expanded_triangle_corners": 216
+    },
+    "TRAPDOOR12_raw_meta03": {
+      "triangles": 72,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.1875,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "2": 100,
+        "4": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 144,
+      "actual_saved_quad_faces": 36,
+      "expanded_triangle_corners": 216
+    },
+    "TRAPDOOR12_raw_meta04": {
+      "triangles": 72,
+      "bounds": [
+        [
+          0.0,
+          0.8125,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "2": 100,
+        "4": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 144,
+      "actual_saved_quad_faces": 36,
+      "expanded_triangle_corners": 216
+    },
+    "TRAPDOOR12_raw_meta05": {
+      "triangles": 72,
+      "bounds": [
+        [
+          0.0,
+          0.8125,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "2": 100,
+        "4": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 144,
+      "actual_saved_quad_faces": 36,
+      "expanded_triangle_corners": 216
+    },
+    "TRAPDOOR12_raw_meta06": {
+      "triangles": 72,
+      "bounds": [
+        [
+          0.0,
+          0.8125,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "2": 100,
+        "4": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 144,
+      "actual_saved_quad_faces": 36,
+      "expanded_triangle_corners": 216
+    },
+    "TRAPDOOR12_raw_meta07": {
+      "triangles": 72,
+      "bounds": [
+        [
+          0.0,
+          0.8125,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "2": 100,
+        "4": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 144,
+      "actual_saved_quad_faces": 36,
+      "expanded_triangle_corners": 216
+    },
+    "TRAPDOOR12_raw_meta08": {
+      "triangles": 72,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.8125
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "2": 100,
+        "4": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 144,
+      "actual_saved_quad_faces": 36,
+      "expanded_triangle_corners": 216
+    },
+    "TRAPDOOR12_raw_meta09": {
+      "triangles": 72,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.1875,
+          1.0,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "2": 100,
+        "4": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 144,
+      "actual_saved_quad_faces": 36,
+      "expanded_triangle_corners": 216
+    },
+    "TRAPDOOR12_raw_meta10": {
+      "triangles": 72,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.1875
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "2": 100,
+        "4": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 144,
+      "actual_saved_quad_faces": 36,
+      "expanded_triangle_corners": 216
+    },
+    "TRAPDOOR12_raw_meta11": {
+      "triangles": 72,
+      "bounds": [
+        [
+          0.8125,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "2": 100,
+        "4": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 144,
+      "actual_saved_quad_faces": 36,
+      "expanded_triangle_corners": 216
+    },
+    "TRAPDOOR12_raw_meta12": {
+      "triangles": 72,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.8125
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "2": 100,
+        "4": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 144,
+      "actual_saved_quad_faces": 36,
+      "expanded_triangle_corners": 216
+    },
+    "TRAPDOOR12_raw_meta13": {
+      "triangles": 72,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.1875,
+          1.0,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "2": 100,
+        "4": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 144,
+      "actual_saved_quad_faces": 36,
+      "expanded_triangle_corners": 216
+    },
+    "TRAPDOOR12_raw_meta14": {
+      "triangles": 72,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.1875
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "2": 100,
+        "4": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 144,
+      "actual_saved_quad_faces": 36,
+      "expanded_triangle_corners": 216
+    },
+    "TRAPDOOR12_raw_meta15": {
+      "triangles": 72,
+      "bounds": [
+        [
+          0.8125,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "coordinate_welded_positions": 40,
+      "coordinate_edge_incidence_histogram": {
+        "2": 100,
+        "4": 4
+      },
+      "wrong_normals": 0,
+      "wrong_world2m_uv_corners": 0,
+      "triangles_not_on_original_component_faces": 0,
+      "independent_union_boundary_tile_samples": 78,
+      "union_boundary_misses": [],
+      "union_volume_m3": 0.1142578125,
+      "actual_saved_mesh_vertices": 144,
+      "actual_saved_quad_faces": 36,
+      "expanded_triangle_corners": 216
+    }
+  },
+  "state_cases": {
+    "0": {
+      "candidate": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.1875,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 112
+      },
+      "raw": {
+        "triangles": 72,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.1875,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "2": 100,
+          "4": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 144
+      },
+      "fbx": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.1875,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125
+      },
+      "exact_PNUV_raw_triangle_subset": true,
+      "whole_backed_quads_removed": 8,
+      "source_GLB_triangle_multisets_equal": true,
+      "FBX_surface_corner_set_equal": true,
+      "FBX_literal_triangle_equality": false
+    },
+    "1": {
+      "candidate": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.1875,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 112
+      },
+      "raw": {
+        "triangles": 72,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.1875,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "2": 100,
+          "4": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 144
+      },
+      "fbx": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.1875,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125
+      },
+      "exact_PNUV_raw_triangle_subset": true,
+      "whole_backed_quads_removed": 8,
+      "source_GLB_triangle_multisets_equal": true,
+      "FBX_surface_corner_set_equal": true,
+      "FBX_literal_triangle_equality": false
+    },
+    "2": {
+      "candidate": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.1875,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 112
+      },
+      "raw": {
+        "triangles": 72,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.1875,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "2": 100,
+          "4": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 144
+      },
+      "fbx": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.1875,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125
+      },
+      "exact_PNUV_raw_triangle_subset": true,
+      "whole_backed_quads_removed": 8,
+      "source_GLB_triangle_multisets_equal": true,
+      "FBX_surface_corner_set_equal": true,
+      "FBX_literal_triangle_equality": false
+    },
+    "3": {
+      "candidate": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.1875,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 112
+      },
+      "raw": {
+        "triangles": 72,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.1875,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "2": 100,
+          "4": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 144
+      },
+      "fbx": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.1875,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125
+      },
+      "exact_PNUV_raw_triangle_subset": true,
+      "whole_backed_quads_removed": 8,
+      "source_GLB_triangle_multisets_equal": true,
+      "FBX_surface_corner_set_equal": true,
+      "FBX_literal_triangle_equality": false
+    },
+    "4": {
+      "candidate": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.0,
+            0.8125,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 112
+      },
+      "raw": {
+        "triangles": 72,
+        "bounds": [
+          [
+            0.0,
+            0.8125,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "2": 100,
+          "4": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 144
+      },
+      "fbx": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.0,
+            0.8125,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125
+      },
+      "exact_PNUV_raw_triangle_subset": true,
+      "whole_backed_quads_removed": 8,
+      "source_GLB_triangle_multisets_equal": true,
+      "FBX_surface_corner_set_equal": true,
+      "FBX_literal_triangle_equality": false
+    },
+    "5": {
+      "candidate": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.0,
+            0.8125,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 112
+      },
+      "raw": {
+        "triangles": 72,
+        "bounds": [
+          [
+            0.0,
+            0.8125,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "2": 100,
+          "4": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 144
+      },
+      "fbx": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.0,
+            0.8125,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125
+      },
+      "exact_PNUV_raw_triangle_subset": true,
+      "whole_backed_quads_removed": 8,
+      "source_GLB_triangle_multisets_equal": true,
+      "FBX_surface_corner_set_equal": true,
+      "FBX_literal_triangle_equality": false
+    },
+    "6": {
+      "candidate": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.0,
+            0.8125,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 112
+      },
+      "raw": {
+        "triangles": 72,
+        "bounds": [
+          [
+            0.0,
+            0.8125,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "2": 100,
+          "4": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 144
+      },
+      "fbx": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.0,
+            0.8125,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125
+      },
+      "exact_PNUV_raw_triangle_subset": true,
+      "whole_backed_quads_removed": 8,
+      "source_GLB_triangle_multisets_equal": true,
+      "FBX_surface_corner_set_equal": true,
+      "FBX_literal_triangle_equality": false
+    },
+    "7": {
+      "candidate": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.0,
+            0.8125,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 112
+      },
+      "raw": {
+        "triangles": 72,
+        "bounds": [
+          [
+            0.0,
+            0.8125,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "2": 100,
+          "4": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 144
+      },
+      "fbx": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.0,
+            0.8125,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125
+      },
+      "exact_PNUV_raw_triangle_subset": true,
+      "whole_backed_quads_removed": 8,
+      "source_GLB_triangle_multisets_equal": true,
+      "FBX_surface_corner_set_equal": true,
+      "FBX_literal_triangle_equality": false
+    },
+    "8": {
+      "candidate": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.8125
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 112
+      },
+      "raw": {
+        "triangles": 72,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.8125
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "2": 100,
+          "4": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 144
+      },
+      "fbx": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.8125
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125
+      },
+      "exact_PNUV_raw_triangle_subset": true,
+      "whole_backed_quads_removed": 8,
+      "source_GLB_triangle_multisets_equal": true,
+      "FBX_surface_corner_set_equal": true,
+      "FBX_literal_triangle_equality": false
+    },
+    "9": {
+      "candidate": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.1875,
+            1.0,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 112
+      },
+      "raw": {
+        "triangles": 72,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.1875,
+            1.0,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "2": 100,
+          "4": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 144
+      },
+      "fbx": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.1875,
+            1.0,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125
+      },
+      "exact_PNUV_raw_triangle_subset": true,
+      "whole_backed_quads_removed": 8,
+      "source_GLB_triangle_multisets_equal": true,
+      "FBX_surface_corner_set_equal": true,
+      "FBX_literal_triangle_equality": false
+    },
+    "10": {
+      "candidate": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            0.1875
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 112
+      },
+      "raw": {
+        "triangles": 72,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            0.1875
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "2": 100,
+          "4": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 144
+      },
+      "fbx": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            0.1875
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125
+      },
+      "exact_PNUV_raw_triangle_subset": true,
+      "whole_backed_quads_removed": 8,
+      "source_GLB_triangle_multisets_equal": true,
+      "FBX_surface_corner_set_equal": true,
+      "FBX_literal_triangle_equality": false
+    },
+    "11": {
+      "candidate": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.8125,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 112
+      },
+      "raw": {
+        "triangles": 72,
+        "bounds": [
+          [
+            0.8125,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "2": 100,
+          "4": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 144
+      },
+      "fbx": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.8125,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125
+      },
+      "exact_PNUV_raw_triangle_subset": true,
+      "whole_backed_quads_removed": 8,
+      "source_GLB_triangle_multisets_equal": true,
+      "FBX_surface_corner_set_equal": true,
+      "FBX_literal_triangle_equality": false
+    },
+    "12": {
+      "candidate": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.8125
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 112
+      },
+      "raw": {
+        "triangles": 72,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.8125
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "2": 100,
+          "4": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 144
+      },
+      "fbx": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.8125
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125
+      },
+      "exact_PNUV_raw_triangle_subset": true,
+      "whole_backed_quads_removed": 8,
+      "source_GLB_triangle_multisets_equal": true,
+      "FBX_surface_corner_set_equal": true,
+      "FBX_literal_triangle_equality": false
+    },
+    "13": {
+      "candidate": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.1875,
+            1.0,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 112
+      },
+      "raw": {
+        "triangles": 72,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.1875,
+            1.0,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "2": 100,
+          "4": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 144
+      },
+      "fbx": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.1875,
+            1.0,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125
+      },
+      "exact_PNUV_raw_triangle_subset": true,
+      "whole_backed_quads_removed": 8,
+      "source_GLB_triangle_multisets_equal": true,
+      "FBX_surface_corner_set_equal": true,
+      "FBX_literal_triangle_equality": false
+    },
+    "14": {
+      "candidate": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            0.1875
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 112
+      },
+      "raw": {
+        "triangles": 72,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            0.1875
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "2": 100,
+          "4": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 144
+      },
+      "fbx": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            0.1875
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125
+      },
+      "exact_PNUV_raw_triangle_subset": true,
+      "whole_backed_quads_removed": 8,
+      "source_GLB_triangle_multisets_equal": true,
+      "FBX_surface_corner_set_equal": true,
+      "FBX_literal_triangle_equality": false
+    },
+    "15": {
+      "candidate": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.8125,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 112
+      },
+      "raw": {
+        "triangles": 72,
+        "bounds": [
+          [
+            0.8125,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "2": 100,
+          "4": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125,
+        "actual_GLB_POSITION_accessor_vertices": 144
+      },
+      "fbx": {
+        "triangles": 56,
+        "bounds": [
+          [
+            0.8125,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ],
+        "coordinate_welded_positions": 40,
+        "coordinate_edge_incidence_histogram": {
+          "1": 28,
+          "2": 64,
+          "3": 4
+        },
+        "wrong_normals": 0,
+        "wrong_world2m_uv_corners": 0,
+        "triangles_not_on_original_component_faces": 0,
+        "independent_union_boundary_tile_samples": 78,
+        "union_boundary_misses": [],
+        "union_volume_m3": 0.1142578125
+      },
+      "exact_PNUV_raw_triangle_subset": true,
+      "whole_backed_quads_removed": 8,
+      "source_GLB_triangle_multisets_equal": true,
+      "FBX_surface_corner_set_equal": true,
+      "FBX_literal_triangle_equality": false
+    }
+  },
+  "independent_boundary_sample_scheme": "One skew interior point on every exposed source-union grid tile, 78 per endpoint per mesh; independent from maker 234-per-state sampling",
+  "candidate_boundary_samples_total": 1248,
+  "four_hole_through_line_tests": 64,
+  "collider_reference": {
+    "historical_original_solid_sheet_volume_m3": 0.1875,
+    "visual_union_volume_m3": 0.1142578125,
+    "difference_m3": 0.0732421875,
+    "unchanged_reference_only": true,
+    "render_candidate_is_not_closed_union_or_approved_collider": true
+  },
+  "FBX": {
+    "version": 7400,
+    "materials": [
+      "MAT_Shared_IronV02_Offline_PBR_Bridge\u0000\u0001Material"
+    ],
+    "texture_paths": {
+      "Texture:FileName": "/workspace/shared/aether-mobile-blocks/materials_b/approved_standalone/iron_block_v02/textures/candidate_512/basecolor.png",
+      "Texture:RelativeFilename": "../../../materials_b/approved_standalone/iron_block_v02/textures/candidate_512/basecolor.png",
+      "Video:Filename": "/workspace/shared/aether-mobile-blocks/materials_b/approved_standalone/iron_block_v02/textures/candidate_512/basecolor.png",
+      "Video:RelativeFilename": "../../../materials_b/approved_standalone/iron_block_v02/textures/candidate_512/basecolor.png"
+    },
+    "bytes": 102364,
+    "sha256": "001a3b6084cb2cf35f1162d862f8ba5c99b0c4b8ff50031a2ff8c5811e393cbf"
+  },
+  "artifact_sha256": {
+    "exports/iron_trapdoor12_candidate16_endpoint_reference_atlas.glb": "2b36fcd10c0d6eaff82d454d7970e160585afcd2bf5cdb4959d464694761e24a",
+    "exports/iron_trapdoor12_candidate16_endpoint_reference_atlas.fbx": "001a3b6084cb2cf35f1162d862f8ba5c99b0c4b8ff50031a2ff8c5811e393cbf",
+    "exports/iron_trapdoor12_raw16_endpoint_reference_atlas.glb": "b887f791049169bf01e30d5055e0706651d35f6ddc041d98e393f511c33440cc",
+    "source/iron_trapdoor12_internal_cap_reference.blend": "d2d9c1387cfecf7a8d628f81d667834e6041811c77c178113966e592ece071bf"
+  },
+  "reviewed_maker_reports_and_specs_sha256": {
+    "reports/trapdoor12-original-solid-sheet-collider-reference.json": "bcb41fff3ec1ba8eaa96eaebc77f6cde88c72d9cc363b2315acd7487d1ca700c",
+    "reports/trapdoor12-labeled-views-and-pixel-comparison.json": "a4469d13b06e00ca71c5c6b13b7a4eed8b661f5bdf8add9fe6ffa1d552e95b7d",
+    "reports/trapdoor12-byte-selfcheck.json": "67579d5c2c081a5dc83d46c0493c561ce594c60454928a8bb9464568c2dc3253",
+    "reports/trapdoor12-actual-mesh-snapshots.json": "47f2e6d1a90948862f1533167a11cd6cf637ff6f5cff956eb645b4fc32e363dd",
+    "reports/trapdoor12-Blender-export-roundtrip.json": "9e34d62a051a2bfa73b5d74b53558028061f220f59baa5dbe80505afd0fdce26",
+    "reports/trapdoor12-build-render.json": "a771b50a7e97bcaecb6d5820c9730e99c79a8ae53e25309ec8e1a203894f7f2e",
+    "SPECS_AND_SCOPE.md": "cfde101983f3d8ac6f723cf0efaf48eca5979149de5675e92cbb55664ed20fb9"
+  },
+  "independently_recomputed_existing_preview_pixel_differences": {
+    "raw_candidate_same_camera": {
+      "MAD_RGB_0_255": 2.86102294921875e-06,
+      "max_channel_difference": 4,
+      "pixels_any_channel_difference_gt2": 4
+    },
+    "candidate512_256_same_camera": {
+      "MAD_RGB_0_255": 0.05019513765970866,
+      "max_channel_difference": 3,
+      "pixels_any_channel_difference_gt2": 11
+    }
+  },
+  "contact_images_actually_viewed_full_frame": [
+    "trapdoor12_candidate_front_contact.png",
+    "trapdoor12_candidate_reverse_under_contact.png",
+    "trapdoor12_candidate_front256_contact.png",
+    "trapdoor12_raw_candidate_closed_open_contact.png"
+  ],
+  "visual_finding": "Four holes and thickness visible, final frame centered without cropping; conspicuous black central crossing patch in candidate512,256,reverse-under and raw comparison; raw overlap preserved. No finished production art approval.",
+  "author_roundtrip_report": "Read as maker evidence only; 48 author imports are not independent imports.",
+  "report_wording_correction": "Maker corrected source serialized_vertices216/168 to expanded_triangle_corners and separately recorded actual_saved_mesh_vertices144/112, saved_quads36/28. Existing roundtrip import vertex array count was not recorded and is explicitly unclaimed; no new import was run.",
+  "limitations": [
+    "Native UV0(texId,0), tint, metallic shader, neighbor culling and native attributes untested",
+    "No animated hinge/pivot/sweep, body overlap safety, picking, save/dirty-region/cross-chunk test",
+    "No new collision implementation, Unity import or actual phone test",
+    "Iron approved artwork reused; no wood variant art approval; black overlap prevents production-art pass"
+  ],
+  "new_material_art_approvals": 0,
+  "finished_production_art_pass": false,
+  "full_block_accepted": false,
+  "native_integrated": false,
+  "mobile_pass": false
+}

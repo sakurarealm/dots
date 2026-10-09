@@ -1,0 +1,360 @@
+{
+  "scope": "Trapdoor12 conservative internal-cap limited offline geometry reference",
+  "finished_production_art_pass": false,
+  "new_material_art_approvals": 0,
+  "native_integrated": false,
+  "full_block_accepted": false,
+  "mobile_pass": false,
+  "files": [
+    {
+      "path": "geometry/cost_studies/trapdoor12/TRAPDOOR12_COST_DECISION.md",
+      "bytes": 1937,
+      "sha256": "16f01ca577d5d3835bf4ae93c11e91976ab198b52b925cdceb8445aaf17534c1"
+    },
+    {
+      "path": "geometry/cost_studies/trapdoor12/trapdoor12-component-cap-cost-study.json",
+      "bytes": 56589,
+      "sha256": "776615f6be31704525a6b6161e3c6a0fc423561030b6115ba7ed2ee86326bed1"
+    },
+    {
+      "path": "geometry/historical/ArchitecturalShapes.cs",
+      "bytes": 10588,
+      "sha256": "19ca8cae8435f15e434071a7a6c9084772bfd5db14b46703dbfefb284480c3e2"
+    },
+    {
+      "path": "geometry/historical/ChunkMeshGenerator.cs",
+      "bytes": 71625,
+      "sha256": "6b69da88c439c954abc70a0647a07fe57329d526a662418ab71e0054c5e29be7"
+    },
+    {
+      "path": "geometry/historical/McBlockStateMetadata.cs",
+      "bytes": 6327,
+      "sha256": "7816da3893c5a33b6a1fdc3300cee8d52824a590245afc4bc6fc07316b3a3c4b"
+    },
+    {
+      "path": "geometry/historical/TerrainTexBlend.hlsl",
+      "bytes": 48943,
+      "sha256": "08b2b281db535f222791eb500761a3fbf39b8c857bafb7fd85bb830640cb758d"
+    },
+    {
+      "path": "geometry/historical/Vox.cs",
+      "bytes": 5816,
+      "sha256": "bdb10387d62e9a6e4b6a1847185a1776bf15673a9320cc4e8e128d290ece9b25"
+    },
+    {
+      "path": "geometry/historical/VoxShapeRegistry.cs",
+      "bytes": 2001,
+      "sha256": "2e4a1a68b84c512352c2ab3cb3ee7ace40c954bddfbdae0226f36e3fc76c869b"
+    },
+    {
+      "path": "geometry/historical/VoxelBlockInteraction.cs",
+      "bytes": 6217,
+      "sha256": "fb930774d971b98c554556964dd16c660102eacfe0f66bfb3dbc042bf65f6d15"
+    },
+    {
+      "path": "geometry/historical/VoxelBlockPhysics.cs",
+      "bytes": 2330,
+      "sha256": "3dc815f59e6a9887f1dd2323957212ed561ba46890fd3674c5f1e4bff0319d0a"
+    },
+    {
+      "path": "geometry/next_trapdoor12/SPECS_AND_SCOPE.md",
+      "bytes": 7253,
+      "sha256": "cfde101983f3d8ac6f723cf0efaf48eca5979149de5675e92cbb55664ed20fb9"
+    },
+    {
+      "path": "geometry/next_trapdoor12/delivery/README_Trapdoor12_reference.txt",
+      "bytes": 4186,
+      "sha256": "a8c8d16363db1e75a70f25a4bd3235343191ff3fee5b423405d6e30570072bfd"
+    },
+    {
+      "path": "geometry/next_trapdoor12/delivery/REVIEW_STATUS.md",
+      "bytes": 1257,
+      "sha256": "7d45b908dd567596a1901bf7bfab32dc287e46a7f2d23c459aeed99699f0fc49"
+    },
+    {
+      "path": "geometry/next_trapdoor12/delivery/lossless_previews/trapdoor12_candidate_front256_contact.webp",
+      "bytes": 1414818,
+      "sha256": "70d755e2bb6f6b440751a72918b6072f485f2527459c64b18e1897b2a01f3f5c"
+    },
+    {
+      "path": "geometry/next_trapdoor12/delivery/lossless_previews/trapdoor12_candidate_front256_raw.webp",
+      "bytes": 1307186,
+      "sha256": "fa74feb327f4f712e28e85e38e29493a4a688ee72d1c1ba0660777a36e924f2b"
+    },
+    {
+      "path": "geometry/next_trapdoor12/delivery/lossless_previews/trapdoor12_candidate_front_contact.webp",
+      "bytes": 1421542,
+      "sha256": "0ea759abb4316c2fe57d2bbf890a7e6b4141d0a75ad63619fbc7d53c8203d2c7"
+    },
+    {
+      "path": "geometry/next_trapdoor12/delivery/lossless_previews/trapdoor12_candidate_front_raw.webp",
+      "bytes": 1314034,
+      "sha256": "8b71884eaa35a2db583bfd521e94382257cbc63e5cff454b276642199e046c04"
+    },
+    {
+      "path": "geometry/next_trapdoor12/delivery/lossless_previews/trapdoor12_candidate_reverse_under_contact.webp",
+      "bytes": 1060372,
+      "sha256": "6cafafc548af1ea2dbdb058453539468eca831b86706f36826ace45ef9ba59a2"
+    },
+    {
+      "path": "geometry/next_trapdoor12/delivery/lossless_previews/trapdoor12_candidate_reverse_under_raw.webp",
+      "bytes": 1075494,
+      "sha256": "0670f844547f0a00862f00624895c633bbb76c19af993c88bfd75a0e7a1ae705"
+    },
+    {
+      "path": "geometry/next_trapdoor12/delivery/lossless_previews/trapdoor12_raw_candidate_closed_open_comparison_raw.webp",
+      "bytes": 391624,
+      "sha256": "d95d4990eba6ca56c68f981512bd0d76cf34ed1dc44fe69b9f2be79831123459"
+    },
+    {
+      "path": "geometry/next_trapdoor12/delivery/lossless_previews/trapdoor12_raw_candidate_closed_open_contact.webp",
+      "bytes": 383510,
+      "sha256": "504bb2110ede1be13afad9362a03a85718e0950c21687d132463b5ab11394c41"
+    },
+    {
+      "path": "geometry/next_trapdoor12/delivery/lossless_previews/trapdoor12_raw_front_raw.webp",
+      "bytes": 1314034,
+      "sha256": "2753e728e1d4efe2f09ac0be9057bc96c28f8578f1d91e80813e419f6b732f53"
+    },
+    {
+      "path": "geometry/next_trapdoor12/delivery/preview_index.json",
+      "bytes": 6213,
+      "sha256": "e31cc3302b45c650631b4ed078ba518dfc93a36532174c72665114359107052c"
+    },
+    {
+      "path": "geometry/next_trapdoor12/exports/iron_trapdoor12_candidate16_endpoint_reference_atlas.fbx",
+      "bytes": 102364,
+      "sha256": "001a3b6084cb2cf35f1162d862f8ba5c99b0c4b8ff50031a2ff8c5811e393cbf"
+    },
+    {
+      "path": "geometry/next_trapdoor12/exports/iron_trapdoor12_candidate16_endpoint_reference_atlas.glb",
+      "bytes": 288872,
+      "sha256": "2b36fcd10c0d6eaff82d454d7970e160585afcd2bf5cdb4959d464694761e24a"
+    },
+    {
+      "path": "geometry/next_trapdoor12/exports/iron_trapdoor12_raw16_endpoint_reference_atlas.glb",
+      "bytes": 305080,
+      "sha256": "b887f791049169bf01e30d5055e0706651d35f6ddc041d98e393f511c33440cc"
+    },
+    {
+      "path": "geometry/next_trapdoor12/reports/trapdoor12-Blender-export-roundtrip.json",
+      "bytes": 92180,
+      "sha256": "9e34d62a051a2bfa73b5d74b53558028061f220f59baa5dbe80505afd0fdce26"
+    },
+    {
+      "path": "geometry/next_trapdoor12/reports/trapdoor12-actual-mesh-snapshots.json",
+      "bytes": 1764236,
+      "sha256": "47f2e6d1a90948862f1533167a11cd6cf637ff6f5cff956eb645b4fc32e363dd"
+    },
+    {
+      "path": "geometry/next_trapdoor12/reports/trapdoor12-build-render.json",
+      "bytes": 2164,
+      "sha256": "a771b50a7e97bcaecb6d5820c9730e99c79a8ae53e25309ec8e1a203894f7f2e"
+    },
+    {
+      "path": "geometry/next_trapdoor12/reports/trapdoor12-byte-selfcheck.json",
+      "bytes": 101969,
+      "sha256": "67579d5c2c081a5dc83d46c0493c561ce594c60454928a8bb9464568c2dc3253"
+    },
+    {
+      "path": "geometry/next_trapdoor12/reports/trapdoor12-labeled-views-and-pixel-comparison.json",
+      "bytes": 1053,
+      "sha256": "a4469d13b06e00ca71c5c6b13b7a4eed8b661f5bdf8add9fe6ffa1d552e95b7d"
+    },
+    {
+      "path": "geometry/next_trapdoor12/reports/trapdoor12-original-solid-sheet-collider-reference.json",
+      "bytes": 5943,
+      "sha256": "bcb41fff3ec1ba8eaa96eaebc77f6cde88c72d9cc363b2315acd7487d1ca700c"
+    },
+    {
+      "path": "geometry/next_trapdoor12/source/iron_trapdoor12_internal_cap_reference.blend",
+      "bytes": 321557,
+      "sha256": "d2d9c1387cfecf7a8d628f81d667834e6041811c77c178113966e592ece071bf"
+    },
+    {
+      "path": "geometry/reviews/blend_readonly_reader.py",
+      "bytes": 6988,
+      "sha256": "ef03f5365d948a7387cd6b47854a0f5b624f0486998a3ca2292756ef1d2a312f"
+    },
+    {
+      "path": "geometry/reviews/oak_fence_readonly_audit.py",
+      "bytes": 18363,
+      "sha256": "5c1440f0cabaa17e043e26b39f27318d01355070867c04ff42cfb1e32a2a32f8"
+    },
+    {
+      "path": "geometry/reviews/trapdoor12_independent_readonly_audit.json",
+      "bytes": 69130,
+      "sha256": "c9bd275c1cc41637a7ebbeee364a3c180f1201ec0c4ecfb108d8a76411fe22bb"
+    },
+    {
+      "path": "geometry/reviews/trapdoor12_independent_readonly_audit.py",
+      "bytes": 27829,
+      "sha256": "09e1959adc71f4cf38ae5115ffdc19aa6d33acb9c55ddc37d2cdb5b3f1aaf778"
+    },
+    {
+      "path": "geometry/reviews/trapdoor12_independent_review.md",
+      "bytes": 7578,
+      "sha256": "66c37d6b8126eaadd3b958ccf913f68336abac9e7d50234f82271535572e0269"
+    },
+    {
+      "path": "geometry/scripts/build_chain18_closed_links.py",
+      "bytes": 9945,
+      "sha256": "beeb18aec24e94de3faebd627ac5ac34efd1646e808c2f14c2e279fb65875db8"
+    },
+    {
+      "path": "geometry/scripts/build_shapes.py",
+      "bytes": 13986,
+      "sha256": "ed0871ab8167e42f1babbedeeaf8e047ecf5edb1410d7f866d45dd6928e688a3"
+    },
+    {
+      "path": "geometry/scripts/build_trapdoor12_internal_caps.py",
+      "bytes": 9748,
+      "sha256": "039b57ad512bf55db84a08714f8152200558c3ec8f805b8fda091eb0e564d1cb"
+    },
+    {
+      "path": "geometry/scripts/glb_distinct_storage_metrics.py",
+      "bytes": 1910,
+      "sha256": "efaf558000330b99f052ecdfbb8ccc22ea44e58e019229893879f40949a6dd52"
+    },
+    {
+      "path": "geometry/scripts/label_trapdoor12_previews.py",
+      "bytes": 4835,
+      "sha256": "637fa644c10bd08f55ea48db298ec842f362ba50f29188f5a2d90dfbdf1a488c"
+    },
+    {
+      "path": "geometry/scripts/package_trapdoor12_reference.py",
+      "bytes": 11446,
+      "sha256": "ea146292f9827d54a919fb62e169275c705e0f8da7eeca5e53302df4b9661a07"
+    },
+    {
+      "path": "geometry/scripts/render_fence_states_phase.py",
+      "bytes": 5430,
+      "sha256": "76735545d779450d2372e57080c415f60f5522eb97e01f72d055547db9594fd8"
+    },
+    {
+      "path": "geometry/scripts/render_shapes.py",
+      "bytes": 6270,
+      "sha256": "734f8d03de3436336f363a89d039da3f237a95d9b2614c66a1d4ed7281a6a7e0"
+    },
+    {
+      "path": "geometry/scripts/restore_trapdoor12_preview_pixels.py",
+      "bytes": 1343,
+      "sha256": "c5a1bee6d52a899796645cee979804d7204f82fc94bd8a48d2ebc9261956515a"
+    },
+    {
+      "path": "geometry/scripts/roundtrip_trapdoor12_internal_caps.py",
+      "bytes": 3402,
+      "sha256": "8595688b3b3b8e5ef9a97dcf42b41c69eb1013ddf3221b472c61520c8a466251"
+    },
+    {
+      "path": "geometry/scripts/study_chain18_closed_link_cost.py",
+      "bytes": 7928,
+      "sha256": "39f2607fa7678893e2aba5a7d27f8c9c13bae5007fdcade75ee395079b8bc329"
+    },
+    {
+      "path": "geometry/scripts/study_fencegate21_component_caps.py",
+      "bytes": 13411,
+      "sha256": "9981fb8c9a050135ef3d71226a7d4ff99c5a7485b4b1d5e71592416cef4776f3"
+    },
+    {
+      "path": "geometry/scripts/study_trapdoor12_component_caps.py",
+      "bytes": 10321,
+      "sha256": "64c3282650c223d2945ed53080e3af8516294e44cd053cb880724e9460ac858a"
+    },
+    {
+      "path": "geometry/scripts/topology_contract.py",
+      "bytes": 8772,
+      "sha256": "7e9a6016e195eef84a1c1ce86ed3e94fb0eaf0f603d176906d890e009428153a"
+    },
+    {
+      "path": "geometry/scripts/validate_state_meshes.py",
+      "bytes": 3852,
+      "sha256": "2c4e36d70bed4133710f9de5d8d93b802a2e075217f28b50bbf17303594f96dd"
+    },
+    {
+      "path": "geometry/scripts/verify_chain18_closed_links.py",
+      "bytes": 8675,
+      "sha256": "6b666d5b7b6383801f3bb61491048a1d327deff6456db9064a04b472d4f9b039"
+    },
+    {
+      "path": "geometry/scripts/verify_stairs40_reference.py",
+      "bytes": 10608,
+      "sha256": "c26fe48f5156bf82fba4ae676c75d7b90f9e4133277336165903155e78b3985b"
+    },
+    {
+      "path": "geometry/scripts/verify_trapdoor12_internal_caps.py",
+      "bytes": 6678,
+      "sha256": "dae9332075b8405cb14ec2c165c83e1742639343cd26a7d046347231a6b77b47"
+    },
+    {
+      "path": "geometry/scripts/world_uv_reference.py",
+      "bytes": 2989,
+      "sha256": "182993afdfd0a4fe27a93d0914972181bb6219039d41601cdb7d00e16d043acb"
+    },
+    {
+      "path": "materials_b/approved_standalone/iron_block_v02/APPROVAL_SCOPE.json",
+      "bytes": 1220,
+      "sha256": "e31259585c70b2a2f2eae3fdd7f4621f7d3c63e1c7f8ae0ca9ff9785ed428271"
+    },
+    {
+      "path": "materials_b/approved_standalone/iron_block_v02/README.txt",
+      "bytes": 630,
+      "sha256": "08ed5f1342a6e99745c5c92cdb7773ab04897aad17afb07985b0f5525cb6c12a"
+    },
+    {
+      "path": "materials_b/approved_standalone/iron_block_v02/textures/candidate_512/basecolor.png",
+      "bytes": 209975,
+      "sha256": "c708e6c4930b561d10485d5294bb34d5763a8d43904489f3d1e5545282586d8f"
+    },
+    {
+      "path": "materials_b/approved_standalone/iron_block_v02/textures/candidate_512/dram_native.png",
+      "bytes": 2203,
+      "sha256": "e64a7bbead08d3f68c1f00c2c6384996b06ce6053deea2a91651ba494922ea79"
+    },
+    {
+      "path": "materials_b/approved_standalone/iron_block_v02/textures/candidate_512/hdrp_mask_bridge.png",
+      "bytes": 2201,
+      "sha256": "9c28297b55abb314dc8d02b7dd537ecfd053e4d3de25fef5736356f06aa7f5b1"
+    },
+    {
+      "path": "materials_b/approved_standalone/iron_block_v02/textures/candidate_512/normal_flat_gl.png",
+      "bytes": 1878,
+      "sha256": "82f11923d5e92211b66b39625b072ffe33f61bf04f348340efb7cdaf4fe207b4"
+    },
+    {
+      "path": "materials_b/approved_standalone/iron_block_v02/textures/candidate_512/roughness_constant.png",
+      "bytes": 1301,
+      "sha256": "1fe09bd7dfc16da2b476ca6290de7dc93b30f600ec7527e871ebabe974de0c23"
+    },
+    {
+      "path": "materials_b/approved_standalone/iron_block_v02/textures/mobile_256/basecolor.png",
+      "bytes": 49349,
+      "sha256": "f005e5ea6bb0fcea2524e87967a73793e07ecd93473d3d6bcd8a2974817a9651"
+    },
+    {
+      "path": "materials_b/approved_standalone/iron_block_v02/textures/mobile_256/dram_native.png",
+      "bytes": 858,
+      "sha256": "d2b2ec66848b90bdcf3b46506366902093523bd9b85c276775a86eb867c8e6b6"
+    },
+    {
+      "path": "materials_b/approved_standalone/iron_block_v02/textures/mobile_256/hdrp_mask_bridge.png",
+      "bytes": 856,
+      "sha256": "8e5f0a4d299f142689dae2197b2f9d81e4a6a9192662d4d6e8a05795141b1091"
+    },
+    {
+      "path": "materials_b/approved_standalone/iron_block_v02/textures/mobile_256/normal_flat_gl.png",
+      "bytes": 758,
+      "sha256": "3da5bc6d17269b64269aa10035fa934ac6664827eecc2f8b105d23ff5c4993e1"
+    },
+    {
+      "path": "materials_b/approved_standalone/iron_block_v02/textures/mobile_256/roughness_constant.png",
+      "bytes": 565,
+      "sha256": "c2e791ac936f46bc8498d1e9aab440161d46106eac1e724ff23552cc0b6d4d08"
+    },
+    {
+      "path": "scripts/run_locked_blender.sh",
+      "bytes": 645,
+      "sha256": "75af50f08479a178ec620a36d487d80f471b7134bfe38806607904cbb9ca3b1f"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "existing_previews": 9,
+  "independent_review": "PASS_LIMITED_OFFLINE_HISTORICAL_GEOMETRY_REFERENCE",
+  "preview_encoding_does_not_add_art_approval": true,
+  "rows": [
+    {
+      "original_path": "previews/trapdoor12_candidate_front256_contact.png",
+      "original_mode": "RGB",
+      "original_PNG_sha256": "3d8b2866bcc65392dc9fd961cee9d207ae5b1b31cbde34734e400155f7a58a78",
+      "delivered_path": "delivery/lossless_previews/trapdoor12_candidate_front256_contact.webp",
+      "delivered_WebP_sha256": "70d755e2bb6f6b440751a72918b6072f485f2527459c64b18e1897b2a01f3f5c",
+      "dimensions": [
+        2220,
+        2430
+      ],
+      "decoded_RGBA_sha256": "af37103eaeb5d7385277e988f1fe14e21c1aab7b3f51b507c96537ab3f1a0f8c",
+      "decoded_RGBA_exact": true,
+      "original_encoded_PNG_bytes_recreated": false
+    },
+    {
+      "original_path": "previews/trapdoor12_candidate_front256_raw.png",
+      "original_mode": "RGBA",
+      "original_PNG_sha256": "df0f05d308bd060a54698dce2893408d830ce2630bb03c3ef5f0be80fc7b79ff",
+      "delivered_path": "delivery/lossless_previews/trapdoor12_candidate_front256_raw.webp",
+      "delivered_WebP_sha256": "fa74feb327f4f712e28e85e38e29493a4a688ee72d1c1ba0660777a36e924f2b",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded_RGBA_sha256": "0524c03d42eea84292b881f42f241ac8ccfa0a3575a6a240a0da715228d7570f",
+      "decoded_RGBA_exact": true,
+      "original_encoded_PNG_bytes_recreated": false
+    },
+    {
+      "original_path": "previews/trapdoor12_candidate_front_contact.png",
+      "original_mode": "RGB",
+      "original_PNG_sha256": "edb4174bc9907db9a6b644da705f22075e8720602129233cc7e23a8c74a9b678",
+      "delivered_path": "delivery/lossless_previews/trapdoor12_candidate_front_contact.webp",
+      "delivered_WebP_sha256": "0ea759abb4316c2fe57d2bbf890a7e6b4141d0a75ad63619fbc7d53c8203d2c7",
+      "dimensions": [
+        2220,
+        2430
+      ],
+      "decoded_RGBA_sha256": "58231c62cf203103acfdf2abf40dccc0290a50195164a650b3671cbbe13a185b",
+      "decoded_RGBA_exact": true,
+      "original_encoded_PNG_bytes_recreated": false
+    },
+    {
+      "original_path": "previews/trapdoor12_candidate_front_raw.png",
+      "original_mode": "RGBA",
+      "original_PNG_sha256": "11d4fcc7d1c5bc2a9493236556d38727907572bc0f61bccf7d62d3845ccf0e66",
+      "delivered_path": "delivery/lossless_previews/trapdoor12_candidate_front_raw.webp",
+      "delivered_WebP_sha256": "8b71884eaa35a2db583bfd521e94382257cbc63e5cff454b276642199e046c04",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded_RGBA_sha256": "ae8c21c446bd70ed4cf4faaf5f295ba66fdff5349e5ae321e0132da466248d94",
+      "decoded_RGBA_exact": true,
+      "original_encoded_PNG_bytes_recreated": false
+    },
+    {
+      "original_path": "previews/trapdoor12_candidate_reverse_under_contact.png",
+      "original_mode": "RGB",
+      "original_PNG_sha256": "192cd26b185a2a1e66689c841b2d83b87e8edd5b15bb46ab126ee098c3aea07e",
+      "delivered_path": "delivery/lossless_previews/trapdoor12_candidate_reverse_under_contact.webp",
+      "delivered_WebP_sha256": "6cafafc548af1ea2dbdb058453539468eca831b86706f36826ace45ef9ba59a2",
+      "dimensions": [
+        2220,
+        2430
+      ],
+      "decoded_RGBA_sha256": "a2e45f26903a35fc1bd064cacb38d98b33c201f848a36506bfedd907869b2052",
+      "decoded_RGBA_exact": true,
+      "original_encoded_PNG_bytes_recreated": false
+    },
+    {
+      "original_path": "previews/trapdoor12_candidate_reverse_under_raw.png",
+      "original_mode": "RGBA",
+      "original_PNG_sha256": "554841f7038f576f27b17d4d2407aa4dfaaccbe7f4c4c84cc395fa132fc8b769",
+      "delivered_path": "delivery/lossless_previews/trapdoor12_candidate_reverse_under_raw.webp",
+      "delivered_WebP_sha256": "0670f844547f0a00862f00624895c633bbb76c19af993c88bfd75a0e7a1ae705",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded_RGBA_sha256": "d059de0ee549330a68927e02c9102da47add7178c0a34854c3aa4b14a5d33016",
+      "decoded_RGBA_exact": true,
+      "original_encoded_PNG_bytes_recreated": false
+    },
+    {
+      "original_path": "previews/trapdoor12_raw_candidate_closed_open_comparison_raw.png",
+      "original_mode": "RGBA",
+      "original_PNG_sha256": "99ced22ddc5d83fa4d5751776e03b1163645a67f5278c4b4a07ef5b7e9dd6151",
+      "delivered_path": "delivery/lossless_previews/trapdoor12_raw_candidate_closed_open_comparison_raw.webp",
+      "delivered_WebP_sha256": "d95d4990eba6ca56c68f981512bd0d76cf34ed1dc44fe69b9f2be79831123459",
+      "dimensions": [
+        1280,
+        1280
+      ],
+      "decoded_RGBA_sha256": "f8a231cc85f7953f47041183ad926d42abe17bc44a0c2c68ac3e6390198b5e15",
+      "decoded_RGBA_exact": true,
+      "original_encoded_PNG_bytes_recreated": false
+    },
+    {
+      "original_path": "previews/trapdoor12_raw_candidate_closed_open_contact.png",
+      "original_mode": "RGB",
+      "original_PNG_sha256": "8a6d48e9705777dd67746942ce19824c84554116e706840856958357088d7ff7",
+      "delivered_path": "delivery/lossless_previews/trapdoor12_raw_candidate_closed_open_contact.webp",
+      "delivered_WebP_sha256": "504bb2110ede1be13afad9362a03a85718e0950c21687d132463b5ab11394c41",
+      "dimensions": [
+        1320,
+        1510
+      ],
+      "decoded_RGBA_sha256": "e32e154a2fc0480d2b21e1dc920019a6c33145844a7584d0fa21873e7cb8d70b",
+      "decoded_RGBA_exact": true,
+      "original_encoded_PNG_bytes_recreated": false
+    },
+    {
+      "original_path": "previews/trapdoor12_raw_front_raw.png",
+      "original_mode": "RGBA",
+      "original_PNG_sha256": "d1979b1988f042f5bebd82074d01239c6984550ee3673e3e937022036f5c20d7",
+      "delivered_path": "delivery/lossless_previews/trapdoor12_raw_front_raw.webp",
+      "delivered_WebP_sha256": "2753e728e1d4efe2f09ac0be9057bc96c28f8578f1d91e80813e419f6b732f53",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded_RGBA_sha256": "d16fb95bf38ddcc39cf2ca5d00191925642acb0ec830f719b715fad08c4edf5c",
+      "decoded_RGBA_exact": true,
+      "original_encoded_PNG_bytes_recreated": false
+    }
+  ],
+  "finished_production_art_pass": false,
+  "original_encoded_PNG_bytes_delivered": false,
+  "original_encoded_PNG_bytes_reconstructible": false
+}

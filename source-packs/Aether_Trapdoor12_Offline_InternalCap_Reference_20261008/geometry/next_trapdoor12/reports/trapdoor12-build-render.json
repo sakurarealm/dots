@@ -1,0 +1,39 @@
+{
+  "source_commit": "historical0956b0777cf007a7a3b1ed799f7ade777f14c80d",
+  "shapeId_reference": 12,
+  "actual_metadata_states": 16,
+  "distinct_occupied_patterns": 6,
+  "source_target_meshes": 36,
+  "raw_candidate_triangles": [
+    72,
+    56
+  ],
+  "thickness_m": 0.1875,
+  "candidate_whole_backed_caps_removed": 8,
+  "original_triangles_retained_without_retriangulation": true,
+  "collision_sheet_unchanged_reference_only": true,
+  "render_holes_not_physics_pass": true,
+  "new_material_art_approvals": 0,
+  "finished_production_art_pass": false,
+  "existing_iron_v02_512_sha256": "c708e6c4930b561d10485d5294bb34d5763a8d43904489f3d1e5545282586d8f",
+  "source_GLB_PBR_bridge_not_native_or_FBX_PBR_approval": true,
+  "metal_family3_albedo_bypass_still_open": true,
+  "renderer": "CyclesCPU diffuse-toon approximation",
+  "samples": 16,
+  "threads": 2,
+  "independent_review": "pending",
+  "native_integrated": false,
+  "full_block_accepted": false,
+  "mobile_pass": false,
+  "artifact_sha256": {
+    "source/iron_trapdoor12_internal_cap_reference.blend": "d2d9c1387cfecf7a8d628f81d667834e6041811c77c178113966e592ece071bf",
+    "exports/iron_trapdoor12_candidate16_endpoint_reference_atlas.fbx": "001a3b6084cb2cf35f1162d862f8ba5c99b0c4b8ff50031a2ff8c5811e393cbf",
+    "exports/iron_trapdoor12_candidate16_endpoint_reference_atlas.glb": "2b36fcd10c0d6eaff82d454d7970e160585afcd2bf5cdb4959d464694761e24a",
+    "exports/iron_trapdoor12_raw16_endpoint_reference_atlas.glb": "b887f791049169bf01e30d5055e0706651d35f6ddc041d98e393f511c33440cc",
+    "previews/trapdoor12_candidate_front256_raw.png": "df0f05d308bd060a54698dce2893408d830ce2630bb03c3ef5f0be80fc7b79ff",
+    "previews/trapdoor12_candidate_front_raw.png": "11d4fcc7d1c5bc2a9493236556d38727907572bc0f61bccf7d62d3845ccf0e66",
+    "previews/trapdoor12_candidate_reverse_under_raw.png": "554841f7038f576f27b17d4d2407aa4dfaaccbe7f4c4c84cc395fa132fc8b769",
+    "previews/trapdoor12_raw_candidate_closed_open_comparison_raw.png": "99ced22ddc5d83fa4d5751776e03b1163645a67f5278c4b4a07ef5b7e9dd6151",
+    "previews/trapdoor12_raw_front_raw.png": "d1979b1988f042f5bebd82074d01239c6984550ee3673e3e937022036f5c20d7"
+  }
+}
