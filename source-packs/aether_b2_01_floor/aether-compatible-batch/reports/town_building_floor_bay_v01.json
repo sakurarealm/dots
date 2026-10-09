@@ -1,0 +1,313 @@
+{
+  "asset_id": "town_building_floor_bay_v01",
+  "units": "meters",
+  "reference_commit": "0956b0777cf007a7a3b1ed799f7ade777f14c80d",
+  "dimensions_blender_xyz_m": {
+    "min": [
+      -1.75,
+      -0.5,
+      0.0
+    ],
+    "max": [
+      1.75,
+      0.5,
+      0.10000000149011612
+    ],
+    "dimensions": [
+      3.5,
+      1.0,
+      0.10000000149011612
+    ]
+  },
+  "pivot_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "origin_convention": "bottom-center",
+  "lod_meshes": [
+    {
+      "name": "LOD0_Static",
+      "vertices": 328,
+      "triangles": 596,
+      "material_slots": 2,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "finite_coordinates": true,
+      "uv_layers": 1,
+      "flat_faces": 596,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "signed_volume_m3": 0.13501906991925317
+    },
+    {
+      "name": "LOD1_Static",
+      "vertices": 211,
+      "triangles": 362,
+      "material_slots": 2,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "finite_coordinates": true,
+      "uv_layers": 1,
+      "flat_faces": 362,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "signed_volume_m3": 0.12330013120092348
+    },
+    {
+      "name": "LOD2_Static",
+      "vertices": 146,
+      "triangles": 232,
+      "material_slots": 2,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "finite_coordinates": true,
+      "uv_layers": 1,
+      "flat_faces": 232,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "signed_volume_m3": 0.10704055810396995
+    }
+  ],
+  "lod0_total_triangles": 596,
+  "source_reopen_pass": true,
+  "shared_texture_bytes_match_reviewed_first_batch": true,
+  "source_texture_paths": "//../textures/",
+  "source_notes": {
+    "role": "repeatable_supported_floor_sample",
+    "body_width_m": 3.5,
+    "repeat_depth_m": 1.0,
+    "deck_surface_height_m": 0.1,
+    "a_frame_column_inside_span_m": 3.62,
+    "horizontal_clearance_each_side_m": 0.06,
+    "nominal_headroom_below_tie_m": 1.905,
+    "reference_requirement": "2026-10-03 architectural list: long timber floorboards",
+    "current_production_gap_claim": false,
+    "runtime_walkability": "not_tested"
+  },
+  "anchors": [
+    {
+      "name": "ANCHOR_SnapBack",
+      "position_blender_xyz_m": [
+        0.0,
+        0.5,
+        0.0
+      ]
+    },
+    {
+      "name": "ANCHOR_SnapFront",
+      "position_blender_xyz_m": [
+        0.0,
+        -0.5,
+        0.0
+      ]
+    },
+    {
+      "name": "ANCHOR_WalkSurface",
+      "position_blender_xyz_m": [
+        0.0,
+        0.0,
+        0.10000000149011612
+      ]
+    }
+  ],
+  "status": "independent_blender_geometry_and_visual_pass_not_unity_or_mobile_acceptance",
+  "unity_import_test": "not_run",
+  "unity_runtime_test": "not_run",
+  "roundtrip": {
+    "asset_id": "town_building_floor_bay_v01",
+    "source": {
+      "dimensions_xyz_m": [
+        3.5,
+        1.0,
+        0.10000000149011612
+      ],
+      "triangles": 596,
+      "mesh_count": 1,
+      "uv_complete": true,
+      "material_slots_max": 2,
+      "finite": true
+    },
+    "formats": {
+      "fbx": {
+        "dimensions_xyz_m": [
+          3.5,
+          1.0,
+          0.10000016409224344
+        ],
+        "triangles": 596,
+        "mesh_count": 1,
+        "uv_complete": true,
+        "material_slots_max": 2,
+        "finite": true,
+        "dimension_max_error_m": 1.626021273182232e-07,
+        "triangle_difference": 0,
+        "pass": true,
+        "moving_part_pivots": [],
+        "texture_images_found": [
+          {
+            "name": "T_Metal_Brass_BaseColor.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_BaseColor.png.001",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_NormalGL.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_Roughness.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_BaseColor.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_BaseColor.png.001",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_NormalGL.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_Roughness.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          }
+        ]
+      },
+      "glb": {
+        "dimensions_xyz_m": [
+          3.5,
+          1.0,
+          0.10000000149011612
+        ],
+        "triangles": 596,
+        "mesh_count": 1,
+        "uv_complete": true,
+        "material_slots_max": 2,
+        "finite": true,
+        "dimension_max_error_m": 0.0,
+        "triangle_difference": 0,
+        "pass": true,
+        "moving_part_pivots": [],
+        "texture_images_found": [
+          {
+            "name": "T_Metal_Brass_BaseColor",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_NormalGL",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_Roughness",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_BaseColor",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_NormalGL",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_Roughness",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          }
+        ]
+      }
+    },
+    "pass": true
+  },
+  "independent_visual_review": {
+    "verdict": "PASS",
+    "score": 16,
+    "dims": {
+      "silhouette": 3,
+      "proportion": 3,
+      "color_id": 3,
+      "material": 2,
+      "emissive": 3,
+      "craft": 2
+    },
+    "attempt": 1,
+    "issues": [
+      "非阻断：top/detail里多块板的宽低频暗带在相似位置同相重复。保持既有共享木图，通过逐板UV偏移/翻转和约6–10%明度差打破重复；保留顺长轴宽笔触，不换成高频写实木纹。",
+      "非阻断：LOD2长板缝对比比LOD0/1更深硬，局部边面高光变化。后续简化时保护主要板沿和接缝边界，并按引擎实际切换屏幕占比检查跳变，不能将棚拍保形称作完全无损。",
+      "非阻断：detail板端大体平齐，随机断口较克制。若进一步优化，在不改3.5×1.0m拼接外包络及走面高度的前提下，对少量板端设置浅缺口/不等长内收；不要破坏可拼接边界。"
+    ]
+  }
+}

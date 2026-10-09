@@ -1,0 +1,138 @@
+{
+  "id": "town_building_floor_bay_v01",
+  "verdict": "PASS",
+  "score": 16,
+  "dims": {
+    "silhouette": 3,
+    "proportion": 3,
+    "color_id": 3,
+    "material": 2,
+    "emissive": 3,
+    "craft": 2
+  },
+  "attempt": 1,
+  "reviewer": "independent_second_asset_batch_visual_review",
+  "reviewed_at_utc": "2026-10-07T22:34:36.895700+00:00",
+  "gate": {
+    "scale": "each dimension 0-3",
+    "pass_minimum": 13,
+    "zero_dimension_allowed": false,
+    "second_failure": "ESCALATED; no additional automatic rework"
+  },
+  "asset_scope": "Repeatable supported floor module, reported 3.5 x 1.0 x 0.10 meters, not a complete building. Full-building A-frame, wall decoration, doorway and furnishing criteria do not apply to this separate floor module.",
+  "emissive_applicability": "No emissive feature is required for ordinary static floor. Score 3 recognizes no false emissive interaction cue; no lighting/shader validation is implied.",
+  "issues": [
+    "非阻断：top/detail里多块板的宽低频暗带在相似位置同相重复。保持既有共享木图，通过逐板UV偏移/翻转和约6–10%明度差打破重复；保留顺长轴宽笔触，不换成高频写实木纹。",
+    "非阻断：LOD2长板缝对比比LOD0/1更深硬，局部边面高光变化。后续简化时保护主要板沿和接缝边界，并按引擎实际切换屏幕占比检查跳变，不能将棚拍保形称作完全无损。",
+    "非阻断：detail板端大体平齐，随机断口较克制。若进一步优化，在不改3.5×1.0m拼接外包络及走面高度的前提下，对少量板端设置浅缺口/不等长内收；不要破坏可拼接边界。"
+  ],
+  "dimension_reasons": {
+    "silhouette": "顶视、透视、灰模和缩小图标能读成八条长板组成的木地板模块，三条底支撑是清楚的结构信息；正背视薄线符合薄构件用途。",
+    "proportion": "长宽厚的相对关系、统一板宽与底支撑合理，无图上明显拉伸/压扁/穿插。3.5×1.0×0.10m精确尺度来自附带报告，棚拍无标定人物，未独立量测绝对尺寸或行走适配。",
+    "color_id": "暖木统一占主导，细深色板缝与少量小五金没有另起高饱和色；静态地板无需人为添加绿色点缀或发光。",
+    "material": "高粗糙哑光木体块、顺长轴宽低频色带可见，没有细密高频条纹主导；相邻板的低频纹同相，五金过小无法辨清金属反射身份，所以不满分。",
+    "emissive": "没有发光白斑或假交互提示，符合本静态构件范围。",
+    "craft": "八板几何缝、支撑和外轮廓清楚，灰模无明显破面；板端变化弱且LOD2缝线更硬，未满分。"
+  },
+  "images": [
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_floor_bay_v01/front.png",
+      "sha256": "70b46add6e524ff422842c2c9a589ef9b71061ef180c695c73a2f3218fd927ee",
+      "opened_with": "view_image",
+      "observation": "薄长木地板边面与下方三条支撑截面可读，正视近乎薄线符合地板模块而非整楼；无明显翘曲或边面错位。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_floor_bay_v01/back.png",
+      "sha256": "b542b2b7a67d8eea1dcf6791bd75c722832bdb5e6b0633f864220ed0f406712b",
+      "opened_with": "view_image",
+      "observation": "与正面一致，薄面和三条支撑对应；没有额外颜色、发光或大块破面。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_floor_bay_v01/left.png",
+      "sha256": "cb070d86c675883df4897f465ca187d414d9569c2ea4db63997be01ea6b2c7d0",
+      "opened_with": "view_image",
+      "observation": "短端可见八块板端的分格，上方板面与下方支撑带分层；背光支撑较暗，未将其误读为黑描边。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_floor_bay_v01/right.png",
+      "sha256": "2d456580b8ef8fd596eed1c6dadbaa04c8a8226be1a90fe79ac03e09c72f6a55",
+      "opened_with": "view_image",
+      "observation": "短端八块板端分格与左端一致；板端主要共面，有轻微断口，未见大范围穿插。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_floor_bay_v01/top.png",
+      "sha256": "26c11a7fdc2fe88043d7732de34bf0163c17399db7a349613347646fa5c006ec",
+      "opened_with": "view_image",
+      "observation": "八条统一宽度长板与细深色板缝清楚，少量钉头可见。逐板明暗差克制，但多块板的宽低频暗带在相似位置重复，同相纹理有套件感。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_floor_bay_v01/perspective.png",
+      "sha256": "264c57ce8c91fde2483587c6046d79be3a29d90e73fa99f0df19ea8d872c72c5",
+      "opened_with": "view_image",
+      "observation": "长条木板平台、细板缝、三条底支撑轮廓可读，无悬空整板观感；没有整楼、入口或装饰挂件，不按完整建筑要求评分。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_floor_bay_v01/detail.png",
+      "sha256": "7dccdf3918989d4a91a06aa59091d1a5a1953e06fec5a071e977f8ea5dc8a740",
+      "opened_with": "view_image",
+      "observation": "细几何缝与端头倒角干净，低频木色沿长轴，哑光明显；多块板的宽柔暗带近似重复，端头大体平齐、仅轻微缺口，随机损伤较弱。小五金很小，无法确认金属反射层级。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_floor_bay_v01/clay.png",
+      "sha256": "a8e56028cad39f7d08953b4818c880ee0f5cefd1a82c2e17a4ce611a9fbad31f",
+      "opened_with": "view_image",
+      "observation": "灰模下板缝、厚度、底支撑仍清楚，外轮廓完整，无明显破面；细板沿分面可见，无额外黑描边。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_floor_bay_v01/lod0.png",
+      "sha256": "15480ec0620fba9eaebab2b864fc157e6902851c0ff5ae9c6433410c2e12bd33",
+      "opened_with": "view_image",
+      "observation": "同机位基准：八板主形、薄地板厚度、底支撑保持，板缝明暗较柔。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_floor_bay_v01/lod1.png",
+      "sha256": "129aef58a44fe672aabb0631597dc6e5886d27cba679a8060d39775693fae6b2",
+      "opened_with": "view_image",
+      "observation": "同机位主形、支撑和八板节奏保持；板缝和端头边面与LOD0有轻微变化，未导致类别丢失。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_floor_bay_v01/lod2.png",
+      "sha256": "6322ad6c62e736bd43600d1ecf8a483413fee4e13741de0e81656fb629573e9d",
+      "opened_with": "view_image",
+      "observation": "同机位主形与三支撑继续保持；多条长板缝变得更深硬、局部板沿高光改变，不能声明LOD视觉完全无损。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_floor_bay_v01/icon.png",
+      "sha256": "783a6105fcdf41d824bac1a33aba5bc92bd542434f023a4f6cc7382bab0ffbc3",
+      "opened_with": "view_image",
+      "observation": "透明256图标可读成长条拼板地板，底支撑部分可见；没有文字、烘入库存或背景块，精细钉头不可辨。"
+    }
+  ],
+  "references_read": [
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Tools/ArtForge/PROMPT_review.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/ArtDirection/2026-10-03_治愈奇幻风格化改造方案.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/ArtDirection/2026-09-29_未眠野美术三纪律落地.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/ArtStudy/2026-10-01_美术参考与原创资产管线.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/ZCodeSync/memory/cocricot-blender-rebuild.md"
+  ],
+  "consistency_reference_reviews_read": [
+    "/workspace/shared/aether-assets/reviews/independent_batch_summary.json",
+    "/workspace/shared/aether-assets/reviews/town_building_a_frame_bay_v01.json",
+    "/workspace/shared/aether-assets/reviews/town_building_a_frame_bay_v01_attempt2.json",
+    "/workspace/shared/aether-assets/reviews/town_shared_workbench_v01.json",
+    "/workspace/shared/aether-assets/reviews/town_storage_open_crate_v01.json"
+  ],
+  "reference_limits": "Newest supplied 2026-10-03 proposal B1 and long timber floorboard requirement plus M1-M4 used as provisional sample direction. Earlier outline/rim-light/Standard instructions are not imposed; complete-building criteria are not forced onto a floor module. No latest Unity project rule guarantee.",
+  "evidence_report_read": "/workspace/shared/aether-assets-batch2/reports/town_building_floor_bay_v01.json",
+  "not_validated": [
+    "Unity import",
+    "Unity runtime",
+    "HDRP shader/material appearance",
+    "collision/navigation",
+    "runtime walkability or head clearance",
+    "LOD screen-space transitions/TAA",
+    "independent absolute scale measurement",
+    "UV pixel-density audit"
+  ],
+  "boundary": "Independent image-based verdict only. All 12 listed images actually opened sequentially with view_image; parent and maker confirmed complete final set. No source/export/image modifications, no rendering, no Blender execution, no Codex task, no user computer, no Unity pass claim."
+}
