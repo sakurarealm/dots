@@ -1,0 +1,431 @@
+{
+  "actual_files_verified": 18,
+  "all_checks_pass": true,
+  "scope": "Numeric GLB re-read plus actual embedded atlas decode. Not Blender/Unity import or runtime performance validation.",
+  "rss_peak_kib": 87136,
+  "records": [
+    {
+      "file": "bk_project_candidate_bread_cart.glb",
+      "sha256": "e41d1efdfbe247f9641310cdb67687d36fde7a93c1da0cc78baa44de19cff90f",
+      "triangles": 3924,
+      "materials": 3,
+      "images": 1,
+      "atlas_dimensions": [
+        1024,
+        1024
+      ],
+      "orm_dimensions": null,
+      "checks": {
+        "positions_equal_source": true,
+        "normals_equal_source": true,
+        "uv_equal_source": true,
+        "material_partition_equal_source": true,
+        "triangle_budget_6000": true,
+        "material_budget_3": true,
+        "texture_1024": true,
+        "finite_uv": true,
+        "uv_range_0_1": true
+      }
+    },
+    {
+      "file": "bk_project_candidate_mailbox_bench.glb",
+      "sha256": "e0bf2000d691a96a5cf7625838880f6d3c1234cedbcb0810f71ec0c2dd9efa99",
+      "triangles": 2926,
+      "materials": 3,
+      "images": 1,
+      "atlas_dimensions": [
+        1024,
+        1024
+      ],
+      "orm_dimensions": null,
+      "checks": {
+        "positions_equal_source": true,
+        "normals_equal_source": true,
+        "uv_equal_source": true,
+        "material_partition_equal_source": true,
+        "triangle_budget_6000": true,
+        "material_budget_3": true,
+        "texture_1024": true,
+        "finite_uv": true,
+        "uv_range_0_1": true
+      }
+    },
+    {
+      "file": "bk_project_candidate_tea_kiosk.glb",
+      "sha256": "7a28a040614f26f4585eac75ce8dda01a55396ca2509bacf7e4c9a69851113d4",
+      "triangles": 3736,
+      "materials": 3,
+      "images": 1,
+      "atlas_dimensions": [
+        1024,
+        1024
+      ],
+      "orm_dimensions": null,
+      "checks": {
+        "positions_equal_source": true,
+        "normals_equal_source": true,
+        "uv_equal_source": true,
+        "material_partition_equal_source": true,
+        "triangle_budget_6000": true,
+        "material_budget_3": true,
+        "texture_1024": true,
+        "finite_uv": true,
+        "uv_range_0_1": true
+      }
+    },
+    {
+      "file": "bloomwalker_painterly_bread_cart.glb",
+      "sha256": "a025213f8deaa7ea00fef151f23967a881648250da39aa36d6680ed8bdcba4d9",
+      "triangles": 3914,
+      "materials": 3,
+      "images": 1,
+      "atlas_dimensions": [
+        1024,
+        1024
+      ],
+      "orm_dimensions": null,
+      "checks": {
+        "positions_equal_source": true,
+        "normals_equal_source": true,
+        "uv_equal_source": true,
+        "material_partition_equal_source": true,
+        "triangle_budget_6000": true,
+        "material_budget_3": true,
+        "texture_1024": true,
+        "finite_uv": true,
+        "uv_range_0_1": true
+      }
+    },
+    {
+      "file": "bloomwalker_painterly_mailbox_bench.glb",
+      "sha256": "eba456bdde77de8226fdc89b3b495db84a74fa6bfa40eeb422db3f561ace7e85",
+      "triangles": 3582,
+      "materials": 3,
+      "images": 1,
+      "atlas_dimensions": [
+        1024,
+        1024
+      ],
+      "orm_dimensions": null,
+      "checks": {
+        "positions_equal_source": true,
+        "normals_equal_source": true,
+        "uv_equal_source": true,
+        "material_partition_equal_source": true,
+        "triangle_budget_6000": true,
+        "material_budget_3": true,
+        "texture_1024": true,
+        "finite_uv": true,
+        "uv_range_0_1": true
+      }
+    },
+    {
+      "file": "bloomwalker_painterly_tea_kiosk.glb",
+      "sha256": "d0aff60ab2980f9250bc93dedd998d7abc1e2b8b87321b512cb4b50304a5dc1d",
+      "triangles": 4382,
+      "materials": 3,
+      "images": 1,
+      "atlas_dimensions": [
+        1024,
+        1024
+      ],
+      "orm_dimensions": null,
+      "checks": {
+        "positions_equal_source": true,
+        "normals_equal_source": true,
+        "uv_equal_source": true,
+        "material_partition_equal_source": true,
+        "triangle_budget_6000": true,
+        "material_budget_3": true,
+        "texture_1024": true,
+        "finite_uv": true,
+        "uv_range_0_1": true
+      }
+    },
+    {
+      "file": "endfield_pbr_anime_bread_cart.glb",
+      "sha256": "2d80150a6f87863919e62bf97cf353c7dd5cf191f5696f799d114494b3c7bd8f",
+      "triangles": 3372,
+      "materials": 3,
+      "images": 2,
+      "atlas_dimensions": [
+        1024,
+        1024
+      ],
+      "orm_dimensions": [
+        1024,
+        1024
+      ],
+      "checks": {
+        "positions_equal_source": true,
+        "normals_equal_source": true,
+        "uv_equal_source": true,
+        "material_partition_equal_source": true,
+        "triangle_budget_6000": true,
+        "material_budget_3": true,
+        "texture_1024": true,
+        "finite_uv": true,
+        "uv_range_0_1": true
+      }
+    },
+    {
+      "file": "endfield_pbr_anime_mailbox_bench.glb",
+      "sha256": "6b74d4b30c2e0d8a9d74febaec49b46e77f601220d973ffbbe70bc3f97cbbfef",
+      "triangles": 3308,
+      "materials": 3,
+      "images": 2,
+      "atlas_dimensions": [
+        1024,
+        1024
+      ],
+      "orm_dimensions": [
+        1024,
+        1024
+      ],
+      "checks": {
+        "positions_equal_source": true,
+        "normals_equal_source": true,
+        "uv_equal_source": true,
+        "material_partition_equal_source": true,
+        "triangle_budget_6000": true,
+        "material_budget_3": true,
+        "texture_1024": true,
+        "finite_uv": true,
+        "uv_range_0_1": true
+      }
+    },
+    {
+      "file": "endfield_pbr_anime_tea_kiosk.glb",
+      "sha256": "96af89a1e1ab4df032bee061e3ccdd2e5188b71e6c4cdd71908364cf5600e871",
+      "triangles": 4707,
+      "materials": 3,
+      "images": 2,
+      "atlas_dimensions": [
+        1024,
+        1024
+      ],
+      "orm_dimensions": [
+        1024,
+        1024
+      ],
+      "checks": {
+        "positions_equal_source": true,
+        "normals_equal_source": true,
+        "uv_equal_source": true,
+        "material_partition_equal_source": true,
+        "triangle_budget_6000": true,
+        "material_budget_3": true,
+        "texture_1024": true,
+        "finite_uv": true,
+        "uv_range_0_1": true
+      }
+    },
+    {
+      "file": "genshin_cel_bread_cart.glb",
+      "sha256": "f7744f85316c60b49f7c198283026e2fa5c3557821b50759d8cc5e55715696a9",
+      "triangles": 3856,
+      "materials": 3,
+      "images": 1,
+      "atlas_dimensions": [
+        1024,
+        1024
+      ],
+      "orm_dimensions": null,
+      "checks": {
+        "positions_equal_source": true,
+        "normals_equal_source": true,
+        "uv_equal_source": true,
+        "material_partition_equal_source": true,
+        "triangle_budget_6000": true,
+        "material_budget_3": true,
+        "texture_1024": true,
+        "finite_uv": true,
+        "uv_range_0_1": true
+      }
+    },
+    {
+      "file": "genshin_cel_mailbox_bench.glb",
+      "sha256": "1cff131d036a89d10ea95dacafb1fa8a3ecda9c86f656db6823543f66f929b67",
+      "triangles": 2930,
+      "materials": 3,
+      "images": 1,
+      "atlas_dimensions": [
+        1024,
+        1024
+      ],
+      "orm_dimensions": null,
+      "checks": {
+        "positions_equal_source": true,
+        "normals_equal_source": true,
+        "uv_equal_source": true,
+        "material_partition_equal_source": true,
+        "triangle_budget_6000": true,
+        "material_budget_3": true,
+        "texture_1024": true,
+        "finite_uv": true,
+        "uv_range_0_1": true
+      }
+    },
+    {
+      "file": "genshin_cel_tea_kiosk.glb",
+      "sha256": "6975c4310efccf035ffeed48078cf9bfca30470d37403c6119aec9c55487ac13",
+      "triangles": 3872,
+      "materials": 3,
+      "images": 1,
+      "atlas_dimensions": [
+        1024,
+        1024
+      ],
+      "orm_dimensions": null,
+      "checks": {
+        "positions_equal_source": true,
+        "normals_equal_source": true,
+        "uv_equal_source": true,
+        "material_partition_equal_source": true,
+        "triangle_budget_6000": true,
+        "material_budget_3": true,
+        "texture_1024": true,
+        "finite_uv": true,
+        "uv_range_0_1": true
+      }
+    },
+    {
+      "file": "ghibli_poster_bread_cart.glb",
+      "sha256": "0da3beb2f30fea531f213b398dd9dede07fb746fefdea855a1676cac5bf059dc",
+      "triangles": 3854,
+      "materials": 3,
+      "images": 1,
+      "atlas_dimensions": [
+        1024,
+        1024
+      ],
+      "orm_dimensions": null,
+      "checks": {
+        "positions_equal_source": true,
+        "normals_equal_source": true,
+        "uv_equal_source": true,
+        "material_partition_equal_source": true,
+        "triangle_budget_6000": true,
+        "material_budget_3": true,
+        "texture_1024": true,
+        "finite_uv": true,
+        "uv_range_0_1": true
+      }
+    },
+    {
+      "file": "ghibli_poster_mailbox_bench.glb",
+      "sha256": "1ebe055f21827d0baa4811e25b5229a8e95140adf2c340bc812a951a3380d7e3",
+      "triangles": 2798,
+      "materials": 3,
+      "images": 1,
+      "atlas_dimensions": [
+        1024,
+        1024
+      ],
+      "orm_dimensions": null,
+      "checks": {
+        "positions_equal_source": true,
+        "normals_equal_source": true,
+        "uv_equal_source": true,
+        "material_partition_equal_source": true,
+        "triangle_budget_6000": true,
+        "material_budget_3": true,
+        "texture_1024": true,
+        "finite_uv": true,
+        "uv_range_0_1": true
+      }
+    },
+    {
+      "file": "ghibli_poster_tea_kiosk.glb",
+      "sha256": "4beb0030ae2f06954e5a0886fca0380dfe0eac909f310ee2e8cd2208baee52a0",
+      "triangles": 3428,
+      "materials": 3,
+      "images": 1,
+      "atlas_dimensions": [
+        1024,
+        1024
+      ],
+      "orm_dimensions": null,
+      "checks": {
+        "positions_equal_source": true,
+        "normals_equal_source": true,
+        "uv_equal_source": true,
+        "material_partition_equal_source": true,
+        "triangle_budget_6000": true,
+        "material_budget_3": true,
+        "texture_1024": true,
+        "finite_uv": true,
+        "uv_range_0_1": true
+      }
+    },
+    {
+      "file": "oil_handpaint_bread_cart.glb",
+      "sha256": "5369cc6efffa30d8dbcf61ad23e66b59c1973f7e0093b6b2178fb81f1bfa4664",
+      "triangles": 3854,
+      "materials": 3,
+      "images": 1,
+      "atlas_dimensions": [
+        1024,
+        1024
+      ],
+      "orm_dimensions": null,
+      "checks": {
+        "positions_equal_source": true,
+        "normals_equal_source": true,
+        "uv_equal_source": true,
+        "material_partition_equal_source": true,
+        "triangle_budget_6000": true,
+        "material_budget_3": true,
+        "texture_1024": true,
+        "finite_uv": true,
+        "uv_range_0_1": true
+      }
+    },
+    {
+      "file": "oil_handpaint_mailbox_bench.glb",
+      "sha256": "9a547130b9757d8ba1dcc346cb4531979a68608cef2e240b1916167726e9d2d4",
+      "triangles": 2926,
+      "materials": 3,
+      "images": 1,
+      "atlas_dimensions": [
+        1024,
+        1024
+      ],
+      "orm_dimensions": null,
+      "checks": {
+        "positions_equal_source": true,
+        "normals_equal_source": true,
+        "uv_equal_source": true,
+        "material_partition_equal_source": true,
+        "triangle_budget_6000": true,
+        "material_budget_3": true,
+        "texture_1024": true,
+        "finite_uv": true,
+        "uv_range_0_1": true
+      }
+    },
+    {
+      "file": "oil_handpaint_tea_kiosk.glb",
+      "sha256": "33431b06a92757e5102f5ee0291a0b19be4eb19f57263b00fe6e175e17a250e7",
+      "triangles": 3736,
+      "materials": 3,
+      "images": 1,
+      "atlas_dimensions": [
+        1024,
+        1024
+      ],
+      "orm_dimensions": null,
+      "checks": {
+        "positions_equal_source": true,
+        "normals_equal_source": true,
+        "uv_equal_source": true,
+        "material_partition_equal_source": true,
+        "triangle_budget_6000": true,
+        "material_budget_3": true,
+        "texture_1024": true,
+        "finite_uv": true,
+        "uv_range_0_1": true
+      }
+    }
+  ]
+}

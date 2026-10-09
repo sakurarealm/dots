@@ -1,0 +1,30 @@
+{
+  "file": "oil_handpaint_tea_kiosk.png",
+  "actual_glb": "oil_handpaint_tea_kiosk.glb",
+  "actual_glb_sha256": "33431b06a92757e5102f5ee0291a0b19be4eb19f57263b00fe6e175e17a250e7",
+  "actual_triangle_count_read_from_glb": 3736,
+  "embedded_atlas": "oil_approved_atlas.png",
+  "uv_origin": "glTF top-left; CPU lookup explicitly converts helper convention",
+  "dimensions": [
+    640,
+    720
+  ],
+  "camera_direction": [
+    6,
+    -8,
+    4.05
+  ],
+  "camera_center": [
+    -0.030304014682769775,
+    0.02615538239479065,
+    1.1213808059692383
+  ],
+  "camera_ortho_width": 2.835099935531616,
+  "lights": "warm key, cool sky proxy, restrained rim; true geometry depth-map soft shadows",
+  "texture_strategy": "approved or premium image-generated broad material swatches, large semantic UV islands; no sine/noise replacement texture",
+  "software_cpu_preview": true,
+  "NOT_Blender_or_Unity_validation": true,
+  "rss_peak_kib": 168128,
+  "duration_seconds": 2.04,
+  "triangle_budget_pass": true
+}

@@ -1,0 +1,10 @@
+{
+  "file": "ghibli_poster_tea_kiosk_editable_parts.glb",
+  "sha256": "9a32bfbefce704fe39c216e4668e0d2a533dbff3d0e4a5dc5d1dc70e59f6c87b",
+  "bytes": 1467924,
+  "separately_editable_mesh_nodes": 102,
+  "triangles": 3428,
+  "same_runtime_mesh_source": "ghibli_poster_tea_kiosk.glb",
+  "materials": 3,
+  "purpose": "Editable source, not optimized runtime draw-call budget"
+}

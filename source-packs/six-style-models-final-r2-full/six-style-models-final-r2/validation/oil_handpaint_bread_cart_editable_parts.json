@@ -1,0 +1,10 @@
+{
+  "file": "oil_handpaint_bread_cart_editable_parts.glb",
+  "sha256": "c248cb2a185b76769a9c42239f229883bcb32d085c9bc5f0ff3e4eb93137d81e",
+  "bytes": 2362540,
+  "separately_editable_mesh_nodes": 125,
+  "triangles": 3854,
+  "same_runtime_mesh_source": "oil_handpaint_bread_cart.glb",
+  "materials": 3,
+  "purpose": "Editable source, not optimized runtime draw-call budget"
+}

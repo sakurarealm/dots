@@ -1,0 +1,10 @@
+{
+  "file": "oil_handpaint_tea_kiosk_editable_parts.glb",
+  "sha256": "955c0b863a64ed9c44c2898bc4934686da8915002b2bdbb5d19b0e54ae45f88d",
+  "bytes": 2331628,
+  "separately_editable_mesh_nodes": 107,
+  "triangles": 3736,
+  "same_runtime_mesh_source": "oil_handpaint_tea_kiosk.glb",
+  "materials": 3,
+  "purpose": "Editable source, not optimized runtime draw-call budget"
+}

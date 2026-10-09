@@ -1,0 +1,10 @@
+{
+  "file": "oil_handpaint_mailbox_bench_editable_parts.glb",
+  "sha256": "a5b62c8f47ccedfb332bfda073cf656936eb1552de2d61f02332e9e1fa1376bd",
+  "bytes": 2251876,
+  "separately_editable_mesh_nodes": 114,
+  "triangles": 2926,
+  "same_runtime_mesh_source": "oil_handpaint_mailbox_bench.glb",
+  "materials": 3,
+  "purpose": "Editable source, not optimized runtime draw-call budget"
+}

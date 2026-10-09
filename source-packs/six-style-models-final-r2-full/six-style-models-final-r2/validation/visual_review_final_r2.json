@@ -1,0 +1,25 @@
+{
+  "reviewed_at_utc": "2026-10-08T22:49:14.797912+00:00",
+  "reviewer": "Independent delivery review",
+  "current_model_previews_reviewed": 18,
+  "comparison_images_opened": [
+    "comparisons/bread_cart_six_directions_final_r2.png",
+    "comparisons/tea_kiosk_six_directions_final_r2.png",
+    "comparisons/mailbox_bench_six_directions_final_r2.png"
+  ],
+  "reference_preview_inspected": "Earlier approved oil flower stall preview; not included as a current model",
+  "atlas_images_opened": [
+    "ghibli_poster r3 runtime1024",
+    "bloomwalker_painterly r3 runtime1024"
+  ],
+  "visual_findings": [
+    "The 18 current props are visibly present and textured; no obvious missing texture, detached hanging sign, crop or empty model was seen from the reviewed front three-quarter view",
+    "Poster r3 uses spacious pigment planes and reads significantly flatter than oil on the bread-cart, tea-kiosk and mailbox set",
+    "Soft-painterly r3 is smoother and softer than oil but shares much of its warm palette and broad mark family; artistic distinction still needs user review",
+    "Cel and PBR candidates read more clearly distinct; PBR has more explicit metal/material separation",
+    "BK is a proposed muted craft/material palette, uncalibrated against authoritative project 3D references",
+    "Thin silhouettes have CPU-raster aliasing; full rear/underside/orbit/intersection review is not claimed"
+  ],
+  "art_acceptance": "pending_user_review",
+  "technical_acceptance": "limited to declared file/numeric checks"
+}

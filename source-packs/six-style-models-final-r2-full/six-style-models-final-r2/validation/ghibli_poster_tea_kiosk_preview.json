@@ -1,0 +1,30 @@
+{
+  "file": "ghibli_poster_tea_kiosk.png",
+  "actual_glb": "ghibli_poster_tea_kiosk.glb",
+  "actual_glb_sha256": "4beb0030ae2f06954e5a0886fca0380dfe0eac909f310ee2e8cd2208baee52a0",
+  "actual_triangle_count_read_from_glb": 3428,
+  "embedded_atlas": "ghibli_poster_atlas_r3_runtime1024.png",
+  "uv_origin": "glTF top-left; CPU lookup explicitly converts helper convention",
+  "dimensions": [
+    640,
+    720
+  ],
+  "camera_direction": [
+    6,
+    -8,
+    4.05
+  ],
+  "camera_center": [
+    -0.030481569468975067,
+    0.026392124593257904,
+    1.122111439704895
+  ],
+  "camera_ortho_width": 2.835099935531616,
+  "lights": "warm key, cool sky proxy, restrained rim; true geometry depth-map soft shadows",
+  "texture_strategy": "approved or premium image-generated broad material swatches, large semantic UV islands; no sine/noise replacement texture",
+  "software_cpu_preview": true,
+  "NOT_Blender_or_Unity_validation": true,
+  "rss_peak_kib": 166044,
+  "duration_seconds": 2.0,
+  "triangle_budget_pass": true
+}

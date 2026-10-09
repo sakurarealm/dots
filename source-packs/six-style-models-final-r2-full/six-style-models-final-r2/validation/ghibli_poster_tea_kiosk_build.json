@@ -1,0 +1,16 @@
+{
+  "file": "ghibli_poster_tea_kiosk.glb",
+  "sha256": "4beb0030ae2f06954e5a0886fca0380dfe0eac909f310ee2e8cd2208baee52a0",
+  "bytes": 1355800,
+  "triangles": 3428,
+  "editable_parts": 102,
+  "actual_materials": 3,
+  "actual_primitives": 2,
+  "atlas_file": "atlases/ghibli_poster_atlas_r3_runtime1024.png",
+  "atlas_sha256": "da60ba59dc62331a57a59f1f345a3777ce2ebbd72d3f13ea11501b26f6604f37",
+  "uv_inner_cell_margin": 0.13,
+  "style_direction": "ghibli_poster",
+  "build_rss_peak_kib": 60112,
+  "texture_quality_reference": "Approved earlier flower stall, not the rejected technical fixture",
+  "runtime_validation": "pending; GLB numerical round-trip follows separately"
+}

@@ -1,0 +1,16 @@
+{
+  "file": "oil_handpaint_mailbox_bench.glb",
+  "sha256": "9a547130b9757d8ba1dcc346cb4531979a68608cef2e240b1916167726e9d2d4",
+  "bytes": 2127480,
+  "triangles": 2926,
+  "editable_parts": 114,
+  "actual_materials": 3,
+  "actual_primitives": 3,
+  "atlas_file": "atlases/oil_approved_atlas.png",
+  "atlas_sha256": "cf9b8a09e722c504f2d620f59fb57f1ce0109a91e64b7f471567943ab4a89b31",
+  "uv_inner_cell_margin": 0.13,
+  "style_direction": "oil_handpaint",
+  "build_rss_peak_kib": 61436,
+  "texture_quality_reference": "Approved earlier flower stall, not the rejected technical fixture",
+  "runtime_validation": "pending; GLB numerical round-trip follows separately"
+}

@@ -1,0 +1,16 @@
+{
+  "file": "oil_handpaint_bread_cart.glb",
+  "sha256": "5369cc6efffa30d8dbcf61ad23e66b59c1973f7e0093b6b2178fb81f1bfa4664",
+  "bytes": 2227712,
+  "triangles": 3854,
+  "editable_parts": 125,
+  "actual_materials": 3,
+  "actual_primitives": 3,
+  "atlas_file": "atlases/oil_approved_atlas.png",
+  "atlas_sha256": "cf9b8a09e722c504f2d620f59fb57f1ce0109a91e64b7f471567943ab4a89b31",
+  "uv_inner_cell_margin": 0.13,
+  "style_direction": "oil_handpaint",
+  "build_rss_peak_kib": 61992,
+  "texture_quality_reference": "Approved earlier flower stall, not the rejected technical fixture",
+  "runtime_validation": "pending; GLB numerical round-trip follows separately"
+}
