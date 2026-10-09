@@ -1,0 +1,20 @@
+Use case: style-transfer.
+Asset type: premium painted 3D-game diffuse/albedo texture atlas for small props.
+Edit target: supplied approved rich oil-paint 8×8 color atlas. Use it to preserve the EXACT grid, every cell position and color identity, and the beautiful pigment richness. Replace ONLY the painting technique.
+
+Output an edge-to-edge square 8×8 atlas with all 64 boundaries exactly at one-eighth increments. Zero gutters, grid lines, borders or margins. Each color patch must stay inside its own exact cell. Request 1024×1024.
+Exact row colors, left to right:
+1 teal, muted sage, ivory cream, deep navy, dark reddish wood brown, warm wood brown, golden ochre, pale golden cream
+2 raspberry pink, salmon pink, forest green, olive leaf green, golden ochre, pale golden cream, deep purple, lilac purple
+3 dark reddish wood brown, warm wood brown, golden tan, pale warm tan, vermilion red, orange coral, cobalt blue, dusty sky blue
+4 golden ochre, pale golden cream, deep purple, lilac purple, teal, muted sage, ivory cream, deep navy
+5 vermilion red, orange coral, cobalt blue, dusty sky blue, raspberry pink, salmon pink, forest green, olive leaf green
+6 same as row 1
+7 same as row 2
+8 same as row 3
+
+Style direction: softly illustrated painterly fantasy-forest 3D game texture, finely controlled flowing pigment, warm highlights and cool shadows. Reference to a Bloomwalker-like illustrated nature game is only a broad observed art direction, not a reproduction of an official shader or frame. Create original paint.
+
+Each tile is an abstract surface of LONG, FLUENT BROAD BRUSH TRACES, a few gracefully sweeping asymmetrical strokes and trailing brush tips over a luminous softly blended paint base. Rich chromatic pigment, translucent glazes, delicate directional bristle grain ALONG the strokes, low paint relief. About 4 to 6 distinct long brush traces per cell, each varied width; a few strokes merge and overlap naturally and leave large readable quiet areas. Long gently curved and tapered strokes with subtle flat ribbon width changes, occasional soft forked brush ends, and sparse coherent fine directional grain. Warm/cool pigment transitions have clear broad structure, around 20 to 30 percent value variation so it reads on an actual small 3D prop. The underlying small quiet surfaces should feel soft, not hard-edged gouache poster blocks, and not thick oil paint ridges.
+
+IMPORTANT: do not inherit the original oil atlas's uniform diagonal bristle texture. Vary the overall flow direction and curvature between cells: some horizontal sweep, some oblique, some vertical, some shallow arch. Repeated same-color cells must have distinct stroke compositions. No repeated identical sine bands, no evenly spaced waves, no marbled waves, no confetti, no scattered tiny leaf marks, no speckle, no noisy all-over filter, no canvas weave, no muddy cloudy grunge, no impasto, no sculpted ridges or baked light, no cast shadows, no faux 3D. No recognizable flowers, leaves, trees, forest scenes, objects, models, text, labels, logos or watermarks. A usable texture sheet ONLY, uniformly lit matte color albedo, clean exact grid.

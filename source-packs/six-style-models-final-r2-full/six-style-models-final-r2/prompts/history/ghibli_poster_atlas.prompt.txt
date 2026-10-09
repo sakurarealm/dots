@@ -1,0 +1,18 @@
+Use case: style-transfer.
+Asset type: premium production diffuse / albedo texture atlas for small illustrated 3D-game props.
+Edit target: the supplied oil-paint color texture atlas. This is a square texture sheet only, not a scene, not a model preview.
+
+Preserve the EXACT edge-to-edge 8 by 8 grid. Each cell is exactly one eighth of the square width and height. Every boundary must remain at the original coordinates, with no margins, gutters, drawn grid lines or off-grid paint. Preserve each cell's specific base-color identity and the rich, attractive palette of the supplied atlas. Do not reorder, recolor, merge or move any cell. Keep the output square at 1024 by 1024 pixels.
+Row colors from top to bottom, always left to right:
+1 teal, muted sage, ivory cream, deep navy, dark reddish wood brown, warm wood brown, golden ochre, pale golden cream
+2 raspberry pink, salmon pink, forest green, olive leaf green, golden ochre, pale golden cream, deep purple, lilac purple
+3 dark reddish wood brown, warm wood brown, golden tan, pale warm tan, vermilion red, orange coral, cobalt blue, dusty sky blue
+4 golden ochre, pale golden cream, deep purple, lilac purple, teal, muted sage, ivory cream, deep navy
+5 vermilion red, orange coral, cobalt blue, dusty sky blue, raspberry pink, salmon pink, forest green, olive leaf green
+6 same color identities as row 1
+7 same color identities as row 2
+8 same color identities as row 3
+
+Change ONLY the painting technique. Hand-authored animated-film background poster color and gouache, luminous overlapping opaque paint and softly translucent wash masses. About 4 to 7 broad deliberate paint masses within each cell, irregular brush boundaries and controlled hard-to-soft wash edges; gentle warm highlights and cold shadow pigments, 20 to 30 percent value variation for real readability on small 3D props. Large calm readable hand-made planes. Matte pigment, lower surface relief than the oil original, flattened paint with only restrained dry-brush traces. A FEW selective very fine hand-drawn structural pigment marks should articulate the broad wash masses, like elegant pencil or thin pigment lines, not hundreds of texture strokes. These are abstract colored pigment patches, no recognizable objects or illustration motifs. Vary brush direction, mark spacing, and paint-mass shapes between cells without changing their color families. Repeated same-color cells should have distinct authored paint arrangements. Keep the warm/cool color richness of the original. Attractive professional texture art, not a generic filter applied to oil paint.
+
+Flat evenly lit diffuse/albedo. Paint stops precisely at each original cell boundary. No oil impasto, no raised paint ridges, no baked lighting, no cast shadows, no repeating sine waves, no dirty cloudy filter, no random noise, no micro-grain, no canvas weave, no speckle, no confetti, no text, no numbers, no labels, no logos, no borders, no props, no objects, no flowers, no buildings.

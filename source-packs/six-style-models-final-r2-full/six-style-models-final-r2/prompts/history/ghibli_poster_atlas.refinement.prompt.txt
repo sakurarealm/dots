@@ -1,0 +1,18 @@
+Use case: style-transfer.
+Asset type: flat premium production albedo texture atlas, for a hand-painted illustrated 3D flower stall and other small props.
+
+Use the supplied atlas ONLY as the exact color-grid and rich-palette source. Completely REPAINT the surface technique. Preserve the exact edge-to-edge 8×8 square grid, at all one-eighth divisions, with zero gutters and zero grid outlines. Each of the 64 cells must retain its original color family, position and rich attractive color. No scenes, objects, forms, lettering or motifs: this is 64 abstract painted color patches.
+
+IMPORTANT PAINT TECHNIQUE CHANGE: completely remove the repeated long diagonal oil-bristle stroke pattern. Repaint in authentic matte poster-color / gouache washes for a luminous classic hand-painted animation background. In each cell, about 3 or 4 LARGE broad, irregular, partly overlapping pigment planes, generally horizontal or gently arcing, with a SMALL NUMBER of carefully placed thin hand-drawn pigment accents. Flattened opaque gouache layers, soft translucent underwash at selected edges, wet-on-dry hard edges beside soft bleeding edges, beautiful controlled color variation and slight dry paint drag, very low relief. The broad shapes should be intentionally composed with a few spacious calm areas. The sparse thin accents follow an edge of a broad pigment plane, as a pencil or fine pigment trace, rather than bristly diagonal hatching. Rich warm highlight pigment and cold shadow pigment within each original cell color, about 20–30% value variation to remain readable on a small 3D prop. Vary the painting composition between cells, with genuinely different mark arrangements even for repeated color cells. Avoid uniform stroke angles across the sheet.
+
+Exact row palette, left to right:
+Row 1: teal, muted sage, ivory cream, deep navy, dark reddish wood brown, warm wood brown, golden ochre, pale golden cream
+Row 2: raspberry pink, salmon pink, forest green, olive leaf green, golden ochre, pale golden cream, deep purple, lilac purple
+Row 3: dark reddish wood brown, warm wood brown, golden tan, pale warm tan, vermilion red, orange coral, cobalt blue, dusty sky blue
+Row 4: golden ochre, pale golden cream, deep purple, lilac purple, teal, muted sage, ivory cream, deep navy
+Row 5: vermilion red, orange coral, cobalt blue, dusty sky blue, raspberry pink, salmon pink, forest green, olive leaf green
+Row 6: same cell colors as row 1
+Row 7: same cell colors as row 2
+Row 8: same cell colors as row 3
+
+No thick paint ridges, no oil impasto, no baked shading, no shadows, no clouds, no muddy grunge, no dirty noise filter, no speckles, no confetti, no canvas weave, no generic all-over diagonal hatching, no wave stripes, no object preview. Paint goes right up to each exact cell edge and stops cleanly there. Full square sheet, request 1024×1024 pixels.

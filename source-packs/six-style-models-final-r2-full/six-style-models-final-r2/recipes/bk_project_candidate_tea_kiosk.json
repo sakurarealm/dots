@@ -1,0 +1,4370 @@
+{
+  "name": "tea_kiosk",
+  "style_direction": "bk_project_candidate",
+  "atlas": "atlases/bk_project_candidate_atlas_runtime1024.png",
+  "uv_origin": "top-left image / glTF convention",
+  "parts": [
+    {
+      "name": "Tea kiosk underframe",
+      "shape": "box",
+      "position": [
+        0,
+        0.04,
+        0.22
+      ],
+      "size": [
+        1.98,
+        0.95,
+        0.13
+      ],
+      "color_role": "wood_dark",
+      "surface": "paint",
+      "bevel": 0.016,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Tea kiosk foot 1-1",
+      "shape": "box",
+      "position": [
+        -0.84,
+        -0.36,
+        0.14
+      ],
+      "size": [
+        0.13,
+        0.14,
+        0.28
+      ],
+      "color_role": "wood_dark",
+      "surface": "paint",
+      "bevel": 0.019,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Tea kiosk foot 1-2",
+      "shape": "box",
+      "position": [
+        -0.84,
+        0.38,
+        0.14
+      ],
+      "size": [
+        0.13,
+        0.14,
+        0.28
+      ],
+      "color_role": "wood_dark",
+      "surface": "paint",
+      "bevel": 0.019,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Tea kiosk foot 2-1",
+      "shape": "box",
+      "position": [
+        0.84,
+        -0.36,
+        0.14
+      ],
+      "size": [
+        0.13,
+        0.14,
+        0.28
+      ],
+      "color_role": "wood_dark",
+      "surface": "paint",
+      "bevel": 0.019,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Tea kiosk foot 2-2",
+      "shape": "box",
+      "position": [
+        0.84,
+        0.38,
+        0.14
+      ],
+      "size": [
+        0.13,
+        0.14,
+        0.28
+      ],
+      "color_role": "wood_dark",
+      "surface": "paint",
+      "bevel": 0.019,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Open storage bottom shelf",
+      "shape": "box",
+      "position": [
+        0.55,
+        0.01,
+        0.335
+      ],
+      "size": [
+        0.72,
+        0.86,
+        0.06
+      ],
+      "color_role": "wood_honey",
+      "surface": "paint",
+      "bevel": 0.012,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Tea kiosk back storage wall",
+      "shape": "box",
+      "position": [
+        0,
+        0.46,
+        0.64
+      ],
+      "size": [
+        1.86,
+        0.066,
+        0.73
+      ],
+      "color_role": "wood_medium",
+      "surface": "paint",
+      "bevel": 0.016,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Tea kiosk left lower side wall",
+      "shape": "box",
+      "position": [
+        -0.94,
+        0.05,
+        0.64
+      ],
+      "size": [
+        0.09,
+        0.89,
+        0.72
+      ],
+      "color_role": "wood_medium",
+      "surface": "paint",
+      "bevel": 0.016,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Tea kiosk right lower side wall",
+      "shape": "box",
+      "position": [
+        0.94,
+        0.05,
+        0.64
+      ],
+      "size": [
+        0.09,
+        0.89,
+        0.72
+      ],
+      "color_role": "wood_medium",
+      "surface": "paint",
+      "bevel": 0.016,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Indigo hand-painted front panel",
+      "shape": "box",
+      "position": [
+        -0.33,
+        -0.476,
+        0.65
+      ],
+      "size": [
+        1.18,
+        0.039,
+        0.55
+      ],
+      "color_role": "teal",
+      "surface": "paint",
+      "bevel": 0.01,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Honey apron frame left",
+      "shape": "box",
+      "position": [
+        -0.87,
+        -0.509,
+        0.65
+      ],
+      "size": [
+        0.09,
+        0.055,
+        0.59
+      ],
+      "color_role": "wood_honey",
+      "surface": "paint",
+      "bevel": 0.012,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Honey apron frame right",
+      "shape": "box",
+      "position": [
+        0.27,
+        -0.509,
+        0.65
+      ],
+      "size": [
+        0.09,
+        0.055,
+        0.59
+      ],
+      "color_role": "wood_honey",
+      "surface": "paint",
+      "bevel": 0.012,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Apron bottom frame",
+      "shape": "box",
+      "position": [
+        -0.3,
+        -0.512,
+        0.372
+      ],
+      "size": [
+        1.22,
+        0.06,
+        0.074
+      ],
+      "color_role": "wood_honey",
+      "surface": "paint",
+      "bevel": 0.012,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Open cubby divider",
+      "shape": "box",
+      "position": [
+        0.37,
+        0.035,
+        0.65
+      ],
+      "size": [
+        0.069,
+        0.86,
+        0.68
+      ],
+      "color_role": "wood_dark",
+      "surface": "paint",
+      "bevel": 0.012,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Open cubby middle shelf",
+      "shape": "box",
+      "position": [
+        0.655,
+        -0.01,
+        0.63
+      ],
+      "size": [
+        0.55,
+        0.82,
+        0.058
+      ],
+      "color_role": "wood_honey",
+      "surface": "paint",
+      "bevel": 0.009,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Generous serving counter golden edge",
+      "shape": "box",
+      "position": [
+        0,
+        -0.01,
+        1.018
+      ],
+      "size": [
+        2.1,
+        1.12,
+        0.112
+      ],
+      "color_role": "wood_honey",
+      "surface": "paint",
+      "bevel": 0.028,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Warm oil-painted serving surface",
+      "shape": "box",
+      "position": [
+        0,
+        -0.015,
+        1.083
+      ],
+      "size": [
+        1.97,
+        1.015,
+        0.025
+      ],
+      "color_role": "wood_medium",
+      "surface": "paint",
+      "bevel": 0.004,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Canopy left rear post",
+      "shape": "box",
+      "position": [
+        -0.87,
+        0.4,
+        1.125
+      ],
+      "size": [
+        0.075,
+        0.083,
+        2.09
+      ],
+      "color_role": "wood_dark",
+      "surface": "paint",
+      "bevel": 0.01,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Canopy left front post",
+      "shape": "box",
+      "position": [
+        -0.87,
+        -0.43,
+        1.08
+      ],
+      "size": [
+        0.065,
+        0.07,
+        2.0
+      ],
+      "color_role": "wood_dark",
+      "surface": "paint",
+      "bevel": 0.01,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Canopy left cross support",
+      "shape": "beam",
+      "position": [
+        -0.8700000047683716,
+        0.02000001072883606,
+        2.059999942779541
+      ],
+      "size": [
+        0.048,
+        0.048,
+        1.0667707920074463
+      ],
+      "color_role": "wood_medium",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -0.8700000047683716,
+        -0.5099999904632568,
+        2.0
+      ],
+      "b": [
+        -0.8700000047683716,
+        0.550000011920929,
+        2.119999885559082
+      ],
+      "width": 0.048
+    },
+    {
+      "name": "Canopy right rear post",
+      "shape": "box",
+      "position": [
+        0.87,
+        0.4,
+        1.125
+      ],
+      "size": [
+        0.075,
+        0.083,
+        2.09
+      ],
+      "color_role": "wood_dark",
+      "surface": "paint",
+      "bevel": 0.01,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Canopy right front post",
+      "shape": "box",
+      "position": [
+        0.87,
+        -0.43,
+        1.08
+      ],
+      "size": [
+        0.065,
+        0.07,
+        2.0
+      ],
+      "color_role": "wood_dark",
+      "surface": "paint",
+      "bevel": 0.01,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Canopy right cross support",
+      "shape": "beam",
+      "position": [
+        0.8700000047683716,
+        0.02000001072883606,
+        2.059999942779541
+      ],
+      "size": [
+        0.048,
+        0.048,
+        1.0667707920074463
+      ],
+      "color_role": "wood_medium",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        0.8700000047683716,
+        -0.5099999904632568,
+        2.0
+      ],
+      "b": [
+        0.8700000047683716,
+        0.550000011920929,
+        2.119999885559082
+      ],
+      "width": 0.048
+    },
+    {
+      "name": "Canopy rear spreader",
+      "shape": "beam",
+      "position": [
+        0.0,
+        0.550000011920929,
+        2.109999895095825
+      ],
+      "size": [
+        0.048,
+        0.048,
+        2.200000047683716
+      ],
+      "color_role": "wood_dark",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -1.100000023841858,
+        0.550000011920929,
+        2.109999895095825
+      ],
+      "b": [
+        1.100000023841858,
+        0.550000011920929,
+        2.109999895095825
+      ],
+      "width": 0.048
+    },
+    {
+      "name": "Canopy ridge support",
+      "shape": "beam",
+      "position": [
+        0.0,
+        0.09000000357627869,
+        2.234999895095825
+      ],
+      "size": [
+        0.052,
+        0.052,
+        2.200000047683716
+      ],
+      "color_role": "wood_dark",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -1.100000023841858,
+        0.09000000357627869,
+        2.234999895095825
+      ],
+      "b": [
+        1.100000023841858,
+        0.09000000357627869,
+        2.234999895095825
+      ],
+      "width": 0.052
+    },
+    {
+      "name": "Broad stripe canopy cloth 1",
+      "shape": "mesh",
+      "vertices": [
+        [
+          -1.14,
+          -0.63,
+          2.015
+        ],
+        [
+          -0.8142857142857143,
+          -0.63,
+          2.0315554097249295
+        ],
+        [
+          -0.8142857142857143,
+          0.08,
+          2.24
+        ],
+        [
+          -1.14,
+          0.08,
+          2.24
+        ],
+        [
+          -1.14,
+          0.62,
+          2.145
+        ],
+        [
+          -0.8142857142857143,
+          0.62,
+          2.145
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          3,
+          2,
+          5,
+          4
+        ]
+      ],
+      "color_role": "cloth_coral",
+      "surface": "paint",
+      "smooth": false
+    },
+    {
+      "name": "Soft scalloped cloth valance 1",
+      "shape": "mesh",
+      "vertices": [
+        [
+          -1.14,
+          -0.635,
+          2.015
+        ],
+        [
+          -0.8142857142857143,
+          -0.635,
+          2.0315554097249295
+        ],
+        [
+          -0.8142857142857143,
+          -0.645,
+          1.9431554097249295
+        ],
+        [
+          -0.9771428571428571,
+          -0.65,
+          1.8932777048624647
+        ],
+        [
+          -1.14,
+          -0.645,
+          1.9266
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "color_role": "cloth_coral",
+      "surface": "paint",
+      "smooth": false
+    },
+    {
+      "name": "Broad stripe canopy cloth 2",
+      "shape": "mesh",
+      "vertices": [
+        [
+          -0.8142857142857143,
+          -0.63,
+          2.0315554097249295
+        ],
+        [
+          -0.48857142857142855,
+          -0.63,
+          2.007477152463988
+        ],
+        [
+          -0.48857142857142855,
+          0.08,
+          2.24
+        ],
+        [
+          -0.8142857142857143,
+          0.08,
+          2.24
+        ],
+        [
+          -0.8142857142857143,
+          0.62,
+          2.145
+        ],
+        [
+          -0.48857142857142855,
+          0.62,
+          2.145
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          3,
+          2,
+          5,
+          4
+        ]
+      ],
+      "color_role": "cream",
+      "surface": "paint",
+      "smooth": false
+    },
+    {
+      "name": "Soft scalloped cloth valance 2",
+      "shape": "mesh",
+      "vertices": [
+        [
+          -0.8142857142857143,
+          -0.635,
+          2.0315554097249295
+        ],
+        [
+          -0.48857142857142855,
+          -0.635,
+          2.007477152463988
+        ],
+        [
+          -0.48857142857142855,
+          -0.645,
+          1.904117152463988
+        ],
+        [
+          -0.6514285714285715,
+          -0.65,
+          1.8675162810944588
+        ],
+        [
+          -0.8142857142857143,
+          -0.645,
+          1.9281954097249296
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "color_role": "cream",
+      "surface": "paint",
+      "smooth": false
+    },
+    {
+      "name": "Broad stripe canopy cloth 3",
+      "shape": "mesh",
+      "vertices": [
+        [
+          -0.48857142857142855,
+          -0.63,
+          2.007477152463988
+        ],
+        [
+          -0.1628571428571428,
+          -0.63,
+          2.001863003711548
+        ],
+        [
+          -0.1628571428571428,
+          0.08,
+          2.24
+        ],
+        [
+          -0.48857142857142855,
+          0.08,
+          2.24
+        ],
+        [
+          -0.48857142857142855,
+          0.62,
+          2.145
+        ],
+        [
+          -0.1628571428571428,
+          0.62,
+          2.145
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          3,
+          2,
+          5,
+          4
+        ]
+      ],
+      "color_role": "cloth_coral",
+      "surface": "paint",
+      "smooth": false
+    },
+    {
+      "name": "Soft scalloped cloth valance 3",
+      "shape": "mesh",
+      "vertices": [
+        [
+          -0.48857142857142855,
+          -0.635,
+          2.007477152463988
+        ],
+        [
+          -0.1628571428571428,
+          -0.635,
+          2.001863003711548
+        ],
+        [
+          -0.1628571428571428,
+          -0.645,
+          1.8835430037115481
+        ],
+        [
+          -0.3257142857142857,
+          -0.65,
+          1.8306700780877683
+        ],
+        [
+          -0.48857142857142855,
+          -0.645,
+          1.8891571524639879
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "color_role": "cloth_coral",
+      "surface": "paint",
+      "smooth": false
+    },
+    {
+      "name": "Broad stripe canopy cloth 4",
+      "shape": "mesh",
+      "vertices": [
+        [
+          -0.1628571428571428,
+          -0.63,
+          2.001863003711548
+        ],
+        [
+          0.1628571428571428,
+          -0.63,
+          2.0284923536854356
+        ],
+        [
+          0.1628571428571428,
+          0.08,
+          2.24
+        ],
+        [
+          -0.1628571428571428,
+          0.08,
+          2.24
+        ],
+        [
+          -0.1628571428571428,
+          0.62,
+          2.145
+        ],
+        [
+          0.1628571428571428,
+          0.62,
+          2.145
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          3,
+          2,
+          5,
+          4
+        ]
+      ],
+      "color_role": "cloth_coral",
+      "surface": "paint",
+      "smooth": false
+    },
+    {
+      "name": "Soft scalloped cloth valance 4",
+      "shape": "mesh",
+      "vertices": [
+        [
+          -0.1628571428571428,
+          -0.635,
+          2.001863003711548
+        ],
+        [
+          0.1628571428571428,
+          -0.635,
+          2.0284923536854356
+        ],
+        [
+          0.1628571428571428,
+          -0.645,
+          1.9400923536854355
+        ],
+        [
+          0.0,
+          -0.65,
+          1.8851776786984917
+        ],
+        [
+          -0.1628571428571428,
+          -0.645,
+          1.913463003711548
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "color_role": "cloth_coral",
+      "surface": "paint",
+      "smooth": false
+    },
+    {
+      "name": "Broad stripe canopy cloth 5",
+      "shape": "mesh",
+      "vertices": [
+        [
+          0.1628571428571428,
+          -0.63,
+          2.0284923536854356
+        ],
+        [
+          0.48857142857142843,
+          -0.63,
+          2.02200601424911
+        ],
+        [
+          0.48857142857142843,
+          0.08,
+          2.24
+        ],
+        [
+          0.1628571428571428,
+          0.08,
+          2.24
+        ],
+        [
+          0.1628571428571428,
+          0.62,
+          2.145
+        ],
+        [
+          0.48857142857142843,
+          0.62,
+          2.145
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          3,
+          2,
+          5,
+          4
+        ]
+      ],
+      "color_role": "cream",
+      "surface": "paint",
+      "smooth": false
+    },
+    {
+      "name": "Soft scalloped cloth valance 5",
+      "shape": "mesh",
+      "vertices": [
+        [
+          0.1628571428571428,
+          -0.635,
+          2.0284923536854356
+        ],
+        [
+          0.48857142857142843,
+          -0.635,
+          2.02200601424911
+        ],
+        [
+          0.48857142857142843,
+          -0.645,
+          1.9186460142491102
+        ],
+        [
+          0.3257142857142856,
+          -0.65,
+          1.8732491839672731
+        ],
+        [
+          0.1628571428571428,
+          -0.645,
+          1.9251323536854357
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "color_role": "cream",
+      "surface": "paint",
+      "smooth": false
+    },
+    {
+      "name": "Broad stripe canopy cloth 6",
+      "shape": "mesh",
+      "vertices": [
+        [
+          0.48857142857142843,
+          -0.63,
+          2.02200601424911
+        ],
+        [
+          0.8142857142857143,
+          -0.63,
+          1.9983240840888699
+        ],
+        [
+          0.8142857142857143,
+          0.08,
+          2.24
+        ],
+        [
+          0.48857142857142843,
+          0.08,
+          2.24
+        ],
+        [
+          0.48857142857142843,
+          0.62,
+          2.145
+        ],
+        [
+          0.8142857142857143,
+          0.62,
+          2.145
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          3,
+          2,
+          5,
+          4
+        ]
+      ],
+      "color_role": "cloth_coral",
+      "surface": "paint",
+      "smooth": false
+    },
+    {
+      "name": "Soft scalloped cloth valance 6",
+      "shape": "mesh",
+      "vertices": [
+        [
+          0.48857142857142843,
+          -0.635,
+          2.02200601424911
+        ],
+        [
+          0.8142857142857143,
+          -0.635,
+          1.9983240840888699
+        ],
+        [
+          0.8142857142857143,
+          -0.645,
+          1.8800040840888699
+        ],
+        [
+          0.6514285714285714,
+          -0.65,
+          1.83616504916899
+        ],
+        [
+          0.48857142857142843,
+          -0.645,
+          1.90368601424911
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "color_role": "cloth_coral",
+      "surface": "paint",
+      "smooth": false
+    },
+    {
+      "name": "Broad stripe canopy cloth 7",
+      "shape": "mesh",
+      "vertices": [
+        [
+          0.8142857142857143,
+          -0.63,
+          1.9983240840888699
+        ],
+        [
+          1.14,
+          -0.63,
+          2.0155715918027592
+        ],
+        [
+          1.14,
+          0.08,
+          2.24
+        ],
+        [
+          0.8142857142857143,
+          0.08,
+          2.24
+        ],
+        [
+          0.8142857142857143,
+          0.62,
+          2.145
+        ],
+        [
+          1.14,
+          0.62,
+          2.145
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          3,
+          2,
+          5,
+          4
+        ]
+      ],
+      "color_role": "cream",
+      "surface": "paint",
+      "smooth": false
+    },
+    {
+      "name": "Soft scalloped cloth valance 7",
+      "shape": "mesh",
+      "vertices": [
+        [
+          0.8142857142857143,
+          -0.635,
+          1.9983240840888699
+        ],
+        [
+          1.14,
+          -0.635,
+          2.0155715918027592
+        ],
+        [
+          1.14,
+          -0.645,
+          1.9271715918027592
+        ],
+        [
+          0.9771428571428571,
+          -0.65,
+          1.8769478379458144
+        ],
+        [
+          0.8142857142857143,
+          -0.645,
+          1.9099240840888698
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "color_role": "cream",
+      "surface": "paint",
+      "smooth": false
+    },
+    {
+      "name": "Canopy broad front hem rod",
+      "shape": "beam",
+      "position": [
+        0.0,
+        -0.6399999856948853,
+        2.009999990463257
+      ],
+      "size": [
+        0.017,
+        0.017,
+        2.2799999713897705
+      ],
+      "color_role": "brass",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -1.1399999856948853,
+        -0.6399999856948853,
+        2.009999990463257
+      ],
+      "b": [
+        1.1399999856948853,
+        -0.6399999856948853,
+        2.009999990463257
+      ],
+      "width": 0.017
+    },
+    {
+      "name": "Back tea display shelf",
+      "shape": "box",
+      "position": [
+        0.03,
+        0.265,
+        1.435
+      ],
+      "size": [
+        1.76,
+        0.43,
+        0.065
+      ],
+      "color_role": "wood_honey",
+      "surface": "paint",
+      "bevel": 0.015,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Shelf left triangular bracket",
+      "shape": "beam",
+      "position": [
+        -0.699999988079071,
+        0.26249998807907104,
+        1.2725000381469727
+      ],
+      "size": [
+        0.04,
+        0.04,
+        0.45918405055999756
+      ],
+      "color_role": "wood_dark",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -0.699999988079071,
+        0.44999998807907104,
+        1.1399999856948853
+      ],
+      "b": [
+        -0.699999988079071,
+        0.07500000298023224,
+        1.4049999713897705
+      ],
+      "width": 0.04
+    },
+    {
+      "name": "Shelf right triangular bracket",
+      "shape": "beam",
+      "position": [
+        0.7300000190734863,
+        0.26249998807907104,
+        1.2725000381469727
+      ],
+      "size": [
+        0.04,
+        0.04,
+        0.45918405055999756
+      ],
+      "color_role": "wood_dark",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        0.7300000190734863,
+        0.44999998807907104,
+        1.1399999856948853
+      ],
+      "b": [
+        0.7300000190734863,
+        0.07500000298023224,
+        1.4049999713897705
+      ],
+      "width": 0.04
+    },
+    {
+      "name": "Shelf back lip",
+      "shape": "box",
+      "position": [
+        0.03,
+        0.468,
+        1.493
+      ],
+      "size": [
+        1.76,
+        0.031,
+        0.12
+      ],
+      "color_role": "wood_medium",
+      "surface": "paint",
+      "bevel": 0.007,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Shelf cream cup hollow ceramic bowl",
+      "shape": "lathe",
+      "position": [
+        -0.55,
+        0.15,
+        1.468
+      ],
+      "profile": [
+        [
+          0.045,
+          0
+        ],
+        [
+          0.048,
+          0.018
+        ],
+        [
+          0.064,
+          0.102
+        ],
+        [
+          0.076,
+          0.122
+        ],
+        [
+          0.065,
+          0.13
+        ],
+        [
+          0.056,
+          0.113
+        ],
+        [
+          0.038,
+          0.03
+        ]
+      ],
+      "segments": 10,
+      "color_role": "cream",
+      "surface": "paint"
+    },
+    {
+      "name": "Shelf cream cup glazed loop handle",
+      "shape": "torus",
+      "position": [
+        -0.468,
+        0.15,
+        1.542
+      ],
+      "major_radius": 0.035,
+      "minor_radius": 0.009,
+      "segments": 10,
+      "minor_segments": 4,
+      "rotation": [
+        1.5707963267948966,
+        0,
+        0
+      ],
+      "color_role": "cream",
+      "surface": "paint"
+    },
+    {
+      "name": "Shelf pink cup hollow ceramic bowl",
+      "shape": "lathe",
+      "position": [
+        -0.26,
+        0.27,
+        1.468
+      ],
+      "profile": [
+        [
+          0.045,
+          0
+        ],
+        [
+          0.048,
+          0.018
+        ],
+        [
+          0.064,
+          0.102
+        ],
+        [
+          0.076,
+          0.122
+        ],
+        [
+          0.065,
+          0.13
+        ],
+        [
+          0.056,
+          0.113
+        ],
+        [
+          0.038,
+          0.03
+        ]
+      ],
+      "segments": 10,
+      "color_role": "cloth_coral",
+      "surface": "paint"
+    },
+    {
+      "name": "Shelf pink cup glazed loop handle",
+      "shape": "torus",
+      "position": [
+        -0.178,
+        0.27,
+        1.542
+      ],
+      "major_radius": 0.035,
+      "minor_radius": 0.009,
+      "segments": 10,
+      "minor_segments": 4,
+      "rotation": [
+        1.5707963267948966,
+        0,
+        0
+      ],
+      "color_role": "cloth_coral",
+      "surface": "paint"
+    },
+    {
+      "name": "Hand-painted tea tin 1",
+      "shape": "cylinder",
+      "position": [
+        0.16,
+        0.28,
+        1.563
+      ],
+      "radius": 0.092,
+      "height": 0.19,
+      "radius_top": 0.092,
+      "segments": 10,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color_role": "sage",
+      "surface": "paint"
+    },
+    {
+      "name": "Tea tin 1 brass lid",
+      "shape": "cylinder",
+      "position": [
+        0.16,
+        0.28,
+        1.668
+      ],
+      "radius": 0.098,
+      "height": 0.022,
+      "radius_top": 0.098,
+      "segments": 10,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color_role": "brass",
+      "surface": "metal"
+    },
+    {
+      "name": "Tea tin 1 cream label",
+      "shape": "box",
+      "position": [
+        0.16,
+        0.187,
+        1.5687
+      ],
+      "size": [
+        0.106,
+        0.008,
+        0.06
+      ],
+      "color_role": "cream",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Hand-painted tea tin 2",
+      "shape": "cylinder",
+      "position": [
+        0.44,
+        0.28,
+        1.588
+      ],
+      "radius": 0.092,
+      "height": 0.24,
+      "radius_top": 0.092,
+      "segments": 10,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color_role": "teal",
+      "surface": "paint"
+    },
+    {
+      "name": "Tea tin 2 brass lid",
+      "shape": "cylinder",
+      "position": [
+        0.44,
+        0.28,
+        1.718
+      ],
+      "radius": 0.098,
+      "height": 0.022,
+      "radius_top": 0.098,
+      "segments": 10,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color_role": "brass",
+      "surface": "metal"
+    },
+    {
+      "name": "Tea tin 2 cream label",
+      "shape": "box",
+      "position": [
+        0.44,
+        0.187,
+        1.5952
+      ],
+      "size": [
+        0.106,
+        0.008,
+        0.06
+      ],
+      "color_role": "cream",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Hand-painted tea tin 3",
+      "shape": "cylinder",
+      "position": [
+        0.75,
+        0.28,
+        1.558
+      ],
+      "radius": 0.092,
+      "height": 0.18,
+      "radius_top": 0.092,
+      "segments": 10,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color_role": "cloth_coral",
+      "surface": "paint"
+    },
+    {
+      "name": "Tea tin 3 brass lid",
+      "shape": "cylinder",
+      "position": [
+        0.75,
+        0.28,
+        1.658
+      ],
+      "radius": 0.098,
+      "height": 0.022,
+      "radius_top": 0.098,
+      "segments": 10,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color_role": "brass",
+      "surface": "metal"
+    },
+    {
+      "name": "Tea tin 3 cream label",
+      "shape": "box",
+      "position": [
+        0.75,
+        0.187,
+        1.5634
+      ],
+      "size": [
+        0.106,
+        0.008,
+        0.06
+      ],
+      "color_role": "cream",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Round turquoise teapot body",
+      "shape": "ellipsoid",
+      "position": [
+        0.025,
+        -0.18,
+        1.249
+      ],
+      "radii": [
+        0.19,
+        0.153,
+        0.158
+      ],
+      "color_role": "teal",
+      "surface": "paint",
+      "segments": 12,
+      "rings": 6,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Teapot cream domed lid",
+      "shape": "lathe",
+      "position": [
+        0.025,
+        -0.18,
+        1.36
+      ],
+      "profile": [
+        [
+          0,
+          0
+        ],
+        [
+          0.13,
+          0
+        ],
+        [
+          0.118,
+          0.018
+        ],
+        [
+          0.082,
+          0.045
+        ],
+        [
+          0.035,
+          0.057
+        ],
+        [
+          0,
+          0.058
+        ]
+      ],
+      "segments": 12,
+      "color_role": "cream",
+      "surface": "paint"
+    },
+    {
+      "name": "Teapot warm lid knob",
+      "shape": "ellipsoid",
+      "position": [
+        0.025,
+        -0.18,
+        1.442
+      ],
+      "radii": [
+        0.034,
+        0.034,
+        0.029
+      ],
+      "color_role": "brass",
+      "surface": "metal",
+      "segments": 8,
+      "rings": 4,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Teapot generous ceramic handle",
+      "shape": "torus",
+      "position": [
+        -0.164,
+        -0.18,
+        1.266
+      ],
+      "major_radius": 0.112,
+      "minor_radius": 0.027,
+      "segments": 14,
+      "minor_segments": 5,
+      "rotation": [
+        1.5707963267948966,
+        0,
+        0
+      ],
+      "color_role": "teal",
+      "surface": "paint"
+    },
+    {
+      "name": "Teapot rising tapered spout",
+      "shape": "mesh",
+      "vertices": [
+        [
+          0.16,
+          -0.11399999999999999,
+          1.255
+        ],
+        [
+          0.13329975056706345,
+          -0.13333095244168786,
+          1.293276581354909
+        ],
+        [
+          0.12224014513319659,
+          -0.18,
+          1.3091312604733893
+        ],
+        [
+          0.13329975056706345,
+          -0.22666904755831213,
+          1.293276581354909
+        ],
+        [
+          0.16,
+          -0.246,
+          1.255
+        ],
+        [
+          0.18670024943293656,
+          -0.22666904755831213,
+          1.2167234186450908
+        ],
+        [
+          0.19775985486680342,
+          -0.18,
+          1.2008687395266104
+        ],
+        [
+          0.18670024943293656,
+          -0.13333095244168786,
+          1.2167234186450908
+        ],
+        [
+          0.365,
+          -0.148,
+          1.398
+        ],
+        [
+          0.3520544245173641,
+          -0.15737258300203047,
+          1.4165583424751074
+        ],
+        [
+          0.3466921915797317,
+          -0.18,
+          1.4242454596234615
+        ],
+        [
+          0.3520544245173641,
+          -0.20262741699796952,
+          1.4165583424751074
+        ],
+        [
+          0.365,
+          -0.212,
+          1.398
+        ],
+        [
+          0.3779455754826359,
+          -0.20262741699796952,
+          1.3794416575248925
+        ],
+        [
+          0.3833078084202683,
+          -0.18,
+          1.3717545403765383
+        ],
+        [
+          0.3779455754826359,
+          -0.15737258300203047,
+          1.3794416575248925
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          9,
+          8
+        ],
+        [
+          1,
+          2,
+          10,
+          9
+        ],
+        [
+          2,
+          3,
+          11,
+          10
+        ],
+        [
+          3,
+          4,
+          12,
+          11
+        ],
+        [
+          4,
+          5,
+          13,
+          12
+        ],
+        [
+          5,
+          6,
+          14,
+          13
+        ],
+        [
+          6,
+          7,
+          15,
+          14
+        ],
+        [
+          7,
+          0,
+          8,
+          15
+        ]
+      ],
+      "color_role": "teal",
+      "surface": "paint",
+      "smooth": false
+    },
+    {
+      "name": "Teapot visible spout mouth",
+      "shape": "mesh",
+      "vertices": [
+        [
+          0.365,
+          -0.148,
+          1.398
+        ],
+        [
+          0.3520544245173641,
+          -0.15737258300203047,
+          1.4165583424751074
+        ],
+        [
+          0.3466921915797317,
+          -0.18,
+          1.4242454596234615
+        ],
+        [
+          0.3520544245173641,
+          -0.20262741699796952,
+          1.4165583424751074
+        ],
+        [
+          0.365,
+          -0.212,
+          1.398
+        ],
+        [
+          0.3779455754826359,
+          -0.20262741699796952,
+          1.3794416575248925
+        ],
+        [
+          0.3833078084202683,
+          -0.18,
+          1.3717545403765383
+        ],
+        [
+          0.3779455754826359,
+          -0.15737258300203047,
+          1.3794416575248925
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "color_role": "metal_dark",
+      "surface": "paint",
+      "smooth": false
+    },
+    {
+      "name": "Counter coral cup hollow ceramic bowl",
+      "shape": "lathe",
+      "position": [
+        -0.47,
+        -0.225,
+        1.1
+      ],
+      "profile": [
+        [
+          0.045,
+          0
+        ],
+        [
+          0.048,
+          0.018
+        ],
+        [
+          0.064,
+          0.102
+        ],
+        [
+          0.076,
+          0.122
+        ],
+        [
+          0.065,
+          0.13
+        ],
+        [
+          0.056,
+          0.113
+        ],
+        [
+          0.038,
+          0.03
+        ]
+      ],
+      "segments": 10,
+      "color_role": "cloth_coral",
+      "surface": "paint"
+    },
+    {
+      "name": "Counter coral cup glazed loop handle",
+      "shape": "torus",
+      "position": [
+        -0.38799999999999996,
+        -0.225,
+        1.1740000000000002
+      ],
+      "major_radius": 0.035,
+      "minor_radius": 0.009,
+      "segments": 10,
+      "minor_segments": 4,
+      "rotation": [
+        1.5707963267948966,
+        0,
+        0
+      ],
+      "color_role": "cloth_coral",
+      "surface": "paint"
+    },
+    {
+      "name": "Counter cream cup hollow ceramic bowl",
+      "shape": "lathe",
+      "position": [
+        0.48,
+        -0.31,
+        1.1
+      ],
+      "profile": [
+        [
+          0.045,
+          0
+        ],
+        [
+          0.048,
+          0.018
+        ],
+        [
+          0.064,
+          0.102
+        ],
+        [
+          0.076,
+          0.122
+        ],
+        [
+          0.065,
+          0.13
+        ],
+        [
+          0.056,
+          0.113
+        ],
+        [
+          0.038,
+          0.03
+        ]
+      ],
+      "segments": 10,
+      "color_role": "cream",
+      "surface": "paint"
+    },
+    {
+      "name": "Counter cream cup glazed loop handle",
+      "shape": "torus",
+      "position": [
+        0.5619999999999999,
+        -0.31,
+        1.1740000000000002
+      ],
+      "major_radius": 0.035,
+      "minor_radius": 0.009,
+      "segments": 10,
+      "minor_segments": 4,
+      "rotation": [
+        1.5707963267948966,
+        0,
+        0
+      ],
+      "color_role": "cream",
+      "surface": "paint"
+    },
+    {
+      "name": "Tea biscuit plate",
+      "shape": "lathe",
+      "position": [
+        -0.73,
+        -0.04,
+        1.1
+      ],
+      "profile": [
+        [
+          0,
+          0
+        ],
+        [
+          0.126,
+          0
+        ],
+        [
+          0.147,
+          0.011
+        ],
+        [
+          0.132,
+          0.025
+        ],
+        [
+          0.111,
+          0.015
+        ],
+        [
+          0,
+          0.015
+        ]
+      ],
+      "segments": 12,
+      "color_role": "cream",
+      "surface": "paint"
+    },
+    {
+      "name": "Golden tea biscuit 1",
+      "shape": "ellipsoid",
+      "position": [
+        -0.77,
+        -0.035,
+        1.143
+      ],
+      "radii": [
+        0.06,
+        0.048,
+        0.022
+      ],
+      "color_role": "bread_crust",
+      "surface": "paint",
+      "segments": 8,
+      "rings": 4,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Golden tea biscuit 2",
+      "shape": "ellipsoid",
+      "position": [
+        -0.66,
+        -0.02,
+        1.143
+      ],
+      "radii": [
+        0.06,
+        0.048,
+        0.022
+      ],
+      "color_role": "bread_crust",
+      "surface": "paint",
+      "segments": 8,
+      "rings": 4,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Folded soft blue service towel",
+      "shape": "box",
+      "position": [
+        0.74,
+        -0.285,
+        1.11
+      ],
+      "size": [
+        0.35,
+        0.29,
+        0.019
+      ],
+      "color_role": "teal",
+      "surface": "paint",
+      "bevel": 0.003,
+      "rotation": [
+        0,
+        0,
+        -0.085
+      ]
+    },
+    {
+      "name": "Towel hanging over counter corner",
+      "shape": "mesh",
+      "vertices": [
+        [
+          0.57,
+          -0.56,
+          1.112
+        ],
+        [
+          0.94,
+          -0.56,
+          1.112
+        ],
+        [
+          0.94,
+          -0.574,
+          0.936
+        ],
+        [
+          0.75,
+          -0.584,
+          0.9
+        ],
+        [
+          0.56,
+          -0.574,
+          0.95
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "color_role": "teal",
+      "surface": "paint",
+      "smooth": false
+    },
+    {
+      "name": "Tea sign honey carved surround",
+      "shape": "box",
+      "position": [
+        -0.5,
+        -0.603,
+        1.72
+      ],
+      "size": [
+        0.54,
+        0.065,
+        0.43
+      ],
+      "color_role": "wood_honey",
+      "surface": "paint",
+      "bevel": 0.022,
+      "rotation": [
+        0,
+        0,
+        -0.035
+      ]
+    },
+    {
+      "name": "Tea sign broad cream face",
+      "shape": "box",
+      "position": [
+        -0.5,
+        -0.64,
+        1.72
+      ],
+      "size": [
+        0.47,
+        0.025,
+        0.35
+      ],
+      "color_role": "cream",
+      "surface": "paint",
+      "bevel": 0.011,
+      "rotation": [
+        0,
+        0,
+        -0.035
+      ]
+    },
+    {
+      "name": "Tea sign raised cup silhouette",
+      "shape": "mesh",
+      "vertices": [
+        [
+          -0.602,
+          -0.658,
+          1.727
+        ],
+        [
+          -0.416,
+          -0.658,
+          1.727
+        ],
+        [
+          -0.44,
+          -0.661,
+          1.619
+        ],
+        [
+          -0.58,
+          -0.661,
+          1.619
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "color_role": "teal",
+      "surface": "paint",
+      "smooth": false
+    },
+    {
+      "name": "Tea sign raised cup handle",
+      "shape": "torus",
+      "position": [
+        -0.412,
+        -0.665,
+        1.688
+      ],
+      "major_radius": 0.039,
+      "minor_radius": 0.013,
+      "segments": 10,
+      "minor_segments": 4,
+      "rotation": [
+        1.5707963267948966,
+        0,
+        0
+      ],
+      "color_role": "teal",
+      "surface": "paint"
+    },
+    {
+      "name": "Tea sign saucer relief",
+      "shape": "beam",
+      "position": [
+        -0.5099999904632568,
+        -0.6650000214576721,
+        1.6050000190734863
+      ],
+      "size": [
+        0.015,
+        0.015,
+        0.24000000953674316
+      ],
+      "color_role": "cloth_coral",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -0.6299999952316284,
+        -0.6650000214576721,
+        1.6050000190734863
+      ],
+      "b": [
+        -0.38999998569488525,
+        -0.6650000214576721,
+        1.6050000190734863
+      ],
+      "width": 0.015
+    },
+    {
+      "name": "Tea sign steam lower 1",
+      "shape": "beam",
+      "position": [
+        -0.5479999780654907,
+        -0.6650000214576721,
+        1.7684999704360962
+      ],
+      "size": [
+        0.008,
+        0.008,
+        0.03448186814785004
+      ],
+      "color_role": "wood_medium",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -0.5529999732971191,
+        -0.6650000214576721,
+        1.7519999742507935
+      ],
+      "b": [
+        -0.5429999828338623,
+        -0.6650000214576721,
+        1.784999966621399
+      ],
+      "width": 0.008
+    },
+    {
+      "name": "Tea sign steam upper 1",
+      "shape": "beam",
+      "position": [
+        -0.5529999732971191,
+        -0.6650000214576721,
+        1.8029999732971191
+      ],
+      "size": [
+        0.008,
+        0.008,
+        0.04118255153298378
+      ],
+      "color_role": "wood_medium",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -0.5429999828338623,
+        -0.6650000214576721,
+        1.784999966621399
+      ],
+      "b": [
+        -0.5630000233650208,
+        -0.6650000214576721,
+        1.8209999799728394
+      ],
+      "width": 0.008
+    },
+    {
+      "name": "Tea sign steam lower 2",
+      "shape": "beam",
+      "position": [
+        -0.4880000054836273,
+        -0.6650000214576721,
+        1.7684999704360962
+      ],
+      "size": [
+        0.008,
+        0.008,
+        0.03448186814785004
+      ],
+      "color_role": "wood_medium",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -0.49300000071525574,
+        -0.6650000214576721,
+        1.7519999742507935
+      ],
+      "b": [
+        -0.4830000102519989,
+        -0.6650000214576721,
+        1.784999966621399
+      ],
+      "width": 0.008
+    },
+    {
+      "name": "Tea sign steam upper 2",
+      "shape": "beam",
+      "position": [
+        -0.4930000305175781,
+        -0.6650000214576721,
+        1.8029999732971191
+      ],
+      "size": [
+        0.008,
+        0.008,
+        0.041182536631822586
+      ],
+      "color_role": "wood_medium",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -0.4830000102519989,
+        -0.6650000214576721,
+        1.784999966621399
+      ],
+      "b": [
+        -0.503000020980835,
+        -0.6650000214576721,
+        1.8209999799728394
+      ],
+      "width": 0.008
+    },
+    {
+      "name": "Tea sign left suspension cord",
+      "shape": "beam",
+      "position": [
+        -0.6700000166893005,
+        -0.6100000143051147,
+        1.9744999408721924
+      ],
+      "size": [
+        0.011,
+        0.011,
+        0.07899999618530273
+      ],
+      "color_role": "wood_dark",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -0.6700000166893005,
+        -0.6100000143051147,
+        1.934999942779541
+      ],
+      "b": [
+        -0.6700000166893005,
+        -0.6100000143051147,
+        2.0139999389648438
+      ],
+      "width": 0.011
+    },
+    {
+      "name": "Tea sign right suspension cord",
+      "shape": "beam",
+      "position": [
+        -0.3400000035762787,
+        -0.6100000143051147,
+        1.9744999408721924
+      ],
+      "size": [
+        0.011,
+        0.011,
+        0.07899999618530273
+      ],
+      "color_role": "wood_dark",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -0.3400000035762787,
+        -0.6100000143051147,
+        1.934999942779541
+      ],
+      "b": [
+        -0.3400000035762787,
+        -0.6100000143051147,
+        2.0139999389648438
+      ],
+      "width": 0.011
+    },
+    {
+      "name": "Lower cubby tea refill tin",
+      "shape": "cylinder",
+      "position": [
+        0.6,
+        -0.2,
+        0.458
+      ],
+      "radius": 0.108,
+      "height": 0.185,
+      "radius_top": 0.108,
+      "segments": 10,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color_role": "teal",
+      "surface": "paint"
+    },
+    {
+      "name": "Lower cubby refill tin lid",
+      "shape": "cylinder",
+      "position": [
+        0.6,
+        -0.2,
+        0.556
+      ],
+      "radius": 0.113,
+      "height": 0.023,
+      "radius_top": 0.113,
+      "segments": 10,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color_role": "cream",
+      "surface": "paint"
+    },
+    {
+      "name": "Upper cubby wrapping paper 1",
+      "shape": "box",
+      "position": [
+        0.66,
+        -0.21,
+        0.676
+      ],
+      "size": [
+        0.37,
+        0.27,
+        0.009
+      ],
+      "color_role": "cream",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0.0
+      ]
+    },
+    {
+      "name": "Upper cubby wrapping paper 2",
+      "shape": "box",
+      "position": [
+        0.66,
+        -0.21,
+        0.6890000000000001
+      ],
+      "size": [
+        0.37,
+        0.27,
+        0.009
+      ],
+      "color_role": "cream",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0.025
+      ]
+    },
+    {
+      "name": "Upper cubby wrapping paper 3",
+      "shape": "box",
+      "position": [
+        0.66,
+        -0.21,
+        0.7020000000000001
+      ],
+      "size": [
+        0.37,
+        0.27,
+        0.009
+      ],
+      "color_role": "cream",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0.05
+      ]
+    },
+    {
+      "name": "Asymmetric planter outrigger shelf",
+      "shape": "box",
+      "position": [
+        -1.12,
+        -0.01,
+        0.47
+      ],
+      "size": [
+        0.48,
+        0.53,
+        0.075
+      ],
+      "color_role": "wood_honey",
+      "surface": "paint",
+      "bevel": 0.019,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Planter outrigger angled brace",
+      "shape": "beam",
+      "position": [
+        -1.1200000047683716,
+        0.10999999940395355,
+        0.3425000011920929
+      ],
+      "size": [
+        0.055,
+        0.055,
+        0.4047529697418213
+      ],
+      "color_role": "wood_dark",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -0.9399999976158142,
+        0.10999999940395355,
+        0.25
+      ],
+      "b": [
+        -1.2999999523162842,
+        0.10999999940395355,
+        0.4350000023841858
+      ],
+      "width": 0.055
+    },
+    {
+      "name": "Cobalt hand-painted herb planter",
+      "shape": "lathe",
+      "position": [
+        -1.135,
+        -0.02,
+        0.513
+      ],
+      "profile": [
+        [
+          0.1292,
+          0
+        ],
+        [
+          0.1406,
+          0.025
+        ],
+        [
+          0.17859999999999998,
+          0.2
+        ],
+        [
+          0.19,
+          0.22
+        ],
+        [
+          0.19,
+          0.25
+        ],
+        [
+          0.1596,
+          0.25
+        ],
+        [
+          0.1501,
+          0.2075
+        ]
+      ],
+      "segments": 12,
+      "color_role": "teal",
+      "surface": "paint"
+    },
+    {
+      "name": "Herb planter soil",
+      "shape": "cylinder",
+      "position": [
+        -1.135,
+        -0.02,
+        0.734
+      ],
+      "radius": 0.158,
+      "height": 0.018,
+      "radius_top": 0.158,
+      "segments": 10,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color_role": "wood_dark",
+      "surface": "paint"
+    },
+    {
+      "name": "Herb plant rising stem 1",
+      "shape": "beam",
+      "position": [
+        -1.097499966621399,
+        -0.019999999552965164,
+        0.8184999823570251
+      ],
+      "size": [
+        0.013,
+        0.013,
+        0.1794268786907196
+      ],
+      "color_role": "leaf_dark",
+      "surface": "leaf",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -1.1349999904632568,
+        -0.019999999552965164,
+        0.7369999885559082
+      ],
+      "b": [
+        -1.059999942779541,
+        -0.019999999552965164,
+        0.8999999761581421
+      ],
+      "width": 0.013
+    },
+    {
+      "name": "Broad oil-painted herb leaf 1",
+      "shape": "mesh",
+      "vertices": [
+        [
+          -1.06,
+          -0.02,
+          0.9
+        ],
+        [
+          -0.9500000000000001,
+          0.065,
+          0.933
+        ],
+        [
+          -0.81,
+          -0.02,
+          0.975
+        ],
+        [
+          -0.9500000000000001,
+          -0.10500000000000001,
+          0.933
+        ],
+        [
+          -0.935,
+          -0.02,
+          0.9500000000000001
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          3,
+          0,
+          4
+        ]
+      ],
+      "color_role": "leaf_dark",
+      "surface": "leaf",
+      "smooth": false
+    },
+    {
+      "name": "Herb secondary leaf 1",
+      "shape": "mesh",
+      "vertices": [
+        [
+          -1.06,
+          -0.02,
+          0.805
+        ],
+        [
+          -1.1645705090728287,
+          -0.015207439906535863,
+          0.83008
+        ],
+        [
+          -1.2063439382689884,
+          0.10117529340555569,
+          0.8620000000000001
+        ],
+        [
+          -1.0842121566038814,
+          0.08184169810342487,
+          0.83008
+        ],
+        [
+          -1.1331719691344944,
+          0.04058764670277784,
+          0.8430000000000001
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          3,
+          0,
+          4
+        ]
+      ],
+      "color_role": "leaf_light",
+      "surface": "leaf",
+      "smooth": false
+    },
+    {
+      "name": "Herb plant rising stem 2",
+      "shape": "beam",
+      "position": [
+        -1.1555259227752686,
+        0.004270065575838089,
+        0.8509999513626099
+      ],
+      "size": [
+        0.013,
+        0.013,
+        0.23669683933258057
+      ],
+      "color_role": "leaf_dark",
+      "surface": "leaf",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -1.1349999904632568,
+        -0.019999999552965164,
+        0.7369999885559082
+      ],
+      "b": [
+        -1.1760518550872803,
+        0.028540130704641342,
+        0.9649999737739563
+      ],
+      "width": 0.013
+    },
+    {
+      "name": "Broad oil-painted herb leaf 2",
+      "shape": "mesh",
+      "vertices": [
+        [
+          -1.1760518249110203,
+          0.02854012986631287,
+          0.9650000000000001
+        ],
+        [
+          -1.313177662279194,
+          0.08291124651915673,
+          1.001168
+        ],
+        [
+          -1.3260278252526145,
+          0.2578503985451013,
+          1.0472000000000001
+        ],
+        [
+          -1.1709048678434495,
+          0.1759620496508028,
+          1.001168
+        ],
+        [
+          -1.2510398250818175,
+          0.14319526420570708,
+          1.0198
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          3,
+          0,
+          4
+        ]
+      ],
+      "color_role": "leaf_light",
+      "surface": "leaf",
+      "smooth": false
+    },
+    {
+      "name": "Herb secondary leaf 2",
+      "shape": "mesh",
+      "vertices": [
+        [
+          -1.1760518249110203,
+          0.02854012986631287,
+          0.8700000000000001
+        ],
+        [
+          -1.1228252429338828,
+          -0.06159804723435323,
+          0.8950800000000001
+        ],
+        [
+          -1.1973608050286808,
+          -0.16026116082404537,
+          0.927
+        ],
+        [
+          -1.2480303093916991,
+          -0.04746682884053632,
+          0.8950800000000001
+        ],
+        [
+          -1.1867063149698505,
+          -0.06586051547886626,
+          0.9080000000000001
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          3,
+          0,
+          4
+        ]
+      ],
+      "color_role": "leaf_dark",
+      "surface": "leaf",
+      "smooth": false
+    },
+    {
+      "name": "Herb plant rising stem 3",
+      "shape": "beam",
+      "position": [
+        -1.1500298976898193,
+        -0.04656881093978882,
+        0.8834999799728394
+      ],
+      "size": [
+        0.013,
+        0.013,
+        0.29929283261299133
+      ],
+      "color_role": "leaf_dark",
+      "surface": "leaf",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -1.1349999904632568,
+        -0.019999999552965164,
+        0.7369999885559082
+      ],
+      "b": [
+        -1.1650599241256714,
+        -0.07313762605190277,
+        1.0299999713897705
+      ],
+      "width": 0.013
+    },
+    {
+      "name": "Broad oil-painted herb leaf 3",
+      "shape": "mesh",
+      "vertices": [
+        [
+          -1.1650599379059983,
+          -0.07313762433146839,
+          1.03
+        ],
+        [
+          -1.131273742211092,
+          -0.20798380700070634,
+          1.063
+        ],
+        [
+          -1.265259730925992,
+          -0.3021791085188321,
+          1.105
+        ],
+        [
+          -1.2870219514584993,
+          -0.1398479477471105,
+          1.063
+        ],
+        [
+          -1.2151598344159953,
+          -0.18765836642515027,
+          1.08
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          3,
+          0,
+          4
+        ]
+      ],
+      "color_role": "leaf_dark",
+      "surface": "leaf",
+      "smooth": false
+    },
+    {
+      "name": "Herb secondary leaf 3",
+      "shape": "mesh",
+      "vertices": [
+        [
+          -1.1650599379059983,
+          -0.07313762433146839,
+          0.935
+        ],
+        [
+          -1.1187573841381702,
+          0.020745459952003067,
+          0.96008
+        ],
+        [
+          -0.9953887324150736,
+          0.012370749686848953,
+          0.992
+        ],
+        [
+          -1.0620518308418125,
+          -0.09177333947882059,
+          0.96008
+        ],
+        [
+          -1.080224335160536,
+          -0.03038343732230972,
+          0.9730000000000001
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          3,
+          0,
+          4
+        ]
+      ],
+      "color_role": "leaf_light",
+      "surface": "leaf",
+      "smooth": false
+    },
+    {
+      "name": "Herb plant rising stem 4",
+      "shape": "beam",
+      "position": [
+        -1.0980205535888672,
+        -0.015184778720140457,
+        0.8184999823570251
+      ],
+      "size": [
+        0.013,
+        0.013,
+        0.17925305664539337
+      ],
+      "color_role": "leaf_dark",
+      "surface": "leaf",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -1.1349999904632568,
+        -0.019999999552965164,
+        0.7369999885559082
+      ],
+      "b": [
+        -1.0610411167144775,
+        -0.01036955788731575,
+        0.8999999761581421
+      ],
+      "width": 0.013
+    },
+    {
+      "name": "Broad oil-painted herb leaf 4",
+      "shape": "mesh",
+      "vertices": [
+        [
+          -1.0610411002155615,
+          -0.010369557859832531,
+          0.9
+        ],
+        [
+          -0.9562682131072575,
+          0.09346856484561018,
+          0.936168
+        ],
+        [
+          -0.7908445863364131,
+          0.03512597914716551,
+          0.9822000000000001
+        ],
+        [
+          -0.928041055110215,
+          -0.07417160799911697,
+          0.936168
+        ],
+        [
+          -0.9259428432759873,
+          0.01237821064366649,
+          0.9548
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          3,
+          0,
+          4
+        ]
+      ],
+      "color_role": "leaf_light",
+      "surface": "leaf",
+      "smooth": false
+    },
+    {
+      "name": "Herb plant rising stem 5",
+      "shape": "beam",
+      "position": [
+        -1.1604520082473755,
+        0.0012975158169865608,
+        0.8509999513626099
+      ],
+      "size": [
+        0.013,
+        0.013,
+        0.23746484518051147
+      ],
+      "color_role": "leaf_dark",
+      "surface": "leaf",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -1.1349999904632568,
+        -0.019999999552965164,
+        0.7369999885559082
+      ],
+      "b": [
+        -1.1859040260314941,
+        0.022595031186938286,
+        0.9649999737739563
+      ],
+      "width": 0.013
+    },
+    {
+      "name": "Broad oil-painted herb leaf 5",
+      "shape": "mesh",
+      "vertices": [
+        [
+          -1.185904003549001,
+          0.022595031676698577,
+          0.9650000000000001
+        ],
+        [
+          -1.322986962073502,
+          0.04568750842064998,
+          0.9980000000000001
+        ],
+        [
+          -1.355584015379004,
+          0.2061943061452269,
+          1.04
+        ],
+        [
+          -1.1981394554349025,
+          0.16106991646505212,
+          0.9980000000000001
+        ],
+        [
+          -1.2707440094640026,
+          0.11439466891096274,
+          1.0150000000000001
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          3,
+          0,
+          4
+        ]
+      ],
+      "color_role": "leaf_dark",
+      "surface": "leaf",
+      "smooth": false
+    },
+    {
+      "name": "Front apron brass pin 1",
+      "shape": "cylinder",
+      "position": [
+        -0.87,
+        -0.546,
+        0.83
+      ],
+      "radius": 0.017,
+      "height": 0.012,
+      "radius_top": 0.017,
+      "segments": 8,
+      "rotation": [
+        1.5707963267948966,
+        0,
+        0
+      ],
+      "color_role": "brass",
+      "surface": "metal"
+    },
+    {
+      "name": "Front apron brass pin 2",
+      "shape": "cylinder",
+      "position": [
+        0.27,
+        -0.546,
+        0.83
+      ],
+      "radius": 0.017,
+      "height": 0.012,
+      "radius_top": 0.017,
+      "segments": 8,
+      "rotation": [
+        1.5707963267948966,
+        0,
+        0
+      ],
+      "color_role": "brass",
+      "surface": "metal"
+    }
+  ],
+  "compiled_parts": [
+    {
+      "name": "Tea kiosk underframe",
+      "surface": "paint",
+      "color_role": "wood_dark",
+      "atlas_cell_top_left_index": 4,
+      "triangle_start": 0,
+      "triangle_count": 44
+    },
+    {
+      "name": "Tea kiosk foot 1-1",
+      "surface": "paint",
+      "color_role": "wood_dark",
+      "atlas_cell_top_left_index": 4,
+      "triangle_start": 44,
+      "triangle_count": 44
+    },
+    {
+      "name": "Tea kiosk foot 1-2",
+      "surface": "paint",
+      "color_role": "wood_dark",
+      "atlas_cell_top_left_index": 4,
+      "triangle_start": 88,
+      "triangle_count": 44
+    },
+    {
+      "name": "Tea kiosk foot 2-1",
+      "surface": "paint",
+      "color_role": "wood_dark",
+      "atlas_cell_top_left_index": 4,
+      "triangle_start": 132,
+      "triangle_count": 44
+    },
+    {
+      "name": "Tea kiosk foot 2-2",
+      "surface": "paint",
+      "color_role": "wood_dark",
+      "atlas_cell_top_left_index": 4,
+      "triangle_start": 176,
+      "triangle_count": 44
+    },
+    {
+      "name": "Open storage bottom shelf",
+      "surface": "paint",
+      "color_role": "wood_honey",
+      "atlas_cell_top_left_index": 18,
+      "triangle_start": 220,
+      "triangle_count": 44
+    },
+    {
+      "name": "Tea kiosk back storage wall",
+      "surface": "paint",
+      "color_role": "wood_medium",
+      "atlas_cell_top_left_index": 5,
+      "triangle_start": 264,
+      "triangle_count": 44
+    },
+    {
+      "name": "Tea kiosk left lower side wall",
+      "surface": "paint",
+      "color_role": "wood_medium",
+      "atlas_cell_top_left_index": 5,
+      "triangle_start": 308,
+      "triangle_count": 44
+    },
+    {
+      "name": "Tea kiosk right lower side wall",
+      "surface": "paint",
+      "color_role": "wood_medium",
+      "atlas_cell_top_left_index": 5,
+      "triangle_start": 352,
+      "triangle_count": 44
+    },
+    {
+      "name": "Indigo hand-painted front panel",
+      "surface": "paint",
+      "color_role": "teal",
+      "atlas_cell_top_left_index": 0,
+      "triangle_start": 396,
+      "triangle_count": 44
+    },
+    {
+      "name": "Honey apron frame left",
+      "surface": "paint",
+      "color_role": "wood_honey",
+      "atlas_cell_top_left_index": 18,
+      "triangle_start": 440,
+      "triangle_count": 44
+    },
+    {
+      "name": "Honey apron frame right",
+      "surface": "paint",
+      "color_role": "wood_honey",
+      "atlas_cell_top_left_index": 18,
+      "triangle_start": 484,
+      "triangle_count": 44
+    },
+    {
+      "name": "Apron bottom frame",
+      "surface": "paint",
+      "color_role": "wood_honey",
+      "atlas_cell_top_left_index": 18,
+      "triangle_start": 528,
+      "triangle_count": 44
+    },
+    {
+      "name": "Open cubby divider",
+      "surface": "paint",
+      "color_role": "wood_dark",
+      "atlas_cell_top_left_index": 4,
+      "triangle_start": 572,
+      "triangle_count": 44
+    },
+    {
+      "name": "Open cubby middle shelf",
+      "surface": "paint",
+      "color_role": "wood_honey",
+      "atlas_cell_top_left_index": 18,
+      "triangle_start": 616,
+      "triangle_count": 44
+    },
+    {
+      "name": "Generous serving counter golden edge",
+      "surface": "paint",
+      "color_role": "wood_honey",
+      "atlas_cell_top_left_index": 18,
+      "triangle_start": 660,
+      "triangle_count": 44
+    },
+    {
+      "name": "Warm oil-painted serving surface",
+      "surface": "paint",
+      "color_role": "wood_medium",
+      "atlas_cell_top_left_index": 5,
+      "triangle_start": 704,
+      "triangle_count": 44
+    },
+    {
+      "name": "Canopy left rear post",
+      "surface": "paint",
+      "color_role": "wood_dark",
+      "atlas_cell_top_left_index": 4,
+      "triangle_start": 748,
+      "triangle_count": 44
+    },
+    {
+      "name": "Canopy left front post",
+      "surface": "paint",
+      "color_role": "wood_dark",
+      "atlas_cell_top_left_index": 4,
+      "triangle_start": 792,
+      "triangle_count": 44
+    },
+    {
+      "name": "Canopy left cross support",
+      "surface": "paint",
+      "color_role": "wood_medium",
+      "atlas_cell_top_left_index": 5,
+      "triangle_start": 836,
+      "triangle_count": 12
+    },
+    {
+      "name": "Canopy right rear post",
+      "surface": "paint",
+      "color_role": "wood_dark",
+      "atlas_cell_top_left_index": 4,
+      "triangle_start": 848,
+      "triangle_count": 44
+    },
+    {
+      "name": "Canopy right front post",
+      "surface": "paint",
+      "color_role": "wood_dark",
+      "atlas_cell_top_left_index": 4,
+      "triangle_start": 892,
+      "triangle_count": 44
+    },
+    {
+      "name": "Canopy right cross support",
+      "surface": "paint",
+      "color_role": "wood_medium",
+      "atlas_cell_top_left_index": 5,
+      "triangle_start": 936,
+      "triangle_count": 12
+    },
+    {
+      "name": "Canopy rear spreader",
+      "surface": "paint",
+      "color_role": "wood_dark",
+      "atlas_cell_top_left_index": 4,
+      "triangle_start": 948,
+      "triangle_count": 12
+    },
+    {
+      "name": "Canopy ridge support",
+      "surface": "paint",
+      "color_role": "wood_dark",
+      "atlas_cell_top_left_index": 4,
+      "triangle_start": 960,
+      "triangle_count": 12
+    },
+    {
+      "name": "Broad stripe canopy cloth 1",
+      "surface": "paint",
+      "color_role": "cloth_coral",
+      "atlas_cell_top_left_index": 21,
+      "triangle_start": 972,
+      "triangle_count": 4
+    },
+    {
+      "name": "Soft scalloped cloth valance 1",
+      "surface": "paint",
+      "color_role": "cloth_coral",
+      "atlas_cell_top_left_index": 21,
+      "triangle_start": 976,
+      "triangle_count": 3
+    },
+    {
+      "name": "Broad stripe canopy cloth 2",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 2,
+      "triangle_start": 979,
+      "triangle_count": 4
+    },
+    {
+      "name": "Soft scalloped cloth valance 2",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 2,
+      "triangle_start": 983,
+      "triangle_count": 3
+    },
+    {
+      "name": "Broad stripe canopy cloth 3",
+      "surface": "paint",
+      "color_role": "cloth_coral",
+      "atlas_cell_top_left_index": 21,
+      "triangle_start": 986,
+      "triangle_count": 4
+    },
+    {
+      "name": "Soft scalloped cloth valance 3",
+      "surface": "paint",
+      "color_role": "cloth_coral",
+      "atlas_cell_top_left_index": 21,
+      "triangle_start": 990,
+      "triangle_count": 3
+    },
+    {
+      "name": "Broad stripe canopy cloth 4",
+      "surface": "paint",
+      "color_role": "cloth_coral",
+      "atlas_cell_top_left_index": 21,
+      "triangle_start": 993,
+      "triangle_count": 4
+    },
+    {
+      "name": "Soft scalloped cloth valance 4",
+      "surface": "paint",
+      "color_role": "cloth_coral",
+      "atlas_cell_top_left_index": 21,
+      "triangle_start": 997,
+      "triangle_count": 3
+    },
+    {
+      "name": "Broad stripe canopy cloth 5",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 2,
+      "triangle_start": 1000,
+      "triangle_count": 4
+    },
+    {
+      "name": "Soft scalloped cloth valance 5",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 2,
+      "triangle_start": 1004,
+      "triangle_count": 3
+    },
+    {
+      "name": "Broad stripe canopy cloth 6",
+      "surface": "paint",
+      "color_role": "cloth_coral",
+      "atlas_cell_top_left_index": 21,
+      "triangle_start": 1007,
+      "triangle_count": 4
+    },
+    {
+      "name": "Soft scalloped cloth valance 6",
+      "surface": "paint",
+      "color_role": "cloth_coral",
+      "atlas_cell_top_left_index": 21,
+      "triangle_start": 1011,
+      "triangle_count": 3
+    },
+    {
+      "name": "Broad stripe canopy cloth 7",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 2,
+      "triangle_start": 1014,
+      "triangle_count": 4
+    },
+    {
+      "name": "Soft scalloped cloth valance 7",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 2,
+      "triangle_start": 1018,
+      "triangle_count": 3
+    },
+    {
+      "name": "Canopy broad front hem rod",
+      "surface": "metal",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 24,
+      "triangle_start": 1021,
+      "triangle_count": 12
+    },
+    {
+      "name": "Back tea display shelf",
+      "surface": "paint",
+      "color_role": "wood_honey",
+      "atlas_cell_top_left_index": 18,
+      "triangle_start": 1033,
+      "triangle_count": 44
+    },
+    {
+      "name": "Shelf left triangular bracket",
+      "surface": "paint",
+      "color_role": "wood_dark",
+      "atlas_cell_top_left_index": 4,
+      "triangle_start": 1077,
+      "triangle_count": 12
+    },
+    {
+      "name": "Shelf right triangular bracket",
+      "surface": "paint",
+      "color_role": "wood_dark",
+      "atlas_cell_top_left_index": 4,
+      "triangle_start": 1089,
+      "triangle_count": 12
+    },
+    {
+      "name": "Shelf back lip",
+      "surface": "paint",
+      "color_role": "wood_medium",
+      "atlas_cell_top_left_index": 5,
+      "triangle_start": 1101,
+      "triangle_count": 44
+    },
+    {
+      "name": "Shelf cream cup hollow ceramic bowl",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 2,
+      "triangle_start": 1145,
+      "triangle_count": 136
+    },
+    {
+      "name": "Shelf cream cup glazed loop handle",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 2,
+      "triangle_start": 1281,
+      "triangle_count": 80
+    },
+    {
+      "name": "Shelf pink cup hollow ceramic bowl",
+      "surface": "paint",
+      "color_role": "cloth_coral",
+      "atlas_cell_top_left_index": 21,
+      "triangle_start": 1361,
+      "triangle_count": 136
+    },
+    {
+      "name": "Shelf pink cup glazed loop handle",
+      "surface": "paint",
+      "color_role": "cloth_coral",
+      "atlas_cell_top_left_index": 21,
+      "triangle_start": 1497,
+      "triangle_count": 80
+    },
+    {
+      "name": "Hand-painted tea tin 1",
+      "surface": "paint",
+      "color_role": "sage",
+      "atlas_cell_top_left_index": 1,
+      "triangle_start": 1577,
+      "triangle_count": 40
+    },
+    {
+      "name": "Tea tin 1 brass lid",
+      "surface": "metal",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 24,
+      "triangle_start": 1617,
+      "triangle_count": 40
+    },
+    {
+      "name": "Tea tin 1 cream label",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 2,
+      "triangle_start": 1657,
+      "triangle_count": 12
+    },
+    {
+      "name": "Hand-painted tea tin 2",
+      "surface": "paint",
+      "color_role": "teal",
+      "atlas_cell_top_left_index": 0,
+      "triangle_start": 1669,
+      "triangle_count": 40
+    },
+    {
+      "name": "Tea tin 2 brass lid",
+      "surface": "metal",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 24,
+      "triangle_start": 1709,
+      "triangle_count": 40
+    },
+    {
+      "name": "Tea tin 2 cream label",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 2,
+      "triangle_start": 1749,
+      "triangle_count": 12
+    },
+    {
+      "name": "Hand-painted tea tin 3",
+      "surface": "paint",
+      "color_role": "cloth_coral",
+      "atlas_cell_top_left_index": 21,
+      "triangle_start": 1761,
+      "triangle_count": 40
+    },
+    {
+      "name": "Tea tin 3 brass lid",
+      "surface": "metal",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 24,
+      "triangle_start": 1801,
+      "triangle_count": 40
+    },
+    {
+      "name": "Tea tin 3 cream label",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 2,
+      "triangle_start": 1841,
+      "triangle_count": 12
+    },
+    {
+      "name": "Round turquoise teapot body",
+      "surface": "paint",
+      "color_role": "teal",
+      "atlas_cell_top_left_index": 0,
+      "triangle_start": 1853,
+      "triangle_count": 120
+    },
+    {
+      "name": "Teapot cream domed lid",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 2,
+      "triangle_start": 1973,
+      "triangle_count": 96
+    },
+    {
+      "name": "Teapot warm lid knob",
+      "surface": "metal",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 24,
+      "triangle_start": 2069,
+      "triangle_count": 48
+    },
+    {
+      "name": "Teapot generous ceramic handle",
+      "surface": "paint",
+      "color_role": "teal",
+      "atlas_cell_top_left_index": 0,
+      "triangle_start": 2117,
+      "triangle_count": 140
+    },
+    {
+      "name": "Teapot rising tapered spout",
+      "surface": "paint",
+      "color_role": "teal",
+      "atlas_cell_top_left_index": 0,
+      "triangle_start": 2257,
+      "triangle_count": 16
+    },
+    {
+      "name": "Teapot visible spout mouth",
+      "surface": "paint",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 31,
+      "triangle_start": 2273,
+      "triangle_count": 6
+    },
+    {
+      "name": "Counter coral cup hollow ceramic bowl",
+      "surface": "paint",
+      "color_role": "cloth_coral",
+      "atlas_cell_top_left_index": 21,
+      "triangle_start": 2279,
+      "triangle_count": 136
+    },
+    {
+      "name": "Counter coral cup glazed loop handle",
+      "surface": "paint",
+      "color_role": "cloth_coral",
+      "atlas_cell_top_left_index": 21,
+      "triangle_start": 2415,
+      "triangle_count": 80
+    },
+    {
+      "name": "Counter cream cup hollow ceramic bowl",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 2,
+      "triangle_start": 2495,
+      "triangle_count": 136
+    },
+    {
+      "name": "Counter cream cup glazed loop handle",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 2,
+      "triangle_start": 2631,
+      "triangle_count": 80
+    },
+    {
+      "name": "Tea biscuit plate",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 2,
+      "triangle_start": 2711,
+      "triangle_count": 96
+    },
+    {
+      "name": "Golden tea biscuit 1",
+      "surface": "paint",
+      "color_role": "bread_crust",
+      "atlas_cell_top_left_index": 6,
+      "triangle_start": 2807,
+      "triangle_count": 48
+    },
+    {
+      "name": "Golden tea biscuit 2",
+      "surface": "paint",
+      "color_role": "bread_crust",
+      "atlas_cell_top_left_index": 6,
+      "triangle_start": 2855,
+      "triangle_count": 48
+    },
+    {
+      "name": "Folded soft blue service towel",
+      "surface": "paint",
+      "color_role": "teal",
+      "atlas_cell_top_left_index": 0,
+      "triangle_start": 2903,
+      "triangle_count": 44
+    },
+    {
+      "name": "Towel hanging over counter corner",
+      "surface": "paint",
+      "color_role": "teal",
+      "atlas_cell_top_left_index": 0,
+      "triangle_start": 2947,
+      "triangle_count": 3
+    },
+    {
+      "name": "Tea sign honey carved surround",
+      "surface": "paint",
+      "color_role": "wood_honey",
+      "atlas_cell_top_left_index": 18,
+      "triangle_start": 2950,
+      "triangle_count": 44
+    },
+    {
+      "name": "Tea sign broad cream face",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 2,
+      "triangle_start": 2994,
+      "triangle_count": 44
+    },
+    {
+      "name": "Tea sign raised cup silhouette",
+      "surface": "paint",
+      "color_role": "teal",
+      "atlas_cell_top_left_index": 0,
+      "triangle_start": 3038,
+      "triangle_count": 2
+    },
+    {
+      "name": "Tea sign raised cup handle",
+      "surface": "paint",
+      "color_role": "teal",
+      "atlas_cell_top_left_index": 0,
+      "triangle_start": 3040,
+      "triangle_count": 80
+    },
+    {
+      "name": "Tea sign saucer relief",
+      "surface": "paint",
+      "color_role": "cloth_coral",
+      "atlas_cell_top_left_index": 21,
+      "triangle_start": 3120,
+      "triangle_count": 12
+    },
+    {
+      "name": "Tea sign steam lower 1",
+      "surface": "paint",
+      "color_role": "wood_medium",
+      "atlas_cell_top_left_index": 5,
+      "triangle_start": 3132,
+      "triangle_count": 12
+    },
+    {
+      "name": "Tea sign steam upper 1",
+      "surface": "paint",
+      "color_role": "wood_medium",
+      "atlas_cell_top_left_index": 5,
+      "triangle_start": 3144,
+      "triangle_count": 12
+    },
+    {
+      "name": "Tea sign steam lower 2",
+      "surface": "paint",
+      "color_role": "wood_medium",
+      "atlas_cell_top_left_index": 5,
+      "triangle_start": 3156,
+      "triangle_count": 12
+    },
+    {
+      "name": "Tea sign steam upper 2",
+      "surface": "paint",
+      "color_role": "wood_medium",
+      "atlas_cell_top_left_index": 5,
+      "triangle_start": 3168,
+      "triangle_count": 12
+    },
+    {
+      "name": "Tea sign left suspension cord",
+      "surface": "paint",
+      "color_role": "wood_dark",
+      "atlas_cell_top_left_index": 4,
+      "triangle_start": 3180,
+      "triangle_count": 12
+    },
+    {
+      "name": "Tea sign right suspension cord",
+      "surface": "paint",
+      "color_role": "wood_dark",
+      "atlas_cell_top_left_index": 4,
+      "triangle_start": 3192,
+      "triangle_count": 12
+    },
+    {
+      "name": "Lower cubby tea refill tin",
+      "surface": "paint",
+      "color_role": "teal",
+      "atlas_cell_top_left_index": 0,
+      "triangle_start": 3204,
+      "triangle_count": 40
+    },
+    {
+      "name": "Lower cubby refill tin lid",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 2,
+      "triangle_start": 3244,
+      "triangle_count": 40
+    },
+    {
+      "name": "Upper cubby wrapping paper 1",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 2,
+      "triangle_start": 3284,
+      "triangle_count": 12
+    },
+    {
+      "name": "Upper cubby wrapping paper 2",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 2,
+      "triangle_start": 3296,
+      "triangle_count": 12
+    },
+    {
+      "name": "Upper cubby wrapping paper 3",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 2,
+      "triangle_start": 3308,
+      "triangle_count": 12
+    },
+    {
+      "name": "Asymmetric planter outrigger shelf",
+      "surface": "paint",
+      "color_role": "wood_honey",
+      "atlas_cell_top_left_index": 18,
+      "triangle_start": 3320,
+      "triangle_count": 44
+    },
+    {
+      "name": "Planter outrigger angled brace",
+      "surface": "paint",
+      "color_role": "wood_dark",
+      "atlas_cell_top_left_index": 4,
+      "triangle_start": 3364,
+      "triangle_count": 12
+    },
+    {
+      "name": "Cobalt hand-painted herb planter",
+      "surface": "paint",
+      "color_role": "teal",
+      "atlas_cell_top_left_index": 0,
+      "triangle_start": 3376,
+      "triangle_count": 164
+    },
+    {
+      "name": "Herb planter soil",
+      "surface": "paint",
+      "color_role": "wood_dark",
+      "atlas_cell_top_left_index": 4,
+      "triangle_start": 3540,
+      "triangle_count": 40
+    },
+    {
+      "name": "Herb plant rising stem 1",
+      "surface": "leaf",
+      "color_role": "leaf_dark",
+      "atlas_cell_top_left_index": 10,
+      "triangle_start": 3580,
+      "triangle_count": 12
+    },
+    {
+      "name": "Broad oil-painted herb leaf 1",
+      "surface": "leaf",
+      "color_role": "leaf_dark",
+      "atlas_cell_top_left_index": 10,
+      "triangle_start": 3592,
+      "triangle_count": 4
+    },
+    {
+      "name": "Herb secondary leaf 1",
+      "surface": "leaf",
+      "color_role": "leaf_light",
+      "atlas_cell_top_left_index": 11,
+      "triangle_start": 3596,
+      "triangle_count": 4
+    },
+    {
+      "name": "Herb plant rising stem 2",
+      "surface": "leaf",
+      "color_role": "leaf_dark",
+      "atlas_cell_top_left_index": 10,
+      "triangle_start": 3600,
+      "triangle_count": 12
+    },
+    {
+      "name": "Broad oil-painted herb leaf 2",
+      "surface": "leaf",
+      "color_role": "leaf_light",
+      "atlas_cell_top_left_index": 11,
+      "triangle_start": 3612,
+      "triangle_count": 4
+    },
+    {
+      "name": "Herb secondary leaf 2",
+      "surface": "leaf",
+      "color_role": "leaf_dark",
+      "atlas_cell_top_left_index": 10,
+      "triangle_start": 3616,
+      "triangle_count": 4
+    },
+    {
+      "name": "Herb plant rising stem 3",
+      "surface": "leaf",
+      "color_role": "leaf_dark",
+      "atlas_cell_top_left_index": 10,
+      "triangle_start": 3620,
+      "triangle_count": 12
+    },
+    {
+      "name": "Broad oil-painted herb leaf 3",
+      "surface": "leaf",
+      "color_role": "leaf_dark",
+      "atlas_cell_top_left_index": 10,
+      "triangle_start": 3632,
+      "triangle_count": 4
+    },
+    {
+      "name": "Herb secondary leaf 3",
+      "surface": "leaf",
+      "color_role": "leaf_light",
+      "atlas_cell_top_left_index": 11,
+      "triangle_start": 3636,
+      "triangle_count": 4
+    },
+    {
+      "name": "Herb plant rising stem 4",
+      "surface": "leaf",
+      "color_role": "leaf_dark",
+      "atlas_cell_top_left_index": 10,
+      "triangle_start": 3640,
+      "triangle_count": 12
+    },
+    {
+      "name": "Broad oil-painted herb leaf 4",
+      "surface": "leaf",
+      "color_role": "leaf_light",
+      "atlas_cell_top_left_index": 11,
+      "triangle_start": 3652,
+      "triangle_count": 4
+    },
+    {
+      "name": "Herb plant rising stem 5",
+      "surface": "leaf",
+      "color_role": "leaf_dark",
+      "atlas_cell_top_left_index": 10,
+      "triangle_start": 3656,
+      "triangle_count": 12
+    },
+    {
+      "name": "Broad oil-painted herb leaf 5",
+      "surface": "leaf",
+      "color_role": "leaf_dark",
+      "atlas_cell_top_left_index": 10,
+      "triangle_start": 3668,
+      "triangle_count": 4
+    },
+    {
+      "name": "Front apron brass pin 1",
+      "surface": "metal",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 24,
+      "triangle_start": 3672,
+      "triangle_count": 32
+    },
+    {
+      "name": "Front apron brass pin 2",
+      "surface": "metal",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 24,
+      "triangle_start": 3704,
+      "triangle_count": 32
+    }
+  ]
+}

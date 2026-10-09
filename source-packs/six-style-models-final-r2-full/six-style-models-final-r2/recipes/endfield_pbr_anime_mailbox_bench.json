@@ -1,0 +1,3653 @@
+{
+  "name": "mailbox_bench",
+  "style_direction": "endfield_pbr_anime",
+  "atlas": "atlases/endfield_pbr_atlas_runtime1024.png",
+  "uv_origin": "top-left image / glTF convention",
+  "parts": [
+    {
+      "name": "Bench leg 1-1",
+      "shape": "beam",
+      "position": [
+        -0.25999999046325684,
+        -0.1550000011920929,
+        0.26249998807907104
+      ],
+      "size": [
+        0.085,
+        0.085,
+        0.4749999940395355
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -0.25999999046325684,
+        -0.1550000011920929,
+        0.02500000037252903
+      ],
+      "b": [
+        -0.25999999046325684,
+        -0.1550000011920929,
+        0.5
+      ],
+      "width": 0.085
+    },
+    {
+      "name": "Bench leg 1-2",
+      "shape": "beam",
+      "position": [
+        -0.25999999046325684,
+        0.20499999821186066,
+        0.26249998807907104
+      ],
+      "size": [
+        0.085,
+        0.085,
+        0.4749999940395355
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -0.25999999046325684,
+        0.20499999821186066,
+        0.02500000037252903
+      ],
+      "b": [
+        -0.25999999046325684,
+        0.20499999821186066,
+        0.5
+      ],
+      "width": 0.085
+    },
+    {
+      "name": "Bench seat end bearer 1",
+      "shape": "beam",
+      "position": [
+        -0.25999999046325684,
+        0.030000008642673492,
+        0.4749999940395355
+      ],
+      "size": [
+        0.07,
+        0.07,
+        0.5400000214576721
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -0.25999999046325684,
+        -0.23999999463558197,
+        0.4749999940395355
+      ],
+      "b": [
+        -0.25999999046325684,
+        0.30000001192092896,
+        0.4749999940395355
+      ],
+      "width": 0.07
+    },
+    {
+      "name": "Bench leg 2-1",
+      "shape": "beam",
+      "position": [
+        1.0800000429153442,
+        -0.1550000011920929,
+        0.26249998807907104
+      ],
+      "size": [
+        0.085,
+        0.085,
+        0.4749999940395355
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        1.0800000429153442,
+        -0.1550000011920929,
+        0.02500000037252903
+      ],
+      "b": [
+        1.0800000429153442,
+        -0.1550000011920929,
+        0.5
+      ],
+      "width": 0.085
+    },
+    {
+      "name": "Bench leg 2-2",
+      "shape": "beam",
+      "position": [
+        1.0800000429153442,
+        0.20499999821186066,
+        0.26249998807907104
+      ],
+      "size": [
+        0.085,
+        0.085,
+        0.4749999940395355
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        1.0800000429153442,
+        0.20499999821186066,
+        0.02500000037252903
+      ],
+      "b": [
+        1.0800000429153442,
+        0.20499999821186066,
+        0.5
+      ],
+      "width": 0.085
+    },
+    {
+      "name": "Bench seat end bearer 2",
+      "shape": "beam",
+      "position": [
+        1.0800000429153442,
+        0.030000008642673492,
+        0.4749999940395355
+      ],
+      "size": [
+        0.07,
+        0.07,
+        0.5400000214576721
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        1.0800000429153442,
+        -0.23999999463558197,
+        0.4749999940395355
+      ],
+      "b": [
+        1.0800000429153442,
+        0.30000001192092896,
+        0.4749999940395355
+      ],
+      "width": 0.07
+    },
+    {
+      "name": "Bench long low stretcher",
+      "shape": "beam",
+      "position": [
+        0.4100000262260437,
+        0.14000000059604645,
+        0.23000000417232513
+      ],
+      "size": [
+        0.066,
+        0.066,
+        1.399999976158142
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -0.28999999165534973,
+        0.14000000059604645,
+        0.23000000417232513
+      ],
+      "b": [
+        1.1100000143051147,
+        0.14000000059604645,
+        0.23000000417232513
+      ],
+      "width": 0.066
+    },
+    {
+      "name": "Usable bench seat slat 1",
+      "shape": "box",
+      "position": [
+        0.41,
+        -0.195,
+        0.545
+      ],
+      "size": [
+        1.62,
+        0.101,
+        0.066
+      ],
+      "color_role": "cream",
+      "surface": "metal",
+      "bevel": 0.011,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Usable bench seat slat 2",
+      "shape": "box",
+      "position": [
+        0.41,
+        -0.073,
+        0.545
+      ],
+      "size": [
+        1.62,
+        0.101,
+        0.066
+      ],
+      "color_role": "cream",
+      "surface": "metal",
+      "bevel": 0.011,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Usable bench seat slat 3",
+      "shape": "box",
+      "position": [
+        0.41,
+        0.049,
+        0.545
+      ],
+      "size": [
+        1.62,
+        0.101,
+        0.066
+      ],
+      "color_role": "cream",
+      "surface": "metal",
+      "bevel": 0.011,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Usable bench seat slat 4",
+      "shape": "box",
+      "position": [
+        0.41,
+        0.171,
+        0.545
+      ],
+      "size": [
+        1.62,
+        0.101,
+        0.066
+      ],
+      "color_role": "cream",
+      "surface": "metal",
+      "bevel": 0.011,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Usable bench seat slat 5",
+      "shape": "box",
+      "position": [
+        0.41,
+        0.293,
+        0.545
+      ],
+      "size": [
+        1.62,
+        0.101,
+        0.066
+      ],
+      "color_role": "cream",
+      "surface": "metal",
+      "bevel": 0.011,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Bench leaning back upright 1",
+      "shape": "beam",
+      "position": [
+        -0.30000001192092896,
+        0.3474999964237213,
+        0.7875000238418579
+      ],
+      "size": [
+        0.069,
+        0.069,
+        0.7276331782341003
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -0.30000001192092896,
+        0.2800000011920929,
+        0.4300000071525574
+      ],
+      "b": [
+        -0.30000001192092896,
+        0.41499999165534973,
+        1.1449999809265137
+      ],
+      "width": 0.069
+    },
+    {
+      "name": "Bench end diagonal brace 1",
+      "shape": "beam",
+      "position": [
+        -0.30000001192092896,
+        0.07000000774860382,
+        0.4424999952316284
+      ],
+      "size": [
+        0.038,
+        0.038,
+        0.828507661819458
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -0.30000001192092896,
+        -0.1899999976158142,
+        0.11999999731779099
+      ],
+      "b": [
+        -0.30000001192092896,
+        0.33000001311302185,
+        0.7649999856948853
+      ],
+      "width": 0.038
+    },
+    {
+      "name": "Bench leaning back upright 2",
+      "shape": "beam",
+      "position": [
+        1.1200000047683716,
+        0.3474999964237213,
+        0.7875000238418579
+      ],
+      "size": [
+        0.069,
+        0.069,
+        0.7276331782341003
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        1.1200000047683716,
+        0.2800000011920929,
+        0.4300000071525574
+      ],
+      "b": [
+        1.1200000047683716,
+        0.41499999165534973,
+        1.1449999809265137
+      ],
+      "width": 0.069
+    },
+    {
+      "name": "Bench end diagonal brace 2",
+      "shape": "beam",
+      "position": [
+        1.1200000047683716,
+        0.07000000774860382,
+        0.4424999952316284
+      ],
+      "size": [
+        0.038,
+        0.038,
+        0.828507661819458
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        1.1200000047683716,
+        -0.1899999976158142,
+        0.11999999731779099
+      ],
+      "b": [
+        1.1200000047683716,
+        0.33000001311302185,
+        0.7649999856948853
+      ],
+      "width": 0.038
+    },
+    {
+      "name": "Broad painted bench back slat 1",
+      "shape": "box",
+      "position": [
+        0.41,
+        0.3475,
+        0.8
+      ],
+      "size": [
+        1.62,
+        0.057,
+        0.118
+      ],
+      "color_role": "sage",
+      "surface": "metal",
+      "bevel": 0.016,
+      "rotation": [
+        -0.135,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Broad painted bench back slat 2",
+      "shape": "box",
+      "position": [
+        0.41,
+        0.37368,
+        0.954
+      ],
+      "size": [
+        1.62,
+        0.057,
+        0.118
+      ],
+      "color_role": "sage",
+      "surface": "metal",
+      "bevel": 0.016,
+      "rotation": [
+        -0.135,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Broad painted bench back slat 3",
+      "shape": "box",
+      "position": [
+        0.41,
+        0.39986,
+        1.108
+      ],
+      "size": [
+        1.62,
+        0.057,
+        0.118
+      ],
+      "color_role": "sage",
+      "surface": "metal",
+      "bevel": 0.016,
+      "rotation": [
+        -0.135,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Bench arm front support 1",
+      "shape": "beam",
+      "position": [
+        -0.38999998569488525,
+        -0.1899999976158142,
+        0.6430000066757202
+      ],
+      "size": [
+        0.062,
+        0.062,
+        0.28600001335144043
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -0.38999998569488525,
+        -0.1899999976158142,
+        0.5
+      ],
+      "b": [
+        -0.38999998569488525,
+        -0.1899999976158142,
+        0.7860000133514404
+      ],
+      "width": 0.062
+    },
+    {
+      "name": "Bench rounded armrest 1",
+      "shape": "box",
+      "position": [
+        -0.39,
+        0.02,
+        0.816
+      ],
+      "size": [
+        0.105,
+        0.56,
+        0.079
+      ],
+      "color_role": "wood_honey",
+      "surface": "paint",
+      "bevel": 0.026,
+      "rotation": [
+        -0.025,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Bench arm front support 2",
+      "shape": "beam",
+      "position": [
+        1.2100000381469727,
+        -0.1899999976158142,
+        0.6430000066757202
+      ],
+      "size": [
+        0.062,
+        0.062,
+        0.28600001335144043
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        1.2100000381469727,
+        -0.1899999976158142,
+        0.5
+      ],
+      "b": [
+        1.2100000381469727,
+        -0.1899999976158142,
+        0.7860000133514404
+      ],
+      "width": 0.062
+    },
+    {
+      "name": "Bench rounded armrest 2",
+      "shape": "box",
+      "position": [
+        1.21,
+        0.02,
+        0.816
+      ],
+      "size": [
+        0.105,
+        0.56,
+        0.079
+      ],
+      "color_role": "wood_honey",
+      "surface": "paint",
+      "bevel": 0.026,
+      "rotation": [
+        -0.025,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Under-bench postal crate bottom",
+      "shape": "box",
+      "position": [
+        0.82,
+        0.025,
+        0.09
+      ],
+      "size": [
+        0.58,
+        0.41,
+        0.057
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0.01,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Postal crate end board 1",
+      "shape": "box",
+      "position": [
+        0.542,
+        0.025,
+        0.217
+      ],
+      "size": [
+        0.036,
+        0.4,
+        0.23
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0.007,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Postal crate end board 2",
+      "shape": "box",
+      "position": [
+        1.098,
+        0.025,
+        0.217
+      ],
+      "size": [
+        0.036,
+        0.4,
+        0.23
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0.007,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Postal crate horizontal slat 1-1",
+      "shape": "box",
+      "position": [
+        0.82,
+        -0.171,
+        0.153
+      ],
+      "size": [
+        0.58,
+        0.031,
+        0.075
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0.008,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Postal crate horizontal slat 1-2",
+      "shape": "box",
+      "position": [
+        0.82,
+        0.219,
+        0.153
+      ],
+      "size": [
+        0.58,
+        0.031,
+        0.075
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0.008,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Postal crate horizontal slat 2-1",
+      "shape": "box",
+      "position": [
+        0.82,
+        -0.171,
+        0.251
+      ],
+      "size": [
+        0.58,
+        0.031,
+        0.075
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0.008,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Postal crate horizontal slat 2-2",
+      "shape": "box",
+      "position": [
+        0.82,
+        0.219,
+        0.251
+      ],
+      "size": [
+        0.58,
+        0.031,
+        0.075
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0.008,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Postal crate coral corner strap 1",
+      "shape": "box",
+      "position": [
+        0.62,
+        -0.196,
+        0.214
+      ],
+      "size": [
+        0.039,
+        0.016,
+        0.263
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0.005,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Postal crate coral corner strap 2",
+      "shape": "box",
+      "position": [
+        1.02,
+        -0.196,
+        0.214
+      ],
+      "size": [
+        0.039,
+        0.016,
+        0.263
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0.005,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Stored cream letter packet 1",
+      "shape": "box",
+      "position": [
+        0.7,
+        0.025,
+        0.267
+      ],
+      "size": [
+        0.2,
+        0.27,
+        0.09
+      ],
+      "color_role": "cream",
+      "surface": "paint",
+      "bevel": 0.009,
+      "rotation": [
+        0,
+        0,
+        -0.035
+      ]
+    },
+    {
+      "name": "Letter packet ribbon 1",
+      "shape": "box",
+      "position": [
+        0.7,
+        0.025,
+        0.317
+      ],
+      "size": [
+        0.029,
+        0.282,
+        0.013
+      ],
+      "color_role": "cloth_blue",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Stored cream letter packet 2",
+      "shape": "box",
+      "position": [
+        0.94,
+        0.025,
+        0.27
+      ],
+      "size": [
+        0.2,
+        0.27,
+        0.09
+      ],
+      "color_role": "cream",
+      "surface": "paint",
+      "bevel": 0.009,
+      "rotation": [
+        0,
+        0,
+        0.085
+      ]
+    },
+    {
+      "name": "Letter packet ribbon 2",
+      "shape": "box",
+      "position": [
+        0.94,
+        0.025,
+        0.32
+      ],
+      "size": [
+        0.029,
+        0.282,
+        0.013
+      ],
+      "color_role": "cloth_blue",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Industrial anchored support footplate",
+      "shape": "box",
+      "position": [
+        -0.94,
+        0.11,
+        0.032
+      ],
+      "size": [
+        0.42,
+        0.43,
+        0.045
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0.012,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Industrial square mailbox support",
+      "shape": "box",
+      "position": [
+        -0.94,
+        0.11,
+        0.61
+      ],
+      "size": [
+        0.13,
+        0.15,
+        1.13
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0.009,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Mailbox painted post wrap",
+      "shape": "box",
+      "position": [
+        -0.94,
+        0.11,
+        0.724
+      ],
+      "size": [
+        0.182,
+        0.2,
+        0.28
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0.011,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Mailbox post brass collar",
+      "shape": "box",
+      "position": [
+        -0.94,
+        0.11,
+        1.113
+      ],
+      "size": [
+        0.26,
+        0.24,
+        0.047
+      ],
+      "color_role": "brass",
+      "surface": "metal",
+      "bevel": 0.012,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Mailbox cantilever diagonal support",
+      "shape": "beam",
+      "position": [
+        -0.9399999976158142,
+        -0.03749999776482582,
+        0.9735000133514404
+      ],
+      "size": [
+        0.052,
+        0.052,
+        0.40535664558410645
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -0.9399999976158142,
+        0.11500000208616257,
+        0.8399999737739563
+      ],
+      "b": [
+        -0.9399999976158142,
+        -0.1899999976158142,
+        1.1069999933242798
+      ],
+      "width": 0.052
+    },
+    {
+      "name": "Mailbox storage floor",
+      "shape": "box",
+      "position": [
+        -0.94,
+        0.055,
+        1.132
+      ],
+      "size": [
+        0.59,
+        0.66,
+        0.054
+      ],
+      "color_role": "cream",
+      "surface": "metal",
+      "bevel": 0.014,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Mailbox left side shell",
+      "shape": "box",
+      "position": [
+        -1.217,
+        0.055,
+        1.283
+      ],
+      "size": [
+        0.037,
+        0.65,
+        0.278
+      ],
+      "color_role": "teal",
+      "surface": "metal",
+      "bevel": 0.014,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Mailbox right side shell",
+      "shape": "box",
+      "position": [
+        -0.663,
+        0.055,
+        1.283
+      ],
+      "size": [
+        0.037,
+        0.65,
+        0.278
+      ],
+      "color_role": "teal",
+      "surface": "metal",
+      "bevel": 0.014,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Mailbox rear wall",
+      "shape": "box",
+      "position": [
+        -0.94,
+        0.374,
+        1.335
+      ],
+      "size": [
+        0.585,
+        0.039,
+        0.385
+      ],
+      "color_role": "teal",
+      "surface": "metal",
+      "bevel": 0.009,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Mail slot actual dark recess",
+      "shape": "box",
+      "position": [
+        -0.94,
+        -0.332,
+        1.4
+      ],
+      "size": [
+        0.36,
+        0.015,
+        0.046
+      ],
+      "color_role": "metal_dark",
+      "surface": "paint",
+      "bevel": 0.008,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Mail slot brass weather lip",
+      "shape": "box",
+      "position": [
+        -0.94,
+        -0.347,
+        1.43
+      ],
+      "size": [
+        0.405,
+        0.028,
+        0.025
+      ],
+      "color_role": "brass",
+      "surface": "metal",
+      "bevel": 0.005,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Mail slot protruding cream envelope",
+      "shape": "box",
+      "position": [
+        -0.976,
+        -0.354,
+        1.482
+      ],
+      "size": [
+        0.263,
+        0.024,
+        0.156
+      ],
+      "color_role": "cream",
+      "surface": "paint",
+      "bevel": 0.006,
+      "rotation": [
+        0.16,
+        0,
+        -0.07
+      ]
+    },
+    {
+      "name": "Protruding letter flap left",
+      "shape": "beam",
+      "position": [
+        -1.0384999513626099,
+        -0.3779999911785126,
+        1.5069999694824219
+      ],
+      "size": [
+        0.007,
+        0.007,
+        0.13816288113594055
+      ],
+      "color_role": "wood_honey",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -1.1009999513626099,
+        -0.37299999594688416,
+        1.5360000133514404
+      ],
+      "b": [
+        -0.9760000109672546,
+        -0.382999986410141,
+        1.4780000448226929
+      ],
+      "width": 0.007
+    },
+    {
+      "name": "Protruding letter flap right",
+      "shape": "beam",
+      "position": [
+        -0.9144999980926514,
+        -0.3774999976158142,
+        1.506500005722046
+      ],
+      "size": [
+        0.007,
+        0.007,
+        0.1360110193490982
+      ],
+      "color_role": "wood_honey",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -0.9760000109672546,
+        -0.382999986410141,
+        1.4780000448226929
+      ],
+      "b": [
+        -0.8529999852180481,
+        -0.3720000088214874,
+        1.534999966621399
+      ],
+      "width": 0.007
+    },
+    {
+      "name": "Protruding letter coral seal",
+      "shape": "ellipsoid",
+      "position": [
+        -0.976,
+        -0.391,
+        1.478
+      ],
+      "radii": [
+        0.022,
+        0.008,
+        0.023
+      ],
+      "color_role": "cloth_coral",
+      "surface": "paint",
+      "segments": 8,
+      "rings": 4,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Small mailbox cream address plaque",
+      "shape": "box",
+      "position": [
+        -0.94,
+        -0.341,
+        1.267
+      ],
+      "size": [
+        0.245,
+        0.013,
+        0.102
+      ],
+      "color_role": "cream",
+      "surface": "paint",
+      "bevel": 0.01,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Mailbox raised envelope badge",
+      "shape": "box",
+      "position": [
+        -0.94,
+        -0.353,
+        1.267
+      ],
+      "size": [
+        0.14,
+        0.01,
+        0.061
+      ],
+      "color_role": "cloth_coral",
+      "surface": "paint",
+      "bevel": 0.003,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Mailbox badge flap left",
+      "shape": "beam",
+      "position": [
+        -0.9709999561309814,
+        -0.3644999861717224,
+        1.2720000743865967
+      ],
+      "size": [
+        0.005,
+        0.005,
+        0.07071774452924728
+      ],
+      "color_role": "cream",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -1.0019999742507935,
+        -0.36399999260902405,
+        1.2890000343322754
+      ],
+      "b": [
+        -0.9399999976158142,
+        -0.36500000953674316,
+        1.2549999952316284
+      ],
+      "width": 0.005
+    },
+    {
+      "name": "Mailbox badge flap right",
+      "shape": "beam",
+      "position": [
+        -0.909000039100647,
+        -0.3644999861717224,
+        1.2720000743865967
+      ],
+      "size": [
+        0.005,
+        0.005,
+        0.07071774452924728
+      ],
+      "color_role": "cream",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -0.9399999976158142,
+        -0.36500000953674316,
+        1.2549999952316284
+      ],
+      "b": [
+        -0.878000020980835,
+        -0.36399999260902405,
+        1.2890000343322754
+      ],
+      "width": 0.005
+    },
+    {
+      "name": "Mailbox door round brass knob",
+      "shape": "cylinder",
+      "position": [
+        -0.719,
+        -0.36,
+        1.284
+      ],
+      "radius": 0.024,
+      "height": 0.035,
+      "radius_top": 0.024,
+      "segments": 10,
+      "rotation": [
+        1.5707963267948966,
+        0,
+        0
+      ],
+      "color_role": "brass",
+      "surface": "metal"
+    },
+    {
+      "name": "Operable mailbox hinge barrel 1",
+      "shape": "cylinder",
+      "position": [
+        -1.227,
+        -0.32,
+        1.195
+      ],
+      "radius": 0.018,
+      "height": 0.092,
+      "radius_top": 0.018,
+      "segments": 8,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal"
+    },
+    {
+      "name": "Operable mailbox hinge barrel 2",
+      "shape": "cylinder",
+      "position": [
+        -1.227,
+        -0.32,
+        1.34
+      ],
+      "radius": 0.018,
+      "height": 0.092,
+      "radius_top": 0.018,
+      "segments": 8,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal"
+    },
+    {
+      "name": "Mailbox flag brass pivot",
+      "shape": "cylinder",
+      "position": [
+        -0.636,
+        0.13,
+        1.448
+      ],
+      "radius": 0.03,
+      "height": 0.042,
+      "radius_top": 0.03,
+      "segments": 10,
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color_role": "brass",
+      "surface": "metal"
+    },
+    {
+      "name": "Mailbox flag upright",
+      "shape": "beam",
+      "position": [
+        -0.6259999871253967,
+        0.12999999523162842,
+        1.6649999618530273
+      ],
+      "size": [
+        0.027,
+        0.027,
+        0.45399999618530273
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -0.6259999871253967,
+        0.12999999523162842,
+        1.437999963760376
+      ],
+      "b": [
+        -0.6259999871253967,
+        0.12999999523162842,
+        1.8919999599456787
+      ],
+      "width": 0.027
+    },
+    {
+      "name": "Mailbox coral collection flag",
+      "shape": "box",
+      "position": [
+        -0.625,
+        0.032,
+        1.853
+      ],
+      "size": [
+        0.032,
+        0.238,
+        0.13
+      ],
+      "color_role": "cloth_coral",
+      "surface": "paint",
+      "bevel": 0.01,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Mailbox cream flag tip",
+      "shape": "box",
+      "position": [
+        -0.625,
+        -0.07,
+        1.852
+      ],
+      "size": [
+        0.038,
+        0.033,
+        0.1
+      ],
+      "color_role": "cream",
+      "surface": "paint",
+      "bevel": 0.004,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Seat letter bottom",
+      "shape": "box",
+      "position": [
+        0.0,
+        -0.065,
+        0.59
+      ],
+      "size": [
+        0.29,
+        0.23,
+        0.015
+      ],
+      "color_role": "cream",
+      "surface": "paint",
+      "bevel": 0.003,
+      "rotation": [
+        0,
+        0,
+        -0.19
+      ]
+    },
+    {
+      "name": "Seat letter upper",
+      "shape": "box",
+      "position": [
+        0.032,
+        -0.06,
+        0.612
+      ],
+      "size": [
+        0.263,
+        0.203,
+        0.014
+      ],
+      "color_role": "cream",
+      "surface": "paint",
+      "bevel": 0.003,
+      "rotation": [
+        0,
+        0,
+        0.055
+      ]
+    },
+    {
+      "name": "Seat letter envelope flap left",
+      "shape": "beam",
+      "position": [
+        -0.03099999763071537,
+        -0.01850000023841858,
+        0.6230000257492065
+      ],
+      "size": [
+        0.006,
+        0.006,
+        0.14664584398269653
+      ],
+      "color_role": "wood_honey",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -0.09399999678134918,
+        0.01899999938905239,
+        0.621999979019165
+      ],
+      "b": [
+        0.03200000151991844,
+        -0.0560000017285347,
+        0.6240000128746033
+      ],
+      "width": 0.006
+    },
+    {
+      "name": "Seat letter envelope flap right",
+      "shape": "beam",
+      "position": [
+        0.0950000062584877,
+        -0.01850000023841858,
+        0.6230000257492065
+      ],
+      "size": [
+        0.006,
+        0.006,
+        0.14664584398269653
+      ],
+      "color_role": "wood_honey",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        0.03200000151991844,
+        -0.0560000017285347,
+        0.6240000128746033
+      ],
+      "b": [
+        0.15800000727176666,
+        0.01899999938905239,
+        0.621999979019165
+      ],
+      "width": 0.006
+    },
+    {
+      "name": "Seat letter pink stamp",
+      "shape": "box",
+      "position": [
+        0.122,
+        -0.114,
+        0.624
+      ],
+      "size": [
+        0.037,
+        0.043,
+        0.008
+      ],
+      "color_role": "pink",
+      "surface": "paint",
+      "bevel": 0.002,
+      "rotation": [
+        0,
+        0,
+        0.055
+      ]
+    },
+    {
+      "name": "Pink ground herb planter",
+      "shape": "lathe",
+      "position": [
+        -0.55,
+        -0.49,
+        0.025
+      ],
+      "profile": [
+        [
+          0.1394,
+          0
+        ],
+        [
+          0.1517,
+          0.025
+        ],
+        [
+          0.19269999999999998,
+          0.22000000000000003
+        ],
+        [
+          0.205,
+          0.24200000000000002
+        ],
+        [
+          0.205,
+          0.275
+        ],
+        [
+          0.1722,
+          0.275
+        ],
+        [
+          0.16195,
+          0.22825
+        ]
+      ],
+      "segments": 12,
+      "color_role": "pink",
+      "surface": "paint"
+    },
+    {
+      "name": "Ground herb planter soil",
+      "shape": "cylinder",
+      "position": [
+        -0.55,
+        -0.49,
+        0.277
+      ],
+      "radius": 0.175,
+      "height": 0.018,
+      "radius_top": 0.175,
+      "segments": 10,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal"
+    },
+    {
+      "name": "Ground herb rising stem 1",
+      "shape": "beam",
+      "position": [
+        -0.5189999938011169,
+        -0.49000000953674316,
+        0.36500000953674316
+      ],
+      "size": [
+        0.015,
+        0.015,
+        0.1809530258178711
+      ],
+      "color_role": "leaf_dark",
+      "surface": "leaf",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -0.550000011920929,
+        -0.49000000953674316,
+        0.2800000011920929
+      ],
+      "b": [
+        -0.4880000054836273,
+        -0.49000000953674316,
+        0.44999998807907104
+      ],
+      "width": 0.015
+    },
+    {
+      "name": "Ground herb broad leaf 1",
+      "shape": "mesh",
+      "vertices": [
+        [
+          -0.48800000000000004,
+          -0.49,
+          0.45
+        ],
+        [
+          -0.36260000000000003,
+          -0.39,
+          0.48762
+        ],
+        [
+          -0.20300000000000007,
+          -0.49,
+          0.5355
+        ],
+        [
+          -0.36260000000000003,
+          -0.59,
+          0.48762
+        ],
+        [
+          -0.34550000000000003,
+          -0.49,
+          0.507
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          3,
+          0,
+          4
+        ]
+      ],
+      "color_role": "leaf_light",
+      "surface": "leaf",
+      "smooth": false
+    },
+    {
+      "name": "Ground herb secondary leaf 1",
+      "shape": "mesh",
+      "vertices": [
+        [
+          -0.48800000000000004,
+          -0.49,
+          0.375
+        ],
+        [
+          -0.5953783037282946,
+          -0.5339879516280781,
+          0.40206
+        ],
+        [
+          -0.6843463836983835,
+          -0.4310670074697784,
+          0.4365
+        ],
+        [
+          -0.553406513926283,
+          -0.3941510149453269,
+          0.40206
+        ],
+        [
+          -0.5861731918491918,
+          -0.4605335037348892,
+          0.416
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          3,
+          0,
+          4
+        ]
+      ],
+      "color_role": "leaf_light",
+      "surface": "leaf",
+      "smooth": false
+    },
+    {
+      "name": "Ground herb rising stem 2",
+      "shape": "beam",
+      "position": [
+        -0.5640174746513367,
+        -0.4610123038291931,
+        0.3960000276565552
+      ],
+      "size": [
+        0.015,
+        0.015,
+        0.24077190458774567
+      ],
+      "color_role": "leaf_dark",
+      "surface": "leaf",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -0.550000011920929,
+        -0.49000000953674316,
+        0.2800000011920929
+      ],
+      "b": [
+        -0.5780349373817444,
+        -0.43202462792396545,
+        0.5120000243186951
+      ],
+      "width": 0.015
+    },
+    {
+      "name": "Ground herb broad leaf 2",
+      "shape": "mesh",
+      "vertices": [
+        [
+          -0.5780349220527365,
+          -0.43202463768803034,
+          0.512
+        ],
+        [
+          -0.7239306778805449,
+          -0.36539440107256776,
+          0.54962
+        ],
+        [
+          -0.7069051282628964,
+          -0.1778249721663172,
+          0.5975
+        ],
+        [
+          -0.5455449476898689,
+          -0.27495916864438535,
+          0.54962
+        ],
+        [
+          -0.6424700251578165,
+          -0.3049248049271738,
+          0.569
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          3,
+          0,
+          4
+        ]
+      ],
+      "color_role": "leaf_dark",
+      "surface": "leaf",
+      "smooth": false
+    },
+    {
+      "name": "Ground herb secondary leaf 2",
+      "shape": "mesh",
+      "vertices": [
+        [
+          -0.5780349220527365,
+          -0.43202463768803034,
+          0.437
+        ],
+        [
+          -0.490246898421841,
+          -0.5079081201264458,
+          0.46406
+        ],
+        [
+          -0.5418157923458806,
+          -0.6337996972054988,
+          0.4985
+        ],
+        [
+          -0.633950111541599,
+          -0.5337032076249871,
+          0.46406
+        ],
+        [
+          -0.5599253571993086,
+          -0.5329121674467646,
+          0.478
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          3,
+          0,
+          4
+        ]
+      ],
+      "color_role": "leaf_light",
+      "surface": "leaf",
+      "smooth": false
+    },
+    {
+      "name": "Ground herb rising stem 3",
+      "shape": "beam",
+      "position": [
+        -0.5683232545852661,
+        -0.5162150859832764,
+        0.4269999861717224
+      ],
+      "size": [
+        0.015,
+        0.015,
+        0.30087852478027344
+      ],
+      "color_role": "leaf_dark",
+      "surface": "leaf",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -0.550000011920929,
+        -0.49000000953674316,
+        0.2800000011920929
+      ],
+      "b": [
+        -0.586646556854248,
+        -0.5424301624298096,
+        0.5740000009536743
+      ],
+      "width": 0.015
+    },
+    {
+      "name": "Ground herb broad leaf 3",
+      "shape": "mesh",
+      "vertices": [
+        [
+          -0.586646553080548,
+          -0.5424301536579106,
+          0.5740000000000001
+        ],
+        [
+          -0.5801053871948161,
+          -0.7026873630085522,
+          0.61162
+        ],
+        [
+          -0.7551024825637119,
+          -0.7723162120041341,
+          0.6595000000000001
+        ],
+        [
+          -0.7414289369114642,
+          -0.5844726756519458,
+          0.61162
+        ],
+        [
+          -0.67087451782213,
+          -0.6573731828310223,
+          0.631
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          3,
+          0,
+          4
+        ]
+      ],
+      "color_role": "leaf_light",
+      "surface": "leaf",
+      "smooth": false
+    },
+    {
+      "name": "Ground herb secondary leaf 3",
+      "shape": "mesh",
+      "vertices": [
+        [
+          -0.586646553080548,
+          -0.5424301536579106,
+          0.49900000000000005
+        ],
+        [
+          -0.5586595525669616,
+          -0.42981679831205244,
+          0.5260600000000001
+        ],
+        [
+          -0.4230550235160244,
+          -0.4188874021314063,
+          0.5605
+        ],
+        [
+          -0.47067300757735364,
+          -0.5463258876604449,
+          0.5260600000000001
+        ],
+        [
+          -0.5048507882982862,
+          -0.48065877789465844,
+          0.54
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          3,
+          0,
+          4
+        ]
+      ],
+      "color_role": "leaf_light",
+      "surface": "leaf",
+      "smooth": false
+    },
+    {
+      "name": "Ground herb rising stem 4",
+      "shape": "beam",
+      "position": [
+        -0.5194118618965149,
+        -0.49528002738952637,
+        0.36500000953674316
+      ],
+      "size": [
+        0.015,
+        0.015,
+        0.18098080158233643
+      ],
+      "color_role": "leaf_dark",
+      "surface": "leaf",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -0.550000011920929,
+        -0.49000000953674316,
+        0.2800000011920929
+      ],
+      "b": [
+        -0.48882368206977844,
+        -0.5005600452423096,
+        0.44999998807907104
+      ],
+      "width": 0.015
+    },
+    {
+      "name": "Ground herb broad leaf 4",
+      "shape": "mesh",
+      "vertices": [
+        [
+          -0.48882368249195274,
+          -0.500560030988985,
+          0.45
+        ],
+        [
+          -0.3488434452364191,
+          -0.42226128784527617,
+          0.48762
+        ],
+        [
+          -0.2076099649146385,
+          -0.546861705325304,
+          0.5355
+        ],
+        [
+          -0.3813358482794499,
+          -0.6196042475486546,
+          0.48762
+        ],
+        [
+          -0.34821682370329565,
+          -0.5237108681571445,
+          0.507
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          3,
+          0,
+          4
+        ]
+      ],
+      "color_role": "leaf_dark",
+      "surface": "leaf",
+      "smooth": false
+    },
+    {
+      "name": "Ground herb rising stem 5",
+      "shape": "beam",
+      "position": [
+        -0.559339165687561,
+        -0.45900994539260864,
+        0.3960000276565552
+      ],
+      "size": [
+        0.015,
+        0.015,
+        0.24086186289787292
+      ],
+      "color_role": "leaf_dark",
+      "surface": "leaf",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -0.550000011920929,
+        -0.49000000953674316,
+        0.2800000011920929
+      ],
+      "b": [
+        -0.5686783790588379,
+        -0.42801985144615173,
+        0.5120000243186951
+      ],
+      "width": 0.015
+    },
+    {
+      "name": "Ground herb broad leaf 5",
+      "shape": "mesh",
+      "vertices": [
+        [
+          -0.5686783918488575,
+          -0.4280198577727127,
+          0.512
+        ],
+        [
+          -0.7018110106501525,
+          -0.3385722987724298,
+          0.54962
+        ],
+        [
+          -0.6545387414766701,
+          -0.15626077262229904,
+          0.5975
+        ],
+        [
+          -0.5111028807200375,
+          -0.2783194218406315,
+          0.54962
+        ],
+        [
+          -0.6116085666627638,
+          -0.29214031519750583,
+          0.569
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          3,
+          0,
+          4
+        ]
+      ],
+      "color_role": "leaf_light",
+      "surface": "leaf",
+      "smooth": false
+    },
+    {
+      "name": "Bench back brass pin 1-1",
+      "shape": "cylinder",
+      "position": [
+        -0.31,
+        0.31035,
+        0.805
+      ],
+      "radius": 0.012,
+      "height": 0.012,
+      "radius_top": 0.012,
+      "segments": 8,
+      "rotation": [
+        1.5707963267948966,
+        0,
+        0
+      ],
+      "color_role": "brass",
+      "surface": "metal"
+    },
+    {
+      "name": "Bench back brass pin 1-2",
+      "shape": "cylinder",
+      "position": [
+        -0.31,
+        0.36050000000000004,
+        1.1
+      ],
+      "radius": 0.012,
+      "height": 0.012,
+      "radius_top": 0.012,
+      "segments": 8,
+      "rotation": [
+        1.5707963267948966,
+        0,
+        0
+      ],
+      "color_role": "brass",
+      "surface": "metal"
+    },
+    {
+      "name": "Bench back brass pin 2-1",
+      "shape": "cylinder",
+      "position": [
+        1.13,
+        0.31035,
+        0.805
+      ],
+      "radius": 0.012,
+      "height": 0.012,
+      "radius_top": 0.012,
+      "segments": 8,
+      "rotation": [
+        1.5707963267948966,
+        0,
+        0
+      ],
+      "color_role": "brass",
+      "surface": "metal"
+    },
+    {
+      "name": "Bench back brass pin 2-2",
+      "shape": "cylinder",
+      "position": [
+        1.13,
+        0.36050000000000004,
+        1.1
+      ],
+      "radius": 0.012,
+      "height": 0.012,
+      "radius_top": 0.012,
+      "segments": 8,
+      "rotation": [
+        1.5707963267948966,
+        0,
+        0
+      ],
+      "color_role": "brass",
+      "surface": "metal"
+    },
+    {
+      "name": "Industrial chamfered mailbox service door",
+      "shape": "box",
+      "position": [
+        -0.94,
+        -0.283,
+        1.365
+      ],
+      "size": [
+        0.597,
+        0.06,
+        0.467
+      ],
+      "color_role": "teal",
+      "surface": "metal",
+      "bevel": 0.032,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Industrial mailbox rigid upper lid",
+      "shape": "box",
+      "position": [
+        -0.94,
+        0.055,
+        1.622
+      ],
+      "size": [
+        0.642,
+        0.716,
+        0.089
+      ],
+      "color_role": "cream",
+      "surface": "metal",
+      "bevel": 0.021,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Industrial mailbox front drip edge",
+      "shape": "box",
+      "position": [
+        -0.94,
+        -0.316,
+        1.657
+      ],
+      "size": [
+        0.65,
+        0.051,
+        0.035
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0.008,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Industrial mailbox side vent backing",
+      "shape": "box",
+      "position": [
+        -0.638,
+        0.125,
+        1.374
+      ],
+      "size": [
+        0.011,
+        0.278,
+        0.076
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0.004,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Industrial bench arm end cap left",
+      "shape": "box",
+      "position": [
+        -0.39,
+        -0.255,
+        0.818
+      ],
+      "size": [
+        0.105,
+        0.054,
+        0.079
+      ],
+      "color_role": "teal",
+      "surface": "metal",
+      "bevel": 0.011,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Industrial bench arm end cap right",
+      "shape": "box",
+      "position": [
+        1.21,
+        -0.255,
+        0.818
+      ],
+      "size": [
+        0.105,
+        0.054,
+        0.079
+      ],
+      "color_role": "teal",
+      "surface": "metal",
+      "bevel": 0.011,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Industrial mailbox side cooling rib 1",
+      "shape": "box",
+      "position": [
+        -0.629,
+        0.012,
+        1.374
+      ],
+      "size": [
+        0.012,
+        0.013,
+        0.064
+      ],
+      "color_role": "cream",
+      "surface": "metal",
+      "bevel": 0.003,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Industrial mailbox side cooling rib 2",
+      "shape": "box",
+      "position": [
+        -0.629,
+        0.067,
+        1.374
+      ],
+      "size": [
+        0.012,
+        0.013,
+        0.064
+      ],
+      "color_role": "cream",
+      "surface": "metal",
+      "bevel": 0.003,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Industrial mailbox side cooling rib 3",
+      "shape": "box",
+      "position": [
+        -0.629,
+        0.122,
+        1.374
+      ],
+      "size": [
+        0.012,
+        0.013,
+        0.064
+      ],
+      "color_role": "cream",
+      "surface": "metal",
+      "bevel": 0.003,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Industrial mailbox side cooling rib 4",
+      "shape": "box",
+      "position": [
+        -0.629,
+        0.17700000000000002,
+        1.374
+      ],
+      "size": [
+        0.012,
+        0.013,
+        0.064
+      ],
+      "color_role": "cream",
+      "surface": "metal",
+      "bevel": 0.003,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Industrial mailbox side cooling rib 5",
+      "shape": "box",
+      "position": [
+        -0.629,
+        0.232,
+        1.374
+      ],
+      "size": [
+        0.012,
+        0.013,
+        0.064
+      ],
+      "color_role": "cream",
+      "surface": "metal",
+      "bevel": 0.003,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Industrial mailbox anchor screw 1",
+      "shape": "cylinder",
+      "position": [
+        -1.083,
+        -0.04,
+        0.063
+      ],
+      "radius": 0.026,
+      "height": 0.021,
+      "radius_top": 0.026,
+      "segments": 8,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color_role": "brass",
+      "surface": "metal"
+    },
+    {
+      "name": "Industrial mailbox anchor screw 2",
+      "shape": "cylinder",
+      "position": [
+        -0.797,
+        -0.04,
+        0.063
+      ],
+      "radius": 0.026,
+      "height": 0.021,
+      "radius_top": 0.026,
+      "segments": 8,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color_role": "brass",
+      "surface": "metal"
+    },
+    {
+      "name": "Industrial mailbox anchor screw 3",
+      "shape": "cylinder",
+      "position": [
+        -1.083,
+        0.26,
+        0.063
+      ],
+      "radius": 0.026,
+      "height": 0.021,
+      "radius_top": 0.026,
+      "segments": 8,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color_role": "brass",
+      "surface": "metal"
+    },
+    {
+      "name": "Industrial mailbox anchor screw 4",
+      "shape": "cylinder",
+      "position": [
+        -0.797,
+        0.26,
+        0.063
+      ],
+      "radius": 0.026,
+      "height": 0.021,
+      "radius_top": 0.026,
+      "segments": 8,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color_role": "brass",
+      "surface": "metal"
+    },
+    {
+      "name": "Industrial bench rear joint gusset 1",
+      "shape": "box",
+      "position": [
+        -0.3,
+        0.35,
+        0.714
+      ],
+      "size": [
+        0.16,
+        0.037,
+        0.2
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0.01,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Industrial bench rear joint gusset 2",
+      "shape": "box",
+      "position": [
+        1.12,
+        0.35,
+        0.714
+      ],
+      "size": [
+        0.16,
+        0.037,
+        0.2
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0.01,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "compiled_parts": [
+    {
+      "name": "Bench leg 1-1",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 0,
+      "triangle_count": 12
+    },
+    {
+      "name": "Bench leg 1-2",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 12,
+      "triangle_count": 12
+    },
+    {
+      "name": "Bench seat end bearer 1",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 24,
+      "triangle_count": 12
+    },
+    {
+      "name": "Bench leg 2-1",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 36,
+      "triangle_count": 12
+    },
+    {
+      "name": "Bench leg 2-2",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 48,
+      "triangle_count": 12
+    },
+    {
+      "name": "Bench seat end bearer 2",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 60,
+      "triangle_count": 12
+    },
+    {
+      "name": "Bench long low stretcher",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 72,
+      "triangle_count": 12
+    },
+    {
+      "name": "Usable bench seat slat 1",
+      "surface": "metal",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 20,
+      "triangle_start": 84,
+      "triangle_count": 44
+    },
+    {
+      "name": "Usable bench seat slat 2",
+      "surface": "metal",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 20,
+      "triangle_start": 128,
+      "triangle_count": 44
+    },
+    {
+      "name": "Usable bench seat slat 3",
+      "surface": "metal",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 20,
+      "triangle_start": 172,
+      "triangle_count": 44
+    },
+    {
+      "name": "Usable bench seat slat 4",
+      "surface": "metal",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 20,
+      "triangle_start": 216,
+      "triangle_count": 44
+    },
+    {
+      "name": "Usable bench seat slat 5",
+      "surface": "metal",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 20,
+      "triangle_start": 260,
+      "triangle_count": 44
+    },
+    {
+      "name": "Bench leaning back upright 1",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 304,
+      "triangle_count": 12
+    },
+    {
+      "name": "Bench end diagonal brace 1",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 316,
+      "triangle_count": 12
+    },
+    {
+      "name": "Bench leaning back upright 2",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 328,
+      "triangle_count": 12
+    },
+    {
+      "name": "Bench end diagonal brace 2",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 340,
+      "triangle_count": 12
+    },
+    {
+      "name": "Broad painted bench back slat 1",
+      "surface": "metal",
+      "color_role": "sage",
+      "atlas_cell_top_left_index": 22,
+      "triangle_start": 352,
+      "triangle_count": 44
+    },
+    {
+      "name": "Broad painted bench back slat 2",
+      "surface": "metal",
+      "color_role": "sage",
+      "atlas_cell_top_left_index": 22,
+      "triangle_start": 396,
+      "triangle_count": 44
+    },
+    {
+      "name": "Broad painted bench back slat 3",
+      "surface": "metal",
+      "color_role": "sage",
+      "atlas_cell_top_left_index": 22,
+      "triangle_start": 440,
+      "triangle_count": 44
+    },
+    {
+      "name": "Bench arm front support 1",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 484,
+      "triangle_count": 12
+    },
+    {
+      "name": "Bench rounded armrest 1",
+      "surface": "paint",
+      "color_role": "wood_honey",
+      "atlas_cell_top_left_index": 6,
+      "triangle_start": 496,
+      "triangle_count": 44
+    },
+    {
+      "name": "Bench arm front support 2",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 540,
+      "triangle_count": 12
+    },
+    {
+      "name": "Bench rounded armrest 2",
+      "surface": "paint",
+      "color_role": "wood_honey",
+      "atlas_cell_top_left_index": 6,
+      "triangle_start": 552,
+      "triangle_count": 44
+    },
+    {
+      "name": "Under-bench postal crate bottom",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 596,
+      "triangle_count": 44
+    },
+    {
+      "name": "Postal crate end board 1",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 640,
+      "triangle_count": 44
+    },
+    {
+      "name": "Postal crate end board 2",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 684,
+      "triangle_count": 44
+    },
+    {
+      "name": "Postal crate horizontal slat 1-1",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 728,
+      "triangle_count": 44
+    },
+    {
+      "name": "Postal crate horizontal slat 1-2",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 772,
+      "triangle_count": 44
+    },
+    {
+      "name": "Postal crate horizontal slat 2-1",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 816,
+      "triangle_count": 44
+    },
+    {
+      "name": "Postal crate horizontal slat 2-2",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 860,
+      "triangle_count": 44
+    },
+    {
+      "name": "Postal crate coral corner strap 1",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 904,
+      "triangle_count": 44
+    },
+    {
+      "name": "Postal crate coral corner strap 2",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 948,
+      "triangle_count": 44
+    },
+    {
+      "name": "Stored cream letter packet 1",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 44,
+      "triangle_start": 992,
+      "triangle_count": 44
+    },
+    {
+      "name": "Letter packet ribbon 1",
+      "surface": "paint",
+      "color_role": "cloth_blue",
+      "atlas_cell_top_left_index": 36,
+      "triangle_start": 1036,
+      "triangle_count": 12
+    },
+    {
+      "name": "Stored cream letter packet 2",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 44,
+      "triangle_start": 1048,
+      "triangle_count": 44
+    },
+    {
+      "name": "Letter packet ribbon 2",
+      "surface": "paint",
+      "color_role": "cloth_blue",
+      "atlas_cell_top_left_index": 36,
+      "triangle_start": 1092,
+      "triangle_count": 12
+    },
+    {
+      "name": "Industrial anchored support footplate",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 1104,
+      "triangle_count": 44
+    },
+    {
+      "name": "Industrial square mailbox support",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 1148,
+      "triangle_count": 44
+    },
+    {
+      "name": "Mailbox painted post wrap",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 1192,
+      "triangle_count": 44
+    },
+    {
+      "name": "Mailbox post brass collar",
+      "surface": "metal",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 63,
+      "triangle_start": 1236,
+      "triangle_count": 44
+    },
+    {
+      "name": "Mailbox cantilever diagonal support",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 1280,
+      "triangle_count": 12
+    },
+    {
+      "name": "Mailbox storage floor",
+      "surface": "metal",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 20,
+      "triangle_start": 1292,
+      "triangle_count": 44
+    },
+    {
+      "name": "Mailbox left side shell",
+      "surface": "metal",
+      "color_role": "teal",
+      "atlas_cell_top_left_index": 22,
+      "triangle_start": 1336,
+      "triangle_count": 44
+    },
+    {
+      "name": "Mailbox right side shell",
+      "surface": "metal",
+      "color_role": "teal",
+      "atlas_cell_top_left_index": 22,
+      "triangle_start": 1380,
+      "triangle_count": 44
+    },
+    {
+      "name": "Mailbox rear wall",
+      "surface": "metal",
+      "color_role": "teal",
+      "atlas_cell_top_left_index": 22,
+      "triangle_start": 1424,
+      "triangle_count": 44
+    },
+    {
+      "name": "Mail slot actual dark recess",
+      "surface": "paint",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 1468,
+      "triangle_count": 44
+    },
+    {
+      "name": "Mail slot brass weather lip",
+      "surface": "metal",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 63,
+      "triangle_start": 1512,
+      "triangle_count": 44
+    },
+    {
+      "name": "Mail slot protruding cream envelope",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 44,
+      "triangle_start": 1556,
+      "triangle_count": 44
+    },
+    {
+      "name": "Protruding letter flap left",
+      "surface": "paint",
+      "color_role": "wood_honey",
+      "atlas_cell_top_left_index": 6,
+      "triangle_start": 1600,
+      "triangle_count": 12
+    },
+    {
+      "name": "Protruding letter flap right",
+      "surface": "paint",
+      "color_role": "wood_honey",
+      "atlas_cell_top_left_index": 6,
+      "triangle_start": 1612,
+      "triangle_count": 12
+    },
+    {
+      "name": "Protruding letter coral seal",
+      "surface": "paint",
+      "color_role": "cloth_coral",
+      "atlas_cell_top_left_index": 35,
+      "triangle_start": 1624,
+      "triangle_count": 48
+    },
+    {
+      "name": "Small mailbox cream address plaque",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 44,
+      "triangle_start": 1672,
+      "triangle_count": 44
+    },
+    {
+      "name": "Mailbox raised envelope badge",
+      "surface": "paint",
+      "color_role": "cloth_coral",
+      "atlas_cell_top_left_index": 35,
+      "triangle_start": 1716,
+      "triangle_count": 44
+    },
+    {
+      "name": "Mailbox badge flap left",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 44,
+      "triangle_start": 1760,
+      "triangle_count": 12
+    },
+    {
+      "name": "Mailbox badge flap right",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 44,
+      "triangle_start": 1772,
+      "triangle_count": 12
+    },
+    {
+      "name": "Mailbox door round brass knob",
+      "surface": "metal",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 63,
+      "triangle_start": 1784,
+      "triangle_count": 40
+    },
+    {
+      "name": "Operable mailbox hinge barrel 1",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 1824,
+      "triangle_count": 32
+    },
+    {
+      "name": "Operable mailbox hinge barrel 2",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 1856,
+      "triangle_count": 32
+    },
+    {
+      "name": "Mailbox flag brass pivot",
+      "surface": "metal",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 63,
+      "triangle_start": 1888,
+      "triangle_count": 40
+    },
+    {
+      "name": "Mailbox flag upright",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 1928,
+      "triangle_count": 12
+    },
+    {
+      "name": "Mailbox coral collection flag",
+      "surface": "paint",
+      "color_role": "cloth_coral",
+      "atlas_cell_top_left_index": 35,
+      "triangle_start": 1940,
+      "triangle_count": 44
+    },
+    {
+      "name": "Mailbox cream flag tip",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 44,
+      "triangle_start": 1984,
+      "triangle_count": 44
+    },
+    {
+      "name": "Seat letter bottom",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 44,
+      "triangle_start": 2028,
+      "triangle_count": 44
+    },
+    {
+      "name": "Seat letter upper",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 44,
+      "triangle_start": 2072,
+      "triangle_count": 44
+    },
+    {
+      "name": "Seat letter envelope flap left",
+      "surface": "paint",
+      "color_role": "wood_honey",
+      "atlas_cell_top_left_index": 6,
+      "triangle_start": 2116,
+      "triangle_count": 12
+    },
+    {
+      "name": "Seat letter envelope flap right",
+      "surface": "paint",
+      "color_role": "wood_honey",
+      "atlas_cell_top_left_index": 6,
+      "triangle_start": 2128,
+      "triangle_count": 12
+    },
+    {
+      "name": "Seat letter pink stamp",
+      "surface": "paint",
+      "color_role": "pink",
+      "atlas_cell_top_left_index": 35,
+      "triangle_start": 2140,
+      "triangle_count": 44
+    },
+    {
+      "name": "Pink ground herb planter",
+      "surface": "paint",
+      "color_role": "pink",
+      "atlas_cell_top_left_index": 45,
+      "triangle_start": 2184,
+      "triangle_count": 164
+    },
+    {
+      "name": "Ground herb planter soil",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 45,
+      "triangle_start": 2348,
+      "triangle_count": 40
+    },
+    {
+      "name": "Ground herb rising stem 1",
+      "surface": "leaf",
+      "color_role": "leaf_dark",
+      "atlas_cell_top_left_index": 48,
+      "triangle_start": 2388,
+      "triangle_count": 12
+    },
+    {
+      "name": "Ground herb broad leaf 1",
+      "surface": "leaf",
+      "color_role": "leaf_light",
+      "atlas_cell_top_left_index": 57,
+      "triangle_start": 2400,
+      "triangle_count": 4
+    },
+    {
+      "name": "Ground herb secondary leaf 1",
+      "surface": "leaf",
+      "color_role": "leaf_light",
+      "atlas_cell_top_left_index": 57,
+      "triangle_start": 2404,
+      "triangle_count": 4
+    },
+    {
+      "name": "Ground herb rising stem 2",
+      "surface": "leaf",
+      "color_role": "leaf_dark",
+      "atlas_cell_top_left_index": 48,
+      "triangle_start": 2408,
+      "triangle_count": 12
+    },
+    {
+      "name": "Ground herb broad leaf 2",
+      "surface": "leaf",
+      "color_role": "leaf_dark",
+      "atlas_cell_top_left_index": 48,
+      "triangle_start": 2420,
+      "triangle_count": 4
+    },
+    {
+      "name": "Ground herb secondary leaf 2",
+      "surface": "leaf",
+      "color_role": "leaf_light",
+      "atlas_cell_top_left_index": 57,
+      "triangle_start": 2424,
+      "triangle_count": 4
+    },
+    {
+      "name": "Ground herb rising stem 3",
+      "surface": "leaf",
+      "color_role": "leaf_dark",
+      "atlas_cell_top_left_index": 48,
+      "triangle_start": 2428,
+      "triangle_count": 12
+    },
+    {
+      "name": "Ground herb broad leaf 3",
+      "surface": "leaf",
+      "color_role": "leaf_light",
+      "atlas_cell_top_left_index": 57,
+      "triangle_start": 2440,
+      "triangle_count": 4
+    },
+    {
+      "name": "Ground herb secondary leaf 3",
+      "surface": "leaf",
+      "color_role": "leaf_light",
+      "atlas_cell_top_left_index": 57,
+      "triangle_start": 2444,
+      "triangle_count": 4
+    },
+    {
+      "name": "Ground herb rising stem 4",
+      "surface": "leaf",
+      "color_role": "leaf_dark",
+      "atlas_cell_top_left_index": 48,
+      "triangle_start": 2448,
+      "triangle_count": 12
+    },
+    {
+      "name": "Ground herb broad leaf 4",
+      "surface": "leaf",
+      "color_role": "leaf_dark",
+      "atlas_cell_top_left_index": 48,
+      "triangle_start": 2460,
+      "triangle_count": 4
+    },
+    {
+      "name": "Ground herb rising stem 5",
+      "surface": "leaf",
+      "color_role": "leaf_dark",
+      "atlas_cell_top_left_index": 48,
+      "triangle_start": 2464,
+      "triangle_count": 12
+    },
+    {
+      "name": "Ground herb broad leaf 5",
+      "surface": "leaf",
+      "color_role": "leaf_light",
+      "atlas_cell_top_left_index": 57,
+      "triangle_start": 2476,
+      "triangle_count": 4
+    },
+    {
+      "name": "Bench back brass pin 1-1",
+      "surface": "metal",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 63,
+      "triangle_start": 2480,
+      "triangle_count": 32
+    },
+    {
+      "name": "Bench back brass pin 1-2",
+      "surface": "metal",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 63,
+      "triangle_start": 2512,
+      "triangle_count": 32
+    },
+    {
+      "name": "Bench back brass pin 2-1",
+      "surface": "metal",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 63,
+      "triangle_start": 2544,
+      "triangle_count": 32
+    },
+    {
+      "name": "Bench back brass pin 2-2",
+      "surface": "metal",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 63,
+      "triangle_start": 2576,
+      "triangle_count": 32
+    },
+    {
+      "name": "Industrial chamfered mailbox service door",
+      "surface": "metal",
+      "color_role": "teal",
+      "atlas_cell_top_left_index": 22,
+      "triangle_start": 2608,
+      "triangle_count": 44
+    },
+    {
+      "name": "Industrial mailbox rigid upper lid",
+      "surface": "metal",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 20,
+      "triangle_start": 2652,
+      "triangle_count": 44
+    },
+    {
+      "name": "Industrial mailbox front drip edge",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 2696,
+      "triangle_count": 44
+    },
+    {
+      "name": "Industrial mailbox side vent backing",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 2740,
+      "triangle_count": 44
+    },
+    {
+      "name": "Industrial bench arm end cap left",
+      "surface": "metal",
+      "color_role": "teal",
+      "atlas_cell_top_left_index": 22,
+      "triangle_start": 2784,
+      "triangle_count": 44
+    },
+    {
+      "name": "Industrial bench arm end cap right",
+      "surface": "metal",
+      "color_role": "teal",
+      "atlas_cell_top_left_index": 22,
+      "triangle_start": 2828,
+      "triangle_count": 44
+    },
+    {
+      "name": "Industrial mailbox side cooling rib 1",
+      "surface": "metal",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 20,
+      "triangle_start": 2872,
+      "triangle_count": 44
+    },
+    {
+      "name": "Industrial mailbox side cooling rib 2",
+      "surface": "metal",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 20,
+      "triangle_start": 2916,
+      "triangle_count": 44
+    },
+    {
+      "name": "Industrial mailbox side cooling rib 3",
+      "surface": "metal",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 20,
+      "triangle_start": 2960,
+      "triangle_count": 44
+    },
+    {
+      "name": "Industrial mailbox side cooling rib 4",
+      "surface": "metal",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 20,
+      "triangle_start": 3004,
+      "triangle_count": 44
+    },
+    {
+      "name": "Industrial mailbox side cooling rib 5",
+      "surface": "metal",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 20,
+      "triangle_start": 3048,
+      "triangle_count": 44
+    },
+    {
+      "name": "Industrial mailbox anchor screw 1",
+      "surface": "metal",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 63,
+      "triangle_start": 3092,
+      "triangle_count": 32
+    },
+    {
+      "name": "Industrial mailbox anchor screw 2",
+      "surface": "metal",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 63,
+      "triangle_start": 3124,
+      "triangle_count": 32
+    },
+    {
+      "name": "Industrial mailbox anchor screw 3",
+      "surface": "metal",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 63,
+      "triangle_start": 3156,
+      "triangle_count": 32
+    },
+    {
+      "name": "Industrial mailbox anchor screw 4",
+      "surface": "metal",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 63,
+      "triangle_start": 3188,
+      "triangle_count": 32
+    },
+    {
+      "name": "Industrial bench rear joint gusset 1",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 3220,
+      "triangle_count": 44
+    },
+    {
+      "name": "Industrial bench rear joint gusset 2",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 3264,
+      "triangle_count": 44
+    }
+  ]
+}

@@ -1,0 +1,3522 @@
+{
+  "name": "bread_cart",
+  "style_direction": "endfield_pbr_anime",
+  "atlas": "atlases/endfield_pbr_atlas_runtime1024.png",
+  "uv_origin": "top-left image / glTF convention",
+  "parts": [
+    {
+      "name": "Cart underframe",
+      "shape": "box",
+      "position": [
+        0,
+        0.08,
+        0.42
+      ],
+      "size": [
+        1.92,
+        0.95,
+        0.12
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0.015,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Counter golden edge",
+      "shape": "box",
+      "position": [
+        0,
+        0,
+        1.04
+      ],
+      "size": [
+        2.13,
+        1.12,
+        0.12
+      ],
+      "color_role": "brass",
+      "surface": "metal",
+      "bevel": 0.025,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Bread display counter",
+      "shape": "box",
+      "position": [
+        0,
+        -0.03,
+        1.1
+      ],
+      "size": [
+        1.99,
+        1.02,
+        0.045
+      ],
+      "color_role": "wood_honey",
+      "surface": "paint",
+      "bevel": 0.009,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Deep storage back",
+      "shape": "box",
+      "position": [
+        0,
+        0.44,
+        0.72
+      ],
+      "size": [
+        1.8,
+        0.075,
+        0.56
+      ],
+      "color_role": "cream",
+      "surface": "metal",
+      "bevel": 0.018,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Cart side storage wall",
+      "shape": "box",
+      "position": [
+        -0.9,
+        0.04,
+        0.73
+      ],
+      "size": [
+        0.1,
+        0.86,
+        0.54
+      ],
+      "color_role": "cream",
+      "surface": "metal",
+      "bevel": 0.02,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Cart side storage wall",
+      "shape": "box",
+      "position": [
+        0.9,
+        0.04,
+        0.73
+      ],
+      "size": [
+        0.1,
+        0.86,
+        0.54
+      ],
+      "color_role": "cream",
+      "surface": "metal",
+      "bevel": 0.02,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Industrial painted front panel",
+      "shape": "box",
+      "position": [
+        0,
+        -0.473,
+        0.75
+      ],
+      "size": [
+        1.8,
+        0.026,
+        0.46
+      ],
+      "color_role": "teal",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Apron framing board",
+      "shape": "box",
+      "position": [
+        -0.87,
+        -0.498,
+        0.75
+      ],
+      "size": [
+        0.11,
+        0.06,
+        0.53
+      ],
+      "color_role": "brass",
+      "surface": "metal",
+      "bevel": 0.012,
+      "rotation": [
+        0,
+        -0.043500000000000004,
+        0
+      ]
+    },
+    {
+      "name": "Apron framing board",
+      "shape": "box",
+      "position": [
+        0.87,
+        -0.498,
+        0.75
+      ],
+      "size": [
+        0.11,
+        0.06,
+        0.53
+      ],
+      "color_role": "brass",
+      "surface": "metal",
+      "bevel": 0.012,
+      "rotation": [
+        0,
+        0.043500000000000004,
+        0
+      ]
+    },
+    {
+      "name": "Interior storage floor board",
+      "shape": "box",
+      "position": [
+        -0.7,
+        0.04,
+        0.5
+      ],
+      "size": [
+        0.44,
+        0.85,
+        0.065
+      ],
+      "color_role": "wood_medium",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Interior storage floor board",
+      "shape": "box",
+      "position": [
+        -0.22999999999999998,
+        0.04,
+        0.5
+      ],
+      "size": [
+        0.44,
+        0.85,
+        0.065
+      ],
+      "color_role": "wood_medium",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Interior storage floor board",
+      "shape": "box",
+      "position": [
+        0.24,
+        0.04,
+        0.5
+      ],
+      "size": [
+        0.44,
+        0.85,
+        0.065
+      ],
+      "color_role": "wood_medium",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Interior storage floor board",
+      "shape": "box",
+      "position": [
+        0.71,
+        0.04,
+        0.5
+      ],
+      "size": [
+        0.44,
+        0.85,
+        0.065
+      ],
+      "color_role": "wood_medium",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Cart wooden wheel",
+      "shape": "torus",
+      "position": [
+        -1.0,
+        0.1,
+        0.34
+      ],
+      "major_radius": 0.28,
+      "minor_radius": 0.05,
+      "segments": 16,
+      "minor_segments": 5,
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal"
+    },
+    {
+      "name": "Wheel spoke",
+      "shape": "beam",
+      "position": [
+        -1.0,
+        0.2224999964237213,
+        0.3400000035762787
+      ],
+      "size": [
+        0.034,
+        0.034,
+        0.24500000476837158
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -1.0,
+        0.10000000149011612,
+        0.3400000035762787
+      ],
+      "b": [
+        -1.0,
+        0.3449999988079071,
+        0.3400000035762787
+      ],
+      "width": 0.034
+    },
+    {
+      "name": "Wheel spoke",
+      "shape": "beam",
+      "position": [
+        -1.0,
+        0.16124999523162842,
+        0.44608813524246216
+      ],
+      "size": [
+        0.034,
+        0.034,
+        0.24500000476837158
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -1.0,
+        0.10000000149011612,
+        0.3400000035762787
+      ],
+      "b": [
+        -1.0,
+        0.2224999964237213,
+        0.5521762371063232
+      ],
+      "width": 0.034
+    },
+    {
+      "name": "Wheel spoke",
+      "shape": "beam",
+      "position": [
+        -1.0,
+        0.038750000298023224,
+        0.44608813524246216
+      ],
+      "size": [
+        0.034,
+        0.034,
+        0.24500001966953278
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -1.0,
+        0.10000000149011612,
+        0.3400000035762787
+      ],
+      "b": [
+        -1.0,
+        -0.02250000089406967,
+        0.5521762371063232
+      ],
+      "width": 0.034
+    },
+    {
+      "name": "Wheel spoke",
+      "shape": "beam",
+      "position": [
+        -1.0,
+        -0.022499997168779373,
+        0.3400000035762787
+      ],
+      "size": [
+        0.034,
+        0.034,
+        0.24500000476837158
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -1.0,
+        0.10000000149011612,
+        0.3400000035762787
+      ],
+      "b": [
+        -1.0,
+        -0.14499999582767487,
+        0.3400000035762787
+      ],
+      "width": 0.034
+    },
+    {
+      "name": "Wheel spoke",
+      "shape": "beam",
+      "position": [
+        -1.0,
+        0.038750000298023224,
+        0.2339118868112564
+      ],
+      "size": [
+        0.034,
+        0.034,
+        0.24500001966953278
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -1.0,
+        0.10000000149011612,
+        0.3400000035762787
+      ],
+      "b": [
+        -1.0,
+        -0.02250000089406967,
+        0.12782377004623413
+      ],
+      "width": 0.034
+    },
+    {
+      "name": "Wheel spoke",
+      "shape": "beam",
+      "position": [
+        -1.0,
+        0.16124999523162842,
+        0.2339118868112564
+      ],
+      "size": [
+        0.034,
+        0.034,
+        0.24500000476837158
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -1.0,
+        0.10000000149011612,
+        0.3400000035762787
+      ],
+      "b": [
+        -1.0,
+        0.2224999964237213,
+        0.12782377004623413
+      ],
+      "width": 0.034
+    },
+    {
+      "name": "Wheel brass hub",
+      "shape": "cylinder",
+      "position": [
+        -1.0,
+        0.1,
+        0.34
+      ],
+      "radius": 0.071,
+      "height": 0.15,
+      "radius_top": 0.071,
+      "segments": 12,
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color_role": "brass",
+      "surface": "metal"
+    },
+    {
+      "name": "Cart wooden wheel",
+      "shape": "torus",
+      "position": [
+        1.0,
+        0.1,
+        0.34
+      ],
+      "major_radius": 0.28,
+      "minor_radius": 0.05,
+      "segments": 16,
+      "minor_segments": 5,
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal"
+    },
+    {
+      "name": "Wheel spoke",
+      "shape": "beam",
+      "position": [
+        1.0,
+        0.2224999964237213,
+        0.3400000035762787
+      ],
+      "size": [
+        0.034,
+        0.034,
+        0.24500000476837158
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        1.0,
+        0.10000000149011612,
+        0.3400000035762787
+      ],
+      "b": [
+        1.0,
+        0.3449999988079071,
+        0.3400000035762787
+      ],
+      "width": 0.034
+    },
+    {
+      "name": "Wheel spoke",
+      "shape": "beam",
+      "position": [
+        1.0,
+        0.16124999523162842,
+        0.44608813524246216
+      ],
+      "size": [
+        0.034,
+        0.034,
+        0.24500000476837158
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        1.0,
+        0.10000000149011612,
+        0.3400000035762787
+      ],
+      "b": [
+        1.0,
+        0.2224999964237213,
+        0.5521762371063232
+      ],
+      "width": 0.034
+    },
+    {
+      "name": "Wheel spoke",
+      "shape": "beam",
+      "position": [
+        1.0,
+        0.038750000298023224,
+        0.44608813524246216
+      ],
+      "size": [
+        0.034,
+        0.034,
+        0.24500001966953278
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        1.0,
+        0.10000000149011612,
+        0.3400000035762787
+      ],
+      "b": [
+        1.0,
+        -0.02250000089406967,
+        0.5521762371063232
+      ],
+      "width": 0.034
+    },
+    {
+      "name": "Wheel spoke",
+      "shape": "beam",
+      "position": [
+        1.0,
+        -0.022499997168779373,
+        0.3400000035762787
+      ],
+      "size": [
+        0.034,
+        0.034,
+        0.24500000476837158
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        1.0,
+        0.10000000149011612,
+        0.3400000035762787
+      ],
+      "b": [
+        1.0,
+        -0.14499999582767487,
+        0.3400000035762787
+      ],
+      "width": 0.034
+    },
+    {
+      "name": "Wheel spoke",
+      "shape": "beam",
+      "position": [
+        1.0,
+        0.038750000298023224,
+        0.2339118868112564
+      ],
+      "size": [
+        0.034,
+        0.034,
+        0.24500001966953278
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        1.0,
+        0.10000000149011612,
+        0.3400000035762787
+      ],
+      "b": [
+        1.0,
+        -0.02250000089406967,
+        0.12782377004623413
+      ],
+      "width": 0.034
+    },
+    {
+      "name": "Wheel spoke",
+      "shape": "beam",
+      "position": [
+        1.0,
+        0.16124999523162842,
+        0.2339118868112564
+      ],
+      "size": [
+        0.034,
+        0.034,
+        0.24500000476837158
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        1.0,
+        0.10000000149011612,
+        0.3400000035762787
+      ],
+      "b": [
+        1.0,
+        0.2224999964237213,
+        0.12782377004623413
+      ],
+      "width": 0.034
+    },
+    {
+      "name": "Wheel brass hub",
+      "shape": "cylinder",
+      "position": [
+        1.0,
+        0.1,
+        0.34
+      ],
+      "radius": 0.071,
+      "height": 0.15,
+      "radius_top": 0.071,
+      "segments": 12,
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "color_role": "brass",
+      "surface": "metal"
+    },
+    {
+      "name": "Wheel axle",
+      "shape": "beam",
+      "position": [
+        0.0,
+        0.10000000149011612,
+        0.3400000035762787
+      ],
+      "size": [
+        0.058,
+        0.058,
+        2.059999942779541
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -1.0299999713897705,
+        0.10000000149011612,
+        0.3400000035762787
+      ],
+      "b": [
+        1.0299999713897705,
+        0.10000000149011612,
+        0.3400000035762787
+      ],
+      "width": 0.058
+    },
+    {
+      "name": "Awning post",
+      "shape": "box",
+      "position": [
+        -0.82,
+        0.38,
+        1.35
+      ],
+      "size": [
+        0.077,
+        0.08,
+        1.88
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0.009,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Post carved cap",
+      "shape": "cylinder",
+      "position": [
+        -0.82,
+        0.38,
+        2.3
+      ],
+      "radius": 0.073,
+      "height": 0.06,
+      "radius_top": 0.073,
+      "segments": 8,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color_role": "brass",
+      "surface": "metal"
+    },
+    {
+      "name": "Awning post",
+      "shape": "box",
+      "position": [
+        0.82,
+        0.38,
+        1.35
+      ],
+      "size": [
+        0.077,
+        0.08,
+        1.88
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0.009,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Post carved cap",
+      "shape": "cylinder",
+      "position": [
+        0.82,
+        0.38,
+        2.3
+      ],
+      "radius": 0.073,
+      "height": 0.06,
+      "radius_top": 0.073,
+      "segments": 8,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color_role": "brass",
+      "surface": "metal"
+    },
+    {
+      "name": "Awning rear spreader",
+      "shape": "beam",
+      "position": [
+        0.0,
+        0.5699999928474426,
+        2.1700000762939453
+      ],
+      "size": [
+        0.05,
+        0.05,
+        2.140000104904175
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        -1.0700000524520874,
+        0.5699999928474426,
+        2.1700000762939453
+      ],
+      "b": [
+        1.0700000524520874,
+        0.5699999928474426,
+        2.1700000762939453
+      ],
+      "width": 0.05
+    },
+    {
+      "name": "Industrial kiosk awning",
+      "shape": "box",
+      "position": [
+        0,
+        -0.01,
+        2.13
+      ],
+      "size": [
+        2.24,
+        1.12,
+        0.11
+      ],
+      "color_role": "cream",
+      "surface": "metal",
+      "bevel": 0.023,
+      "rotation": [
+        0.06,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Canopy service edge",
+      "shape": "box",
+      "position": [
+        0,
+        -0.56,
+        2.06
+      ],
+      "size": [
+        2.3,
+        0.075,
+        0.17
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0.014,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Safety marker",
+      "shape": "box",
+      "position": [
+        -0.9,
+        -0.603,
+        2.07
+      ],
+      "size": [
+        0.11,
+        0.012,
+        0.06
+      ],
+      "color_role": "brass",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Safety marker",
+      "shape": "box",
+      "position": [
+        -0.45,
+        -0.603,
+        2.07
+      ],
+      "size": [
+        0.11,
+        0.012,
+        0.06
+      ],
+      "color_role": "brass",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Safety marker",
+      "shape": "box",
+      "position": [
+        0.0,
+        -0.603,
+        2.07
+      ],
+      "size": [
+        0.11,
+        0.012,
+        0.06
+      ],
+      "color_role": "brass",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Safety marker",
+      "shape": "box",
+      "position": [
+        0.45000000000000007,
+        -0.603,
+        2.07
+      ],
+      "size": [
+        0.11,
+        0.012,
+        0.06
+      ],
+      "color_role": "brass",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Safety marker",
+      "shape": "box",
+      "position": [
+        0.9,
+        -0.603,
+        2.07
+      ],
+      "size": [
+        0.11,
+        0.012,
+        0.06
+      ],
+      "color_role": "brass",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Pastry tray base",
+      "shape": "box",
+      "position": [
+        -0.64,
+        -0.19,
+        1.15
+      ],
+      "size": [
+        0.52,
+        0.4,
+        0.045
+      ],
+      "color_role": "cream",
+      "surface": "metal",
+      "bevel": 0.013,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Pastry tray side",
+      "shape": "box",
+      "position": [
+        -0.89,
+        -0.19,
+        1.19
+      ],
+      "size": [
+        0.03,
+        0.4,
+        0.075
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Pastry tray side",
+      "shape": "box",
+      "position": [
+        -0.39,
+        -0.19,
+        1.19
+      ],
+      "size": [
+        0.03,
+        0.4,
+        0.075
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Pastry tray lip",
+      "shape": "box",
+      "position": [
+        -0.64,
+        -0.38,
+        1.19
+      ],
+      "size": [
+        0.52,
+        0.027,
+        0.075
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Pastry tray lip",
+      "shape": "box",
+      "position": [
+        -0.64,
+        0.0,
+        1.19
+      ],
+      "size": [
+        0.52,
+        0.027,
+        0.075
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Golden baguette",
+      "shape": "ellipsoid",
+      "position": [
+        -0.8,
+        -0.19,
+        1.26
+      ],
+      "radii": [
+        0.08,
+        0.19,
+        0.078
+      ],
+      "color_role": "bread_crust",
+      "surface": "paint",
+      "segments": 10,
+      "rings": 5,
+      "rotation": [
+        0,
+        0,
+        0.13
+      ]
+    },
+    {
+      "name": "Baguette hand-scored cut",
+      "shape": "box",
+      "position": [
+        -0.8,
+        -0.265,
+        1.325
+      ],
+      "size": [
+        0.068,
+        0.012,
+        0.013
+      ],
+      "color_role": "bread_cut",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        -0.35
+      ]
+    },
+    {
+      "name": "Baguette hand-scored cut",
+      "shape": "box",
+      "position": [
+        -0.8,
+        -0.19,
+        1.325
+      ],
+      "size": [
+        0.068,
+        0.012,
+        0.013
+      ],
+      "color_role": "bread_cut",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        -0.35
+      ]
+    },
+    {
+      "name": "Baguette hand-scored cut",
+      "shape": "box",
+      "position": [
+        -0.8,
+        -0.115,
+        1.325
+      ],
+      "size": [
+        0.068,
+        0.012,
+        0.013
+      ],
+      "color_role": "bread_cut",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        -0.35
+      ]
+    },
+    {
+      "name": "Golden baguette",
+      "shape": "ellipsoid",
+      "position": [
+        -0.64,
+        -0.19,
+        1.26
+      ],
+      "radii": [
+        0.08,
+        0.19,
+        0.078
+      ],
+      "color_role": "bread_crust",
+      "surface": "paint",
+      "segments": 10,
+      "rings": 5,
+      "rotation": [
+        0,
+        0,
+        0.13
+      ]
+    },
+    {
+      "name": "Baguette hand-scored cut",
+      "shape": "box",
+      "position": [
+        -0.64,
+        -0.265,
+        1.325
+      ],
+      "size": [
+        0.068,
+        0.012,
+        0.013
+      ],
+      "color_role": "bread_cut",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        -0.35
+      ]
+    },
+    {
+      "name": "Baguette hand-scored cut",
+      "shape": "box",
+      "position": [
+        -0.64,
+        -0.19,
+        1.325
+      ],
+      "size": [
+        0.068,
+        0.012,
+        0.013
+      ],
+      "color_role": "bread_cut",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        -0.35
+      ]
+    },
+    {
+      "name": "Baguette hand-scored cut",
+      "shape": "box",
+      "position": [
+        -0.64,
+        -0.115,
+        1.325
+      ],
+      "size": [
+        0.068,
+        0.012,
+        0.013
+      ],
+      "color_role": "bread_cut",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        -0.35
+      ]
+    },
+    {
+      "name": "Golden baguette",
+      "shape": "ellipsoid",
+      "position": [
+        -0.48000000000000004,
+        -0.19,
+        1.26
+      ],
+      "radii": [
+        0.08,
+        0.19,
+        0.078
+      ],
+      "color_role": "bread_crust",
+      "surface": "paint",
+      "segments": 10,
+      "rings": 5,
+      "rotation": [
+        0,
+        0,
+        0.13
+      ]
+    },
+    {
+      "name": "Baguette hand-scored cut",
+      "shape": "box",
+      "position": [
+        -0.48000000000000004,
+        -0.265,
+        1.325
+      ],
+      "size": [
+        0.068,
+        0.012,
+        0.013
+      ],
+      "color_role": "bread_cut",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        -0.35
+      ]
+    },
+    {
+      "name": "Baguette hand-scored cut",
+      "shape": "box",
+      "position": [
+        -0.48000000000000004,
+        -0.19,
+        1.325
+      ],
+      "size": [
+        0.068,
+        0.012,
+        0.013
+      ],
+      "color_role": "bread_cut",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        -0.35
+      ]
+    },
+    {
+      "name": "Baguette hand-scored cut",
+      "shape": "box",
+      "position": [
+        -0.48000000000000004,
+        -0.115,
+        1.325
+      ],
+      "size": [
+        0.068,
+        0.012,
+        0.013
+      ],
+      "color_role": "bread_cut",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        -0.35
+      ]
+    },
+    {
+      "name": "Pastry tray base",
+      "shape": "box",
+      "position": [
+        0.02,
+        -0.07,
+        1.15
+      ],
+      "size": [
+        0.52,
+        0.4,
+        0.045
+      ],
+      "color_role": "cream",
+      "surface": "metal",
+      "bevel": 0.013,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Pastry tray side",
+      "shape": "box",
+      "position": [
+        -0.23,
+        -0.07,
+        1.19
+      ],
+      "size": [
+        0.03,
+        0.4,
+        0.075
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Pastry tray side",
+      "shape": "box",
+      "position": [
+        0.27,
+        -0.07,
+        1.19
+      ],
+      "size": [
+        0.03,
+        0.4,
+        0.075
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Pastry tray lip",
+      "shape": "box",
+      "position": [
+        0.02,
+        -0.26,
+        1.19
+      ],
+      "size": [
+        0.52,
+        0.027,
+        0.075
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Pastry tray lip",
+      "shape": "box",
+      "position": [
+        0.02,
+        0.12,
+        1.19
+      ],
+      "size": [
+        0.52,
+        0.027,
+        0.075
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Round crusty roll",
+      "shape": "ellipsoid",
+      "position": [
+        0.135,
+        -0.07,
+        1.25
+      ],
+      "radii": [
+        0.105,
+        0.098,
+        0.085
+      ],
+      "color_role": "bread_crust",
+      "surface": "paint",
+      "segments": 10,
+      "rings": 5,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Roll cut",
+      "shape": "box",
+      "position": [
+        0.135,
+        -0.07,
+        1.327
+      ],
+      "size": [
+        0.1,
+        0.015,
+        0.01
+      ],
+      "color_role": "bread_cut",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0.0
+      ]
+    },
+    {
+      "name": "Round crusty roll",
+      "shape": "ellipsoid",
+      "position": [
+        -0.03805730202898362,
+        0.016320936664887375,
+        1.25
+      ],
+      "radii": [
+        0.105,
+        0.098,
+        0.085
+      ],
+      "color_role": "bread_crust",
+      "surface": "paint",
+      "segments": 10,
+      "rings": 5,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Roll cut",
+      "shape": "box",
+      "position": [
+        -0.03805730202898362,
+        0.016320936664887375,
+        1.327
+      ],
+      "size": [
+        0.1,
+        0.015,
+        0.01
+      ],
+      "color_role": "bread_cut",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        2.1
+      ]
+    },
+    {
+      "name": "Round crusty roll",
+      "shape": "ellipsoid",
+      "position": [
+        -0.03637999445418044,
+        -0.15715757724135881,
+        1.25
+      ],
+      "radii": [
+        0.105,
+        0.098,
+        0.085
+      ],
+      "color_role": "bread_crust",
+      "surface": "paint",
+      "segments": 10,
+      "rings": 5,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Roll cut",
+      "shape": "box",
+      "position": [
+        -0.03637999445418044,
+        -0.15715757724135881,
+        1.327
+      ],
+      "size": [
+        0.1,
+        0.015,
+        0.01
+      ],
+      "color_role": "bread_cut",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        4.2
+      ]
+    },
+    {
+      "name": "Pastry tray base",
+      "shape": "box",
+      "position": [
+        0.66,
+        0.07,
+        1.15
+      ],
+      "size": [
+        0.52,
+        0.4,
+        0.045
+      ],
+      "color_role": "cream",
+      "surface": "metal",
+      "bevel": 0.013,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Pastry tray side",
+      "shape": "box",
+      "position": [
+        0.41000000000000003,
+        0.07,
+        1.19
+      ],
+      "size": [
+        0.03,
+        0.4,
+        0.075
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Pastry tray side",
+      "shape": "box",
+      "position": [
+        0.91,
+        0.07,
+        1.19
+      ],
+      "size": [
+        0.03,
+        0.4,
+        0.075
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Pastry tray lip",
+      "shape": "box",
+      "position": [
+        0.66,
+        -0.12,
+        1.19
+      ],
+      "size": [
+        0.52,
+        0.027,
+        0.075
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Pastry tray lip",
+      "shape": "box",
+      "position": [
+        0.66,
+        0.26,
+        1.19
+      ],
+      "size": [
+        0.52,
+        0.027,
+        0.075
+      ],
+      "color_role": "metal_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Curved croissant segment",
+      "shape": "ellipsoid",
+      "position": [
+        0.7331542044814524,
+        -0.12532238954444988,
+        1.25
+      ],
+      "radii": [
+        0.065,
+        0.045,
+        0.06
+      ],
+      "color_role": "bread_crust",
+      "surface": "paint",
+      "segments": 8,
+      "rings": 4,
+      "rotation": [
+        0,
+        0,
+        -0.6000000000000001
+      ]
+    },
+    {
+      "name": "Curved croissant segment",
+      "shape": "ellipsoid",
+      "position": [
+        0.760910821022631,
+        -0.07901734309923193,
+        1.25
+      ],
+      "radii": [
+        0.065,
+        0.045,
+        0.06
+      ],
+      "color_role": "wood_honey",
+      "surface": "paint",
+      "segments": 8,
+      "rings": 4,
+      "rotation": [
+        0,
+        0,
+        -0.08000000000000002
+      ]
+    },
+    {
+      "name": "Curved croissant segment",
+      "shape": "ellipsoid",
+      "position": [
+        0.7619904873594632,
+        -0.02504122422515086,
+        1.25
+      ],
+      "radii": [
+        0.065,
+        0.045,
+        0.06
+      ],
+      "color_role": "bread_crust",
+      "surface": "paint",
+      "segments": 8,
+      "rings": 4,
+      "rotation": [
+        0,
+        0,
+        0.44
+      ]
+    },
+    {
+      "name": "Curved croissant segment",
+      "shape": "ellipsoid",
+      "position": [
+        0.7361077811277951,
+        0.0223367517366079,
+        1.25
+      ],
+      "radii": [
+        0.065,
+        0.045,
+        0.06
+      ],
+      "color_role": "wood_honey",
+      "surface": "paint",
+      "segments": 8,
+      "rings": 4,
+      "rotation": [
+        0,
+        0,
+        0.96
+      ]
+    },
+    {
+      "name": "Curved croissant segment",
+      "shape": "ellipsoid",
+      "position": [
+        0.7331542044814524,
+        0.06467761045555012,
+        1.25
+      ],
+      "radii": [
+        0.065,
+        0.045,
+        0.06
+      ],
+      "color_role": "bread_crust",
+      "surface": "paint",
+      "segments": 8,
+      "rings": 4,
+      "rotation": [
+        0,
+        0,
+        -0.6000000000000001
+      ]
+    },
+    {
+      "name": "Curved croissant segment",
+      "shape": "ellipsoid",
+      "position": [
+        0.760910821022631,
+        0.11098265690076807,
+        1.25
+      ],
+      "radii": [
+        0.065,
+        0.045,
+        0.06
+      ],
+      "color_role": "wood_honey",
+      "surface": "paint",
+      "segments": 8,
+      "rings": 4,
+      "rotation": [
+        0,
+        0,
+        -0.08000000000000002
+      ]
+    },
+    {
+      "name": "Curved croissant segment",
+      "shape": "ellipsoid",
+      "position": [
+        0.7619904873594632,
+        0.16495877577484913,
+        1.25
+      ],
+      "radii": [
+        0.065,
+        0.045,
+        0.06
+      ],
+      "color_role": "bread_crust",
+      "surface": "paint",
+      "segments": 8,
+      "rings": 4,
+      "rotation": [
+        0,
+        0,
+        0.44
+      ]
+    },
+    {
+      "name": "Curved croissant segment",
+      "shape": "ellipsoid",
+      "position": [
+        0.7361077811277951,
+        0.2123367517366079,
+        1.25
+      ],
+      "radii": [
+        0.065,
+        0.045,
+        0.06
+      ],
+      "color_role": "wood_honey",
+      "surface": "paint",
+      "segments": 8,
+      "rings": 4,
+      "rotation": [
+        0,
+        0,
+        0.96
+      ]
+    },
+    {
+      "name": "Folded indigo tea towel",
+      "shape": "box",
+      "position": [
+        0.42,
+        -0.48,
+        1.139
+      ],
+      "size": [
+        0.36,
+        0.24,
+        0.025
+      ],
+      "color_role": "cloth_blue",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        -0.11
+      ]
+    },
+    {
+      "name": "Wrapping paper stack",
+      "shape": "box",
+      "position": [
+        0.78,
+        -0.35,
+        1.161
+      ],
+      "size": [
+        0.29,
+        0.22,
+        0.018
+      ],
+      "color_role": "cream",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0.1
+      ]
+    },
+    {
+      "name": "Small glaze jar",
+      "shape": "lathe",
+      "position": [
+        -0.77,
+        0.29,
+        1.13
+      ],
+      "profile": [
+        [
+          0.07150000000000001,
+          0
+        ],
+        [
+          0.08800000000000001,
+          0.04
+        ],
+        [
+          0.10339999999999999,
+          0.15600000000000003
+        ],
+        [
+          0.11,
+          0.18200000000000002
+        ],
+        [
+          0.11,
+          0.2
+        ],
+        [
+          0.0946,
+          0.2
+        ],
+        [
+          0.09019999999999999,
+          0.17200000000000001
+        ]
+      ],
+      "segments": 12,
+      "color_role": "teal",
+      "surface": "paint"
+    },
+    {
+      "name": "Jar cork",
+      "shape": "cylinder",
+      "position": [
+        -0.77,
+        0.29,
+        1.345
+      ],
+      "radius": 0.06,
+      "height": 0.044,
+      "radius_top": 0.06,
+      "segments": 10,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color_role": "wood_medium",
+      "surface": "paint"
+    },
+    {
+      "name": "Bakery hanging sign",
+      "shape": "box",
+      "position": [
+        0.92,
+        -0.57,
+        1.66
+      ],
+      "size": [
+        0.36,
+        0.06,
+        0.34
+      ],
+      "color_role": "cream",
+      "surface": "paint",
+      "bevel": 0.017,
+      "rotation": [
+        0,
+        -0.07,
+        0.04
+      ]
+    },
+    {
+      "name": "Badge bread icon",
+      "shape": "ellipsoid",
+      "position": [
+        0.92,
+        -0.608,
+        1.66
+      ],
+      "radii": [
+        0.105,
+        0.014,
+        0.065
+      ],
+      "color_role": "bread_crust",
+      "surface": "paint",
+      "segments": 10,
+      "rings": 5,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Badge cut mark",
+      "shape": "box",
+      "position": [
+        0.86,
+        -0.625,
+        1.67
+      ],
+      "size": [
+        0.016,
+        0.008,
+        0.06
+      ],
+      "color_role": "bread_cut",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        -0.28,
+        0
+      ]
+    },
+    {
+      "name": "Badge cut mark",
+      "shape": "box",
+      "position": [
+        0.915,
+        -0.625,
+        1.67
+      ],
+      "size": [
+        0.016,
+        0.008,
+        0.06
+      ],
+      "color_role": "bread_cut",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        -0.28,
+        0
+      ]
+    },
+    {
+      "name": "Badge cut mark",
+      "shape": "box",
+      "position": [
+        0.97,
+        -0.625,
+        1.67
+      ],
+      "size": [
+        0.016,
+        0.008,
+        0.06
+      ],
+      "color_role": "bread_cut",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        -0.28,
+        0
+      ]
+    },
+    {
+      "name": "Badge suspension cord",
+      "shape": "beam",
+      "position": [
+        0.800000011920929,
+        -0.5699999928474426,
+        1.9700000286102295
+      ],
+      "size": [
+        0.008,
+        0.008,
+        0.2599998712539673
+      ],
+      "color_role": "wood_dark",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        0.800000011920929,
+        -0.5699999928474426,
+        1.840000033378601
+      ],
+      "b": [
+        0.800000011920929,
+        -0.5699999928474426,
+        2.0999999046325684
+      ],
+      "width": 0.008
+    },
+    {
+      "name": "Badge suspension cord",
+      "shape": "beam",
+      "position": [
+        1.0099999904632568,
+        -0.5699999928474426,
+        1.9700000286102295
+      ],
+      "size": [
+        0.008,
+        0.008,
+        0.2599998712539673
+      ],
+      "color_role": "wood_dark",
+      "surface": "paint",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        1.0099999904632568,
+        -0.5699999928474426,
+        1.840000033378601
+      ],
+      "b": [
+        1.0099999904632568,
+        -0.5699999928474426,
+        2.0999999046325684
+      ],
+      "width": 0.008
+    },
+    {
+      "name": "Asymmetric planter shelf",
+      "shape": "box",
+      "position": [
+        1.17,
+        0.15,
+        0.57
+      ],
+      "size": [
+        0.48,
+        0.56,
+        0.082
+      ],
+      "color_role": "wood_honey",
+      "surface": "paint",
+      "bevel": 0.018,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Planter shelf support",
+      "shape": "beam",
+      "position": [
+        1.350000023841858,
+        0.1599999964237213,
+        0.32999998331069946
+      ],
+      "size": [
+        0.075,
+        0.075,
+        0.3999999761581421
+      ],
+      "color_role": "wood_dark",
+      "surface": "metal",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        1.350000023841858,
+        0.1599999964237213,
+        0.12999999523162842
+      ],
+      "b": [
+        1.350000023841858,
+        0.1599999964237213,
+        0.5299999713897705
+      ],
+      "width": 0.075
+    },
+    {
+      "name": "Blue herb planter",
+      "shape": "lathe",
+      "position": [
+        1.16,
+        0.13,
+        0.62
+      ],
+      "profile": [
+        [
+          0.11699999999999999,
+          0
+        ],
+        [
+          0.144,
+          0.04
+        ],
+        [
+          0.1692,
+          0.1794
+        ],
+        [
+          0.18,
+          0.2093
+        ],
+        [
+          0.18,
+          0.23
+        ],
+        [
+          0.1548,
+          0.23
+        ],
+        [
+          0.14759999999999998,
+          0.1978
+        ]
+      ],
+      "segments": 12,
+      "color_role": "cloth_blue",
+      "surface": "paint"
+    },
+    {
+      "name": "Herb cut stem",
+      "shape": "beam",
+      "position": [
+        1.2100000381469727,
+        0.12999999523162842,
+        0.9249999523162842
+      ],
+      "size": [
+        0.014,
+        0.014,
+        0.2325940579175949
+      ],
+      "color_role": "leaf_dark",
+      "surface": "leaf",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        1.159999966621399,
+        0.12999999523162842,
+        0.8199999928474426
+      ],
+      "b": [
+        1.2599999904632568,
+        0.12999999523162842,
+        1.0299999713897705
+      ],
+      "width": 0.014
+    },
+    {
+      "name": "Large painted herb leaf",
+      "shape": "mesh",
+      "vertices": [
+        [
+          1.2599999904632568,
+          0.12999999523162842,
+          1.0299999713897705
+        ],
+        [
+          1.409999966621399,
+          0.18699999153614044,
+          1.056999921798706
+        ],
+        [
+          1.559999942779541,
+          0.12999999523162842,
+          1.0839999914169312
+        ],
+        [
+          1.409999966621399,
+          0.0729999989271164,
+          1.056999921798706
+        ],
+        [
+          1.409999966621399,
+          0.12999999523162842,
+          1.083999921798706
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          3,
+          0,
+          4
+        ]
+      ],
+      "color_role": "leaf_dark",
+      "surface": "leaf",
+      "smooth": false
+    },
+    {
+      "name": "Herb cut stem",
+      "shape": "beam",
+      "position": [
+        1.135190486907959,
+        0.164728581905365,
+        0.9550000429153442
+      ],
+      "size": [
+        0.014,
+        0.014,
+        0.2831719219684601
+      ],
+      "color_role": "leaf_dark",
+      "surface": "leaf",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        1.159999966621399,
+        0.12999999523162842,
+        0.8199999928474426
+      ],
+      "b": [
+        1.1103811264038086,
+        0.19945716857910156,
+        1.090000033378601
+      ],
+      "width": 0.014
+    },
+    {
+      "name": "Large painted herb leaf",
+      "shape": "mesh",
+      "vertices": [
+        [
+          1.1103811264038086,
+          0.19945716857910156,
+          1.090000033378601
+        ],
+        [
+          0.9864645600318909,
+          0.3014066219329834,
+          1.1169999837875366
+        ],
+        [
+          0.9615244269371033,
+          0.45992156863212585,
+          1.1440000534057617
+        ],
+        [
+          1.085440993309021,
+          0.3579721450805664,
+          1.1169999837875366
+        ],
+        [
+          1.0359528064727783,
+          0.3296893835067749,
+          1.1439999837875365
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          3,
+          0,
+          4
+        ]
+      ],
+      "color_role": "leaf_light",
+      "surface": "leaf",
+      "smooth": false
+    },
+    {
+      "name": "Herb cut stem",
+      "shape": "beam",
+      "position": [
+        1.1346203088760376,
+        0.09553612023591995,
+        0.9249999523162842
+      ],
+      "size": [
+        0.014,
+        0.014,
+        0.2267763912677765
+      ],
+      "color_role": "leaf_dark",
+      "surface": "leaf",
+      "bevel": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        1.159999966621399,
+        0.12999999523162842,
+        0.8199999928474426
+      ],
+      "b": [
+        1.1092406511306763,
+        0.061072248965501785,
+        1.0299999713897705
+      ],
+      "width": 0.014
+    },
+    {
+      "name": "Large painted herb leaf",
+      "shape": "mesh",
+      "vertices": [
+        [
+          1.1092406511306763,
+          0.061072248965501785,
+          1.0299999713897705
+        ],
+        [
+          1.0822126865386963,
+          -0.09710010886192322,
+          1.056999921798706
+        ],
+        [
+          0.9569627046585083,
+          -0.1974068433046341,
+          1.0839999914169312
+        ],
+        [
+          0.9839906692504883,
+          -0.03923448920249939,
+          1.056999921798706
+        ],
+        [
+          1.0331016778945923,
+          -0.0681672990322113,
+          1.083999921798706
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          3,
+          0,
+          4
+        ]
+      ],
+      "color_role": "leaf_dark",
+      "surface": "leaf",
+      "smooth": false
+    },
+    {
+      "name": "Soft flour sack",
+      "shape": "ellipsoid",
+      "position": [
+        -0.55,
+        0.1,
+        0.66
+      ],
+      "radii": [
+        0.21,
+        0.2,
+        0.25
+      ],
+      "color_role": "cream",
+      "surface": "paint",
+      "segments": 10,
+      "rings": 5,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Flour sack tie",
+      "shape": "cylinder",
+      "position": [
+        -0.55,
+        0.1,
+        0.9
+      ],
+      "radius": 0.068,
+      "height": 0.04,
+      "radius_top": 0.068,
+      "segments": 8,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color_role": "cloth_coral",
+      "surface": "paint"
+    }
+  ],
+  "compiled_parts": [
+    {
+      "name": "Cart underframe",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 0,
+      "triangle_count": 44
+    },
+    {
+      "name": "Counter golden edge",
+      "surface": "metal",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 63,
+      "triangle_start": 44,
+      "triangle_count": 44
+    },
+    {
+      "name": "Bread display counter",
+      "surface": "paint",
+      "color_role": "wood_honey",
+      "atlas_cell_top_left_index": 6,
+      "triangle_start": 88,
+      "triangle_count": 44
+    },
+    {
+      "name": "Deep storage back",
+      "surface": "metal",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 20,
+      "triangle_start": 132,
+      "triangle_count": 44
+    },
+    {
+      "name": "Cart side storage wall",
+      "surface": "metal",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 20,
+      "triangle_start": 176,
+      "triangle_count": 44
+    },
+    {
+      "name": "Cart side storage wall",
+      "surface": "metal",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 20,
+      "triangle_start": 220,
+      "triangle_count": 44
+    },
+    {
+      "name": "Industrial painted front panel",
+      "surface": "metal",
+      "color_role": "teal",
+      "atlas_cell_top_left_index": 22,
+      "triangle_start": 264,
+      "triangle_count": 12
+    },
+    {
+      "name": "Apron framing board",
+      "surface": "metal",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 63,
+      "triangle_start": 276,
+      "triangle_count": 44
+    },
+    {
+      "name": "Apron framing board",
+      "surface": "metal",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 63,
+      "triangle_start": 320,
+      "triangle_count": 44
+    },
+    {
+      "name": "Interior storage floor board",
+      "surface": "paint",
+      "color_role": "wood_medium",
+      "atlas_cell_top_left_index": 4,
+      "triangle_start": 364,
+      "triangle_count": 12
+    },
+    {
+      "name": "Interior storage floor board",
+      "surface": "paint",
+      "color_role": "wood_medium",
+      "atlas_cell_top_left_index": 4,
+      "triangle_start": 376,
+      "triangle_count": 12
+    },
+    {
+      "name": "Interior storage floor board",
+      "surface": "paint",
+      "color_role": "wood_medium",
+      "atlas_cell_top_left_index": 4,
+      "triangle_start": 388,
+      "triangle_count": 12
+    },
+    {
+      "name": "Interior storage floor board",
+      "surface": "paint",
+      "color_role": "wood_medium",
+      "atlas_cell_top_left_index": 4,
+      "triangle_start": 400,
+      "triangle_count": 12
+    },
+    {
+      "name": "Cart wooden wheel",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 412,
+      "triangle_count": 160
+    },
+    {
+      "name": "Wheel spoke",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 572,
+      "triangle_count": 12
+    },
+    {
+      "name": "Wheel spoke",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 584,
+      "triangle_count": 12
+    },
+    {
+      "name": "Wheel spoke",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 596,
+      "triangle_count": 12
+    },
+    {
+      "name": "Wheel spoke",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 608,
+      "triangle_count": 12
+    },
+    {
+      "name": "Wheel spoke",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 620,
+      "triangle_count": 12
+    },
+    {
+      "name": "Wheel spoke",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 632,
+      "triangle_count": 12
+    },
+    {
+      "name": "Wheel brass hub",
+      "surface": "metal",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 63,
+      "triangle_start": 644,
+      "triangle_count": 48
+    },
+    {
+      "name": "Cart wooden wheel",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 692,
+      "triangle_count": 160
+    },
+    {
+      "name": "Wheel spoke",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 852,
+      "triangle_count": 12
+    },
+    {
+      "name": "Wheel spoke",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 864,
+      "triangle_count": 12
+    },
+    {
+      "name": "Wheel spoke",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 876,
+      "triangle_count": 12
+    },
+    {
+      "name": "Wheel spoke",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 888,
+      "triangle_count": 12
+    },
+    {
+      "name": "Wheel spoke",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 900,
+      "triangle_count": 12
+    },
+    {
+      "name": "Wheel spoke",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 912,
+      "triangle_count": 12
+    },
+    {
+      "name": "Wheel brass hub",
+      "surface": "metal",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 63,
+      "triangle_start": 924,
+      "triangle_count": 48
+    },
+    {
+      "name": "Wheel axle",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 972,
+      "triangle_count": 12
+    },
+    {
+      "name": "Awning post",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 984,
+      "triangle_count": 44
+    },
+    {
+      "name": "Post carved cap",
+      "surface": "metal",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 63,
+      "triangle_start": 1028,
+      "triangle_count": 32
+    },
+    {
+      "name": "Awning post",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 1060,
+      "triangle_count": 44
+    },
+    {
+      "name": "Post carved cap",
+      "surface": "metal",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 63,
+      "triangle_start": 1104,
+      "triangle_count": 32
+    },
+    {
+      "name": "Awning rear spreader",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 1136,
+      "triangle_count": 12
+    },
+    {
+      "name": "Industrial kiosk awning",
+      "surface": "metal",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 20,
+      "triangle_start": 1148,
+      "triangle_count": 44
+    },
+    {
+      "name": "Canopy service edge",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 1192,
+      "triangle_count": 44
+    },
+    {
+      "name": "Safety marker",
+      "surface": "paint",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 63,
+      "triangle_start": 1236,
+      "triangle_count": 12
+    },
+    {
+      "name": "Safety marker",
+      "surface": "paint",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 63,
+      "triangle_start": 1248,
+      "triangle_count": 12
+    },
+    {
+      "name": "Safety marker",
+      "surface": "paint",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 63,
+      "triangle_start": 1260,
+      "triangle_count": 12
+    },
+    {
+      "name": "Safety marker",
+      "surface": "paint",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 63,
+      "triangle_start": 1272,
+      "triangle_count": 12
+    },
+    {
+      "name": "Safety marker",
+      "surface": "paint",
+      "color_role": "brass",
+      "atlas_cell_top_left_index": 63,
+      "triangle_start": 1284,
+      "triangle_count": 12
+    },
+    {
+      "name": "Pastry tray base",
+      "surface": "metal",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 20,
+      "triangle_start": 1296,
+      "triangle_count": 44
+    },
+    {
+      "name": "Pastry tray side",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 1340,
+      "triangle_count": 12
+    },
+    {
+      "name": "Pastry tray side",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 1352,
+      "triangle_count": 12
+    },
+    {
+      "name": "Pastry tray lip",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 1364,
+      "triangle_count": 12
+    },
+    {
+      "name": "Pastry tray lip",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 1376,
+      "triangle_count": 12
+    },
+    {
+      "name": "Golden baguette",
+      "surface": "paint",
+      "color_role": "bread_crust",
+      "atlas_cell_top_left_index": 52,
+      "triangle_start": 1388,
+      "triangle_count": 80
+    },
+    {
+      "name": "Baguette hand-scored cut",
+      "surface": "paint",
+      "color_role": "bread_cut",
+      "atlas_cell_top_left_index": 55,
+      "triangle_start": 1468,
+      "triangle_count": 12
+    },
+    {
+      "name": "Baguette hand-scored cut",
+      "surface": "paint",
+      "color_role": "bread_cut",
+      "atlas_cell_top_left_index": 55,
+      "triangle_start": 1480,
+      "triangle_count": 12
+    },
+    {
+      "name": "Baguette hand-scored cut",
+      "surface": "paint",
+      "color_role": "bread_cut",
+      "atlas_cell_top_left_index": 55,
+      "triangle_start": 1492,
+      "triangle_count": 12
+    },
+    {
+      "name": "Golden baguette",
+      "surface": "paint",
+      "color_role": "bread_crust",
+      "atlas_cell_top_left_index": 52,
+      "triangle_start": 1504,
+      "triangle_count": 80
+    },
+    {
+      "name": "Baguette hand-scored cut",
+      "surface": "paint",
+      "color_role": "bread_cut",
+      "atlas_cell_top_left_index": 55,
+      "triangle_start": 1584,
+      "triangle_count": 12
+    },
+    {
+      "name": "Baguette hand-scored cut",
+      "surface": "paint",
+      "color_role": "bread_cut",
+      "atlas_cell_top_left_index": 55,
+      "triangle_start": 1596,
+      "triangle_count": 12
+    },
+    {
+      "name": "Baguette hand-scored cut",
+      "surface": "paint",
+      "color_role": "bread_cut",
+      "atlas_cell_top_left_index": 55,
+      "triangle_start": 1608,
+      "triangle_count": 12
+    },
+    {
+      "name": "Golden baguette",
+      "surface": "paint",
+      "color_role": "bread_crust",
+      "atlas_cell_top_left_index": 52,
+      "triangle_start": 1620,
+      "triangle_count": 80
+    },
+    {
+      "name": "Baguette hand-scored cut",
+      "surface": "paint",
+      "color_role": "bread_cut",
+      "atlas_cell_top_left_index": 55,
+      "triangle_start": 1700,
+      "triangle_count": 12
+    },
+    {
+      "name": "Baguette hand-scored cut",
+      "surface": "paint",
+      "color_role": "bread_cut",
+      "atlas_cell_top_left_index": 55,
+      "triangle_start": 1712,
+      "triangle_count": 12
+    },
+    {
+      "name": "Baguette hand-scored cut",
+      "surface": "paint",
+      "color_role": "bread_cut",
+      "atlas_cell_top_left_index": 55,
+      "triangle_start": 1724,
+      "triangle_count": 12
+    },
+    {
+      "name": "Pastry tray base",
+      "surface": "metal",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 20,
+      "triangle_start": 1736,
+      "triangle_count": 44
+    },
+    {
+      "name": "Pastry tray side",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 1780,
+      "triangle_count": 12
+    },
+    {
+      "name": "Pastry tray side",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 1792,
+      "triangle_count": 12
+    },
+    {
+      "name": "Pastry tray lip",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 1804,
+      "triangle_count": 12
+    },
+    {
+      "name": "Pastry tray lip",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 1816,
+      "triangle_count": 12
+    },
+    {
+      "name": "Round crusty roll",
+      "surface": "paint",
+      "color_role": "bread_crust",
+      "atlas_cell_top_left_index": 52,
+      "triangle_start": 1828,
+      "triangle_count": 80
+    },
+    {
+      "name": "Roll cut",
+      "surface": "paint",
+      "color_role": "bread_cut",
+      "atlas_cell_top_left_index": 55,
+      "triangle_start": 1908,
+      "triangle_count": 12
+    },
+    {
+      "name": "Round crusty roll",
+      "surface": "paint",
+      "color_role": "bread_crust",
+      "atlas_cell_top_left_index": 52,
+      "triangle_start": 1920,
+      "triangle_count": 80
+    },
+    {
+      "name": "Roll cut",
+      "surface": "paint",
+      "color_role": "bread_cut",
+      "atlas_cell_top_left_index": 55,
+      "triangle_start": 2000,
+      "triangle_count": 12
+    },
+    {
+      "name": "Round crusty roll",
+      "surface": "paint",
+      "color_role": "bread_crust",
+      "atlas_cell_top_left_index": 52,
+      "triangle_start": 2012,
+      "triangle_count": 80
+    },
+    {
+      "name": "Roll cut",
+      "surface": "paint",
+      "color_role": "bread_cut",
+      "atlas_cell_top_left_index": 55,
+      "triangle_start": 2092,
+      "triangle_count": 12
+    },
+    {
+      "name": "Pastry tray base",
+      "surface": "metal",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 20,
+      "triangle_start": 2104,
+      "triangle_count": 44
+    },
+    {
+      "name": "Pastry tray side",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 2148,
+      "triangle_count": 12
+    },
+    {
+      "name": "Pastry tray side",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 2160,
+      "triangle_count": 12
+    },
+    {
+      "name": "Pastry tray lip",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 2172,
+      "triangle_count": 12
+    },
+    {
+      "name": "Pastry tray lip",
+      "surface": "metal",
+      "color_role": "metal_dark",
+      "atlas_cell_top_left_index": 17,
+      "triangle_start": 2184,
+      "triangle_count": 12
+    },
+    {
+      "name": "Curved croissant segment",
+      "surface": "paint",
+      "color_role": "bread_crust",
+      "atlas_cell_top_left_index": 52,
+      "triangle_start": 2196,
+      "triangle_count": 48
+    },
+    {
+      "name": "Curved croissant segment",
+      "surface": "paint",
+      "color_role": "wood_honey",
+      "atlas_cell_top_left_index": 6,
+      "triangle_start": 2244,
+      "triangle_count": 48
+    },
+    {
+      "name": "Curved croissant segment",
+      "surface": "paint",
+      "color_role": "bread_crust",
+      "atlas_cell_top_left_index": 52,
+      "triangle_start": 2292,
+      "triangle_count": 48
+    },
+    {
+      "name": "Curved croissant segment",
+      "surface": "paint",
+      "color_role": "wood_honey",
+      "atlas_cell_top_left_index": 6,
+      "triangle_start": 2340,
+      "triangle_count": 48
+    },
+    {
+      "name": "Curved croissant segment",
+      "surface": "paint",
+      "color_role": "bread_crust",
+      "atlas_cell_top_left_index": 52,
+      "triangle_start": 2388,
+      "triangle_count": 48
+    },
+    {
+      "name": "Curved croissant segment",
+      "surface": "paint",
+      "color_role": "wood_honey",
+      "atlas_cell_top_left_index": 6,
+      "triangle_start": 2436,
+      "triangle_count": 48
+    },
+    {
+      "name": "Curved croissant segment",
+      "surface": "paint",
+      "color_role": "bread_crust",
+      "atlas_cell_top_left_index": 52,
+      "triangle_start": 2484,
+      "triangle_count": 48
+    },
+    {
+      "name": "Curved croissant segment",
+      "surface": "paint",
+      "color_role": "wood_honey",
+      "atlas_cell_top_left_index": 6,
+      "triangle_start": 2532,
+      "triangle_count": 48
+    },
+    {
+      "name": "Folded indigo tea towel",
+      "surface": "paint",
+      "color_role": "cloth_blue",
+      "atlas_cell_top_left_index": 36,
+      "triangle_start": 2580,
+      "triangle_count": 12
+    },
+    {
+      "name": "Wrapping paper stack",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 32,
+      "triangle_start": 2592,
+      "triangle_count": 12
+    },
+    {
+      "name": "Small glaze jar",
+      "surface": "paint",
+      "color_role": "teal",
+      "atlas_cell_top_left_index": 45,
+      "triangle_start": 2604,
+      "triangle_count": 164
+    },
+    {
+      "name": "Jar cork",
+      "surface": "paint",
+      "color_role": "wood_medium",
+      "atlas_cell_top_left_index": 4,
+      "triangle_start": 2768,
+      "triangle_count": 40
+    },
+    {
+      "name": "Bakery hanging sign",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 44,
+      "triangle_start": 2808,
+      "triangle_count": 44
+    },
+    {
+      "name": "Badge bread icon",
+      "surface": "paint",
+      "color_role": "bread_crust",
+      "atlas_cell_top_left_index": 52,
+      "triangle_start": 2852,
+      "triangle_count": 80
+    },
+    {
+      "name": "Badge cut mark",
+      "surface": "paint",
+      "color_role": "bread_cut",
+      "atlas_cell_top_left_index": 55,
+      "triangle_start": 2932,
+      "triangle_count": 12
+    },
+    {
+      "name": "Badge cut mark",
+      "surface": "paint",
+      "color_role": "bread_cut",
+      "atlas_cell_top_left_index": 55,
+      "triangle_start": 2944,
+      "triangle_count": 12
+    },
+    {
+      "name": "Badge cut mark",
+      "surface": "paint",
+      "color_role": "bread_cut",
+      "atlas_cell_top_left_index": 55,
+      "triangle_start": 2956,
+      "triangle_count": 12
+    },
+    {
+      "name": "Badge suspension cord",
+      "surface": "paint",
+      "color_role": "wood_dark",
+      "atlas_cell_top_left_index": 1,
+      "triangle_start": 2968,
+      "triangle_count": 12
+    },
+    {
+      "name": "Badge suspension cord",
+      "surface": "paint",
+      "color_role": "wood_dark",
+      "atlas_cell_top_left_index": 1,
+      "triangle_start": 2980,
+      "triangle_count": 12
+    },
+    {
+      "name": "Asymmetric planter shelf",
+      "surface": "paint",
+      "color_role": "wood_honey",
+      "atlas_cell_top_left_index": 6,
+      "triangle_start": 2992,
+      "triangle_count": 44
+    },
+    {
+      "name": "Planter shelf support",
+      "surface": "metal",
+      "color_role": "wood_dark",
+      "atlas_cell_top_left_index": 1,
+      "triangle_start": 3036,
+      "triangle_count": 12
+    },
+    {
+      "name": "Blue herb planter",
+      "surface": "paint",
+      "color_role": "cloth_blue",
+      "atlas_cell_top_left_index": 45,
+      "triangle_start": 3048,
+      "triangle_count": 164
+    },
+    {
+      "name": "Herb cut stem",
+      "surface": "leaf",
+      "color_role": "leaf_dark",
+      "atlas_cell_top_left_index": 48,
+      "triangle_start": 3212,
+      "triangle_count": 12
+    },
+    {
+      "name": "Large painted herb leaf",
+      "surface": "leaf",
+      "color_role": "leaf_dark",
+      "atlas_cell_top_left_index": 48,
+      "triangle_start": 3224,
+      "triangle_count": 4
+    },
+    {
+      "name": "Herb cut stem",
+      "surface": "leaf",
+      "color_role": "leaf_dark",
+      "atlas_cell_top_left_index": 48,
+      "triangle_start": 3228,
+      "triangle_count": 12
+    },
+    {
+      "name": "Large painted herb leaf",
+      "surface": "leaf",
+      "color_role": "leaf_light",
+      "atlas_cell_top_left_index": 57,
+      "triangle_start": 3240,
+      "triangle_count": 4
+    },
+    {
+      "name": "Herb cut stem",
+      "surface": "leaf",
+      "color_role": "leaf_dark",
+      "atlas_cell_top_left_index": 48,
+      "triangle_start": 3244,
+      "triangle_count": 12
+    },
+    {
+      "name": "Large painted herb leaf",
+      "surface": "leaf",
+      "color_role": "leaf_dark",
+      "atlas_cell_top_left_index": 48,
+      "triangle_start": 3256,
+      "triangle_count": 4
+    },
+    {
+      "name": "Soft flour sack",
+      "surface": "paint",
+      "color_role": "cream",
+      "atlas_cell_top_left_index": 32,
+      "triangle_start": 3260,
+      "triangle_count": 80
+    },
+    {
+      "name": "Flour sack tie",
+      "surface": "paint",
+      "color_role": "cloth_coral",
+      "atlas_cell_top_left_index": 35,
+      "triangle_start": 3340,
+      "triangle_count": 32
+    }
+  ]
+}

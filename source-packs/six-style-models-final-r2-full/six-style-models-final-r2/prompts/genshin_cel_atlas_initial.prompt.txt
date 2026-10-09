@@ -1,0 +1,15 @@
+Use case: style-transfer
+Asset type: production game albedo texture atlas, not a presentation or object render.
+Edit target: the attached existing approved flower-stall texture atlas.
+Primary request: transform the heavy oil swatches into a premium hand-painted anime action-RPG cel-material atlas. Preserve the exact regular 8 by 8 square grid, every tile boundary, edge-to-edge square canvas, and the base color identity of every corresponding cell, including repeated colors. The reference is the UV color layout, not the desired brush style.
+Style: controlled elegant cel-painted surfaces with 3 to 5 large irregular clean-edged tonal planes in each tile, subtle broad hand-painted streaks, asymmetric broad shapes and crisp illustrated edge accents inside each swatch. Large low-frequency painted forms, attractive warm and cool tint variation, about 18 to 28 percent value variation. Each swatch should read as a crafted painted material surface at small game-prop scale, never a flat single-color chip. Clean anime material art with restrained line-like accents that are part of the internal surface, not outlines of tile borders. No thick oil bristles, impasto ridges, photograph grain, fine noise or canvas overlay.
+Color invariants, rows from TOP, cells left to right:
+Row 1: teal, pale sage, ivory, deep navy, dark warm brown, sienna, ochre gold, pale gold.
+Row 2: rose magenta, salmon pink, forest green, leaf green, golden ochre, pale butter yellow, deep violet, light violet.
+Row 3: dark warm brown, sienna, ochre gold, pale gold, vermilion red, coral orange, cobalt blue, sky blue.
+Row 4: golden ochre, pale butter yellow, deep violet, light violet, teal, pale sage, ivory, deep navy.
+Row 5: vermilion red, coral orange, cobalt blue, sky blue, rose magenta, salmon pink, forest green, leaf green.
+Row 6: teal, pale sage, ivory, deep navy, dark warm brown, sienna, ochre gold, pale gold.
+Row 7: rose magenta, salmon pink, forest green, leaf green, golden ochre, pale butter yellow, deep violet, light violet.
+Row 8: dark warm brown, sienna, ochre gold, pale gold, vermilion red, coral orange, cobalt blue, sky blue.
+Constraints: EXACTLY eight columns and eight rows of equal square full-bleed tiles with perfectly straight shared boundaries, square image, no margins or spacing. Each cell fills its square all the way to its edge, with no border. The grid must completely fill the image. Flat evenly lit diffuse texture. No cast shadows, ambient occlusion, glossy lighting, 3D objects, scenery, perspective, sphere previews, letters, labels, numbers, logos, watermarks, grid lines, gutters, borders or atlas decoration. Output only the texture pixels.
