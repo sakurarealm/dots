@@ -1,0 +1,541 @@
+{
+  "title": "Aether历史代码审查恢复报告",
+  "recovered_on": "2026-10-09",
+  "time_zone": "UTC",
+  "status": "部分恢复；原始完整台账未恢复",
+  "scope": "根据保留的聊天证据重建历史结论，不是当前源码审查报告",
+  "counts": {
+    "source_messages": 13,
+    "specific_historical_findings": 11,
+    "a08a401_summary_clues": 4,
+    "historical_worktree_summary_clues": 3,
+    "historical_aggregate_themes": 5,
+    "historical_claimed_total": 173,
+    "original_173_item_ledger_recovered": false
+  },
+  "findings": [
+    {
+      "title": "L形体素断裂可能漏分离",
+      "snapshot": "ad23d926",
+      "evidence_type": "具体历史发现",
+      "original_finding_id": null,
+      "original_priority": "P2",
+      "trigger": "挖掉L形三块体素中的连接块",
+      "impact": "方向种子提前返回，可能漏掉另一块已断开的部分，仍共用原刚体",
+      "source_locations": [
+        "VoxelVolumeFracture.cs:540–546"
+      ],
+      "message_id": "Sentinel_72e08a60bdb08191b06850d8df6d7942",
+      "sent_at": "2026-10-09T06:10:52.596201+00:00",
+      "repair_status": "当前修复状态未核实；可能已在后续版本修复",
+      "evidence_gap": "缺原始逐项报告、源码摘录及完整调用链；未核对当前源码，也无游戏实测证据"
+    },
+    {
+      "title": "分离碎块丢染色",
+      "snapshot": "ad23d926",
+      "evidence_type": "具体历史发现",
+      "original_finding_id": null,
+      "original_priority": "P2",
+      "trigger": "已上色体素分离为碎块",
+      "impact": "碎块蓝图只复制体素，不复制染色通道，导致颜色丢失",
+      "source_locations": [
+        "VoxelVolumeFracture.cs:723–729"
+      ],
+      "message_id": "Sentinel_72e08a60bdb08191b06850d8df6d7942",
+      "sent_at": "2026-10-09T06:10:52.596201+00:00",
+      "repair_status": "当前修复状态未核实；可能已在后续版本修复",
+      "evidence_gap": "缺原始逐项报告、源码摘录及完整调用链；未核对当前源码，也无游戏实测证据"
+    },
+    {
+      "title": "群系索引压缩串号",
+      "snapshot": "ad23d926",
+      "evidence_type": "具体历史发现",
+      "original_finding_id": null,
+      "original_priority": null,
+      "trigger": "群系索引超过255后保存",
+      "impact": "索引被压成byte，群系可能串号",
+      "source_locations": [
+        "Chunk.cs:1261"
+      ],
+      "message_id": "Sentinel_fc2c9ba0ffa48191b523d48e53a4037f",
+      "sent_at": "2026-10-09T00:49:49.002568+00:00",
+      "repair_status": "当前修复状态未核实；可能已在后续版本修复",
+      "evidence_gap": "缺原始逐项报告、源码摘录及完整调用链；未核对当前源码，也无游戏实测证据"
+    },
+    {
+      "title": "烘焙群系与运行时变种混淆",
+      "snapshot": "ad23d926",
+      "evidence_type": "具体历史发现",
+      "original_finding_id": null,
+      "original_priority": null,
+      "trigger": "进行群系变种注册或清理；更具体前置状态未恢复",
+      "impact": "注册或清理会混淆已烘焙群系与运行时变种，存在存档风险",
+      "source_locations": [
+        "ExpeditionBiomeVariants.cs:929–940"
+      ],
+      "message_id": "Sentinel_fc2c9ba0ffa48191b523d48e53a4037f",
+      "sent_at": "2026-10-09T00:49:49.002568+00:00",
+      "repair_status": "当前修复状态未核实；可能已在后续版本修复",
+      "evidence_gap": "缺具体注册序列、群系数据和逐项源码证据；当前状态未核实"
+    },
+    {
+      "title": "高危命令确认可能跨世界生效",
+      "snapshot": "ad23d926",
+      "evidence_type": "具体历史发现",
+      "original_finding_id": null,
+      "original_priority": null,
+      "trigger": "高危命令处于30秒待确认有效期内，换档后输入“确认”",
+      "impact": "旧命令可能作用到新世界；退出只清撤销栈，未清待确认命令",
+      "source_locations": [
+        "Assets/Scripts/OpNL/OpScriptGuard.cs:18–20、59–74",
+        "Commands/CommandOp.cs:51–56",
+        "App.cs:457–460"
+      ],
+      "message_id": "Sentinel_0fe0552185d88191b89e77a5066fe499",
+      "sent_at": "2026-10-09T02:54:52.150170+00:00",
+      "repair_status": "当前修复状态未核实；可能已在后续版本修复",
+      "evidence_gap": "缺原始逐项报告、源码摘录及完整调用链；未核对当前源码，也无游戏实测证据"
+    },
+    {
+      "title": "组合按键可能遗漏结束录音",
+      "snapshot": "ad23d926",
+      "evidence_type": "具体历史发现",
+      "original_finding_id": null,
+      "original_priority": null,
+      "trigger": "按住V录音，再按Alt并松开V",
+      "impact": "结束录音可能遗漏；下次松开V可能把中间多说的话一起送去识别",
+      "source_locations": [
+        "VoiceAgentChatInput.cs:82–94、297–339"
+      ],
+      "message_id": "Sentinel_f297690a9ebc8191a01f741d0ab8d4ec",
+      "sent_at": "2026-10-09T01:24:49.219344+00:00",
+      "repair_status": "当前修复状态未核实；可能已在后续版本修复",
+      "evidence_gap": "缺原始逐项报告、源码摘录及完整调用链；未核对当前源码，也无游戏实测证据"
+    },
+    {
+      "title": "WorldEdit移动到未加载区块可能丢方块",
+      "snapshot": "ad23d926",
+      "evidence_type": "具体历史发现",
+      "original_finding_id": null,
+      "original_priority": null,
+      "trigger": "执行 /we move，目标区块未加载",
+      "impact": "先清空原选区，写入目标失败却仍提示移动完成，且无回滚",
+      "source_locations": [
+        "WorldEditSession.cs:568–599",
+        "ChunkSystem.cs:1499–1510",
+        "CommandWe.cs:410–424"
+      ],
+      "message_id": "Sentinel_e420a89e75b88191a9bbc6fe08d88e41",
+      "sent_at": "2026-10-09T04:47:25.410283+00:00",
+      "repair_status": "当前修复状态未核实；可能已在后续版本修复",
+      "evidence_gap": "缺原始逐项报告、源码摘录及完整调用链；未核对当前源码，也无游戏实测证据"
+    },
+    {
+      "title": "商店取下物品丢附加数据",
+      "snapshot": "ad23d926",
+      "evidence_type": "具体历史发现",
+      "original_finding_id": null,
+      "original_priority": null,
+      "trigger": "物品上架后再取下；原例为保存了干员数据的胶囊",
+      "impact": "重建物品时附加数据丢失；再次使用胶囊可能生成新干员，使原培养和背包信息丢失",
+      "source_locations": [],
+      "message_id": "Sentinel_da07e6d789c88191bfd578792ebed89e",
+      "sent_at": "2026-10-08T21:26:47.060604+00:00",
+      "repair_status": "当前修复状态未核实；可能已在后续版本修复",
+      "evidence_gap": "聊天有触发链与后果，但未恢复文件名、行号、原始源码摘录或条目编号；当前修复状态未核实"
+    },
+    {
+      "title": "元素爆发特效空引用",
+      "snapshot": "ad23d926",
+      "evidence_type": "具体历史发现",
+      "original_finding_id": null,
+      "original_priority": "P1",
+      "trigger": "正常水水晶施放；原文称风和木爆发也受影响",
+      "impact": "创建爆发特效未赋transform，后续直接使用，可能在生成水体前空引用",
+      "source_locations": [
+        "ElementVfx.cs:145",
+        "ElementVfx.cs:86"
+      ],
+      "message_id": "Sentinel_285ba69e71d881918255c3271e82df9b",
+      "sent_at": "2026-10-09T02:02:02.991656+00:00",
+      "repair_status": "当前修复状态未核实；可能已在后续版本修复",
+      "evidence_gap": "缺原始逐项报告、源码摘录及完整调用链；未核对当前源码，也无游戏实测证据"
+    },
+    {
+      "title": "载入画布后再次保存丢PNG",
+      "snapshot": "未注明SHA的固定版本",
+      "evidence_type": "具体历史发现",
+      "original_finding_id": null,
+      "original_priority": null,
+      "trigger": "画布载入后没有重新涂画，再保存一次，随后读档",
+      "impact": "保存时PNG被遗漏，下次读档画作消失",
+      "source_locations": [],
+      "message_id": "Sentinel_89def352e50c819186c65a92767ce289",
+      "sent_at": "2026-10-09T04:05:03.810434+00:00",
+      "repair_status": "当前修复状态未核实；可能已在后续版本修复",
+      "evidence_gap": "原消息称已核对画布保存与实体存档两条调用路径，但没有列出文件名、行号或SHA；不能仅凭时间邻近归入ad23d926"
+    },
+    {
+      "title": "背包满时拾取仍销毁地面物品",
+      "snapshot": "ad23d926",
+      "evidence_type": "具体历史发现",
+      "original_finding_id": null,
+      "original_priority": "P1",
+      "trigger": "背包满时拾取地面物品",
+      "impact": "入包失败返回值被忽略，地面实体仍被销毁，还可能累计采集进度",
+      "source_locations": [],
+      "message_id": "Sentinel_c77e9c91d1b48191a471edffcf847be9",
+      "sent_at": "2026-10-08T19:49:18.248309+00:00",
+      "repair_status": "当前修复状态未核实；可能已在后续版本修复",
+      "evidence_gap": "已恢复原消息与触发条件；文件名、行号、源码摘录和原始条目编号仍未恢复；当前修复状态未核实"
+    },
+    {
+      "title": "实体主存档损坏时备份可能进一步丢失",
+      "snapshot": "a08a401",
+      "evidence_type": "摘要线索",
+      "original_finding_id": null,
+      "original_priority": null,
+      "trigger": "实体存档损坏后继续保存",
+      "impact": "未恢复有效备份，后续保存还可能删除有效备份",
+      "source_locations": [],
+      "message_id": "Sentinel_171c3188df188191b842cb7b594dd11f",
+      "sent_at": "2026-10-08T15:43:29.417476+00:00",
+      "repair_status": "当前修复状态未核实；可能已在后续版本修复",
+      "evidence_gap": "仅恢复首轮9项风险的摘要之一；缺条目编号、文件行号与完整触发证据，不代表9项全部恢复"
+    },
+    {
+      "title": "否定停止指令被当成取消任务",
+      "snapshot": "a08a401",
+      "evidence_type": "摘要线索",
+      "original_finding_id": null,
+      "original_priority": null,
+      "trigger": "输入“不要停止”",
+      "impact": "反而取消任务",
+      "source_locations": [],
+      "message_id": "Sentinel_171c3188df188191b842cb7b594dd11f",
+      "sent_at": "2026-10-08T15:43:29.417476+00:00",
+      "repair_status": "当前修复状态未核实；可能已在后续版本修复",
+      "evidence_gap": "仅恢复首轮9项风险的摘要之一；缺条目编号、文件行号与完整触发证据，不代表9项全部恢复"
+    },
+    {
+      "title": "旧异步规划覆盖新指令",
+      "snapshot": "a08a401",
+      "evidence_type": "摘要线索",
+      "original_finding_id": null,
+      "original_priority": null,
+      "trigger": "旧异步规划与新指令先后交错；精确时序未恢复",
+      "impact": "异步规划覆盖新指令",
+      "source_locations": [],
+      "message_id": "Sentinel_171c3188df188191b842cb7b594dd11f",
+      "sent_at": "2026-10-08T15:43:29.417476+00:00",
+      "repair_status": "当前修复状态未核实；可能已在后续版本修复",
+      "evidence_gap": "仅恢复首轮9项风险的摘要之一；缺条目编号、文件行号与完整触发证据，不代表9项全部恢复"
+    },
+    {
+      "title": "施工漏放仍报告成功",
+      "snapshot": "a08a401",
+      "evidence_type": "摘要线索",
+      "original_finding_id": null,
+      "original_priority": null,
+      "trigger": "施工发生漏放；精确前置条件未恢复",
+      "impact": "报告成功与实际施工结果不一致",
+      "source_locations": [],
+      "message_id": "Sentinel_171c3188df188191b842cb7b594dd11f",
+      "sent_at": "2026-10-08T15:43:29.417476+00:00",
+      "repair_status": "当前修复状态未核实；可能已在后续版本修复",
+      "evidence_gap": "仅恢复首轮9项风险的摘要之一；缺条目编号、文件行号与完整触发证据，不代表9项全部恢复"
+    },
+    {
+      "title": "主存档缺失时有效备份可能覆盖",
+      "snapshot": "2026-10-08 当时的Aether R2工作树；SHA未注明",
+      "evidence_type": "工作树摘要线索",
+      "original_finding_id": null,
+      "original_priority": null,
+      "trigger": "缺主存档时；覆盖发生的精确保存顺序未恢复",
+      "impact": "有效备份可能被覆盖",
+      "source_locations": [],
+      "message_id": "Sentinel_d85801f195248191b6ab7aaa9e834527",
+      "sent_at": "2026-10-08T17:33:15.645069+00:00",
+      "repair_status": "当前修复状态未核实；可能已在后续版本修复",
+      "evidence_gap": "仅恢复当时工作树摘要；没有SHA、文件行号、旧条目映射或修复提交，不可当作当前工作树结论"
+    },
+    {
+      "title": "旧异步图纸覆盖新任务",
+      "snapshot": "2026-10-08 当时的Aether R2工作树；SHA未注明",
+      "evidence_type": "工作树摘要线索",
+      "original_finding_id": null,
+      "original_priority": null,
+      "trigger": "旧异步图纸完成与新任务交错；精确时序未恢复",
+      "impact": "旧结果覆盖新任务",
+      "source_locations": [],
+      "message_id": "Sentinel_d85801f195248191b6ab7aaa9e834527",
+      "sent_at": "2026-10-08T17:33:15.645069+00:00",
+      "repair_status": "当前修复状态未核实；可能已在后续版本修复",
+      "evidence_gap": "仅恢复当时工作树摘要；没有SHA、文件行号、旧条目映射或修复提交，不可当作当前工作树结论"
+    },
+    {
+      "title": "否定开工语句误触发开工",
+      "snapshot": "2026-10-08 当时的Aether R2工作树；SHA未注明",
+      "evidence_type": "工作树摘要线索",
+      "original_finding_id": null,
+      "original_priority": null,
+      "trigger": "输入“不要开造”",
+      "impact": "被误当成开工",
+      "source_locations": [],
+      "message_id": "Sentinel_d85801f195248191b6ab7aaa9e834527",
+      "sent_at": "2026-10-08T17:33:15.645069+00:00",
+      "repair_status": "当前修复状态未核实；可能已在后续版本修复",
+      "evidence_gap": "仅恢复当时工作树摘要；没有SHA、文件行号、旧条目映射或修复提交，不可当作当前工作树结论"
+    },
+    {
+      "title": "仓库取料循环可能阻塞主线程",
+      "snapshot": "2026-10-08 09:11汇总中的固定历史版本；SHA未注明",
+      "evidence_type": "历史汇总主题",
+      "original_finding_id": null,
+      "original_priority": null,
+      "trigger": "特定仓库预留条件；具体状态未恢复",
+      "impact": "取料循环可能不再前进，阻塞主线程",
+      "source_locations": [],
+      "message_id": "Sentinel_e01f3dd147b08191b25e6c760a978793",
+      "sent_at": "2026-10-08T09:11:48.401153+00:00",
+      "repair_status": "当前修复状态未核实；可能已在后续版本修复",
+      "evidence_gap": "仅为173条历史汇总中的主题示例；一个主题可能包含多条，亦可能与其他时期重复，无法恢复原始条目数或编号"
+    },
+    {
+      "title": "赠送衣服可能复制物品",
+      "snapshot": "2026-10-08 09:11汇总中的固定历史版本；SHA未注明",
+      "evidence_type": "历史汇总主题",
+      "original_finding_id": null,
+      "original_priority": null,
+      "trigger": "赠送衣服；精确分支未恢复",
+      "impact": "未扣玩家原件，可重复生成衣服",
+      "source_locations": [],
+      "message_id": "Sentinel_e01f3dd147b08191b25e6c760a978793",
+      "sent_at": "2026-10-08T09:11:48.401153+00:00",
+      "repair_status": "当前修复状态未核实；可能已在后续版本修复",
+      "evidence_gap": "仅为173条历史汇总中的主题示例；一个主题可能包含多条，亦可能与其他时期重复，无法恢复原始条目数或编号"
+    },
+    {
+      "title": "设施拆除未返还寄存内容",
+      "snapshot": "2026-10-08 09:11汇总中的固定历史版本；SHA未注明",
+      "evidence_type": "历史汇总主题",
+      "original_finding_id": null,
+      "original_priority": null,
+      "trigger": "拆除部分设施；具体设施与状态未恢复",
+      "impact": "可能不返还寄存工具、原料或容器",
+      "source_locations": [],
+      "message_id": "Sentinel_e01f3dd147b08191b25e6c760a978793",
+      "sent_at": "2026-10-08T09:11:48.401153+00:00",
+      "repair_status": "当前修复状态未核实；可能已在后续版本修复",
+      "evidence_gap": "仅为173条历史汇总中的主题示例；一个主题可能包含多条，亦可能与其他时期重复，无法恢复原始条目数或编号"
+    },
+    {
+      "title": "存档恢复及编号迁移风险",
+      "snapshot": "2026-10-08 09:11汇总中的固定历史版本；SHA未注明",
+      "evidence_type": "历史汇总主题",
+      "original_finding_id": null,
+      "original_priority": null,
+      "trigger": "存档恢复、检查点或纹理编号迁移；细节未恢复",
+      "impact": "存在丢失或错配风险",
+      "source_locations": [],
+      "message_id": "Sentinel_e01f3dd147b08191b25e6c760a978793",
+      "sent_at": "2026-10-08T09:11:48.401153+00:00",
+      "repair_status": "当前修复状态未核实；可能已在后续版本修复",
+      "evidence_gap": "仅为173条历史汇总中的主题示例；一个主题可能包含多条，亦可能与其他时期重复，无法恢复原始条目数或编号"
+    },
+    {
+      "title": "对象生命周期清理不完整",
+      "snapshot": "2026-10-08 09:11汇总中的固定历史版本；SHA未注明",
+      "evidence_type": "历史汇总主题",
+      "original_finding_id": null,
+      "original_priority": null,
+      "trigger": "部分预览、掉落特效或异步加载；具体对象未恢复",
+      "impact": "缺少完整生命周期清理",
+      "source_locations": [],
+      "message_id": "Sentinel_e01f3dd147b08191b25e6c760a978793",
+      "sent_at": "2026-10-08T09:11:48.401153+00:00",
+      "repair_status": "当前修复状态未核实；可能已在后续版本修复",
+      "evidence_gap": "仅为173条历史汇总中的主题示例；一个主题可能包含多条，亦可能与其他时期重复，无法恢复原始条目数或编号"
+    }
+  ],
+  "historical_metrics": [
+    {
+      "snapshot": "173条汇总的补充说明；SHA未注明",
+      "claims": {
+        "historical_game_findings": 172,
+        "historical_tool_findings": 1,
+        "second_reviewed": 21,
+        "full_text_files": 831,
+        "first_party_coverage_percent": 25.5
+      },
+      "meaning": "173条口径为172条游戏问题加1条工具问题；21条二次复核的逐项映射未恢复，且当时仍需在最新提交重验",
+      "message_id": "Sentinel_a7db9de0a2e0819183edf66bd6b51b14",
+      "sent_at": "2026-10-08T09:13:02.596325+00:00"
+    },
+    {
+      "snapshot": "固定历史版本；SHA未注明",
+      "claims": {
+        "full_text_files": 831,
+        "approx_lines": 241000,
+        "historical_findings": 173,
+        "historical_P1": 37
+      },
+      "meaning": "历史进度声明，不是本次恢复条目数；原173条台账和37条P1对应列表均未恢复",
+      "message_id": "Sentinel_e01f3dd147b08191b25e6c760a978793",
+      "sent_at": "2026-10-08T09:11:48.401153+00:00"
+    },
+    {
+      "snapshot": "a08a401",
+      "claims": {
+        "read_files": 21,
+        "read_lines": 7988,
+        "historical_risks": 9
+      },
+      "meaning": "原文报告9项，仅恢复其中4项摘要",
+      "message_id": "Sentinel_171c3188df188191b842cb7b594dd11f",
+      "sent_at": "2026-10-08T15:43:29.417476+00:00"
+    },
+    {
+      "snapshot": "当时Aether R2工作树；SHA未注明",
+      "claims": {
+        "read_files": 36,
+        "read_lines": 6684,
+        "old_items_rechecked": 12,
+        "still_present": 5,
+        "partially_fixed": 2,
+        "fixed": 5,
+        "assembly_risks": 4,
+        "dialogue_items_under_investigation": 2
+      },
+      "meaning": "修复数只适用于该次未恢复的12项映射；不能把5项已修分配给本报告中的任意具体发现",
+      "message_id": "Sentinel_d85801f195248191b6ab7aaa9e834527",
+      "sent_at": "2026-10-08T17:33:15.645069+00:00"
+    },
+    {
+      "snapshot": "ad23d926",
+      "claims": {
+        "expedition_full_text_files": 36,
+        "combat_full_text_files": 23,
+        "recorded_Csharp_files": 438,
+        "full_text_Csharp_files": 317,
+        "repository_files": 5472
+      },
+      "meaning": "同一时期进度快照，不可与后续累计数相加",
+      "message_id": "Sentinel_fc2c9ba0ffa48191b523d48e53a4037f",
+      "sent_at": "2026-10-09T00:49:49.002568+00:00"
+    },
+    {
+      "snapshot": "ad23d926",
+      "claims": {
+        "full_text_Csharp_files": 754
+      },
+      "meaning": "累计进度快照，不代表新增754个",
+      "message_id": "Sentinel_0fe0552185d88191b89e77a5066fe499",
+      "sent_at": "2026-10-09T02:54:52.150170+00:00"
+    },
+    {
+      "snapshot": "固定版本；SHA未注明",
+      "claims": {
+        "recorded_Csharp_files": 1074,
+        "full_text_Csharp_files": 950,
+        "repository_files": 5472
+      },
+      "meaning": "版本归属未写明；不可自动归入ad23d926，不等同全仓审完",
+      "message_id": "Sentinel_89def352e50c819186c65a92767ce289",
+      "sent_at": "2026-10-09T04:05:03.810434+00:00"
+    }
+  ],
+  "historical_dashboard_projection": {
+    "title": "Aether进度工作台历史投影",
+    "library_file_id": "libfile_baad878a938481919146726d2e48c8b3",
+    "version": 4,
+    "modified_at": "2026-10-08T17:28:11Z",
+    "claims": {
+      "read_files": 28,
+      "read_lines": 5568,
+      "old_items_rechecked": 12,
+      "still_present": 5,
+      "partially_fixed": 2,
+      "fixed": 5,
+      "new_assembly_P2": 3,
+      "reports_claimed_published": 2
+    },
+    "snapshot": "当时dirty工作树，多时点只读捕获，非冻结提交；SHA未知",
+    "limitation": "只恢复历史汇总；两份报告正文未找回。与17:33消息的36文件6684行、4项组装风险是不同时间的进度声明，不应混为同一冻结版本或累加。"
+  },
+  "source_excerpts": [
+    {
+      "message_id": "Sentinel_e01f3dd147b08191b25e6c760a978793",
+      "sent_at": "2026-10-08T09:11:48.401153+00:00",
+      "review_excerpt": "1. 代码审查\n已完整静态阅读第一方源码 831 个文件，覆盖约 24.1 万行，尚未完成全仓。记录了 173 条有源码证据的问题，其中 37 条标为 P1；这些是静态分析和有限逻辑模型结论，不是 173 个 Unity 实机复现。部分高风险问题又做了独立复核。\n\n比较重要的例子：\n- 特定仓库预留条件下，取料循环可能不再前进，阻塞主线程\n- 赠送衣服未扣玩家原件，可重复生成衣服\n- 部分设施拆除没有返还寄存工具、原料或容器\n- 存档恢复、检查点及纹理编号迁移存在丢失或错配风险\n- 一些预览、掉落特效和异步加载缺少完整生命周期清理\n\n最重要的限制：审查仍针对已拉到的固定历史版本。你说当天还有提交，但尚未提供对应分支或提交号，所以我没有把这些结论冒充你本机最新代码，也没有直接修改或推送源码。"
+    },
+    {
+      "message_id": "Sentinel_a7db9de0a2e0819183edf66bd6b51b14",
+      "sent_at": "2026-10-08T09:13:02.596325+00:00",
+      "review_excerpt": "再补两个准确口径：173 条记录是 172 条游戏代码问题＋1 条工具问题，其中21条做了第二轮独立源码复核；都仍需在你的最新提交上重验。831 个完整文件约占第一方清单的 25.5%，不是全仓已查完。\n\n目前最值得先处理的是拿到你最新分支／提交号。否则继续在旧快照上审得再多，也可能重复你已经修好的问题。你的电脑刚恢复连接，后续可按此前授权只读核对本机任务与提交状态；我还没有启动这项本机诊断"
+    },
+    {
+      "message_id": "Sentinel_171c3188df188191b842cb7b594dd11f",
+      "sent_at": "2026-10-08T15:43:29.417476+00:00",
+      "review_excerpt": "代码审查已实际读到21个文件、7988行，确认9项旧快照风险。最重要的一项：实体存档损坏时不恢复有效备份，后续保存还可能把有效备份删掉；另有“不要停止”反而取消任务、异步规划覆盖新指令、施工漏放却报告成功等问题。\n\n这些结论只针对 a08a401，不代表你最新分支仍未修复。看板已放首轮完整证据，后续依赖仍在继续核查。"
+    },
+    {
+      "message_id": "Sentinel_d85801f195248191b6ab7aaa9e834527",
+      "sent_at": "2026-10-08T17:33:15.645069+00:00",
+      "review_excerpt": "3. 代码审查\n已经转到当前Aether R2工作树，明确审阅36个文件、6684行。旧12项复核结果：5项仍存在、2项部分修复、5项已修；另确认4项组装任务风险，正在查两项对话流式回复问题。发现的重点包括缺主存档时有效备份可能被覆盖、旧异步图纸覆盖新任务、“不要开造”被误当成开工。全部为只读审查，没有擅自改代码或调用Codex执行修复。"
+    },
+    {
+      "message_id": "Sentinel_c77e9c91d1b48191a471edffcf847be9",
+      "sent_at": "2026-10-08T19:49:18.248309+00:00",
+      "review_excerpt": "代码审查发现一条需要优先复核的物品丢失问题：云端 ad23d926 版本里，背包满时拾取地面物品，入包失败返回值被忽略，但地面实体仍被销毁，还可能累计采集进度。我已对照调用代码确认这条路径。\n\n这只是该 GitHub 快照的结论，不代表你本机最新未提交代码仍有问题；先列入 P1，不擅自新开 Codex 修复任务"
+    },
+    {
+      "message_id": "Sentinel_da07e6d789c88191bfd578792ebed89e",
+      "sent_at": "2026-10-08T21:26:47.060604+00:00",
+      "review_excerpt": "新一批审查已发现一个需要优先修的丢数据问题：云端 ad23d926 快照里，商店“上架→取下”会重建物品，丢掉附加数据。若放入保存了干员数据的胶囊，再取出使用，可能生成新干员，原来的培养和背包信息丢失。\n\n我已复读上架/取下代码和胶囊恢复分支确认这条风险；这是静态代码结论，尚未跑游戏复现，也不能断言你刚提交的最新分支仍有此问题"
+    },
+    {
+      "message_id": "Sentinel_fc2c9ba0ffa48191b523d48e53a4037f",
+      "sent_at": "2026-10-09T00:49:49.002568+00:00",
+      "review_excerpt": "代码审查仍在推进：远征36个文件、战斗23个文件已全文读完；目前有438个C#文件的审查记录，其中317个全文覆盖，离全仓5472个仍有距离。\n新确认两处群系存档风险：Chunk.cs:1261把群系索引压成byte，超过255会串号；ExpeditionBiomeVariants.cs:929–940的注册/清理会混淆已烘焙群系与运行时变种。证据来自云端ad23d926快照，尚未认定你最新本机版本仍未修，也未启动Codex修复"
+    },
+    {
+      "message_id": "Sentinel_f297690a9ebc8191a01f741d0ab8d4ec",
+      "sent_at": "2026-10-09T01:24:49.219344+00:00",
+      "review_excerpt": "审查又发现一处值得优先复核的语音问题：旧ad23d926快照中，按住V录音，再按Alt并松开V，会漏掉“结束录音”；下次松开V时可能把中间多说的话一起送去识别。位置：VoiceAgentChatInput.cs:82–94、297–339。\n这是源码追踪结果，未调用麦克风或识别服务，也尚未核对你最新本机是否已修"
+    },
+    {
+      "message_id": "Sentinel_285ba69e71d881918255c3271e82df9b",
+      "sent_at": "2026-10-09T02:02:02.991656+00:00",
+      "review_excerpt": "新增一项 P1 源码问题：ElementVfx.cs:145 创建爆发特效时没赋 transform，:86 却直接使用；正常水水晶施放会在生成水体前触发空引用，风/木爆发也受影响。我已复读初始化与调用处。\n结论针对云端 ad23d926 快照，未实机复现，也未确认你最新本机是否已修；尚未启动修复任务"
+    },
+    {
+      "message_id": "Sentinel_0fe0552185d88191b89e77a5066fe499",
+      "sent_at": "2026-10-09T02:54:52.150170+00:00",
+      "review_excerpt": "代码审查继续有新发现：高危命令的待确认状态没有绑定世界。如果在30秒有效期内换档，再输入“确认”，旧命令可能作用到新世界。\n\n证据是 Assets/Scripts/OpNL/OpScriptGuard.cs:18–20、59–74，以及 Commands/CommandOp.cs:51–56；App.cs:457–460退出时清了撤销栈，却没清待确认命令。建议把确认绑定到原世界/玩家，并在退出时失效。\n\n这是已下载 ad23d926 快照的静态审查，未执行破坏性复现，也没有启动 Codex 修复。当前累计754个C#全文覆盖，仍未审完整仓库"
+    },
+    {
+      "message_id": "Sentinel_89def352e50c819186c65a92767ce289",
+      "sent_at": "2026-10-09T04:05:03.810434+00:00",
+      "review_excerpt": "代码审查发现一个会丢画作的问题：画布载入后若没有重新涂画，再保存一次，PNG 会被遗漏；下次读档画作就会消失。已核对画布保存与实体存档两条调用路径，记录了文件行号和触发条件，尚未改动源码\n\n当前固定版本的审查记录已覆盖 1,074 个 C# 文件，其中 950 个全文审查；仓库共 5,472 个文件，仍在继续"
+    },
+    {
+      "message_id": "Sentinel_e420a89e75b88191a9bbc6fe08d88e41",
+      "sent_at": "2026-10-09T04:47:25.410283+00:00",
+      "review_excerpt": "只读审查又确认一处方块丢失风险：已下载的 ad23d926 版本里，/we move 会先清空原选区，再尝试写入目标；目标区块未加载时写入失败，却仍提示移动完成，且没有回滚。\n\n证据：WorldEditSession.cs 568–599、ChunkSystem.cs 1499–1510、CommandWe.cs 410–424。建议修复前不要跨未加载区域使用该命令；本次只核对源码，未执行移动或修改项目"
+    },
+    {
+      "message_id": "Sentinel_72e08a60bdb08191b06850d8df6d7942",
+      "sent_at": "2026-10-09T06:10:52.596201+00:00",
+      "review_excerpt": "已核对中止前保存的两批审查证据，确认 ad23d926 快照有两项 P2：\n\n1. VoxelVolumeFracture.cs:540–546：挖掉 L 形三块体素的连接块时，方向种子提前返回，可能漏掉另一块已断开的部分，仍共用原刚体\n2. 同文件:723–729：分离碎块的蓝图只复制体素，不复制染色通道，已上色的碎块分离后会丢颜色\n\n以上来自保存的源码证据，未运行游戏复现，也未核对你本机最新提交。后续审查仍停在先前的安全校验中止处；是否先暂停代码审查的定时跟进？"
+    }
+  ],
+  "limitations": [
+    "不为恢复内容分配新的F编号；原始编号均未知",
+    "不把不同时期、不同SHA或不同统计口径相加",
+    "不把摘要主题数当作已恢复的原始独立问题数",
+    "全部当前修复状态未核实；历史结论可能已失效",
+    "聊天中的静态分析结论不等同源码证据本体或游戏实机复现",
+    "pickup丢物品已恢复聊天证据，文件行号仍未知；旧173条报告附件尚未定位"
+  ]
+}
