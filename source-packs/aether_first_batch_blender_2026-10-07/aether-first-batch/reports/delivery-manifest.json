@@ -1,0 +1,383 @@
+{
+  "created_date": "2026-10-07",
+  "reference_commit": "0956b0777cf007a7a3b1ed799f7ade777f14c80d",
+  "is_unity_runtime_validated": false,
+  "asset_count": 3,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6658,
+      "sha256": "c96583e1a93a71742ed8cbd2f0060c7e5f674bc475bab1228270a7590bea1932"
+    },
+    {
+      "path": "source/town_building_a_frame_bay_v01.blend",
+      "bytes": 1596080,
+      "sha256": "5f5a7937aadcb01ad97790cbfa47e0b4f6473f867f1c95e0200751fa9f018c3f"
+    },
+    {
+      "path": "source/town_shared_workbench_v01.blend",
+      "bytes": 1218936,
+      "sha256": "72cb2edb607cd442e13ba93fce0d711cdb7e0e609ba6ddcb45de208a5e6415ce"
+    },
+    {
+      "path": "source/town_storage_open_crate_v01.blend",
+      "bytes": 1277472,
+      "sha256": "392fe41683e2acaa0866afed146b610d1a372adfbcc3995d2473da2054d769a3"
+    },
+    {
+      "path": "exports/town_building_a_frame_bay_v01/town_building_a_frame_bay_v01.fbx",
+      "bytes": 409084,
+      "sha256": "e2006013b9e3582e430b77cb53479391246ee4b1d05e815bb73da861c0833516"
+    },
+    {
+      "path": "exports/town_shared_workbench_v01/town_shared_workbench_v01.fbx",
+      "bytes": 344652,
+      "sha256": "779e6fa1a48291ddefe432b0e86c8b653636f95d358799bdcd4a8504bee5e5fc"
+    },
+    {
+      "path": "exports/town_storage_open_crate_v01/town_storage_open_crate_v01.fbx",
+      "bytes": 348876,
+      "sha256": "a19e6efc335756a1b067e636d9aef27f4c94c1179db90b2285c8ba8de4b4eab9"
+    },
+    {
+      "path": "exports/town_building_a_frame_bay_v01/town_building_a_frame_bay_v01.glb",
+      "bytes": 408052,
+      "sha256": "400d9850ef9371174cb26cddb87e2b0ba1946468d050465cd930aed54e153351"
+    },
+    {
+      "path": "exports/town_shared_workbench_v01/town_shared_workbench_v01.glb",
+      "bytes": 317788,
+      "sha256": "f4c77a131967860db754d92173d2201504f15bccb12bfac68d976488711d0787"
+    },
+    {
+      "path": "exports/town_storage_open_crate_v01/town_storage_open_crate_v01.glb",
+      "bytes": 333416,
+      "sha256": "21cf3d548d530250a7ee7b418b8706f8372094e80abffde9b69691c54b9cca74"
+    },
+    {
+      "path": "textures/T_Cloth_Canvas_BaseColor.png",
+      "bytes": 46426,
+      "sha256": "3f1197ee39196d9848a95f8921ab5afe3c66fcd3bf6ffaad13cbc7cc89f0e7e0"
+    },
+    {
+      "path": "textures/T_Cloth_Canvas_MaskMap.png",
+      "bytes": 5733,
+      "sha256": "c72c76736fa4b3002d8edaeaf1bb243ee831edb1439ca0f09db7207cc3be5846"
+    },
+    {
+      "path": "textures/T_Cloth_Canvas_NormalGL.png",
+      "bytes": 10317,
+      "sha256": "fa3b467cc8f6334e0c787ef20b12a9a177369922dd8fc3a3212d15e603ea3337"
+    },
+    {
+      "path": "textures/T_Cloth_Canvas_Roughness.png",
+      "bytes": 5733,
+      "sha256": "a21b18cd19c4faddd762dae5e0b47aab07a826f8f006c044fbabb042c25cfad1"
+    },
+    {
+      "path": "textures/T_Metal_Brass_BaseColor.png",
+      "bytes": 34125,
+      "sha256": "55d6007ba1f89a84ce9499b451164c4e0c8468c26a16a9f372a8dad8bd30b707"
+    },
+    {
+      "path": "textures/T_Metal_Brass_MaskMap.png",
+      "bytes": 5733,
+      "sha256": "3f197c71d59e5b33bbc7d37e95f7b1bfe0c131a1b508ace58980badb094345b3"
+    },
+    {
+      "path": "textures/T_Metal_Brass_NormalGL.png",
+      "bytes": 6617,
+      "sha256": "a0eb45c70be51d63c097a15c3f11f2ff0e97e7c86544bca516a93eac99b2ef6e"
+    },
+    {
+      "path": "textures/T_Metal_Brass_Roughness.png",
+      "bytes": 5732,
+      "sha256": "491f0c1c34409245b56d6f5f07761fbef821c614cd809f701dddcb2c0795ffe0"
+    },
+    {
+      "path": "textures/T_Wood_Warm_BaseColor.png",
+      "bytes": 91512,
+      "sha256": "7944c393fc2b1520170d9d02d611b193461aa98b86e42cd28051ffffe42ae4e0"
+    },
+    {
+      "path": "textures/T_Wood_Warm_MaskMap.png",
+      "bytes": 5733,
+      "sha256": "a8cfe6827110978ee8f777ee9cb50673f9a1e982a0fc40507098ac4a02211c45"
+    },
+    {
+      "path": "textures/T_Wood_Warm_NormalGL.png",
+      "bytes": 11908,
+      "sha256": "1d3bab546d68e0e2b351a8d8923b6267254aa27f57b4f6d40f4fa44cea427eec"
+    },
+    {
+      "path": "textures/T_Wood_Warm_Roughness.png",
+      "bytes": 5733,
+      "sha256": "9d081e1356fe0fe6576f1acbedd6589dd35dd9dd75dac9bef3193d676e7c3385"
+    },
+    {
+      "path": "previews/town_building_a_frame_bay_v01/back.png",
+      "bytes": 673531,
+      "sha256": "276a040f76986f38a6eea3f6358711eb72d17661d5e93d4de57248c46d867ccf"
+    },
+    {
+      "path": "previews/town_building_a_frame_bay_v01/clay.png",
+      "bytes": 894071,
+      "sha256": "f3410ee0e6d50c61c275b04f20bfef58bae2573234643f2dab881dc763c948cf"
+    },
+    {
+      "path": "previews/town_building_a_frame_bay_v01/detail.png",
+      "bytes": 1131816,
+      "sha256": "08ca2eb87b3c8f9684ca0026015be16d74da4a88291087885ac29a7a985cf86a"
+    },
+    {
+      "path": "previews/town_building_a_frame_bay_v01/front.png",
+      "bytes": 674452,
+      "sha256": "63d53508c2eca6cdf0fbc50de53cb5e326eeeaaf5ccd483ea2f2d567d8057705"
+    },
+    {
+      "path": "previews/town_building_a_frame_bay_v01/icon.png",
+      "bytes": 65803,
+      "sha256": "719b57337d5d2491cb88828c7fd2c932a8adb0f7d7a50234ecfaa088a0bcd1a9"
+    },
+    {
+      "path": "previews/town_building_a_frame_bay_v01/left.png",
+      "bytes": 655923,
+      "sha256": "ef793c5cfe93de565663b104ab099a570e9452cda10cff46d7dd33cb9a9d9467"
+    },
+    {
+      "path": "previews/town_building_a_frame_bay_v01/lod0.png",
+      "bytes": 955001,
+      "sha256": "57a91b190a19691ec8b070b0987f66f9bf4b03d741f2cd2f5273894aa34545f6"
+    },
+    {
+      "path": "previews/town_building_a_frame_bay_v01/lod1.png",
+      "bytes": 954532,
+      "sha256": "6f9512cdaceea6457a9db0c93461db4783c7234cc6b51d0f990d09ab916645da"
+    },
+    {
+      "path": "previews/town_building_a_frame_bay_v01/lod2.png",
+      "bytes": 953173,
+      "sha256": "8ab3d4cb2765cb650ed62dab9b87e123faeae5c954a15308a1ea7e2d03eb73ab"
+    },
+    {
+      "path": "previews/town_building_a_frame_bay_v01/perspective.png",
+      "bytes": 994394,
+      "sha256": "98d28180260b965062465e20d56439508d31b9ef5ae21fc6fd29ce558426c15d"
+    },
+    {
+      "path": "previews/town_building_a_frame_bay_v01/right.png",
+      "bytes": 651342,
+      "sha256": "d1873936cf7cd2146ad5959db0f19f4baf3de3dc3b8ae963c5fda60f7e219c42"
+    },
+    {
+      "path": "previews/town_building_a_frame_bay_v01/top.png",
+      "bytes": 951456,
+      "sha256": "4b087ef10f39f7d8b7ad90c7395b8b5933c11794a413aa97e52b6a8c63372a2b"
+    },
+    {
+      "path": "previews/town_shared_workbench_v01/back.png",
+      "bytes": 702352,
+      "sha256": "68d6662a0f422be1ba9fa89da5b877088e116b5c7fcceaf04aef9c443c96d9c6"
+    },
+    {
+      "path": "previews/town_shared_workbench_v01/clay.png",
+      "bytes": 916498,
+      "sha256": "e3fec8b0205935e7bfd9c91d045fa0b553a2493177952b3b02671fd9f86a0ff9"
+    },
+    {
+      "path": "previews/town_shared_workbench_v01/detail.png",
+      "bytes": 1032794,
+      "sha256": "082eb85b63c9f89cec2530f7d723eaf3e932776340c09c78fdbd282f3339771c"
+    },
+    {
+      "path": "previews/town_shared_workbench_v01/front.png",
+      "bytes": 707346,
+      "sha256": "c2870d50410ff1f8058f96d3bac2d3eb682839166b3193df8f37f703f0c60059"
+    },
+    {
+      "path": "previews/town_shared_workbench_v01/icon.png",
+      "bytes": 71537,
+      "sha256": "59982fd3bdf23534c933cab4d61e982796e49c75abf24e7935dd637f48b7c516"
+    },
+    {
+      "path": "previews/town_shared_workbench_v01/left.png",
+      "bytes": 673506,
+      "sha256": "131448043fae866e6c55d656b2de38200af615c08bf6c3c324ae5f98bc41185c"
+    },
+    {
+      "path": "previews/town_shared_workbench_v01/lod0.png",
+      "bytes": 982584,
+      "sha256": "6ee809bf1f4cbba883b1874e2ea72dff7bbdef97809b2d73973029c88d1a8404"
+    },
+    {
+      "path": "previews/town_shared_workbench_v01/lod1.png",
+      "bytes": 983131,
+      "sha256": "6f82bd481926af877e62e7896d806933ab0ed8c040413d3b5d59c12213aa3a19"
+    },
+    {
+      "path": "previews/town_shared_workbench_v01/lod2.png",
+      "bytes": 989848,
+      "sha256": "052112e7e07e0127b5c759cde4c401e5d16af5f06968e80e2af66ffde86a380e"
+    },
+    {
+      "path": "previews/town_shared_workbench_v01/perspective.png",
+      "bytes": 1028384,
+      "sha256": "08ebf3b71fa5a32ca46d52a84fd41abefb085d4777dd1628b423def758e96a77"
+    },
+    {
+      "path": "previews/town_shared_workbench_v01/right.png",
+      "bytes": 674845,
+      "sha256": "db3f3d3caafaec53f2cc74c9c9ebb5b4c9d353f35c2867789c6bdf5485ba1ffb"
+    },
+    {
+      "path": "previews/town_shared_workbench_v01/top.png",
+      "bytes": 987758,
+      "sha256": "15dc40dc6189df56cfb1fa5f63f14e3fc8305bd761e3923c87bbbd24ce6438a7"
+    },
+    {
+      "path": "previews/town_storage_open_crate_v01/back.png",
+      "bytes": 781178,
+      "sha256": "1dbe59f067ca0b5aab208b0fd4aa7e0f09a06a6850ca218da3a82a6374f2f24a"
+    },
+    {
+      "path": "previews/town_storage_open_crate_v01/clay.png",
+      "bytes": 964450,
+      "sha256": "545eaba0ce647cb457a518139d5b6017a4b08d9bb32474e18e7d01c92b4d1c20"
+    },
+    {
+      "path": "previews/town_storage_open_crate_v01/detail.png",
+      "bytes": 1144831,
+      "sha256": "bd08f9cf079f219cae71186bb1169d69522cc37a35f1f2e39b28fba41b97a8ef"
+    },
+    {
+      "path": "previews/town_storage_open_crate_v01/front.png",
+      "bytes": 781098,
+      "sha256": "bc67e23960ab28028fabfbfe74a12814c10a4d3cc45b24d6680c1c14beb9af16"
+    },
+    {
+      "path": "previews/town_storage_open_crate_v01/icon.png",
+      "bytes": 97230,
+      "sha256": "577bfb5b1114ea85aaae988cf0bb0d85dc08212315a0d249fe51499e87f794ac"
+    },
+    {
+      "path": "previews/town_storage_open_crate_v01/left.png",
+      "bytes": 733319,
+      "sha256": "8629de4e8d4d464d1de5b67fa713de2a1276ca4975b169146013d7246517db8f"
+    },
+    {
+      "path": "previews/town_storage_open_crate_v01/lod0.png",
+      "bytes": 1046018,
+      "sha256": "f1ba0218cf3f1c8b76136c2d92dd78f4cc72e64b14040c1d6385028e320743c6"
+    },
+    {
+      "path": "previews/town_storage_open_crate_v01/lod1.png",
+      "bytes": 1045258,
+      "sha256": "f3ea508a41389a5a994c0e3f707e4ce2511ca00c179eafb1ead3e3274d24b4a2"
+    },
+    {
+      "path": "previews/town_storage_open_crate_v01/lod2.png",
+      "bytes": 1044279,
+      "sha256": "fe556dba6b0463cc59cdc0a0f0b8446e0f2fa3d951c24c7f8d2c48f952ddfe52"
+    },
+    {
+      "path": "previews/town_storage_open_crate_v01/perspective.png",
+      "bytes": 1052286,
+      "sha256": "62d4484bcdf7f3014cdae36d1652a75c7096ad8cc0f6bd8e812fa8b40ee6ee29"
+    },
+    {
+      "path": "previews/town_storage_open_crate_v01/right.png",
+      "bytes": 740372,
+      "sha256": "2bb799358a435d07a70b6314510a2d30eca4db191de6251d0f55483f8e204e6a"
+    },
+    {
+      "path": "previews/town_storage_open_crate_v01/top.png",
+      "bytes": 1090960,
+      "sha256": "6f51ea8bf7ec62e83f0618f12fbb15569b75a00b3b77be7e715cf4a3dc1b8ec6"
+    },
+    {
+      "path": "scripts/build_samples.py",
+      "bytes": 30306,
+      "sha256": "8f341292fd64a8bd38ce552b6e205590e36f454ca8c776454f2d4fadfc5d2707"
+    },
+    {
+      "path": "scripts/render_samples.py",
+      "bytes": 7457,
+      "sha256": "12f7251a5475710f4c3690ba358d64e19ecbae558ee82caacc7783990bf87318"
+    },
+    {
+      "path": "scripts/verify_roundtrip.py",
+      "bytes": 3647,
+      "sha256": "e8f8932f3de1ecbe843047390b57ae39e6a7809232cdc481198de012d5c9f69a"
+    },
+    {
+      "path": "scripts/audit_details.py",
+      "bytes": 2537,
+      "sha256": "e68c7fbde519c2fa89419628b684d8a29893d5ed59c4ebfc413f0204abda81c9"
+    },
+    {
+      "path": "reports/samples-manifest.json",
+      "bytes": 33233,
+      "sha256": "cc4f3eb4f10d4531bcb5006cf203eabac5714e563d8db00e7d644b38c9f601b2"
+    },
+    {
+      "path": "reports/roundtrip-report.json",
+      "bytes": 15782,
+      "sha256": "ede4fba0431831874eb93a2635703e1a552202c2a43a62ac41d1faf76e3eb4bd"
+    },
+    {
+      "path": "reports/component-normal-uv-report.json",
+      "bytes": 6077,
+      "sha256": "c2594e7fa05f52b33b24ee86b168a869d3a76c69b21c0dfc480938a6ae12260d"
+    },
+    {
+      "path": "reports/roof-module-tiling.json",
+      "bytes": 294,
+      "sha256": "dbb7f26b704df419bb350dc4ec1c72c6319a3dea42ee5eb821888e0353b2ec5d"
+    },
+    {
+      "path": "reports/render-report.json",
+      "bytes": 1727,
+      "sha256": "2fcd457ecd6fd8e4bd604e274395b8396b0f0f1e697327474bf6d466c4604239"
+    },
+    {
+      "path": "reports/town_building_a_frame_bay_v01.json",
+      "bytes": 9456,
+      "sha256": "3417052231a8e642a3d896d1cfd6d4901b836d7287f4bb8ad119c712c826c822"
+    },
+    {
+      "path": "reports/town_shared_workbench_v01.json",
+      "bytes": 11502,
+      "sha256": "4d17c12e481b4dd2d9f6bf69e5b52237b4a1932a448be3611da50d0ad51facde"
+    },
+    {
+      "path": "reports/town_storage_open_crate_v01.json",
+      "bytes": 9781,
+      "sha256": "54565eee2908a7606cc5de0857ee86ad84ec5763d1d6cbe2da86dc7cb512b568"
+    },
+    {
+      "path": "reviews/independent_batch_summary.json",
+      "bytes": 2806,
+      "sha256": "dbdd92da410269a33d6b76e987f0a2ffb59c6e71360084e6415980277b4b148e"
+    },
+    {
+      "path": "reviews/town_building_a_frame_bay_v01.json",
+      "bytes": 8133,
+      "sha256": "b1ac306d170509b5cdb7ec72e737b22c3787d908891be7180cd832390fb406c9"
+    },
+    {
+      "path": "reviews/town_building_a_frame_bay_v01_attempt2.json",
+      "bytes": 9577,
+      "sha256": "60db2b66b5d1329cf2cc3e6321f7fd615045eb8177e195f1aa1f481e5455c07f"
+    },
+    {
+      "path": "reviews/town_shared_workbench_v01.json",
+      "bytes": 8989,
+      "sha256": "dd9b0c81dfced1837a47e498451a9103fe6535c347e12f6688f5a5bc1ceac9ed"
+    },
+    {
+      "path": "reviews/town_storage_open_crate_v01.json",
+      "bytes": 9133,
+      "sha256": "1fe9b66f67ab3ed6bef3f60f22664309d58d764945c3cb66580dbc9ea7310a60"
+    }
+  ]
+}

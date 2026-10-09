@@ -1,0 +1,693 @@
+[
+  {
+    "asset_id": "town_building_a_frame_bay_v01",
+    "source": {
+      "dimensions_xyz_m": [
+        4.877783298492432,
+        1.0,
+        4.379408359527588
+      ],
+      "triangles": 2424,
+      "mesh_count": 1,
+      "uv_complete": true,
+      "material_slots_max": 3,
+      "finite": true
+    },
+    "formats": {
+      "fbx": {
+        "dimensions_xyz_m": [
+          4.877783298492432,
+          1.000000387430191,
+          4.379408437403676
+        ],
+        "triangles": 2424,
+        "mesh_count": 1,
+        "uv_complete": true,
+        "material_slots_max": 3,
+        "finite": true,
+        "dimension_max_error_m": 3.8743019104003906e-07,
+        "triangle_difference": 0,
+        "pass": true,
+        "moving_part_pivots": [],
+        "texture_images_found": [
+          {
+            "name": "T_Cloth_Canvas_BaseColor.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Cloth_Canvas_BaseColor.png.001",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Cloth_Canvas_NormalGL.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Cloth_Canvas_Roughness.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_BaseColor.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_BaseColor.png.001",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_NormalGL.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_Roughness.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_BaseColor.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_BaseColor.png.001",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_NormalGL.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_Roughness.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          }
+        ]
+      },
+      "glb": {
+        "dimensions_xyz_m": [
+          4.877783298492432,
+          1.0,
+          4.379408359527588
+        ],
+        "triangles": 2424,
+        "mesh_count": 1,
+        "uv_complete": true,
+        "material_slots_max": 3,
+        "finite": true,
+        "dimension_max_error_m": 0.0,
+        "triangle_difference": 0,
+        "pass": true,
+        "moving_part_pivots": [],
+        "texture_images_found": [
+          {
+            "name": "T_Cloth_Canvas_BaseColor",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Cloth_Canvas_NormalGL",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Cloth_Canvas_Roughness",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_BaseColor",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_NormalGL",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_Roughness",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_BaseColor",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_NormalGL",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_Roughness",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          }
+        ]
+      }
+    },
+    "pass": true
+  },
+  {
+    "asset_id": "town_shared_workbench_v01",
+    "source": {
+      "dimensions_xyz_m": [
+        1.5,
+        1.0522169172763824,
+        0.8449999690055847
+      ],
+      "triangles": 1312,
+      "mesh_count": 4,
+      "uv_complete": true,
+      "material_slots_max": 3,
+      "finite": true
+    },
+    "formats": {
+      "fbx": {
+        "dimensions_xyz_m": [
+          1.5,
+          1.0522169768810272,
+          0.845000019103697
+        ],
+        "triangles": 1312,
+        "mesh_count": 4,
+        "uv_complete": true,
+        "material_slots_max": 3,
+        "finite": true,
+        "dimension_max_error_m": 5.960464477539063e-08,
+        "triangle_difference": 0,
+        "pass": true,
+        "moving_part_pivots": [
+          {
+            "name": "MOVE_ViseHandle_Pivot",
+            "translation_xyz_m": [
+              -0.3799999952316284,
+              -0.6649999022483826,
+              0.6350001096725464
+            ]
+          },
+          {
+            "name": "MOVE_ViseJaw_Pivot",
+            "translation_xyz_m": [
+              -0.3799999952316284,
+              -0.4799998998641968,
+              0.6350000500679016
+            ]
+          },
+          {
+            "name": "MOVE_ViseScrew_Pivot",
+            "translation_xyz_m": [
+              -0.3799999952316284,
+              -0.5399999022483826,
+              0.6350000500679016
+            ]
+          }
+        ],
+        "texture_images_found": [
+          {
+            "name": "T_Cloth_Canvas_BaseColor.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Cloth_Canvas_BaseColor.png.001",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Cloth_Canvas_NormalGL.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Cloth_Canvas_Roughness.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_BaseColor.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_BaseColor.png.001",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_NormalGL.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_Roughness.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_BaseColor.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_BaseColor.png.001",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_NormalGL.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_Roughness.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          }
+        ]
+      },
+      "glb": {
+        "dimensions_xyz_m": [
+          1.5,
+          1.0522169172763824,
+          0.8449999690055847
+        ],
+        "triangles": 1312,
+        "mesh_count": 4,
+        "uv_complete": true,
+        "material_slots_max": 3,
+        "finite": true,
+        "dimension_max_error_m": 0.0,
+        "triangle_difference": 0,
+        "pass": true,
+        "moving_part_pivots": [],
+        "texture_images_found": [
+          {
+            "name": "T_Cloth_Canvas_BaseColor",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Cloth_Canvas_NormalGL",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Cloth_Canvas_Roughness",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_BaseColor",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_NormalGL",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_Roughness",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_BaseColor",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_NormalGL",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_Roughness",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          }
+        ]
+      }
+    },
+    "pass": true
+  },
+  {
+    "asset_id": "town_storage_open_crate_v01",
+    "source": {
+      "dimensions_xyz_m": [
+        0.7509999871253967,
+        0.5195000171661377,
+        0.5
+      ],
+      "triangles": 1496,
+      "mesh_count": 1,
+      "uv_complete": true,
+      "material_slots_max": 3,
+      "finite": true
+    },
+    "formats": {
+      "fbx": {
+        "dimensions_xyz_m": [
+          0.7509999871253967,
+          0.5195000469684601,
+          0.5000000995202143
+        ],
+        "triangles": 1496,
+        "mesh_count": 1,
+        "uv_complete": true,
+        "material_slots_max": 3,
+        "finite": true,
+        "dimension_max_error_m": 9.952021429171509e-08,
+        "triangle_difference": 0,
+        "pass": true,
+        "moving_part_pivots": [],
+        "texture_images_found": [
+          {
+            "name": "T_Cloth_Canvas_BaseColor.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Cloth_Canvas_BaseColor.png.001",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Cloth_Canvas_NormalGL.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Cloth_Canvas_Roughness.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_BaseColor.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_BaseColor.png.001",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_NormalGL.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_Roughness.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_BaseColor.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_BaseColor.png.001",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_NormalGL.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_Roughness.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          }
+        ]
+      },
+      "glb": {
+        "dimensions_xyz_m": [
+          0.7509999871253967,
+          0.5195000171661377,
+          0.5
+        ],
+        "triangles": 1496,
+        "mesh_count": 1,
+        "uv_complete": true,
+        "material_slots_max": 3,
+        "finite": true,
+        "dimension_max_error_m": 0.0,
+        "triangle_difference": 0,
+        "pass": true,
+        "moving_part_pivots": [],
+        "texture_images_found": [
+          {
+            "name": "T_Cloth_Canvas_BaseColor",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Cloth_Canvas_NormalGL",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Cloth_Canvas_Roughness",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_BaseColor",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_NormalGL",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_Roughness",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_BaseColor",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_NormalGL",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_Roughness",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          }
+        ]
+      }
+    },
+    "pass": true
+  }
+]

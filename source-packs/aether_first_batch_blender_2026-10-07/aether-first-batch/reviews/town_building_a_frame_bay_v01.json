@@ -1,0 +1,117 @@
+{
+  "id": "town_building_a_frame_bay_v01",
+  "verdict": "FAIL",
+  "score": 11,
+  "dims": {
+    "silhouette": 2,
+    "proportion": 2,
+    "color_id": 1,
+    "material": 1,
+    "emissive": 3,
+    "craft": 2
+  },
+  "attempt": 1,
+  "reviewer": "independent_visual_review",
+  "reviewed_at_utc": "2026-10-07T21:23:53.843060+00:00",
+  "gate": {
+    "scale": "each dimension 0-3",
+    "pass_minimum": 13,
+    "zero_dimension_allowed": false
+  },
+  "emissive_applicability": "No emissive feature is required for this non-interactive static frame module. Score 3 recognizes absence of false emissive interaction signaling; it is not an emissive shader validation.",
+  "asset_scope": "1m-deep repeatable A-frame bay module, not a finished building. Full-building 6 attachments/door/interior/base/site rules do not apply.",
+  "issues": [
+    "正视屋顶偏平。屋脊提高约0.6-0.8m或使坡度至少40度（为本轮可执行建议，原规则只说陡A字），保持1m模块深及>=0.4m檐口；共享木材用深棕顶点色/UV色区将ridge/fascia明度降低约25-35%，让深色压顶可读，不新增材质槽。",
+    "将木材规则细密条纹改为顺构件长轴的较宽手绘笔触+柔和低频渐变+逐板约6-10%明度差；真实屋板缝继续由几何呈现，不把板缝贴图横跨柱/梁；五金用已有黄铜材质保留可辨哑光木/小面积金属区别。",
+    "LOD1保护梁柱接头片与主要钉/斜撑节点边缘，不允许整体decimate将节点塌成普通平梁；补同机位LOD0/1对照，LOD2尚无图不能视觉放行。"
+  ],
+  "dimension_reasons": {
+    "silhouette": "模块类别清楚，支撑读得出，但不满足新的B2陡A字方向。",
+    "proportion": "正侧视符合薄片重复模块，跨度/厚度关系可读。真实米制尺寸来自附带报告，仅作为任务范围背景；透视图不能独立量测。屋顶比例偏扁。",
+    "color_id": "绿色小点缀唯一且面积小，未乱用多色；主体、屋板、压顶同橙棕明度导致重要色块身份/暗色压顶缺失。",
+    "material": "哑光木方向可见，未呈现纯色平涂；近景规则窄纹和同质表面压倒手绘低频笔触，五金只像黑点，层级不足。",
+    "emissive": "无发光/假交互信号，符合静态构件范围。不要求无中生有加灯。",
+    "craft": "图上接缝大体干净，无明显穿模/破面；LOD1节点细节损失，近景贴图重复性突出。"
+  },
+  "images": [
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_building_a_frame_bay_v01/front.png",
+      "sha256": "9f968378f486182ec13affe8a159558098a151ce190d389ca9886b127bc26012",
+      "opened_with": "view_image",
+      "observation": "可清楚辨认人字梁架与左右立柱；斜撑可见。屋顶正视更像约32度一般山墙而非陡A字；屋脊/檐口/主体整体同一暖橙木值，绿色小方片可见。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_building_a_frame_bay_v01/back.png",
+      "sha256": "f216a0408ab87fd02e4dabefe69ebcfa68d862ada39fc15409ff395006eb918c",
+      "opened_with": "view_image",
+      "observation": "与正面结构一致，后侧无独立发光；四角钉/接头小件在此距离几乎是黑点。未見明显穿插或破面。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_building_a_frame_bay_v01/left.png",
+      "sha256": "21e7893bc20dd66cf7b0b1e5cfff412a9167acdb28ed1cef9ac0f987623182dd",
+      "opened_with": "view_image",
+      "observation": "1m薄片式重复深度可读，屋面板缝连贯；立柱相对两面屋板的接触可读。与整屋标准分开评。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_building_a_frame_bay_v01/right.png",
+      "sha256": "41a4497a7ad94c8956a876f898beab48e4e6af3570be4ba91be487eff739c08a",
+      "opened_with": "view_image",
+      "observation": "侧面轮廓同左；屋板有规律接缝，但同材质层级较弱。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_building_a_frame_bay_v01/top.png",
+      "sha256": "8cb9b5a1515ad38730163920f1cecbd3f2bd0ea3633607597bc2db0a5f1e7060",
+      "opened_with": "view_image",
+      "observation": "细长1m深模块，两坡屋板整齐；色阶/笔触变化主要是规则细条，缺少逐板低频手绘色差。未見明显UV断裂；该图不能证明UV尺度正确。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_building_a_frame_bay_v01/perspective.png",
+      "sha256": "cf7ce2deea0f571a9d3b96f831a7a748300fe4c355e9570320820a8632c87b46",
+      "opened_with": "view_image",
+      "observation": "两排立柱/人字梁/斜撑与板条屋面皆可读。屋脊与檐口缺深色压顶；木材看似均质程序化橙棕条纹，五金身份只读作黑点。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_building_a_frame_bay_v01/detail.png",
+      "sha256": "b57888ce09e286d595d46857fdef18d2b886cfc474afff91434bd62819934e50",
+      "opened_with": "view_image",
+      "observation": "正前接头片、黑钉和绿布片可见，绿布有小网格，木材有方向但过度窄/规则条纹；接头之间未見明显穿插。木材体块/五金材质层级不足。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_building_a_frame_bay_v01/clay.png",
+      "sha256": "9523236eecabf12de2fbf8bbf35a970905f711030ed81afc732c31bf3caa4fae",
+      "opened_with": "view_image",
+      "observation": "灰模面转折/梁架支撑清楚，几何板缝可见，无黑色描边。构件规整，未見碎面；不存在整屋墙/基座不计作遗漏。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_building_a_frame_bay_v01/lod1.png",
+      "sha256": "380b6bf36f92111399e2241066b69750c27472fc954c0b999567bbdbc0338c91",
+      "opened_with": "view_image",
+      "observation": "主梁架与屋面总体轮廓保留；相对LOD0图接头片/黑钉几乎消失，重要结构节点色差和边缘特征损失。LOD2没有图片，未做视觉通过判定。"
+    }
+  ],
+  "references_read": [
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Tools/ArtForge/PROMPT_review.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/ArtDirection/2026-10-03_治愈奇幻风格化改造方案.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/ArtDirection/2026-09-29_未眠野美术三纪律落地.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/ArtStudy/2026-10-01_美术参考与原创资产管线.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/TownGameplay/2026-09-29/ART-P0-SAMPLES.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/TownGameplay/2026-09-29/ui-all-buildings/index.html"
+  ],
+  "reference_images_opened": [
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/TownGameplay/2026-09-29/ui-all-buildings/17-inn.png",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/TownGameplay/2026-09-29/ui-all-buildings/10-bakery.png"
+  ],
+  "reference_limits": "UI board index and its local images were supplied and read; these are UI concept boards over an existing screenshot, not evidence that depicted inn/bakery are implemented. Assessment relies on newest 2026-10-03 style proposal B2 and M1-M4; older 2026-09-30 P0 outline/rim-light instructions conflict with later no-outline direction and are not used.",
+  "not_validated": [
+    "Unity import",
+    "Unity runtime",
+    "HDRP material/shader appearance",
+    "collision/navigation",
+    "LOD screen-space transitions",
+    "LOD2 visual",
+    "multi-module seam repeat render",
+    "UV pixel-density audit"
+  ],
+  "evidence_report_read": "/workspace/shared/aether-assets/reports/town_building_a_frame_bay_v01.json",
+  "boundary": "Independent image-based verdict only. Blender/source/exports were not modified. Technical audit pass was not used as aesthetic proof. No Unity/HDRP pass claim."
+}

@@ -1,0 +1,1245 @@
+[
+  {
+    "asset_id": "town_shared_workbench_v01",
+    "blender_version": "4.3.2",
+    "source_reference_commit": "0956b0777cf007a7a3b1ed799f7ade777f14c80d",
+    "dimensions_blender_xyz_m": {
+      "min": [
+        -0.75,
+        -0.680216908454895,
+        0.0
+      ],
+      "max": [
+        0.75,
+        0.3720000088214874,
+        0.8449999690055847
+      ],
+      "dimensions": [
+        1.5,
+        1.0522169172763824,
+        0.8449999690055847
+      ]
+    },
+    "pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "origin_convention": "floor-center except moving parts use explicit real-axis pivots",
+    "units": "meters",
+    "lod_meshes": [
+      {
+        "name": "LOD0_Static",
+        "vertices": 652,
+        "triangles": 1188,
+        "material_slots": 3,
+        "non_manifold_edges": 0,
+        "loose_vertices": 0,
+        "zero_area_faces": 0,
+        "finite_coordinates": true,
+        "uv_layers": 1,
+        "flat_faces": 1188,
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "signed_volume_m3": 0.24125136689859145
+      },
+      {
+        "name": "LOD1_Static",
+        "vertices": 440,
+        "triangles": 764,
+        "material_slots": 3,
+        "non_manifold_edges": 0,
+        "loose_vertices": 0,
+        "zero_area_faces": 0,
+        "finite_coordinates": true,
+        "uv_layers": 1,
+        "flat_faces": 764,
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "signed_volume_m3": 0.22536581999978184
+      },
+      {
+        "name": "LOD2_Static",
+        "vertices": 322,
+        "triangles": 528,
+        "material_slots": 3,
+        "non_manifold_edges": 0,
+        "loose_vertices": 0,
+        "zero_area_faces": 0,
+        "finite_coordinates": true,
+        "uv_layers": 1,
+        "flat_faces": 528,
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "signed_volume_m3": 0.19375766548887666
+      },
+      {
+        "name": "LOD0_MOVE_ViseJaw",
+        "vertices": 24,
+        "triangles": 44,
+        "material_slots": 1,
+        "non_manifold_edges": 0,
+        "loose_vertices": 0,
+        "zero_area_faces": 0,
+        "finite_coordinates": true,
+        "uv_layers": 1,
+        "flat_faces": 26,
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "signed_volume_m3": 0.007971856188577887
+      },
+      {
+        "name": "LOD0_MOVE_ViseScrew",
+        "vertices": 24,
+        "triangles": 44,
+        "material_slots": 1,
+        "non_manifold_edges": 0,
+        "loose_vertices": 0,
+        "zero_area_faces": 0,
+        "finite_coordinates": true,
+        "uv_layers": 1,
+        "flat_faces": 14,
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "signed_volume_m3": 0.001626240051596803
+      },
+      {
+        "name": "LOD0_MOVE_ViseHandle",
+        "vertices": 20,
+        "triangles": 36,
+        "material_slots": 1,
+        "non_manifold_edges": 0,
+        "loose_vertices": 0,
+        "zero_area_faces": 0,
+        "finite_coordinates": true,
+        "uv_layers": 1,
+        "flat_faces": 12,
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "signed_volume_m3": 0.00019561493282202125
+      }
+    ],
+    "lod0_total_triangles": 1312,
+    "editable_source_piece_count": 29,
+    "runtime_static_batching": "Static construction pieces remain separate in SOURCE_PARTS; only runtime static LOD meshes are batched. This independent prototype does not claim ArtForge generic part-count gate execution.",
+    "collision_proxies": [
+      "COL_Trestle_-0.58",
+      "COL_Trestle_0.58",
+      "COL_Worktop"
+    ],
+    "anchors": [
+      {
+        "name": "ANCHOR_Exit",
+        "position_blender_xyz_m": [
+          0.0,
+          -1.4500000476837158,
+          0.0
+        ]
+      },
+      {
+        "name": "ANCHOR_LeftHand",
+        "position_blender_xyz_m": [
+          -0.30000001192092896,
+          -0.30000001192092896,
+          0.7900000214576721
+        ]
+      },
+      {
+        "name": "ANCHOR_Operate",
+        "position_blender_xyz_m": [
+          0.0,
+          -0.9200000166893005,
+          0.0
+        ]
+      },
+      {
+        "name": "ANCHOR_Output",
+        "position_blender_xyz_m": [
+          0.4699999988079071,
+          0.18000000715255737,
+          0.7799999713897705
+        ]
+      },
+      {
+        "name": "ANCHOR_RightHand",
+        "position_blender_xyz_m": [
+          0.30000001192092896,
+          -0.30000001192092896,
+          0.7900000214576721
+        ]
+      },
+      {
+        "name": "ANCHOR_WorkSurface",
+        "position_blender_xyz_m": [
+          0.0,
+          0.0,
+          0.7799999713897705
+        ]
+      }
+    ],
+    "source_reopen_pass": true,
+    "normals_topology_check": "closed/manifold/positive-volume component mesh; render checks pending",
+    "material_export": "shared actual PNG BaseColor/NormalGL/Roughness/HDRP MaskMap; Principled preview bridge; Unity style shader NOT validated",
+    "source_notes": {
+      "role": "reusable_worksite_visual",
+      "work_surface_m": 0.78,
+      "reference_boards": [
+        "08-workshop.png",
+        "04-lumberyard.png"
+      ],
+      "content_baked": false
+    },
+    "status": "technical_and_independent_blender_visual_pass_pending_unity",
+    "unity_import_test": "not_run",
+    "unity_runtime_test": "not_run",
+    "elapsed_s": 1.295302152633667,
+    "roundtrip": {
+      "asset_id": "town_shared_workbench_v01",
+      "source": {
+        "dimensions_xyz_m": [
+          1.5,
+          1.0522169172763824,
+          0.8449999690055847
+        ],
+        "triangles": 1312,
+        "mesh_count": 4,
+        "uv_complete": true,
+        "material_slots_max": 3,
+        "finite": true
+      },
+      "formats": {
+        "fbx": {
+          "dimensions_xyz_m": [
+            1.5,
+            1.0522169768810272,
+            0.845000019103697
+          ],
+          "triangles": 1312,
+          "mesh_count": 4,
+          "uv_complete": true,
+          "material_slots_max": 3,
+          "finite": true,
+          "dimension_max_error_m": 5.960464477539063e-08,
+          "triangle_difference": 0,
+          "pass": true,
+          "moving_part_pivots": [
+            {
+              "name": "MOVE_ViseHandle_Pivot",
+              "translation_xyz_m": [
+                -0.3799999952316284,
+                -0.6649999022483826,
+                0.6350001096725464
+              ]
+            },
+            {
+              "name": "MOVE_ViseJaw_Pivot",
+              "translation_xyz_m": [
+                -0.3799999952316284,
+                -0.4799998998641968,
+                0.6350000500679016
+              ]
+            },
+            {
+              "name": "MOVE_ViseScrew_Pivot",
+              "translation_xyz_m": [
+                -0.3799999952316284,
+                -0.5399999022483826,
+                0.6350000500679016
+              ]
+            }
+          ],
+          "texture_images_found": [
+            {
+              "name": "T_Cloth_Canvas_BaseColor.png",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Cloth_Canvas_BaseColor.png.001",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Cloth_Canvas_NormalGL.png",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Cloth_Canvas_Roughness.png",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Metal_Brass_BaseColor.png",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Metal_Brass_BaseColor.png.001",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Metal_Brass_NormalGL.png",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Metal_Brass_Roughness.png",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Wood_Warm_BaseColor.png",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Wood_Warm_BaseColor.png.001",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Wood_Warm_NormalGL.png",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Wood_Warm_Roughness.png",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            }
+          ]
+        },
+        "glb": {
+          "dimensions_xyz_m": [
+            1.5,
+            1.0522169172763824,
+            0.8449999690055847
+          ],
+          "triangles": 1312,
+          "mesh_count": 4,
+          "uv_complete": true,
+          "material_slots_max": 3,
+          "finite": true,
+          "dimension_max_error_m": 0.0,
+          "triangle_difference": 0,
+          "pass": true,
+          "moving_part_pivots": [],
+          "texture_images_found": [
+            {
+              "name": "T_Cloth_Canvas_BaseColor",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Cloth_Canvas_NormalGL",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Cloth_Canvas_Roughness",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Metal_Brass_BaseColor",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Metal_Brass_NormalGL",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Metal_Brass_Roughness",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Wood_Warm_BaseColor",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Wood_Warm_NormalGL",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Wood_Warm_Roughness",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            }
+          ]
+        }
+      },
+      "pass": true
+    },
+    "independent_visual_review": {
+      "verdict": "PASS",
+      "score": 16,
+      "attempt": 1,
+      "dims": {
+        "silhouette": 3,
+        "proportion": 3,
+        "color_id": 3,
+        "material": 2,
+        "emissive": 3,
+        "craft": 2
+      },
+      "issues": [
+        "非阻断：detail/clay中展开帆布过厚、过直，卷端为纯黑空口，像硬垫。后续将展开部分的可见边收薄（例如≤5mm作为建议值），加1-2条低模柔和折痕，并在卷端保留两层卷边/织物明暗；保持同一绿色共享帆布材质。",
+        "非阻断：LOD0/1/2右侧下层搁架的板缝暗口形状与台面板缝明暗有可见变化。未来接线时按真实屏幕占比验证切换；若近距离跳变可见，保护前沿/侧缘的主要缝边，而不是增加细纹。"
+      ]
+    }
+  },
+  {
+    "asset_id": "town_storage_open_crate_v01",
+    "blender_version": "4.3.2",
+    "source_reference_commit": "0956b0777cf007a7a3b1ed799f7ade777f14c80d",
+    "dimensions_blender_xyz_m": {
+      "min": [
+        -0.37549999356269836,
+        -0.2615000009536743,
+        0.0
+      ],
+      "max": [
+        0.37549999356269836,
+        0.2580000162124634,
+        0.5
+      ],
+      "dimensions": [
+        0.7509999871253967,
+        0.5195000171661377,
+        0.5
+      ]
+    },
+    "pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "origin_convention": "floor-center except moving parts use explicit real-axis pivots",
+    "units": "meters",
+    "lod_meshes": [
+      {
+        "name": "LOD0_Static",
+        "vertices": 816,
+        "triangles": 1496,
+        "material_slots": 3,
+        "non_manifold_edges": 0,
+        "loose_vertices": 0,
+        "zero_area_faces": 0,
+        "finite_coordinates": true,
+        "uv_layers": 1,
+        "flat_faces": 1496,
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "signed_volume_m3": 0.06919717055856951
+      },
+      {
+        "name": "LOD1_Static",
+        "vertices": 520,
+        "triangles": 904,
+        "material_slots": 3,
+        "non_manifold_edges": 0,
+        "loose_vertices": 0,
+        "zero_area_faces": 0,
+        "finite_coordinates": true,
+        "uv_layers": 1,
+        "flat_faces": 904,
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "signed_volume_m3": 0.06327601843658262
+      },
+      {
+        "name": "LOD2_Static",
+        "vertices": 354,
+        "triangles": 572,
+        "material_slots": 3,
+        "non_manifold_edges": 0,
+        "loose_vertices": 0,
+        "zero_area_faces": 0,
+        "finite_coordinates": true,
+        "uv_layers": 1,
+        "flat_faces": 572,
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "signed_volume_m3": 0.053998186550306825
+      }
+    ],
+    "lod0_total_triangles": 1496,
+    "editable_source_piece_count": 34,
+    "runtime_static_batching": "Static construction pieces remain separate in SOURCE_PARTS; only runtime static LOD meshes are batched. This independent prototype does not claim ArtForge generic part-count gate execution.",
+    "collision_proxies": [
+      "COL_Back",
+      "COL_Floor",
+      "COL_Front",
+      "COL_Left",
+      "COL_Right"
+    ],
+    "anchors": [
+      {
+        "name": "ANCHOR_Content",
+        "position_blender_xyz_m": [
+          0.0,
+          0.0,
+          0.09000000357627869
+        ]
+      },
+      {
+        "name": "ANCHOR_LeftGrip",
+        "position_blender_xyz_m": [
+          -0.18000000715255737,
+          -0.23000000417232513,
+          0.45500001311302185
+        ]
+      },
+      {
+        "name": "ANCHOR_RightGrip",
+        "position_blender_xyz_m": [
+          0.18000000715255737,
+          -0.23000000417232513,
+          0.45500001311302185
+        ]
+      }
+    ],
+    "source_reopen_pass": true,
+    "normals_topology_check": "closed/manifold/positive-volume component mesh; render checks pending",
+    "material_export": "shared actual PNG BaseColor/NormalGL/Roughness/HDRP MaskMap; Principled preview bridge; Unity style shader NOT validated",
+    "source_notes": {
+      "role": "reusable_empty_container_visual",
+      "reference_boards": [
+        "08-workshop.png",
+        "16-warehouse.png",
+        "15-general-store.png"
+      ],
+      "content_baked": false,
+      "registry_id_assigned": false,
+      "handhold_clear_height_m": 0.0465,
+      "corner_join_revision": "inside corner posts, nonoverlapping top rims and sideboard upper faces",
+      "handhold_wood_aperture_width_m": 0.37,
+      "handhold_front_width_uncovered_by_canvas_m": 0.3525,
+      "hand_grip_runtime_validation": "not_run"
+    },
+    "status": "technical_and_independent_blender_visual_pass_pending_unity",
+    "unity_import_test": "not_run",
+    "unity_runtime_test": "not_run",
+    "elapsed_s": 1.1029291152954102,
+    "roundtrip": {
+      "asset_id": "town_storage_open_crate_v01",
+      "source": {
+        "dimensions_xyz_m": [
+          0.7509999871253967,
+          0.5195000171661377,
+          0.5
+        ],
+        "triangles": 1496,
+        "mesh_count": 1,
+        "uv_complete": true,
+        "material_slots_max": 3,
+        "finite": true
+      },
+      "formats": {
+        "fbx": {
+          "dimensions_xyz_m": [
+            0.7509999871253967,
+            0.5195000469684601,
+            0.5000000995202143
+          ],
+          "triangles": 1496,
+          "mesh_count": 1,
+          "uv_complete": true,
+          "material_slots_max": 3,
+          "finite": true,
+          "dimension_max_error_m": 9.952021429171509e-08,
+          "triangle_difference": 0,
+          "pass": true,
+          "moving_part_pivots": [],
+          "texture_images_found": [
+            {
+              "name": "T_Cloth_Canvas_BaseColor.png",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Cloth_Canvas_BaseColor.png.001",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Cloth_Canvas_NormalGL.png",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Cloth_Canvas_Roughness.png",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Metal_Brass_BaseColor.png",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Metal_Brass_BaseColor.png.001",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Metal_Brass_NormalGL.png",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Metal_Brass_Roughness.png",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Wood_Warm_BaseColor.png",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Wood_Warm_BaseColor.png.001",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Wood_Warm_NormalGL.png",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Wood_Warm_Roughness.png",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            }
+          ]
+        },
+        "glb": {
+          "dimensions_xyz_m": [
+            0.7509999871253967,
+            0.5195000171661377,
+            0.5
+          ],
+          "triangles": 1496,
+          "mesh_count": 1,
+          "uv_complete": true,
+          "material_slots_max": 3,
+          "finite": true,
+          "dimension_max_error_m": 0.0,
+          "triangle_difference": 0,
+          "pass": true,
+          "moving_part_pivots": [],
+          "texture_images_found": [
+            {
+              "name": "T_Cloth_Canvas_BaseColor",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Cloth_Canvas_NormalGL",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Cloth_Canvas_Roughness",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Metal_Brass_BaseColor",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Metal_Brass_NormalGL",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Metal_Brass_Roughness",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Wood_Warm_BaseColor",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Wood_Warm_NormalGL",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Wood_Warm_Roughness",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            }
+          ]
+        }
+      },
+      "pass": true
+    },
+    "independent_visual_review": {
+      "verdict": "PASS",
+      "score": 16,
+      "attempt": 1,
+      "dims": {
+        "silhouette": 3,
+        "proportion": 3,
+        "color_id": 3,
+        "material": 2,
+        "emissive": 3,
+        "craft": 2
+      },
+      "issues": [
+        "非阻断：LOD0左右侧顶框端头短黑缝在LOD1消失，LOD2顶框/角柱边缘局部削成尖三角、上方绿小片轮廓变大。后续简化时保护顶框外轮廓与角柱接头的主要边界，统一端头收口，并按实际引擎切换屏幕占比检查跳变。",
+        "非阻断：detail中绿色片厚直，短上片与长下片连续挂接不明显，偏硬板。后续用薄边、1-2条低模折痕与可见的挂接/折返改善布感，保留既有绿色材质；避免覆盖更多握孔。",
+        "非阻断：黄铜条在近景偏哑光黄绿，与木材表面反射层级相近。后续在现有共享黄铜材质内适度提升反射/明度区别，继续保持少量五金，不增加材质槽或装饰灯。"
+      ]
+    }
+  },
+  {
+    "asset_id": "town_building_a_frame_bay_v01",
+    "blender_version": "4.3.2",
+    "source_reference_commit": "0956b0777cf007a7a3b1ed799f7ade777f14c80d",
+    "dimensions_blender_xyz_m": {
+      "min": [
+        -2.438891649246216,
+        -0.5,
+        0.0
+      ],
+      "max": [
+        2.438891649246216,
+        0.5,
+        4.379408359527588
+      ],
+      "dimensions": [
+        4.877783298492432,
+        1.0,
+        4.379408359527588
+      ]
+    },
+    "pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "origin_convention": "floor-center except moving parts use explicit real-axis pivots",
+    "units": "meters",
+    "lod_meshes": [
+      {
+        "name": "LOD0_Static",
+        "vertices": 1328,
+        "triangles": 2424,
+        "material_slots": 3,
+        "non_manifold_edges": 0,
+        "loose_vertices": 0,
+        "zero_area_faces": 0,
+        "finite_coordinates": true,
+        "uv_layers": 1,
+        "flat_faces": 2424,
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "signed_volume_m3": 1.3969397022160257
+      },
+      {
+        "name": "LOD1_Static",
+        "vertices": 852,
+        "triangles": 1472,
+        "material_slots": 3,
+        "non_manifold_edges": 0,
+        "loose_vertices": 0,
+        "zero_area_faces": 0,
+        "finite_coordinates": true,
+        "uv_layers": 1,
+        "flat_faces": 1472,
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "signed_volume_m3": 1.3470853608962943
+      },
+      {
+        "name": "LOD2_Static",
+        "vertices": 585,
+        "triangles": 938,
+        "material_slots": 3,
+        "non_manifold_edges": 0,
+        "loose_vertices": 0,
+        "zero_area_faces": 0,
+        "finite_coordinates": true,
+        "uv_layers": 1,
+        "flat_faces": 938,
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "signed_volume_m3": 1.2065633248342411
+      }
+    ],
+    "lod0_total_triangles": 2424,
+    "editable_source_piece_count": 58,
+    "runtime_static_batching": "Static construction pieces remain separate in SOURCE_PARTS; only runtime static LOD meshes are batched. This independent prototype does not claim ArtForge generic part-count gate execution.",
+    "collision_proxies": [
+      "COL_Post_-1.9-0.4",
+      "COL_Post_-1.90.4",
+      "COL_Post_1.9-0.4",
+      "COL_Post_1.90.4",
+      "COL_Roof_-1",
+      "COL_Roof_1",
+      "COL_TieBeam"
+    ],
+    "anchors": [
+      {
+        "name": "ANCHOR_Ridge",
+        "position_blender_xyz_m": [
+          0.0,
+          0.0,
+          4.320000171661377
+        ]
+      },
+      {
+        "name": "ANCHOR_SnapBack",
+        "position_blender_xyz_m": [
+          0.0,
+          0.5,
+          0.0
+        ]
+      },
+      {
+        "name": "ANCHOR_SnapFront",
+        "position_blender_xyz_m": [
+          0.0,
+          -0.5,
+          0.0
+        ]
+      }
+    ],
+    "source_reopen_pass": true,
+    "normals_topology_check": "closed/manifold/positive-volume component mesh; render checks pending",
+    "material_export": "shared actual PNG BaseColor/NormalGL/Roughness/HDRP MaskMap; Principled preview bridge; Unity style shader NOT validated",
+    "source_notes": {
+      "role": "repeatable_building_frame_module",
+      "structural_span_m": 4.0,
+      "repeat_depth_m": 1.0,
+      "roof_eave_overhang_m": 0.4,
+      "reference_boards": [
+        "17-inn.png",
+        "10-bakery.png"
+      ],
+      "complete_building": false,
+      "no_inventory_or_interaction_semantics": true,
+      "roof_slope_degrees": 44.51853419416165,
+      "revision": "attempt2: steeper roof, shared UV palette dark caps, broad wood strokes, protected hardware LOD"
+    },
+    "status": "technical_and_independent_blender_visual_pass_pending_unity",
+    "unity_import_test": "not_run",
+    "unity_runtime_test": "not_run",
+    "elapsed_s": 1.05082106590271,
+    "roundtrip": {
+      "asset_id": "town_building_a_frame_bay_v01",
+      "source": {
+        "dimensions_xyz_m": [
+          4.877783298492432,
+          1.0,
+          4.379408359527588
+        ],
+        "triangles": 2424,
+        "mesh_count": 1,
+        "uv_complete": true,
+        "material_slots_max": 3,
+        "finite": true
+      },
+      "formats": {
+        "fbx": {
+          "dimensions_xyz_m": [
+            4.877783298492432,
+            1.000000387430191,
+            4.379408437403676
+          ],
+          "triangles": 2424,
+          "mesh_count": 1,
+          "uv_complete": true,
+          "material_slots_max": 3,
+          "finite": true,
+          "dimension_max_error_m": 3.8743019104003906e-07,
+          "triangle_difference": 0,
+          "pass": true,
+          "moving_part_pivots": [],
+          "texture_images_found": [
+            {
+              "name": "T_Cloth_Canvas_BaseColor.png",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Cloth_Canvas_BaseColor.png.001",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Cloth_Canvas_NormalGL.png",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Cloth_Canvas_Roughness.png",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Metal_Brass_BaseColor.png",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Metal_Brass_BaseColor.png.001",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Metal_Brass_NormalGL.png",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Metal_Brass_Roughness.png",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Wood_Warm_BaseColor.png",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Wood_Warm_BaseColor.png.001",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Wood_Warm_NormalGL.png",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Wood_Warm_Roughness.png",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            }
+          ]
+        },
+        "glb": {
+          "dimensions_xyz_m": [
+            4.877783298492432,
+            1.0,
+            4.379408359527588
+          ],
+          "triangles": 2424,
+          "mesh_count": 1,
+          "uv_complete": true,
+          "material_slots_max": 3,
+          "finite": true,
+          "dimension_max_error_m": 0.0,
+          "triangle_difference": 0,
+          "pass": true,
+          "moving_part_pivots": [],
+          "texture_images_found": [
+            {
+              "name": "T_Cloth_Canvas_BaseColor",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Cloth_Canvas_NormalGL",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Cloth_Canvas_Roughness",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Metal_Brass_BaseColor",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Metal_Brass_NormalGL",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Metal_Brass_Roughness",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Wood_Warm_BaseColor",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Wood_Warm_NormalGL",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            },
+            {
+              "name": "T_Wood_Warm_Roughness",
+              "size": [
+                512,
+                512
+              ],
+              "has_pixels": true
+            }
+          ]
+        }
+      },
+      "pass": true
+    },
+    "independent_visual_review": {
+      "verdict": "PASS",
+      "score": 15,
+      "attempt": 2,
+      "dims": {
+        "silhouette": 3,
+        "proportion": 3,
+        "color_id": 2,
+        "material": 2,
+        "emissive": 3,
+        "craft": 2
+      },
+      "issues": [
+        "非阻断：同机位LOD1/2接头黄铜片仍在，但LOD0左右节点黑钉头与屋脊暗部特征明显消失。后续若优化，请将这几处主要黑钉头排除木件整体简化，或在同一共享材质上保留相当大小的暗色节点；不要再声称五金视觉完全无损。",
+        "非阻断：detail中黄铜片读成哑光黄绿色板，金属/木材区分尚弱。后续在现有共享黄铜材质内提升局部反射/明度分离，同时保持小面积五金与哑光木主体，不增加材质层级。"
+      ]
+    }
+  }
+]

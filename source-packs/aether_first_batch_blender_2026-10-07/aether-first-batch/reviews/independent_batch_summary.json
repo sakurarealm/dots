@@ -1,0 +1,99 @@
+{
+  "reviewed_at_utc": "2026-10-07T22:06:40.946819+00:00",
+  "total_assets": 3,
+  "passed_assets": 3,
+  "pass_rate": 1.0,
+  "reviewed_images": 36,
+  "dimension_averages": {
+    "silhouette": 3.0,
+    "proportion": 3.0,
+    "color_id": 2.6667,
+    "material": 2.0,
+    "emissive": 3.0,
+    "craft": 2.0
+  },
+  "assets": [
+    {
+      "id": "town_building_a_frame_bay_v01",
+      "verdict": "PASS",
+      "score": 15,
+      "dims": {
+        "silhouette": 3,
+        "proportion": 3,
+        "color_id": 2,
+        "material": 2,
+        "emissive": 3,
+        "craft": 2
+      },
+      "attempt": 2
+    },
+    {
+      "id": "town_shared_workbench_v01",
+      "verdict": "PASS",
+      "score": 16,
+      "dims": {
+        "silhouette": 3,
+        "proportion": 3,
+        "color_id": 3,
+        "material": 2,
+        "emissive": 3,
+        "craft": 2
+      },
+      "attempt": 1
+    },
+    {
+      "id": "town_storage_open_crate_v01",
+      "verdict": "PASS",
+      "score": 16,
+      "dims": {
+        "silhouette": 3,
+        "proportion": 3,
+        "color_id": 3,
+        "material": 2,
+        "emissive": 3,
+        "craft": 2
+      },
+      "attempt": 1
+    }
+  ],
+  "high_frequency_issues_top3": [
+    {
+      "issue": "LOD主轮廓保留但局部节点/板缝/转角对比变化",
+      "assets": [
+        "town_building_a_frame_bay_v01",
+        "town_shared_workbench_v01",
+        "town_storage_open_crate_v01"
+      ],
+      "note": "只能评价同机位棚拍；实际切换距离/TAA未经Unity检验"
+    },
+    {
+      "issue": "布件偏厚直/硬板，卷端或挂接信息不足",
+      "assets": [
+        "town_shared_workbench_v01",
+        "town_storage_open_crate_v01"
+      ],
+      "note": "梁架绿色小片也较平，但不作为主要返工点"
+    },
+    {
+      "issue": "五金反射/材质身份偏弱，黄铜片/条偏哑光黄绿",
+      "assets": [
+        "town_building_a_frame_bay_v01",
+        "town_storage_open_crate_v01"
+      ],
+      "note": "梁架接头片与木箱五金条的近景反射区别较弱；工作台小钉头影响更低，不算该件关键问题"
+    }
+  ],
+  "previous_failure_preserved": {
+    "id": "town_building_a_frame_bay_v01",
+    "attempt": 1,
+    "verdict": "FAIL",
+    "score": 11,
+    "report": "/workspace/shared/aether-assets/reviews/town_building_a_frame_bay_v01.json"
+  },
+  "conclusion": "3/3 supplied revised samples PASS image-only gate; 36 images actually viewed sequentially. This is not final game/Unity/HDRP/collision/LOD-runtime approval.",
+  "report_files": [
+    "/workspace/shared/aether-assets/reviews/town_building_a_frame_bay_v01_attempt2.json",
+    "/workspace/shared/aether-assets/reviews/town_shared_workbench_v01.json",
+    "/workspace/shared/aether-assets/reviews/town_storage_open_crate_v01.json"
+  ]
+}
