@@ -1,0 +1,16 @@
+{
+  "file": "bloomwalker_painterly_mailbox_bench.glb",
+  "sha256": "eba456bdde77de8226fdc89b3b495db84a74fa6bfa40eeb422db3f561ace7e85",
+  "bytes": 1458532,
+  "triangles": 3582,
+  "editable_parts": 138,
+  "actual_materials": 3,
+  "actual_primitives": 3,
+  "atlas_file": "atlases/bloomwalker_painterly_atlas_r3_runtime1024.png",
+  "atlas_sha256": "f6857899f381281e15c814aef33429349be284b4808d30dca322e6f0bc3acb95",
+  "uv_inner_cell_margin": 0.13,
+  "style_direction": "bloomwalker_painterly",
+  "build_rss_peak_kib": 60588,
+  "texture_quality_reference": "Approved earlier flower stall, not the rejected technical fixture",
+  "runtime_validation": "pending; GLB numerical round-trip follows separately"
+}

@@ -1,0 +1,10 @@
+{
+  "file": "bloomwalker_painterly_bread_cart_editable_parts.glb",
+  "sha256": "603e2342d01c19cc1eb91fffbfbcd4a99e9c35b4b0a2d5a70d2991fa1554e86c",
+  "bytes": 1639704,
+  "separately_editable_mesh_nodes": 134,
+  "triangles": 3914,
+  "same_runtime_mesh_source": "bloomwalker_painterly_bread_cart.glb",
+  "materials": 3,
+  "purpose": "Editable source, not optimized runtime draw-call budget"
+}

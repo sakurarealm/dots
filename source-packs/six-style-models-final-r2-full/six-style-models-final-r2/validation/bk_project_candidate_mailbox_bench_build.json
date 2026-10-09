@@ -1,0 +1,16 @@
+{
+  "file": "bk_project_candidate_mailbox_bench.glb",
+  "sha256": "e0bf2000d691a96a5cf7625838880f6d3c1234cedbcb0810f71ec0c2dd9efa99",
+  "bytes": 2081064,
+  "triangles": 2926,
+  "editable_parts": 114,
+  "actual_materials": 3,
+  "actual_primitives": 3,
+  "atlas_file": "atlases/bk_project_candidate_atlas_runtime1024.png",
+  "atlas_sha256": "8d00c6db7a4a75a72564c579e91a3cb70905866bea9b423aa7cbbe7fe51a12ba",
+  "uv_inner_cell_margin": 0.13,
+  "style_direction": "bk_project_candidate",
+  "build_rss_peak_kib": 61364,
+  "texture_quality_reference": "Approved earlier flower stall, not the rejected technical fixture",
+  "runtime_validation": "pending; GLB numerical round-trip follows separately"
+}

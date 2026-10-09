@@ -1,0 +1,29 @@
+{
+  "startup_available_bytes": 2393636864,
+  "minimum_available_bytes": 2282811392,
+  "reserve_bytes": 2147483648,
+  "exit_code": 0,
+  "history": [
+    {
+      "at_utc": "2026-10-08T22:26:15.343480+00:00",
+      "available_bytes": 2393636864
+    },
+    {
+      "at_utc": "2026-10-08T22:26:15.843864+00:00",
+      "available_bytes": 2363400192
+    },
+    {
+      "at_utc": "2026-10-08T22:26:16.344213+00:00",
+      "available_bytes": 2322591744
+    },
+    {
+      "at_utc": "2026-10-08T22:26:16.844532+00:00",
+      "available_bytes": 2320703488
+    },
+    {
+      "at_utc": "2026-10-08T22:26:17.344871+00:00",
+      "available_bytes": 2282811392
+    }
+  ],
+  "scope": "only this lightweight renderer process; no Blender or shared heavy lock used"
+}

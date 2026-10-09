@@ -1,0 +1,10 @@
+{
+  "file": "bk_project_candidate_tea_kiosk_editable_parts.glb",
+  "sha256": "d9671a48f7e5149549ecd0c3f78ff1bf873af8cea5cbf6c5807ad695cdce6a5e",
+  "bytes": 2285204,
+  "separately_editable_mesh_nodes": 107,
+  "triangles": 3736,
+  "same_runtime_mesh_source": "bk_project_candidate_tea_kiosk.glb",
+  "materials": 3,
+  "purpose": "Editable source, not optimized runtime draw-call budget"
+}

@@ -1,0 +1,10 @@
+{
+  "file": "bk_project_candidate_mailbox_bench_editable_parts.glb",
+  "sha256": "7037b6c3e312556429201250ff6c4d019331fd12f1b591a3568b096f34ce125c",
+  "bytes": 2205432,
+  "separately_editable_mesh_nodes": 114,
+  "triangles": 2926,
+  "same_runtime_mesh_source": "bk_project_candidate_mailbox_bench.glb",
+  "materials": 3,
+  "purpose": "Editable source, not optimized runtime draw-call budget"
+}

@@ -1,0 +1,10 @@
+{
+  "file": "bk_project_candidate_bread_cart_editable_parts.glb",
+  "sha256": "73639a782b1c9aa42689a0cf14024acb76987e0d03589156f5ce9eac6bf390c1",
+  "bytes": 2312800,
+  "separately_editable_mesh_nodes": 116,
+  "triangles": 3924,
+  "same_runtime_mesh_source": "bk_project_candidate_bread_cart.glb",
+  "materials": 3,
+  "purpose": "Editable source, not optimized runtime draw-call budget"
+}

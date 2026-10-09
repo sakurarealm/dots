@@ -1,0 +1,1099 @@
+{
+  "atlas": "endfield_pbr_atlas.png",
+  "grid": [
+    8,
+    8
+  ],
+  "color_space": "sRGB",
+  "usage": "basecolor / albedo only",
+  "cells": [
+    {
+      "index": 1,
+      "index_zero_based": 0,
+      "row_top_origin": 1,
+      "column": 1,
+      "semantic": "dark_walnut_endgrain",
+      "uv_center_blender": [
+        0.0625,
+        0.9375
+      ],
+      "uv_bounds_blender": [
+        0.0,
+        0.875,
+        0.125,
+        1.0
+      ]
+    },
+    {
+      "index": 2,
+      "index_zero_based": 1,
+      "row_top_origin": 1,
+      "column": 2,
+      "semantic": "weathered_walnut",
+      "uv_center_blender": [
+        0.1875,
+        0.9375
+      ],
+      "uv_bounds_blender": [
+        0.125,
+        0.875,
+        0.25,
+        1.0
+      ]
+    },
+    {
+      "index": 3,
+      "index_zero_based": 2,
+      "row_top_origin": 1,
+      "column": 3,
+      "semantic": "mahogany",
+      "uv_center_blender": [
+        0.3125,
+        0.9375
+      ],
+      "uv_bounds_blender": [
+        0.25,
+        0.875,
+        0.375,
+        1.0
+      ]
+    },
+    {
+      "index": 4,
+      "index_zero_based": 3,
+      "row_top_origin": 1,
+      "column": 4,
+      "semantic": "aged_oak",
+      "uv_center_blender": [
+        0.4375,
+        0.9375
+      ],
+      "uv_bounds_blender": [
+        0.375,
+        0.875,
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "index": 5,
+      "index_zero_based": 4,
+      "row_top_origin": 1,
+      "column": 5,
+      "semantic": "honey_oak",
+      "uv_center_blender": [
+        0.5625,
+        0.9375
+      ],
+      "uv_bounds_blender": [
+        0.5,
+        0.875,
+        0.625,
+        1.0
+      ]
+    },
+    {
+      "index": 6,
+      "index_zero_based": 5,
+      "row_top_origin": 1,
+      "column": 6,
+      "semantic": "pale_ash",
+      "uv_center_blender": [
+        0.6875,
+        0.9375
+      ],
+      "uv_bounds_blender": [
+        0.625,
+        0.875,
+        0.75,
+        1.0
+      ]
+    },
+    {
+      "index": 7,
+      "index_zero_based": 6,
+      "row_top_origin": 1,
+      "column": 7,
+      "semantic": "golden_maple",
+      "uv_center_blender": [
+        0.8125,
+        0.9375
+      ],
+      "uv_bounds_blender": [
+        0.75,
+        0.875,
+        0.875,
+        1.0
+      ]
+    },
+    {
+      "index": 8,
+      "index_zero_based": 7,
+      "row_top_origin": 1,
+      "column": 8,
+      "semantic": "gray_driftwood",
+      "uv_center_blender": [
+        0.9375,
+        0.9375
+      ],
+      "uv_bounds_blender": [
+        0.875,
+        0.875,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "index": 9,
+      "index_zero_based": 8,
+      "row_top_origin": 2,
+      "column": 1,
+      "semantic": "sienna_timber",
+      "uv_center_blender": [
+        0.0625,
+        0.8125
+      ],
+      "uv_bounds_blender": [
+        0.0,
+        0.75,
+        0.125,
+        0.875
+      ]
+    },
+    {
+      "index": 10,
+      "index_zero_based": 9,
+      "row_top_origin": 2,
+      "column": 2,
+      "semantic": "espresso_wood",
+      "uv_center_blender": [
+        0.1875,
+        0.8125
+      ],
+      "uv_bounds_blender": [
+        0.125,
+        0.75,
+        0.25,
+        0.875
+      ]
+    },
+    {
+      "index": 11,
+      "index_zero_based": 10,
+      "row_top_origin": 2,
+      "column": 3,
+      "semantic": "chestnut_knots",
+      "uv_center_blender": [
+        0.3125,
+        0.8125
+      ],
+      "uv_bounds_blender": [
+        0.25,
+        0.75,
+        0.375,
+        0.875
+      ]
+    },
+    {
+      "index": 12,
+      "index_zero_based": 11,
+      "row_top_origin": 2,
+      "column": 4,
+      "semantic": "sandy_oak",
+      "uv_center_blender": [
+        0.4375,
+        0.8125
+      ],
+      "uv_bounds_blender": [
+        0.375,
+        0.75,
+        0.5,
+        0.875
+      ]
+    },
+    {
+      "index": 13,
+      "index_zero_based": 12,
+      "row_top_origin": 2,
+      "column": 5,
+      "semantic": "amber_pine",
+      "uv_center_blender": [
+        0.5625,
+        0.8125
+      ],
+      "uv_bounds_blender": [
+        0.5,
+        0.75,
+        0.625,
+        0.875
+      ]
+    },
+    {
+      "index": 14,
+      "index_zero_based": 13,
+      "row_top_origin": 2,
+      "column": 6,
+      "semantic": "pale_birch",
+      "uv_center_blender": [
+        0.6875,
+        0.8125
+      ],
+      "uv_bounds_blender": [
+        0.625,
+        0.75,
+        0.75,
+        0.875
+      ]
+    },
+    {
+      "index": 15,
+      "index_zero_based": 14,
+      "row_top_origin": 2,
+      "column": 7,
+      "semantic": "blue_gray_stained_wood",
+      "uv_center_blender": [
+        0.8125,
+        0.8125
+      ],
+      "uv_bounds_blender": [
+        0.75,
+        0.75,
+        0.875,
+        0.875
+      ]
+    },
+    {
+      "index": 16,
+      "index_zero_based": 15,
+      "row_top_origin": 2,
+      "column": 8,
+      "semantic": "brown_endgrain",
+      "uv_center_blender": [
+        0.9375,
+        0.8125
+      ],
+      "uv_bounds_blender": [
+        0.875,
+        0.75,
+        1.0,
+        0.875
+      ]
+    },
+    {
+      "index": 17,
+      "index_zero_based": 16,
+      "row_top_origin": 3,
+      "column": 1,
+      "semantic": "charcoal_coated_metal",
+      "uv_center_blender": [
+        0.0625,
+        0.6875
+      ],
+      "uv_bounds_blender": [
+        0.0,
+        0.625,
+        0.125,
+        0.75
+      ]
+    },
+    {
+      "index": 18,
+      "index_zero_based": 17,
+      "row_top_origin": 3,
+      "column": 2,
+      "semantic": "dark_brushed_steel",
+      "uv_center_blender": [
+        0.1875,
+        0.6875
+      ],
+      "uv_bounds_blender": [
+        0.125,
+        0.625,
+        0.25,
+        0.75
+      ]
+    },
+    {
+      "index": 19,
+      "index_zero_based": 18,
+      "row_top_origin": 3,
+      "column": 3,
+      "semantic": "galvanized_steel",
+      "uv_center_blender": [
+        0.3125,
+        0.6875
+      ],
+      "uv_bounds_blender": [
+        0.25,
+        0.625,
+        0.375,
+        0.75
+      ]
+    },
+    {
+      "index": 20,
+      "index_zero_based": 19,
+      "row_top_origin": 3,
+      "column": 4,
+      "semantic": "brushed_aluminum",
+      "uv_center_blender": [
+        0.4375,
+        0.6875
+      ],
+      "uv_bounds_blender": [
+        0.375,
+        0.625,
+        0.5,
+        0.75
+      ]
+    },
+    {
+      "index": 21,
+      "index_zero_based": 20,
+      "row_top_origin": 3,
+      "column": 5,
+      "semantic": "ivory_powdercoat",
+      "uv_center_blender": [
+        0.5625,
+        0.6875
+      ],
+      "uv_bounds_blender": [
+        0.5,
+        0.625,
+        0.625,
+        0.75
+      ]
+    },
+    {
+      "index": 22,
+      "index_zero_based": 21,
+      "row_top_origin": 3,
+      "column": 6,
+      "semantic": "stone_gray_paint",
+      "uv_center_blender": [
+        0.6875,
+        0.6875
+      ],
+      "uv_bounds_blender": [
+        0.625,
+        0.625,
+        0.75,
+        0.75
+      ]
+    },
+    {
+      "index": 23,
+      "index_zero_based": 22,
+      "row_top_origin": 3,
+      "column": 7,
+      "semantic": "steel_blue_enamel",
+      "uv_center_blender": [
+        0.8125,
+        0.6875
+      ],
+      "uv_bounds_blender": [
+        0.75,
+        0.625,
+        0.875,
+        0.75
+      ]
+    },
+    {
+      "index": 24,
+      "index_zero_based": 23,
+      "row_top_origin": 3,
+      "column": 8,
+      "semantic": "charcoal_yellow_stripe",
+      "uv_center_blender": [
+        0.9375,
+        0.6875
+      ],
+      "uv_bounds_blender": [
+        0.875,
+        0.625,
+        1.0,
+        0.75
+      ]
+    },
+    {
+      "index": 25,
+      "index_zero_based": 24,
+      "row_top_origin": 4,
+      "column": 1,
+      "semantic": "graphite_scratched_metal",
+      "uv_center_blender": [
+        0.0625,
+        0.5625
+      ],
+      "uv_bounds_blender": [
+        0.0,
+        0.5,
+        0.125,
+        0.625
+      ]
+    },
+    {
+      "index": 26,
+      "index_zero_based": 25,
+      "row_top_origin": 4,
+      "column": 2,
+      "semantic": "warm_gunmetal",
+      "uv_center_blender": [
+        0.1875,
+        0.5625
+      ],
+      "uv_bounds_blender": [
+        0.125,
+        0.5,
+        0.25,
+        0.625
+      ]
+    },
+    {
+      "index": 27,
+      "index_zero_based": 26,
+      "row_top_origin": 4,
+      "column": 3,
+      "semantic": "gray_worn_paint",
+      "uv_center_blender": [
+        0.3125,
+        0.5625
+      ],
+      "uv_bounds_blender": [
+        0.25,
+        0.5,
+        0.375,
+        0.625
+      ]
+    },
+    {
+      "index": 28,
+      "index_zero_based": 27,
+      "row_top_origin": 4,
+      "column": 4,
+      "semantic": "slate_blue_brushed_metal",
+      "uv_center_blender": [
+        0.4375,
+        0.5625
+      ],
+      "uv_bounds_blender": [
+        0.375,
+        0.5,
+        0.5,
+        0.625
+      ]
+    },
+    {
+      "index": 29,
+      "index_zero_based": 28,
+      "row_top_origin": 4,
+      "column": 5,
+      "semantic": "aged_ivory_steel",
+      "uv_center_blender": [
+        0.5625,
+        0.5625
+      ],
+      "uv_bounds_blender": [
+        0.5,
+        0.5,
+        0.625,
+        0.625
+      ]
+    },
+    {
+      "index": 30,
+      "index_zero_based": 29,
+      "row_top_origin": 4,
+      "column": 6,
+      "semantic": "light_dusty_steel",
+      "uv_center_blender": [
+        0.6875,
+        0.5625
+      ],
+      "uv_bounds_blender": [
+        0.625,
+        0.5,
+        0.75,
+        0.625
+      ]
+    },
+    {
+      "index": 31,
+      "index_zero_based": 30,
+      "row_top_origin": 4,
+      "column": 7,
+      "semantic": "chipped_steel_blue",
+      "uv_center_blender": [
+        0.8125,
+        0.5625
+      ],
+      "uv_bounds_blender": [
+        0.75,
+        0.5,
+        0.875,
+        0.625
+      ]
+    },
+    {
+      "index": 32,
+      "index_zero_based": 31,
+      "row_top_origin": 4,
+      "column": 8,
+      "semantic": "dark_gray_yellow_dashes",
+      "uv_center_blender": [
+        0.9375,
+        0.5625
+      ],
+      "uv_bounds_blender": [
+        0.875,
+        0.5,
+        1.0,
+        0.625
+      ]
+    },
+    {
+      "index": 33,
+      "index_zero_based": 32,
+      "row_top_origin": 5,
+      "column": 1,
+      "semantic": "cream_cotton",
+      "uv_center_blender": [
+        0.0625,
+        0.4375
+      ],
+      "uv_bounds_blender": [
+        0.0,
+        0.375,
+        0.125,
+        0.5
+      ]
+    },
+    {
+      "index": 34,
+      "index_zero_based": 33,
+      "row_top_origin": 5,
+      "column": 2,
+      "semantic": "teal_cotton",
+      "uv_center_blender": [
+        0.1875,
+        0.4375
+      ],
+      "uv_bounds_blender": [
+        0.125,
+        0.375,
+        0.25,
+        0.5
+      ]
+    },
+    {
+      "index": 35,
+      "index_zero_based": 34,
+      "row_top_origin": 5,
+      "column": 3,
+      "semantic": "ochre_canvas",
+      "uv_center_blender": [
+        0.3125,
+        0.4375
+      ],
+      "uv_bounds_blender": [
+        0.25,
+        0.375,
+        0.375,
+        0.5
+      ]
+    },
+    {
+      "index": 36,
+      "index_zero_based": 35,
+      "row_top_origin": 5,
+      "column": 4,
+      "semantic": "coral_canvas",
+      "uv_center_blender": [
+        0.4375,
+        0.4375
+      ],
+      "uv_bounds_blender": [
+        0.375,
+        0.375,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 37,
+      "index_zero_based": 36,
+      "row_top_origin": 5,
+      "column": 5,
+      "semantic": "navy_canvas",
+      "uv_center_blender": [
+        0.5625,
+        0.4375
+      ],
+      "uv_bounds_blender": [
+        0.5,
+        0.375,
+        0.625,
+        0.5
+      ]
+    },
+    {
+      "index": 38,
+      "index_zero_based": 37,
+      "row_top_origin": 5,
+      "column": 6,
+      "semantic": "dark_brown_leather",
+      "uv_center_blender": [
+        0.6875,
+        0.4375
+      ],
+      "uv_bounds_blender": [
+        0.625,
+        0.375,
+        0.75,
+        0.5
+      ]
+    },
+    {
+      "index": 39,
+      "index_zero_based": 38,
+      "row_top_origin": 5,
+      "column": 7,
+      "semantic": "cognac_leather",
+      "uv_center_blender": [
+        0.8125,
+        0.4375
+      ],
+      "uv_bounds_blender": [
+        0.75,
+        0.375,
+        0.875,
+        0.5
+      ]
+    },
+    {
+      "index": 40,
+      "index_zero_based": 39,
+      "row_top_origin": 5,
+      "column": 8,
+      "semantic": "burgundy_leather",
+      "uv_center_blender": [
+        0.9375,
+        0.4375
+      ],
+      "uv_bounds_blender": [
+        0.875,
+        0.375,
+        1.0,
+        0.5
+      ]
+    },
+    {
+      "index": 41,
+      "index_zero_based": 40,
+      "row_top_origin": 6,
+      "column": 1,
+      "semantic": "warm_gray_stone",
+      "uv_center_blender": [
+        0.0625,
+        0.3125
+      ],
+      "uv_bounds_blender": [
+        0.0,
+        0.25,
+        0.125,
+        0.375
+      ]
+    },
+    {
+      "index": 42,
+      "index_zero_based": 41,
+      "row_top_origin": 6,
+      "column": 2,
+      "semantic": "blue_gray_slate",
+      "uv_center_blender": [
+        0.1875,
+        0.3125
+      ],
+      "uv_bounds_blender": [
+        0.125,
+        0.25,
+        0.25,
+        0.375
+      ]
+    },
+    {
+      "index": 43,
+      "index_zero_based": 42,
+      "row_top_origin": 6,
+      "column": 3,
+      "semantic": "limestone",
+      "uv_center_blender": [
+        0.3125,
+        0.3125
+      ],
+      "uv_bounds_blender": [
+        0.25,
+        0.25,
+        0.375,
+        0.375
+      ]
+    },
+    {
+      "index": 44,
+      "index_zero_based": 43,
+      "row_top_origin": 6,
+      "column": 4,
+      "semantic": "ivory_lime_plaster",
+      "uv_center_blender": [
+        0.4375,
+        0.3125
+      ],
+      "uv_bounds_blender": [
+        0.375,
+        0.25,
+        0.5,
+        0.375
+      ]
+    },
+    {
+      "index": 45,
+      "index_zero_based": 44,
+      "row_top_origin": 6,
+      "column": 5,
+      "semantic": "cream_ceramic",
+      "uv_center_blender": [
+        0.5625,
+        0.3125
+      ],
+      "uv_bounds_blender": [
+        0.5,
+        0.25,
+        0.625,
+        0.375
+      ]
+    },
+    {
+      "index": 46,
+      "index_zero_based": 45,
+      "row_top_origin": 6,
+      "column": 6,
+      "semantic": "teal_ceramic",
+      "uv_center_blender": [
+        0.6875,
+        0.3125
+      ],
+      "uv_bounds_blender": [
+        0.625,
+        0.25,
+        0.75,
+        0.375
+      ]
+    },
+    {
+      "index": 47,
+      "index_zero_based": 46,
+      "row_top_origin": 6,
+      "column": 7,
+      "semantic": "terracotta",
+      "uv_center_blender": [
+        0.8125,
+        0.3125
+      ],
+      "uv_bounds_blender": [
+        0.75,
+        0.25,
+        0.875,
+        0.375
+      ]
+    },
+    {
+      "index": 48,
+      "index_zero_based": 47,
+      "row_top_origin": 6,
+      "column": 8,
+      "semantic": "gray_beige_plaster",
+      "uv_center_blender": [
+        0.9375,
+        0.3125
+      ],
+      "uv_bounds_blender": [
+        0.875,
+        0.25,
+        1.0,
+        0.375
+      ]
+    },
+    {
+      "index": 49,
+      "index_zero_based": 48,
+      "row_top_origin": 7,
+      "column": 1,
+      "semantic": "forest_leaf",
+      "uv_center_blender": [
+        0.0625,
+        0.1875
+      ],
+      "uv_bounds_blender": [
+        0.0,
+        0.125,
+        0.125,
+        0.25
+      ]
+    },
+    {
+      "index": 50,
+      "index_zero_based": 49,
+      "row_top_origin": 7,
+      "column": 2,
+      "semantic": "olive_leaf",
+      "uv_center_blender": [
+        0.1875,
+        0.1875
+      ],
+      "uv_bounds_blender": [
+        0.125,
+        0.125,
+        0.25,
+        0.25
+      ]
+    },
+    {
+      "index": 51,
+      "index_zero_based": 50,
+      "row_top_origin": 7,
+      "column": 3,
+      "semantic": "mid_green_leaf",
+      "uv_center_blender": [
+        0.3125,
+        0.1875
+      ],
+      "uv_bounds_blender": [
+        0.25,
+        0.125,
+        0.375,
+        0.25
+      ]
+    },
+    {
+      "index": 52,
+      "index_zero_based": 51,
+      "row_top_origin": 7,
+      "column": 4,
+      "semantic": "sage_leaf",
+      "uv_center_blender": [
+        0.4375,
+        0.1875
+      ],
+      "uv_bounds_blender": [
+        0.375,
+        0.125,
+        0.5,
+        0.25
+      ]
+    },
+    {
+      "index": 53,
+      "index_zero_based": 52,
+      "row_top_origin": 7,
+      "column": 5,
+      "semantic": "bread_crust",
+      "uv_center_blender": [
+        0.5625,
+        0.1875
+      ],
+      "uv_bounds_blender": [
+        0.5,
+        0.125,
+        0.625,
+        0.25
+      ]
+    },
+    {
+      "index": 54,
+      "index_zero_based": 53,
+      "row_top_origin": 7,
+      "column": 6,
+      "semantic": "amber_pastry",
+      "uv_center_blender": [
+        0.6875,
+        0.1875
+      ],
+      "uv_bounds_blender": [
+        0.625,
+        0.125,
+        0.75,
+        0.25
+      ]
+    },
+    {
+      "index": 55,
+      "index_zero_based": 54,
+      "row_top_origin": 7,
+      "column": 7,
+      "semantic": "light_pastry_crust",
+      "uv_center_blender": [
+        0.8125,
+        0.1875
+      ],
+      "uv_bounds_blender": [
+        0.75,
+        0.125,
+        0.875,
+        0.25
+      ]
+    },
+    {
+      "index": 56,
+      "index_zero_based": 55,
+      "row_top_origin": 7,
+      "column": 8,
+      "semantic": "bread_crumb",
+      "uv_center_blender": [
+        0.9375,
+        0.1875
+      ],
+      "uv_bounds_blender": [
+        0.875,
+        0.125,
+        1.0,
+        0.25
+      ]
+    },
+    {
+      "index": 57,
+      "index_zero_based": 56,
+      "row_top_origin": 8,
+      "column": 1,
+      "semantic": "deep_cool_leaf",
+      "uv_center_blender": [
+        0.0625,
+        0.0625
+      ],
+      "uv_bounds_blender": [
+        0.0,
+        0.0,
+        0.125,
+        0.125
+      ]
+    },
+    {
+      "index": 58,
+      "index_zero_based": 57,
+      "row_top_origin": 8,
+      "column": 2,
+      "semantic": "yellow_green_leaf",
+      "uv_center_blender": [
+        0.1875,
+        0.0625
+      ],
+      "uv_bounds_blender": [
+        0.125,
+        0.0,
+        0.25,
+        0.125
+      ]
+    },
+    {
+      "index": 59,
+      "index_zero_based": 58,
+      "row_top_origin": 8,
+      "column": 3,
+      "semantic": "teal_green_leaf",
+      "uv_center_blender": [
+        0.3125,
+        0.0625
+      ],
+      "uv_bounds_blender": [
+        0.25,
+        0.0,
+        0.375,
+        0.125
+      ]
+    },
+    {
+      "index": 60,
+      "index_zero_based": 59,
+      "row_top_origin": 8,
+      "column": 4,
+      "semantic": "cream_dough",
+      "uv_center_blender": [
+        0.4375,
+        0.0625
+      ],
+      "uv_bounds_blender": [
+        0.375,
+        0.0,
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "index": 61,
+      "index_zero_based": 60,
+      "row_top_origin": 8,
+      "column": 5,
+      "semantic": "patinated_copper",
+      "uv_center_blender": [
+        0.5625,
+        0.0625
+      ],
+      "uv_bounds_blender": [
+        0.5,
+        0.0,
+        0.625,
+        0.125
+      ]
+    },
+    {
+      "index": 62,
+      "index_zero_based": 61,
+      "row_top_origin": 8,
+      "column": 6,
+      "semantic": "reddish_copper",
+      "uv_center_blender": [
+        0.6875,
+        0.0625
+      ],
+      "uv_bounds_blender": [
+        0.625,
+        0.0,
+        0.75,
+        0.125
+      ]
+    },
+    {
+      "index": 63,
+      "index_zero_based": 62,
+      "row_top_origin": 8,
+      "column": 7,
+      "semantic": "dark_aged_brass",
+      "uv_center_blender": [
+        0.8125,
+        0.0625
+      ],
+      "uv_bounds_blender": [
+        0.75,
+        0.0,
+        0.875,
+        0.125
+      ]
+    },
+    {
+      "index": 64,
+      "index_zero_based": 63,
+      "row_top_origin": 8,
+      "column": 8,
+      "semantic": "ochre_brass",
+      "uv_center_blender": [
+        0.9375,
+        0.0625
+      ],
+      "uv_bounds_blender": [
+        0.875,
+        0.0,
+        1.0,
+        0.125
+      ]
+    }
+  ]
+}

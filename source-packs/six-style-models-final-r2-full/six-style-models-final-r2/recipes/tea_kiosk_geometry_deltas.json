@@ -1,0 +1,2824 @@
+{
+  "name": "tea_kiosk_geometry_deltas",
+  "parts": [],
+  "kind": "geometry_delta_metadata",
+  "base_recipe": "oil_handpaint_tea_kiosk.json",
+  "variants": {
+    "genshin_cel": {
+      "full_recipe": "genshin_cel_tea_kiosk.json",
+      "notes": [
+        "Original clean cel direction, without franchise logos or a canon claim",
+        "Straight cloth ridge and measured pendant/corner motifs; clear large material boundaries"
+      ],
+      "remove_parts": [],
+      "update_parts": [
+        {
+          "name": "Canopy left rear post",
+          "changed_fields": {
+            "bevel": 0.006
+          }
+        },
+        {
+          "name": "Canopy left front post",
+          "changed_fields": {
+            "bevel": 0.006
+          }
+        },
+        {
+          "name": "Canopy right rear post",
+          "changed_fields": {
+            "bevel": 0.006
+          }
+        },
+        {
+          "name": "Canopy right front post",
+          "changed_fields": {
+            "bevel": 0.006
+          }
+        },
+        {
+          "name": "Broad stripe canopy cloth 1",
+          "changed_fields": {
+            "vertices": [
+              [
+                -1.14,
+                -0.63,
+                2.045
+              ],
+              [
+                -0.8142857142857143,
+                -0.63,
+                2.045
+              ],
+              [
+                -0.8142857142857143,
+                0.08,
+                2.27
+              ],
+              [
+                -1.14,
+                0.08,
+                2.27
+              ],
+              [
+                -1.14,
+                0.62,
+                2.16
+              ],
+              [
+                -0.8142857142857143,
+                0.62,
+                2.16
+              ]
+            ]
+          }
+        },
+        {
+          "name": "Soft scalloped cloth valance 1",
+          "changed_fields": {
+            "vertices": [
+              [
+                -1.14,
+                -0.637,
+                2.045
+              ],
+              [
+                -0.8142857142857143,
+                -0.637,
+                2.045
+              ],
+              [
+                -0.8142857142857143,
+                -0.647,
+                1.94
+              ],
+              [
+                -0.9771428571428571,
+                -0.65,
+                1.885
+              ],
+              [
+                -1.14,
+                -0.647,
+                1.94
+              ]
+            ]
+          }
+        },
+        {
+          "name": "Broad stripe canopy cloth 2",
+          "changed_fields": {
+            "vertices": [
+              [
+                -0.8142857142857143,
+                -0.63,
+                2.045
+              ],
+              [
+                -0.48857142857142855,
+                -0.63,
+                2.045
+              ],
+              [
+                -0.48857142857142855,
+                0.08,
+                2.27
+              ],
+              [
+                -0.8142857142857143,
+                0.08,
+                2.27
+              ],
+              [
+                -0.8142857142857143,
+                0.62,
+                2.16
+              ],
+              [
+                -0.48857142857142855,
+                0.62,
+                2.16
+              ]
+            ]
+          }
+        },
+        {
+          "name": "Soft scalloped cloth valance 2",
+          "changed_fields": {
+            "vertices": [
+              [
+                -0.8142857142857143,
+                -0.637,
+                2.045
+              ],
+              [
+                -0.48857142857142855,
+                -0.637,
+                2.045
+              ],
+              [
+                -0.48857142857142855,
+                -0.647,
+                1.94
+              ],
+              [
+                -0.6514285714285715,
+                -0.65,
+                1.885
+              ],
+              [
+                -0.8142857142857143,
+                -0.647,
+                1.94
+              ]
+            ]
+          }
+        },
+        {
+          "name": "Broad stripe canopy cloth 3",
+          "changed_fields": {
+            "vertices": [
+              [
+                -0.48857142857142855,
+                -0.63,
+                2.045
+              ],
+              [
+                -0.1628571428571428,
+                -0.63,
+                2.045
+              ],
+              [
+                -0.1628571428571428,
+                0.08,
+                2.27
+              ],
+              [
+                -0.48857142857142855,
+                0.08,
+                2.27
+              ],
+              [
+                -0.48857142857142855,
+                0.62,
+                2.16
+              ],
+              [
+                -0.1628571428571428,
+                0.62,
+                2.16
+              ]
+            ]
+          }
+        },
+        {
+          "name": "Soft scalloped cloth valance 3",
+          "changed_fields": {
+            "vertices": [
+              [
+                -0.48857142857142855,
+                -0.637,
+                2.045
+              ],
+              [
+                -0.1628571428571428,
+                -0.637,
+                2.045
+              ],
+              [
+                -0.1628571428571428,
+                -0.647,
+                1.94
+              ],
+              [
+                -0.3257142857142857,
+                -0.65,
+                1.885
+              ],
+              [
+                -0.48857142857142855,
+                -0.647,
+                1.94
+              ]
+            ]
+          }
+        },
+        {
+          "name": "Broad stripe canopy cloth 4",
+          "changed_fields": {
+            "vertices": [
+              [
+                -0.1628571428571428,
+                -0.63,
+                2.045
+              ],
+              [
+                0.1628571428571428,
+                -0.63,
+                2.045
+              ],
+              [
+                0.1628571428571428,
+                0.08,
+                2.27
+              ],
+              [
+                -0.1628571428571428,
+                0.08,
+                2.27
+              ],
+              [
+                -0.1628571428571428,
+                0.62,
+                2.16
+              ],
+              [
+                0.1628571428571428,
+                0.62,
+                2.16
+              ]
+            ]
+          }
+        },
+        {
+          "name": "Soft scalloped cloth valance 4",
+          "changed_fields": {
+            "vertices": [
+              [
+                -0.1628571428571428,
+                -0.637,
+                2.045
+              ],
+              [
+                0.1628571428571428,
+                -0.637,
+                2.045
+              ],
+              [
+                0.1628571428571428,
+                -0.647,
+                1.94
+              ],
+              [
+                0.0,
+                -0.65,
+                1.885
+              ],
+              [
+                -0.1628571428571428,
+                -0.647,
+                1.94
+              ]
+            ]
+          }
+        },
+        {
+          "name": "Broad stripe canopy cloth 5",
+          "changed_fields": {
+            "vertices": [
+              [
+                0.1628571428571428,
+                -0.63,
+                2.045
+              ],
+              [
+                0.48857142857142843,
+                -0.63,
+                2.045
+              ],
+              [
+                0.48857142857142843,
+                0.08,
+                2.27
+              ],
+              [
+                0.1628571428571428,
+                0.08,
+                2.27
+              ],
+              [
+                0.1628571428571428,
+                0.62,
+                2.16
+              ],
+              [
+                0.48857142857142843,
+                0.62,
+                2.16
+              ]
+            ]
+          }
+        },
+        {
+          "name": "Soft scalloped cloth valance 5",
+          "changed_fields": {
+            "vertices": [
+              [
+                0.1628571428571428,
+                -0.637,
+                2.045
+              ],
+              [
+                0.48857142857142843,
+                -0.637,
+                2.045
+              ],
+              [
+                0.48857142857142843,
+                -0.647,
+                1.94
+              ],
+              [
+                0.3257142857142856,
+                -0.65,
+                1.885
+              ],
+              [
+                0.1628571428571428,
+                -0.647,
+                1.94
+              ]
+            ]
+          }
+        },
+        {
+          "name": "Broad stripe canopy cloth 6",
+          "changed_fields": {
+            "vertices": [
+              [
+                0.48857142857142843,
+                -0.63,
+                2.045
+              ],
+              [
+                0.8142857142857143,
+                -0.63,
+                2.045
+              ],
+              [
+                0.8142857142857143,
+                0.08,
+                2.27
+              ],
+              [
+                0.48857142857142843,
+                0.08,
+                2.27
+              ],
+              [
+                0.48857142857142843,
+                0.62,
+                2.16
+              ],
+              [
+                0.8142857142857143,
+                0.62,
+                2.16
+              ]
+            ]
+          }
+        },
+        {
+          "name": "Soft scalloped cloth valance 6",
+          "changed_fields": {
+            "vertices": [
+              [
+                0.48857142857142843,
+                -0.637,
+                2.045
+              ],
+              [
+                0.8142857142857143,
+                -0.637,
+                2.045
+              ],
+              [
+                0.8142857142857143,
+                -0.647,
+                1.94
+              ],
+              [
+                0.6514285714285714,
+                -0.65,
+                1.885
+              ],
+              [
+                0.48857142857142843,
+                -0.647,
+                1.94
+              ]
+            ]
+          }
+        },
+        {
+          "name": "Broad stripe canopy cloth 7",
+          "changed_fields": {
+            "vertices": [
+              [
+                0.8142857142857143,
+                -0.63,
+                2.045
+              ],
+              [
+                1.14,
+                -0.63,
+                2.045
+              ],
+              [
+                1.14,
+                0.08,
+                2.27
+              ],
+              [
+                0.8142857142857143,
+                0.08,
+                2.27
+              ],
+              [
+                0.8142857142857143,
+                0.62,
+                2.16
+              ],
+              [
+                1.14,
+                0.62,
+                2.16
+              ]
+            ]
+          }
+        },
+        {
+          "name": "Soft scalloped cloth valance 7",
+          "changed_fields": {
+            "vertices": [
+              [
+                0.8142857142857143,
+                -0.637,
+                2.045
+              ],
+              [
+                1.14,
+                -0.637,
+                2.045
+              ],
+              [
+                1.14,
+                -0.647,
+                1.94
+              ],
+              [
+                0.9771428571428571,
+                -0.65,
+                1.885
+              ],
+              [
+                0.8142857142857143,
+                -0.647,
+                1.94
+              ]
+            ]
+          }
+        }
+      ],
+      "add_parts": [
+        {
+          "name": "Cel structured canopy corner pennant 1",
+          "shape": "mesh",
+          "surface": "paint",
+          "color_role": "cloth_blue",
+          "vertices": [
+            [
+              -0.89,
+              -0.648,
+              2.038
+            ],
+            [
+              -1.06,
+              -0.648,
+              1.89
+            ],
+            [
+              -0.89,
+              -0.648,
+              1.748
+            ]
+          ],
+          "faces": [
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          "smooth": false
+        },
+        {
+          "name": "Cel honey corner inset 1",
+          "shape": "mesh",
+          "surface": "paint",
+          "color_role": "brass",
+          "vertices": [
+            [
+              -0.89,
+              -0.654,
+              1.954
+            ],
+            [
+              -0.966,
+              -0.654,
+              1.89
+            ],
+            [
+              -0.89,
+              -0.654,
+              1.826
+            ]
+          ],
+          "faces": [
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          "smooth": false
+        },
+        {
+          "name": "Cel structured canopy corner pennant 2",
+          "shape": "mesh",
+          "surface": "paint",
+          "color_role": "cloth_blue",
+          "vertices": [
+            [
+              0.89,
+              -0.648,
+              2.038
+            ],
+            [
+              1.06,
+              -0.648,
+              1.89
+            ],
+            [
+              0.89,
+              -0.648,
+              1.748
+            ]
+          ],
+          "faces": [
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          "smooth": false
+        },
+        {
+          "name": "Cel honey corner inset 2",
+          "shape": "mesh",
+          "surface": "paint",
+          "color_role": "brass",
+          "vertices": [
+            [
+              0.89,
+              -0.654,
+              1.954
+            ],
+            [
+              0.966,
+              -0.654,
+              1.89
+            ],
+            [
+              0.89,
+              -0.654,
+              1.826
+            ]
+          ],
+          "faces": [
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          "smooth": false
+        },
+        {
+          "name": "Cel front apron diamond 1",
+          "shape": "box",
+          "surface": "paint",
+          "color_role": "cream",
+          "position": [
+            -0.65,
+            -0.505,
+            0.672
+          ],
+          "size": [
+            0.077,
+            0.01,
+            0.077
+          ],
+          "bevel": 0.003,
+          "rotation": [
+            0,
+            0.785,
+            0
+          ]
+        },
+        {
+          "name": "Cel front apron diamond 2",
+          "shape": "box",
+          "surface": "paint",
+          "color_role": "cream",
+          "position": [
+            -0.3,
+            -0.505,
+            0.672
+          ],
+          "size": [
+            0.077,
+            0.01,
+            0.077
+          ],
+          "bevel": 0.003,
+          "rotation": [
+            0,
+            0.785,
+            0
+          ]
+        },
+        {
+          "name": "Cel front apron diamond 3",
+          "shape": "box",
+          "surface": "paint",
+          "color_role": "cream",
+          "position": [
+            0.05,
+            -0.505,
+            0.672
+          ],
+          "size": [
+            0.077,
+            0.01,
+            0.077
+          ],
+          "bevel": 0.003,
+          "rotation": [
+            0,
+            0.785,
+            0
+          ]
+        }
+      ],
+      "parts": 114,
+      "triangle_upper_bound": 4032
+    },
+    "endfield_pbr_anime": {
+      "full_recipe": "endfield_pbr_anime_tea_kiosk.json",
+      "notes": [
+        "Functional modular industrial interpretation, independent of franchise canon",
+        "Rigid awning/shells, exposed service details, graphite frames and restrained warm hardware"
+      ],
+      "remove_parts": [
+        "Broad stripe canopy cloth 1",
+        "Soft scalloped cloth valance 1",
+        "Broad stripe canopy cloth 2",
+        "Soft scalloped cloth valance 2",
+        "Broad stripe canopy cloth 3",
+        "Soft scalloped cloth valance 3",
+        "Broad stripe canopy cloth 4",
+        "Soft scalloped cloth valance 4",
+        "Broad stripe canopy cloth 5",
+        "Soft scalloped cloth valance 5",
+        "Broad stripe canopy cloth 6",
+        "Soft scalloped cloth valance 6",
+        "Broad stripe canopy cloth 7",
+        "Soft scalloped cloth valance 7",
+        "Canopy broad front hem rod",
+        "Tea sign left suspension cord",
+        "Tea sign right suspension cord"
+      ],
+      "update_parts": [
+        {
+          "name": "Tea kiosk underframe",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Tea kiosk foot 1-1",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Tea kiosk foot 1-2",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Tea kiosk foot 2-1",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Tea kiosk foot 2-2",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Tea kiosk back storage wall",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "cream"
+          }
+        },
+        {
+          "name": "Tea kiosk left lower side wall",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "cream"
+          }
+        },
+        {
+          "name": "Tea kiosk right lower side wall",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "cream"
+          }
+        },
+        {
+          "name": "Indigo hand-painted front panel",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "teal",
+            "bevel": 0.014
+          }
+        },
+        {
+          "name": "Honey apron frame left",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Honey apron frame right",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Apron bottom frame",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Open cubby divider",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Generous serving counter golden edge",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "cream",
+            "bevel": 0.018
+          }
+        },
+        {
+          "name": "Warm oil-painted serving surface",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "cream"
+          }
+        },
+        {
+          "name": "Canopy left rear post",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Canopy left front post",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Canopy left cross support",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Canopy right rear post",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Canopy right front post",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Canopy right cross support",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Canopy rear spreader",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Canopy ridge support",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Shelf left triangular bracket",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Shelf right triangular bracket",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Shelf back lip",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "cream"
+          }
+        },
+        {
+          "name": "Tea sign honey carved surround",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark",
+            "size": [
+              0.54,
+              0.072,
+              0.43
+            ],
+            "bevel": 0.018
+          }
+        },
+        {
+          "name": "Planter outrigger angled brace",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Herb planter soil",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        }
+      ],
+      "add_parts": [
+        {
+          "name": "Industrial rigid service awning",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "cream",
+          "position": [
+            0,
+            -0.015,
+            2.133
+          ],
+          "size": [
+            2.29,
+            1.31,
+            0.1
+          ],
+          "bevel": 0.026,
+          "rotation": [
+            0.025,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial front service fascia",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "metal_dark",
+          "position": [
+            0,
+            -0.662,
+            2.101
+          ],
+          "size": [
+            2.32,
+            0.083,
+            0.147
+          ],
+          "bevel": 0.019,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial awning rear drainage rail",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "metal_dark",
+          "position": [
+            0,
+            0.636,
+            2.195
+          ],
+          "size": [
+            2.24,
+            0.05,
+            0.047
+          ],
+          "bevel": 0.011,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial awning left drainage end",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "metal_dark",
+          "position": [
+            -1.122,
+            0.0,
+            2.176
+          ],
+          "size": [
+            0.046,
+            1.25,
+            0.042
+          ],
+          "bevel": 0.008,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial awning right drainage end",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "metal_dark",
+          "position": [
+            1.122,
+            0.0,
+            2.176
+          ],
+          "size": [
+            0.046,
+            1.25,
+            0.042
+          ],
+          "bevel": 0.008,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial tea sign bracket",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "metal_dark",
+          "position": [
+            -0.5,
+            -0.585,
+            1.981
+          ],
+          "size": [
+            0.11,
+            0.09,
+            0.15
+          ],
+          "bevel": 0.011,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial lower service ventilation backing",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "metal_dark",
+          "position": [
+            -0.32,
+            -0.508,
+            0.43
+          ],
+          "size": [
+            0.69,
+            0.021,
+            0.076
+          ],
+          "bevel": 0.005,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial counter stainless drip tray",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "cream",
+          "position": [
+            0.31,
+            -0.4,
+            1.11
+          ],
+          "size": [
+            0.69,
+            0.235,
+            0.023
+          ],
+          "bevel": 0.007,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial service vent rib 1",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "cream",
+          "position": [
+            -0.6,
+            -0.524,
+            0.43
+          ],
+          "size": [
+            0.02,
+            0.013,
+            0.069
+          ],
+          "bevel": 0.003,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial service vent rib 2",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "cream",
+          "position": [
+            -0.49,
+            -0.524,
+            0.43
+          ],
+          "size": [
+            0.02,
+            0.013,
+            0.069
+          ],
+          "bevel": 0.003,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial service vent rib 3",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "cream",
+          "position": [
+            -0.38,
+            -0.524,
+            0.43
+          ],
+          "size": [
+            0.02,
+            0.013,
+            0.069
+          ],
+          "bevel": 0.003,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial service vent rib 4",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "cream",
+          "position": [
+            -0.26999999999999996,
+            -0.524,
+            0.43
+          ],
+          "size": [
+            0.02,
+            0.013,
+            0.069
+          ],
+          "bevel": 0.003,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial service vent rib 5",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "cream",
+          "position": [
+            -0.15999999999999998,
+            -0.524,
+            0.43
+          ],
+          "size": [
+            0.02,
+            0.013,
+            0.069
+          ],
+          "bevel": 0.003,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial service vent rib 6",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "cream",
+          "position": [
+            -0.04999999999999993,
+            -0.524,
+            0.43
+          ],
+          "size": [
+            0.02,
+            0.013,
+            0.069
+          ],
+          "bevel": 0.003,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial service fascia safety marker 1",
+          "shape": "box",
+          "surface": "paint",
+          "color_role": "brass",
+          "position": [
+            -0.9,
+            -0.707,
+            2.11
+          ],
+          "size": [
+            0.085,
+            0.009,
+            0.058
+          ],
+          "bevel": 0,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial service fascia safety marker 2",
+          "shape": "box",
+          "surface": "paint",
+          "color_role": "brass",
+          "position": [
+            -0.30000000000000004,
+            -0.707,
+            2.11
+          ],
+          "size": [
+            0.085,
+            0.009,
+            0.058
+          ],
+          "bevel": 0,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial service fascia safety marker 3",
+          "shape": "box",
+          "surface": "paint",
+          "color_role": "brass",
+          "position": [
+            0.29999999999999993,
+            -0.707,
+            2.11
+          ],
+          "size": [
+            0.085,
+            0.009,
+            0.058
+          ],
+          "bevel": 0,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial service fascia safety marker 4",
+          "shape": "box",
+          "surface": "paint",
+          "color_role": "brass",
+          "position": [
+            0.8999999999999998,
+            -0.707,
+            2.11
+          ],
+          "size": [
+            0.085,
+            0.009,
+            0.058
+          ],
+          "bevel": 0,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial drip tray drainage slot 1",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "metal_dark",
+          "position": [
+            0.07,
+            -0.404,
+            1.124
+          ],
+          "size": [
+            0.027,
+            0.151,
+            0.006
+          ],
+          "bevel": 0.001,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial drip tray drainage slot 2",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "metal_dark",
+          "position": [
+            0.164,
+            -0.404,
+            1.124
+          ],
+          "size": [
+            0.027,
+            0.151,
+            0.006
+          ],
+          "bevel": 0.001,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial drip tray drainage slot 3",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "metal_dark",
+          "position": [
+            0.258,
+            -0.404,
+            1.124
+          ],
+          "size": [
+            0.027,
+            0.151,
+            0.006
+          ],
+          "bevel": 0.001,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial drip tray drainage slot 4",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "metal_dark",
+          "position": [
+            0.35200000000000004,
+            -0.404,
+            1.124
+          ],
+          "size": [
+            0.027,
+            0.151,
+            0.006
+          ],
+          "bevel": 0.001,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial drip tray drainage slot 5",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "metal_dark",
+          "position": [
+            0.446,
+            -0.404,
+            1.124
+          ],
+          "size": [
+            0.027,
+            0.151,
+            0.006
+          ],
+          "bevel": 0.001,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial drip tray drainage slot 6",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "metal_dark",
+          "position": [
+            0.54,
+            -0.404,
+            1.124
+          ],
+          "size": [
+            0.027,
+            0.151,
+            0.006
+          ],
+          "bevel": 0.001,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial canopy post mounting bolt 1",
+          "shape": "cylinder",
+          "surface": "metal",
+          "color_role": "brass",
+          "position": [
+            -0.85,
+            -0.36,
+            1.092
+          ],
+          "radius": 0.021,
+          "height": 0.012,
+          "segments": 8,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial canopy post mounting bolt 2",
+          "shape": "cylinder",
+          "surface": "metal",
+          "color_role": "brass",
+          "position": [
+            0.85,
+            -0.36,
+            1.092
+          ],
+          "radius": 0.021,
+          "height": 0.012,
+          "segments": 8,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial canopy post mounting bolt 3",
+          "shape": "cylinder",
+          "surface": "metal",
+          "color_role": "brass",
+          "position": [
+            -0.85,
+            0.37,
+            1.092
+          ],
+          "radius": 0.021,
+          "height": 0.012,
+          "segments": 8,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial canopy post mounting bolt 4",
+          "shape": "cylinder",
+          "surface": "metal",
+          "color_role": "brass",
+          "position": [
+            0.85,
+            0.37,
+            1.092
+          ],
+          "radius": 0.021,
+          "height": 0.012,
+          "segments": 8,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "parts": 118,
+      "triangle_upper_bound": 4867
+    },
+    "ghibli_poster": {
+      "full_recipe": "ghibli_poster_tea_kiosk.json",
+      "notes": [
+        "Original matte poster-animation interpretation; no canon claim",
+        "Hand-hewn silhouettes, quieter object count, soft forms and subtle asymmetry"
+      ],
+      "remove_parts": [
+        "Shelf pink cup hollow ceramic bowl",
+        "Shelf pink cup glazed loop handle",
+        "Hand-painted tea tin 3",
+        "Tea tin 3 brass lid",
+        "Tea tin 3 cream label"
+      ],
+      "update_parts": [
+        {
+          "name": "Tea kiosk underframe",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Tea kiosk foot 1-1",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Tea kiosk foot 1-2",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Tea kiosk foot 2-1",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Tea kiosk foot 2-2",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Tea kiosk back storage wall",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Tea kiosk left lower side wall",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Tea kiosk right lower side wall",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Indigo hand-painted front panel",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Honey apron frame left",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Honey apron frame right",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Apron bottom frame",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Open cubby divider",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Canopy left rear post",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Canopy left front post",
+          "changed_fields": {
+            "bevel": 0.022,
+            "rotation": [
+              0,
+              -0.015,
+              -0.016
+            ]
+          }
+        },
+        {
+          "name": "Canopy right rear post",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Canopy right front post",
+          "changed_fields": {
+            "bevel": 0.022,
+            "rotation": [
+              0,
+              0.012,
+              0.011
+            ]
+          }
+        },
+        {
+          "name": "Broad stripe canopy cloth 4",
+          "changed_fields": {
+            "color_role": "cream"
+          }
+        },
+        {
+          "name": "Soft scalloped cloth valance 4",
+          "changed_fields": {
+            "color_role": "cream"
+          }
+        },
+        {
+          "name": "Broad stripe canopy cloth 5",
+          "changed_fields": {
+            "color_role": "cloth_coral"
+          }
+        },
+        {
+          "name": "Soft scalloped cloth valance 5",
+          "changed_fields": {
+            "color_role": "cloth_coral"
+          }
+        },
+        {
+          "name": "Broad stripe canopy cloth 6",
+          "changed_fields": {
+            "color_role": "cream"
+          }
+        },
+        {
+          "name": "Soft scalloped cloth valance 6",
+          "changed_fields": {
+            "color_role": "cream"
+          }
+        },
+        {
+          "name": "Broad stripe canopy cloth 7",
+          "changed_fields": {
+            "color_role": "cloth_coral"
+          }
+        },
+        {
+          "name": "Soft scalloped cloth valance 7",
+          "changed_fields": {
+            "color_role": "cloth_coral"
+          }
+        },
+        {
+          "name": "Canopy broad front hem rod",
+          "changed_fields": {
+            "surface": "paint"
+          }
+        },
+        {
+          "name": "Shelf back lip",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Tea tin 1 brass lid",
+          "changed_fields": {
+            "surface": "paint"
+          }
+        },
+        {
+          "name": "Tea tin 2 brass lid",
+          "changed_fields": {
+            "surface": "paint"
+          }
+        },
+        {
+          "name": "Round turquoise teapot body",
+          "changed_fields": {
+            "radii": [
+              0.203,
+              0.163,
+              0.163
+            ]
+          }
+        },
+        {
+          "name": "Teapot warm lid knob",
+          "changed_fields": {
+            "surface": "paint"
+          }
+        },
+        {
+          "name": "Folded soft blue service towel",
+          "changed_fields": {
+            "rotation": [
+              0,
+              0,
+              -0.14
+            ]
+          }
+        },
+        {
+          "name": "Tea sign broad cream face",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Asymmetric planter outrigger shelf",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Front apron brass pin 1",
+          "changed_fields": {
+            "surface": "paint"
+          }
+        },
+        {
+          "name": "Front apron brass pin 2",
+          "changed_fields": {
+            "surface": "paint"
+          }
+        }
+      ],
+      "add_parts": [],
+      "parts": 102,
+      "triangle_upper_bound": 3588
+    },
+    "bloomwalker_painterly": {
+      "full_recipe": "bloomwalker_painterly_tea_kiosk.json",
+      "notes": [
+        "Original soft botanical painterly candidate; no invented canon",
+        "Plant-shaped accents, climbing leaves, broad petals, gentler irregular cloth silhouettes"
+      ],
+      "remove_parts": [],
+      "update_parts": [
+        {
+          "name": "Broad stripe canopy cloth 1",
+          "changed_fields": {
+            "color_role": "cream"
+          }
+        },
+        {
+          "name": "Soft scalloped cloth valance 1",
+          "changed_fields": {
+            "color_role": "cream",
+            "vertices": [
+              [
+                -1.14,
+                -0.635,
+                2.015
+              ],
+              [
+                -0.8142857142857143,
+                -0.635,
+                2.0315554097249295
+              ],
+              [
+                -0.8142857142857143,
+                -0.645,
+                1.9311554097249295
+              ],
+              [
+                -0.9771428571428571,
+                -0.65,
+                1.8482777048624648
+              ],
+              [
+                -1.14,
+                -0.645,
+                1.9146
+              ]
+            ]
+          }
+        },
+        {
+          "name": "Broad stripe canopy cloth 2",
+          "changed_fields": {
+            "color_role": "sage"
+          }
+        },
+        {
+          "name": "Soft scalloped cloth valance 2",
+          "changed_fields": {
+            "color_role": "sage",
+            "vertices": [
+              [
+                -0.8142857142857143,
+                -0.635,
+                2.0315554097249295
+              ],
+              [
+                -0.48857142857142855,
+                -0.635,
+                2.007477152463988
+              ],
+              [
+                -0.48857142857142855,
+                -0.645,
+                1.892117152463988
+              ],
+              [
+                -0.6514285714285715,
+                -0.65,
+                1.8225162810944588
+              ],
+              [
+                -0.8142857142857143,
+                -0.645,
+                1.9161954097249296
+              ]
+            ]
+          }
+        },
+        {
+          "name": "Broad stripe canopy cloth 3",
+          "changed_fields": {
+            "color_role": "pink"
+          }
+        },
+        {
+          "name": "Soft scalloped cloth valance 3",
+          "changed_fields": {
+            "color_role": "pink",
+            "vertices": [
+              [
+                -0.48857142857142855,
+                -0.635,
+                2.007477152463988
+              ],
+              [
+                -0.1628571428571428,
+                -0.635,
+                2.001863003711548
+              ],
+              [
+                -0.1628571428571428,
+                -0.645,
+                1.8715430037115481
+              ],
+              [
+                -0.3257142857142857,
+                -0.65,
+                1.7856700780877683
+              ],
+              [
+                -0.48857142857142855,
+                -0.645,
+                1.8771571524639878
+              ]
+            ]
+          }
+        },
+        {
+          "name": "Broad stripe canopy cloth 4",
+          "changed_fields": {
+            "color_role": "cream"
+          }
+        },
+        {
+          "name": "Soft scalloped cloth valance 4",
+          "changed_fields": {
+            "color_role": "cream",
+            "vertices": [
+              [
+                -0.1628571428571428,
+                -0.635,
+                2.001863003711548
+              ],
+              [
+                0.1628571428571428,
+                -0.635,
+                2.0284923536854356
+              ],
+              [
+                0.1628571428571428,
+                -0.645,
+                1.9280923536854355
+              ],
+              [
+                0.0,
+                -0.65,
+                1.8401776786984918
+              ],
+              [
+                -0.1628571428571428,
+                -0.645,
+                1.901463003711548
+              ]
+            ]
+          }
+        },
+        {
+          "name": "Broad stripe canopy cloth 5",
+          "changed_fields": {
+            "color_role": "sage"
+          }
+        },
+        {
+          "name": "Soft scalloped cloth valance 5",
+          "changed_fields": {
+            "color_role": "sage",
+            "vertices": [
+              [
+                0.1628571428571428,
+                -0.635,
+                2.0284923536854356
+              ],
+              [
+                0.48857142857142843,
+                -0.635,
+                2.02200601424911
+              ],
+              [
+                0.48857142857142843,
+                -0.645,
+                1.9066460142491102
+              ],
+              [
+                0.3257142857142856,
+                -0.65,
+                1.8282491839672732
+              ],
+              [
+                0.1628571428571428,
+                -0.645,
+                1.9131323536854357
+              ]
+            ]
+          }
+        },
+        {
+          "name": "Broad stripe canopy cloth 6",
+          "changed_fields": {
+            "color_role": "pink"
+          }
+        },
+        {
+          "name": "Soft scalloped cloth valance 6",
+          "changed_fields": {
+            "color_role": "pink",
+            "vertices": [
+              [
+                0.48857142857142843,
+                -0.635,
+                2.02200601424911
+              ],
+              [
+                0.8142857142857143,
+                -0.635,
+                1.9983240840888699
+              ],
+              [
+                0.8142857142857143,
+                -0.645,
+                1.8680040840888699
+              ],
+              [
+                0.6514285714285714,
+                -0.65,
+                1.79116504916899
+              ],
+              [
+                0.48857142857142843,
+                -0.645,
+                1.89168601424911
+              ]
+            ]
+          }
+        },
+        {
+          "name": "Soft scalloped cloth valance 7",
+          "changed_fields": {
+            "vertices": [
+              [
+                0.8142857142857143,
+                -0.635,
+                1.9983240840888699
+              ],
+              [
+                1.14,
+                -0.635,
+                2.0155715918027592
+              ],
+              [
+                1.14,
+                -0.645,
+                1.9151715918027592
+              ],
+              [
+                0.9771428571428571,
+                -0.65,
+                1.8319478379458145
+              ],
+              [
+                0.8142857142857143,
+                -0.645,
+                1.8979240840888698
+              ]
+            ]
+          }
+        },
+        {
+          "name": "Canopy broad front hem rod",
+          "changed_fields": {
+            "surface": "paint"
+          }
+        },
+        {
+          "name": "Tea tin 1 brass lid",
+          "changed_fields": {
+            "surface": "paint"
+          }
+        },
+        {
+          "name": "Tea tin 2 brass lid",
+          "changed_fields": {
+            "surface": "paint"
+          }
+        },
+        {
+          "name": "Tea tin 3 brass lid",
+          "changed_fields": {
+            "surface": "paint"
+          }
+        },
+        {
+          "name": "Round turquoise teapot body",
+          "changed_fields": {
+            "color_role": "sage"
+          }
+        },
+        {
+          "name": "Teapot warm lid knob",
+          "changed_fields": {
+            "surface": "paint"
+          }
+        },
+        {
+          "name": "Cobalt hand-painted herb planter",
+          "changed_fields": {
+            "color_role": "teal"
+          }
+        },
+        {
+          "name": "Herb secondary leaf 2",
+          "changed_fields": {
+            "color_role": "leaf_light"
+          }
+        },
+        {
+          "name": "Front apron brass pin 1",
+          "changed_fields": {
+            "surface": "paint"
+          }
+        },
+        {
+          "name": "Front apron brass pin 2",
+          "changed_fields": {
+            "surface": "paint"
+          }
+        }
+      ],
+      "add_parts": [
+        {
+          "name": "Botanical tea post climbing leaf 1",
+          "shape": "mesh",
+          "surface": "leaf",
+          "color_role": "leaf_dark",
+          "vertices": [
+            [
+              -0.885,
+              0.444,
+              0.93
+            ],
+            [
+              -0.797,
+              0.521,
+              0.9599200000000001
+            ],
+            [
+              -0.685,
+              0.444,
+              0.998
+            ],
+            [
+              -0.797,
+              0.367,
+              0.9599200000000001
+            ],
+            [
+              -0.785,
+              0.444,
+              0.9760000000000001
+            ]
+          ],
+          "faces": [
+            [
+              0,
+              1,
+              4
+            ],
+            [
+              1,
+              2,
+              4
+            ],
+            [
+              2,
+              3,
+              4
+            ],
+            [
+              3,
+              0,
+              4
+            ]
+          ],
+          "smooth": false
+        },
+        {
+          "name": "Botanical tea post climbing vine 1",
+          "shape": "beam",
+          "surface": "leaf",
+          "color_role": "leaf_dark",
+          "a": [
+            -0.885,
+            0.444,
+            0.93
+          ],
+          "b": [
+            -0.8335777321677555,
+            0.39345936918806,
+            1.1400000000000001
+          ],
+          "width": 0.011,
+          "depth": 0.011
+        },
+        {
+          "name": "Botanical tea post climbing leaf 2",
+          "shape": "mesh",
+          "surface": "leaf",
+          "color_role": "leaf_light",
+          "vertices": [
+            [
+              -0.8335777321677555,
+              0.39345936918806,
+              1.1400000000000001
+            ],
+            [
+              -0.9212742380706017,
+              0.47080484644712184,
+              1.16992
+            ],
+            [
+              -0.8593466310268605,
+              0.5917923312785538,
+              1.2080000000000002
+            ],
+            [
+              -0.7685578572609216,
+              0.49064689856863264,
+              1.16992
+            ],
+            [
+              -0.846462181597308,
+              0.49262585023330685,
+              1.1860000000000002
+            ]
+          ],
+          "faces": [
+            [
+              0,
+              1,
+              4
+            ],
+            [
+              1,
+              2,
+              4
+            ],
+            [
+              2,
+              3,
+              4
+            ],
+            [
+              3,
+              0,
+              4
+            ]
+          ],
+          "smooth": false
+        },
+        {
+          "name": "Botanical tea post climbing vine 2",
+          "shape": "beam",
+          "surface": "leaf",
+          "color_role": "leaf_dark",
+          "a": [
+            -0.8335777321677555,
+            0.39345936918806,
+            1.1400000000000001
+          ],
+          "b": [
+            -0.9002879122456096,
+            0.3579445387008227,
+            1.35
+          ],
+          "width": 0.011,
+          "depth": 0.011
+        },
+        {
+          "name": "Botanical tea post climbing leaf 3",
+          "shape": "mesh",
+          "surface": "leaf",
+          "color_role": "leaf_dark",
+          "vertices": [
+            [
+              -0.9002879122456096,
+              0.3579445387008227,
+              1.35
+            ],
+            [
+              -0.9656894883365361,
+              0.26101346089384303,
+              1.37992
+            ],
+            [
+              -1.0936475507615018,
+              0.30683631829545643,
+              1.4180000000000001
+            ],
+            [
+              -1.0050428180486681,
+              0.4099003825510801,
+              1.37992
+            ],
+            [
+              -0.9969677315035557,
+              0.3323904284981396,
+              1.3960000000000001
+            ]
+          ],
+          "faces": [
+            [
+              0,
+              1,
+              4
+            ],
+            [
+              1,
+              2,
+              4
+            ],
+            [
+              2,
+              3,
+              4
+            ],
+            [
+              3,
+              0,
+              4
+            ]
+          ],
+          "smooth": false
+        },
+        {
+          "name": "Botanical tea post climbing vine 3",
+          "shape": "beam",
+          "surface": "leaf",
+          "color_role": "leaf_dark",
+          "a": [
+            -0.9002879122456096,
+            0.3579445387008227,
+            1.35
+          ],
+          "b": [
+            -0.9318771501102504,
+            0.4190437783566559,
+            1.56
+          ],
+          "width": 0.011,
+          "depth": 0.011
+        },
+        {
+          "name": "Botanical tea post climbing leaf 4",
+          "shape": "mesh",
+          "surface": "leaf",
+          "color_role": "leaf_light",
+          "vertices": [
+            [
+              -0.9318771501102504,
+              0.4190437783566559,
+              1.56
+            ],
+            [
+              -0.8273273782122728,
+              0.36667637250071494,
+              1.58992
+            ],
+            [
+              -0.8562816015676543,
+              0.23388084189110941,
+              1.6280000000000001
+            ],
+            [
+              -0.9699028392907436,
+              0.30846780012291597,
+              1.58992
+            ],
+            [
+              -0.8940793758389524,
+              0.32646231012388266,
+              1.606
+            ]
+          ],
+          "faces": [
+            [
+              0,
+              1,
+              4
+            ],
+            [
+              1,
+              2,
+              4
+            ],
+            [
+              2,
+              3,
+              4
+            ],
+            [
+              3,
+              0,
+              4
+            ]
+          ],
+          "smooth": false
+        },
+        {
+          "name": "Botanical tea post climbing vine 4",
+          "shape": "beam",
+          "surface": "leaf",
+          "color_role": "leaf_dark",
+          "a": [
+            -0.9318771501102504,
+            0.4190437783566559,
+            1.56
+          ],
+          "b": [
+            -0.8557754453731614,
+            0.4363937193221183,
+            1.77
+          ],
+          "width": 0.011,
+          "depth": 0.011
+        },
+        {
+          "name": "Botanical tea post climbing leaf 5",
+          "shape": "mesh",
+          "surface": "leaf",
+          "color_role": "leaf_dark",
+          "vertices": [
+            [
+              -0.8557754453731614,
+              0.4363937193221183,
+              1.77
+            ],
+            [
+              -0.8173151942600496,
+              0.5468193009792524,
+              1.79992
+            ],
+            [
+              -0.6818959473031964,
+              0.53521638954984,
+              1.838
+            ],
+            [
+              -0.7412217381847039,
+              0.41293208746537924,
+              1.79992
+            ],
+            [
+              -0.7688356963381788,
+              0.4858050544359791,
+              1.816
+            ]
+          ],
+          "faces": [
+            [
+              0,
+              1,
+              4
+            ],
+            [
+              1,
+              2,
+              4
+            ],
+            [
+              2,
+              3,
+              4
+            ],
+            [
+              3,
+              0,
+              4
+            ]
+          ],
+          "smooth": false
+        },
+        {
+          "name": "Botanical tea herb pink flower broad petal 1",
+          "shape": "ellipsoid",
+          "surface": "paint",
+          "color_role": "pink",
+          "position": [
+            -1.04984,
+            -0.027,
+            1.035
+          ],
+          "radii": [
+            0.03808000000000001,
+            0.025840000000000002,
+            0.01564
+          ],
+          "segments": 8,
+          "rings": 4,
+          "rotation": [
+            0,
+            0,
+            0.0
+          ]
+        },
+        {
+          "name": "Botanical tea herb pink flower broad petal 2",
+          "shape": "ellipsoid",
+          "surface": "paint",
+          "color_role": "pink",
+          "position": [
+            -1.0789718435171523,
+            0.013096542727003679,
+            1.035
+          ],
+          "radii": [
+            0.03808000000000001,
+            0.025840000000000002,
+            0.01564
+          ],
+          "segments": 8,
+          "rings": 4,
+          "rotation": [
+            0,
+            0,
+            1.2566370614359172
+          ]
+        },
+        {
+          "name": "Botanical tea herb pink flower broad petal 3",
+          "shape": "ellipsoid",
+          "surface": "paint",
+          "color_role": "pink",
+          "position": [
+            -1.126108156482848,
+            -0.0022189737633493273,
+            1.035
+          ],
+          "radii": [
+            0.03808000000000001,
+            0.025840000000000002,
+            0.01564
+          ],
+          "segments": 8,
+          "rings": 4,
+          "rotation": [
+            0,
+            0,
+            2.5132741228718345
+          ]
+        },
+        {
+          "name": "Botanical tea herb pink flower broad petal 4",
+          "shape": "ellipsoid",
+          "surface": "paint",
+          "color_role": "pink",
+          "position": [
+            -1.126108156482848,
+            -0.051781026236650665,
+            1.035
+          ],
+          "radii": [
+            0.03808000000000001,
+            0.025840000000000002,
+            0.01564
+          ],
+          "segments": 8,
+          "rings": 4,
+          "rotation": [
+            0,
+            0,
+            3.7699111843077517
+          ]
+        },
+        {
+          "name": "Botanical tea herb pink flower broad petal 5",
+          "shape": "ellipsoid",
+          "surface": "paint",
+          "color_role": "pink",
+          "position": [
+            -1.0789718435171523,
+            -0.06709654272700367,
+            1.035
+          ],
+          "radii": [
+            0.03808000000000001,
+            0.025840000000000002,
+            0.01564
+          ],
+          "segments": 8,
+          "rings": 4,
+          "rotation": [
+            0,
+            0,
+            5.026548245743669
+          ]
+        },
+        {
+          "name": "Botanical tea herb pink flower honey pollen",
+          "shape": "ellipsoid",
+          "surface": "paint",
+          "color_role": "brass",
+          "position": [
+            -1.092,
+            -0.027,
+            1.0486
+          ],
+          "radii": [
+            0.017,
+            0.017,
+            0.014960000000000001
+          ],
+          "segments": 8,
+          "rings": 4,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Botanical tea herb violet flower broad petal 1",
+          "shape": "ellipsoid",
+          "surface": "paint",
+          "color_role": "violet",
+          "position": [
+            -1.17204,
+            -0.008,
+            0.948
+          ],
+          "radii": [
+            0.03248,
+            0.02204,
+            0.013340000000000001
+          ],
+          "segments": 8,
+          "rings": 4,
+          "rotation": [
+            0,
+            0,
+            0.0
+          ]
+        },
+        {
+          "name": "Botanical tea herb violet flower broad petal 2",
+          "shape": "ellipsoid",
+          "surface": "paint",
+          "color_role": "violet",
+          "position": [
+            -1.196887748882277,
+            0.026199992325973726,
+            0.948
+          ],
+          "radii": [
+            0.03248,
+            0.02204,
+            0.013340000000000001
+          ],
+          "segments": 8,
+          "rings": 4,
+          "rotation": [
+            0,
+            0,
+            1.2566370614359172
+          ]
+        },
+        {
+          "name": "Botanical tea herb violet flower broad petal 3",
+          "shape": "ellipsoid",
+          "surface": "paint",
+          "color_role": "violet",
+          "position": [
+            -1.2370922511177231,
+            0.013136757672437337,
+            0.948
+          ],
+          "radii": [
+            0.03248,
+            0.02204,
+            0.013340000000000001
+          ],
+          "segments": 8,
+          "rings": 4,
+          "rotation": [
+            0,
+            0,
+            2.5132741228718345
+          ]
+        },
+        {
+          "name": "Botanical tea herb violet flower broad petal 4",
+          "shape": "ellipsoid",
+          "surface": "paint",
+          "color_role": "violet",
+          "position": [
+            -1.2370922511177231,
+            -0.029136757672437334,
+            0.948
+          ],
+          "radii": [
+            0.03248,
+            0.02204,
+            0.013340000000000001
+          ],
+          "segments": 8,
+          "rings": 4,
+          "rotation": [
+            0,
+            0,
+            3.7699111843077517
+          ]
+        },
+        {
+          "name": "Botanical tea herb violet flower broad petal 5",
+          "shape": "ellipsoid",
+          "surface": "paint",
+          "color_role": "violet",
+          "position": [
+            -1.196887748882277,
+            -0.042199992325973726,
+            0.948
+          ],
+          "radii": [
+            0.03248,
+            0.02204,
+            0.013340000000000001
+          ],
+          "segments": 8,
+          "rings": 4,
+          "rotation": [
+            0,
+            0,
+            5.026548245743669
+          ]
+        },
+        {
+          "name": "Botanical tea herb violet flower honey pollen",
+          "shape": "ellipsoid",
+          "surface": "paint",
+          "color_role": "brass",
+          "position": [
+            -1.208,
+            -0.008,
+            0.9596
+          ],
+          "radii": [
+            0.0145,
+            0.0145,
+            0.01276
+          ],
+          "segments": 8,
+          "rings": 4,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Botanical original leaf-shaped sign crest",
+          "shape": "mesh",
+          "surface": "leaf",
+          "color_role": "leaf_light",
+          "vertices": [
+            [
+              -0.52,
+              -0.659,
+              1.917
+            ],
+            [
+              -0.615,
+              -0.659,
+              1.936
+            ],
+            [
+              -0.553,
+              -0.66,
+              2.01
+            ],
+            [
+              -0.489,
+              -0.659,
+              1.969
+            ]
+          ],
+          "faces": [
+            [
+              0,
+              1,
+              2,
+              3
+            ]
+          ],
+          "smooth": false
+        }
+      ],
+      "parts": 129,
+      "triangle_upper_bound": 4734
+    }
+  }
+}

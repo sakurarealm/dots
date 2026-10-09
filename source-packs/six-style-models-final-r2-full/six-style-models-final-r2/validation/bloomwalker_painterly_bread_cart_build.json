@@ -1,0 +1,16 @@
+{
+  "file": "bloomwalker_painterly_bread_cart.glb",
+  "sha256": "a025213f8deaa7ea00fef151f23967a881648250da39aa36d6680ed8bdcba4d9",
+  "bytes": 1494404,
+  "triangles": 3914,
+  "editable_parts": 134,
+  "actual_materials": 3,
+  "actual_primitives": 3,
+  "atlas_file": "atlases/bloomwalker_painterly_atlas_r3_runtime1024.png",
+  "atlas_sha256": "f6857899f381281e15c814aef33429349be284b4808d30dca322e6f0bc3acb95",
+  "uv_inner_cell_margin": 0.13,
+  "style_direction": "bloomwalker_painterly",
+  "build_rss_peak_kib": 60688,
+  "texture_quality_reference": "Approved earlier flower stall, not the rejected technical fixture",
+  "runtime_validation": "pending; GLB numerical round-trip follows separately"
+}

@@ -1,0 +1,30 @@
+{
+  "file": "bk_project_candidate_mailbox_bench.png",
+  "actual_glb": "bk_project_candidate_mailbox_bench.glb",
+  "actual_glb_sha256": "e0bf2000d691a96a5cf7625838880f6d3c1234cedbcb0810f71ec0c2dd9efa99",
+  "actual_triangle_count_read_from_glb": 2926,
+  "embedded_atlas": "bk_project_candidate_atlas_runtime1024.png",
+  "uv_origin": "glTF top-left; CPU lookup explicitly converts helper convention",
+  "dimensions": [
+    640,
+    720
+  ],
+  "camera_direction": [
+    6,
+    -8,
+    4.05
+  ],
+  "camera_center": [
+    0.09598754346370697,
+    -0.09717987477779388,
+    0.9582347273826599
+  ],
+  "camera_ortho_width": 2.670964241027832,
+  "lights": "warm key, cool sky proxy, restrained rim; true geometry depth-map soft shadows",
+  "texture_strategy": "approved or premium image-generated broad material swatches, large semantic UV islands; no sine/noise replacement texture",
+  "software_cpu_preview": true,
+  "NOT_Blender_or_Unity_validation": true,
+  "rss_peak_kib": 166304,
+  "duration_seconds": 1.86,
+  "triangle_budget_pass": true
+}

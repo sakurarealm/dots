@@ -1,0 +1,146 @@
+{
+  "records": [
+    {
+      "style": "oil_handpaint",
+      "basecolor": "atlases/oil_approved_atlas.png",
+      "basecolor_sha256": "cf9b8a09e722c504f2d620f59fb57f1ce0109a91e64b7f471567943ab4a89b31",
+      "basecolor_dimensions": [
+        1024,
+        1024
+      ],
+      "native_source": "sources/native/oil_handpaint_atlas_native.png",
+      "native_source_sha256": "d28ed508581426dabca7ae50e09f9b8d3ecc0a550616a4b9147c4df7a47dcf79",
+      "native_source_dimensions": [
+        1254,
+        1254
+      ],
+      "method": "Approved earlier image-generated oil atlas reused",
+      "runtime_derivation": "Whole-image Lanczos resize to 1024, no added procedural pigment texture",
+      "saved_prompt_files": [
+        "prompts/oil_handpaint_atlas.prompt.txt"
+      ],
+      "exact_final_generation_prompt_saved": true,
+      "prompt_limit": null
+    },
+    {
+      "style": "genshin_cel",
+      "basecolor": "atlases/genshin_cel_atlas_runtime1024.png",
+      "basecolor_sha256": "43592365a4625f0f0f399cea5b5c7da3bce6f3418ba47de41499b85ceb785156",
+      "basecolor_dimensions": [
+        1024,
+        1024
+      ],
+      "native_source": "sources/native/genshin_cel_atlas_native.png",
+      "native_source_sha256": "8e77f9a88a84dd45e0799490e29dca9439b77fc3a02cecd025db5b7f047fba4a",
+      "native_source_dimensions": [
+        1254,
+        1254
+      ],
+      "method": "Built-in image generation; current native artwork retained",
+      "runtime_derivation": "Whole-image Lanczos resize to 1024, no added procedural pigment texture",
+      "saved_prompt_files": [
+        "prompts/genshin_cel_atlas_initial.prompt.txt",
+        "prompts/genshin_cel_atlas_final_refinement.prompt.txt"
+      ],
+      "exact_final_generation_prompt_saved": true,
+      "prompt_limit": null
+    },
+    {
+      "style": "endfield_pbr_anime",
+      "basecolor": "atlases/endfield_pbr_atlas_runtime1024.png",
+      "basecolor_sha256": "d2e5c6044eaad2399d596c2d66bf95024cd73e92f3c3e6bd8e3a55c78e127a9a",
+      "basecolor_dimensions": [
+        1024,
+        1024
+      ],
+      "native_source": "sources/native/endfield_pbr_anime_atlas_native.png",
+      "native_source_sha256": "34f83efb23c602e7d9e89fd837f68df5fb06ab73cdee832525e2f705fde08652",
+      "native_source_dimensions": [
+        1254,
+        1254
+      ],
+      "method": "Built-in image generation; current native artwork retained",
+      "runtime_derivation": "Whole-image Lanczos resize to 1024, no added procedural pigment texture",
+      "saved_prompt_files": [
+        "prompts/endfield_pbr_atlas.prompt.txt"
+      ],
+      "exact_final_generation_prompt_saved": true,
+      "prompt_limit": null
+    },
+    {
+      "style": "ghibli_poster",
+      "basecolor": "atlases/ghibli_poster_atlas_r3_runtime1024.png",
+      "basecolor_sha256": "da60ba59dc62331a57a59f1f345a3777ce2ebbd72d3f13ea11501b26f6604f37",
+      "basecolor_dimensions": [
+        1024,
+        1024
+      ],
+      "native_source": "sources/native/ghibli_poster_atlas_native.png",
+      "native_source_sha256": "f8b0b78571d3ccf3705c565c8c1a8993897ac142051a90b8486c6cf0236fd02e",
+      "native_source_dimensions": [
+        1254,
+        1254
+      ],
+      "method": "Built-in image generation; current native artwork retained",
+      "runtime_derivation": "Whole-image Lanczos resize to 1024, no added procedural pigment texture",
+      "saved_prompt_files": [
+        "prompts/history/ghibli_poster_atlas.prompt.txt",
+        "prompts/history/ghibli_poster_atlas.refinement.prompt.txt"
+      ],
+      "exact_final_generation_prompt_saved": false,
+      "prompt_limit": "The preserved files describe earlier attempts. The exact r3 generation wording was not retained; do not treat historical prompt wording as the exact final prompt."
+    },
+    {
+      "style": "bloomwalker_painterly",
+      "basecolor": "atlases/bloomwalker_painterly_atlas_r3_runtime1024.png",
+      "basecolor_sha256": "f6857899f381281e15c814aef33429349be284b4808d30dca322e6f0bc3acb95",
+      "basecolor_dimensions": [
+        1024,
+        1024
+      ],
+      "native_source": "sources/native/bloomwalker_painterly_atlas_native.png",
+      "native_source_sha256": "c692de7f99d47a4c0ba384ba9dd0089493c165fd528a22f3008fbea3dd8aa12c",
+      "native_source_dimensions": [
+        1254,
+        1254
+      ],
+      "method": "Built-in image generation; current native artwork retained",
+      "runtime_derivation": "Whole-image Lanczos resize to 1024, no added procedural pigment texture",
+      "saved_prompt_files": [
+        "prompts/history/bloomwalker_painterly_atlas.prompt.txt"
+      ],
+      "exact_final_generation_prompt_saved": false,
+      "prompt_limit": "The preserved files describe earlier attempts. The exact r3 generation wording was not retained; do not treat historical prompt wording as the exact final prompt."
+    },
+    {
+      "style": "bk_project_candidate",
+      "basecolor": "atlases/bk_project_candidate_atlas_runtime1024.png",
+      "basecolor_sha256": "8d00c6db7a4a75a72564c579e91a3cb70905866bea9b423aa7cbbe7fe51a12ba",
+      "basecolor_dimensions": [
+        1024,
+        1024
+      ],
+      "native_source": "sources/native/bk_project_candidate_atlas_native.png",
+      "native_source_sha256": "f0006ba579089d3aa7c7faa990726509e1cedcf236061a15a7647bab1ac89d66",
+      "native_source_dimensions": [
+        1254,
+        1254
+      ],
+      "method": "Built-in image generation; current native artwork retained",
+      "runtime_derivation": "Whole-image Lanczos resize to 1024, no added procedural pigment texture",
+      "saved_prompt_files": [
+        "prompts/bk_project_candidate_atlas.prompt.txt"
+      ],
+      "exact_final_generation_prompt_saved": true,
+      "prompt_limit": null
+    }
+  ],
+  "PBR_map": {
+    "path": "atlases/endfield_pbr_orm_runtime1024.png",
+    "sha256": "35405ed366fe08319de448c729bb7e7b7e7da683cefcf15ce73a79eaab3dc7af",
+    "channels": "R=constant 1 and unused by the supplied materials, G=roughness, B=metallic",
+    "method": "Authored per-material-class scalar cells. This is not an image-generated detailed roughness/normal map.",
+    "normal_map": null,
+    "geometry_normals": true
+  }
+}

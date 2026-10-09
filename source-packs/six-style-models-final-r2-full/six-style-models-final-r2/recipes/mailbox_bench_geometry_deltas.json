@@ -1,0 +1,2043 @@
+{
+  "name": "mailbox_bench_geometry_deltas",
+  "parts": [],
+  "kind": "geometry_delta_metadata",
+  "base_recipe": "oil_handpaint_mailbox_bench.json",
+  "variants": {
+    "genshin_cel": {
+      "full_recipe": "genshin_cel_mailbox_bench.json",
+      "notes": [
+        "Original clean cel direction, without franchise logos or a canon claim",
+        "Straight cloth ridge and measured pendant/corner motifs; clear large material boundaries"
+      ],
+      "remove_parts": [],
+      "update_parts": [
+        {
+          "name": "Broad painted bench back slat 1",
+          "changed_fields": {
+            "bevel": 0.01,
+            "rotation": [
+              -0.13,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "name": "Broad painted bench back slat 2",
+          "changed_fields": {
+            "bevel": 0.01,
+            "rotation": [
+              -0.13,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "name": "Broad painted bench back slat 3",
+          "changed_fields": {
+            "bevel": 0.01,
+            "rotation": [
+              -0.13,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "name": "Mailbox substantial timber post",
+          "changed_fields": {
+            "size": [
+              0.14,
+              0.16,
+              1.13
+            ]
+          }
+        },
+        {
+          "name": "Mailbox coral collection flag",
+          "changed_fields": {
+            "size": [
+              0.035,
+              0.265,
+              0.15
+            ]
+          }
+        }
+      ],
+      "add_parts": [
+        {
+          "name": "Cel bench crest tip 1",
+          "shape": "mesh",
+          "surface": "paint",
+          "color_role": "wood_honey",
+          "vertices": [
+            [
+              -0.37,
+              0.43,
+              1.145
+            ],
+            [
+              -0.31,
+              0.438,
+              1.254
+            ],
+            [
+              -0.25,
+              0.43,
+              1.145
+            ]
+          ],
+          "faces": [
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          "smooth": false
+        },
+        {
+          "name": "Cel bench crest tip 2",
+          "shape": "mesh",
+          "surface": "paint",
+          "color_role": "wood_honey",
+          "vertices": [
+            [
+              1.0699999999999998,
+              0.43,
+              1.145
+            ],
+            [
+              1.13,
+              0.438,
+              1.254
+            ],
+            [
+              1.19,
+              0.43,
+              1.145
+            ]
+          ],
+          "faces": [
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          "smooth": false
+        },
+        {
+          "name": "Cel mailbox crest diamond",
+          "shape": "mesh",
+          "surface": "paint",
+          "color_role": "cream",
+          "vertices": [
+            [
+              -0.94,
+              -0.328,
+              1.67
+            ],
+            [
+              -0.994,
+              -0.332,
+              1.624
+            ],
+            [
+              -0.94,
+              -0.336,
+              1.58
+            ],
+            [
+              -0.886,
+              -0.332,
+              1.624
+            ]
+          ],
+          "faces": [
+            [
+              0,
+              1,
+              2,
+              3
+            ]
+          ],
+          "smooth": false
+        }
+      ],
+      "parts": 117,
+      "triangle_upper_bound": 3010
+    },
+    "endfield_pbr_anime": {
+      "full_recipe": "endfield_pbr_anime_mailbox_bench.json",
+      "notes": [
+        "Functional modular industrial interpretation, independent of franchise canon",
+        "Rigid awning/shells, exposed service details, graphite frames and restrained warm hardware"
+      ],
+      "remove_parts": [
+        "Bench carved arm finial 1",
+        "Bench carved arm finial 2",
+        "Mailbox broad stone-colored shoe",
+        "Mailbox substantial timber post",
+        "Curved mailbox roof strip 1",
+        "Curved mailbox roof strip 2",
+        "Curved mailbox roof strip 3",
+        "Curved mailbox roof strip 4",
+        "Curved mailbox roof strip 5",
+        "Curved mailbox roof strip 6",
+        "Curved mailbox roof strip 7",
+        "Curved mailbox roof strip 8",
+        "Operable mailbox broad front door",
+        "Mailbox rear curved cap",
+        "Cream mailbox arch trim 1",
+        "Cream mailbox arch trim 2",
+        "Cream mailbox arch trim 3",
+        "Cream mailbox arch trim 4",
+        "Cream mailbox arch trim 5",
+        "Cream mailbox arch trim 6",
+        "Cream mailbox arch trim 7",
+        "Cream mailbox arch trim 8",
+        "Coral seat corner cloth",
+        "Soft corner cloth drape",
+        "Tiny carved bird body",
+        "Tiny carved bird head",
+        "Tiny carved bird coral beak",
+        "Tiny carved bird teal tail",
+        "Carved bird foot 1",
+        "Carved bird foot 2"
+      ],
+      "update_parts": [
+        {
+          "name": "Bench leg 1-1",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Bench leg 1-2",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Bench seat end bearer 1",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Bench leg 2-1",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Bench leg 2-2",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Bench seat end bearer 2",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Bench long low stretcher",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Usable bench seat slat 1",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "cream",
+            "bevel": 0.011
+          }
+        },
+        {
+          "name": "Usable bench seat slat 2",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "cream",
+            "bevel": 0.011
+          }
+        },
+        {
+          "name": "Usable bench seat slat 3",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "cream",
+            "bevel": 0.011
+          }
+        },
+        {
+          "name": "Usable bench seat slat 4",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "cream",
+            "bevel": 0.011
+          }
+        },
+        {
+          "name": "Usable bench seat slat 5",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "cream",
+            "bevel": 0.011
+          }
+        },
+        {
+          "name": "Bench leaning back upright 1",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Bench end diagonal brace 1",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Bench leaning back upright 2",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Bench end diagonal brace 2",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Broad painted bench back slat 1",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "sage",
+            "bevel": 0.016
+          }
+        },
+        {
+          "name": "Broad painted bench back slat 2",
+          "changed_fields": {
+            "surface": "metal",
+            "bevel": 0.016
+          }
+        },
+        {
+          "name": "Broad painted bench back slat 3",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "sage",
+            "bevel": 0.016
+          }
+        },
+        {
+          "name": "Bench arm front support 1",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Bench arm front support 2",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Under-bench postal crate bottom",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Postal crate end board 1",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Postal crate end board 2",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Postal crate horizontal slat 1-1",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Postal crate horizontal slat 1-2",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Postal crate horizontal slat 2-1",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Postal crate horizontal slat 2-2",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Postal crate coral corner strap 1",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Postal crate coral corner strap 2",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Mailbox painted post wrap",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Mailbox cantilever diagonal support",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Mailbox storage floor",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "cream"
+          }
+        },
+        {
+          "name": "Mailbox left side shell",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "teal",
+            "bevel": 0.014
+          }
+        },
+        {
+          "name": "Mailbox right side shell",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "teal",
+            "bevel": 0.014
+          }
+        },
+        {
+          "name": "Mailbox rear wall",
+          "changed_fields": {
+            "surface": "metal",
+            "position": [
+              -0.94,
+              0.374,
+              1.335
+            ],
+            "size": [
+              0.585,
+              0.039,
+              0.385
+            ]
+          }
+        },
+        {
+          "name": "Operable mailbox hinge barrel 1",
+          "changed_fields": {
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Operable mailbox hinge barrel 2",
+          "changed_fields": {
+            "color_role": "metal_dark"
+          }
+        },
+        {
+          "name": "Ground herb planter soil",
+          "changed_fields": {
+            "surface": "metal",
+            "color_role": "metal_dark"
+          }
+        }
+      ],
+      "add_parts": [
+        {
+          "name": "Industrial anchored support footplate",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "metal_dark",
+          "position": [
+            -0.94,
+            0.11,
+            0.032
+          ],
+          "size": [
+            0.42,
+            0.43,
+            0.045
+          ],
+          "bevel": 0.012,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial square mailbox support",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "metal_dark",
+          "position": [
+            -0.94,
+            0.11,
+            0.61
+          ],
+          "size": [
+            0.13,
+            0.15,
+            1.13
+          ],
+          "bevel": 0.009,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial chamfered mailbox service door",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "teal",
+          "position": [
+            -0.94,
+            -0.283,
+            1.365
+          ],
+          "size": [
+            0.597,
+            0.06,
+            0.467
+          ],
+          "bevel": 0.032,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial mailbox rigid upper lid",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "cream",
+          "position": [
+            -0.94,
+            0.055,
+            1.622
+          ],
+          "size": [
+            0.642,
+            0.716,
+            0.089
+          ],
+          "bevel": 0.021,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial mailbox front drip edge",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "metal_dark",
+          "position": [
+            -0.94,
+            -0.316,
+            1.657
+          ],
+          "size": [
+            0.65,
+            0.051,
+            0.035
+          ],
+          "bevel": 0.008,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial mailbox side vent backing",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "metal_dark",
+          "position": [
+            -0.638,
+            0.125,
+            1.374
+          ],
+          "size": [
+            0.011,
+            0.278,
+            0.076
+          ],
+          "bevel": 0.004,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial bench arm end cap left",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "teal",
+          "position": [
+            -0.39,
+            -0.255,
+            0.818
+          ],
+          "size": [
+            0.105,
+            0.054,
+            0.079
+          ],
+          "bevel": 0.011,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial bench arm end cap right",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "teal",
+          "position": [
+            1.21,
+            -0.255,
+            0.818
+          ],
+          "size": [
+            0.105,
+            0.054,
+            0.079
+          ],
+          "bevel": 0.011,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial mailbox side cooling rib 1",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "cream",
+          "position": [
+            -0.629,
+            0.012,
+            1.374
+          ],
+          "size": [
+            0.012,
+            0.013,
+            0.064
+          ],
+          "bevel": 0.003,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial mailbox side cooling rib 2",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "cream",
+          "position": [
+            -0.629,
+            0.067,
+            1.374
+          ],
+          "size": [
+            0.012,
+            0.013,
+            0.064
+          ],
+          "bevel": 0.003,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial mailbox side cooling rib 3",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "cream",
+          "position": [
+            -0.629,
+            0.122,
+            1.374
+          ],
+          "size": [
+            0.012,
+            0.013,
+            0.064
+          ],
+          "bevel": 0.003,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial mailbox side cooling rib 4",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "cream",
+          "position": [
+            -0.629,
+            0.17700000000000002,
+            1.374
+          ],
+          "size": [
+            0.012,
+            0.013,
+            0.064
+          ],
+          "bevel": 0.003,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial mailbox side cooling rib 5",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "cream",
+          "position": [
+            -0.629,
+            0.232,
+            1.374
+          ],
+          "size": [
+            0.012,
+            0.013,
+            0.064
+          ],
+          "bevel": 0.003,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial mailbox anchor screw 1",
+          "shape": "cylinder",
+          "surface": "metal",
+          "color_role": "brass",
+          "position": [
+            -1.083,
+            -0.04,
+            0.063
+          ],
+          "radius": 0.026,
+          "height": 0.021,
+          "segments": 8,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial mailbox anchor screw 2",
+          "shape": "cylinder",
+          "surface": "metal",
+          "color_role": "brass",
+          "position": [
+            -0.797,
+            -0.04,
+            0.063
+          ],
+          "radius": 0.026,
+          "height": 0.021,
+          "segments": 8,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial mailbox anchor screw 3",
+          "shape": "cylinder",
+          "surface": "metal",
+          "color_role": "brass",
+          "position": [
+            -1.083,
+            0.26,
+            0.063
+          ],
+          "radius": 0.026,
+          "height": 0.021,
+          "segments": 8,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial mailbox anchor screw 4",
+          "shape": "cylinder",
+          "surface": "metal",
+          "color_role": "brass",
+          "position": [
+            -0.797,
+            0.26,
+            0.063
+          ],
+          "radius": 0.026,
+          "height": 0.021,
+          "segments": 8,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial bench rear joint gusset 1",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "metal_dark",
+          "position": [
+            -0.3,
+            0.35,
+            0.714
+          ],
+          "size": [
+            0.16,
+            0.037,
+            0.2
+          ],
+          "bevel": 0.01,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Industrial bench rear joint gusset 2",
+          "shape": "box",
+          "surface": "metal",
+          "color_role": "metal_dark",
+          "position": [
+            1.12,
+            0.35,
+            0.714
+          ],
+          "size": [
+            0.16,
+            0.037,
+            0.2
+          ],
+          "bevel": 0.01,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "parts": 103,
+      "triangle_upper_bound": 3324
+    },
+    "ghibli_poster": {
+      "full_recipe": "ghibli_poster_mailbox_bench.json",
+      "notes": [
+        "Original matte poster-animation interpretation; no canon claim",
+        "Hand-hewn silhouettes, quieter object count, soft forms and subtle asymmetry"
+      ],
+      "remove_parts": [
+        "Bench back brass pin 1-1",
+        "Bench back brass pin 1-2",
+        "Bench back brass pin 2-1",
+        "Bench back brass pin 2-2"
+      ],
+      "update_parts": [
+        {
+          "name": "Broad painted bench back slat 1",
+          "changed_fields": {
+            "color_role": "sage",
+            "bevel": 0.022,
+            "rotation": [
+              -0.135,
+              -0.007,
+              -0.009
+            ]
+          }
+        },
+        {
+          "name": "Broad painted bench back slat 2",
+          "changed_fields": {
+            "color_role": "teal",
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Broad painted bench back slat 3",
+          "changed_fields": {
+            "color_role": "sage",
+            "bevel": 0.022,
+            "rotation": [
+              -0.135,
+              0.007,
+              0.009
+            ]
+          }
+        },
+        {
+          "name": "Postal crate end board 1",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Postal crate end board 2",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Postal crate horizontal slat 1-1",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Postal crate horizontal slat 1-2",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Postal crate horizontal slat 2-1",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Postal crate horizontal slat 2-2",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Postal crate coral corner strap 1",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Postal crate coral corner strap 2",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Stored cream letter packet 1",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Stored cream letter packet 2",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Mailbox substantial timber post",
+          "changed_fields": {
+            "bevel": 0.022,
+            "rotation": [
+              0,
+              -0.013,
+              0
+            ]
+          }
+        },
+        {
+          "name": "Mailbox painted post wrap",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Mailbox post brass collar",
+          "changed_fields": {
+            "surface": "paint"
+          }
+        },
+        {
+          "name": "Mailbox left side shell",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Mailbox right side shell",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Mailbox rear wall",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Mail slot brass weather lip",
+          "changed_fields": {
+            "surface": "paint"
+          }
+        },
+        {
+          "name": "Mail slot protruding cream envelope",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Small mailbox cream address plaque",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Mailbox door round brass knob",
+          "changed_fields": {
+            "surface": "paint"
+          }
+        },
+        {
+          "name": "Operable mailbox hinge barrel 1",
+          "changed_fields": {
+            "surface": "paint"
+          }
+        },
+        {
+          "name": "Operable mailbox hinge barrel 2",
+          "changed_fields": {
+            "surface": "paint"
+          }
+        },
+        {
+          "name": "Mailbox flag brass pivot",
+          "changed_fields": {
+            "surface": "paint"
+          }
+        },
+        {
+          "name": "Mailbox coral collection flag",
+          "changed_fields": {
+            "bevel": 0.022,
+            "rotation": [
+              -0.035,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "name": "Mailbox cream flag tip",
+          "changed_fields": {
+            "bevel": 0.022
+          }
+        },
+        {
+          "name": "Tiny carved bird body",
+          "changed_fields": {
+            "radii": [
+              0.091,
+              0.061,
+              0.072
+            ]
+          }
+        },
+        {
+          "name": "Tiny carved bird head",
+          "changed_fields": {
+            "radii": [
+              0.051,
+              0.049,
+              0.05
+            ]
+          }
+        }
+      ],
+      "add_parts": [],
+      "parts": 110,
+      "triangle_upper_bound": 2878
+    },
+    "bloomwalker_painterly": {
+      "full_recipe": "bloomwalker_painterly_mailbox_bench.json",
+      "notes": [
+        "Original soft botanical painterly candidate; no invented canon",
+        "Plant-shaped accents, climbing leaves, broad petals, gentler irregular cloth silhouettes"
+      ],
+      "remove_parts": [],
+      "update_parts": [
+        {
+          "name": "Broad painted bench back slat 1",
+          "changed_fields": {
+            "color_role": "sage"
+          }
+        },
+        {
+          "name": "Broad painted bench back slat 3",
+          "changed_fields": {
+            "color_role": "sage"
+          }
+        },
+        {
+          "name": "Mailbox post brass collar",
+          "changed_fields": {
+            "surface": "paint"
+          }
+        },
+        {
+          "name": "Mail slot brass weather lip",
+          "changed_fields": {
+            "surface": "paint"
+          }
+        },
+        {
+          "name": "Mailbox door round brass knob",
+          "changed_fields": {
+            "surface": "paint"
+          }
+        },
+        {
+          "name": "Operable mailbox hinge barrel 1",
+          "changed_fields": {
+            "surface": "paint"
+          }
+        },
+        {
+          "name": "Operable mailbox hinge barrel 2",
+          "changed_fields": {
+            "surface": "paint"
+          }
+        },
+        {
+          "name": "Mailbox flag brass pivot",
+          "changed_fields": {
+            "surface": "paint"
+          }
+        },
+        {
+          "name": "Mailbox coral collection flag",
+          "changed_fields": {
+            "color_role": "pink"
+          }
+        },
+        {
+          "name": "Coral seat corner cloth",
+          "changed_fields": {
+            "color_role": "violet"
+          }
+        },
+        {
+          "name": "Soft corner cloth drape",
+          "changed_fields": {
+            "color_role": "violet"
+          }
+        },
+        {
+          "name": "Bench back brass pin 1-1",
+          "changed_fields": {
+            "surface": "paint"
+          }
+        },
+        {
+          "name": "Bench back brass pin 1-2",
+          "changed_fields": {
+            "surface": "paint"
+          }
+        },
+        {
+          "name": "Bench back brass pin 2-1",
+          "changed_fields": {
+            "surface": "paint"
+          }
+        },
+        {
+          "name": "Bench back brass pin 2-2",
+          "changed_fields": {
+            "surface": "paint"
+          }
+        }
+      ],
+      "add_parts": [
+        {
+          "name": "Botanical mailbox twining leaf 1",
+          "shape": "mesh",
+          "surface": "leaf",
+          "color_role": "leaf_dark",
+          "vertices": [
+            [
+              -0.94,
+              0.21100000000000002,
+              0.31
+            ],
+            [
+              -0.8388,
+              0.29400000000000004,
+              0.344408
+            ],
+            [
+              -0.71,
+              0.21100000000000002,
+              0.3882
+            ],
+            [
+              -0.8388,
+              0.128,
+              0.344408
+            ],
+            [
+              -0.825,
+              0.21100000000000002,
+              0.3629
+            ]
+          ],
+          "faces": [
+            [
+              0,
+              1,
+              4
+            ],
+            [
+              1,
+              2,
+              4
+            ],
+            [
+              2,
+              3,
+              4
+            ],
+            [
+              3,
+              0,
+              4
+            ]
+          ],
+          "smooth": false
+        },
+        {
+          "name": "Botanical mailbox twining vine 1",
+          "shape": "beam",
+          "surface": "leaf",
+          "color_role": "leaf_dark",
+          "a": [
+            -0.94,
+            0.21100000000000002,
+            0.31
+          ],
+          "b": [
+            -0.8501014916696956,
+            0.07734775374678615,
+            0.48
+          ],
+          "width": 0.012,
+          "depth": 0.012
+        },
+        {
+          "name": "Botanical mailbox twining leaf 2",
+          "shape": "mesh",
+          "surface": "leaf",
+          "color_role": "leaf_light",
+          "vertices": [
+            [
+              -0.8501014916696956,
+              0.07734775374678615,
+              0.48
+            ],
+            [
+              -0.9539236970155263,
+              0.1570433601321333,
+              0.514408
+            ],
+            [
+              -0.9023579734491056,
+              0.30133270884877106,
+              0.5582
+            ],
+            [
+              -0.7922649902897458,
+              0.19475890785118574,
+              0.514408
+            ],
+            [
+              -0.8762297325594006,
+              0.1893402312977786,
+              0.5328999999999999
+            ]
+          ],
+          "faces": [
+            [
+              0,
+              1,
+              4
+            ],
+            [
+              1,
+              2,
+              4
+            ],
+            [
+              2,
+              3,
+              4
+            ],
+            [
+              3,
+              0,
+              4
+            ]
+          ],
+          "smooth": false
+        },
+        {
+          "name": "Botanical mailbox twining vine 2",
+          "shape": "beam",
+          "surface": "leaf",
+          "color_role": "leaf_dark",
+          "a": [
+            -0.8501014916696956,
+            0.07734775374678615,
+            0.48
+          ],
+          "b": [
+            -0.9981264996395582,
+            0.03011226109664389,
+            0.65
+          ],
+          "width": 0.012,
+          "depth": 0.012
+        },
+        {
+          "name": "Botanical mailbox twining leaf 3",
+          "shape": "mesh",
+          "surface": "leaf",
+          "color_role": "leaf_dark",
+          "vertices": [
+            [
+              -0.9981264996395582,
+              0.03011226109664389,
+              0.65
+            ],
+            [
+              -1.0521492545791011,
+              -0.08910175632052938,
+              0.684408
+            ],
+            [
+              -1.2043809353964121,
+              -0.07166744086117219,
+              0.7282000000000001
+            ],
+            [
+              -1.1256076481660469,
+              0.05976014079093902,
+              0.684408
+            ],
+            [
+              -1.101253717517985,
+              -0.02077758988226415,
+              0.7029000000000001
+            ]
+          ],
+          "faces": [
+            [
+              0,
+              1,
+              4
+            ],
+            [
+              1,
+              2,
+              4
+            ],
+            [
+              2,
+              3,
+              4
+            ],
+            [
+              3,
+              0,
+              4
+            ]
+          ],
+          "smooth": false
+        },
+        {
+          "name": "Botanical mailbox twining vine 3",
+          "shape": "beam",
+          "surface": "leaf",
+          "color_role": "leaf_dark",
+          "a": [
+            -0.9981264996395582,
+            0.03011226109664389,
+            0.65
+          ],
+          "b": [
+            -0.9923151265467756,
+            0.19430599126875508,
+            0.8200000000000001
+          ],
+          "width": 0.012,
+          "depth": 0.012
+        },
+        {
+          "name": "Botanical mailbox twining leaf 4",
+          "shape": "mesh",
+          "surface": "leaf",
+          "color_role": "leaf_light",
+          "vertices": [
+            [
+              -0.9923151265467756,
+              0.19430599126875508,
+              0.8200000000000001
+            ],
+            [
+              -0.863944755034234,
+              0.16878173383132786,
+              0.8544080000000001
+            ],
+            [
+              -0.8463357650799695,
+              0.01657015913087803,
+              0.8982000000000001
+            ],
+            [
+              -0.9922236599685278,
+              0.0634227164248505,
+              0.8544080000000001
+            ],
+            [
+              -0.9193254458133726,
+              0.10543807519981656,
+              0.8729
+            ]
+          ],
+          "faces": [
+            [
+              0,
+              1,
+              4
+            ],
+            [
+              1,
+              2,
+              4
+            ],
+            [
+              2,
+              3,
+              4
+            ],
+            [
+              3,
+              0,
+              4
+            ]
+          ],
+          "smooth": false
+        },
+        {
+          "name": "Botanical mailbox twining vine 4",
+          "shape": "beam",
+          "surface": "leaf",
+          "color_role": "leaf_dark",
+          "a": [
+            -0.9923151265467756,
+            0.19430599126875508,
+            0.8200000000000001
+          ],
+          "b": [
+            -0.8480476311570088,
+            0.13537724410080781,
+            0.99
+          ],
+          "width": 0.012,
+          "depth": 0.012
+        },
+        {
+          "name": "Botanical mailbox twining leaf 5",
+          "shape": "mesh",
+          "surface": "leaf",
+          "color_role": "leaf_dark",
+          "vertices": [
+            [
+              -0.8480476311570088,
+              0.13537724410080781,
+              0.99
+            ],
+            [
+              -0.8523569108258243,
+              0.26618959102851925,
+              1.024408
+            ],
+            [
+              -0.7081268288145902,
+              0.31792085278611304,
+              1.0682
+            ],
+            [
+              -0.720608045426865,
+              0.16520327281616498,
+              1.024408
+            ],
+            [
+              -0.7780872299857995,
+              0.22664904844346043,
+              1.0429
+            ]
+          ],
+          "faces": [
+            [
+              0,
+              1,
+              4
+            ],
+            [
+              1,
+              2,
+              4
+            ],
+            [
+              2,
+              3,
+              4
+            ],
+            [
+              3,
+              0,
+              4
+            ]
+          ],
+          "smooth": false
+        },
+        {
+          "name": "Botanical bench side draped leaf 1",
+          "shape": "mesh",
+          "surface": "leaf",
+          "color_role": "leaf_light",
+          "vertices": [
+            [
+              1.17,
+              0.24,
+              0.6
+            ],
+            [
+              1.3145706559273667,
+              0.25693178799568805,
+              0.638896
+            ],
+            [
+              1.3916563757354714,
+              0.10410132047802859,
+              0.6884
+            ],
+            [
+              1.220486954719848,
+              0.10347737402497706,
+              0.638896
+            ],
+            [
+              1.2808281878677357,
+              0.17205066023901427,
+              0.6597999999999999
+            ]
+          ],
+          "faces": [
+            [
+              0,
+              1,
+              4
+            ],
+            [
+              1,
+              2,
+              4
+            ],
+            [
+              2,
+              3,
+              4
+            ],
+            [
+              3,
+              0,
+              4
+            ]
+          ],
+          "smooth": false
+        },
+        {
+          "name": "Botanical bench side draped leaf 2",
+          "shape": "mesh",
+          "surface": "leaf",
+          "color_role": "leaf_light",
+          "vertices": [
+            [
+              1.17,
+              0.24,
+              0.74
+            ],
+            [
+              1.2748434690095916,
+              0.34097131773941947,
+              0.778896
+            ],
+            [
+              1.4287010829722866,
+              0.2659566883281753,
+              0.8284
+            ],
+            [
+              1.2928134840060206,
+              0.16187056798937483,
+              0.778896
+            ],
+            [
+              1.2993505414861433,
+              0.25297834416408765,
+              0.7998
+            ]
+          ],
+          "faces": [
+            [
+              0,
+              1,
+              4
+            ],
+            [
+              1,
+              2,
+              4
+            ],
+            [
+              2,
+              3,
+              4
+            ],
+            [
+              3,
+              0,
+              4
+            ]
+          ],
+          "smooth": false
+        },
+        {
+          "name": "Botanical bench side draped leaf 3",
+          "shape": "mesh",
+          "surface": "leaf",
+          "color_role": "leaf_light",
+          "vertices": [
+            [
+              1.17,
+              0.24,
+              0.88
+            ],
+            [
+              1.1923577181970648,
+              0.38383147234531323,
+              0.918896
+            ],
+            [
+              1.3602391059071934,
+              0.4172260776060669,
+              0.9684
+            ],
+            [
+              1.315052695001265,
+              0.25212747594802554,
+              0.918896
+            ],
+            [
+              1.2651195529535966,
+              0.32861303880303344,
+              0.9398
+            ]
+          ],
+          "faces": [
+            [
+              0,
+              1,
+              4
+            ],
+            [
+              1,
+              2,
+              4
+            ],
+            [
+              2,
+              3,
+              4
+            ],
+            [
+              3,
+              0,
+              4
+            ]
+          ],
+          "smooth": false
+        },
+        {
+          "name": "Botanical ground herb pink flower broad petal 1",
+          "shape": "ellipsoid",
+          "surface": "paint",
+          "color_role": "pink",
+          "position": [
+            -0.53536,
+            -0.46,
+            0.61
+          ],
+          "radii": [
+            0.04032,
+            0.02736,
+            0.01656
+          ],
+          "segments": 8,
+          "rings": 4,
+          "rotation": [
+            0,
+            0,
+            0.0
+          ]
+        },
+        {
+          "name": "Botanical ground herb pink flower broad petal 2",
+          "shape": "ellipsoid",
+          "surface": "paint",
+          "color_role": "pink",
+          "position": [
+            -0.5662054813711023,
+            -0.4175448371125844,
+            0.61
+          ],
+          "radii": [
+            0.04032,
+            0.02736,
+            0.01656
+          ],
+          "segments": 8,
+          "rings": 4,
+          "rotation": [
+            0,
+            0,
+            1.2566370614359172
+          ]
+        },
+        {
+          "name": "Botanical ground herb pink flower broad petal 3",
+          "shape": "ellipsoid",
+          "surface": "paint",
+          "color_role": "pink",
+          "position": [
+            -0.6161145186288977,
+            -0.43376126633766404,
+            0.61
+          ],
+          "radii": [
+            0.04032,
+            0.02736,
+            0.01656
+          ],
+          "segments": 8,
+          "rings": 4,
+          "rotation": [
+            0,
+            0,
+            2.5132741228718345
+          ]
+        },
+        {
+          "name": "Botanical ground herb pink flower broad petal 4",
+          "shape": "ellipsoid",
+          "surface": "paint",
+          "color_role": "pink",
+          "position": [
+            -0.6161145186288977,
+            -0.486238733662336,
+            0.61
+          ],
+          "radii": [
+            0.04032,
+            0.02736,
+            0.01656
+          ],
+          "segments": 8,
+          "rings": 4,
+          "rotation": [
+            0,
+            0,
+            3.7699111843077517
+          ]
+        },
+        {
+          "name": "Botanical ground herb pink flower broad petal 5",
+          "shape": "ellipsoid",
+          "surface": "paint",
+          "color_role": "pink",
+          "position": [
+            -0.5662054813711023,
+            -0.5024551628874157,
+            0.61
+          ],
+          "radii": [
+            0.04032,
+            0.02736,
+            0.01656
+          ],
+          "segments": 8,
+          "rings": 4,
+          "rotation": [
+            0,
+            0,
+            5.026548245743669
+          ]
+        },
+        {
+          "name": "Botanical ground herb pink flower honey pollen",
+          "shape": "ellipsoid",
+          "surface": "paint",
+          "color_role": "brass",
+          "position": [
+            -0.58,
+            -0.46,
+            0.6244
+          ],
+          "radii": [
+            0.018,
+            0.018,
+            0.01584
+          ],
+          "segments": 8,
+          "rings": 4,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Botanical ground herb cream flower broad petal 1",
+          "shape": "ellipsoid",
+          "surface": "paint",
+          "color_role": "cream",
+          "position": [
+            -0.47218,
+            -0.54,
+            0.53
+          ],
+          "radii": [
+            0.03416,
+            0.02318,
+            0.01403
+          ],
+          "segments": 8,
+          "rings": 4,
+          "rotation": [
+            0,
+            0,
+            0.0
+          ]
+        },
+        {
+          "name": "Botanical ground herb cream flower broad petal 2",
+          "shape": "ellipsoid",
+          "surface": "paint",
+          "color_role": "cream",
+          "position": [
+            -0.4983129772727395,
+            -0.5040310425537173,
+            0.53
+          ],
+          "radii": [
+            0.03416,
+            0.02318,
+            0.01403
+          ],
+          "segments": 8,
+          "rings": 4,
+          "rotation": [
+            0,
+            0,
+            1.2566370614359172
+          ]
+        },
+        {
+          "name": "Botanical ground herb cream flower broad petal 3",
+          "shape": "ellipsoid",
+          "surface": "paint",
+          "color_role": "cream",
+          "position": [
+            -0.5405970227272605,
+            -0.5177699617582987,
+            0.53
+          ],
+          "radii": [
+            0.03416,
+            0.02318,
+            0.01403
+          ],
+          "segments": 8,
+          "rings": 4,
+          "rotation": [
+            0,
+            0,
+            2.5132741228718345
+          ]
+        },
+        {
+          "name": "Botanical ground herb cream flower broad petal 4",
+          "shape": "ellipsoid",
+          "surface": "paint",
+          "color_role": "cream",
+          "position": [
+            -0.5405970227272605,
+            -0.5622300382417014,
+            0.53
+          ],
+          "radii": [
+            0.03416,
+            0.02318,
+            0.01403
+          ],
+          "segments": 8,
+          "rings": 4,
+          "rotation": [
+            0,
+            0,
+            3.7699111843077517
+          ]
+        },
+        {
+          "name": "Botanical ground herb cream flower broad petal 5",
+          "shape": "ellipsoid",
+          "surface": "paint",
+          "color_role": "cream",
+          "position": [
+            -0.4983129772727395,
+            -0.5759689574462827,
+            0.53
+          ],
+          "radii": [
+            0.03416,
+            0.02318,
+            0.01403
+          ],
+          "segments": 8,
+          "rings": 4,
+          "rotation": [
+            0,
+            0,
+            5.026548245743669
+          ]
+        },
+        {
+          "name": "Botanical ground herb cream flower honey pollen",
+          "shape": "ellipsoid",
+          "surface": "paint",
+          "color_role": "brass",
+          "position": [
+            -0.51,
+            -0.54,
+            0.5422
+          ],
+          "radii": [
+            0.01525,
+            0.01525,
+            0.01342
+          ],
+          "segments": 8,
+          "rings": 4,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "parts": 138,
+      "triangle_upper_bound": 3854
+    }
+  }
+}

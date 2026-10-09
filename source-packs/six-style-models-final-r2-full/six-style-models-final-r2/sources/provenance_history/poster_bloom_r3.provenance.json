@@ -1,0 +1,42 @@
+[
+  {
+    "style": "ghibli_poster",
+    "built_in_imagegen": true,
+    "reference": "sources/palette_only_reference.png (color layout only, no inherited paint marks)",
+    "returned_path": "/workspace/scratch/f8f4985c0858/generated_images/exec-0246baa9-01d5-4458-9526-0ca4dd4f7449.png",
+    "native": "atlases/ghibli_poster_atlas_r3.png",
+    "native_dimensions": [
+      1254,
+      1254
+    ],
+    "native_sha256": "f8b0b78571d3ccf3705c565c8c1a8993897ac142051a90b8486c6cf0236fd02e",
+    "runtime": "atlases/ghibli_poster_atlas_r3_runtime1024.png",
+    "runtime_dimensions": [
+      1024,
+      1024
+    ],
+    "runtime_sha256": "da60ba59dc62331a57a59f1f345a3777ce2ebbd72d3f13ea11501b26f6604f37",
+    "runtime_filter": "Lanczos only",
+    "purpose": "Corrective technique repaint, not oil low-contrast filtering"
+  },
+  {
+    "style": "bloomwalker_painterly",
+    "built_in_imagegen": true,
+    "reference": "sources/palette_only_reference.png (color layout only, no inherited paint marks)",
+    "returned_path": "/workspace/scratch/f8f4985c0858/generated_images/exec-a9c52a79-8fb5-4dce-8c66-e053b4f6a897.png",
+    "native": "atlases/bloomwalker_painterly_atlas_r3.png",
+    "native_dimensions": [
+      1254,
+      1254
+    ],
+    "native_sha256": "c692de7f99d47a4c0ba384ba9dd0089493c165fd528a22f3008fbea3dd8aa12c",
+    "runtime": "atlases/bloomwalker_painterly_atlas_r3_runtime1024.png",
+    "runtime_dimensions": [
+      1024,
+      1024
+    ],
+    "runtime_sha256": "f6857899f381281e15c814aef33429349be284b4808d30dca322e6f0bc3acb95",
+    "runtime_filter": "Lanczos only",
+    "purpose": "Corrective technique repaint, not oil low-contrast filtering"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "source": "/workspace/shared/style-distinct-20261008/industrial-storybook/flower/flower_oil_atlas_runtime1024.png",
+  "file": "atlases/oil_approved_atlas.png",
+  "sha256": "cf9b8a09e722c504f2d620f59fb57f1ce0109a91e64b7f471567943ab4a89b31",
+  "reuse": "Exact approved earlier atlas, not regenerated procedural marks",
+  "dimensions": [
+    1024,
+    1024
+  ],
+  "grid": [
+    8,
+    8
+  ],
+  "visual_reference": "Earlier approved flower stall preview; actual pixels viewed"
+}

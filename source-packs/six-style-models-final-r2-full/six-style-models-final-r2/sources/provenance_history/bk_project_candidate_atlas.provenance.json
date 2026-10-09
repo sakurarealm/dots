@@ -1,0 +1,796 @@
+{
+  "status": "UNCALIBRATED_PROJECT_CANDIDATE",
+  "candidate_name": "BK project candidate",
+  "classification": "PROPOSED_PALETTE_AND_MATERIAL_DESIGN_HYPOTHESIS",
+  "verified_BK_3D_world_rules": null,
+  "calibration_note": "No verified BK 3D world resources were available. Existing project rules observed by the parent are liquid-glass UI rules only; these were not generalized to 3D world props.",
+  "proposed_direction": "Broad Chinese-fantasy artisan craft: dark warm timber, honey wood, muted jade and teal, soft ivory paper and cloth, restrained cinnabar and aged brass, subdued blue/plum inks, natural foliage greens. Thin matte pigment with precise hand-painted wash edges and selective ink-like timber grain.",
+  "glass_effect_on_props": false,
+  "tool": "built-in image_gen",
+  "final_generation_mode": "new generation from exact 8x8 semantic material layout; no input image supplied for final call",
+  "quality_references_inspected": [
+    "/workspace/shared/style-distinct-20261008/industrial-storybook/flower/preview.png",
+    "/workspace/shared/style-distinct-20261008/industrial-storybook/flower/flower_oil_atlas_runtime1024.png"
+  ],
+  "first_attempt": {
+    "path": "sources/bk_project_candidate_atlas.rejected_oil_like_v1.png",
+    "status": "REJECTED_OIL_LIKE_TREATMENT",
+    "input_image": "/workspace/shared/style-distinct-20261008/industrial-storybook/flower/flower_oil_atlas_runtime1024.png",
+    "prompt": "sources/bk_project_candidate_atlas.initial.prompt.txt"
+  },
+  "selected_native_source": {
+    "path": "sources/bk_project_candidate_atlas.native1254.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGB",
+    "sha256": "f0006ba579089d3aa7c7faa990726509e1cedcf236061a15a7647bab1ac89d66",
+    "unchanged_copy_of_generated_output": true,
+    "generated_original": "/workspace/scratch/f8f4985c0858/generated_images/exec-2fe689f8-a062-431f-94ef-2fee8b5af187.png"
+  },
+  "final_atlas": {
+    "path": "atlases/bk_project_candidate_atlas.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "f0006ba579089d3aa7c7faa990726509e1cedcf236061a15a7647bab1ac89d66",
+    "unchanged_native_source_copy": true
+  },
+  "runtime_atlas": {
+    "path": "atlases/bk_project_candidate_atlas_runtime1024.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "sha256": "8d00c6db7a4a75a72564c579e91a3cb70905866bea9b423aa7cbbe7fe51a12ba",
+    "derivation": "whole-image Lanczos-only resize of unchanged native image; no repainting, crop, filtering, recoloring, or procedural reconstruction"
+  },
+  "prompt": "sources/bk_project_candidate_atlas.final.prompt.txt",
+  "grid": {
+    "columns": 8,
+    "rows": 8,
+    "runtime_cell_pixels": [
+      128,
+      128
+    ],
+    "gutters": 0,
+    "borders": 0,
+    "runtime_column_transitions": [
+      128,
+      256,
+      384,
+      512,
+      640,
+      768,
+      896
+    ],
+    "runtime_row_transitions": [
+      128,
+      256,
+      384,
+      512,
+      640,
+      768,
+      896
+    ],
+    "native_note": "1254 is not divisible by 8; the native grid represents exact eighths with pixel rounding. Measured native rows and columns are within one pixel of rounded eighths. Runtime 1024 transitions match the seven exact 128-pixel intervals."
+  },
+  "visual_QA": {
+    "native_viewed": true,
+    "runtime_viewed": true,
+    "layout_semantics_preserved": true,
+    "text_or_logos": false,
+    "object_scenes": false,
+    "glass_or_frost": false,
+    "thin_paint_distinct_from_oil_baseline": true,
+    "notes": "Artisan timber cells use fine directional grain, other cells use muted matte pigment washes and ink-like planar marks. All 64 swatches are present and edge-to-edge. Material and palette are explicitly proposed, not asserted BK canon."
+  },
+  "cells": [
+    {
+      "row": 0,
+      "column": 0,
+      "index": 0,
+      "role": "jade_teal",
+      "mean_rgb": [
+        87.42,
+        136.43,
+        119.32
+      ]
+    },
+    {
+      "row": 0,
+      "column": 1,
+      "index": 1,
+      "role": "sage_jade",
+      "mean_rgb": [
+        159.71,
+        182.32,
+        154.58
+      ]
+    },
+    {
+      "row": 0,
+      "column": 2,
+      "index": 2,
+      "role": "ivory",
+      "mean_rgb": [
+        244.28,
+        224.5,
+        191.6
+      ]
+    },
+    {
+      "row": 0,
+      "column": 3,
+      "index": 3,
+      "role": "navy_ink",
+      "mean_rgb": [
+        37.62,
+        52.49,
+        83.46
+      ]
+    },
+    {
+      "row": 0,
+      "column": 4,
+      "index": 4,
+      "role": "dark_timber",
+      "mean_rgb": [
+        80.76,
+        52.76,
+        35.64
+      ]
+    },
+    {
+      "row": 0,
+      "column": 5,
+      "index": 5,
+      "role": "honey_timber",
+      "mean_rgb": [
+        174.29,
+        114.39,
+        55.98
+      ]
+    },
+    {
+      "row": 0,
+      "column": 6,
+      "index": 6,
+      "role": "aged_brass",
+      "mean_rgb": [
+        149.99,
+        112.63,
+        50.98
+      ]
+    },
+    {
+      "row": 0,
+      "column": 7,
+      "index": 7,
+      "role": "light_brass",
+      "mean_rgb": [
+        227.11,
+        184.12,
+        101.28
+      ]
+    },
+    {
+      "row": 1,
+      "column": 0,
+      "index": 8,
+      "role": "rose_cinnabar",
+      "mean_rgb": [
+        198.15,
+        88.64,
+        84.55
+      ]
+    },
+    {
+      "row": 1,
+      "column": 1,
+      "index": 9,
+      "role": "pale_rose_cinnabar",
+      "mean_rgb": [
+        224.21,
+        157.14,
+        154.12
+      ]
+    },
+    {
+      "row": 1,
+      "column": 2,
+      "index": 10,
+      "role": "deep_foliage",
+      "mean_rgb": [
+        49.04,
+        71.76,
+        47.02
+      ]
+    },
+    {
+      "row": 1,
+      "column": 3,
+      "index": 11,
+      "role": "olive_foliage",
+      "mean_rgb": [
+        88.54,
+        101.77,
+        53.7
+      ]
+    },
+    {
+      "row": 1,
+      "column": 4,
+      "index": 12,
+      "role": "aged_brass",
+      "mean_rgb": [
+        168.18,
+        126.32,
+        57.48
+      ]
+    },
+    {
+      "row": 1,
+      "column": 5,
+      "index": 13,
+      "role": "light_brass",
+      "mean_rgb": [
+        218.95,
+        176.62,
+        95.49
+      ]
+    },
+    {
+      "row": 1,
+      "column": 6,
+      "index": 14,
+      "role": "plum_ink",
+      "mean_rgb": [
+        70.69,
+        45.21,
+        63.87
+      ]
+    },
+    {
+      "row": 1,
+      "column": 7,
+      "index": 15,
+      "role": "mauve_ink",
+      "mean_rgb": [
+        187.38,
+        142.82,
+        151.59
+      ]
+    },
+    {
+      "row": 2,
+      "column": 0,
+      "index": 16,
+      "role": "dark_timber",
+      "mean_rgb": [
+        78.79,
+        50.83,
+        34.27
+      ]
+    },
+    {
+      "row": 2,
+      "column": 1,
+      "index": 17,
+      "role": "honey_timber",
+      "mean_rgb": [
+        173.36,
+        114.01,
+        56.51
+      ]
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "index": 18,
+      "role": "golden_honey_wood",
+      "mean_rgb": [
+        209.37,
+        146.19,
+        76.3
+      ]
+    },
+    {
+      "row": 2,
+      "column": 3,
+      "index": 19,
+      "role": "ivory_honey_wood",
+      "mean_rgb": [
+        239.85,
+        207.62,
+        157.52
+      ]
+    },
+    {
+      "row": 2,
+      "column": 4,
+      "index": 20,
+      "role": "red_earth_cinnabar",
+      "mean_rgb": [
+        178.45,
+        70.89,
+        53.3
+      ]
+    },
+    {
+      "row": 2,
+      "column": 5,
+      "index": 21,
+      "role": "clay_coral",
+      "mean_rgb": [
+        227.51,
+        141.08,
+        112.94
+      ]
+    },
+    {
+      "row": 2,
+      "column": 6,
+      "index": 22,
+      "role": "indigo_ink",
+      "mean_rgb": [
+        30.34,
+        51.94,
+        90.3
+      ]
+    },
+    {
+      "row": 2,
+      "column": 7,
+      "index": 23,
+      "role": "slate_blue",
+      "mean_rgb": [
+        100.43,
+        130.64,
+        165.76
+      ]
+    },
+    {
+      "row": 3,
+      "column": 0,
+      "index": 24,
+      "role": "aged_brass",
+      "mean_rgb": [
+        162.31,
+        120.65,
+        54.76
+      ]
+    },
+    {
+      "row": 3,
+      "column": 1,
+      "index": 25,
+      "role": "light_brass",
+      "mean_rgb": [
+        222.58,
+        180.15,
+        99.0
+      ]
+    },
+    {
+      "row": 3,
+      "column": 2,
+      "index": 26,
+      "role": "plum_ink",
+      "mean_rgb": [
+        69.33,
+        44.56,
+        63.27
+      ]
+    },
+    {
+      "row": 3,
+      "column": 3,
+      "index": 27,
+      "role": "mauve_ink",
+      "mean_rgb": [
+        186.71,
+        141.83,
+        150.07
+      ]
+    },
+    {
+      "row": 3,
+      "column": 4,
+      "index": 28,
+      "role": "jade_teal",
+      "mean_rgb": [
+        88.57,
+        136.28,
+        118.28
+      ]
+    },
+    {
+      "row": 3,
+      "column": 5,
+      "index": 29,
+      "role": "sage_jade",
+      "mean_rgb": [
+        159.9,
+        182.32,
+        155.19
+      ]
+    },
+    {
+      "row": 3,
+      "column": 6,
+      "index": 30,
+      "role": "ivory",
+      "mean_rgb": [
+        243.7,
+        223.85,
+        191.16
+      ]
+    },
+    {
+      "row": 3,
+      "column": 7,
+      "index": 31,
+      "role": "navy_ink",
+      "mean_rgb": [
+        36.88,
+        51.72,
+        82.92
+      ]
+    },
+    {
+      "row": 4,
+      "column": 0,
+      "index": 32,
+      "role": "red_earth_cinnabar",
+      "mean_rgb": [
+        184.16,
+        75.61,
+        57.75
+      ]
+    },
+    {
+      "row": 4,
+      "column": 1,
+      "index": 33,
+      "role": "clay_coral",
+      "mean_rgb": [
+        227.27,
+        141.81,
+        114.52
+      ]
+    },
+    {
+      "row": 4,
+      "column": 2,
+      "index": 34,
+      "role": "indigo_ink",
+      "mean_rgb": [
+        31.45,
+        52.44,
+        90.39
+      ]
+    },
+    {
+      "row": 4,
+      "column": 3,
+      "index": 35,
+      "role": "slate_blue",
+      "mean_rgb": [
+        102.36,
+        131.38,
+        165.22
+      ]
+    },
+    {
+      "row": 4,
+      "column": 4,
+      "index": 36,
+      "role": "rose_cinnabar",
+      "mean_rgb": [
+        197.19,
+        89.91,
+        84.91
+      ]
+    },
+    {
+      "row": 4,
+      "column": 5,
+      "index": 37,
+      "role": "pale_rose_cinnabar",
+      "mean_rgb": [
+        224.51,
+        157.2,
+        152.94
+      ]
+    },
+    {
+      "row": 4,
+      "column": 6,
+      "index": 38,
+      "role": "deep_foliage",
+      "mean_rgb": [
+        45.52,
+        67.67,
+        45.0
+      ]
+    },
+    {
+      "row": 4,
+      "column": 7,
+      "index": 39,
+      "role": "olive_foliage",
+      "mean_rgb": [
+        90.15,
+        102.39,
+        54.02
+      ]
+    },
+    {
+      "row": 5,
+      "column": 0,
+      "index": 40,
+      "role": "jade_teal",
+      "mean_rgb": [
+        86.21,
+        135.23,
+        118.5
+      ]
+    },
+    {
+      "row": 5,
+      "column": 1,
+      "index": 41,
+      "role": "sage_jade",
+      "mean_rgb": [
+        161.5,
+        183.28,
+        155.81
+      ]
+    },
+    {
+      "row": 5,
+      "column": 2,
+      "index": 42,
+      "role": "ivory",
+      "mean_rgb": [
+        244.14,
+        224.65,
+        192.79
+      ]
+    },
+    {
+      "row": 5,
+      "column": 3,
+      "index": 43,
+      "role": "navy_ink",
+      "mean_rgb": [
+        38.41,
+        53.27,
+        84.51
+      ]
+    },
+    {
+      "row": 5,
+      "column": 4,
+      "index": 44,
+      "role": "dark_timber",
+      "mean_rgb": [
+        81.59,
+        53.29,
+        36.02
+      ]
+    },
+    {
+      "row": 5,
+      "column": 5,
+      "index": 45,
+      "role": "honey_timber",
+      "mean_rgb": [
+        175.84,
+        115.59,
+        57.12
+      ]
+    },
+    {
+      "row": 5,
+      "column": 6,
+      "index": 46,
+      "role": "aged_brass",
+      "mean_rgb": [
+        153.04,
+        114.16,
+        51.54
+      ]
+    },
+    {
+      "row": 5,
+      "column": 7,
+      "index": 47,
+      "role": "light_brass",
+      "mean_rgb": [
+        227.77,
+        185.4,
+        103.8
+      ]
+    },
+    {
+      "row": 6,
+      "column": 0,
+      "index": 48,
+      "role": "rose_cinnabar",
+      "mean_rgb": [
+        196.59,
+        87.09,
+        83.07
+      ]
+    },
+    {
+      "row": 6,
+      "column": 1,
+      "index": 49,
+      "role": "pale_rose_cinnabar",
+      "mean_rgb": [
+        223.2,
+        155.69,
+        152.56
+      ]
+    },
+    {
+      "row": 6,
+      "column": 2,
+      "index": 50,
+      "role": "deep_foliage",
+      "mean_rgb": [
+        46.94,
+        69.77,
+        46.21
+      ]
+    },
+    {
+      "row": 6,
+      "column": 3,
+      "index": 51,
+      "role": "olive_foliage",
+      "mean_rgb": [
+        90.68,
+        103.53,
+        55.13
+      ]
+    },
+    {
+      "row": 6,
+      "column": 4,
+      "index": 52,
+      "role": "aged_brass",
+      "mean_rgb": [
+        171.37,
+        128.62,
+        58.63
+      ]
+    },
+    {
+      "row": 6,
+      "column": 5,
+      "index": 53,
+      "role": "light_brass",
+      "mean_rgb": [
+        221.03,
+        179.13,
+        98.85
+      ]
+    },
+    {
+      "row": 6,
+      "column": 6,
+      "index": 54,
+      "role": "plum_ink",
+      "mean_rgb": [
+        67.63,
+        43.38,
+        62.46
+      ]
+    },
+    {
+      "row": 6,
+      "column": 7,
+      "index": 55,
+      "role": "mauve_ink",
+      "mean_rgb": [
+        186.82,
+        142.2,
+        151.23
+      ]
+    },
+    {
+      "row": 7,
+      "column": 0,
+      "index": 56,
+      "role": "dark_timber",
+      "mean_rgb": [
+        80.49,
+        51.74,
+        34.91
+      ]
+    },
+    {
+      "row": 7,
+      "column": 1,
+      "index": 57,
+      "role": "honey_timber",
+      "mean_rgb": [
+        174.55,
+        114.58,
+        57.2
+      ]
+    },
+    {
+      "row": 7,
+      "column": 2,
+      "index": 58,
+      "role": "golden_honey_wood",
+      "mean_rgb": [
+        208.17,
+        144.69,
+        75.57
+      ]
+    },
+    {
+      "row": 7,
+      "column": 3,
+      "index": 59,
+      "role": "ivory_honey_wood",
+      "mean_rgb": [
+        239.42,
+        207.03,
+        157.19
+      ]
+    },
+    {
+      "row": 7,
+      "column": 4,
+      "index": 60,
+      "role": "red_earth_cinnabar",
+      "mean_rgb": [
+        177.58,
+        70.58,
+        53.75
+      ]
+    },
+    {
+      "row": 7,
+      "column": 5,
+      "index": 61,
+      "role": "clay_coral",
+      "mean_rgb": [
+        228.13,
+        142.44,
+        115.07
+      ]
+    },
+    {
+      "row": 7,
+      "column": 6,
+      "index": 62,
+      "role": "indigo_ink",
+      "mean_rgb": [
+        31.36,
+        53.19,
+        92.39
+      ]
+    },
+    {
+      "row": 7,
+      "column": 7,
+      "index": 63,
+      "role": "slate_blue",
+      "mean_rgb": [
+        102.25,
+        131.89,
+        166.89
+      ]
+    }
+  ]
+}

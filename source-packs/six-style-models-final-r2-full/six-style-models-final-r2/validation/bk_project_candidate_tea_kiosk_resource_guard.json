@@ -1,0 +1,37 @@
+{
+  "startup_available_bytes": 2414616576,
+  "minimum_available_bytes": 2295787520,
+  "reserve_bytes": 2147483648,
+  "exit_code": 0,
+  "history": [
+    {
+      "at_utc": "2026-10-08T22:25:55.527511+00:00",
+      "available_bytes": 2414616576
+    },
+    {
+      "at_utc": "2026-10-08T22:25:56.030416+00:00",
+      "available_bytes": 2389352448
+    },
+    {
+      "at_utc": "2026-10-08T22:25:56.575539+00:00",
+      "available_bytes": 2350706688
+    },
+    {
+      "at_utc": "2026-10-08T22:25:57.077654+00:00",
+      "available_bytes": 2354941952
+    },
+    {
+      "at_utc": "2026-10-08T22:25:57.578058+00:00",
+      "available_bytes": 2340429824
+    },
+    {
+      "at_utc": "2026-10-08T22:25:58.078399+00:00",
+      "available_bytes": 2325356544
+    },
+    {
+      "at_utc": "2026-10-08T22:25:58.578733+00:00",
+      "available_bytes": 2295787520
+    }
+  ],
+  "scope": "only this lightweight renderer process; no Blender or shared heavy lock used"
+}
