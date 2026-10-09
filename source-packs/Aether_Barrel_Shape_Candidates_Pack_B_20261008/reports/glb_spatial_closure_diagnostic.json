@@ -1,0 +1,81 @@
+{
+  "scope": "Actual GLB import, temporary copied BMesh weld at 1e-7m. Export files are untouched; physical closure diagnostic only, not a render attribute change or engine import acceptance.",
+  "records": [
+    {
+      "file": "/workspace/shared/aether-production-20261008/barrel-composter/styles/shape-variants/exports/aether_barrel_shape_bk.glb",
+      "objects": [
+        {
+          "object": "aether_barrel_shape_bk",
+          "raw_imported": {
+            "vertices": 2952,
+            "boundary_edges": 2952,
+            "nonmanifold_edges": 2952
+          },
+          "temporary_spatial_weld_1e_7m": {
+            "vertices": 820,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0
+          }
+        }
+      ]
+    },
+    {
+      "file": "/workspace/shared/aether-production-20261008/barrel-composter/styles/shape-variants/exports/aether_barrel_shape_genshin.glb",
+      "objects": [
+        {
+          "object": "aether_barrel_shape_genshin",
+          "raw_imported": {
+            "vertices": 4824,
+            "boundary_edges": 4824,
+            "nonmanifold_edges": 4824
+          },
+          "temporary_spatial_weld_1e_7m": {
+            "vertices": 1336,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0
+          }
+        }
+      ]
+    },
+    {
+      "file": "/workspace/shared/aether-production-20261008/barrel-composter/styles/shape-variants/exports/aether_barrel_shape_ghibli.glb",
+      "objects": [
+        {
+          "object": "aether_barrel_shape_ghibli",
+          "raw_imported": {
+            "vertices": 4024,
+            "boundary_edges": 4024,
+            "nonmanifold_edges": 4024
+          },
+          "temporary_spatial_weld_1e_7m": {
+            "vertices": 1068,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0
+          }
+        }
+      ]
+    },
+    {
+      "file": "/workspace/shared/aether-production-20261008/barrel-composter/styles/shape-variants/exports/aether_barrel_shape_oil.glb",
+      "objects": [
+        {
+          "object": "aether_barrel_shape_oil",
+          "raw_imported": {
+            "vertices": 2932,
+            "boundary_edges": 2932,
+            "nonmanifold_edges": 2932
+          },
+          "temporary_spatial_weld_1e_7m": {
+            "vertices": 800,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0
+          }
+        }
+      ]
+    }
+  ]
+}

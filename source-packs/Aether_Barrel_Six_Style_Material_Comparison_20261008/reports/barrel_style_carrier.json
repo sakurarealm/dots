@@ -1,0 +1,188 @@
+{
+  "source_blend": "source/aether_wooden_barrel_v01_sample.blend",
+  "fixed_reference_render": "previews/barrel_sample_v02.png",
+  "object": "aether_wooden_barrel_v01",
+  "mesh": "aether_wooden_barrel_v01_Mesh",
+  "unit_metres": 1,
+  "pivot": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "dimensions_m": [
+    0.9288232326507568,
+    0.9288232326507568,
+    1.059999942779541
+  ],
+  "triangles": 3000,
+  "vertices": 1560,
+  "geometry_uv_material_assignment_sha256": "8af9dc6996b220ef64568d9323f2c39590d5c5b4f254d581eb0babec4caf8019",
+  "material_slots": [
+    {
+      "index": 0,
+      "name": "M_Shared_WarmWood",
+      "face_count": 1270,
+      "nodes": [
+        "Principled BSDF",
+        "Material Output",
+        "Shared_Source_Albedo"
+      ]
+    },
+    {
+      "index": 1,
+      "name": "M_Shared_MatteIron",
+      "face_count": 256,
+      "nodes": [
+        "Principled BSDF",
+        "Material Output"
+      ]
+    }
+  ],
+  "wood_image_node": "M_Shared_WarmWood.node_tree.nodes['Shared_Source_Albedo'].image",
+  "principled_node": "material.node_tree.nodes['Principled BSDF']",
+  "camera": {
+    "name": "Preview_Camera",
+    "matrix_world": [
+      [
+        0.8660253882408142,
+        -0.15895022451877594,
+        0.47406211495399475,
+        1.7000000476837158
+      ],
+      [
+        0.5000000596046448,
+        0.27530980110168457,
+        -0.8210995197296143,
+        -2.944486379623413
+      ],
+      [
+        1.0802434502465985e-08,
+        0.9481241106987,
+        0.3179003894329071,
+        1.649999976158142
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 1.5800000429153442,
+    "resolution": [
+      768,
+      768
+    ]
+  },
+  "lights": [
+    {
+      "name": "Key_Area",
+      "matrix_world": [
+        [
+          0.800000011920929,
+          0.44396400451660156,
+          -0.403603732585907,
+          -3.0
+        ],
+        [
+          -0.6000000238418579,
+          0.5919520258903503,
+          -0.5381382703781128,
+          -4.0
+        ],
+        [
+          1.9982165255783002e-08,
+          0.6726728677749634,
+          0.7399400472640991,
+          6.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "AREA",
+      "energy": 450.0,
+      "size": 4.0
+    },
+    {
+      "name": "Fill_Area",
+      "matrix_world": [
+        [
+          0.24253559112548828,
+          -0.5029954314231873,
+          0.8295614123344421,
+          4.0
+        ],
+        [
+          0.9701424837112427,
+          0.1257489025592804,
+          -0.20739026367664337,
+          -1.0
+        ],
+        [
+          -7.935948076465138e-08,
+          0.8550922870635986,
+          0.5184758305549622,
+          3.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "AREA",
+      "energy": 180.0,
+      "size": 3.0
+    },
+    {
+      "name": "Rim_Area",
+      "matrix_world": [
+        [
+          -0.9701425433158875,
+          -0.1788235306739807,
+          0.16384637355804443,
+          1.0
+        ],
+        [
+          0.2425355464220047,
+          -0.7152945399284363,
+          0.6553855538368225,
+          4.0
+        ],
+        [
+          6.408660624401818e-08,
+          0.675555944442749,
+          0.7373087406158447,
+          5.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "AREA",
+      "energy": 300.0,
+      "size": 3.0
+    }
+  ],
+  "world_strength": 0.6499999761581421,
+  "world_color": [
+    0.25,
+    0.30000001192092896,
+    0.33000001311302185,
+    1.0
+  ],
+  "view_transform": "AgX",
+  "look": "AgX - Medium High Contrast",
+  "render_engine": "CYCLES",
+  "comparison_rule": "Freeze all geometry, UV, material assignment, camera, lights, background, exposure, object scale. Change material/shader/texture logic only. Style variants are not new asset geometries.",
+  "boundary": "Offline comparison carrier; no engine or current-project standard acceptance claim"
+}

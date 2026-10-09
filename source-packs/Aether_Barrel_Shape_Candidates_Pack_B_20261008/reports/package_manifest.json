@@ -1,0 +1,409 @@
+{
+  "package": "B",
+  "included_variants": [
+    "bk",
+    "oil",
+    "bloomwalker"
+  ],
+  "scope": "Independent original geometry+material candidates; all <=3000tris; not Unity/native shader/phone acceptance or exact source-game geometry certification",
+  "source_unit": "1 unit = 1m; base-center pivots",
+  "records": [
+    {
+      "id": "bk",
+      "object": "aether_barrel_shape_bk",
+      "triangles": 1552,
+      "vertices": 820,
+      "dimension_m": [
+        0.958275556564331,
+        0.9160981178283691,
+        1.059999942779541
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "M_Style_bk_Wood",
+        "M_Style_bk_Iron"
+      ],
+      "source_object": "aether_barrel_shape_bk",
+      "fbx": "exports/aether_barrel_shape_bk.fbx",
+      "glb": "exports/aether_barrel_shape_bk.glb",
+      "texture": "textures/04_bk_provisional_wood_albedo_v01.png",
+      "texture_sha256": "69bdf32dc235c92cacbc94a62ae3d4c7c944164777e741fe395f8aef9039df3d",
+      "geometry_sha256": "6ea86a3c6c6a2df7a64e986c9fe85fab9fda30c499aad1fb81f2f2640a90214c",
+      "source": "source/aether_barrel_three_shapes_B.blend",
+      "preview": "previews/barrel_shape_bk_512.png",
+      "roundtrip": [
+        {
+          "file": "exports/aether_barrel_shape_bk.fbx",
+          "sha256": "091c74d48949dba490fa0bb30612f6e66b795055ef1393e2be22f134b73f089c",
+          "bytes": 50444,
+          "mesh_objects": 1,
+          "triangles": 1552,
+          "material_slots": [
+            "M_Style_bk_Wood_DeliveryPBR",
+            "M_Style_bk_Iron_DeliveryPBR"
+          ],
+          "bounds_m": {
+            "min": [
+              -0.4791377782821655,
+              -0.4580489695072174,
+              -5.5230106710268956e-08
+            ],
+            "max": [
+              0.4791377782821655,
+              0.45804914832115173,
+              1.059999942779541
+            ]
+          },
+          "dimensions_m": [
+            0.958275556564331,
+            0.9160981178283691,
+            1.0599999980096477
+          ],
+          "origin_points_world_m": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "uv_loops": 3152,
+          "zero_area_faces": 0,
+          "nonmanifold_edges": 0,
+          "textures": [
+            {
+              "name": "T_Style_bk_Wood_Albedo",
+              "dimensions": [
+                1254,
+                1254
+              ],
+              "packed": false,
+              "exists_or_packed": true
+            }
+          ],
+          "pass": true
+        },
+        {
+          "file": "exports/aether_barrel_shape_bk.glb",
+          "sha256": "a61cb20457cb81a33af24acbaf38fb3f9c3e2474869083916454b423641803e6",
+          "bytes": 1597076,
+          "mesh_objects": 1,
+          "triangles": 1552,
+          "material_slots": [
+            "M_Export_bk_Wood",
+            "M_Export_bk_Iron"
+          ],
+          "bounds_m": {
+            "min": [
+              -0.4791377782821655,
+              -0.45804905891418457,
+              0.0
+            ],
+            "max": [
+              0.4791377782821655,
+              0.45804905891418457,
+              1.059999942779541
+            ]
+          },
+          "dimensions_m": [
+            0.958275556564331,
+            0.9160981178283691,
+            1.059999942779541
+          ],
+          "origin_points_world_m": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "uv_loops": 4656,
+          "zero_area_faces": 0,
+          "nonmanifold_edges": 2952,
+          "textures": [
+            {
+              "name": "04_bk_provisional_wood_albedo_v01",
+              "dimensions": [
+                1254,
+                1254
+              ],
+              "packed": true,
+              "exists_or_packed": true
+            }
+          ],
+          "pass": true
+        }
+      ],
+      "source_sha256": "d1b2aa79fc892beaa2607049a487ee408896c861ac08a1e0d0c4e8f26ab01f52"
+    },
+    {
+      "id": "oil",
+      "object": "aether_barrel_shape_oil",
+      "triangles": 1536,
+      "vertices": 800,
+      "dimension_m": [
+        0.910945475101471,
+        0.910945475101471,
+        1.0399999618530273
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "M_Style_oil_Wood",
+        "M_Style_oil_Iron"
+      ],
+      "source_object": "aether_barrel_shape_oil",
+      "fbx": "exports/aether_barrel_shape_oil.fbx",
+      "glb": "exports/aether_barrel_shape_oil.glb",
+      "texture": "textures/05_oil_wood_albedo_v01.png",
+      "texture_sha256": "bbe5776b5d080488f15a078dac8ae6b9716f57f9f47288e1e2777ea07fe65ef4",
+      "geometry_sha256": "fbb867d6beb4d662c65bd0fe52b63b06865678bf9df05e023b3c920b54cd1dab",
+      "source": "source/aether_barrel_three_shapes_B.blend",
+      "preview": "previews/barrel_shape_oil_512.png",
+      "roundtrip": [
+        {
+          "file": "exports/aether_barrel_shape_oil.fbx",
+          "sha256": "1c028bd1a28c1f19775dfb54eca7f8ce382d12b7bc8bfdab2b42245ffc92bc8c",
+          "bytes": 49244,
+          "mesh_objects": 1,
+          "triangles": 1536,
+          "material_slots": [
+            "M_Style_oil_Wood_DeliveryPBR",
+            "M_Style_oil_Iron_DeliveryPBR"
+          ],
+          "bounds_m": {
+            "min": [
+              -0.4554727375507355,
+              -0.4554727077484131,
+              -6.229986837524848e-08
+            ],
+            "max": [
+              0.4554727375507355,
+              0.45547276735305786,
+              1.040000081062317
+            ]
+          },
+          "dimensions_m": [
+            0.910945475101471,
+            0.910945475101471,
+            1.0400001433621853
+          ],
+          "origin_points_world_m": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "uv_loops": 3124,
+          "zero_area_faces": 0,
+          "nonmanifold_edges": 0,
+          "textures": [
+            {
+              "name": "T_Style_oil_Wood_Albedo",
+              "dimensions": [
+                1254,
+                1254
+              ],
+              "packed": false,
+              "exists_or_packed": true
+            }
+          ],
+          "pass": true
+        },
+        {
+          "file": "exports/aether_barrel_shape_oil.glb",
+          "sha256": "c93c88f2bc2f5d168e4183240309d552f2d3d8b0bd7ae0c8ce752d6cc4f4937c",
+          "bytes": 2618904,
+          "mesh_objects": 1,
+          "triangles": 1536,
+          "material_slots": [
+            "M_Export_oil_Wood",
+            "M_Export_oil_Iron"
+          ],
+          "bounds_m": {
+            "min": [
+              -0.4554727375507355,
+              -0.4554727375507355,
+              0.0
+            ],
+            "max": [
+              0.4554727375507355,
+              0.4554727375507355,
+              1.0399999618530273
+            ]
+          },
+          "dimensions_m": [
+            0.910945475101471,
+            0.910945475101471,
+            1.0399999618530273
+          ],
+          "origin_points_world_m": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "uv_loops": 4608,
+          "zero_area_faces": 0,
+          "nonmanifold_edges": 2932,
+          "textures": [
+            {
+              "name": "05_oil_wood_albedo_v01",
+              "dimensions": [
+                1254,
+                1254
+              ],
+              "packed": true,
+              "exists_or_packed": true
+            }
+          ],
+          "pass": true
+        }
+      ],
+      "source_sha256": "d1b2aa79fc892beaa2607049a487ee408896c861ac08a1e0d0c4e8f26ab01f52"
+    },
+    {
+      "id": "bloomwalker",
+      "object": "aether_barrel_shape_bloomwalker",
+      "triangles": 2960,
+      "vertices": 1530,
+      "dimension_m": [
+        1.008345127105713,
+        1.0077605247497559,
+        1.0199486017227173
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "M_Style_bloomwalker_Wood",
+        "M_Style_bloomwalker_Iron"
+      ],
+      "source_object": "aether_barrel_shape_bloomwalker",
+      "fbx": "exports/aether_barrel_shape_bloomwalker.fbx",
+      "glb": "exports/aether_barrel_shape_bloomwalker.glb",
+      "texture": "textures/06_bloomwalker_wood_albedo_v01.png",
+      "texture_sha256": "f46428e3bdd0c340d4b7d9d4ab98ab1ce50ebf52c8911f63ce60157c713bafe4",
+      "geometry_sha256": "762561c38331be973d340a105df6a7a7ddd05f5756545829312c34b83bd0de01",
+      "source": "source/aether_barrel_three_shapes_B.blend",
+      "preview": "previews/barrel_shape_bloomwalker_512.png",
+      "roundtrip": [
+        {
+          "file": "exports/aether_barrel_shape_bloomwalker.fbx",
+          "sha256": "79547e97dc2d2d3a13060d5836ca66d59b09ce2d6aadac42ee86c04824684109",
+          "bytes": 86492,
+          "mesh_objects": 1,
+          "triangles": 2960,
+          "material_slots": [
+            "M_Style_bloomwalker_Wood_DeliveryPBR",
+            "M_Style_bloomwalker_Iron_DeliveryPBR"
+          ],
+          "bounds_m": {
+            "min": [
+              -0.5053701996803284,
+              -0.5055521726608276,
+              -3.383064850481787e-08
+            ],
+            "max": [
+              0.5029748678207397,
+              0.5022083520889282,
+              1.0199487209320068
+            ]
+          },
+          "dimensions_m": [
+            1.0083450675010681,
+            1.0077605247497559,
+            1.0199487547626553
+          ],
+          "origin_points_world_m": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "uv_loops": 5784,
+          "zero_area_faces": 0,
+          "nonmanifold_edges": 0,
+          "textures": [
+            {
+              "name": "T_Style_bloomwalker_Wood_Albedo",
+              "dimensions": [
+                1254,
+                1254
+              ],
+              "packed": false,
+              "exists_or_packed": true
+            }
+          ],
+          "pass": true
+        },
+        {
+          "file": "exports/aether_barrel_shape_bloomwalker.glb",
+          "sha256": "bd68f4e9cc33eb33a58ffbe65c72b44b1b6cd491684ccf060d2ac01121ffe055",
+          "bytes": 1974468,
+          "mesh_objects": 1,
+          "triangles": 2960,
+          "material_slots": [
+            "M_Style_bloomwalker_Wood_PortablePBR",
+            "M_Style_bloomwalker_Iron_PortablePBR"
+          ],
+          "bounds_m": {
+            "min": [
+              -0.5053701996803284,
+              -0.5055522322654724,
+              0.0
+            ],
+            "max": [
+              0.5029748678207397,
+              0.5022082924842834,
+              1.0199486017227173
+            ]
+          },
+          "dimensions_m": [
+            1.0083450675010681,
+            1.0077605247497559,
+            1.0199486017227173
+          ],
+          "origin_points_world_m": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "uv_loops": 8880,
+          "zero_area_faces": 0,
+          "nonmanifold_edges": 2256,
+          "textures": [
+            {
+              "name": "06_bloomwalker_wood_albedo_v01",
+              "dimensions": [
+                1254,
+                1254
+              ],
+              "packed": true,
+              "exists_or_packed": true
+            }
+          ],
+          "pass": true
+        }
+      ],
+      "source_sha256": "d1b2aa79fc892beaa2607049a487ee408896c861ac08a1e0d0c4e8f26ab01f52"
+    }
+  ],
+  "material_note": "Editable source keeps original art-value-group nodes. FBX/GLB exports use portable Principled PBR with exactly same artwork, roughness and iron values; project/native cel shader implementation is unverified.",
+  "portable_use": "This package has its own editable 3-geometry source and all three textures/FBX/GLB; it can be extracted and imported without the other package. Keep source/exports/textures as siblings.",
+  "offline_import_checked": true,
+  "new_FBX_material_transport": "Portable relative image paths; GLB embeds the reused artwork."
+}

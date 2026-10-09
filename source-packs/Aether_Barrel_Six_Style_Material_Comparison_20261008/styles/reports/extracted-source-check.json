@@ -1,0 +1,56 @@
+[
+  {
+    "id": "genshin",
+    "file": "/workspace/shared/aether-production-20261008/barrel-composter/styles/textures/01_genshin_wood_albedo_v01.png",
+    "sha256": "630890e35693ad8bda0885aa24f590e3ff188d34cb384be40216ed2d7bd08e95",
+    "dimensions": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "endfield",
+    "file": "/workspace/shared/aether-production-20261008/barrel-composter/styles/textures/02_endfield_wood_albedo_v01.png",
+    "sha256": "5605aa4e6140f88f4872a98af8e0262c48b908bec44ffedd60bbb2962804e54e",
+    "dimensions": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "ghibli",
+    "file": "/workspace/shared/aether-production-20261008/barrel-composter/styles/textures/03_ghibli_wood_albedo_v01.png",
+    "sha256": "bd5ce0a33deb5e4a88e24fb1d25676456d12b4c60eb027886e853bdeb8624c05",
+    "dimensions": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "bk",
+    "file": "/workspace/shared/aether-production-20261008/barrel-composter/styles/textures/04_bk_provisional_wood_albedo_v01.png",
+    "sha256": "69bdf32dc235c92cacbc94a62ae3d4c7c944164777e741fe395f8aef9039df3d",
+    "dimensions": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "oil",
+    "file": "/workspace/shared/aether-production-20261008/barrel-composter/styles/textures/05_oil_wood_albedo_v01.png",
+    "sha256": "bbe5776b5d080488f15a078dac8ae6b9716f57f9f47288e1e2777ea07fe65ef4",
+    "dimensions": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "bloomwalker",
+    "file": "/workspace/shared/aether-production-20261008/barrel-composter/styles/textures/06_bloomwalker_wood_albedo_v01.png",
+    "sha256": "f46428e3bdd0c340d4b7d9d4ab98ab1ce50ebf52c8911f63ce60157c713bafe4",
+    "dimensions": [
+      1254,
+      1254
+    ]
+  }
+]

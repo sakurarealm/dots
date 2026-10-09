@@ -1,0 +1,238 @@
+{
+  "scope": "Limited existing fence extra reference evidence only",
+  "new_assets_created": false,
+  "new_material_art_approvals": 0,
+  "partial52_clean_exterior": false,
+  "partial52_closed_collider": false,
+  "production_art_pass": false,
+  "full_block_accepted": false,
+  "native_integrated": false,
+  "mobile_pass": false,
+  "files": [
+    {
+      "path": "geometry/delivery/fence_extra/README_Fence_Extra_reference.txt",
+      "bytes": 4019,
+      "sha256": "6e8ae3f9aa99bfd058bea23a487bc8b0cfb7f420d46c5914b275b3f36b360d7c"
+    },
+    {
+      "path": "geometry/exports/oak_fence_box_combo_comparison.glb",
+      "bytes": 231948,
+      "sha256": "f6f25fe2425195c972435d398d8baf94439603280a19362e7e9a0d9821c5782c"
+    },
+    {
+      "path": "geometry/exports/oak_fence_mobile_candidate.glb",
+      "bytes": 232468,
+      "sha256": "bb83112776789b5ac2d9000046f2729df0bfd66eff1cbaafa15aeb7c23c92bdc"
+    },
+    {
+      "path": "geometry/exports/oak_fence_partial52_render_reference.glb",
+      "bytes": 231444,
+      "sha256": "7d9abef66338527e39f452b472de0d4f54aab5f5c100602c540a6d4b5c340885"
+    },
+    {
+      "path": "geometry/historical/ArchitecturalShapes.cs",
+      "bytes": 10588,
+      "sha256": "19ca8cae8435f15e434071a7a6c9084772bfd5db14b46703dbfefb284480c3e2"
+    },
+    {
+      "path": "geometry/historical/ChunkMeshGenerator.cs",
+      "bytes": 71625,
+      "sha256": "6b69da88c439c954abc70a0647a07fe57329d526a662418ab71e0054c5e29be7"
+    },
+    {
+      "path": "geometry/historical/McBlockStateMetadata.cs",
+      "bytes": 6327,
+      "sha256": "7816da3893c5a33b6a1fdc3300cee8d52824a590245afc4bc6fc07316b3a3c4b"
+    },
+    {
+      "path": "geometry/historical/TerrainTexBlend.hlsl",
+      "bytes": 48943,
+      "sha256": "08b2b281db535f222791eb500761a3fbf39b8c857bafb7fd85bb830640cb758d"
+    },
+    {
+      "path": "geometry/historical/Vox.cs",
+      "bytes": 5816,
+      "sha256": "bdb10387d62e9a6e4b6a1847185a1776bf15673a9320cc4e8e128d290ece9b25"
+    },
+    {
+      "path": "geometry/historical/VoxelBlockPhysics.cs",
+      "bytes": 2330,
+      "sha256": "3dc815f59e6a9887f1dd2323957212ed561ba46890fd3674c5f1e4bff0319d0a"
+    },
+    {
+      "path": "geometry/previews/oak_fence_connection16_back_contact.png",
+      "bytes": 1237676,
+      "sha256": "651637b3ef69d6f3d44e498f45583962e17791a601c3151d06fe6f4588265687"
+    },
+    {
+      "path": "geometry/previews/oak_fence_multicell_world_phase.png",
+      "bytes": 854402,
+      "sha256": "bccb25e2513ffdde177568133b454f401ac13b36d86ef93b27b706b4aed8fb19"
+    },
+    {
+      "path": "geometry/previews/oak_fence_multicell_world_phase_raw.png",
+      "bytes": 1252311,
+      "sha256": "d4296d21ba9caf25b96683bf9582b31ad7a523f7b79f15466b14e7b3cd9bf97a"
+    },
+    {
+      "path": "geometry/previews/oak_fence_representation_cost.png",
+      "bytes": 468128,
+      "sha256": "4a2130f36aea7e2fcb963f1617bc2a007c3553cd376187758f933bf5dd41e5f8"
+    },
+    {
+      "path": "geometry/previews/oak_fence_representation_cost_raw.png",
+      "bytes": 658739,
+      "sha256": "dbc6876edb05607f4c2efd1b61655bc1e3048ab51b583748da2f9059520fa29f"
+    },
+    {
+      "path": "geometry/reports/fence-patterns-cost-study.json",
+      "bytes": 4429,
+      "sha256": "c62b34109ac00eb5109ae82238878ff561e5464600157421cd6c574151b2e385"
+    },
+    {
+      "path": "geometry/reports/fence-state-back-render.json",
+      "bytes": 187,
+      "sha256": "761a5673a190bdade8b922b288ca23458c4ebe5ecdbde5bcf5110c518d39da30"
+    },
+    {
+      "path": "geometry/reports/fence-state-phase-render.json",
+      "bytes": 10677,
+      "sha256": "9fb73d2035bc8b0726c96ab1deb349ff139496adc893c588edb467f91892a16d"
+    },
+    {
+      "path": "geometry/reviews/blend_readonly_reader.py",
+      "bytes": 6988,
+      "sha256": "ef03f5365d948a7387cd6b47854a0f5b624f0486998a3ca2292756ef1d2a312f"
+    },
+    {
+      "path": "geometry/reviews/fence-extra-independent-audit.json",
+      "bytes": 32395,
+      "sha256": "cbf4d15a3d45f8642d6f4278d6b0ee3cf7d9986227be05732a6f312c31e3fd1c"
+    },
+    {
+      "path": "geometry/reviews/fence-extra-independent-review.md",
+      "bytes": 9707,
+      "sha256": "d905d82fb0798f8e865ec4bf1d11603749456af34731f91a6afd663e518e57a0"
+    },
+    {
+      "path": "geometry/reviews/fence-extra-readonly-audit.py",
+      "bytes": 31307,
+      "sha256": "914c99024fae57b000184a6dc00c5f1a4946be9ae92cf5daf8b912401c2c8479"
+    },
+    {
+      "path": "geometry/reviews/fence_states_stairs_independent_audit.json",
+      "bytes": 45367,
+      "sha256": "e1f59961aa59c7329443ac11ef4b50a71f5645efcdd04f2ac61adf1739721659"
+    },
+    {
+      "path": "geometry/reviews/fence_states_stairs_readonly_audit.py",
+      "bytes": 14288,
+      "sha256": "3a5f1a193f7004f919e627a80ebda52ac0e268bf777ae56b631181c4ae8ce6ae"
+    },
+    {
+      "path": "geometry/reviews/oak_fence_readonly_audit.py",
+      "bytes": 18363,
+      "sha256": "5c1440f0cabaa17e043e26b39f27318d01355070867c04ff42cfb1e32a2a32f8"
+    },
+    {
+      "path": "geometry/reviews/oak_fence_v02_independent_audit.json",
+      "bytes": 17640,
+      "sha256": "b21ae7d01b4d91050fa07f4588ab051e4befa8ca45dffa11c708d7df86869bb0"
+    },
+    {
+      "path": "geometry/reviews/oak_fence_v02_independent_review.md",
+      "bytes": 16955,
+      "sha256": "e2fa05823b452e840cbf1ef37fa2dfa71e5ca6b6f0455b95d5aeadfc86efae06"
+    },
+    {
+      "path": "geometry/scripts/build_shapes.py",
+      "bytes": 13986,
+      "sha256": "ed0871ab8167e42f1babbedeeaf8e047ecf5edb1410d7f866d45dd6928e688a3"
+    },
+    {
+      "path": "geometry/scripts/fix_partial52_export.py",
+      "bytes": 1891,
+      "sha256": "e5a51a7633db9b7e87ea035211960a9e01cadcc7dccb013383881e1623d9758d"
+    },
+    {
+      "path": "geometry/scripts/inspect_glb_format.py",
+      "bytes": 2447,
+      "sha256": "b0fefdfa7786c89ff93bfe93e5b4e79015014f60a15981c6d1a20b0283d3d0cb"
+    },
+    {
+      "path": "geometry/scripts/package_fence_extra_reference.py",
+      "bytes": 9165,
+      "sha256": "60a6f0440c574e4aabe333d82306dc4bf6dba3a81eccb0df0e45c593b07e1dc3"
+    },
+    {
+      "path": "geometry/scripts/render_fence_patterns_cost.py",
+      "bytes": 8853,
+      "sha256": "ddb07e38b61920a551e7b8d669391580bce644c0468f8b7fca9517704570bbd3"
+    },
+    {
+      "path": "geometry/scripts/render_fence_state_back.py",
+      "bytes": 1341,
+      "sha256": "5cf05d9fd78c1309cc029aedbe09cb236e724eef3751da7574f0f8b835075997"
+    },
+    {
+      "path": "geometry/scripts/render_fence_states_phase.py",
+      "bytes": 5430,
+      "sha256": "76735545d779450d2372e57080c415f60f5522eb97e01f72d055547db9594fd8"
+    },
+    {
+      "path": "geometry/scripts/render_shapes.py",
+      "bytes": 6270,
+      "sha256": "734f8d03de3436336f363a89d039da3f237a95d9b2614c66a1d4ed7281a6a7e0"
+    },
+    {
+      "path": "geometry/scripts/topology_contract.py",
+      "bytes": 8772,
+      "sha256": "7e9a6016e195eef84a1c1ce86ed3e94fb0eaf0f603d176906d890e009428153a"
+    },
+    {
+      "path": "geometry/scripts/validate_state_meshes.py",
+      "bytes": 3852,
+      "sha256": "2c4e36d70bed4133710f9de5d8d93b802a2e075217f28b50bbf17303594f96dd"
+    },
+    {
+      "path": "geometry/scripts/world_uv_reference.py",
+      "bytes": 2989,
+      "sha256": "182993afdfd0a4fe27a93d0914972181bb6219039d41601cdb7d00e16d043acb"
+    },
+    {
+      "path": "geometry/source/oak_fence_connection_phase_reference.blend",
+      "bytes": 337010,
+      "sha256": "30b3d1a564176919fca17416eb3f7dcf67275d76a9779fedd0f8b0756ec07f41"
+    },
+    {
+      "path": "geometry/source/oak_fence_patterns_cost_reference.blend",
+      "bytes": 329853,
+      "sha256": "6e4dd05a12d1ca47d5e79920450d3478db11c5f4c5abf3bc88641b9b3b967ea8"
+    },
+    {
+      "path": "materials_a/approved_standalone/oak_planks_v02/APPROVAL_SCOPE.json",
+      "bytes": 1042,
+      "sha256": "67ccd49f656192632f780e7cd30d8f2e6e26522222a3c85d5ae333f13b849237"
+    },
+    {
+      "path": "materials_a/approved_standalone/oak_planks_v02/README.txt",
+      "bytes": 471,
+      "sha256": "5b8f7c0f09341912d740b68a126812609053aead1cee657758f447608bc4e43e"
+    },
+    {
+      "path": "materials_a/textures/oak_planks/candidate_512/basecolor.png",
+      "bytes": 226298,
+      "sha256": "3ef497d9c74f42db633f9434d4593c3b5b0a65f6044c093efe9cb3f174b24031"
+    },
+    {
+      "path": "materials_a/textures/oak_planks/mobile_256/basecolor.png",
+      "bytes": 60940,
+      "sha256": "7f9d6d2caea0a79e2c83524b073b5b53f8769257296294ed2e83a5a716106ba6"
+    },
+    {
+      "path": "scripts/run_locked_blender.sh",
+      "bytes": 645,
+      "sha256": "75af50f08479a178ec620a36d487d80f471b7134bfe38806607904cbb9ca3b1f"
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "scope": "Offline comparison candidates for the SAME barrel geometry, camera and illumination; not certified final game assets",
+  "completed_styles": 6,
+  "expected_styles": 6,
+  "source_carrier": "/workspace/shared/aether-production-20261008/barrel-composter/source/aether_wooden_barrel_v01_sample.blend",
+  "source_carrier_sha256": "bd43764aa16d3a3a6423f2dad535b70fe5f972adcabf3768baf0fb91c4a3ed69",
+  "fixed_geometry_uv_assignment_sha256": "8af9dc6996b220ef64568d9323f2c39590d5c5b4f254d581eb0babec4caf8019",
+  "fixed_scene_sha256": "57c494b08ba42b0a7b42ff6774003bdb909dd9b96628d41a35cfef539d2ca7e0",
+  "records": [
+    {
+      "id": "genshin",
+      "label": "原神方向",
+      "render": "/workspace/shared/aether-production-20261008/barrel-composter/styles/previews/barrel_genshin_768.png",
+      "purpose": "同一木桶固定相机/光照/几何的真实材质比较图",
+      "texture": "/workspace/shared/aether-style-comparison/textures/01_genshin_wood_albedo_v01.png",
+      "texture_sha256": "630890e35693ad8bda0885aa24f590e3ff188d34cb384be40216ed2d7bd08e95",
+      "render_sha256": "7edd094dd81edcb00a1d325fc7cd52aaf593561f0754016b4d31b960da126b37",
+      "materials": [
+        "M_Style_genshin_Wood",
+        "M_Style_genshin_Iron"
+      ],
+      "geometry_uv_assignment_sha256": "8af9dc6996b220ef64568d9323f2c39590d5c5b4f254d581eb0babec4caf8019",
+      "fixed_scene_sha256": "57c494b08ba42b0a7b42ff6774003bdb909dd9b96628d41a35cfef539d2ca7e0",
+      "stroke_structure": "Clean long tapered ribbons; broad simplified curving knots; sparse clean chips; little micro-noise",
+      "shading_recipe": {
+        "type": "cel_piecewise",
+        "bands": 3,
+        "thresholds": [
+          0.18,
+          0.55
+        ],
+        "multipliers": [
+          0.62,
+          0.82,
+          1
+        ],
+        "blend_strength": 0.44,
+        "notes": "Crisper graphic value group, do not bake light into albedo"
+      },
+      "wood_recipe": {
+        "roughness": 0.86,
+        "metallic": 0
+      },
+      "iron_recipe": {
+        "base_color_srgb": [
+          0.19,
+          0.23,
+          0.24,
+          1
+        ],
+        "roughness": 0.78,
+        "metallic": 0.32
+      },
+      "state": "rendered_pending_independent_review",
+      "render_relative_to_package": "styles/previews/barrel_genshin_768.png"
+    },
+    {
+      "id": "endfield",
+      "label": "明日方舟：终末地方向",
+      "render": "/workspace/shared/aether-production-20261008/barrel-composter/styles/previews/barrel_endfield_768.png",
+      "purpose": "同一木桶固定相机/光照/几何的真实材质比较图",
+      "texture": "/workspace/shared/aether-style-comparison/textures/02_endfield_wood_albedo_v01.png",
+      "texture_sha256": "5605aa4e6140f88f4872a98af8e0262c48b908bec44ffedd60bbb2962804e54e",
+      "render_sha256": "2abb86e5ff65855a090f4d700c12b042261ffe43aefe70cfaba2e05fc40ff895",
+      "materials": [
+        "M_Style_endfield_Wood",
+        "M_Style_endfield_Iron"
+      ],
+      "geometry_uv_assignment_sha256": "8af9dc6996b220ef64568d9323f2c39590d5c5b4f254d581eb0babec4caf8019",
+      "fixed_scene_sha256": "57c494b08ba42b0a7b42ff6774003bdb909dd9b96628d41a35cfef539d2ca7e0",
+      "stroke_structure": "Fine irregular fibers and weathering, low-contrast rubbed natural grain, restrained wear, de-emphasized decorative outlines",
+      "shading_recipe": {
+        "type": "physical_continuous",
+        "bands": 0,
+        "blend_strength": 0,
+        "notes": "Continuous broad physical shading, modest realistic metal response, avoid overly polished iron"
+      },
+      "wood_recipe": {
+        "roughness": 0.68,
+        "metallic": 0
+      },
+      "iron_recipe": {
+        "base_color_srgb": [
+          0.22,
+          0.25,
+          0.27,
+          1
+        ],
+        "roughness": 0.58,
+        "metallic": 0.65
+      },
+      "state": "rendered_pending_independent_review",
+      "render_relative_to_package": "styles/previews/barrel_endfield_768.png"
+    },
+    {
+      "id": "ghibli",
+      "label": "宫崎骏／吉卜力方向",
+      "render": "/workspace/shared/aether-production-20261008/barrel-composter/styles/previews/barrel_ghibli_768.png",
+      "purpose": "同一木桶固定相机/光照/几何的真实材质比较图",
+      "texture": "/workspace/shared/aether-style-comparison/textures/03_ghibli_wood_albedo_v01.png",
+      "texture_sha256": "bd5ce0a33deb5e4a88e24fb1d25676456d12b4c60eb027886e853bdeb8624c05",
+      "render_sha256": "f4b66545d106e691de96e99863383cc60b5efc57f6133be5bffec2316451022b",
+      "materials": [
+        "M_Style_ghibli_Wood",
+        "M_Style_ghibli_Iron"
+      ],
+      "geometry_uv_assignment_sha256": "8af9dc6996b220ef64568d9323f2c39590d5c5b4f254d581eb0babec4caf8019",
+      "fixed_scene_sha256": "57c494b08ba42b0a7b42ff6774003bdb909dd9b96628d41a35cfef539d2ca7e0",
+      "stroke_structure": "Layered watercolor/gouache washes with soft mottling, paper-pigment edges, delicate washed umber knot contours",
+      "shading_recipe": {
+        "type": "soft_two_zone",
+        "bands": 2,
+        "thresholds": [
+          0.34
+        ],
+        "multipliers": [
+          0.76,
+          1
+        ],
+        "blend_strength": 0.2,
+        "transition_width": 0.16,
+        "notes": "Soft traditional animation-background value grouping; weak, broad response"
+      },
+      "wood_recipe": {
+        "roughness": 1,
+        "metallic": 0
+      },
+      "iron_recipe": {
+        "base_color_srgb": [
+          0.17,
+          0.23,
+          0.2,
+          1
+        ],
+        "roughness": 0.95,
+        "metallic": 0.1
+      },
+      "state": "rendered_pending_independent_review",
+      "render_relative_to_package": "styles/previews/barrel_ghibli_768.png"
+    },
+    {
+      "id": "bk",
+      "label": "BK（暂按已批准工作台方向）",
+      "render": "/workspace/shared/aether-production-20261008/barrel-composter/styles/previews/barrel_bk_768.png",
+      "purpose": "同一木桶固定相机/光照/几何的真实材质比较图",
+      "texture": "/workspace/shared/aether-style-comparison/textures/04_bk_provisional_wood_albedo_v01.png",
+      "texture_sha256": "69bdf32dc235c92cacbc94a62ae3d4c7c944164777e741fe395f8aef9039df3d",
+      "render_sha256": "749b891820a35f2b69af0725af98d8b53aeb151c06233ae0d64fad0848b37cac",
+      "materials": [
+        "M_Style_bk_Wood",
+        "M_Style_bk_Iron"
+      ],
+      "geometry_uv_assignment_sha256": "8af9dc6996b220ef64568d9323f2c39590d5c5b4f254d581eb0babec4caf8019",
+      "fixed_scene_sha256": "57c494b08ba42b0a7b42ff6774003bdb909dd9b96628d41a35cfef539d2ca7e0",
+      "stroke_structure": "Angular broad chisel facets, polygonal knots, squared scars, low-detail hand-carved graphic blocks",
+      "shading_recipe": {
+        "type": "cel_piecewise",
+        "bands": 3,
+        "thresholds": [
+          0.25,
+          0.65
+        ],
+        "multipliers": [
+          0.6,
+          0.8,
+          1
+        ],
+        "blend_strength": 0.36,
+        "notes": "Definite chunky value planes; exact BK source unidentified, do not label as exact game match"
+      },
+      "wood_recipe": {
+        "roughness": 0.95,
+        "metallic": 0
+      },
+      "iron_recipe": {
+        "base_color_srgb": [
+          0.16,
+          0.21,
+          0.2,
+          1
+        ],
+        "roughness": 0.92,
+        "metallic": 0.12
+      },
+      "state": "rendered_pending_independent_review",
+      "render_relative_to_package": "styles/previews/barrel_bk_768.png"
+    },
+    {
+      "id": "oil",
+      "label": "手绘油画方向",
+      "render": "/workspace/shared/aether-production-20261008/barrel-composter/styles/previews/barrel_oil_768.png",
+      "purpose": "同一木桶固定相机/光照/几何的真实材质比较图",
+      "texture": "/workspace/shared/aether-style-comparison/textures/05_oil_wood_albedo_v01.png",
+      "texture_sha256": "bbe5776b5d080488f15a078dac8ae6b9716f57f9f47288e1e2777ea07fe65ef4",
+      "render_sha256": "ea72c48c3ebdf1db9926a07c2620e1fb0f4d17333ff826f50f5008d1be4c97e1",
+      "materials": [
+        "M_Style_oil_Wood",
+        "M_Style_oil_Iron"
+      ],
+      "geometry_uv_assignment_sha256": "8af9dc6996b220ef64568d9323f2c39590d5c5b4f254d581eb0babec4caf8019",
+      "fixed_scene_sha256": "57c494b08ba42b0a7b42ff6774003bdb909dd9b96628d41a35cfef539d2ca7e0",
+      "stroke_structure": "Broken-color ochre/sienna/violet/olive strokes, broad bristle drag, thick impasto-like marks encoded in color, gestural wood rhythm",
+      "shading_recipe": {
+        "type": "physical_soft",
+        "bands": 0,
+        "blend_strength": 0,
+        "notes": "Continuous soft shading so the painted brushwork provides value complexity; no normal-map emboss or glints"
+      },
+      "wood_recipe": {
+        "roughness": 0.93,
+        "metallic": 0
+      },
+      "iron_recipe": {
+        "base_color_srgb": [
+          0.23,
+          0.2,
+          0.21,
+          1
+        ],
+        "roughness": 0.9,
+        "metallic": 0.15
+      },
+      "state": "rendered_pending_independent_review",
+      "render_relative_to_package": "styles/previews/barrel_oil_768.png"
+    },
+    {
+      "id": "bloomwalker",
+      "label": "Bloomwalker方向",
+      "render": "/workspace/shared/aether-production-20261008/barrel-composter/styles/previews/barrel_bloomwalker_768.png",
+      "purpose": "同一木桶固定相机/光照/几何的真实材质比较图",
+      "texture": "/workspace/shared/aether-style-comparison/textures/06_bloomwalker_wood_albedo_v01.png",
+      "texture_sha256": "f46428e3bdd0c340d4b7d9d4ab98ab1ce50ebf52c8911f63ce60157c713bafe4",
+      "render_sha256": "4e1483e8c873efb2485bd63121230baffbf2b6bf44a7e5fef9009948127b7931",
+      "materials": [
+        "M_Style_bloomwalker_Wood",
+        "M_Style_bloomwalker_Iron"
+      ],
+      "geometry_uv_assignment_sha256": "8af9dc6996b220ef64568d9323f2c39590d5c5b4f254d581eb0babec4caf8019",
+      "fixed_scene_sha256": "57c494b08ba42b0a7b42ff6774003bdb909dd9b96628d41a35cfef539d2ca7e0",
+      "stroke_structure": "Opaque creamy gouache groups, rounded teardrop grain, warm soft oval knots, soft crescent wear, restrained pastel moss undertone",
+      "shading_recipe": {
+        "type": "soft_three_zone",
+        "bands": 3,
+        "thresholds": [
+          0.18,
+          0.62
+        ],
+        "multipliers": [
+          0.76,
+          0.9,
+          1
+        ],
+        "blend_strength": 0.24,
+        "transition_width": 0.14,
+        "notes": "Soft storybook 3D value grouping, rounded coherent local forms; no glow or lighting edits"
+      },
+      "wood_recipe": {
+        "roughness": 0.9,
+        "metallic": 0
+      },
+      "iron_recipe": {
+        "base_color_srgb": [
+          0.24,
+          0.31,
+          0.23,
+          1
+        ],
+        "roughness": 0.9,
+        "metallic": 0.16
+      },
+      "state": "rendered_pending_independent_review",
+      "render_relative_to_package": "styles/previews/barrel_bloomwalker_768.png"
+    }
+  ],
+  "material_library": "One shared barrel mesh, twelve material variants; no six-geometry claim",
+  "shader_note": "Proposed NdotL art grouping modulates diffuse albedo while original physical lights/shadows stay fixed. It is not an exact source-game shader.",
+  "limitations": [
+    "1254px art comparison masters, not mobile delivery textures",
+    "Texture wrap continuity not accepted; full-height once, no vertical repeat",
+    "BK exact source unidentified, provisional historical workbench direction",
+    "Unity/native material routing/runtime/device budgets untested"
+  ],
+  "contact_sheet": "/workspace/shared/aether-production-20261008/barrel-composter/styles/previews/Aether_Barrel_Six_Styles_Contact_20261008.png",
+  "material_library_source": "/workspace/shared/aether-production-20261008/barrel-composter/styles/source/barrel_six_styles_library.blend",
+  "state": "rendered_pending_independent_review",
+  "contact_sheet_dimensions": [
+    2304,
+    1744
+  ],
+  "portable_rebuild": "First run scripts/extract_style_sources.py with Blender; it extracts original packed PNG bytes. Then run scripts/render_six_styles.py. No external workspace required."
+}

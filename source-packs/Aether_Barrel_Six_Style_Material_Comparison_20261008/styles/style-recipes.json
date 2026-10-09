@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "purpose": "Offline comparison candidates for the SAME barrel geometry, camera and illumination; not certified final game assets",
+  "texture_directory": "textures",
+  "mapping": {
+    "boards": 8,
+    "orientation": "vertical",
+    "input_reference": "01_genshin_wood_albedo_v01.png",
+    "expected_texture_width": 1254,
+    "expected_texture_height": 1254,
+    "channel": "sRGB albedo",
+    "notes": "Shared eight plank arrangement and knot positions; no mesh changes. Imagegen edit preserves broad mapping. These are comparison candidates; exact cyclic border continuity has not been production validated."
+  },
+  "fixed_scene": {
+    "geometry": "3000 triangles frozen",
+    "camera": "barrel carrier camera unchanged",
+    "illumination": "unchanged source, exposure, ambient, render settings",
+    "texture_mapping": "keep original carrier UV + mapping nodes"
+  },
+  "styles": [
+    {
+      "id": "genshin",
+      "label": "原神方向",
+      "texture": "01_genshin_wood_albedo_v01.png",
+      "stroke_structure": "Clean long tapered ribbons; broad simplified curving knots; sparse clean chips; little micro-noise",
+      "frequency": "low and mid-frequency graphic grain",
+      "wood": {
+        "roughness": 0.86,
+        "metallic": 0
+      },
+      "iron": {
+        "base_color_srgb": [
+          0.19,
+          0.23,
+          0.24,
+          1
+        ],
+        "roughness": 0.78,
+        "metallic": 0.32
+      },
+      "shading": {
+        "type": "cel_piecewise",
+        "bands": 3,
+        "thresholds": [
+          0.18,
+          0.55
+        ],
+        "multipliers": [
+          0.62,
+          0.82,
+          1
+        ],
+        "blend_strength": 0.44,
+        "notes": "Crisper graphic value group, do not bake light into albedo"
+      }
+    },
+    {
+      "id": "endfield",
+      "label": "明日方舟：终末地方向",
+      "texture": "02_endfield_wood_albedo_v01.png",
+      "stroke_structure": "Fine irregular fibers and weathering, low-contrast rubbed natural grain, restrained wear, de-emphasized decorative outlines",
+      "frequency": "mid and fine surface frequencies",
+      "wood": {
+        "roughness": 0.68,
+        "metallic": 0
+      },
+      "iron": {
+        "base_color_srgb": [
+          0.22,
+          0.25,
+          0.27,
+          1
+        ],
+        "roughness": 0.58,
+        "metallic": 0.65
+      },
+      "shading": {
+        "type": "physical_continuous",
+        "bands": 0,
+        "blend_strength": 0,
+        "notes": "Continuous broad physical shading, modest realistic metal response, avoid overly polished iron"
+      }
+    },
+    {
+      "id": "ghibli",
+      "label": "宫崎骏／吉卜力方向",
+      "texture": "03_ghibli_wood_albedo_v01.png",
+      "stroke_structure": "Layered watercolor/gouache washes with soft mottling, paper-pigment edges, delicate washed umber knot contours",
+      "frequency": "broad mottled washes plus soft fiber marks",
+      "wood": {
+        "roughness": 1,
+        "metallic": 0
+      },
+      "iron": {
+        "base_color_srgb": [
+          0.17,
+          0.23,
+          0.2,
+          1
+        ],
+        "roughness": 0.95,
+        "metallic": 0.1
+      },
+      "shading": {
+        "type": "soft_two_zone",
+        "bands": 2,
+        "thresholds": [
+          0.34
+        ],
+        "multipliers": [
+          0.76,
+          1
+        ],
+        "blend_strength": 0.2,
+        "transition_width": 0.16,
+        "notes": "Soft traditional animation-background value grouping; weak, broad response"
+      }
+    },
+    {
+      "id": "bk",
+      "label": "BK（暂按已批准工作台方向）",
+      "texture": "04_bk_provisional_wood_albedo_v01.png",
+      "stroke_structure": "Angular broad chisel facets, polygonal knots, squared scars, low-detail hand-carved graphic blocks",
+      "frequency": "large angular marks, intentionally sparse micro-detail",
+      "wood": {
+        "roughness": 0.95,
+        "metallic": 0
+      },
+      "iron": {
+        "base_color_srgb": [
+          0.16,
+          0.21,
+          0.2,
+          1
+        ],
+        "roughness": 0.92,
+        "metallic": 0.12
+      },
+      "shading": {
+        "type": "cel_piecewise",
+        "bands": 3,
+        "thresholds": [
+          0.25,
+          0.65
+        ],
+        "multipliers": [
+          0.6,
+          0.8,
+          1
+        ],
+        "blend_strength": 0.36,
+        "notes": "Definite chunky value planes; exact BK source unidentified, do not label as exact game match"
+      }
+    },
+    {
+      "id": "oil",
+      "label": "手绘油画方向",
+      "texture": "05_oil_wood_albedo_v01.png",
+      "stroke_structure": "Broken-color ochre/sienna/violet/olive strokes, broad bristle drag, thick impasto-like marks encoded in color, gestural wood rhythm",
+      "frequency": "mid-frequency expressive brush clusters and visible drybrush texture",
+      "wood": {
+        "roughness": 0.93,
+        "metallic": 0
+      },
+      "iron": {
+        "base_color_srgb": [
+          0.23,
+          0.2,
+          0.21,
+          1
+        ],
+        "roughness": 0.9,
+        "metallic": 0.15
+      },
+      "shading": {
+        "type": "physical_soft",
+        "bands": 0,
+        "blend_strength": 0,
+        "notes": "Continuous soft shading so the painted brushwork provides value complexity; no normal-map emboss or glints"
+      }
+    },
+    {
+      "id": "bloomwalker",
+      "label": "Bloomwalker方向",
+      "texture": "06_bloomwalker_wood_albedo_v01.png",
+      "stroke_structure": "Opaque creamy gouache groups, rounded teardrop grain, warm soft oval knots, soft crescent wear, restrained pastel moss undertone",
+      "frequency": "low and middle frequency rounded motifs, quieter than oil",
+      "wood": {
+        "roughness": 0.9,
+        "metallic": 0
+      },
+      "iron": {
+        "base_color_srgb": [
+          0.24,
+          0.31,
+          0.23,
+          1
+        ],
+        "roughness": 0.9,
+        "metallic": 0.16
+      },
+      "shading": {
+        "type": "soft_three_zone",
+        "bands": 3,
+        "thresholds": [
+          0.18,
+          0.62
+        ],
+        "multipliers": [
+          0.76,
+          0.9,
+          1
+        ],
+        "blend_strength": 0.24,
+        "transition_width": 0.14,
+        "notes": "Soft storybook 3D value grouping, rounded coherent local forms; no glow or lighting edits"
+      }
+    }
+  ],
+  "rendering_guidance": {
+    "optional_cel_implementation": "Use Geometry Normal dot the existing fixed scene's key-light direction, remap to 0..1, threshold according to style, and blend factors into diffuse color at stated strength. Keep light direction, intensity and shadow settings fixed. Use diffuse BSDF/Principled as the physical carrier. Shader bands are proposed original art treatment, not claimed exact source-game shaders.",
+    "material_uv": "Do not center-crop textures or substitute camera textures; load each full square sRGB image in Shared_Source_Albedo. Keep source UV/mapping identical.",
+    "normal_maps": "none; all brush variation remains original generated local-color albedo",
+    "acceptance": "comparison review only; exact tiling, mobile, Unity and native routing not accepted"
+  },
+  "source_constraints": {
+    "copyright": "Original AI generated texture candidates. Reference game/movie screenshots remain owned by their respective rights holders; not copied into deliverable textures. No logo, character or raw game texture extracted.",
+    "license": "No separate source-game asset license acquired. Style reference is not an authorization to redistribute reference images or trademarked art.",
+    "bk": "Exact named BK source absent; previous approved workbench is comparison context only."
+  }
+}

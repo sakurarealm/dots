@@ -1,0 +1,86 @@
+[
+  {
+    "file": "01_genshin_wood_albedo_v01.png",
+    "sha256": "630890e35693ad8bda0885aa24f590e3ff188d34cb384be40216ed2d7bd08e95",
+    "size": [
+      1254,
+      1254
+    ],
+    "edge_rms_x": 3.809177875518799,
+    "edge_rms_y": 7.488694190979004,
+    "adjacent_pixel_rms_x": 8.71889877319336,
+    "adjacent_pixel_rms_y": 1.2764644622802734,
+    "surface_review": "Visually inspected; no text, hoops, perspective or external objects; shared eight planks",
+    "tile_acceptance": "Exact border continuity not accepted; generated seamless intent alone is insufficient"
+  },
+  {
+    "file": "02_endfield_wood_albedo_v01.png",
+    "sha256": "5605aa4e6140f88f4872a98af8e0262c48b908bec44ffedd60bbb2962804e54e",
+    "size": [
+      1254,
+      1254
+    ],
+    "edge_rms_x": 5.605922698974609,
+    "edge_rms_y": 8.492749214172363,
+    "adjacent_pixel_rms_x": 9.700736999511719,
+    "adjacent_pixel_rms_y": 2.4860219955444336,
+    "surface_review": "Visually inspected; no text, hoops, perspective or external objects; shared eight planks",
+    "tile_acceptance": "Exact border continuity not accepted; generated seamless intent alone is insufficient"
+  },
+  {
+    "file": "03_ghibli_wood_albedo_v01.png",
+    "sha256": "bd5ce0a33deb5e4a88e24fb1d25676456d12b4c60eb027886e853bdeb8624c05",
+    "size": [
+      1254,
+      1254
+    ],
+    "edge_rms_x": 7.659885406494141,
+    "edge_rms_y": 14.316819190979004,
+    "adjacent_pixel_rms_x": 10.818647384643555,
+    "adjacent_pixel_rms_y": 3.897711753845215,
+    "surface_review": "Visually inspected; no text, hoops, perspective or external objects; shared eight planks",
+    "tile_acceptance": "Exact border continuity not accepted; generated seamless intent alone is insufficient"
+  },
+  {
+    "file": "04_bk_provisional_wood_albedo_v01.png",
+    "sha256": "69bdf32dc235c92cacbc94a62ae3d4c7c944164777e741fe395f8aef9039df3d",
+    "size": [
+      1254,
+      1254
+    ],
+    "edge_rms_x": 3.988253593444824,
+    "edge_rms_y": 10.258332252502441,
+    "adjacent_pixel_rms_x": 7.062376499176025,
+    "adjacent_pixel_rms_y": 1.726226806640625,
+    "surface_review": "Visually inspected; no text, hoops, perspective or external objects; shared eight planks",
+    "tile_acceptance": "Exact border continuity not accepted; generated seamless intent alone is insufficient"
+  },
+  {
+    "file": "05_oil_wood_albedo_v01.png",
+    "sha256": "bbe5776b5d080488f15a078dac8ae6b9716f57f9f47288e1e2777ea07fe65ef4",
+    "size": [
+      1254,
+      1254
+    ],
+    "edge_rms_x": 11.251699447631836,
+    "edge_rms_y": 21.931543350219727,
+    "adjacent_pixel_rms_x": 13.099608421325684,
+    "adjacent_pixel_rms_y": 4.550114154815674,
+    "surface_review": "Visually inspected; no text, hoops, perspective or external objects; shared eight planks",
+    "tile_acceptance": "Exact border continuity not accepted; generated seamless intent alone is insufficient"
+  },
+  {
+    "file": "06_bloomwalker_wood_albedo_v01.png",
+    "sha256": "f46428e3bdd0c340d4b7d9d4ab98ab1ce50ebf52c8911f63ce60157c713bafe4",
+    "size": [
+      1254,
+      1254
+    ],
+    "edge_rms_x": 10.895740509033203,
+    "edge_rms_y": 12.061676979064941,
+    "adjacent_pixel_rms_x": 7.034389495849609,
+    "adjacent_pixel_rms_y": 1.901119589805603,
+    "surface_review": "Visually inspected; no text, hoops, perspective or external objects; shared eight planks",
+    "tile_acceptance": "Exact border continuity not accepted; generated seamless intent alone is insufficient"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "package": "Pack_A",
+    "source": "/workspace/shared/aether-production-20261008/barrel-composter/styles/shape-variants/delivery-packs/Pack_A/source/aether_barrel_three_shapes_A.blend",
+    "image_paths": [
+      {
+        "image": "T_Style_endfield_Wood_Albedo",
+        "path": "//../textures/02_endfield_wood_albedo_v01.png",
+        "exists": true,
+        "is_package_local": true
+      },
+      {
+        "image": "T_Style_genshin_Wood_Albedo",
+        "path": "//../textures/01_genshin_wood_albedo_v01.png",
+        "exists": true,
+        "is_package_local": true
+      },
+      {
+        "image": "T_Style_ghibli_Wood_Albedo",
+        "path": "//../textures/03_ghibli_wood_albedo_v01.png",
+        "exists": true,
+        "is_package_local": true
+      }
+    ]
+  },
+  {
+    "package": "Pack_B",
+    "source": "/workspace/shared/aether-production-20261008/barrel-composter/styles/shape-variants/delivery-packs/Pack_B/source/aether_barrel_three_shapes_B.blend",
+    "image_paths": [
+      {
+        "image": "T_Style_bk_Wood_Albedo",
+        "path": "//../textures/04_bk_provisional_wood_albedo_v01.png",
+        "exists": true,
+        "is_package_local": true
+      },
+      {
+        "image": "T_Style_bloomwalker_Wood_Albedo",
+        "path": "//../textures/06_bloomwalker_wood_albedo_v01.png",
+        "exists": true,
+        "is_package_local": true
+      },
+      {
+        "image": "T_Style_oil_Wood_Albedo",
+        "path": "//../textures/05_oil_wood_albedo_v01.png",
+        "exists": true,
+        "is_package_local": true
+      }
+    ]
+  }
+]
