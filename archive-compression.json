@@ -1,0 +1,12 @@
+[
+  {
+    "original_path": "source-packs/Aether_Barrel_Six_Style_Material_Comparison_20261008/styles/source/barrel_six_styles_library.blend",
+    "stored_path": "source-packs/Aether_Barrel_Six_Style_Material_Comparison_20261008/styles/source/barrel_six_styles_library.blend.gz",
+    "compression": "gzip",
+    "original_bytes": 13308280,
+    "original_sha256": "23cb4ba69c00fc82d90d8abbec7ec045138c6d1ad66117d6d7cb0cbd3286f3e4",
+    "stored_bytes": 11489328,
+    "stored_sha256": "d9792c82e88bb9612755f823293ff3455dbd673e41f3753bb4098a85c314eaac",
+    "reason": "Base64 request for the original Blender file exceeds the MCP 16 MiB payload limit. Decompress with gzip to restore exact original bytes."
+  }
+]
