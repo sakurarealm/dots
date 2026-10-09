@@ -1,0 +1,15 @@
+{
+  "scope": "partial Blender compatibility assembly",
+  "is_game_screenshot": false,
+  "is_complete_building": false,
+  "frame_bays": 3,
+  "floor_bays": 3,
+  "side_infill_panels": 3,
+  "gable_screens": 1,
+  "component_sources_unchanged": true,
+  "unity_test": "not_run",
+  "views": [
+    "assembly_perspective.png",
+    "assembly_front.png"
+  ]
+}

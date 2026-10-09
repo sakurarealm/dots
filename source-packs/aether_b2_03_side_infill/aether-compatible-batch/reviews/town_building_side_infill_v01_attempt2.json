@@ -1,0 +1,160 @@
+{
+  "id": "town_building_side_infill_v01",
+  "verdict": "PASS",
+  "score": 16,
+  "dims": {
+    "silhouette": 3,
+    "proportion": 3,
+    "color_id": 3,
+    "material": 2,
+    "emissive": 3,
+    "craft": 2
+  },
+  "attempt": 2,
+  "reviewer": "independent_second_asset_batch_visual_review",
+  "reviewed_at_utc": "2026-10-07T22:50:33.538088+00:00",
+  "gate": {
+    "scale": "each dimension 0-3",
+    "pass_minimum": 13,
+    "zero_dimension_allowed": false,
+    "second_failure": "ESCALATED; no additional automatic rework"
+  },
+  "asset_scope": "Standalone narrow side-wall timber infill sample, reported 0.60 x 0.075 x 1.90 meters. It is not a door, complete sealed wall, or full building; whole-building doorway/decoration requirements do not apply.",
+  "emissive_applicability": "No emissive feature is required for ordinary static floor. Score 3 recognizes no false emissive interaction cue; no lighting/shader validation is implied.",
+  "issues": [
+    "非阻断：detail六条竖板的宽柔暗带仍近似逐板重复。后续保留既有共享低频木图，通过逐板UV偏移/翻转与约6–10%明度差打破同相，不改成高频写实木纹。",
+    "非阻断：同机位LOD0/1/2主形保持，小钉头与板缝局部明暗仍有变化，尤其LOD1/2下方钉头比LOD0更显眼。后续按引擎实际切换屏幕占比检查；需要时保护主要缝沿/钉头周围面，不声称棚拍证明LOD完全无损。"
+  ],
+  "dimension_reasons": {
+    "silhouette": "front/back、透视、灰模与图标都可读成窄竖板墙填充，上下封边和后横档清楚；不将其当完整建筑。",
+    "proportion": "细长、薄厚与板宽相对比例合理，无拉长压扁；0.60×0.075×1.90m绝对尺度与1cm侧边净距来自技术报告而非图片标定。斜撑脱离表面的问题集中记在craft，不重复扣比例。",
+    "color_id": "暖木主体统一，暗封边形成克制分层，少量小五金不增加饱和色焦点；静态构件不强加彩色或发光饰物。",
+    "material": "沿竖板长轴的低频渐变、高粗糙哑光方向清楚；多块板柔暗带近似重复，小五金反射身份弱，所以未满分。",
+    "emissive": "没有发光白斑与假交互提示，符合普通静态填充模块无发光需求。",
+    "craft": "left/right中背斜撑已连续贴合板背，不再整条透背景；back两端可读地接到上下横档，原悬空阻断解除。没有新大片黑接头或破面；LOD小钉头与板缝对比略变，故不满分。"
+  },
+  "images": [
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/front.png",
+      "sha256": "b9ab07b90742491d3dc65aafe03130d02e4caf7072cfc67bbb899b9d1d449f43",
+      "opened_with": "view_image",
+      "observation": "六条竖板、细板缝和上下封边保持，后横档/斜撑局部透过缝可见；无新增大破面或杂色。",
+      "same_hash_as_attempt1": false
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/back.png",
+      "sha256": "bc99b9aa156daa4a6ea9bb4ddb0853858ec669c008f284b9c67778500708443a",
+      "opened_with": "view_image",
+      "observation": "长斜撑已延长到上下横档，两个端头均有可读交接；不是首轮停在横档之间的悬空端。未见新大片共面黑斑。",
+      "same_hash_as_attempt1": false
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/left.png",
+      "sha256": "d8808e057bd1c8374e3a11b5752cfdefabf8a9a03c4ea80f5dd1e918ddf83f9b",
+      "opened_with": "view_image",
+      "observation": "背斜撑已贴板背，原全长连续背景缝消失；侧层与横档连续相接，悬空阻断解除。",
+      "same_hash_as_attempt1": false
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/right.png",
+      "sha256": "31b366d18def0f08d3eca2fe70c789fd4a1b510d5cb07faf9779c8cc6edecaa9",
+      "opened_with": "view_image",
+      "observation": "与左视一致，斜撑贴合板背，原独立离面长条读法消失；两端接到横档层。",
+      "same_hash_as_attempt1": false
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/top.png",
+      "sha256": "dfa02e57265419d6052b9f91d87477e6de9ae24961c62caad6cb05c098c14ec9",
+      "opened_with": "view_image",
+      "observation": "窄顶封边整齐，厚构件大形未明显改变；精确外包络来自附带报告，不能由顶图量测。",
+      "same_hash_as_attempt1": false
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/perspective.png",
+      "sha256": "1fc7cd8f3a62f7918c9fd969d5a5e0a01c882fe626e0593856a4b6fd8956feec",
+      "opened_with": "view_image",
+      "observation": "窄竖板填充、上下封边仍清楚，修正未改变主要前面身份；背撑深度接触以左右/背图为证。",
+      "same_hash_as_attempt1": false
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/detail.png",
+      "sha256": "4554ff974fdae54ee2705114ca44b6f50c8880078dad3de376cfff3a27ba5170",
+      "opened_with": "view_image",
+      "observation": "顺竖板长轴宽软暗带仍近似重复；板缝较干净、哑光主体可辨，没有增加高频写实纹理。",
+      "same_hash_as_attempt1": false
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/clay.png",
+      "sha256": "738bd38dd704bce05681d30915681e4d62524ec5f3ac81722f1aa11c1cacdadd",
+      "opened_with": "view_image",
+      "observation": "灰模六板与封边轮廓保持，前向主面完整，无新增大片破面；后撑连接主要由左右/背图判定。",
+      "same_hash_as_attempt1": false
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/lod0.png",
+      "sha256": "91ed40b4a9b84c524e4da6652901ab1f3674d6b12ec5a8a8fd31389476efd3ed",
+      "opened_with": "view_image",
+      "observation": "同机位基准：窄墙主形、六板节奏、封边与少量小五金保持。",
+      "same_hash_as_attempt1": false
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/lod1.png",
+      "sha256": "af65e2fc615de08b8cf4cdaebba4ea301cc64e210a6e05a9d094336b72e745cb",
+      "opened_with": "view_image",
+      "observation": "主轮廓、六板节奏和封边保持；下方小五金比LOD0更显眼，缝边明暗略变化，未造成类别丢失。",
+      "same_hash_as_attempt1": false
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/lod2.png",
+      "sha256": "2f75114e48b42d8eef7f3137d8ab23d8e62eb21b053670117a34696469e5c462",
+      "opened_with": "view_image",
+      "observation": "主轮廓、封边和六板节奏保持；小五金及缝线局部对比有变化，实机屏幕占比切换未验证。",
+      "same_hash_as_attempt1": false
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/icon.png",
+      "sha256": "e119ea611ca9adb0f9573c9ff7d18bc5dbd1abc4f65b31dd170f90e42bd38f63",
+      "opened_with": "view_image",
+      "observation": "透明256图标中窄墙填充、竖板与上下封边仍可辨，无文字/背景块；细节点不可由图标判定。",
+      "same_hash_as_attempt1": false
+    }
+  ],
+  "references_read": [
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Tools/ArtForge/PROMPT_review.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/ArtDirection/2026-10-03_治愈奇幻风格化改造方案.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/ArtDirection/2026-09-29_未眠野美术三纪律落地.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/ArtStudy/2026-10-01_美术参考与原创资产管线.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/ZCodeSync/memory/cocricot-blender-rebuild.md"
+  ],
+  "consistency_reference_reviews_read": [
+    "/workspace/shared/aether-assets/reviews/independent_batch_summary.json",
+    "/workspace/shared/aether-assets/reviews/town_building_a_frame_bay_v01.json",
+    "/workspace/shared/aether-assets/reviews/town_building_a_frame_bay_v01_attempt2.json",
+    "/workspace/shared/aether-assets/reviews/town_shared_workbench_v01.json",
+    "/workspace/shared/aether-assets/reviews/town_storage_open_crate_v01.json"
+  ],
+  "reference_limits": "Newest supplied 2026-10-03 proposal B1, A-frame vertical infill requirement and M1-M4 used as provisional sample direction. Earlier outline/rim-light/Standard instructions are not imposed; full-building criteria do not apply to standalone infill. No latest Unity project rule guarantee.",
+  "evidence_report_read": "/workspace/shared/aether-assets-batch2/reports/town_building_side_infill_v01.json",
+  "not_validated": [
+    "Unity import",
+    "Unity runtime",
+    "HDRP shader/material appearance",
+    "collision/navigation",
+    "runtime containment/weatherproofing",
+    "LOD screen-space transitions/TAA",
+    "independent absolute scale measurement",
+    "UV pixel-density audit",
+    "structural load-bearing performance"
+  ],
+  "boundary": "Independent image-based verdict only. All 12 attempt2 final images actually re-opened sequentially with view_image after maker confirmed complete immutable revised set. No source/export/image modifications, no rendering, no Blender execution, no Codex task, no user computer, no Unity pass claim. Attempt1 FAIL report and byte-identical image evidence remain preserved.",
+  "supplementary_technical_reports_read": [
+    "/workspace/shared/aether-assets-batch2/reports/compatibility-envelope-report.json",
+    "/workspace/shared/aether-assets-batch2/reports/component-normal-uv-report.json",
+    "/workspace/shared/aether-assets-batch2/reports/side-brace-connection-report.json",
+    "/workspace/shared/aether-assets-batch2/reports/roundtrip-report.json",
+    "/workspace/shared/aether-assets-batch2/reports/texture-path-report.json"
+  ],
+  "technical_evidence_scope": "Reported saved-source board-back gap is 0m and endpoint AABBs overlap crossbars; this is placement/joint-envelope evidence, not solid-volume structural engineering, collision/navigation or Unity test. Revised visual verdict is grounded in all 12 actual images, not technical pass alone.",
+  "previous_attempt_report": "/workspace/shared/aether-assets-batch2/reviews/town_building_side_infill_v01.json",
+  "resolved_blocker": "Attempt1 craft=0 detached rear diagonal brace. Actual attempt2 back/left/right images now show contact with boards and both crossbars; visual blocker resolved."
+}

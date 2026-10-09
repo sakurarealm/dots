@@ -1,0 +1,113 @@
+{
+  "reviewer": "independent_second_asset_batch_visual_review",
+  "completed_at_utc": "2026-10-07T22:50:33.684828+00:00",
+  "total_unique_assets": 3,
+  "final_pass_count": 3,
+  "final_fail_count": 0,
+  "escalated_count": 0,
+  "final_pass_rate": 1.0,
+  "first_attempt_pass_count": 2,
+  "first_attempt_pass_rate": 0.6666666666666666,
+  "review_attempts": 4,
+  "attempt_pass_count": 3,
+  "attempt_fail_count": 1,
+  "final_average_score": 16.0,
+  "final_dimension_averages": {
+    "silhouette": 3.0,
+    "proportion": 3.0,
+    "color_id": 3.0,
+    "material": 2.0,
+    "emissive": 3.0,
+    "craft": 2.0
+  },
+  "final_verdicts": [
+    {
+      "id": "town_building_floor_bay_v01",
+      "verdict": "PASS",
+      "score": 16,
+      "dims": {
+        "silhouette": 3,
+        "proportion": 3,
+        "color_id": 3,
+        "material": 2,
+        "emissive": 3,
+        "craft": 2
+      },
+      "attempt": 1,
+      "report": "/workspace/shared/aether-assets-batch2/reviews/town_building_floor_bay_v01.json"
+    },
+    {
+      "id": "town_building_gable_screen_v01",
+      "verdict": "PASS",
+      "score": 16,
+      "dims": {
+        "silhouette": 3,
+        "proportion": 3,
+        "color_id": 3,
+        "material": 2,
+        "emissive": 3,
+        "craft": 2
+      },
+      "attempt": 1,
+      "report": "/workspace/shared/aether-assets-batch2/reviews/town_building_gable_screen_v01.json"
+    },
+    {
+      "id": "town_building_side_infill_v01",
+      "verdict": "PASS",
+      "score": 16,
+      "dims": {
+        "silhouette": 3,
+        "proportion": 3,
+        "color_id": 3,
+        "material": 2,
+        "emissive": 3,
+        "craft": 2
+      },
+      "attempt": 2,
+      "report": "/workspace/shared/aether-assets-batch2/reviews/town_building_side_infill_v01_attempt2.json"
+    }
+  ],
+  "top3_remaining_visual_issues": [
+    {
+      "issue": "逐板低频木色暗带同相重复；建议逐板UV偏移/翻转和小明度差",
+      "asset_count": 3
+    },
+    {
+      "issue": "小五金材质/位置身份弱；山墙仍有个别钉头落板缝与背面底梁中央小黑接头",
+      "asset_count": 3
+    },
+    {
+      "issue": "LOD局部接缝与小钉头明暗改变，尤其地板LOD2板缝加深；需真实屏幕占比验切换",
+      "asset_count": 2
+    }
+  ],
+  "resolved_blockers": [
+    {
+      "asset_id": "town_building_side_infill_v01",
+      "initial_attempt": 1,
+      "initial_score": 14,
+      "initial_craft": 0,
+      "issue": "rear diagonal brace visibly detached from planks and crossbars",
+      "resolved_attempt": 2,
+      "final_score": 16,
+      "evidence": "Actual revised back/left/right views show brace-board contact and both crossbar joins"
+    }
+  ],
+  "final_images_actually_viewed": 36,
+  "final_assembly_images_actually_viewed": 2,
+  "total_view_image_calls_including_archived_attempts": 52,
+  "hash_verification": "All 36 final asset PNGs and 2 final assembly PNGs re-hashed against their independent review records at completion; 12 sidewall first-attempt images and 2 original assembly images preserved byte-for-byte.",
+  "assembly_review": "/workspace/shared/aether-assets-batch2/reviews/compatibility_assembly_attempt2.json",
+  "scope": "Three standalone reusable original compatibility modules, not a completed building or production content-gap proof. Local compatibility assembly checked only for visible placement/interpenetration.",
+  "not_validated": [
+    "Unity import/runtime: not run; no valid license acceptance claimed",
+    "HDRP final material appearance",
+    "collision/navigation",
+    "runtime walkability/headroom/character clearance",
+    "LOD runtime transitions/TAA",
+    "weatherproof enclosure",
+    "structural load-bearing performance",
+    "production asset gap"
+  ],
+  "boundary": "All verdicts grounded in sequential actual view_image inspection. Reviewer only read supplied reports/references and wrote independent reviews/evidence; no source/export/image edits, no rendering, no Codex and no user computer."
+}

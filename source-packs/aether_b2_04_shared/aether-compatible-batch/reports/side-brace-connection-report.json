@@ -1,0 +1,28 @@
+{
+  "asset_id": "town_building_side_infill_v01",
+  "attempt": 2,
+  "brace_front_to_board_back_gap_m": 0.0,
+  "end_joint_enclosure_checks": [
+    {
+      "rail": "SOURCE_side_back_rail_0.24",
+      "positive_aabb_overlap_xyz_m": [
+        0.5042381286621094,
+        0.019999999552965164,
+        0.04354026913642883
+      ],
+      "scope": "Bounding-box joint enclosure, not solid-volume structural validation."
+    },
+    {
+      "rail": "SOURCE_side_back_rail_1.66",
+      "positive_aabb_overlap_xyz_m": [
+        0.5042381286621094,
+        0.019999999552965164,
+        0.043540239334106445
+      ],
+      "scope": "Bounding-box joint enclosure, not solid-volume structural validation."
+    }
+  ],
+  "exterior_rear_faces_are_offset_not_coplanar": true,
+  "pass": true,
+  "scope": "Saved-source placement check; independent second visual review still required. No Unity/mobile acceptance."
+}

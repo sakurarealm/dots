@@ -1,0 +1,182 @@
+[
+  {
+    "asset_id": "town_building_floor_bay_v01",
+    "images": [
+      {
+        "name": "T_Cloth_Canvas_BaseColor.png",
+        "path": "//../textures/T_Cloth_Canvas_BaseColor.png",
+        "packed": true,
+        "external_relative_path_resolves": true
+      },
+      {
+        "name": "T_Cloth_Canvas_NormalGL.png",
+        "path": "//../textures/T_Cloth_Canvas_NormalGL.png",
+        "packed": true,
+        "external_relative_path_resolves": true
+      },
+      {
+        "name": "T_Cloth_Canvas_Roughness.png",
+        "path": "//../textures/T_Cloth_Canvas_Roughness.png",
+        "packed": true,
+        "external_relative_path_resolves": true
+      },
+      {
+        "name": "T_Metal_Brass_BaseColor.png",
+        "path": "//../textures/T_Metal_Brass_BaseColor.png",
+        "packed": true,
+        "external_relative_path_resolves": true
+      },
+      {
+        "name": "T_Metal_Brass_NormalGL.png",
+        "path": "//../textures/T_Metal_Brass_NormalGL.png",
+        "packed": true,
+        "external_relative_path_resolves": true
+      },
+      {
+        "name": "T_Metal_Brass_Roughness.png",
+        "path": "//../textures/T_Metal_Brass_Roughness.png",
+        "packed": true,
+        "external_relative_path_resolves": true
+      },
+      {
+        "name": "T_Wood_Warm_BaseColor.png",
+        "path": "//../textures/T_Wood_Warm_BaseColor.png",
+        "packed": true,
+        "external_relative_path_resolves": true
+      },
+      {
+        "name": "T_Wood_Warm_NormalGL.png",
+        "path": "//../textures/T_Wood_Warm_NormalGL.png",
+        "packed": true,
+        "external_relative_path_resolves": true
+      },
+      {
+        "name": "T_Wood_Warm_Roughness.png",
+        "path": "//../textures/T_Wood_Warm_Roughness.png",
+        "packed": true,
+        "external_relative_path_resolves": true
+      }
+    ],
+    "pass": true
+  },
+  {
+    "asset_id": "town_building_gable_screen_v01",
+    "images": [
+      {
+        "name": "T_Cloth_Canvas_BaseColor.png",
+        "path": "//../textures/T_Cloth_Canvas_BaseColor.png",
+        "packed": true,
+        "external_relative_path_resolves": true
+      },
+      {
+        "name": "T_Cloth_Canvas_NormalGL.png",
+        "path": "//../textures/T_Cloth_Canvas_NormalGL.png",
+        "packed": true,
+        "external_relative_path_resolves": true
+      },
+      {
+        "name": "T_Cloth_Canvas_Roughness.png",
+        "path": "//../textures/T_Cloth_Canvas_Roughness.png",
+        "packed": true,
+        "external_relative_path_resolves": true
+      },
+      {
+        "name": "T_Metal_Brass_BaseColor.png",
+        "path": "//../textures/T_Metal_Brass_BaseColor.png",
+        "packed": true,
+        "external_relative_path_resolves": true
+      },
+      {
+        "name": "T_Metal_Brass_NormalGL.png",
+        "path": "//../textures/T_Metal_Brass_NormalGL.png",
+        "packed": true,
+        "external_relative_path_resolves": true
+      },
+      {
+        "name": "T_Metal_Brass_Roughness.png",
+        "path": "//../textures/T_Metal_Brass_Roughness.png",
+        "packed": true,
+        "external_relative_path_resolves": true
+      },
+      {
+        "name": "T_Wood_Warm_BaseColor.png",
+        "path": "//../textures/T_Wood_Warm_BaseColor.png",
+        "packed": true,
+        "external_relative_path_resolves": true
+      },
+      {
+        "name": "T_Wood_Warm_NormalGL.png",
+        "path": "//../textures/T_Wood_Warm_NormalGL.png",
+        "packed": true,
+        "external_relative_path_resolves": true
+      },
+      {
+        "name": "T_Wood_Warm_Roughness.png",
+        "path": "//../textures/T_Wood_Warm_Roughness.png",
+        "packed": true,
+        "external_relative_path_resolves": true
+      }
+    ],
+    "pass": true
+  },
+  {
+    "asset_id": "town_building_side_infill_v01",
+    "images": [
+      {
+        "name": "T_Cloth_Canvas_BaseColor.png",
+        "path": "//../textures/T_Cloth_Canvas_BaseColor.png",
+        "packed": true,
+        "external_relative_path_resolves": true
+      },
+      {
+        "name": "T_Cloth_Canvas_NormalGL.png",
+        "path": "//../textures/T_Cloth_Canvas_NormalGL.png",
+        "packed": true,
+        "external_relative_path_resolves": true
+      },
+      {
+        "name": "T_Cloth_Canvas_Roughness.png",
+        "path": "//../textures/T_Cloth_Canvas_Roughness.png",
+        "packed": true,
+        "external_relative_path_resolves": true
+      },
+      {
+        "name": "T_Metal_Brass_BaseColor.png",
+        "path": "//../textures/T_Metal_Brass_BaseColor.png",
+        "packed": true,
+        "external_relative_path_resolves": true
+      },
+      {
+        "name": "T_Metal_Brass_NormalGL.png",
+        "path": "//../textures/T_Metal_Brass_NormalGL.png",
+        "packed": true,
+        "external_relative_path_resolves": true
+      },
+      {
+        "name": "T_Metal_Brass_Roughness.png",
+        "path": "//../textures/T_Metal_Brass_Roughness.png",
+        "packed": true,
+        "external_relative_path_resolves": true
+      },
+      {
+        "name": "T_Wood_Warm_BaseColor.png",
+        "path": "//../textures/T_Wood_Warm_BaseColor.png",
+        "packed": true,
+        "external_relative_path_resolves": true
+      },
+      {
+        "name": "T_Wood_Warm_NormalGL.png",
+        "path": "//../textures/T_Wood_Warm_NormalGL.png",
+        "packed": true,
+        "external_relative_path_resolves": true
+      },
+      {
+        "name": "T_Wood_Warm_Roughness.png",
+        "path": "//../textures/T_Wood_Warm_Roughness.png",
+        "packed": true,
+        "external_relative_path_resolves": true
+      }
+    ],
+    "pass": true
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "id": "compatibility_assembly",
+  "attempt": 1,
+  "reviewed_at_utc": "2026-10-07T22:41:32.475834+00:00",
+  "status": "VISUALLY_REVIEWED_PENDING_SIDE_INFILL_REWORK",
+  "scope": "Local compatibility assembly only, not a fourth completed building. Two images are Blender studio renders, not Unity screenshots. No full-house decoration, entrance, furnishing or containment criteria applied.",
+  "images": [
+    {
+      "path": "/workspace/shared/aether-assets-batch2/reviews/evidence/compatibility_assembly_attempt1/assembly_perspective.png",
+      "original_source_path": "/workspace/shared/aether-assets-batch2/previews/compatibility_assembly/assembly_perspective.png",
+      "sha256": "efadb943cf118b4508168b1b5ada34216ed9250e31bc75de888f6ff00f9d3c15",
+      "opened_with": "view_image",
+      "viewed_path": "/workspace/shared/aether-assets-batch2/previews/compatibility_assembly/assembly_perspective.png",
+      "observation": "实际逐图看过的局部组合棚拍：陡A梁架、多块地板、侧填充和前山墙同一暖木体系，前柱/横梁/屋面大形对齐，无可见大范围穿插；地板重复纹明显，侧填充底部/柱边有亮缝。背侧斜撑在此机位遮挡，不能用组合透视推翻侧墙单件悬空证据。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/reviews/evidence/compatibility_assembly_attempt1/assembly_front.png",
+      "original_source_path": "/workspace/shared/aether-assets-batch2/previews/compatibility_assembly/assembly_front.png",
+      "sha256": "e507c317e64f44a56378d0fd7840157ebeda3a11458b3dc6540761ae1943b03b",
+      "opened_with": "view_image",
+      "viewed_path": "/workspace/shared/aether-assets-batch2/previews/compatibility_assembly/assembly_front.png",
+      "observation": "前视梁架、山墙和地板尺度相对关系合理，地板位于两柱内；山墙两条斜上缘到椽下有连续开放亮带，符合报告所称通风留空，但不是封闭防雨墙；地板与柱有侧间隙，不能据此称房体气密、角色可通过或碰撞无问题。"
+    }
+  ],
+  "findings": [
+    "Visible major frame/floor/gable placement is coherent; no obvious broad interpenetration in these two views.",
+    "Gable upper-perimeter opening and floor/column gaps remain visible; described ventilation/envelope clearances do not demonstrate weatherproof enclosure.",
+    "Side brace failure from standalone side images remains blocking; these views obscure that depth separation. Updated assembly images required after side-infill repair."
+  ],
+  "technical_report": "/workspace/shared/aether-assets-batch2/reports/compatibility-envelope-report.json",
+  "not_validated": [
+    "Unity import/runtime",
+    "HDRP shader/material appearance",
+    "collision/navigation",
+    "runtime walkability/head clearance",
+    "weatherproof enclosure",
+    "LOD runtime transitions"
+  ],
+  "boundary": "Both listed images actually viewed sequentially with view_image after maker confirmed complete set. Originals archived byte-for-byte before upcoming rework. No source/model/image edit, no render execution, no user computer, no Codex, no Unity pass claim."
+}

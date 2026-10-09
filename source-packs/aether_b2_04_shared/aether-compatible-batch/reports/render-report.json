@@ -1,0 +1,86 @@
+[
+  {
+    "asset_id": "town_building_floor_bay_v01",
+    "renderer": "Blender 4.3.2 Cycles CPU",
+    "threads": 2,
+    "samples": 24,
+    "denoising": false,
+    "resolution": [
+      768,
+      768
+    ],
+    "view_transform": "AgX",
+    "views": [
+      "front.png",
+      "back.png",
+      "left.png",
+      "right.png",
+      "top.png",
+      "perspective.png",
+      "detail.png",
+      "clay.png",
+      "lod0.png",
+      "lod1.png",
+      "lod2.png",
+      "icon.png"
+    ],
+    "is_game_screenshot": false,
+    "visual_review_status": "pending_independent_review"
+  },
+  {
+    "asset_id": "town_building_gable_screen_v01",
+    "renderer": "Blender 4.3.2 Cycles CPU",
+    "threads": 2,
+    "samples": 24,
+    "denoising": false,
+    "resolution": [
+      768,
+      768
+    ],
+    "view_transform": "AgX",
+    "views": [
+      "front.png",
+      "back.png",
+      "left.png",
+      "right.png",
+      "top.png",
+      "perspective.png",
+      "detail.png",
+      "clay.png",
+      "lod0.png",
+      "lod1.png",
+      "lod2.png",
+      "icon.png"
+    ],
+    "is_game_screenshot": false,
+    "visual_review_status": "pending_independent_review"
+  },
+  {
+    "asset_id": "town_building_side_infill_v01",
+    "renderer": "Blender 4.3.2 Cycles CPU",
+    "threads": 2,
+    "samples": 24,
+    "denoising": false,
+    "resolution": [
+      768,
+      768
+    ],
+    "view_transform": "AgX",
+    "views": [
+      "front.png",
+      "back.png",
+      "left.png",
+      "right.png",
+      "top.png",
+      "perspective.png",
+      "detail.png",
+      "clay.png",
+      "lod0.png",
+      "lod1.png",
+      "lod2.png",
+      "icon.png"
+    ],
+    "is_game_screenshot": false,
+    "visual_review_status": "pending_independent_review"
+  }
+]

@@ -1,0 +1,144 @@
+{
+  "id": "town_building_gable_screen_v01",
+  "verdict": "PASS",
+  "score": 16,
+  "dims": {
+    "silhouette": 3,
+    "proportion": 3,
+    "color_id": 3,
+    "material": 2,
+    "emissive": 3,
+    "craft": 2
+  },
+  "attempt": 1,
+  "reviewer": "independent_second_asset_batch_visual_review",
+  "reviewed_at_utc": "2026-10-07T22:37:09.423261+00:00",
+  "gate": {
+    "scale": "each dimension 0-3",
+    "pass_minimum": 13,
+    "zero_dimension_allowed": false,
+    "second_failure": "ESCALATED; no additional automatic rework"
+  },
+  "asset_scope": "Standalone triangular vertical-timber gable infill screen, reported 3.5 x 0.085 x 1.7955 meters. Installed above A-frame tie beam per supplied report. This is not a roof, full wall, or complete house; whole-building decoration and entrance criteria do not apply.",
+  "emissive_applicability": "No emissive feature is required for ordinary static floor. Score 3 recognizes no false emissive interaction cue; no lighting/shader validation is implied.",
+  "issues": [
+    "非阻断：detail竖板重复近似宽柔暗带，低频纹偏同相。沿用共享木图，用逐板UV偏移/翻转及约6–10%明度差打破重复；继续保持顺木长轴、低频手绘渐变，不增加高频纹理。",
+    "非阻断：back底梁中央有小黑矩形接头；detail部分小五金压在板缝上，容易读成缝口。后续将这些钉头向板中心内移约1–2cm，并核对背面竖撑与底梁交接收口；不要用黑贴片掩盖，也不由图断言黑口成因。"
+  ],
+  "dimension_reasons": {
+    "silhouette": "front/back明确为对称陡三角山墙填充，竖板与水平底收口是识别结构；透视、灰模、透明图标缩小后类别成立。",
+    "proportion": "三角高度、宽度与薄厚的相对关系合理；板宽统一、无明显拉伸/穿插。3.5×0.085×1.7955m绝对尺寸和安装位置来自技术报告，图上未独立量测，与梁架精准适配还须结合组合图及实机验证。",
+    "color_id": "暖木主体统一、底收口略暗，小五金面积克制，没有多色争焦点。普通静态墙填充无需凭空增加绿色/发光点缀。",
+    "material": "顺竖板长轴的低频渐变与哑光主体可见，没有高频细密木纹；逐板软暗带近似重复，钉头太小、暗而无明显金属层级，故未满分。",
+    "emissive": "没有发光白斑或假交互提示，符合不要求自发光的静态填充构件范围。",
+    "craft": "竖向真实板缝与斜切上沿清楚，灰模主面完整；正面钉头部分落在板缝、背面底梁中央小黑矩形收口，视觉工艺尚可改善。三档LOD主形与板缝节奏保持，不等于实机跳变通过。"
+  },
+  "images": [
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_gable_screen_v01/front.png",
+      "sha256": "2a832f209ccdf2f5a4352fcab8087e9ff36b0f4b77a140c3add11a60ad79e439",
+      "opened_with": "view_image",
+      "observation": "对称陡三角山墙清楚，竖向板条和水平底收口可读；细板缝透出亮背景，小钉头集中下缘并有几处落在缝上。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_gable_screen_v01/back.png",
+      "sha256": "2ea5a15171575ad73bca48337a1cd0fd1f51af40f73eefea4b42be9bb95d8a8a",
+      "opened_with": "view_image",
+      "observation": "背面三角、竖板保持，可见底梁与中竖撑；中央竖撑下端/底梁附近有小黑矩形接头，图上无法确认是缝隙、材质或遮挡原因。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_gable_screen_v01/left.png",
+      "sha256": "89cdd4a4c6e048a977f800f859fec0ca3f3e2642cc972bd5100b4d4770e27ecf",
+      "opened_with": "view_image",
+      "observation": "薄竖构件侧轮廓与后方窄支撑层可辨，底收口较深；没有额外向外突出的装饰或粗碰撞形。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_gable_screen_v01/right.png",
+      "sha256": "cd0b645351dba01fc9ce5bffda3f9a4771af79b511fc10d7fc46743beb7bf20a",
+      "opened_with": "view_image",
+      "observation": "与左视对应，薄板与后层支撑关系一致，未见大块拉伸或破面。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_gable_screen_v01/top.png",
+      "sha256": "061259310f14b37ddd31179b19ed5529f957e265445737fa2ad2e08aca46e2e2",
+      "opened_with": "view_image",
+      "observation": "薄直长带，板端分格和深色后支撑边可见；只是薄构件顶投影，不能据此证明组装完整。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_gable_screen_v01/perspective.png",
+      "sha256": "40d99d9fc64dabbfa99f81f1741dc8aadeafe461ce780400b438ed91fda792e7",
+      "opened_with": "view_image",
+      "observation": "三角形轮廓、逐板斜切上沿和水平底梁清楚；缝隙细，主面没有破洞或大范围重叠。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_gable_screen_v01/detail.png",
+      "sha256": "29e81964952bb67829bfe9976d209a043f98c4f544ef61808d967de9361f3e30",
+      "opened_with": "view_image",
+      "observation": "沿竖轴低频柔暗带可见，多块板近似重复；几何板缝清楚，个别小五金跨在板缝上，金属反射身份弱。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_gable_screen_v01/clay.png",
+      "sha256": "fec3c0988c9ee253e12e9121f6e4efd0c49f38d4f665aa3f33252c424f3c330b",
+      "opened_with": "view_image",
+      "observation": "去色后竖板缝、斜切上沿与三角体块仍可辨，低模边面清楚；没有额外黑描边，未见大面破损。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_gable_screen_v01/lod0.png",
+      "sha256": "4603903fdf1f0a004b9b56ed206f1bd6174b9017b0c2df36cf539455f1264915",
+      "opened_with": "view_image",
+      "observation": "同机位基准：三角外沿、底收口、板缝和少量下缘五金保留。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_gable_screen_v01/lod1.png",
+      "sha256": "f1f547002741ba7acf69d6485540c4376cc912ee359472e57cd0aff98be51ca2",
+      "opened_with": "view_image",
+      "observation": "同机位三角外沿、底收口、竖板节奏与五金保持，局部缝边/上沿分面明暗略变；未造成类别信息丢失。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_gable_screen_v01/lod2.png",
+      "sha256": "ebc9daf9a9083e29103bbaa6c1da35ef36cf3aa48dbc5fcf0dc5ca27bc6c8bdd",
+      "opened_with": "view_image",
+      "observation": "同机位三角外沿、底收口和主要竖板节奏保持；末端小板边面/缝线有细微变化，棚拍不能证明实机无跳变。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/town_building_gable_screen_v01/icon.png",
+      "sha256": "fd19e1f184160608e105d03856d5db0bae8cf42cc32846d17b3975676f56402f",
+      "opened_with": "view_image",
+      "observation": "透明256图标仍能读成竖板三角山墙，水平底收口清楚；无文字或背景块，细小五金不辨。"
+    }
+  ],
+  "references_read": [
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Tools/ArtForge/PROMPT_review.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/ArtDirection/2026-10-03_治愈奇幻风格化改造方案.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/ArtDirection/2026-09-29_未眠野美术三纪律落地.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/ArtStudy/2026-10-01_美术参考与原创资产管线.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/ZCodeSync/memory/cocricot-blender-rebuild.md"
+  ],
+  "consistency_reference_reviews_read": [
+    "/workspace/shared/aether-assets/reviews/independent_batch_summary.json",
+    "/workspace/shared/aether-assets/reviews/town_building_a_frame_bay_v01.json",
+    "/workspace/shared/aether-assets/reviews/town_building_a_frame_bay_v01_attempt2.json",
+    "/workspace/shared/aether-assets/reviews/town_shared_workbench_v01.json",
+    "/workspace/shared/aether-assets/reviews/town_storage_open_crate_v01.json"
+  ],
+  "reference_limits": "Newest supplied 2026-10-03 proposal B1, A-frame vertical infill requirement and M1-M4 used as provisional sample direction. Earlier outline/rim-light/Standard instructions are not imposed; complete-building criteria are not forced onto standalone gable. No latest Unity project rule guarantee.",
+  "evidence_report_read": "/workspace/shared/aether-assets-batch2/reports/town_building_gable_screen_v01.json",
+  "not_validated": [
+    "Unity import",
+    "Unity runtime",
+    "HDRP shader/material appearance",
+    "collision/navigation",
+    "runtime containment/weatherproofing",
+    "LOD screen-space transitions/TAA",
+    "independent absolute scale measurement",
+    "UV pixel-density audit",
+    "cause of back lower-center black rectangle",
+    "compatibility assembly visual check pending assembled images"
+  ],
+  "boundary": "Independent image-based verdict only. All 12 listed images actually opened sequentially with view_image after maker confirmed final complete set. No source/export/image modifications, no rendering, no Blender execution, no Codex task, no user computer, no Unity pass claim.",
+  "supplementary_technical_reports_read": [
+    "/workspace/shared/aether-assets-batch2/reports/compatibility-envelope-report.json",
+    "/workspace/shared/aether-assets-batch2/reports/component-normal-uv-report.json"
+  ],
+  "technical_evidence_scope": "Reports describe mesh/UV/normal-component checks and geometry envelope/plane clearances only. Reviewer did not independently run their tests; positive reported geometry clearance does not demonstrate collision, navigation, Unity import/runtime, or weatherproof enclosure."
+}

@@ -1,0 +1,500 @@
+[
+  {
+    "asset_id": "town_building_floor_bay_v01",
+    "source": {
+      "dimensions_xyz_m": [
+        3.5,
+        1.0,
+        0.10000000149011612
+      ],
+      "triangles": 596,
+      "mesh_count": 1,
+      "uv_complete": true,
+      "material_slots_max": 2,
+      "finite": true
+    },
+    "formats": {
+      "fbx": {
+        "dimensions_xyz_m": [
+          3.5,
+          1.0,
+          0.10000016409224344
+        ],
+        "triangles": 596,
+        "mesh_count": 1,
+        "uv_complete": true,
+        "material_slots_max": 2,
+        "finite": true,
+        "dimension_max_error_m": 1.626021273182232e-07,
+        "triangle_difference": 0,
+        "pass": true,
+        "moving_part_pivots": [],
+        "texture_images_found": [
+          {
+            "name": "T_Metal_Brass_BaseColor.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_BaseColor.png.001",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_NormalGL.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_Roughness.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_BaseColor.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_BaseColor.png.001",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_NormalGL.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_Roughness.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          }
+        ]
+      },
+      "glb": {
+        "dimensions_xyz_m": [
+          3.5,
+          1.0,
+          0.10000000149011612
+        ],
+        "triangles": 596,
+        "mesh_count": 1,
+        "uv_complete": true,
+        "material_slots_max": 2,
+        "finite": true,
+        "dimension_max_error_m": 0.0,
+        "triangle_difference": 0,
+        "pass": true,
+        "moving_part_pivots": [],
+        "texture_images_found": [
+          {
+            "name": "T_Metal_Brass_BaseColor",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_NormalGL",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_Roughness",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_BaseColor",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_NormalGL",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_Roughness",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          }
+        ]
+      }
+    },
+    "pass": true
+  },
+  {
+    "asset_id": "town_building_gable_screen_v01",
+    "source": {
+      "dimensions_xyz_m": [
+        3.5,
+        0.08500000089406967,
+        1.7955245971679688
+      ],
+      "triangles": 860,
+      "mesh_count": 1,
+      "uv_complete": true,
+      "material_slots_max": 2,
+      "finite": true
+    },
+    "formats": {
+      "fbx": {
+        "dimensions_xyz_m": [
+          3.5,
+          0.08500028774142265,
+          1.7955246034404149
+        ],
+        "triangles": 860,
+        "mesh_count": 1,
+        "uv_complete": true,
+        "material_slots_max": 2,
+        "finite": true,
+        "dimension_max_error_m": 2.868473529815674e-07,
+        "triangle_difference": 0,
+        "pass": true,
+        "moving_part_pivots": [],
+        "texture_images_found": [
+          {
+            "name": "T_Metal_Brass_BaseColor.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_BaseColor.png.001",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_NormalGL.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_Roughness.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_BaseColor.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_BaseColor.png.001",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_NormalGL.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_Roughness.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          }
+        ]
+      },
+      "glb": {
+        "dimensions_xyz_m": [
+          3.5,
+          0.08500000089406967,
+          1.7955245971679688
+        ],
+        "triangles": 860,
+        "mesh_count": 1,
+        "uv_complete": true,
+        "material_slots_max": 2,
+        "finite": true,
+        "dimension_max_error_m": 0.0,
+        "triangle_difference": 0,
+        "pass": true,
+        "moving_part_pivots": [],
+        "texture_images_found": [
+          {
+            "name": "T_Metal_Brass_BaseColor",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_NormalGL",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_Roughness",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_BaseColor",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_NormalGL",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_Roughness",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          }
+        ]
+      }
+    },
+    "pass": true
+  },
+  {
+    "asset_id": "town_building_side_infill_v01",
+    "source": {
+      "dimensions_xyz_m": [
+        0.6000000238418579,
+        0.07500000298023224,
+        1.899999976158142
+      ],
+      "triangles": 596,
+      "mesh_count": 1,
+      "uv_complete": true,
+      "material_slots_max": 2,
+      "finite": true
+    },
+    "formats": {
+      "fbx": {
+        "dimensions_xyz_m": [
+          0.6000000238418579,
+          0.07500031217932701,
+          1.8999999816159852
+        ],
+        "triangles": 596,
+        "mesh_count": 1,
+        "uv_complete": true,
+        "material_slots_max": 2,
+        "finite": true,
+        "dimension_max_error_m": 3.0919909477233887e-07,
+        "triangle_difference": 0,
+        "pass": true,
+        "moving_part_pivots": [],
+        "texture_images_found": [
+          {
+            "name": "T_Metal_Brass_BaseColor.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_BaseColor.png.001",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_NormalGL.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_Roughness.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_BaseColor.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_BaseColor.png.001",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_NormalGL.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_Roughness.png",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          }
+        ]
+      },
+      "glb": {
+        "dimensions_xyz_m": [
+          0.6000000238418579,
+          0.07500000298023224,
+          1.899999976158142
+        ],
+        "triangles": 596,
+        "mesh_count": 1,
+        "uv_complete": true,
+        "material_slots_max": 2,
+        "finite": true,
+        "dimension_max_error_m": 0.0,
+        "triangle_difference": 0,
+        "pass": true,
+        "moving_part_pivots": [],
+        "texture_images_found": [
+          {
+            "name": "T_Metal_Brass_BaseColor",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_NormalGL",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Metal_Brass_Roughness",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_BaseColor",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_NormalGL",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          },
+          {
+            "name": "T_Wood_Warm_Roughness",
+            "size": [
+              512,
+              512
+            ],
+            "has_pixels": true
+          }
+        ]
+      }
+    },
+    "pass": true
+  }
+]

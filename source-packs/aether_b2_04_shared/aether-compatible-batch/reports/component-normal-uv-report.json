@@ -1,0 +1,146 @@
+[
+  {
+    "asset_id": "town_building_floor_bay_v01",
+    "mesh_details": [
+      {
+        "name": "LOD0_Static",
+        "material_triangles": {
+          "MAT_Wood_Warm": 484,
+          "MAT_Metal_Brass": 112
+        },
+        "retained_hardware_triangles": null,
+        "closed_component_count": 15,
+        "negative_or_zero_volume_components": 0,
+        "min_component_volume_m3": 1.129720961519822e-06,
+        "zero_uv_area_faces": 0,
+        "uv_face_count": 596,
+        "min_uv_area": 2.9127930387673473e-06
+      },
+      {
+        "name": "LOD1_Static",
+        "material_triangles": {
+          "MAT_Wood_Warm": 250,
+          "MAT_Metal_Brass": 112
+        },
+        "retained_hardware_triangles": 112,
+        "closed_component_count": 15,
+        "negative_or_zero_volume_components": 0,
+        "min_component_volume_m3": 1.129720961519822e-06,
+        "zero_uv_area_faces": 0,
+        "uv_face_count": 362,
+        "min_uv_area": 3.506651186668819e-05
+      },
+      {
+        "name": "LOD2_Static",
+        "material_triangles": {
+          "MAT_Wood_Warm": 120,
+          "MAT_Metal_Brass": 112
+        },
+        "retained_hardware_triangles": 112,
+        "closed_component_count": 15,
+        "negative_or_zero_volume_components": 0,
+        "min_component_volume_m3": 1.129720961519822e-06,
+        "zero_uv_area_faces": 0,
+        "uv_face_count": 232,
+        "min_uv_area": 0.03347315240535274
+      }
+    ],
+    "protected_nonwood_lod_triangles_match": true
+  },
+  {
+    "asset_id": "town_building_gable_screen_v01",
+    "mesh_details": [
+      {
+        "name": "LOD0_Static",
+        "material_triangles": {
+          "MAT_Wood_Warm": 748,
+          "MAT_Metal_Brass": 112
+        },
+        "retained_hardware_triangles": null,
+        "closed_component_count": 21,
+        "negative_or_zero_volume_components": 0,
+        "min_component_volume_m3": 1.3685918626530728e-06,
+        "zero_uv_area_faces": 0,
+        "uv_face_count": 860,
+        "min_uv_area": 1.1243498807544938e-06
+      },
+      {
+        "name": "LOD1_Static",
+        "material_triangles": {
+          "MAT_Wood_Warm": 388,
+          "MAT_Metal_Brass": 112
+        },
+        "retained_hardware_triangles": 112,
+        "closed_component_count": 21,
+        "negative_or_zero_volume_components": 0,
+        "min_component_volume_m3": 1.3685918626530728e-06,
+        "zero_uv_area_faces": 0,
+        "uv_face_count": 500,
+        "min_uv_area": 4.71001837887286e-06
+      },
+      {
+        "name": "LOD2_Static",
+        "material_triangles": {
+          "MAT_Wood_Warm": 186,
+          "MAT_Metal_Brass": 112
+        },
+        "retained_hardware_triangles": 112,
+        "closed_component_count": 21,
+        "negative_or_zero_volume_components": 0,
+        "min_component_volume_m3": 1.3685918626530728e-06,
+        "zero_uv_area_faces": 0,
+        "uv_face_count": 298,
+        "min_uv_area": 0.008075620789443239
+      }
+    ],
+    "protected_nonwood_lod_triangles_match": true
+  },
+  {
+    "asset_id": "town_building_side_infill_v01",
+    "mesh_details": [
+      {
+        "name": "LOD0_Static",
+        "material_triangles": {
+          "MAT_Wood_Warm": 484,
+          "MAT_Metal_Brass": 112
+        },
+        "retained_hardware_triangles": null,
+        "closed_component_count": 15,
+        "negative_or_zero_volume_components": 0,
+        "min_component_volume_m3": 5.429155862657358e-07,
+        "zero_uv_area_faces": 0,
+        "uv_face_count": 596,
+        "min_uv_area": 7.290865362108434e-06
+      },
+      {
+        "name": "LOD1_Static",
+        "material_triangles": {
+          "MAT_Wood_Warm": 250,
+          "MAT_Metal_Brass": 112
+        },
+        "retained_hardware_triangles": 112,
+        "closed_component_count": 15,
+        "negative_or_zero_volume_components": 0,
+        "min_component_volume_m3": 5.429155862657358e-07,
+        "zero_uv_area_faces": 0,
+        "uv_face_count": 362,
+        "min_uv_area": 4.9370732588358e-05
+      },
+      {
+        "name": "LOD2_Static",
+        "material_triangles": {
+          "MAT_Wood_Warm": 120,
+          "MAT_Metal_Brass": 112
+        },
+        "retained_hardware_triangles": 112,
+        "closed_component_count": 15,
+        "negative_or_zero_volume_components": 0,
+        "min_component_volume_m3": 5.429155862657358e-07,
+        "zero_uv_area_faces": 0,
+        "uv_face_count": 232,
+        "min_uv_area": 0.03244305860996022
+      }
+    ],
+    "protected_nonwood_lod_triangles_match": true
+  }
+]

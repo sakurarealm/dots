@@ -1,0 +1,37 @@
+{
+  "id": "compatibility_assembly",
+  "attempt": 2,
+  "reviewed_at_utc": "2026-10-07T22:50:33.593293+00:00",
+  "status": "PASS_LOCAL_VISUAL_COMPATIBILITY_ONLY",
+  "scope": "Local compatibility assembly only, not a fourth completed building. Two images are Blender studio renders, not Unity screenshots. No full-house decoration, entrance, furnishing or containment criteria applied.",
+  "images": [
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/compatibility_assembly/assembly_perspective.png",
+      "sha256": "5ec28091e8252d30722c508c60b7daa0c33f19a9dddf720885995732ede468ec",
+      "opened_with": "view_image",
+      "observation": "修订后的局部组合棚拍实际复看：梁架、地板、侧填充与前山墙主形相对放置连贯，侧斜撑在可见部分到横档的交接比首轮完整；无可见大范围穿插或新增大片黑接头。地板重复纹、墙底/柱边亮缝仍见，不是实机或密闭房体证据。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/previews/compatibility_assembly/assembly_front.png",
+      "sha256": "e0de53687b51240f85e3ac8841d4535c401955ccaedbd7ba162982df0eb23d3e",
+      "opened_with": "view_image",
+      "observation": "修订后的前视实际复看：地板在两前柱内，山墙与梁架主形一致，山墙斜边到椽下连续开放带仍在；是通风留空型局部兼容展示，不能称防雨封闭建筑。不能由这张正视验证背斜撑深度接触，已另以侧墙左右/背图复查。"
+    }
+  ],
+  "findings": [
+    "Visible major frame/floor/gable/side-infill placement is coherent; no obvious broad interpenetration or newly detached support visible in these two views.",
+    "Detached side-brace blocker has separately been resolved by actual back/left/right review of side-infill attempt2.",
+    "Gable upper-perimeter ventilation opening and floor/column/wall-bottom gaps remain visible; local visual compatibility does not demonstrate enclosed weatherproof housing."
+  ],
+  "technical_report": "/workspace/shared/aether-assets-batch2/reports/compatibility-envelope-report.json",
+  "not_validated": [
+    "Unity import/runtime",
+    "HDRP shader/material appearance",
+    "collision/navigation",
+    "runtime walkability/head clearance",
+    "weatherproof enclosure",
+    "LOD runtime transitions"
+  ],
+  "boundary": "Both revised final images actually re-opened sequentially with view_image after maker confirmed complete set. No source/model/image edit, no render execution, no user computer, no Codex, no Unity pass claim. First assembly report and byte-identical original evidence retained.",
+  "previous_attempt_report": "/workspace/shared/aether-assets-batch2/reviews/compatibility_assembly_attempt1.json"
+}

@@ -1,0 +1,172 @@
+{
+  "id": "town_building_side_infill_v01",
+  "verdict": "FAIL",
+  "score": 14,
+  "dims": {
+    "silhouette": 3,
+    "proportion": 3,
+    "color_id": 3,
+    "material": 2,
+    "emissive": 3,
+    "craft": 0
+  },
+  "attempt": 1,
+  "reviewer": "independent_second_asset_batch_visual_review",
+  "reviewed_at_utc": "2026-10-07T22:40:27.106057+00:00",
+  "gate": {
+    "scale": "each dimension 0-3",
+    "pass_minimum": 13,
+    "zero_dimension_allowed": false,
+    "second_failure": "ESCALATED; no additional automatic rework"
+  },
+  "asset_scope": "Standalone narrow side-wall timber infill sample, reported 0.60 x 0.075 x 1.90 meters. It is not a door, complete sealed wall, or full building; whole-building doorway/decoration requirements do not apply.",
+  "emissive_applicability": "No emissive feature is required for ordinary static floor. Score 3 recognizes no false emissive interaction cue; no lighting/shader validation is implied.",
+  "issues": [
+    "阻断：left/right后方长斜撑全长与竖板之间透出连续背景缝，back斜撑两端又未接到上下横档，没有可见连接件，读成悬空独立木条。沿厚度方向移至板背贴合或轻微吃入，并把两端延长至上下横档可读接头；保持0.60×0.075×1.90m外包络，避免共面闪烁/黑块，重出全12图复审。",
+    "非阻断：detail六条竖板的宽柔暗带近似逐板重复。今后保留共享低频木图，通过逐板UV偏移/翻转与约6–10%明度差打破同相，不扩大本次返修范围。"
+  ],
+  "dimension_reasons": {
+    "silhouette": "front/back、透视、灰模与图标都可读成窄竖板墙填充，上下封边和后横档清楚；不将其当完整建筑。",
+    "proportion": "细长、薄厚与板宽相对比例合理，无拉长压扁；0.60×0.075×1.90m绝对尺度与1cm侧边净距来自技术报告而非图片标定。斜撑脱离表面的问题集中记在craft，不重复扣比例。",
+    "color_id": "暖木主体统一，暗封边形成克制分层，少量小五金不增加饱和色焦点；静态构件不强加彩色或发光饰物。",
+    "material": "沿竖板长轴的低频渐变、高粗糙哑光方向清楚；多块板柔暗带近似重复，小五金反射身份弱，所以未满分。",
+    "emissive": "没有发光白斑与假交互提示，符合普通静态填充模块无发光需求。",
+    "craft": "left/right明确见背斜撑整条与板背分离的背景缝，back两端也不接上下横档且未见连接件。主要支撑无可读连接，是结构工艺阻断，给0；因此总分虽≥13仍FAIL。"
+  },
+  "images": [
+    {
+      "path": "/workspace/shared/aether-assets-batch2/reviews/evidence/town_building_side_infill_v01_attempt1/front.png",
+      "original_source_path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/front.png",
+      "sha256": "5aab99c73996cdbbe617d878f3f83d5e6ea1337529aea2a30f1d8539d433caa9",
+      "opened_with": "view_image",
+      "viewed_path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/front.png",
+      "observation": "六条竖板、细透背景缝和上下封边可读，后横档/斜撑局部透过缝可见；少量小钉头克制。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/reviews/evidence/town_building_side_infill_v01_attempt1/back.png",
+      "original_source_path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/back.png",
+      "sha256": "6e5be7178b7e2b3ffe10c3293c06cf01981da75a19e62a39b4619a8cf27e8154",
+      "opened_with": "view_image",
+      "viewed_path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/back.png",
+      "observation": "后方上下横档与长斜撑可见；斜撑两端停在上下横档之间，有明显端部空距，没有可见端部连接件。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/reviews/evidence/town_building_side_infill_v01_attempt1/left.png",
+      "original_source_path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/left.png",
+      "sha256": "b6ff397c3beea212296d7126c144d0fde0d0ec2c3e3a070d9b736880975827f9",
+      "opened_with": "view_image",
+      "viewed_path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/left.png",
+      "observation": "后方长斜撑侧投影为独立细条，全长与板背之间透出背景空隙，端部也未接后横档；是本轮工艺阻断证据。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/reviews/evidence/town_building_side_infill_v01_attempt1/right.png",
+      "original_source_path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/right.png",
+      "sha256": "8d29573513a40162807a9aaf15ea7473670182230e3b2dd7696a9b540ccc6480",
+      "opened_with": "view_image",
+      "viewed_path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/right.png",
+      "observation": "与左视一致，斜撑为远离板背的独立细条，连续背景缝可见，未读出固定连接。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/reviews/evidence/town_building_side_infill_v01_attempt1/top.png",
+      "original_source_path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/top.png",
+      "sha256": "e80d14a50272a7cdcb7d73f6c2b28f642e9799bf6c3907875dcf94c9ed6fbafb",
+      "opened_with": "view_image",
+      "viewed_path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/top.png",
+      "observation": "只可见窄顶封边，端部整齐；视角遮住后撑，不能用顶图推翻侧视悬空证据。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/reviews/evidence/town_building_side_infill_v01_attempt1/perspective.png",
+      "original_source_path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/perspective.png",
+      "sha256": "b423709a808ca72f36d16ada27f77a3fa20df95638dc4ceca9a96efe581b716a",
+      "opened_with": "view_image",
+      "viewed_path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/perspective.png",
+      "observation": "正面窄竖板面和上下封边明确，板缝深浅可读；此正面棚拍机位基本遮住后斜撑问题，不能仅据此放行。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/reviews/evidence/town_building_side_infill_v01_attempt1/detail.png",
+      "original_source_path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/detail.png",
+      "sha256": "30f6abe9cd3f143c26dcfc43295673ec92466566de0209f9eec88c04e1d8e497",
+      "opened_with": "view_image",
+      "viewed_path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/detail.png",
+      "observation": "六块竖板沿长轴的宽软明暗带近似重复，缝为细暗口；哑光主体可辨，无高频纹主导。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/reviews/evidence/town_building_side_infill_v01_attempt1/clay.png",
+      "original_source_path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/clay.png",
+      "sha256": "bc6ef70d2f17c82cb5b9df6cf2490ac562274a1de9f088ab0dd7062a1a83e554",
+      "opened_with": "view_image",
+      "viewed_path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/clay.png",
+      "observation": "灰模前面六板与封边可读，前向主面无大块破面；该机位不完整显示后斜撑连接，不能证明工艺已通过。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/reviews/evidence/town_building_side_infill_v01_attempt1/lod0.png",
+      "original_source_path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/lod0.png",
+      "sha256": "6a8717a8dcee8131589c7bb4731b8a361b228b2e34563f802bb1dbac2f07cfff",
+      "opened_with": "view_image",
+      "viewed_path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/lod0.png",
+      "observation": "同机位窄竖板、封边与少量五金为基准；背斜撑连接不在此视角完整显示。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/reviews/evidence/town_building_side_infill_v01_attempt1/lod1.png",
+      "original_source_path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/lod1.png",
+      "sha256": "4f26fe9dfba6bcb35ec5943a2c701edee45cbfefc176918a507c3f969ca2d9df",
+      "opened_with": "view_image",
+      "viewed_path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/lod1.png",
+      "observation": "主轮廓、六板节奏、封边及小五金保持，局部缝边明暗变化；背斜撑问题仍不可由此机位豁免。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/reviews/evidence/town_building_side_infill_v01_attempt1/lod2.png",
+      "original_source_path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/lod2.png",
+      "sha256": "54efc0d464680843dab64ade4b27910f48975213073193c149c10ee6286de3f3",
+      "opened_with": "view_image",
+      "viewed_path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/lod2.png",
+      "observation": "主轮廓、封边与竖板节奏保持，缝线局部更硬；没有可用来判定后斜撑已连接的视角证据。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets-batch2/reviews/evidence/town_building_side_infill_v01_attempt1/icon.png",
+      "original_source_path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/icon.png",
+      "sha256": "6b13334a5054201d44036e6523ff62efa02744d99c50e2110c27fbd75a39af71",
+      "opened_with": "view_image",
+      "viewed_path": "/workspace/shared/aether-assets-batch2/previews/town_building_side_infill_v01/icon.png",
+      "observation": "透明256图标中窄墙填充轮廓、竖板与上下封边可辨，细五金及后撑连接不可辨，无文字/背景块。"
+    }
+  ],
+  "references_read": [
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Tools/ArtForge/PROMPT_review.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/ArtDirection/2026-10-03_治愈奇幻风格化改造方案.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/ArtDirection/2026-09-29_未眠野美术三纪律落地.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/ArtStudy/2026-10-01_美术参考与原创资产管线.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/ZCodeSync/memory/cocricot-blender-rebuild.md"
+  ],
+  "consistency_reference_reviews_read": [
+    "/workspace/shared/aether-assets/reviews/independent_batch_summary.json",
+    "/workspace/shared/aether-assets/reviews/town_building_a_frame_bay_v01.json",
+    "/workspace/shared/aether-assets/reviews/town_building_a_frame_bay_v01_attempt2.json",
+    "/workspace/shared/aether-assets/reviews/town_shared_workbench_v01.json",
+    "/workspace/shared/aether-assets/reviews/town_storage_open_crate_v01.json"
+  ],
+  "reference_limits": "Newest supplied 2026-10-03 proposal B1, A-frame vertical infill requirement and M1-M4 used as provisional sample direction. Earlier outline/rim-light/Standard instructions are not imposed; full-building criteria do not apply to standalone infill. No latest Unity project rule guarantee.",
+  "evidence_report_read": "/workspace/shared/aether-assets-batch2/reports/town_building_side_infill_v01.json",
+  "not_validated": [
+    "Unity import",
+    "Unity runtime",
+    "HDRP shader/material appearance",
+    "collision/navigation",
+    "runtime containment/weatherproofing",
+    "LOD screen-space transitions/TAA",
+    "independent absolute scale measurement",
+    "UV pixel-density audit",
+    "compatibility assembly visual check pending images"
+  ],
+  "boundary": "Independent image-based verdict only. All 12 listed original images actually opened sequentially with view_image after maker confirmed final complete set. Original PNGs preserved byte-for-byte in reviewer evidence before maker rework. No source/export/image modifications, no rendering, no Blender execution, no Codex task, no user computer, no Unity pass claim.",
+  "supplementary_technical_reports_read": [
+    "/workspace/shared/aether-assets-batch2/reports/compatibility-envelope-report.json",
+    "/workspace/shared/aether-assets-batch2/reports/component-normal-uv-report.json"
+  ],
+  "technical_evidence_scope": "Reports describe mesh/UV/normal-component checks and geometry envelope/plane clearances only. No positive geometry report overrides visible detached brace. Reviewer did not independently run technical tests.",
+  "maker_followup_evidence": {
+    "received_at_utc": "2026-10-07T22:39:29Z",
+    "scope": "Maker independently checked source after reviewer flagged images; not basis for initial visual finding.",
+    "confirmation": "Maker reports diagonal brace center Y=0.0275m, thickness 0.020m, 0.020m gap from plank back; endpoints Z=0.33/1.56m vs rear crossbar centers Z=0.24/1.66m. Confirms detached appearance; repair proposed but not yet performed."
+  }
+}
