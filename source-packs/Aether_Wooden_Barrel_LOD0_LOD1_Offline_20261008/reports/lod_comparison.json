@@ -1,0 +1,58 @@
+{
+  "scope": "Geometric projected silhouette union of actual triangles at four fixed orthographic views, 512px; excludes shadows/texture/lighting. Frozen comparison carrier is untouched.",
+  "baseline_triangles": 3000,
+  "LOD1_triangles": 1392,
+  "triangle_reduction_percent": 53.6,
+  "dimensions": {
+    "baseline": [
+      0.9288232326507568,
+      0.9288232326507568,
+      1.059999942779541
+    ],
+    "LOD1": [
+      0.9299942851066589,
+      0.9299942851066589,
+      1.059999942779541
+    ]
+  },
+  "max_axis_bound_growth_m": 0.0005855262279510498,
+  "views": [
+    {
+      "view": 0,
+      "silhouette_IoU": 0.9976569909068933,
+      "different_pixels": 252,
+      "baseline_area_pixels": 107394,
+      "LOD1_area_pixels": 107462
+    },
+    {
+      "view": 1,
+      "silhouette_IoU": 0.9976569909068933,
+      "different_pixels": 252,
+      "baseline_area_pixels": 107394,
+      "LOD1_area_pixels": 107462
+    },
+    {
+      "view": 2,
+      "silhouette_IoU": 0.9976569909068933,
+      "different_pixels": 252,
+      "baseline_area_pixels": 107394,
+      "LOD1_area_pixels": 107462
+    },
+    {
+      "view": 3,
+      "silhouette_IoU": 0.9976569909068933,
+      "different_pixels": 252,
+      "baseline_area_pixels": 107394,
+      "LOD1_area_pixels": 107462
+    }
+  ],
+  "uv_comparison": {
+    "main_mapping_formula": "Same directional stave mapping and lid mapping; no atlas rebake. LOD removes chamfer/rivet topology and lowers lid perimeter subdivisions.",
+    "matching_coordinate_keys": 224,
+    "matched_uv_loops": 864,
+    "maximum_uv_distance_retained_coordinate": 0.0,
+    "mean_uv_distance_retained_coordinate": 0.0,
+    "qualification": "Only retained positions within 1e-6m are compared; removed/new chamfer positions do not have 1:1 UV correspondences."
+  },
+  "remaining_test": "Unity import, scene/camera distance LOD transitions, TAA, project cel shader, collision, phone frame/memory budgets not tested"
+}

@@ -1,0 +1,131 @@
+{
+  "id": "town_shared_workbench_v01",
+  "verdict": "PASS",
+  "score": 16,
+  "dims": {
+    "silhouette": 3,
+    "proportion": 3,
+    "color_id": 3,
+    "material": 2,
+    "emissive": 3,
+    "craft": 2
+  },
+  "attempt": 1,
+  "reviewer": "independent_revised_asset_visual_review",
+  "reviewed_at_utc": "2026-10-07T21:57:52.113988+00:00",
+  "gate": {
+    "scale": "each dimension 0-3",
+    "pass_minimum": 13,
+    "zero_dimension_allowed": false,
+    "second_failure": "ESCALATED; no additional automatic rework"
+  },
+  "asset_scope": "Reusable original woodworking worksite visual with separate wooden vise, empty lower shelf and moss-green canvas. This is a static asset review, not interaction/animation/IK or finished-building review.",
+  "emissive_applicability": "No emissive feature is required for this static workbench sample. Score 3 recognizes no false emissive interaction cue; it does not validate an interactive workstation lighting system.",
+  "issues": [
+    "非阻断：detail/clay中展开帆布过厚、过直，卷端为纯黑空口，像硬垫。后续将展开部分的可见边收薄（例如≤5mm作为建议值），加1-2条低模柔和折痕，并在卷端保留两层卷边/织物明暗；保持同一绿色共享帆布材质。",
+    "非阻断：LOD0/1/2右侧下层搁架的板缝暗口形状与台面板缝明暗有可见变化。未来接线时按真实屏幕占比验证切换；若近距离跳变可见，保护前沿/侧缘的主要缝边，而不是增加细纹。"
+  ],
+  "dimension_reasons": {
+    "silhouette": "前木夹钳与垂直手柄让类别区别于普通桌；四腿、厚台面和空下层架清楚，图标仍读得出木工作台。",
+    "proportion": "台面、围梁、腿与夹钳有合理相对关系，侧视可辨两钳口，无明显拉长/压扁/穿插。0.78m工作面来自附带尺寸/锚点报告，图中无标定人物，未独立量测绝对尺度。",
+    "color_id": "暖木明确占主导，苔绿色卷布为唯一明显色点，小面积黄铜不另起饱和主色；各视角绿色均可见而不夺主体。",
+    "material": "木材低频宽笔触、沿长轴渐变与哑光身份清楚；五金面积克制。绿色布虽然粗糙色块可分，但展开部分板状且卷端缺层叠信息，材质身份未满分。",
+    "emissive": "不发光，无糊白斑和假交互信号，不强迫增加装饰灯。",
+    "craft": "台面几何缝、边面和夹钳支撑较干净，LOD识别件保留；布边的硬板感及下层架/板缝的LOD对比变化仍有优化空间。"
+  },
+  "images": [
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_shared_workbench_v01/front.png",
+      "sha256": "c2870d50410ff1f8058f96d3bac2d3eb682839166b3193df8f37f703f0c60059",
+      "opened_with": "view_image",
+      "observation": "工作台水平台面、厚立柱、下层搁架和左前木夹钳清楚；夹钳手柄前向可见，绿色卷布是唯一明显色点，无发光。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_shared_workbench_v01/back.png",
+      "sha256": "68d6662a0f422be1ba9fa89da5b877088e116b5c7fcceaf04aef9c443c96d9c6",
+      "opened_with": "view_image",
+      "observation": "背侧台面、后围梁、下层搁架结构完整，支撑未见悬空或穿插；绿色布与正视对应。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_shared_workbench_v01/left.png",
+      "sha256": "131448043fae866e6c55d656b2de38200af615c08bf6c3c324ae5f98bc41185c",
+      "opened_with": "view_image",
+      "observation": "侧视能分出夹钳两钳口、横向螺杆和垂直手柄，台面五块板厚度一致，搁架有板间空隙；布卷端为深黑空口且顶部短带在此角度显得较硬。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_shared_workbench_v01/right.png",
+      "sha256": "db3f3d3caafaec53f2cc74c9c9ebb5b4c9d353f35c2867789c6bdf5485ba1ffb",
+      "opened_with": "view_image",
+      "observation": "与左视结构一致，夹钳向前伸出合理，四腿在正交侧视重叠属于视角而非缺腿；未见明显错位。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_shared_workbench_v01/top.png",
+      "sha256": "15dc40dc6189df56cfb1fa5f63f14e3fc8305bd761e3923c87bbbd24ce6438a7",
+      "opened_with": "view_image",
+      "observation": "台面五块长板为真实几何缝，四枚小钉头可辨；绿色卷布局部展开，未烘入库存或文字。宽低频木色方向清楚，但各板梯度仍较一致。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_shared_workbench_v01/perspective.png",
+      "sha256": "08ebf3b71fa5a32ca46d52a84fd41abefb085d4777dd1628b423def758e96a77",
+      "opened_with": "view_image",
+      "observation": "工作台四腿、空下层架、围梁与前夹钳支撑关系清楚。夹钳突出形成类别剪影，绿色布小于主体且不争主色，木材为暖哑光宽笔触。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_shared_workbench_v01/detail.png",
+      "sha256": "082eb85b63c9f89cec2530f7d723eaf3e932776340c09c78fdbd282f3339771c",
+      "opened_with": "view_image",
+      "observation": "沿木板长轴的低频渐变/宽笔触可见，五金钉头小面积黄铜色。绿色展开布边较厚、面过直，卷端黑口缺层叠织物信息，较像硬垫；没有明显穿插。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_shared_workbench_v01/clay.png",
+      "sha256": "e3fec8b0205935e7bfd9c91d045fa0b553a2493177952b3b02671fd9f86a0ff9",
+      "opened_with": "view_image",
+      "observation": "灰模仍能辨认板缝、围梁、腿、搁架、夹钳/手柄；大面干净无描边，布展开面的板状厚度较突出。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_shared_workbench_v01/lod0.png",
+      "sha256": "6ee809bf1f4cbba883b1874e2ea72dff7bbdef97809b2d73973029c88d1a8404",
+      "opened_with": "view_image",
+      "observation": "同机位工作台、夹钳、布卷、台面钉头、搁架可读，为对照基准；右侧下层架有明显黑色缝口。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_shared_workbench_v01/lod1.png",
+      "sha256": "6f82bd481926af877e62e7896d806933ab0ed8c040413d3b5d59c12213aa3a19",
+      "opened_with": "view_image",
+      "observation": "同机位主轮廓、夹钳/手柄、布卷和台面四钉头保持；右侧搁架缝口明暗形状与LOD0不同，未导致类别丢失。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_shared_workbench_v01/lod2.png",
+      "sha256": "052112e7e07e0127b5c759cde4c401e5d16af5f06968e80e2af66ffde86a380e",
+      "opened_with": "view_image",
+      "observation": "主轮廓与识别件继续保留，台面板缝较LOD0/1更硬明显，右侧搁架空隙变为细亮线。尚需引擎里按实际切换距离检查跳变，不能由棚拍证明稳定。"
+    },
+    {
+      "path": "/workspace/shared/aether-assets/previews/town_shared_workbench_v01/icon.png",
+      "sha256": "59982fd3bdf23534c933cab4d61e982796e49c75abf24e7935dd637f48b7c516",
+      "opened_with": "view_image",
+      "observation": "透明256图标里木工工作台与前夹钳可辨，绿卷布读得出单一色点，未含文字/库存或阴影背景块。"
+    }
+  ],
+  "references_read": [
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Tools/ArtForge/PROMPT_review.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/ArtDirection/2026-10-03_治愈奇幻风格化改造方案.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/ArtDirection/2026-09-29_未眠野美术三纪律落地.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/ArtStudy/2026-10-01_美术参考与原创资产管线.md",
+    "/workspace/shared/aether-assets/references/handoff-2026-10-04/Docs/Design/TownGameplay/2026-09-29/ART-P0-SAMPLES.md"
+  ],
+  "reference_limits": "Newest supplied 2026-10-03 proposal M1-M4 used as provisional sample style. Earlier outline/rim-light/Standard instructions are not imposed. No current-workspace/latest-rule guarantee.",
+  "evidence_report_read": "/workspace/shared/aether-assets/reports/town_shared_workbench_v01.json",
+  "not_validated": [
+    "Unity import",
+    "Unity runtime",
+    "HDRP shader/material appearance",
+    "collision/navigation",
+    "LOD screen-space transitions/TAA",
+    "vise operation/animation/thread travel",
+    "character IK or reachability",
+    "independent absolute scale measurement",
+    "UV pixel-density audit"
+  ],
+  "boundary": "Independent image-based verdict only. All 12 listed images actually opened sequentially with view_image after maker confirmed complete revised set. No source/export/image modifications, no Blender execution, no Codex task, no user computer, no Unity pass claim."
+}
