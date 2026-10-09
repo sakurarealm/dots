@@ -1,0 +1,103 @@
+{
+  "asset": "grindstone",
+  "revision": "final",
+  "triangles": 1248,
+  "dimensions_m": [
+    1.0099999606609344,
+    0.6700000166893005,
+    1.159999966621399
+  ],
+  "materials": [
+    "Aether_Axle_Charcoal",
+    "Aether_Grindstone_Face",
+    "Aether_Grindstone_WarmGrey",
+    "Aether_Shared_MatteBrass",
+    "Aether_Shared_WarmWood",
+    "Aether_Wood_Endgrain_Dark"
+  ],
+  "root_pivot": [
+    0,
+    0,
+    0
+  ],
+  "qa_passed": true,
+  "runtime_mesh_count": 2,
+  "runtime_meshes": [
+    "Grindstone_StaticFrame",
+    "Grindstone_Grindstone_Rotation"
+  ],
+  "files": [
+    {
+      "file": "front_512.png",
+      "bytes": 380274,
+      "sha256": "31fd7e2e9c0c12c9c0fb248e06f648dfb89b27d0ad0ea18822f1390842697373"
+    },
+    {
+      "file": "grindstone.blend",
+      "bytes": 1052476,
+      "sha256": "5a6be2da835284971c7a0e823db651e358e66396702f2afe069bea6477ea040c"
+    },
+    {
+      "file": "grindstone.fbx",
+      "bytes": 182300,
+      "sha256": "8769df360b8d89cfbf59798fef2d3cbb0c63287b9ca2da55be64a2dc6dc05e18"
+    },
+    {
+      "file": "grindstone.glb",
+      "bytes": 221948,
+      "sha256": "c2c97d00363eb862b28b8f83d5ea4ae078d161dbc6fb0fbf4e4de724b66f03bb"
+    },
+    {
+      "file": "grindstone_contact_1024.png",
+      "bytes": 1109266,
+      "sha256": "ee0ffdf389def9331bc56059c45a13d5b5ab22503ad823acac23835c99f886f0"
+    },
+    {
+      "file": "grindstone_contact_512.png",
+      "bytes": 239328,
+      "sha256": "3021e4fcda2086901510a4d5a48bd423b4445d972428df44500c2ec1fe7c1825"
+    },
+    {
+      "file": "hero_1024.png",
+      "bytes": 1487904,
+      "sha256": "e12d8d970bdf328fc054585db1bc5efc2f0474222eee6935ea95294ddf971a18"
+    },
+    {
+      "file": "hero_512.png",
+      "bytes": 390571,
+      "sha256": "d77aeb83f01515f60bbc85eedaf83fc101e09a2c23b208bdccd5e894e8ed5b7c"
+    },
+    {
+      "file": "mesh_qa.json",
+      "bytes": 14190,
+      "sha256": "c6e1f854fe9f7f90f8b9c97377c40b564715a7c8758c6c8a6cb605c57d0c5650"
+    },
+    {
+      "file": "rear_512.png",
+      "bytes": 404672,
+      "sha256": "e5f78293b035650e12207aa831ba275913565e37b7507821cda0461cdca7b13b"
+    },
+    {
+      "file": "runtime_mesh_qa.json",
+      "bytes": 2222,
+      "sha256": "d549c4c090899ff14e6ac6e7798741b70613e87248c9a95df1b3853de5bffe56"
+    },
+    {
+      "file": "side_512.png",
+      "bytes": 365502,
+      "sha256": "721e9bfb682d04798f75d4a90df2e7b2de6f694a6d3844a1c9f33faa8cfaf922"
+    }
+  ],
+  "bounds_min_m": [
+    -0.4099999964237213,
+    -0.33000001311302185,
+    0.0
+  ],
+  "bounds_max_m": [
+    0.5999999642372131,
+    0.3400000035762787,
+    1.159999966621399
+  ],
+  "material_slot_count_total": 9,
+  "budget_target_triangles": 1500
+}

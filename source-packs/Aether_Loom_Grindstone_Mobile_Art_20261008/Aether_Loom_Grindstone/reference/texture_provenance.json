@@ -1,0 +1,20 @@
+[
+  {
+    "file": "textures/T_Wood_Warm_BaseColor.png",
+    "source_zip": "aether_04_shared_resources_2026-10-07.zip",
+    "source_entry": "aether-first-batch/textures/T_Wood_Warm_BaseColor.png",
+    "sha256": "7944c393fc2b1520170d9d02d611b193461aa98b86e42cd28051ffffe42ae4e0"
+  },
+  {
+    "file": "textures/T_Cloth_Canvas_BaseColor.png",
+    "source_zip": "aether_04_shared_resources_2026-10-07.zip",
+    "source_entry": "aether-first-batch/textures/T_Cloth_Canvas_BaseColor.png",
+    "sha256": "3f1197ee39196d9848a95f8921ab5afe3c66fcd3bf6ffaad13cbc7cc89f0e7e0"
+  },
+  {
+    "file": "textures/T_Metal_Brass_BaseColor.png",
+    "source_zip": "aether_04_shared_resources_2026-10-07.zip",
+    "source_entry": "aether-first-batch/textures/T_Metal_Brass_BaseColor.png",
+    "sha256": "55d6007ba1f89a84ce9499b451164c4e0c8468c26a16a9f372a8dad8bd30b707"
+  }
+]

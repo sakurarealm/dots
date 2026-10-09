@@ -1,0 +1,1772 @@
+{
+  "asset": "loom",
+  "revision": "final",
+  "blender_version": "4.3.2",
+  "scope": "standalone Blender geometry/UV QA; current project rules and Unity shader/runtime unverified",
+  "units": "1 Blender unit = 1 metre",
+  "root_pivot_m": [
+    0,
+    0,
+    0
+  ],
+  "bounds_min_m": [
+    -0.5450000166893005,
+    -0.45500001311302185,
+    0.0
+  ],
+  "bounds_max_m": [
+    0.5450000166893005,
+    0.45500001311302185,
+    1.3599998950958252
+  ],
+  "dimensions_m": [
+    1.090000033378601,
+    0.9100000262260437,
+    1.3599998950958252
+  ],
+  "triangles": 2708,
+  "mesh_count": 79,
+  "material_count_used": 6,
+  "components": [
+    {
+      "name": "Loom_Sled_-0.46",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.019651314803465023,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Loom_Post_-0.46_0.28",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.012845083086629669,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Loom_Post_-0.46_-0.29",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.008406833111872255,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Side_Diagonal_-0.46",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.0040037867745929615,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Side_Warp_Rail_-0.46",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.003794461125794932,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Loom_Sled_0.46",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.019651314803465023,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Loom_Post_0.46_0.28",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.012845083086629669,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Loom_Post_0.46_-0.29",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.008406833111872255,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Side_Diagonal_0.46",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.0040037867745929615,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Side_Warp_Rail_0.46",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.003794461125794932,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Rear_Top_Beam",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.017163572766447772,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Lower_Tie_Beam",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.011879333095928032,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Front_Chest_Beam",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.016043558023978183,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Beam",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Wood_Endgrain_Dark"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.008674829421355557,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Cloth_Beam",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Wood_Endgrain_Dark"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.017087999404224116,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Beam_End_-0.52_1.135",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_MatteBrass"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.0005443199613112565,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Beam_End_-0.52_0.62",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_MatteBrass"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.0005443199613112565,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Beam_End_0.52_1.135",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_MatteBrass"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.0005443199613112565,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Beam_End_0.52_0.62",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_MatteBrass"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.0005443199613112565,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_0",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.32695569219842e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_1",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.3269663612657607e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_2",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.3269642936059715e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_3",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.3269536245477538e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_4",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.326964293606529e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_5",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.326961026731866e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_6",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.326958959077538e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_7",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.3269663612659382e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_8",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.3269642936065597e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_9",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.3269589590771828e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_10",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.326961626341679e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_11",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.3269642936062974e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_12",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.3269616263415648e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_13",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.3269616263414872e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_14",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.3269622931576907e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_15",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.3269622931577435e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_16",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.32696229315774e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_17",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.326961626341563e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_18",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.326961626341689e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_19",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.3269642936062412e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_20",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.3269616263415018e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_21",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.3269589590768518e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_22",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.326964293606504e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_23",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.3269663612659558e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_24",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.3269589590773983e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_25",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.32696102673216e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_26",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.3269642936065e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_27",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.3269536245477754e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_28",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.326964293605972e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_29",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.3269663612661984e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Warp_Thread_30",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 2.3269556921987487e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Woven_Cloth0",
+      "triangles": 28,
+      "vertices": 16,
+      "materials": [
+        "Aether_Shared_MossCanvas"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.00110882315295875,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Woven_Cloth_Roll",
+      "triangles": 60,
+      "vertices": 32,
+      "materials": [
+        "Aether_Shared_MossCanvas"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.020169713202495873,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Heddle_Side_-0.405",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.00042868666065643256,
+      "parent": "Heddle_Lift_Pivot",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Heddle_Side_0.405",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.00042868666065643256,
+      "parent": "Heddle_Lift_Pivot",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Heddle_Rail_0.918",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.001390916655069213,
+      "parent": "Heddle_Lift_Pivot",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Heddle_Rail_1.11",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.001390916655069213,
+      "parent": "Heddle_Lift_Pivot",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Beater_Upright_-0.405",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.0007405505878645603,
+      "parent": "Beater_Swing_Pivot",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Beater_Upright_0.405",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.0007405505878645603,
+      "parent": "Beater_Swing_Pivot",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Beater_Rail_0.864",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.0019750917743943663,
+      "parent": "Beater_Swing_Pivot",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Beater_Rail_1.065",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.0019750917743943663,
+      "parent": "Beater_Swing_Pivot",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Reed_Slat_0",
+      "triangles": 12,
+      "vertices": 8,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 1.559962429963851e-05,
+      "parent": "Beater_Swing_Pivot",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Reed_Slat_1",
+      "triangles": 12,
+      "vertices": 8,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 1.559962429963851e-05,
+      "parent": "Beater_Swing_Pivot",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Reed_Slat_2",
+      "triangles": 12,
+      "vertices": 8,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 1.559962429963851e-05,
+      "parent": "Beater_Swing_Pivot",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Reed_Slat_3",
+      "triangles": 12,
+      "vertices": 8,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 1.559962429963851e-05,
+      "parent": "Beater_Swing_Pivot",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Reed_Slat_4",
+      "triangles": 12,
+      "vertices": 8,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 1.559962429963851e-05,
+      "parent": "Beater_Swing_Pivot",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Reed_Slat_5",
+      "triangles": 12,
+      "vertices": 8,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 1.559962429963851e-05,
+      "parent": "Beater_Swing_Pivot",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Reed_Slat_6",
+      "triangles": 12,
+      "vertices": 8,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 1.559962429963851e-05,
+      "parent": "Beater_Swing_Pivot",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Reed_Slat_7",
+      "triangles": 12,
+      "vertices": 8,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 1.559962429963851e-05,
+      "parent": "Beater_Swing_Pivot",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Reed_Slat_8",
+      "triangles": 12,
+      "vertices": 8,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 1.559962429963851e-05,
+      "parent": "Beater_Swing_Pivot",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Reed_Slat_9",
+      "triangles": 12,
+      "vertices": 8,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 1.559962429963851e-05,
+      "parent": "Beater_Swing_Pivot",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Reed_Slat_10",
+      "triangles": 12,
+      "vertices": 8,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 1.559962429963851e-05,
+      "parent": "Beater_Swing_Pivot",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Reed_Slat_11",
+      "triangles": 12,
+      "vertices": 8,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 1.559962429963851e-05,
+      "parent": "Beater_Swing_Pivot",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Reed_Slat_12",
+      "triangles": 12,
+      "vertices": 8,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 1.559962694084034e-05,
+      "parent": "Beater_Swing_Pivot",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Treadle_-0.17",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.0029973159183602003,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Treadle_Link_-0.17",
+      "triangles": 12,
+      "vertices": 8,
+      "materials": [
+        "Aether_Axle_Charcoal"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 9.510815499662626e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Treadle_0.17",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.0029973159183602003,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Treadle_Link_0.17",
+      "triangles": 12,
+      "vertices": 8,
+      "materials": [
+        "Aether_Axle_Charcoal"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 9.510815499662626e-05,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Boat_Shuttle",
+      "triangles": 12,
+      "vertices": 8,
+      "materials": [
+        "Aether_Wood_Endgrain_Dark"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.0004480005224942844,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Shuttle_Bobbin",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.000264297654399564,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "passed": true,
+  "intentional_component_overlap": "joined structural beams, axles, cloth roll and yarn contacts. Not a boolean-union or physics acceptance claim."
+}

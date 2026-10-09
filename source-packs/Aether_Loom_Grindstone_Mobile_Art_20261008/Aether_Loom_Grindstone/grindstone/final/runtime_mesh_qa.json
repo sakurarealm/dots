@@ -1,0 +1,88 @@
+{
+  "asset": "grindstone",
+  "revision": "final",
+  "blender_version": "4.3.2",
+  "scope": "standalone Blender geometry/UV QA; current project rules and Unity shader/runtime unverified",
+  "units": "1 Blender unit = 1 metre",
+  "root_pivot_m": [
+    0,
+    0,
+    0
+  ],
+  "bounds_min_m": [
+    -0.4099999964237213,
+    -0.33000001311302185,
+    0.0
+  ],
+  "bounds_max_m": [
+    0.5999999642372131,
+    0.3400000035762787,
+    1.159999966621399
+  ],
+  "dimensions_m": [
+    1.0099999606609344,
+    0.6700000166893005,
+    1.159999966621399
+  ],
+  "triangles": 1248,
+  "mesh_count": 2,
+  "material_count_used": 6,
+  "components": [
+    {
+      "name": "Grindstone_StaticFrame",
+      "triangles": 848,
+      "vertices": 464,
+      "materials": [
+        "Aether_Shared_WarmWood",
+        "Aether_Wood_Endgrain_Dark",
+        "Aether_Shared_MatteBrass",
+        "Aether_Axle_Charcoal"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.11581283786987423,
+      "parent": "Aether_Grindstone_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Grindstone_Grindstone_Rotation",
+      "triangles": 400,
+      "vertices": 212,
+      "materials": [
+        "Aether_Grindstone_WarmGrey",
+        "Aether_Grindstone_Face",
+        "Aether_Axle_Charcoal",
+        "Aether_Shared_MatteBrass",
+        "Aether_Wood_Endgrain_Dark"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.0847854304352937,
+      "parent": "Grindstone_Rotation_Pivot",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "passed": true,
+  "intentional_component_overlap": "joined structural beams, axles, cloth roll and yarn contacts. Not a boolean-union or physics acceptance claim.",
+  "editable_source_components": 26,
+  "component_qa_file": "mesh_qa.json",
+  "bounds_verified_after_source_reopen": true
+}

@@ -1,0 +1,25 @@
+{
+  "scope": "Standalone material art plus editable Blender library and cyclic packing arithmetic QA",
+  "score": 8.0,
+  "block_or_state_accepted": false,
+  "Unity_import": "NOT RUN",
+  "URP_material_port": "NOT RUN",
+  "mobile_device": "NOT RUN",
+  "mesh": "One unchanged 12-triangle shared review cube; not runtime mesh replacement",
+  "materials": 4,
+  "review_coverage": "frozen slate v01; single red-clay palette correction v02; same-camera1024/512/256/128; raw2x2,96/48px projection; relative and packed image hashes",
+  "texture_hashes": {
+    "master_1024": "3ace149ace0e144b6a37858312ded2db00ea230fb5dd22574b8bd9c4540b9d2b",
+    "candidate_512": "3b4a6c83e7ad2fd481af56b0298321c3ae4376e0e4b34f14fde551839336b08c",
+    "mobile_256": "edc89541db8f4b69fdc13bbf36b90ee61362b32480bad97f88754191dda90597",
+    "mobile_128": "c478dcb0099b199b0c3ca8b5781ce6eb7557a7b4194e0660312f4860879f9e6d"
+  },
+  "UV_contract": "2m surface period, each1m faceUV0..0.5; not runtime texIdUV",
+  "shader": "Three-band directional emission REVIEW bridge only; not Unity native material",
+  "catalog_semantic_adapter_pending": true,
+  "color_target_exactly_matched": null,
+  "relative_paths_verified": true,
+  "packed_images_verified": true,
+  "target_color_delta": null,
+  "runtime_assigned_id": false
+}

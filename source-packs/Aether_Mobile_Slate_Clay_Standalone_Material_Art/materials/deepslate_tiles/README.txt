@@ -1,0 +1,4 @@
+deepslate_tiles v01: standalone material art approved, 8.0/10.
+Dark cut-slate masonry, eight courses per 2m; not a roofing material. Historical reference ID147 is not a runtime assignment.
+Editable Blender review library with four albedo resolutions:1024 master,512 close-up,256 candidate,128 lower-budget QA. Packed images and relative //textures/<variant>/basecolor.png references were reopened and byte-hash checked. The unchanged1m review cube has12 triangles and one used material slot. No Unity import, native .mat, URP integration, full block/state acceptance, or mobile device test is claimed.
+Minimal mobile can use albedo and constants; neutral data maps are compatibility options. Native DRAM and HDRP mask channel conventions differ. Historical catalog/shared-atlas/shader adapters remain pending.

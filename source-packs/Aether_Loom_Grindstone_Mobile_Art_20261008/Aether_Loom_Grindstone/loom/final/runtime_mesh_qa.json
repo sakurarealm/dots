@@ -1,0 +1,109 @@
+{
+  "asset": "loom",
+  "revision": "final",
+  "blender_version": "4.3.2",
+  "scope": "standalone Blender geometry/UV QA; current project rules and Unity shader/runtime unverified",
+  "units": "1 Blender unit = 1 metre",
+  "root_pivot_m": [
+    0,
+    0,
+    0
+  ],
+  "bounds_min_m": [
+    -0.5450000166893005,
+    -0.45500001311302185,
+    0.0
+  ],
+  "bounds_max_m": [
+    0.5450000166893005,
+    0.45500001311302185,
+    1.3599998950958252
+  ],
+  "dimensions_m": [
+    1.090000033378601,
+    0.9100000262260437,
+    1.3599998950958252
+  ],
+  "triangles": 2708,
+  "mesh_count": 3,
+  "material_count_used": 6,
+  "components": [
+    {
+      "name": "Loom_StaticFrame",
+      "triangles": 2200,
+      "vertices": 1216,
+      "materials": [
+        "Aether_Shared_WarmWood",
+        "Aether_Wood_Endgrain_Dark",
+        "Aether_Shared_MatteBrass",
+        "Aether_Linen_Warp",
+        "Aether_Shared_MossCanvas",
+        "Aether_Axle_Charcoal"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.1993265474934387,
+      "parent": "Aether_Loom_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Loom_Heddle_Lift",
+      "triangles": 176,
+      "vertices": 96,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.0036392065441367043,
+      "parent": "Heddle_Lift_Pivot",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Loom_Beater_Swing",
+      "triangles": 332,
+      "vertices": 200,
+      "materials": [
+        "Aether_Shared_WarmWood",
+        "Aether_Linen_Warp"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.005634079619651445,
+      "parent": "Beater_Swing_Pivot",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "passed": true,
+  "intentional_component_overlap": "joined structural beams, axles, cloth roll and yarn contacts. Not a boolean-union or physics acceptance claim.",
+  "editable_source_components": 79,
+  "component_qa_file": "mesh_qa.json",
+  "bounds_verified_after_source_reopen": true
+}

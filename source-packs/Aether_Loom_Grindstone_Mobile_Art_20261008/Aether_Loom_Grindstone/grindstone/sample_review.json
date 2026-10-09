@@ -1,0 +1,15 @@
+{
+  "review_type": "author visual inspection of actual render",
+  "image": "sample/hero_512.png",
+  "observed": [
+    "Clear compact wheel-on-frame silhouette",
+    "Pale clean stone face looks too chalk-white under studio lighting",
+    "No tool rest, so operator working location is underspecified"
+  ],
+  "directed_improvement": [
+    "Darken warm-grey stone face/rim while retaining lowpoly chamfer",
+    "Add charcoal tool-rest shelf and two real support brackets on operator side",
+    "Batch static parts and wheel+crank assembly into two runtime meshes; retain editable sources hidden"
+  ],
+  "scope": "Blender image only, not independent review or Unity acceptance"
+}

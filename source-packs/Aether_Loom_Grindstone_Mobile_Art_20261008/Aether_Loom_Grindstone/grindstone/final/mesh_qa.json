@@ -1,0 +1,607 @@
+{
+  "asset": "grindstone",
+  "revision": "final",
+  "blender_version": "4.3.2",
+  "scope": "standalone Blender geometry/UV QA; current project rules and Unity shader/runtime unverified",
+  "units": "1 Blender unit = 1 metre",
+  "root_pivot_m": [
+    0,
+    0,
+    0
+  ],
+  "bounds_min_m": [
+    -0.4099999964237213,
+    -0.33000001311302185,
+    0.0
+  ],
+  "bounds_max_m": [
+    0.5999999642372131,
+    0.3400000035762787,
+    1.159999966621399
+  ],
+  "dimensions_m": [
+    1.0099999606609344,
+    0.6700000166893005,
+    1.159999966621399
+  ],
+  "triangles": 1248,
+  "mesh_count": 26,
+  "material_count_used": 6,
+  "components": [
+    {
+      "name": "Foot_L",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.01654958426789711,
+      "parent": "Aether_Grindstone_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Splayed_Support_L",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.01825806214893155,
+      "parent": "Aether_Grindstone_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Axle_Bearing_L",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Wood_Endgrain_Dark"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.004345215943019862,
+      "parent": "Aether_Grindstone_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Bearing_Cap_L",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_MatteBrass"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.0004156619882223735,
+      "parent": "Aether_Grindstone_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Foot_R",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.01654958426789711,
+      "parent": "Aether_Grindstone_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Splayed_Support_R",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.01825806214893155,
+      "parent": "Aether_Grindstone_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Axle_Bearing_R",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Wood_Endgrain_Dark"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.004345215943019862,
+      "parent": "Aether_Grindstone_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Bearing_Cap_R",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_MatteBrass"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.0004156619882223735,
+      "parent": "Aether_Grindstone_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Lower_Crossbeam",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.00822133311583599,
+      "parent": "Aether_Grindstone_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Front_Brace",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.006433333771427487,
+      "parent": "Aether_Grindstone_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Tray_Floor",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Wood_Endgrain_Dark"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.012282090251356279,
+      "parent": "Aether_Grindstone_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Tray_Rim_-0.205",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.002126450819188082,
+      "parent": "Aether_Grindstone_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Tray_Rim_0.285",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.002126450819188082,
+      "parent": "Aether_Grindstone_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Tray_End_-0.235",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.0018641307884932773,
+      "parent": "Aether_Grindstone_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Tray_End_0.235",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_WarmWood"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.0018641307884932773,
+      "parent": "Aether_Grindstone_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Grinding_Stone",
+      "triangles": 188,
+      "vertices": 96,
+      "materials": [
+        "Aether_Grindstone_WarmGrey",
+        "Aether_Grindstone_Face"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.08033893450933807,
+      "parent": "Grindstone_Rotation_Pivot",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Iron_Axle",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Axle_Charcoal"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.001928640079202766,
+      "parent": "Grindstone_Rotation_Pivot",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Stone_Hub_-0.157",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_MatteBrass"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.0005927040215194635,
+      "parent": "Grindstone_Rotation_Pivot",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Stone_Hub_0.157",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_MatteBrass"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.0005927040215194635,
+      "parent": "Grindstone_Rotation_Pivot",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Crank_Arm",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Shared_MatteBrass"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.0006109988065272284,
+      "parent": "Grindstone_Rotation_Pivot",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Crank_Handle",
+      "triangles": 36,
+      "vertices": 20,
+      "materials": [
+        "Aether_Wood_Endgrain_Dark"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.0007214476011710773,
+      "parent": "Grindstone_Rotation_Pivot",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Tool_Rest_Platform",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Axle_Charcoal"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.0010476667327297237,
+      "parent": "Aether_Grindstone_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Tool_Rest_Bracket_-0.135",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Axle_Charcoal"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.0003431922694991061,
+      "parent": "Aether_Grindstone_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Tool_Rest_Bracket_0.135",
+      "triangles": 44,
+      "vertices": 24,
+      "materials": [
+        "Aether_Axle_Charcoal"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 0.0003431922694991061,
+      "parent": "Aether_Grindstone_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Bearing_Fixing_Pin_-0.205",
+      "triangles": 28,
+      "vertices": 16,
+      "materials": [
+        "Aether_Shared_MatteBrass"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 1.191333369283507e-05,
+      "parent": "Aether_Grindstone_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Bearing_Fixing_Pin_0.205",
+      "triangles": 28,
+      "vertices": 16,
+      "materials": [
+        "Aether_Shared_MatteBrass"
+      ],
+      "uv_layer": "UVMap",
+      "zero_area_triangles": 0,
+      "zero_uv_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "loose_edges": 0,
+      "signed_volume_m3": 1.191333369283507e-05,
+      "parent": "Aether_Grindstone_Root",
+      "finite_coordinates": true,
+      "unit_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "passed": true,
+  "intentional_component_overlap": "joined structural beams, axles, cloth roll and yarn contacts. Not a boolean-union or physics acceptance claim."
+}

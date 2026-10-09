@@ -1,0 +1,29 @@
+{
+  "asset": "loom",
+  "version": 1,
+  "units": "metres",
+  "budget_target_triangles": 2500,
+  "form": "floor standing treadle loom",
+  "width": 1.1,
+  "height": 1.36,
+  "depth": 0.91,
+  "warp_threads": 31,
+  "reed_slats": 13,
+  "finish": "flat-faceted matte bridge, approved shared warm wood + moss canvas and brass",
+  "functional_parts": [
+    "Heddle frame",
+    "Beater assembly",
+    "Treadles",
+    "Boat shuttle"
+  ],
+  "anchors": [
+    "Action_Position",
+    "Cloth_Output"
+  ],
+  "current_project_compliance": "unverified",
+  "unity_runtime_validation": "not performed",
+  "budget_ceiling_triangles": 3000,
+  "budget_target_met": false,
+  "budget_ceiling_met": true,
+  "budget_note": "Observed 2708 triangles. Original 2500 planning target is exceeded by 208 triangles; 31 recognizable warp strands and treadle structure retained. This is an authored ceiling, not measured phone acceptance."
+}

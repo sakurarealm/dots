@@ -1,0 +1,188 @@
+{
+  "created_at_utc": "2026-10-08T11:21:03.685003+00:00",
+  "scope": "Blender 4.3.2 export/reimport and source-reopen only. No Unity or device test.",
+  "checks": [
+    {
+      "asset": "grindstone",
+      "format": "fbx",
+      "triangles": 1248,
+      "expected_triangles": 1248,
+      "triangle_difference": 0,
+      "mesh_count": 2,
+      "dimensions_imported_m": [
+        1.0099999606609344,
+        0.6700001657009125,
+        1.1600000174526492
+      ],
+      "dimension_error_m": 1.4901161193847656e-07,
+      "finite_vertices": true,
+      "missing_uv_meshes": [],
+      "zero_area_triangles": 0,
+      "zero_uv_triangles": 0,
+      "root_at_origin": true,
+      "anchors": [
+        "Action_Position",
+        "Grindstone_Rotation_Pivot",
+        "Tool_Contact",
+        "Aether_Grindstone_Root"
+      ],
+      "materials": [
+        "Aether_Axle_Charcoal",
+        "Aether_Grindstone_Face",
+        "Aether_Grindstone_WarmGrey",
+        "Aether_Shared_MatteBrass",
+        "Aether_Shared_WarmWood",
+        "Aether_Wood_Endgrain_Dark"
+      ],
+      "imported_texture_images": [
+        "T_Metal_Brass_BaseColor.png",
+        "T_Metal_Brass_BaseColor.png.001",
+        "T_Wood_Warm_BaseColor.png",
+        "T_Wood_Warm_BaseColor.png.001"
+      ],
+      "sha256": "8769df360b8d89cfbf59798fef2d3cbb0c63287b9ca2da55be64a2dc6dc05e18",
+      "passed": true
+    },
+    {
+      "asset": "grindstone",
+      "format": "glb",
+      "triangles": 1248,
+      "expected_triangles": 1248,
+      "triangle_difference": 0,
+      "mesh_count": 2,
+      "dimensions_imported_m": [
+        1.0099999606609344,
+        0.6700000166893005,
+        1.159999966621399
+      ],
+      "dimension_error_m": 0.0,
+      "finite_vertices": true,
+      "missing_uv_meshes": [],
+      "zero_area_triangles": 0,
+      "zero_uv_triangles": 0,
+      "root_at_origin": true,
+      "anchors": [
+        "Aether_Grindstone_Root",
+        "Action_Position",
+        "Grindstone_Rotation_Pivot",
+        "Tool_Contact"
+      ],
+      "materials": [
+        "Aether_Axle_Charcoal",
+        "Aether_Grindstone_Face",
+        "Aether_Grindstone_WarmGrey",
+        "Aether_Shared_MatteBrass",
+        "Aether_Shared_WarmWood",
+        "Aether_Wood_Endgrain_Dark"
+      ],
+      "imported_texture_images": [
+        "T_Metal_Brass_BaseColor",
+        "T_Wood_Warm_BaseColor"
+      ],
+      "sha256": "c2c97d00363eb862b28b8f83d5ea4ae078d161dbc6fb0fbf4e4de724b66f03bb",
+      "passed": true
+    },
+    {
+      "asset": "grindstone",
+      "format": "blend_reopen",
+      "passed": true,
+      "packed_images": 3,
+      "source_parts_hidden": true,
+      "scope": "Reopen source and verify runtime/editable separation, not full animation evaluation"
+    },
+    {
+      "asset": "loom",
+      "format": "fbx",
+      "triangles": 2708,
+      "expected_triangles": 2708,
+      "triangle_difference": 0,
+      "mesh_count": 3,
+      "dimensions_imported_m": [
+        1.090000033378601,
+        0.9100000560283661,
+        1.359999966943846
+      ],
+      "dimension_error_m": 7.184802086612763e-08,
+      "finite_vertices": true,
+      "missing_uv_meshes": [],
+      "zero_area_triangles": 0,
+      "zero_uv_triangles": 0,
+      "root_at_origin": true,
+      "anchors": [
+        "Action_Position",
+        "Beater_Swing_Pivot",
+        "Cloth_Output",
+        "Heddle_Lift_Pivot",
+        "Aether_Loom_Root"
+      ],
+      "materials": [
+        "Aether_Axle_Charcoal",
+        "Aether_Linen_Warp",
+        "Aether_Shared_MatteBrass",
+        "Aether_Shared_MossCanvas",
+        "Aether_Shared_WarmWood",
+        "Aether_Wood_Endgrain_Dark"
+      ],
+      "imported_texture_images": [
+        "T_Cloth_Canvas_BaseColor.png",
+        "T_Cloth_Canvas_BaseColor.png.001",
+        "T_Metal_Brass_BaseColor.png",
+        "T_Metal_Brass_BaseColor.png.001",
+        "T_Wood_Warm_BaseColor.png",
+        "T_Wood_Warm_BaseColor.png.001"
+      ],
+      "sha256": "202c192a60f961fb89cb8933ce22c427114d008dd87e7776f23a469960a42571",
+      "passed": true
+    },
+    {
+      "asset": "loom",
+      "format": "glb",
+      "triangles": 2708,
+      "expected_triangles": 2708,
+      "triangle_difference": 0,
+      "mesh_count": 3,
+      "dimensions_imported_m": [
+        1.090000033378601,
+        0.9100000262260437,
+        1.3599998950958252
+      ],
+      "dimension_error_m": 0.0,
+      "finite_vertices": true,
+      "missing_uv_meshes": [],
+      "zero_area_triangles": 0,
+      "zero_uv_triangles": 0,
+      "root_at_origin": true,
+      "anchors": [
+        "Aether_Loom_Root",
+        "Action_Position",
+        "Beater_Swing_Pivot",
+        "Cloth_Output",
+        "Heddle_Lift_Pivot"
+      ],
+      "materials": [
+        "Aether_Axle_Charcoal",
+        "Aether_Linen_Warp",
+        "Aether_Shared_MatteBrass",
+        "Aether_Shared_MossCanvas",
+        "Aether_Shared_WarmWood",
+        "Aether_Wood_Endgrain_Dark"
+      ],
+      "imported_texture_images": [
+        "T_Cloth_Canvas_BaseColor",
+        "T_Metal_Brass_BaseColor",
+        "T_Wood_Warm_BaseColor"
+      ],
+      "sha256": "cf94dfb6aad293901a0b7efbe33699e8623f40879a726fd91070441c5626dc67",
+      "passed": true
+    },
+    {
+      "asset": "loom",
+      "format": "blend_reopen",
+      "passed": true,
+      "packed_images": 3,
+      "source_parts_hidden": true,
+      "scope": "Reopen source and verify runtime/editable separation, not full animation evaluation"
+    }
+  ],
+  "passed": true
+}

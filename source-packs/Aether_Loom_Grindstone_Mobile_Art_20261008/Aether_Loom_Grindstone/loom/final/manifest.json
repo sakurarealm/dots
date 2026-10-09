@@ -1,0 +1,104 @@
+{
+  "asset": "loom",
+  "revision": "final",
+  "triangles": 2708,
+  "dimensions_m": [
+    1.090000033378601,
+    0.9100000262260437,
+    1.3599998950958252
+  ],
+  "materials": [
+    "Aether_Axle_Charcoal",
+    "Aether_Linen_Warp",
+    "Aether_Shared_MatteBrass",
+    "Aether_Shared_MossCanvas",
+    "Aether_Shared_WarmWood",
+    "Aether_Wood_Endgrain_Dark"
+  ],
+  "root_pivot": [
+    0,
+    0,
+    0
+  ],
+  "qa_passed": true,
+  "runtime_mesh_count": 3,
+  "runtime_meshes": [
+    "Loom_StaticFrame",
+    "Loom_Heddle_Lift",
+    "Loom_Beater_Swing"
+  ],
+  "files": [
+    {
+      "file": "front_512.png",
+      "bytes": 399100,
+      "sha256": "7b6af7e37683f37f74095b5ae30e66968415209d499cc41e3e443701624a9eac"
+    },
+    {
+      "file": "hero_1024.png",
+      "bytes": 1628038,
+      "sha256": "9c7db82f26b2efca41a24da8118c82c9adb51a5dc4a4d99c4eb6a64c730284ca"
+    },
+    {
+      "file": "hero_512.png",
+      "bytes": 434452,
+      "sha256": "15af6d1e219fadc81c60aed742e1a5563331b5571b0c14fd5be563e36a7d0224"
+    },
+    {
+      "file": "loom.blend",
+      "bytes": 1473224,
+      "sha256": "5e4971cb0c6bcd05d69915aeed3b29a748a6e25f6f1a4af0283b2025a76117b1"
+    },
+    {
+      "file": "loom.fbx",
+      "bytes": 254956,
+      "sha256": "202c192a60f961fb89cb8933ce22c427114d008dd87e7776f23a469960a42571"
+    },
+    {
+      "file": "loom.glb",
+      "bytes": 360800,
+      "sha256": "cf94dfb6aad293901a0b7efbe33699e8623f40879a726fd91070441c5626dc67"
+    },
+    {
+      "file": "loom_contact_1024.png",
+      "bytes": 1199702,
+      "sha256": "d05f4022ae01dbbb2ad47922d21af206c14934b54c45299b76f8d58c862fee44"
+    },
+    {
+      "file": "loom_contact_512.png",
+      "bytes": 269306,
+      "sha256": "9f710294136476ca10694f18a7d94fbf9d59e818e99f9783f7b6d1aa7e7f3e37"
+    },
+    {
+      "file": "mesh_qa.json",
+      "bytes": 40628,
+      "sha256": "3eca7f2a5324340748315a6b47bdcd5bc40c384286ba368027cab25bac29d164"
+    },
+    {
+      "file": "rear_512.png",
+      "bytes": 429116,
+      "sha256": "6f917a1ce91db854b21de6a4b74a51eff71fc8d33002f3388ab7da71c0bc09a2"
+    },
+    {
+      "file": "runtime_mesh_qa.json",
+      "bytes": 2650,
+      "sha256": "c6ecb67385fecc4c39b29ae359e36662725320529afd3edcbced33f22aac09d6"
+    },
+    {
+      "file": "side_512.png",
+      "bytes": 380654,
+      "sha256": "2b3665700df368cce4c25223baf10814fef46ebda322f23d5b95c63f8c1aae58"
+    }
+  ],
+  "bounds_min_m": [
+    -0.5450000166893005,
+    -0.45500001311302185,
+    0.0
+  ],
+  "bounds_max_m": [
+    0.5450000166893005,
+    0.45500001311302185,
+    1.3599998950958252
+  ],
+  "material_slot_count_total": 9,
+  "budget_target_triangles": 2500
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "path": "materials/deepslate_tiles/APPROVAL_SCOPE.json",
+    "bytes": 1287,
+    "sha256": "9123c59328214c8516b481a13951b6aa7c682a00ca44119333531f7a99be8d78"
+  },
+  {
+    "path": "materials/deepslate_tiles/README.txt",
+    "bytes": 810,
+    "sha256": "23293f0fa8c1f0fe24e111824196bead714c1eef030330383f1f16af1a7bd882"
+  },
+  {
+    "path": "materials/deepslate_tiles/deepslate_tiles_material_library.blend",
+    "bytes": 1829600,
+    "sha256": "a30507a0fb655ff0115a6f0a8803275f4c37209420bdc3e9305c7b6821c6452e"
+  },
+  {
+    "path": "materials/deepslate_tiles/review_mobile_256.png",
+    "bytes": 468858,
+    "sha256": "1e7eacc87272e5276fe0d221339bcece107e0c466fa9fce891ed3eff168a81a0"
+  },
+  {
+    "path": "materials/deepslate_tiles/textures/candidate_512/basecolor.png",
+    "bytes": 245026,
+    "sha256": "3b4a6c83e7ad2fd481af56b0298321c3ae4376e0e4b34f14fde551839336b08c"
+  },
+  {
+    "path": "materials/deepslate_tiles/textures/candidate_512/dram_native.png",
+    "bytes": 2200,
+    "sha256": "b295bfb044e9f61d4437cbf7484815faaf0da6ccfbd8f1594702c946c35663c5"
+  },
+  {
+    "path": "materials/deepslate_tiles/textures/candidate_512/hdrp_mask_bridge.png",
+    "bytes": 2199,
+    "sha256": "733b7ffb515d2451370aaa6b881c2c1741e35e164df5db5630cfb173de68b629"
+  },
+  {
+    "path": "materials/deepslate_tiles/textures/candidate_512/normal_flat_gl.png",
+    "bytes": 1878,
+    "sha256": "82f11923d5e92211b66b39625b072ffe33f61bf04f348340efb7cdaf4fe207b4"
+  },
+  {
+    "path": "materials/deepslate_tiles/textures/candidate_512/roughness_constant.png",
+    "bytes": 1302,
+    "sha256": "55a6d4f2917fe0c2a8bc3335ce16669a359b9285b68dbea5a67d2539e42a1106"
+  },
+  {
+    "path": "materials/deepslate_tiles/textures/master_1024/basecolor.png",
+    "bytes": 933898,
+    "sha256": "3ace149ace0e144b6a37858312ded2db00ea230fb5dd22574b8bd9c4540b9d2b"
+  },
+  {
+    "path": "materials/deepslate_tiles/textures/master_1024/dram_native.png",
+    "bytes": 6490,
+    "sha256": "6d3e41d0db27bf32b4aa1782a6cf500f19a0d24bcd75662d1d295347232ba62b"
+  },
+  {
+    "path": "materials/deepslate_tiles/textures/master_1024/hdrp_mask_bridge.png",
+    "bytes": 6490,
+    "sha256": "6b681510f74b5984e2a43d7fa91e6fe8054448b502fabe83b0b0912488692016"
+  },
+  {
+    "path": "materials/deepslate_tiles/textures/master_1024/normal_flat_gl.png",
+    "bytes": 5334,
+    "sha256": "86993e9276b669289b91c2563b704bd0116c0c59af1949f08c79bfc2e2e8ff9b"
+  },
+  {
+    "path": "materials/deepslate_tiles/textures/master_1024/roughness_constant.png",
+    "bytes": 3158,
+    "sha256": "ddac917c5243bcd78ac9bcbe45636f8184fc30819edc5fe9809de23009169515"
+  },
+  {
+    "path": "materials/deepslate_tiles/textures/mobile_128/basecolor.png",
+    "bytes": 18073,
+    "sha256": "c478dcb0099b199b0c3ca8b5781ce6eb7557a7b4194e0660312f4860879f9e6d"
+  },
+  {
+    "path": "materials/deepslate_tiles/textures/mobile_128/dram_native.png",
+    "bytes": 391,
+    "sha256": "e7d546a3402d0078d76ecd64b889fc7c6ea45f1e17f9253ec3a6df0490529f93"
+  },
+  {
+    "path": "materials/deepslate_tiles/textures/mobile_128/hdrp_mask_bridge.png",
+    "bytes": 392,
+    "sha256": "d6dfeec4f4f6c93e5cb3c889dd8324091af3e24bcc7863ccdb1cbc524f2d24b1"
+  },
+  {
+    "path": "materials/deepslate_tiles/textures/mobile_128/normal_flat_gl.png",
+    "bytes": 358,
+    "sha256": "4236ad31ba241c42888f0d700a04ddfd5bd9adde213df97069dafaaf8848ed39"
+  },
+  {
+    "path": "materials/deepslate_tiles/textures/mobile_128/roughness_constant.png",
+    "bytes": 151,
+    "sha256": "163f319fa5cffe6ef007e9f54498928a2823969193e3eec9255255d8b3717843"
+  },
+  {
+    "path": "materials/deepslate_tiles/textures/mobile_256/basecolor.png",
+    "bytes": 63755,
+    "sha256": "edc89541db8f4b69fdc13bbf36b90ee61362b32480bad97f88754191dda90597"
+  },
+  {
+    "path": "materials/deepslate_tiles/textures/mobile_256/dram_native.png",
+    "bytes": 855,
+    "sha256": "f337681e8d212986b39f6b19e632801ec478de5a7bdba56b5593b0b163a26e49"
+  },
+  {
+    "path": "materials/deepslate_tiles/textures/mobile_256/hdrp_mask_bridge.png",
+    "bytes": 856,
+    "sha256": "e78a15b5f6cf37d6489ab27d758322f16f72e63b1584a6b806cc3a90fa190101"
+  },
+  {
+    "path": "materials/deepslate_tiles/textures/mobile_256/normal_flat_gl.png",
+    "bytes": 758,
+    "sha256": "3da5bc6d17269b64269aa10035fa934ac6664827eecc2f8b105d23ff5c4993e1"
+  },
+  {
+    "path": "materials/deepslate_tiles/textures/mobile_256/roughness_constant.png",
+    "bytes": 566,
+    "sha256": "6e78c3475007c7d6dab91c726392efcf386d5225dfc2aa2f866d25495a54be9a"
+  },
+  {
+    "path": "materials/red_terracotta/APPROVAL_SCOPE.json",
+    "bytes": 1355,
+    "sha256": "2cb5e407b84b7fbf6b93631fbc3de56acb7d3be98a0f24eb18ea5b5b5a713b4c"
+  },
+  {
+    "path": "materials/red_terracotta/README.txt",
+    "bytes": 900,
+    "sha256": "f37d7e4747d49dcab8441c82255104c160e0f49c0bf9052b8a3b1703fda7a670"
+  },
+  {
+    "path": "materials/red_terracotta/red_terracotta_material_library.blend",
+    "bytes": 1936124,
+    "sha256": "1cec73894195b3b6e15b8128c7593252f6f28b53c0007dedaef3890f5a23aadf"
+  },
+  {
+    "path": "materials/red_terracotta/review_mobile_256.png",
+    "bytes": 443359,
+    "sha256": "dd0d66c02ef91646e90b86fea72b2aef58001b011b1acd51e13e87940de98f73"
+  },
+  {
+    "path": "materials/red_terracotta/textures/candidate_512/basecolor.png",
+    "bytes": 264602,
+    "sha256": "5a9b9979cf0af67e33957de23d09402dcd9a10239b47594e2f126a2a7aee3365"
+  },
+  {
+    "path": "materials/red_terracotta/textures/candidate_512/dram_native.png",
+    "bytes": 2200,
+    "sha256": "9bfcabb4051fbf68c7e6f87fea1c09d2469510fe2e4763a6c3ff4ba1a4cd6a03"
+  },
+  {
+    "path": "materials/red_terracotta/textures/candidate_512/hdrp_mask_bridge.png",
+    "bytes": 2199,
+    "sha256": "c8eabf1a1012abb827e7f67d33eb375f169650e6fda6196de4c763531f900271"
+  },
+  {
+    "path": "materials/red_terracotta/textures/candidate_512/normal_flat_gl.png",
+    "bytes": 1878,
+    "sha256": "82f11923d5e92211b66b39625b072ffe33f61bf04f348340efb7cdaf4fe207b4"
+  },
+  {
+    "path": "materials/red_terracotta/textures/candidate_512/roughness_constant.png",
+    "bytes": 1302,
+    "sha256": "0d6f8ad2c0756881bd815176cefcacae5e3319d3ce0758f7c86106dab75adaf6"
+  },
+  {
+    "path": "materials/red_terracotta/textures/master_1024/basecolor.png",
+    "bytes": 1018357,
+    "sha256": "3ae84c7c5d7ad7c2119cbc0717b4df3979df805f4debac048106c3cc48845df2"
+  },
+  {
+    "path": "materials/red_terracotta/textures/master_1024/dram_native.png",
+    "bytes": 6490,
+    "sha256": "f2a61182ddea324c40d968b53e269c9736b51b780516d5b9c68538d5320caa75"
+  },
+  {
+    "path": "materials/red_terracotta/textures/master_1024/hdrp_mask_bridge.png",
+    "bytes": 6490,
+    "sha256": "27aca06bffdef789114b9f9dd96422b1ea69406ab9435abae075c99cb2699aa5"
+  },
+  {
+    "path": "materials/red_terracotta/textures/master_1024/normal_flat_gl.png",
+    "bytes": 5334,
+    "sha256": "86993e9276b669289b91c2563b704bd0116c0c59af1949f08c79bfc2e2e8ff9b"
+  },
+  {
+    "path": "materials/red_terracotta/textures/master_1024/roughness_constant.png",
+    "bytes": 3158,
+    "sha256": "80ea43633131a658a2ddfb49df5a47a3e89ff967f78c60f2c9ecae29faebc536"
+  },
+  {
+    "path": "materials/red_terracotta/textures/mobile_128/basecolor.png",
+    "bytes": 17597,
+    "sha256": "ff15595cd4d19577d056b54763932028fda4cb1b50d4e7453b69d981f349f945"
+  },
+  {
+    "path": "materials/red_terracotta/textures/mobile_128/dram_native.png",
+    "bytes": 391,
+    "sha256": "bbab6501259ca17c89df2a00eaecef93b3e02787666eeb1d6be93113a47b6ddd"
+  },
+  {
+    "path": "materials/red_terracotta/textures/mobile_128/hdrp_mask_bridge.png",
+    "bytes": 392,
+    "sha256": "e2f7c23bf65186aa8dae8901e18c8a8c7970a90615b7c42f7da495499e1d52a4"
+  },
+  {
+    "path": "materials/red_terracotta/textures/mobile_128/normal_flat_gl.png",
+    "bytes": 358,
+    "sha256": "4236ad31ba241c42888f0d700a04ddfd5bd9adde213df97069dafaaf8848ed39"
+  },
+  {
+    "path": "materials/red_terracotta/textures/mobile_128/roughness_constant.png",
+    "bytes": 151,
+    "sha256": "d3e1583142bfa6256091d5b6316879cf4b9ece5e63b8682429733edb5822e286"
+  },
+  {
+    "path": "materials/red_terracotta/textures/mobile_256/basecolor.png",
+    "bytes": 66718,
+    "sha256": "3a91219ace0e3c9035c1ae2068de231d59b8337ec84503472eaf75c3990a2da4"
+  },
+  {
+    "path": "materials/red_terracotta/textures/mobile_256/dram_native.png",
+    "bytes": 855,
+    "sha256": "11ed13dd39044488975d17be4429ab4d98f2e50648c730d6197f028b8098cfb4"
+  },
+  {
+    "path": "materials/red_terracotta/textures/mobile_256/hdrp_mask_bridge.png",
+    "bytes": 856,
+    "sha256": "b2a802c500602f03aac0108d84b4af57a5a74abf55b7e9abcfea14188303f185"
+  },
+  {
+    "path": "materials/red_terracotta/textures/mobile_256/normal_flat_gl.png",
+    "bytes": 758,
+    "sha256": "3da5bc6d17269b64269aa10035fa934ac6664827eecc2f8b105d23ff5c4993e1"
+  },
+  {
+    "path": "materials/red_terracotta/textures/mobile_256/roughness_constant.png",
+    "bytes": 566,
+    "sha256": "d7dc396ef0b91db44e0c3bbda8084b3598296a41721e3253812dc921e76423f9"
+  }
+]
