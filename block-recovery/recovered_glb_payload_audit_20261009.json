@@ -1,0 +1,583 @@
+{
+  "checked_at_utc": "2026-10-09T08:27:06.812527+00:00",
+  "archive": "/workspace/scratch/f8f4985c0858/library-loom-grindstone-20261008/Aether_Loom_Grindstone_Mobile_Art_20261008.zip",
+  "scope": "Actual GLB bytes, accessor payloads, embedded textures and one pre-existing preview; no engine/mobile test or full catalogue coverage",
+  "assets": [
+    {
+      "archive_entry": "Aether_Loom_Grindstone/grindstone/final/grindstone.glb",
+      "classification": "standalone art candidate, not approved project reference",
+      "bytes": 221948,
+      "crc32": "d41c7420",
+      "zip_crc_verified": true,
+      "sha256": "c2c97d00363eb862b28b8f83d5ea4ae078d161dbc6fb0fbf4e4de724b66f03bb",
+      "manifest_sha256_matches": true,
+      "triangle_count": 1248,
+      "manifest_triangle_count_matches": true,
+      "manifest_budget": 1500,
+      "triangles_above_authored_budget": 0,
+      "mesh_count": 2,
+      "primitive_count": 9,
+      "accessors_decoded_finite_and_in_bounds": 36,
+      "materials": [
+        {
+          "name": "Aether_Grindstone_WarmGrey",
+          "alpha_mode": "OPAQUE",
+          "base_color_alpha": 1,
+          "double_sided": true
+        },
+        {
+          "name": "Aether_Grindstone_Face",
+          "alpha_mode": "OPAQUE",
+          "base_color_alpha": 1,
+          "double_sided": true
+        },
+        {
+          "name": "Aether_Axle_Charcoal",
+          "alpha_mode": "OPAQUE",
+          "base_color_alpha": 1,
+          "double_sided": true
+        },
+        {
+          "name": "Aether_Shared_MatteBrass",
+          "alpha_mode": "OPAQUE",
+          "base_color_alpha": 1,
+          "double_sided": true
+        },
+        {
+          "name": "Aether_Wood_Endgrain_Dark",
+          "alpha_mode": "OPAQUE",
+          "base_color_alpha": 1,
+          "double_sided": true
+        },
+        {
+          "name": "Aether_Shared_WarmWood",
+          "alpha_mode": "OPAQUE",
+          "base_color_alpha": 1,
+          "double_sided": true
+        }
+      ],
+      "images": [
+        {
+          "name": "T_Metal_Brass_BaseColor",
+          "embedded_bytes": 34125,
+          "png_dimensions": [
+            512,
+            512
+          ],
+          "sha256": "55d6007ba1f89a84ce9499b451164c4e0c8468c26a16a9f372a8dad8bd30b707",
+          "packaged_texture": "Aether_Loom_Grindstone/textures/T_Metal_Brass_BaseColor.png",
+          "matches_packaged_texture": true,
+          "packaged_texture_crc_verified": true
+        },
+        {
+          "name": "T_Wood_Warm_BaseColor",
+          "embedded_bytes": 91512,
+          "png_dimensions": [
+            512,
+            512
+          ],
+          "sha256": "7944c393fc2b1520170d9d02d611b193461aa98b86e42cd28051ffffe42ae4e0",
+          "packaged_texture": "Aether_Loom_Grindstone/textures/T_Wood_Warm_BaseColor.png",
+          "matches_packaged_texture": true,
+          "packaged_texture_crc_verified": true
+        }
+      ],
+      "primitives": [
+        {
+          "mesh": "Grindstone_Grindstone_Rotation_Mesh",
+          "material_index": 0,
+          "triangles": 144,
+          "vertices": 288,
+          "uv_sets": [
+            "TEXCOORD_0"
+          ],
+          "uv_range": [
+            [
+              0.002090638969093561,
+              1.0
+            ],
+            [
+              0.0021477937698364258,
+              1.0
+            ]
+          ],
+          "degenerate_uv_triangles_epsilon_1e_12": 0,
+          "degenerate_geometric_triangles_squared_cross_epsilon_1e_24": 0
+        },
+        {
+          "mesh": "Grindstone_Grindstone_Rotation_Mesh",
+          "material_index": 1,
+          "triangles": 44,
+          "vertices": 48,
+          "uv_sets": [
+            "TEXCOORD_0"
+          ],
+          "uv_range": [
+            [
+              0.0,
+              0.4823392927646637
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "degenerate_uv_triangles_epsilon_1e_12": 0,
+          "degenerate_geometric_triangles_squared_cross_epsilon_1e_24": 0
+        },
+        {
+          "mesh": "Grindstone_Grindstone_Rotation_Mesh",
+          "material_index": 2,
+          "triangles": 44,
+          "vertices": 72,
+          "uv_sets": [
+            "TEXCOORD_0"
+          ],
+          "uv_range": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "degenerate_uv_triangles_epsilon_1e_12": 0,
+          "degenerate_geometric_triangles_squared_cross_epsilon_1e_24": 0
+        },
+        {
+          "mesh": "Grindstone_Grindstone_Rotation_Mesh",
+          "material_index": 3,
+          "triangles": 132,
+          "vertices": 240,
+          "uv_sets": [
+            "TEXCOORD_0"
+          ],
+          "uv_range": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "degenerate_uv_triangles_epsilon_1e_12": 0,
+          "degenerate_geometric_triangles_squared_cross_epsilon_1e_24": 0
+        },
+        {
+          "mesh": "Grindstone_Grindstone_Rotation_Mesh",
+          "material_index": 4,
+          "triangles": 36,
+          "vertices": 60,
+          "uv_sets": [
+            "TEXCOORD_0"
+          ],
+          "uv_range": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "degenerate_uv_triangles_epsilon_1e_12": 0,
+          "degenerate_geometric_triangles_squared_cross_epsilon_1e_24": 0
+        },
+        {
+          "mesh": "Grindstone_StaticFrame_Mesh",
+          "material_index": 5,
+          "triangles": 440,
+          "vertices": 960,
+          "uv_sets": [
+            "TEXCOORD_0"
+          ],
+          "uv_range": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "degenerate_uv_triangles_epsilon_1e_12": 0,
+          "degenerate_geometric_triangles_squared_cross_epsilon_1e_24": 0
+        },
+        {
+          "mesh": "Grindstone_StaticFrame_Mesh",
+          "material_index": 4,
+          "triangles": 132,
+          "vertices": 288,
+          "uv_sets": [
+            "TEXCOORD_0"
+          ],
+          "uv_range": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "degenerate_uv_triangles_epsilon_1e_12": 0,
+          "degenerate_geometric_triangles_squared_cross_epsilon_1e_24": 0
+        },
+        {
+          "mesh": "Grindstone_StaticFrame_Mesh",
+          "material_index": 3,
+          "triangles": 144,
+          "vertices": 240,
+          "uv_sets": [
+            "TEXCOORD_0"
+          ],
+          "uv_range": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "degenerate_uv_triangles_epsilon_1e_12": 0,
+          "degenerate_geometric_triangles_squared_cross_epsilon_1e_24": 0
+        },
+        {
+          "mesh": "Grindstone_StaticFrame_Mesh",
+          "material_index": 2,
+          "triangles": 132,
+          "vertices": 288,
+          "uv_sets": [
+            "TEXCOORD_0"
+          ],
+          "uv_range": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "degenerate_uv_triangles_epsilon_1e_12": 0,
+          "degenerate_geometric_triangles_squared_cross_epsilon_1e_24": 0
+        }
+      ]
+    },
+    {
+      "archive_entry": "Aether_Loom_Grindstone/loom/final/loom.glb",
+      "classification": "standalone art candidate, not approved project reference",
+      "bytes": 360800,
+      "crc32": "c44a4075",
+      "zip_crc_verified": true,
+      "sha256": "cf94dfb6aad293901a0b7efbe33699e8623f40879a726fd91070441c5626dc67",
+      "manifest_sha256_matches": true,
+      "triangle_count": 2708,
+      "manifest_triangle_count_matches": true,
+      "manifest_budget": 2500,
+      "triangles_above_authored_budget": 208,
+      "mesh_count": 3,
+      "primitive_count": 9,
+      "accessors_decoded_finite_and_in_bounds": 36,
+      "materials": [
+        {
+          "name": "Aether_Shared_WarmWood",
+          "alpha_mode": "OPAQUE",
+          "base_color_alpha": 1,
+          "double_sided": true
+        },
+        {
+          "name": "Aether_Linen_Warp",
+          "alpha_mode": "OPAQUE",
+          "base_color_alpha": 1,
+          "double_sided": true
+        },
+        {
+          "name": "Aether_Wood_Endgrain_Dark",
+          "alpha_mode": "OPAQUE",
+          "base_color_alpha": 1,
+          "double_sided": true
+        },
+        {
+          "name": "Aether_Shared_MatteBrass",
+          "alpha_mode": "OPAQUE",
+          "base_color_alpha": 1,
+          "double_sided": true
+        },
+        {
+          "name": "Aether_Shared_MossCanvas",
+          "alpha_mode": "OPAQUE",
+          "base_color_alpha": 1,
+          "double_sided": true
+        },
+        {
+          "name": "Aether_Axle_Charcoal",
+          "alpha_mode": "OPAQUE",
+          "base_color_alpha": 1,
+          "double_sided": true
+        }
+      ],
+      "images": [
+        {
+          "name": "T_Wood_Warm_BaseColor",
+          "embedded_bytes": 91512,
+          "png_dimensions": [
+            512,
+            512
+          ],
+          "sha256": "7944c393fc2b1520170d9d02d611b193461aa98b86e42cd28051ffffe42ae4e0",
+          "packaged_texture": "Aether_Loom_Grindstone/textures/T_Wood_Warm_BaseColor.png",
+          "matches_packaged_texture": true,
+          "packaged_texture_crc_verified": true
+        },
+        {
+          "name": "T_Metal_Brass_BaseColor",
+          "embedded_bytes": 34125,
+          "png_dimensions": [
+            512,
+            512
+          ],
+          "sha256": "55d6007ba1f89a84ce9499b451164c4e0c8468c26a16a9f372a8dad8bd30b707",
+          "packaged_texture": "Aether_Loom_Grindstone/textures/T_Metal_Brass_BaseColor.png",
+          "matches_packaged_texture": true,
+          "packaged_texture_crc_verified": true
+        },
+        {
+          "name": "T_Cloth_Canvas_BaseColor",
+          "embedded_bytes": 46426,
+          "png_dimensions": [
+            512,
+            512
+          ],
+          "sha256": "3f1197ee39196d9848a95f8921ab5afe3c66fcd3bf6ffaad13cbc7cc89f0e7e0",
+          "packaged_texture": "Aether_Loom_Grindstone/textures/T_Cloth_Canvas_BaseColor.png",
+          "matches_packaged_texture": true,
+          "packaged_texture_crc_verified": true
+        }
+      ],
+      "primitives": [
+        {
+          "mesh": "Loom_Beater_Swing_Mesh",
+          "material_index": 0,
+          "triangles": 176,
+          "vertices": 384,
+          "uv_sets": [
+            "TEXCOORD_0"
+          ],
+          "uv_range": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "degenerate_uv_triangles_epsilon_1e_12": 0,
+          "degenerate_geometric_triangles_squared_cross_epsilon_1e_24": 0
+        },
+        {
+          "mesh": "Loom_Beater_Swing_Mesh",
+          "material_index": 1,
+          "triangles": 156,
+          "vertices": 312,
+          "uv_sets": [
+            "TEXCOORD_0"
+          ],
+          "uv_range": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "degenerate_uv_triangles_epsilon_1e_12": 0,
+          "degenerate_geometric_triangles_squared_cross_epsilon_1e_24": 0
+        },
+        {
+          "mesh": "Loom_Heddle_Lift_Mesh",
+          "material_index": 0,
+          "triangles": 176,
+          "vertices": 384,
+          "uv_sets": [
+            "TEXCOORD_0"
+          ],
+          "uv_range": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "degenerate_uv_triangles_epsilon_1e_12": 0,
+          "degenerate_geometric_triangles_squared_cross_epsilon_1e_24": 0
+        },
+        {
+          "mesh": "Loom_StaticFrame_Mesh",
+          "material_index": 0,
+          "triangles": 660,
+          "vertices": 1440,
+          "uv_sets": [
+            "TEXCOORD_0"
+          ],
+          "uv_range": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "degenerate_uv_triangles_epsilon_1e_12": 0,
+          "degenerate_geometric_triangles_squared_cross_epsilon_1e_24": 0
+        },
+        {
+          "mesh": "Loom_StaticFrame_Mesh",
+          "material_index": 2,
+          "triangles": 100,
+          "vertices": 170,
+          "uv_sets": [
+            "TEXCOORD_0"
+          ],
+          "uv_range": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "degenerate_uv_triangles_epsilon_1e_12": 0,
+          "degenerate_geometric_triangles_squared_cross_epsilon_1e_24": 0
+        },
+        {
+          "mesh": "Loom_StaticFrame_Mesh",
+          "material_index": 3,
+          "triangles": 176,
+          "vertices": 288,
+          "uv_sets": [
+            "TEXCOORD_0"
+          ],
+          "uv_range": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              5.960464477539063e-08,
+              1.0
+            ]
+          ],
+          "degenerate_uv_triangles_epsilon_1e_12": 0,
+          "degenerate_geometric_triangles_squared_cross_epsilon_1e_24": 0
+        },
+        {
+          "mesh": "Loom_StaticFrame_Mesh",
+          "material_index": 1,
+          "triangles": 1152,
+          "vertices": 1920,
+          "uv_sets": [
+            "TEXCOORD_0"
+          ],
+          "uv_range": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "degenerate_uv_triangles_epsilon_1e_12": 0,
+          "degenerate_geometric_triangles_squared_cross_epsilon_1e_24": 0
+        },
+        {
+          "mesh": "Loom_StaticFrame_Mesh",
+          "material_index": 4,
+          "triangles": 88,
+          "vertices": 144,
+          "uv_sets": [
+            "TEXCOORD_0"
+          ],
+          "uv_range": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "degenerate_uv_triangles_epsilon_1e_12": 0,
+          "degenerate_geometric_triangles_squared_cross_epsilon_1e_24": 0
+        },
+        {
+          "mesh": "Loom_StaticFrame_Mesh",
+          "material_index": 5,
+          "triangles": 24,
+          "vertices": 48,
+          "uv_sets": [
+            "TEXCOORD_0"
+          ],
+          "uv_range": [
+            [
+              0.0,
+              0.9999999403953552
+            ],
+            [
+              5.960464477539063e-08,
+              1.0
+            ]
+          ],
+          "degenerate_uv_triangles_epsilon_1e_12": 0,
+          "degenerate_geometric_triangles_squared_cross_epsilon_1e_24": 0
+        }
+      ]
+    }
+  ],
+  "preview": {
+    "archive_entry": "Aether_Loom_Grindstone/loom/final/loom_contact_512.png",
+    "local_path": "/workspace/scratch/f8f4985c0858/block-recovery/recovered_loom_contact_512.png",
+    "bytes": 269306,
+    "zip_crc_verified": true,
+    "visual_inspection": {
+      "performed": true,
+      "description": "Existing 512x512 four-view contact sheet depicts a recognizable wooden treadle loom with warm tan framing, moss-green cloth, fine light warp threads, foot treadles and rear bracing. Front, rear, operator and side silhouettes are legible at this preview scale.",
+      "limits": "This is a pre-existing offline render, not a fresh GLB render or project/runtime appearance verification."
+    }
+  },
+  "readme_scope": {
+    "candidates": [
+      "loom",
+      "grindstone"
+    ],
+    "image_only_style_reference": "reference/approved_workbench_perspective.png",
+    "project_import_mobile_performance": "not tested",
+    "shared_basecolors_recovered": 3
+  },
+  "archive_stat_unchanged": true,
+  "process_peak_rss_kib": 13768
+}

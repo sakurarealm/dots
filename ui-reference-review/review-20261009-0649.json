@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-10-09T06:49:22.127795+00:00",
+  "scope": "Surviving historical reference PNGs only, not current compiled game screenshots",
+  "actualVisualInspected": [
+    {
+      "path": "aether-building-images/16-warehouse.png",
+      "width": 1536,
+      "height": 1024,
+      "panels": 4
+    },
+    {
+      "path": "aether-building-images/18-airport.png",
+      "width": 1536,
+      "height": 1024,
+      "panels": 4
+    }
+  ],
+  "observations": [
+    {
+      "image": "16-warehouse.png",
+      "issue": "Transfer panel source64logs at1kg each conflicts with source inventory total32.4kg when read as same illustrated state."
+    },
+    {
+      "image": "16-warehouse.png",
+      "issue": "Destination842logs at1kg each conflicts with warehouse total186kg when read as same illustrated state."
+    },
+    {
+      "image": "16-warehouse.png",
+      "issue": "Selected transfer32 versus available134 nevertheless displays insufficient-space error. Reference needs coherent normal/error state split."
+    }
+  ],
+  "style": "Historical cream/frosted panels; not accepted as current colorless/silver spatial refractive-glass target",
+  "notVerified": [
+    "FullSystem-v10/WhiteGlass complete requirement matrix",
+    "Latest185local screenshots",
+    "Postcompile floatingmenu/warehouse/task screenshots",
+    "Current product implementation"
+  ],
+  "noNewImagesGenerated": true,
+  "fullScreenPageCountClaimed": false
+}

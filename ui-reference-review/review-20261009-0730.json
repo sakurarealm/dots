@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-10-09T07:30:53.157268+00:00",
+  "type": "Historical design-reference visual review, not runtime acceptance",
+  "images": [
+    {
+      "name": "07-forge.png",
+      "pixels": [
+        1536,
+        1024
+      ],
+      "actualViewed": true,
+      "panelCount": 4
+    },
+    {
+      "name": "06-smelter.png",
+      "pixels": [
+        1536,
+        1024
+      ],
+      "actualViewed": true,
+      "panelCount": 4
+    }
+  ],
+  "findings": [
+    {
+      "image": "07-forge.png",
+      "panel": 3,
+      "confidence": "high",
+      "issue": "Repair iron-ingot requirement 1/2 has a check mark while same panel says missing one iron ingot; satisfied/insufficient indicators contradict.",
+      "revision": "Use insufficient icon on1/2; keepgreencheckonlyon3/3and1/1."
+    }
+  ],
+  "noConfirmedNumericContradiction": [
+    "06-smelter.png"
+  ],
+  "limitations": [
+    "Cannot verify button enablement from stillimage",
+    "Oldreference not current game state",
+    "Full requirements matrix and latestcompiled screenshots unavailable"
+  ],
+  "noGeneration": true
+}

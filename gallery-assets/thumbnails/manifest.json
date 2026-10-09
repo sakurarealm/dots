@@ -1,0 +1,447 @@
+{
+  "complete": true,
+  "models": [
+    {
+      "id": "revised-01-01",
+      "path": "thumbnails/revised-01-01.png",
+      "model_sha256": "a2d831691bba39024f4676394def1f0ef657d682a9f76727350a010707d71ef1",
+      "triangles": 2852,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-01-02",
+      "path": "thumbnails/revised-01-02.png",
+      "model_sha256": "b5b9d4e364d819c43323a077a1a237cb57ef9dce108f290931fc57f598839fe7",
+      "triangles": 3464,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-01-03",
+      "path": "thumbnails/revised-01-03.png",
+      "model_sha256": "2b176f727c05101d7d1d69b9e7278548e53597af20a4111a0f13cc0a54495395",
+      "triangles": 3692,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-01-04",
+      "path": "thumbnails/revised-01-04.png",
+      "model_sha256": "cec6d78df8be221e739b84f7a5bb5eab0567a408482665fe440984db13451e14",
+      "triangles": 5216,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-01-05",
+      "path": "thumbnails/revised-01-05.png",
+      "model_sha256": "60f44a013e3a185de8ac6ab80e9fdaa202bae35bc74e7e92c2287a5cac942cfc",
+      "triangles": 2972,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-01-06",
+      "path": "thumbnails/revised-01-06.png",
+      "model_sha256": "dc0b4a82cb991ec2d6e28bcbe5e3227df66c8fda75b9f6410b73b6803a44ac20",
+      "triangles": 3952,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-02-01",
+      "path": "thumbnails/revised-02-01.png",
+      "model_sha256": "3d75a09b61748ead3bb9fb7fcac5b7a57e0d38b98141b4277292738879900ad3",
+      "triangles": 4292,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-02-02",
+      "path": "thumbnails/revised-02-02.png",
+      "model_sha256": "2aa1674732b0c0d2d4bb71d1b860af3c7237950aef2060a74de385684ce7d99a",
+      "triangles": 4408,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-02-03",
+      "path": "thumbnails/revised-02-03.png",
+      "model_sha256": "1e9dedfa984f5d52d0c838cbc04671435271859855468caaf7b3c4958aeb8eed",
+      "triangles": 3882,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-02-04",
+      "path": "thumbnails/revised-02-04.png",
+      "model_sha256": "3a2dc3d57446df985c48257abf0fd3b906851bacdcc04dc4db31662b7dfc7790",
+      "triangles": 3100,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-02-05",
+      "path": "thumbnails/revised-02-05.png",
+      "model_sha256": "671e52856bd7bb131f10427a3578631e56647ad6d95086d66f239b4018b292af",
+      "triangles": 4144,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-02-06",
+      "path": "thumbnails/revised-02-06.png",
+      "model_sha256": "202b762173a01adae84f123ab682486e7dfcda00891e222b9419cd160b7231e2",
+      "triangles": 4016,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-03-01",
+      "path": "thumbnails/revised-03-01.png",
+      "model_sha256": "fd60b4e3848781009f6436564b533b3fa18132dbd897fa93b3d9412d5fe43b72",
+      "triangles": 3732,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-03-02",
+      "path": "thumbnails/revised-03-02.png",
+      "model_sha256": "6be9af9e5ac3f1d850ba8e621e62dd283154a37b7f7ead8d5feea5c078179ac9",
+      "triangles": 3108,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-03-03",
+      "path": "thumbnails/revised-03-03.png",
+      "model_sha256": "0ff6cbc58af189b5a552f63efa364cb129471745d5b2944c166397930573b869",
+      "triangles": 3308,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-03-04",
+      "path": "thumbnails/revised-03-04.png",
+      "model_sha256": "e4010230f027b7a91ccbd7671407ffcea1d2e4e69fe07e78d8d4645f4a1d25c8",
+      "triangles": 3372,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-03-05",
+      "path": "thumbnails/revised-03-05.png",
+      "model_sha256": "edbb56394556c56c21562901ef2e60171e7274a9ccb2c7a330a2ca46dbcc8f1d",
+      "triangles": 2932,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-03-06",
+      "path": "thumbnails/revised-03-06.png",
+      "model_sha256": "cc4b8aa26721140a295b876b6c416b4afdb5fc231ec1b4b7cdc1ab3fa663613f",
+      "triangles": 3576,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-04-01",
+      "path": "thumbnails/revised-04-01.png",
+      "model_sha256": "02bfef466790876e73117a4fee76f138ff9cb07ac114124e5e994ccc50a245a4",
+      "triangles": 3794,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-04-02",
+      "path": "thumbnails/revised-04-02.png",
+      "model_sha256": "2a01191d9a991d96b7c57bd8f9ea68b20339795302c3cc0aed713c2d9ccccd3d",
+      "triangles": 3964,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-04-03",
+      "path": "thumbnails/revised-04-03.png",
+      "model_sha256": "c19db808a61c66dd2c362bb81b158b65ddaac84ddf8b4b299444cf6e6b26bb4a",
+      "triangles": 4684,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-04-04",
+      "path": "thumbnails/revised-04-04.png",
+      "model_sha256": "c3f7d2d074dc09664824a024e3d92e3c33c5ae8d2ccd042f55b104c733ae870a",
+      "triangles": 4152,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-04-05",
+      "path": "thumbnails/revised-04-05.png",
+      "model_sha256": "c311925493a163c7bca0151542830f03c1ea2989fd5eeba311f64228c7b50ea1",
+      "triangles": 3856,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-04-06",
+      "path": "thumbnails/revised-04-06.png",
+      "model_sha256": "77bc5379b2db5ecdd9ce0fe6b7d3e11f817ceeae2665b1e62c6e480e40fcb5f7",
+      "triangles": 3771,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-05-01",
+      "path": "thumbnails/revised-05-01.png",
+      "model_sha256": "d87d79666b242d689c347a8c4c70f28fe4bc4bcf7b913a1709d310afc6b649fb",
+      "triangles": 2874,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-05-02",
+      "path": "thumbnails/revised-05-02.png",
+      "model_sha256": "c3e424526d548dcdee433aad26431ee8e347fa730f55195757a11247f8f15a92",
+      "triangles": 3700,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-05-03",
+      "path": "thumbnails/revised-05-03.png",
+      "model_sha256": "f50ed446177a9a4f62edffbe7abcb18803d5ff54379020db85f0c821aa668b46",
+      "triangles": 4604,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-05-04",
+      "path": "thumbnails/revised-05-04.png",
+      "model_sha256": "0415767f665a62ae7d8e92dfaba175ffc4e71367420370833c9ea4f13964a1e3",
+      "triangles": 4436,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-05-05",
+      "path": "thumbnails/revised-05-05.png",
+      "model_sha256": "b791b0ee72e1530f9f3fe31994e01d707ca463a772fb088ca7c8f742e3862c2c",
+      "triangles": 2816,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-05-06",
+      "path": "thumbnails/revised-05-06.png",
+      "model_sha256": "496916100faa33a5739322b2de95453ebc2367ac556c356c6c4db07b0f6e9b0f",
+      "triangles": 3927,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-06-01",
+      "path": "thumbnails/revised-06-01.png",
+      "model_sha256": "1690813c60923a097df26f7d50f28c2fd696485cbef8e2b182387405cc2f5f1c",
+      "triangles": 2892,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-06-02",
+      "path": "thumbnails/revised-06-02.png",
+      "model_sha256": "1616198c1932f901529ba0a9e1da7e4da4ff010881fc25453787ae5f867b28ec",
+      "triangles": 3084,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-06-03",
+      "path": "thumbnails/revised-06-03.png",
+      "model_sha256": "d6bf185a20dbd98d29ffbe08c6a10a4029381fb9102db99a03b5df74ff53016a",
+      "triangles": 3084,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-06-04",
+      "path": "thumbnails/revised-06-04.png",
+      "model_sha256": "2be3e94818e6cd0f768ea4af416df1f20f7bc41a7d8fa8b226861f5c83c2b74d",
+      "triangles": 3024,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-06-05",
+      "path": "thumbnails/revised-06-05.png",
+      "model_sha256": "7c130eb14cbf658848214916b205bff0584f76ae5ea909cd2eb51c4909a9e4a0",
+      "triangles": 2836,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-06-06",
+      "path": "thumbnails/revised-06-06.png",
+      "model_sha256": "e460b5044db82aed75d4e60ee148924134a2b7d2e5dc75f3a61265c13becb86a",
+      "triangles": 2928,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-07-01",
+      "path": "thumbnails/revised-07-01.png",
+      "model_sha256": "1468f5857d12b53027055664742b2dbecf12e788ee1e43a09cf0672615419f97",
+      "triangles": 4216,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-07-02",
+      "path": "thumbnails/revised-07-02.png",
+      "model_sha256": "b5776e64430d31de776db61d1ff0110289a3f23ee106e9beb2e92cf260a7d41c",
+      "triangles": 3972,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-07-03",
+      "path": "thumbnails/revised-07-03.png",
+      "model_sha256": "6157202ce20824f647f8c4dda71a1030faeeb86d02f6606efc81094861124f2d",
+      "triangles": 4552,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-07-04",
+      "path": "thumbnails/revised-07-04.png",
+      "model_sha256": "fbb38db371efbb6d06f3f3162dcd6b533c2938da3579af2db3271ce0e2b8028f",
+      "triangles": 3984,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-07-05",
+      "path": "thumbnails/revised-07-05.png",
+      "model_sha256": "f7deb37fd0c19b52ecacecfd0e63e0a5eee920909e77f58ceaa5efd071e3fa83",
+      "triangles": 3904,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-07-06",
+      "path": "thumbnails/revised-07-06.png",
+      "model_sha256": "fa8ad6496677a3abb36f705e728c2f2f788c486c9cba14083b1781043e316a81",
+      "triangles": 4855,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-08-01",
+      "path": "thumbnails/revised-08-01.png",
+      "model_sha256": "89450486a159f4ad6665f3badee56b8d7202bde31a0a7292c90c06cbb6e32666",
+      "triangles": 3531,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-08-02",
+      "path": "thumbnails/revised-08-02.png",
+      "model_sha256": "b249f94bb328534ee6fc2ee7dd8aee518455826decb6ef27efdbe4eed8b7bc05",
+      "triangles": 3863,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-08-03",
+      "path": "thumbnails/revised-08-03.png",
+      "model_sha256": "afd58dcd21c613633498588972797c286e2a28a227f2691ee8d97e2d1f680805",
+      "triangles": 4343,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-08-04",
+      "path": "thumbnails/revised-08-04.png",
+      "model_sha256": "e602290f9710bd7e20518aa3ad3500370909f714f5425a40f297ce9e8dd628ed",
+      "triangles": 4315,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-08-05",
+      "path": "thumbnails/revised-08-05.png",
+      "model_sha256": "e3be34f94205c0cb99f0a5557611fe66ad27a56cf7821b7aff55ed8c31b0174a",
+      "triangles": 3823,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-08-06",
+      "path": "thumbnails/revised-08-06.png",
+      "model_sha256": "7c95dfcfc4cd05d2c62fff3a6d4c08d8ce3b8b05aad839f630f5882bc9ba111a",
+      "triangles": 4327,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-09-01",
+      "path": "thumbnails/revised-09-01.png",
+      "model_sha256": "8d5c577b2c7bd93657b3c8fce76122754e458c9fad30c67bf99f4ac39358c107",
+      "triangles": 2800,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-09-02",
+      "path": "thumbnails/revised-09-02.png",
+      "model_sha256": "2ec0271ae93fd768746e64b181b5b1e334400858a0e53962fab04806f7b7033d",
+      "triangles": 3508,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-09-03",
+      "path": "thumbnails/revised-09-03.png",
+      "model_sha256": "37ccbcde01ba9701df3b239055c0a5aa9e787e36e85ce78d466dafb3c95ef300",
+      "triangles": 3608,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-09-04",
+      "path": "thumbnails/revised-09-04.png",
+      "model_sha256": "5406b76916b2441c98474791f17c7d7d597208e11759d20a13dfe3df963f33f8",
+      "triangles": 3232,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-09-05",
+      "path": "thumbnails/revised-09-05.png",
+      "model_sha256": "0b250fea291b6c01787b59e06a77fbefe4d670dff65d895f2c3781c83009348f",
+      "triangles": 3120,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-09-06",
+      "path": "thumbnails/revised-09-06.png",
+      "model_sha256": "077e77757dfa202cbeba89cefe375e1a8c7d403be1a0973b076a3071a339e463",
+      "triangles": 3670,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-10-01",
+      "path": "thumbnails/revised-10-01.png",
+      "model_sha256": "c4d36f6e6da2f8c3f9a7a7bdf376e2c5db4e6e0164b6ac4746c3aed85cf281f2",
+      "triangles": 3460,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-10-02",
+      "path": "thumbnails/revised-10-02.png",
+      "model_sha256": "143b1503538b14f2d37ec0c69dcfa186afc4a9ae09fc955edb1fbc0ead07a5a4",
+      "triangles": 3068,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-10-03",
+      "path": "thumbnails/revised-10-03.png",
+      "model_sha256": "99f45cd7fa4911f07fafd4f1d01e02db141d990143944127b336db2ea83e209e",
+      "triangles": 3596,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-10-04",
+      "path": "thumbnails/revised-10-04.png",
+      "model_sha256": "69e79902803032d9654012405e5d87610c8bbf400d38e6b8ab351e7088d4f655",
+      "triangles": 3828,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-10-05",
+      "path": "thumbnails/revised-10-05.png",
+      "model_sha256": "b9e3179e0fd43a2116bec1eda21bc40c7527212f109e36a84d483be949020a4e",
+      "triangles": 2896,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    },
+    {
+      "id": "revised-10-06",
+      "path": "thumbnails/revised-10-06.png",
+      "model_sha256": "fe10adedb843dce8f5b9882c79cd96b66dc9b590894323f552f0bc018fbb39fc",
+      "triangles": 2840,
+      "note": "Actual GLB geometry and embedded base color, approximate diffuse lighting; not PBR, not style acceptance."
+    }
+  ],
+  "camera": {
+    "azimuth_degrees": 35,
+    "elevation_degrees": 15,
+    "target": [
+      0.10814942105906324,
+      1.0955499102822874,
+      -0.10236521905444634
+    ],
+    "pixels_per_world_unit": 87.31172818200724
+  },
+  "resolution": [
+    256,
+    256
+  ],
+  "memory_cap_bytes": 268435456,
+  "max_rss_kib": 52220,
+  "limitations": [
+    "Approximate diffuse lighting, not full glTF PBR or style acceptance",
+    "No metallic/roughness, custom style shader, outline, shadows, AO or transparency blending",
+    "Nearest-neighbor base color sampling; no antialiasing",
+    "Same camera, framing, light and original model transforms for all 60 thumbnails"
+  ]
+}

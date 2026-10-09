@@ -1,0 +1,47 @@
+{
+  "review_type": "actual_visual_inspection",
+  "scope": "Historical Aether UI reference sheets; clear within-panel arithmetic, state, or control contradictions only",
+  "limitations": [
+    "Historical design references are not evidence of current game behavior.",
+    "FullSystem-v10/WhiteGlass matrix and the latest 185 local screenshots were unavailable.",
+    "No post-compilation evidence for the new floating menu, warehouse, or task UI was inspected."
+  ],
+  "images": [
+    {
+      "file": "aether-building-images/14-tavern.png",
+      "width": 1536,
+      "height": 1024,
+      "panels_inspected": ["01 今日茶饮", "02 冲泡工作区", "03 桌边邀请", "04 主题小聚"],
+      "findings": [],
+      "conclusion": "No clear within-panel contradiction found. Empty-seat count, remaining infusion count, and the insufficient-participants gate are internally plausible."
+    },
+    {
+      "file": "aether-building-images/17-inn.png",
+      "width": 1536,
+      "height": 1024,
+      "panels_inspected": ["01 房间管理", "02 入住确认", "03 住客与居民", "04 主题住宿"],
+      "findings": [
+        {
+          "id": "inn-02-room-ready-conflict",
+          "panel": "02 入住确认",
+          "category": "state/control contradiction",
+          "confidence": "high",
+          "evidence": [
+            "Selected room 101 is labeled 可入住 in the room-selection card.",
+            "办理入住 is disabled.",
+            "The blocking warning says 房间尚未准备好 and 请先完成清洁与整理后再办理入住."
+          ],
+          "finding": "The same panel presents the selected room as ready for check-in while blocking check-in because that room is not ready.",
+          "suggested_resolution": "Derive the readiness badge and check-in gate from the same readiness state. If cleaning is still required, label the room accordingly; if the room is ready, remove this blocker.",
+          "current_game_status": "Unverified; historical reference only."
+        }
+      ],
+      "excluded_ambiguities": [
+        "Panel 01's 4/6 room-list figure has no sufficiently explicit meaning to establish an arithmetic contradiction.",
+        "Different panels may depict different moments; differences in room occupants are not treated as defects.",
+        "Panel 04's 可用2人 can plausibly mean remaining capacity against the six-person limit, so it is not reported as a contradiction."
+      ],
+      "arithmetic_check": "Panel 02 shows 3 nights at 120 coins per night and a total of 360 coins, which is consistent."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+蜗壳移动书库：既有六方向候选恢复检查
+恢复包：/workspace/scratch/f8f4985c0858/sixstyle-recovery/02_蜗壳移动书库_六方向GLB候选_端盖修订.zip
+Library ID: libfile_3ec0e9377dd88191bf9d6bfb06298ad3
+ZIP：9,295,556 字节；8 项；CRC 全通过
+6/6 GLB 头部、清单 SHA256、字节数匹配；所有索引范围及属性有限值检查通过
+三角面：
+- 01_原神参考_赛璐璐.glb: 4,292 三角面，12,876 顶点，2 primitive，3 个材质定义（实际引用 2 个），1 张嵌入 PNG
+- 02_终末地参考_物理动漫.glb: 4,408 三角面，13,224 顶点，2 primitive，3 个材质定义（实际引用 2 个），2 张嵌入 PNG
+- 03_宫崎骏参考_水粉.glb: 3,882 三角面，11,646 顶点，1 primitive，3 个材质定义（实际引用 1 个），1 张嵌入 PNG
+- 04_BK候选_未校准.glb: 3,100 三角面，9,300 顶点，1 primitive，3 个材质定义（实际引用 1 个），1 张嵌入 PNG
+- 05_手绘油画候选.glb: 4,144 三角面，12,432 顶点，2 primitive，3 个材质定义（实际引用 2 个），1 张嵌入 PNG
+- 06_Bloomwalker参考_柔绘.glb: 4,016 三角面，12,048 顶点，2 primitive，3 个材质定义（实际引用 2 个），1 张嵌入 PNG
+共 23,842 三角面；7 张嵌入 PNG（均 1024×1024）；所有 primitive 具 UV，UV 均在 0–1 内
+跨主题复用：7/7 嵌入图像 SHA256 与已恢复雨声采集塔相同，实证确认这些图集跨主题复用
+已实际查看赛璐璐基础图集：8×8 彩色色块和棱角笔触。仅纹理图像，非模型渲染；不能由此评价模型整体效果
+端盖修订：清单声称六个均修订，面数依次 48/144/160/96/48/48；没有原 GLB，未独立核验修订差异
+BK 仍未校准；全部属于候选，不代表六风格已经校准
+标准 glTF PBR 材质无专属赛璐璐/水粉/油画运行时 Shader；未做 Unity 导入、手机测试或性能验收
+未运行模型渲染、浏览器或 Codex 任务；未改资产内容
+检查进程最大 RSS：19,840 KiB；分析进程地址空间上限 95 MiB（下载与图像查看工具内存未独立测量）
+审计 JSON：/workspace/scratch/f8f4985c0858/sixstyle-recovery/snail-library-recovery-audit.json
+查看的贴图：/workspace/scratch/f8f4985c0858/sixstyle-recovery/snail-library-base-atlas.png

@@ -1,0 +1,18 @@
+雨声采集塔候选恢复审计（2026-10-09 UTC）
+ZIP: /workspace/scratch/f8f4985c0858/sixstyle-recovery/01_雨声采集塔_六方向GLB候选_端盖修订.zip
+SHA256: abec399953b5c22b42206db957db8f88c06a2ceb835348c89ec14b2da1a4bfb0
+ZIP bytes: 9390058; entries: 8; uncompressed bytes: 11215859
+已安全检查归档路径，无绝对路径、目录穿越或符号链接；8 项读取通过 CRC；6 个 GLB 哈希及字节数与包内清单完全一致。
+六个网格均名为 rain_tower。三角面数（按 GLB 三角形 primitive 的 accessor 计数，不代表性能实测）：
+01_原神参考_赛璐璐.glb: 2852 tris; 2 primitives; UV 2/2; SHA256 a2d831691bba39024f4676394def1f0ef657d682a9f76727350a010707d71ef1
+02_终末地参考_物理动漫.glb: 3464 tris; 2 primitives; UV 2/2; SHA256 b5b9d4e364d819c43323a077a1a237cb57ef9dce108f290931fc57f598839fe7
+03_宫崎骏参考_水粉.glb: 3692 tris; 1 primitives; UV 1/1; SHA256 2b176f727c05101d7d1d69b9e7278548e53597af20a4111a0f13cc0a54495395
+04_BK候选_未校准.glb: 5216 tris; 1 primitives; UV 1/1; SHA256 cec6d78df8be221e739b84f7a5bb5eab0567a408482665fe440984db13451e14
+05_手绘油画候选.glb: 2972 tris; 2 primitives; UV 2/2; SHA256 60f44a013e3a185de8ac6ab80e9fdaa202bae35bc74e7e92c2287a5cac942cfc
+06_Bloomwalker参考_柔绘.glb: 3952 tris; 1 primitives; UV 1/1; SHA256 dc0b4a82cb991ec2d6e28bcbe5e3227df66c8fda75b9f6410b73b6803a44ac20
+所有 UV 在 [0,1]；均有内嵌 1024×1024 基色 PNG。终末地额外有金属度/粗糙度 PNG。每个文件声明 3 个标准 PBR 材质，实际使用 1–2 个；全部 doubleSided=true。
+7 个内嵌 PNG 哈希互不相同，不能把“复用既有图集”误说成六款用了同一张纹理。历史图集复用来自包内说明，此次未独立比对源图集。
+仅终末地模型被清单标记端盖法线修订（150 面）；其余 5 个标记未修订。没有下载原始版本，不能独立证明修改差异；原始模型在云端保留是 README 的声明。
+BK 仍明确未校准。包内无模型预览图，未渲染，未做视觉通过判断。
+范围只覆盖 1 个物件的 6 方向候选；不是 60 个模型或六风格最终验收。README 的全系列 49 个修正、834 个歧义扇面未做独立核验。
+仅恢复归档及读取检查；未更改原始 ZIP、模型、Library 内容或共享权限。

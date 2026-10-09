@@ -1,0 +1,29 @@
+{
+  "scope": "Pixel review of historical design references only; not evidence of current implemented behavior or post-compile verification.",
+  "images": [
+    {
+      "file": "aether-building-images/08-workshop.png",
+      "panels": [
+        {"panel": "01", "defects": [], "note": "No clear internal numeric, state, or control contradiction found."},
+        {"panel": "02", "defects": [], "note": "Wood 8/12 and nails 0/4 agree with shortages wood x4 and nails x4. Rope 3/2 is sufficient. Going to the workstation is not proven to start crafting immediately."},
+        {"panel": "03", "defects": [{"confidence": "high", "type": "control/display mismatch", "evidence": "The 显示通行空间 switch is grey with its knob on the left (visually off), but the room plan displays white dashed passage-area outlines matching the 通行区域 legend.", "suggestion": "Show the switch on when passage outlines are visible, or hide the outlines when off."}]},
+        {"panel": "04", "defects": [], "note": "No clear numeric contradiction. Backpack-full notice and claim-navigation button alone do not establish a broken action."}
+      ]
+    },
+    {
+      "file": "aether-building-images/13-restaurant.png",
+      "panels": [
+        {"panel": "01", "defects": [], "note": "No clear internal numeric, state, or control contradiction found."},
+        {"panel": "02", "defects": [{"confidence": "high", "type": "incomplete shortage summary", "evidence": "Plan two shows potatoes 6/12, carrots 5/10, meat 4/6, wheat 8/12, and yeast 2/4 in red. The shortage summary lists only potatoes x6, wheat x4, and yeast x2.", "missing": {"carrots": 5, "meat": 2}, "suggestion": "Include every deficient ingredient in the shortage summary, or explicitly label the displayed list as partial."}]},
+        {"panel": "03", "defects": [], "note": "Progress 2/3 alongside in-progress cooking steps is not a proven contradiction without a defined counter meaning."},
+        {"panel": "04", "defects": [], "note": "Resident 4/8 + tourist 2/8 + empty 2/8 equals eight seats. Food spending -120 plus tourist income +240 equals net +120. Portrait colors alone do not prove a category mismatch."}
+      ]
+    }
+  ],
+  "limits": [
+    "FullSystem-v10 and WhiteGlass matrix unavailable for this review.",
+    "Latest 185 local screenshots not available here.",
+    "No image edits, Codex execution, tests, or user-computer access performed.",
+    "Colorless/silver holographic thick liquid-glass target is context, not a basis for inventing functional defects."
+  ]
+}

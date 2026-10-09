@@ -1,0 +1,826 @@
+{
+  "subject": "02_蜗壳移动书库",
+  "library_file_id": "libfile_3ec0e9377dd88191bf9d6bfb06298ad3",
+  "zip_path": "/workspace/scratch/f8f4985c0858/sixstyle-recovery/02_蜗壳移动书库_六方向GLB候选_端盖修订.zip",
+  "zip_bytes": 9295556,
+  "zip_sha256": "3566d76c8bfa08ca9d4cbf4f2c1493960b0969fdd262d63255814d8d2177ed9e",
+  "scope": "Recovery of existing six-direction candidates; no new production, engine test, model render, or mobile acceptance",
+  "models": [
+    {
+      "file": "01_原神参考_赛璐璐.glb",
+      "bytes": 1508848,
+      "sha256": "3d75a09b61748ead3bb9fb7fcac5b7a57e0d38b98141b4277292738879900ad3",
+      "manifest_hash_match": true,
+      "manifest_bytes_match": true,
+      "glb_header_valid": true,
+      "chunks": [
+        {
+          "type": 1313821514,
+          "length": 2980
+        },
+        {
+          "type": 5130562,
+          "length": 1505840
+        }
+      ],
+      "mesh_count": 1,
+      "node_count": 1,
+      "primitives": [
+        {
+          "vertices": 12444,
+          "indices": 12444,
+          "mode": 4,
+          "triangles": 4148,
+          "index_bounds_valid": true,
+          "attribute_values_finite": true,
+          "uv_count": 12444,
+          "uv_min": [
+            0.016249999403953552,
+            0.016249999403953552
+          ],
+          "uv_max": [
+            0.7337499856948853,
+            0.48375001549720764
+          ],
+          "uv_values_finite": true,
+          "uv_vertices_outside_0_1": 0,
+          "material_index": 0
+        },
+        {
+          "vertices": 432,
+          "indices": 432,
+          "mode": 4,
+          "triangles": 144,
+          "index_bounds_valid": true,
+          "attribute_values_finite": true,
+          "uv_count": 432,
+          "uv_min": [
+            0.016249999403953552,
+            0.39125001430511475
+          ],
+          "uv_max": [
+            0.10875000059604645,
+            0.48375001549720764
+          ],
+          "uv_values_finite": true,
+          "uv_vertices_outside_0_1": 0,
+          "material_index": 1
+        }
+      ],
+      "triangles": 4292,
+      "vertices": 12876,
+      "materials": [
+        {
+          "name": "BroadPaint_genshin_cel",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 0.86,
+            "metallicFactor": 0
+          }
+        },
+        {
+          "name": "SelectiveMetal_genshin_cel",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 0.3,
+            "metallicFactor": 0.95
+          }
+        },
+        {
+          "name": "PaintedFoliage_genshin_cel",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 0.9,
+            "metallicFactor": 0
+          }
+        }
+      ],
+      "images": [
+        {
+          "index": 0,
+          "mime": "image/png",
+          "bytes": 1042304,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "43592365a4625f0f0f399cea5b5c7da3bce6f3418ba47de41499b85ceb785156"
+        }
+      ],
+      "textures": [
+        {
+          "source": 0,
+          "sampler": 0
+        }
+      ],
+      "extensions_used": [],
+      "extras": {
+        "style_direction": "genshin_cel",
+        "source_texture": "genshin_cel_atlas_runtime1024.png",
+        "scope": "Actual static GLB with approved-quality texture atlas. CPU art-direction previews and future Blender NPR shaders are separate; no Unity runtime acceptance.",
+        "normal_revision": "v2: cylinder fan caps use planar face normals; positions, indices, UV, textures unchanged. Deindexed GLB needs no additional vertices."
+      },
+      "manifest_revision_claim": {
+        "文件": "01_原神参考_赛璐璐.glb",
+        "端盖法线修订": true,
+        "修订端盖面数": 48,
+        "SHA256": "3d75a09b61748ead3bb9fb7fcac5b7a57e0d38b98141b4277292738879900ad3",
+        "字节数": 1508848
+      }
+    },
+    {
+      "file": "02_终末地参考_物理动漫.glb",
+      "bytes": 2623852,
+      "sha256": "2aa1674732b0c0d2d4bb71d1b860af3c7237950aef2060a74de385684ce7d99a",
+      "manifest_hash_match": true,
+      "manifest_bytes_match": true,
+      "glb_header_valid": true,
+      "chunks": [
+        {
+          "type": 1313821514,
+          "length": 3236
+        },
+        {
+          "type": 5130562,
+          "length": 2620588
+        }
+      ],
+      "mesh_count": 1,
+      "node_count": 1,
+      "primitives": [
+        {
+          "vertices": 11424,
+          "indices": 11424,
+          "mode": 4,
+          "triangles": 3808,
+          "index_bounds_valid": true,
+          "attribute_values_finite": true,
+          "uv_count": 11424,
+          "uv_min": [
+            0.14124999940395355,
+            0.016249999403953552
+          ],
+          "uv_max": [
+            0.8587499856948853,
+            0.7337499856948853
+          ],
+          "uv_values_finite": true,
+          "uv_vertices_outside_0_1": 0,
+          "material_index": 0
+        },
+        {
+          "vertices": 1800,
+          "indices": 1800,
+          "mode": 4,
+          "triangles": 600,
+          "index_bounds_valid": true,
+          "attribute_values_finite": true,
+          "uv_count": 1800,
+          "uv_min": [
+            0.14124999940395355,
+            0.26625001430511475
+          ],
+          "uv_max": [
+            0.8587499856948853,
+            0.35875001549720764
+          ],
+          "uv_values_finite": true,
+          "uv_vertices_outside_0_1": 0,
+          "material_index": 1
+        }
+      ],
+      "triangles": 4408,
+      "vertices": 13224,
+      "materials": [
+        {
+          "name": "BroadPaint_endfield_pbr_anime",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 1,
+            "metallicFactor": 1,
+            "metallicRoughnessTexture": {
+              "index": 1
+            }
+          }
+        },
+        {
+          "name": "SelectiveMetal_endfield_pbr_anime",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 1,
+            "metallicFactor": 1,
+            "metallicRoughnessTexture": {
+              "index": 1
+            }
+          }
+        },
+        {
+          "name": "PaintedFoliage_endfield_pbr_anime",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 1,
+            "metallicFactor": 1,
+            "metallicRoughnessTexture": {
+              "index": 1
+            }
+          }
+        }
+      ],
+      "images": [
+        {
+          "index": 0,
+          "mime": "image/png",
+          "bytes": 2138902,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "d2e5c6044eaad2399d596c2d66bf95024cd73e92f3c3e6bd8e3a55c78e127a9a"
+        },
+        {
+          "index": 1,
+          "mime": "image/png",
+          "bytes": 5620,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "35405ed366fe08319de448c729bb7e7b7e7da683cefcf15ce73a79eaab3dc7af"
+        }
+      ],
+      "textures": [
+        {
+          "source": 0,
+          "sampler": 0
+        },
+        {
+          "source": 1,
+          "sampler": 0
+        }
+      ],
+      "extensions_used": [],
+      "extras": {
+        "style_direction": "endfield_pbr_anime",
+        "source_texture": "endfield_pbr_atlas_runtime1024.png",
+        "scope": "Actual static GLB with approved-quality texture atlas. CPU art-direction previews and future Blender NPR shaders are separate; no Unity runtime acceptance.",
+        "normal_revision": "v2: cylinder fan caps use planar face normals; positions, indices, UV, textures unchanged. Deindexed GLB needs no additional vertices."
+      },
+      "manifest_revision_claim": {
+        "文件": "02_终末地参考_物理动漫.glb",
+        "端盖法线修订": true,
+        "修订端盖面数": 144,
+        "SHA256": "2aa1674732b0c0d2d4bb71d1b860af3c7237950aef2060a74de385684ce7d99a",
+        "字节数": 2623852
+      }
+    },
+    {
+      "file": "03_宫崎骏参考_水粉.glb",
+      "bytes": 1404164,
+      "sha256": "1e9dedfa984f5d52d0c838cbc04671435271859855468caaf7b3c4958aeb8eed",
+      "manifest_hash_match": true,
+      "manifest_bytes_match": true,
+      "glb_header_valid": true,
+      "chunks": [
+        {
+          "type": 1313821514,
+          "length": 2200
+        },
+        {
+          "type": 5130562,
+          "length": 1401936
+        }
+      ],
+      "mesh_count": 1,
+      "node_count": 1,
+      "primitives": [
+        {
+          "vertices": 11646,
+          "indices": 11646,
+          "mode": 4,
+          "triangles": 3882,
+          "index_bounds_valid": true,
+          "attribute_values_finite": true,
+          "uv_count": 11646,
+          "uv_min": [
+            0.016249999403953552,
+            0.016249999403953552
+          ],
+          "uv_max": [
+            0.9837499856948853,
+            0.48375001549720764
+          ],
+          "uv_values_finite": true,
+          "uv_vertices_outside_0_1": 0,
+          "material_index": 0
+        }
+      ],
+      "triangles": 3882,
+      "vertices": 11646,
+      "materials": [
+        {
+          "name": "BroadPaint_ghibli_poster",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 0.98,
+            "metallicFactor": 0
+          }
+        },
+        {
+          "name": "SelectiveMetal_ghibli_poster",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 0.8,
+            "metallicFactor": 0.95
+          }
+        },
+        {
+          "name": "PaintedFoliage_ghibli_poster",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 0.96,
+            "metallicFactor": 0
+          }
+        }
+      ],
+      "images": [
+        {
+          "index": 0,
+          "mime": "image/png",
+          "bytes": 982679,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "da60ba59dc62331a57a59f1f345a3777ce2ebbd72d3f13ea11501b26f6604f37"
+        }
+      ],
+      "textures": [
+        {
+          "source": 0,
+          "sampler": 0
+        }
+      ],
+      "extensions_used": [],
+      "extras": {
+        "style_direction": "ghibli_poster",
+        "source_texture": "ghibli_poster_atlas_r3_runtime1024.png",
+        "scope": "Actual static GLB with approved-quality texture atlas. CPU art-direction previews and future Blender NPR shaders are separate; no Unity runtime acceptance.",
+        "normal_revision": "v2: cylinder fan caps use planar face normals; positions, indices, UV, textures unchanged. Deindexed GLB needs no additional vertices."
+      },
+      "manifest_revision_claim": {
+        "文件": "03_宫崎骏参考_水粉.glb",
+        "端盖法线修订": true,
+        "修订端盖面数": 160,
+        "SHA256": "1e9dedfa984f5d52d0c838cbc04671435271859855468caaf7b3c4958aeb8eed",
+        "字节数": 1404164
+      }
+    },
+    {
+      "file": "04_BK候选_未校准.glb",
+      "bytes": 2098384,
+      "sha256": "3a2dc3d57446df985c48257abf0fd3b906851bacdcc04dc4db31662b7dfc7790",
+      "manifest_hash_match": true,
+      "manifest_bytes_match": true,
+      "glb_header_valid": true,
+      "chunks": [
+        {
+          "type": 1313821514,
+          "length": 2228
+        },
+        {
+          "type": 5130562,
+          "length": 2096128
+        }
+      ],
+      "mesh_count": 1,
+      "node_count": 1,
+      "primitives": [
+        {
+          "vertices": 9300,
+          "indices": 9300,
+          "mode": 4,
+          "triangles": 3100,
+          "index_bounds_valid": true,
+          "attribute_values_finite": true,
+          "uv_count": 9300,
+          "uv_min": [
+            0.016249999403953552,
+            0.016249999403953552
+          ],
+          "uv_max": [
+            0.7337499856948853,
+            0.35875001549720764
+          ],
+          "uv_values_finite": true,
+          "uv_vertices_outside_0_1": 0,
+          "material_index": 0
+        }
+      ],
+      "triangles": 3100,
+      "vertices": 9300,
+      "materials": [
+        {
+          "name": "BroadPaint_bk_project_candidate",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 0.88,
+            "metallicFactor": 0
+          }
+        },
+        {
+          "name": "SelectiveMetal_bk_project_candidate",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 0.42,
+            "metallicFactor": 0.95
+          }
+        },
+        {
+          "name": "PaintedFoliage_bk_project_candidate",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 0.84,
+            "metallicFactor": 0
+          }
+        }
+      ],
+      "images": [
+        {
+          "index": 0,
+          "mime": "image/png",
+          "bytes": 1761328,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "8d00c6db7a4a75a72564c579e91a3cb70905866bea9b423aa7cbbe7fe51a12ba"
+        }
+      ],
+      "textures": [
+        {
+          "source": 0,
+          "sampler": 0
+        }
+      ],
+      "extensions_used": [],
+      "extras": {
+        "style_direction": "bk_project_candidate",
+        "source_texture": "bk_project_candidate_atlas_runtime1024.png",
+        "scope": "Actual static GLB with approved-quality texture atlas. CPU art-direction previews and future Blender NPR shaders are separate; no Unity runtime acceptance.",
+        "normal_revision": "v2: cylinder fan caps use planar face normals; positions, indices, UV, textures unchanged. Deindexed GLB needs no additional vertices."
+      },
+      "manifest_revision_claim": {
+        "文件": "04_BK候选_未校准.glb",
+        "端盖法线修订": true,
+        "修订端盖面数": 96,
+        "SHA256": "3a2dc3d57446df985c48257abf0fd3b906851bacdcc04dc4db31662b7dfc7790",
+        "字节数": 2098384
+      }
+    },
+    {
+      "file": "05_手绘油画候选.glb",
+      "bytes": 2258348,
+      "sha256": "671e52856bd7bb131f10427a3578631e56647ad6d95086d66f239b4018b292af",
+      "manifest_hash_match": true,
+      "manifest_bytes_match": true,
+      "glb_header_valid": true,
+      "chunks": [
+        {
+          "type": 1313821514,
+          "length": 2976
+        },
+        {
+          "type": 5130562,
+          "length": 2255344
+        }
+      ],
+      "mesh_count": 1,
+      "node_count": 1,
+      "primitives": [
+        {
+          "vertices": 11880,
+          "indices": 11880,
+          "mode": 4,
+          "triangles": 3960,
+          "index_bounds_valid": true,
+          "attribute_values_finite": true,
+          "uv_count": 11880,
+          "uv_min": [
+            0.016249999403953552,
+            0.016249999403953552
+          ],
+          "uv_max": [
+            0.7337499856948853,
+            0.35875001549720764
+          ],
+          "uv_values_finite": true,
+          "uv_vertices_outside_0_1": 0,
+          "material_index": 0
+        },
+        {
+          "vertices": 552,
+          "indices": 552,
+          "mode": 4,
+          "triangles": 184,
+          "index_bounds_valid": true,
+          "attribute_values_finite": true,
+          "uv_count": 552,
+          "uv_min": [
+            0.016249999403953552,
+            0.39125001430511475
+          ],
+          "uv_max": [
+            0.10875000059604645,
+            0.48375001549720764
+          ],
+          "uv_values_finite": true,
+          "uv_vertices_outside_0_1": 0,
+          "material_index": 1
+        }
+      ],
+      "triangles": 4144,
+      "vertices": 12432,
+      "materials": [
+        {
+          "name": "BroadPaint_oil_handpaint",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 0.91,
+            "metallicFactor": 0
+          }
+        },
+        {
+          "name": "SelectiveMetal_oil_handpaint",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 0.5,
+            "metallicFactor": 0.95
+          }
+        },
+        {
+          "name": "PaintedFoliage_oil_handpaint",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 0.91,
+            "metallicFactor": 0
+          }
+        }
+      ],
+      "images": [
+        {
+          "index": 0,
+          "mime": "image/png",
+          "bytes": 1807790,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "cf9b8a09e722c504f2d620f59fb57f1ce0109a91e64b7f471567943ab4a89b31"
+        }
+      ],
+      "textures": [
+        {
+          "source": 0,
+          "sampler": 0
+        }
+      ],
+      "extensions_used": [],
+      "extras": {
+        "style_direction": "oil_handpaint",
+        "source_texture": "oil_approved_atlas.png",
+        "scope": "Actual static GLB with approved-quality texture atlas. CPU art-direction previews and future Blender NPR shaders are separate; no Unity runtime acceptance.",
+        "normal_revision": "v2: cylinder fan caps use planar face normals; positions, indices, UV, textures unchanged. Deindexed GLB needs no additional vertices."
+      },
+      "manifest_revision_claim": {
+        "文件": "05_手绘油画候选.glb",
+        "端盖法线修订": true,
+        "修订端盖面数": 48,
+        "SHA256": "671e52856bd7bb131f10427a3578631e56647ad6d95086d66f239b4018b292af",
+        "字节数": 2258348
+      }
+    },
+    {
+      "file": "06_Bloomwalker参考_柔绘.glb",
+      "bytes": 1504736,
+      "sha256": "202b762173a01adae84f123ab682486e7dfcda00891e222b9419cd160b7231e2",
+      "manifest_hash_match": true,
+      "manifest_bytes_match": true,
+      "glb_header_valid": true,
+      "chunks": [
+        {
+          "type": 1313821514,
+          "length": 3032
+        },
+        {
+          "type": 5130562,
+          "length": 1501676
+        }
+      ],
+      "mesh_count": 1,
+      "node_count": 1,
+      "primitives": [
+        {
+          "vertices": 11760,
+          "indices": 11760,
+          "mode": 4,
+          "triangles": 3920,
+          "index_bounds_valid": true,
+          "attribute_values_finite": true,
+          "uv_count": 11760,
+          "uv_min": [
+            0.016249999403953552,
+            0.016249999403953552
+          ],
+          "uv_max": [
+            0.7337499856948853,
+            0.35875001549720764
+          ],
+          "uv_values_finite": true,
+          "uv_vertices_outside_0_1": 0,
+          "material_index": 0
+        },
+        {
+          "vertices": 288,
+          "indices": 288,
+          "mode": 4,
+          "triangles": 96,
+          "index_bounds_valid": true,
+          "attribute_values_finite": true,
+          "uv_count": 288,
+          "uv_min": [
+            0.016249999403953552,
+            0.39125001430511475
+          ],
+          "uv_max": [
+            0.10875000059604645,
+            0.48375001549720764
+          ],
+          "uv_values_finite": true,
+          "uv_vertices_outside_0_1": 0,
+          "material_index": 1
+        }
+      ],
+      "triangles": 4016,
+      "vertices": 12048,
+      "materials": [
+        {
+          "name": "BroadPaint_bloomwalker_painterly",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 0.8,
+            "metallicFactor": 0
+          }
+        },
+        {
+          "name": "SelectiveMetal_bloomwalker_painterly",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 0.49,
+            "metallicFactor": 0.95
+          }
+        },
+        {
+          "name": "PaintedFoliage_bloomwalker_painterly",
+          "doubleSided": true,
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "roughnessFactor": 0.78,
+            "metallicFactor": 0
+          }
+        }
+      ],
+      "images": [
+        {
+          "index": 0,
+          "mime": "image/png",
+          "bytes": 1067947,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "f6857899f381281e15c814aef33429349be284b4808d30dca322e6f0bc3acb95"
+        }
+      ],
+      "textures": [
+        {
+          "source": 0,
+          "sampler": 0
+        }
+      ],
+      "extensions_used": [],
+      "extras": {
+        "style_direction": "bloomwalker_painterly",
+        "source_texture": "bloomwalker_painterly_atlas_r3_runtime1024.png",
+        "scope": "Actual static GLB with approved-quality texture atlas. CPU art-direction previews and future Blender NPR shaders are separate; no Unity runtime acceptance.",
+        "normal_revision": "v2: cylinder fan caps use planar face normals; positions, indices, UV, textures unchanged. Deindexed GLB needs no additional vertices."
+      },
+      "manifest_revision_claim": {
+        "文件": "06_Bloomwalker参考_柔绘.glb",
+        "端盖法线修订": true,
+        "修订端盖面数": 48,
+        "SHA256": "202b762173a01adae84f123ab682486e7dfcda00891e222b9419cd160b7231e2",
+        "字节数": 1504736
+      }
+    }
+  ],
+  "zip_member_count": 8,
+  "crc_bad_member": null,
+  "package_readme": "本包含6个实际GLB候选，中文文件名对应六个方向。\n命中精确圆柱端盖缺陷的模型已换用独立法线修正版；未命中者保留原版。原始模型在云端全部保留。\n本系列共60个候选，其中49个修正法线；仍有834个歧义扇面未强行修改。\n贴图大多复用既有绘制图集，标准glTF材质不携带专属赛璐璐/水粉/油画引擎Shader。CPU风格演示不能替代Unity/手机验收。\n六方向仍需美术校准，本包不是最终已通过资产。独立云钟油画贴图v3试验另存，不混入这套几何版本。\n",
+  "atlas_preview_path": "/workspace/scratch/f8f4985c0858/sixstyle-recovery/snail-library-base-atlas.png",
+  "total_triangles": 23842,
+  "unique_embedded_image_hashes": 7,
+  "max_rss_kib": 19840,
+  "limitations": [
+    "End-cap revision counts are package claims, not independently verified against original GLBs.",
+    "No original-model binary comparison; geometry/UV/texture unchanged claim is not independently verified.",
+    "BK remains explicitly uncalibrated.",
+    "Standard glTF PBR materials do not implement dedicated cel/gouache/oil engine shaders.",
+    "Texture atlas visual inspection is not a model render and cannot establish visual quality or mobile readiness.",
+    "No Unity import, phone profiling, draw-call measurement, or mobile acceptance performed."
+  ],
+  "atlas_reuse_vs_rain_tower": [
+    {
+      "file": "01_原神参考_赛璐璐.glb",
+      "all_images_identical_to_subject01": true
+    },
+    {
+      "file": "02_终末地参考_物理动漫.glb",
+      "all_images_identical_to_subject01": true
+    },
+    {
+      "file": "03_宫崎骏参考_水粉.glb",
+      "all_images_identical_to_subject01": true
+    },
+    {
+      "file": "04_BK候选_未校准.glb",
+      "all_images_identical_to_subject01": true
+    },
+    {
+      "file": "05_手绘油画候选.glb",
+      "all_images_identical_to_subject01": true
+    },
+    {
+      "file": "06_Bloomwalker参考_柔绘.glb",
+      "all_images_identical_to_subject01": true
+    }
+  ],
+  "atlas_visual_inspection": {
+    "actually_viewed": true,
+    "path": "/workspace/scratch/f8f4985c0858/sixstyle-recovery/snail-library-base-atlas.png",
+    "description": "1024×1024 8×8 palette atlas with repeated saturated colored swatches and angular painterly tonal bands; no object-specific snail-library illustration. Texture-only image, not a model render.",
+    "image_edit_performed": false
+  }
+}

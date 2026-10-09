@@ -1,0 +1,587 @@
+{
+  "checked_at_utc": "2026-10-09T07:34:23.390086+00:00",
+  "method": "ZIP central-directory metadata only; no member reads, extraction, CRC validation or hashing. Entry suffix/size does not verify GLB payload validity. Logical family labels are inferred from entry paths, not manifest contents.",
+  "scope": "Existing ZIP files under current working directory; older partial backups, not verification of unavailable full catalogue.",
+  "archives": [
+    {
+      "path": "./aether-batch2-delivery/aether_b2_01_floor.zip",
+      "extension_counts": {
+        ".blend": 1,
+        ".fbx": 1,
+        ".glb": 1,
+        ".png": 12,
+        ".json": 2,
+        ".txt": 1
+      },
+      "geometry_entries": [
+        {
+          "path": "aether-compatible-batch/exports/town_building_floor_bay_v01/town_building_floor_bay_v01.glb",
+          "uncompressed_bytes": 200524
+        }
+      ],
+      "texture_entries": [],
+      "manifest_entries": []
+    },
+    {
+      "path": "./aether-batch2-delivery/aether_b2_02_gable.zip",
+      "extension_counts": {
+        ".blend": 1,
+        ".fbx": 1,
+        ".glb": 1,
+        ".png": 12,
+        ".json": 2,
+        ".txt": 1
+      },
+      "geometry_entries": [
+        {
+          "path": "aether-compatible-batch/exports/town_building_gable_screen_v01/town_building_gable_screen_v01.glb",
+          "uncompressed_bytes": 222244
+        }
+      ],
+      "texture_entries": [],
+      "manifest_entries": []
+    },
+    {
+      "path": "./aether-batch2-delivery/aether_b2_03_side_infill.zip",
+      "extension_counts": {
+        ".blend": 1,
+        ".fbx": 1,
+        ".glb": 1,
+        ".png": 12,
+        ".json": 3,
+        ".txt": 1
+      },
+      "geometry_entries": [
+        {
+          "path": "aether-compatible-batch/exports/town_building_side_infill_v01/town_building_side_infill_v01.glb",
+          "uncompressed_bytes": 200652
+        }
+      ],
+      "texture_entries": [],
+      "manifest_entries": []
+    },
+    {
+      "path": "./aether-batch2-delivery/aether_b2_04_shared.zip",
+      "extension_counts": {
+        ".md": 1,
+        ".png": 14,
+        ".py": 9,
+        ".json": 12,
+        ".txt": 1
+      },
+      "geometry_entries": [],
+      "texture_entries": [
+        "aether-compatible-batch/textures/T_Cloth_Canvas_BaseColor.png",
+        "aether-compatible-batch/textures/T_Cloth_Canvas_MaskMap.png",
+        "aether-compatible-batch/textures/T_Cloth_Canvas_NormalGL.png",
+        "aether-compatible-batch/textures/T_Cloth_Canvas_Roughness.png",
+        "aether-compatible-batch/textures/T_Metal_Brass_BaseColor.png",
+        "aether-compatible-batch/textures/T_Metal_Brass_MaskMap.png",
+        "aether-compatible-batch/textures/T_Metal_Brass_NormalGL.png",
+        "aether-compatible-batch/textures/T_Metal_Brass_Roughness.png",
+        "aether-compatible-batch/textures/T_Wood_Warm_BaseColor.png",
+        "aether-compatible-batch/textures/T_Wood_Warm_MaskMap.png",
+        "aether-compatible-batch/textures/T_Wood_Warm_NormalGL.png",
+        "aether-compatible-batch/textures/T_Wood_Warm_Roughness.png"
+      ],
+      "manifest_entries": [
+        "aether-compatible-batch/reports/samples-manifest.json",
+        "aether-compatible-batch/reports/delivery-manifest.json"
+      ]
+    },
+    {
+      "path": "./aether-barrel-deliverables/Aether_Barrel_Shape_Candidates_Pack_A_20261008.zip",
+      "extension_counts": {
+        ".txt": 1,
+        ".blend": 1,
+        ".png": 6,
+        ".py": 3,
+        ".json": 7,
+        ".fbx": 3,
+        ".glb": 3
+      },
+      "geometry_entries": [
+        {
+          "path": "exports/aether_barrel_shape_genshin.glb",
+          "uncompressed_bytes": 1709212
+        },
+        {
+          "path": "exports/aether_barrel_shape_ghibli.glb",
+          "uncompressed_bytes": 2701560
+        },
+        {
+          "path": "exports/aether_barrel_shape_endfield.glb",
+          "uncompressed_bytes": 2260364
+        }
+      ],
+      "texture_entries": [],
+      "manifest_entries": [
+        "reports/package_manifest.json",
+        "reports/content_manifest.json"
+      ]
+    },
+    {
+      "path": "./aether-barrel-deliverables/Aether_Barrel_Shape_Candidates_Pack_B_20261008.zip",
+      "extension_counts": {
+        ".txt": 1,
+        ".blend": 1,
+        ".png": 6,
+        ".py": 3,
+        ".json": 7,
+        ".fbx": 3,
+        ".glb": 3
+      },
+      "geometry_entries": [
+        {
+          "path": "exports/aether_barrel_shape_oil.glb",
+          "uncompressed_bytes": 2618904
+        },
+        {
+          "path": "exports/aether_barrel_shape_bk.glb",
+          "uncompressed_bytes": 1597076
+        },
+        {
+          "path": "exports/aether_barrel_shape_bloomwalker.glb",
+          "uncompressed_bytes": 1974468
+        }
+      ],
+      "texture_entries": [],
+      "manifest_entries": [
+        "reports/package_manifest.json",
+        "reports/content_manifest.json"
+      ]
+    },
+    {
+      "path": "./aether-barrel-deliverables/Aether_Barrel_Six_Style_Material_Comparison_20261008.zip",
+      "extension_counts": {
+        ".blend": 2,
+        ".json": 5,
+        ".py": 2,
+        ".txt": 1,
+        ".png": 7
+      },
+      "geometry_entries": [],
+      "texture_entries": [],
+      "manifest_entries": [
+        "styles/reports/six_styles_manifest.json"
+      ]
+    },
+    {
+      "path": "./aether-barrel-deliverables/Aether_Wooden_Barrel_LOD0_LOD1_Offline_20261008.zip",
+      "extension_counts": {
+        ".blend": 2,
+        ".fbx": 2,
+        ".glb": 2,
+        ".png": 8,
+        ".json": 6,
+        ".py": 4,
+        ".txt": 1
+      },
+      "geometry_entries": [
+        {
+          "path": "exports/aether_wooden_barrel_v01_LOD1.glb",
+          "uncompressed_bytes": 175556
+        },
+        {
+          "path": "exports/aether_wooden_barrel_v01.glb",
+          "uncompressed_bytes": 291436
+        }
+      ],
+      "texture_entries": [],
+      "manifest_entries": [
+        "reports/barrel_lod1_manifest.json",
+        "reports/barrel_manifest.json",
+        "reports/content_manifest.json"
+      ]
+    },
+    {
+      "path": "./materials_library_delivery/Aether_Mobile_Three_Standalone_Material_Art.zip",
+      "extension_counts": {
+        ".txt": 4,
+        ".json": 4,
+        ".blend": 3,
+        ".png": 58
+      },
+      "geometry_entries": [],
+      "texture_entries": [
+        "materials/oak_planks/textures/candidate_512/basecolor.png",
+        "materials/oak_planks/textures/candidate_512/dram_native.png",
+        "materials/oak_planks/textures/candidate_512/hdrp_mask_bridge.png",
+        "materials/oak_planks/textures/candidate_512/normal_flat_gl.png",
+        "materials/oak_planks/textures/candidate_512/roughness_constant.png",
+        "materials/oak_planks/textures/master_1024/basecolor.png",
+        "materials/oak_planks/textures/master_1024/dram_native.png",
+        "materials/oak_planks/textures/master_1024/hdrp_mask_bridge.png",
+        "materials/oak_planks/textures/master_1024/normal_flat_gl.png",
+        "materials/oak_planks/textures/master_1024/roughness_constant.png",
+        "materials/oak_planks/textures/mobile_256/basecolor.png",
+        "materials/oak_planks/textures/mobile_256/dram_native.png",
+        "materials/oak_planks/textures/mobile_256/hdrp_mask_bridge.png",
+        "materials/oak_planks/textures/mobile_256/normal_flat_gl.png",
+        "materials/oak_planks/textures/mobile_256/roughness_constant.png",
+        "materials/white_concrete/textures/candidate_512/basecolor.png",
+        "materials/white_concrete/textures/candidate_512/dram_native.png",
+        "materials/white_concrete/textures/candidate_512/hdrp_mask_bridge.png",
+        "materials/white_concrete/textures/candidate_512/normal_flat_gl.png",
+        "materials/white_concrete/textures/candidate_512/roughness_constant.png",
+        "materials/white_concrete/textures/master_1024/basecolor.png",
+        "materials/white_concrete/textures/master_1024/dram_native.png",
+        "materials/white_concrete/textures/master_1024/hdrp_mask_bridge.png",
+        "materials/white_concrete/textures/master_1024/normal_flat_gl.png",
+        "materials/white_concrete/textures/master_1024/roughness_constant.png",
+        "materials/white_concrete/textures/mobile_128/basecolor.png",
+        "materials/white_concrete/textures/mobile_128/dram_native.png",
+        "materials/white_concrete/textures/mobile_128/hdrp_mask_bridge.png",
+        "materials/white_concrete/textures/mobile_128/normal_flat_gl.png",
+        "materials/white_concrete/textures/mobile_128/roughness_constant.png",
+        "materials/white_concrete/textures/mobile_256/basecolor.png",
+        "materials/white_concrete/textures/mobile_256/dram_native.png",
+        "materials/white_concrete/textures/mobile_256/hdrp_mask_bridge.png",
+        "materials/white_concrete/textures/mobile_256/normal_flat_gl.png",
+        "materials/white_concrete/textures/mobile_256/roughness_constant.png",
+        "materials/iron_block/textures/candidate_512/basecolor.png",
+        "materials/iron_block/textures/candidate_512/dram_native.png",
+        "materials/iron_block/textures/candidate_512/hdrp_mask_bridge.png",
+        "materials/iron_block/textures/candidate_512/normal_flat_gl.png",
+        "materials/iron_block/textures/candidate_512/roughness_constant.png",
+        "materials/iron_block/textures/master_1024/basecolor.png",
+        "materials/iron_block/textures/master_1024/dram_native.png",
+        "materials/iron_block/textures/master_1024/hdrp_mask_bridge.png",
+        "materials/iron_block/textures/master_1024/normal_flat_gl.png",
+        "materials/iron_block/textures/master_1024/roughness_constant.png",
+        "materials/iron_block/textures/mobile_128/basecolor.png",
+        "materials/iron_block/textures/mobile_128/dram_native.png",
+        "materials/iron_block/textures/mobile_128/hdrp_mask_bridge.png",
+        "materials/iron_block/textures/mobile_128/normal_flat_gl.png",
+        "materials/iron_block/textures/mobile_128/roughness_constant.png",
+        "materials/iron_block/textures/mobile_256/basecolor.png",
+        "materials/iron_block/textures/mobile_256/dram_native.png",
+        "materials/iron_block/textures/mobile_256/hdrp_mask_bridge.png",
+        "materials/iron_block/textures/mobile_256/normal_flat_gl.png",
+        "materials/iron_block/textures/mobile_256/roughness_constant.png"
+      ],
+      "manifest_entries": []
+    },
+    {
+      "path": "./library-loom-grindstone-20261008/Aether_Loom_Grindstone_Mobile_Art_20261008.zip",
+      "extension_counts": {
+        ".md": 1,
+        ".json": 15,
+        ".png": 19,
+        ".py": 3,
+        ".fbx": 2,
+        ".glb": 2,
+        ".blend": 2
+      },
+      "geometry_entries": [
+        {
+          "path": "Aether_Loom_Grindstone/grindstone/final/grindstone.glb",
+          "uncompressed_bytes": 221948
+        },
+        {
+          "path": "Aether_Loom_Grindstone/loom/final/loom.glb",
+          "uncompressed_bytes": 360800
+        }
+      ],
+      "texture_entries": [
+        "Aether_Loom_Grindstone/textures/T_Cloth_Canvas_BaseColor.png",
+        "Aether_Loom_Grindstone/textures/T_Metal_Brass_BaseColor.png",
+        "Aether_Loom_Grindstone/textures/T_Wood_Warm_BaseColor.png"
+      ],
+      "manifest_entries": [
+        "Aether_Loom_Grindstone/grindstone/final/manifest.json",
+        "Aether_Loom_Grindstone/loom/final/manifest.json",
+        "Aether_Loom_Grindstone/delivery_manifest.json"
+      ]
+    },
+    {
+      "path": "./slate_clay_delivery/Aether_Mobile_Slate_Clay_Standalone_Material_Art.zip",
+      "extension_counts": {
+        ".txt": 3,
+        ".json": 3,
+        ".blend": 2,
+        ".png": 42
+      },
+      "geometry_entries": [],
+      "texture_entries": [
+        "materials/deepslate_tiles/textures/candidate_512/basecolor.png",
+        "materials/deepslate_tiles/textures/candidate_512/dram_native.png",
+        "materials/deepslate_tiles/textures/candidate_512/hdrp_mask_bridge.png",
+        "materials/deepslate_tiles/textures/candidate_512/normal_flat_gl.png",
+        "materials/deepslate_tiles/textures/candidate_512/roughness_constant.png",
+        "materials/deepslate_tiles/textures/master_1024/basecolor.png",
+        "materials/deepslate_tiles/textures/master_1024/dram_native.png",
+        "materials/deepslate_tiles/textures/master_1024/hdrp_mask_bridge.png",
+        "materials/deepslate_tiles/textures/master_1024/normal_flat_gl.png",
+        "materials/deepslate_tiles/textures/master_1024/roughness_constant.png",
+        "materials/deepslate_tiles/textures/mobile_128/basecolor.png",
+        "materials/deepslate_tiles/textures/mobile_128/dram_native.png",
+        "materials/deepslate_tiles/textures/mobile_128/hdrp_mask_bridge.png",
+        "materials/deepslate_tiles/textures/mobile_128/normal_flat_gl.png",
+        "materials/deepslate_tiles/textures/mobile_128/roughness_constant.png",
+        "materials/deepslate_tiles/textures/mobile_256/basecolor.png",
+        "materials/deepslate_tiles/textures/mobile_256/dram_native.png",
+        "materials/deepslate_tiles/textures/mobile_256/hdrp_mask_bridge.png",
+        "materials/deepslate_tiles/textures/mobile_256/normal_flat_gl.png",
+        "materials/deepslate_tiles/textures/mobile_256/roughness_constant.png",
+        "materials/red_terracotta/textures/candidate_512/basecolor.png",
+        "materials/red_terracotta/textures/candidate_512/dram_native.png",
+        "materials/red_terracotta/textures/candidate_512/hdrp_mask_bridge.png",
+        "materials/red_terracotta/textures/candidate_512/normal_flat_gl.png",
+        "materials/red_terracotta/textures/candidate_512/roughness_constant.png",
+        "materials/red_terracotta/textures/master_1024/basecolor.png",
+        "materials/red_terracotta/textures/master_1024/dram_native.png",
+        "materials/red_terracotta/textures/master_1024/hdrp_mask_bridge.png",
+        "materials/red_terracotta/textures/master_1024/normal_flat_gl.png",
+        "materials/red_terracotta/textures/master_1024/roughness_constant.png",
+        "materials/red_terracotta/textures/mobile_128/basecolor.png",
+        "materials/red_terracotta/textures/mobile_128/dram_native.png",
+        "materials/red_terracotta/textures/mobile_128/hdrp_mask_bridge.png",
+        "materials/red_terracotta/textures/mobile_128/normal_flat_gl.png",
+        "materials/red_terracotta/textures/mobile_128/roughness_constant.png",
+        "materials/red_terracotta/textures/mobile_256/basecolor.png",
+        "materials/red_terracotta/textures/mobile_256/dram_native.png",
+        "materials/red_terracotta/textures/mobile_256/hdrp_mask_bridge.png",
+        "materials/red_terracotta/textures/mobile_256/normal_flat_gl.png",
+        "materials/red_terracotta/textures/mobile_256/roughness_constant.png"
+      ],
+      "manifest_entries": []
+    },
+    {
+      "path": "./aether-delivery/aether_01_workbench_2026-10-07.zip",
+      "extension_counts": {
+        ".blend": 1,
+        ".fbx": 1,
+        ".glb": 1,
+        ".png": 12,
+        ".json": 2,
+        ".txt": 1
+      },
+      "geometry_entries": [
+        {
+          "path": "aether-first-batch/exports/town_shared_workbench_v01/town_shared_workbench_v01.glb",
+          "uncompressed_bytes": 317788
+        }
+      ],
+      "texture_entries": [],
+      "manifest_entries": []
+    },
+    {
+      "path": "./aether-delivery/aether_02_crate_2026-10-07.zip",
+      "extension_counts": {
+        ".blend": 1,
+        ".fbx": 1,
+        ".glb": 1,
+        ".png": 12,
+        ".json": 2,
+        ".txt": 1
+      },
+      "geometry_entries": [
+        {
+          "path": "aether-first-batch/exports/town_storage_open_crate_v01/town_storage_open_crate_v01.glb",
+          "uncompressed_bytes": 333416
+        }
+      ],
+      "texture_entries": [],
+      "manifest_entries": []
+    },
+    {
+      "path": "./aether-delivery/aether_03_a_frame_2026-10-07.zip",
+      "extension_counts": {
+        ".blend": 1,
+        ".fbx": 1,
+        ".glb": 1,
+        ".png": 12,
+        ".json": 3,
+        ".txt": 1
+      },
+      "geometry_entries": [
+        {
+          "path": "aether-first-batch/exports/town_building_a_frame_bay_v01/town_building_a_frame_bay_v01.glb",
+          "uncompressed_bytes": 408052
+        }
+      ],
+      "texture_entries": [],
+      "manifest_entries": []
+    },
+    {
+      "path": "./aether-delivery/aether_04_shared_resources_2026-10-07.zip",
+      "extension_counts": {
+        ".md": 1,
+        ".png": 12,
+        ".py": 4,
+        ".json": 8,
+        ".txt": 1
+      },
+      "geometry_entries": [],
+      "texture_entries": [
+        "aether-first-batch/textures/T_Cloth_Canvas_BaseColor.png",
+        "aether-first-batch/textures/T_Cloth_Canvas_MaskMap.png",
+        "aether-first-batch/textures/T_Cloth_Canvas_NormalGL.png",
+        "aether-first-batch/textures/T_Cloth_Canvas_Roughness.png",
+        "aether-first-batch/textures/T_Metal_Brass_BaseColor.png",
+        "aether-first-batch/textures/T_Metal_Brass_MaskMap.png",
+        "aether-first-batch/textures/T_Metal_Brass_NormalGL.png",
+        "aether-first-batch/textures/T_Metal_Brass_Roughness.png",
+        "aether-first-batch/textures/T_Wood_Warm_BaseColor.png",
+        "aether-first-batch/textures/T_Wood_Warm_MaskMap.png",
+        "aether-first-batch/textures/T_Wood_Warm_NormalGL.png",
+        "aether-first-batch/textures/T_Wood_Warm_Roughness.png"
+      ],
+      "manifest_entries": [
+        "aether-first-batch/reports/samples-manifest.json",
+        "aether-first-batch/reports/delivery-manifest.json"
+      ]
+    },
+    {
+      "path": "./aether-delivery/aether_first_batch_blender_2026-10-07.zip",
+      "extension_counts": {
+        ".md": 1,
+        ".blend": 3,
+        ".fbx": 3,
+        ".glb": 3,
+        ".png": 48,
+        ".py": 4,
+        ".json": 14
+      },
+      "geometry_entries": [
+        {
+          "path": "aether-first-batch/exports/town_building_a_frame_bay_v01/town_building_a_frame_bay_v01.glb",
+          "uncompressed_bytes": 408052
+        },
+        {
+          "path": "aether-first-batch/exports/town_shared_workbench_v01/town_shared_workbench_v01.glb",
+          "uncompressed_bytes": 317788
+        },
+        {
+          "path": "aether-first-batch/exports/town_storage_open_crate_v01/town_storage_open_crate_v01.glb",
+          "uncompressed_bytes": 333416
+        }
+      ],
+      "texture_entries": [
+        "aether-first-batch/textures/T_Cloth_Canvas_BaseColor.png",
+        "aether-first-batch/textures/T_Cloth_Canvas_MaskMap.png",
+        "aether-first-batch/textures/T_Cloth_Canvas_NormalGL.png",
+        "aether-first-batch/textures/T_Cloth_Canvas_Roughness.png",
+        "aether-first-batch/textures/T_Metal_Brass_BaseColor.png",
+        "aether-first-batch/textures/T_Metal_Brass_MaskMap.png",
+        "aether-first-batch/textures/T_Metal_Brass_NormalGL.png",
+        "aether-first-batch/textures/T_Metal_Brass_Roughness.png",
+        "aether-first-batch/textures/T_Wood_Warm_BaseColor.png",
+        "aether-first-batch/textures/T_Wood_Warm_MaskMap.png",
+        "aether-first-batch/textures/T_Wood_Warm_NormalGL.png",
+        "aether-first-batch/textures/T_Wood_Warm_Roughness.png"
+      ],
+      "manifest_entries": [
+        "aether-first-batch/reports/samples-manifest.json",
+        "aether-first-batch/reports/delivery-manifest.json"
+      ]
+    },
+    {
+      "path": "./geometry-delivery/Aether_Fence_Extra_Offline_Reference_Audit_20261008.zip",
+      "extension_counts": {
+        ".txt": 2,
+        ".json": 8,
+        ".glb": 3,
+        ".cs": 5,
+        ".hlsl": 1,
+        ".png": 7,
+        ".py": 15,
+        ".md": 2,
+        ".blend": 2,
+        ".sh": 1
+      },
+      "geometry_entries": [
+        {
+          "path": "geometry/exports/oak_fence_box_combo_comparison.glb",
+          "uncompressed_bytes": 231948
+        },
+        {
+          "path": "geometry/exports/oak_fence_mobile_candidate.glb",
+          "uncompressed_bytes": 232468
+        },
+        {
+          "path": "geometry/exports/oak_fence_partial52_render_reference.glb",
+          "uncompressed_bytes": 231444
+        }
+      ],
+      "texture_entries": [
+        "materials_a/textures/oak_planks/candidate_512/basecolor.png",
+        "materials_a/textures/oak_planks/mobile_256/basecolor.png"
+      ],
+      "manifest_entries": [
+        "geometry/delivery/fence_extra/content_manifest.json"
+      ]
+    },
+    {
+      "path": "./geometry-delivery/Aether_Trapdoor12_Offline_InternalCap_Reference_20261008.zip",
+      "extension_counts": {
+        ".md": 4,
+        ".json": 11,
+        ".cs": 7,
+        ".hlsl": 1,
+        ".txt": 2,
+        ".webp": 9,
+        ".fbx": 1,
+        ".glb": 2,
+        ".blend": 1,
+        ".py": 22,
+        ".png": 10,
+        ".sh": 1
+      },
+      "geometry_entries": [
+        {
+          "path": "geometry/next_trapdoor12/exports/iron_trapdoor12_candidate16_endpoint_reference_atlas.glb",
+          "uncompressed_bytes": 288872
+        },
+        {
+          "path": "geometry/next_trapdoor12/exports/iron_trapdoor12_raw16_endpoint_reference_atlas.glb",
+          "uncompressed_bytes": 305080
+        }
+      ],
+      "texture_entries": [
+        "materials_b/approved_standalone/iron_block_v02/textures/candidate_512/basecolor.png",
+        "materials_b/approved_standalone/iron_block_v02/textures/candidate_512/dram_native.png",
+        "materials_b/approved_standalone/iron_block_v02/textures/candidate_512/hdrp_mask_bridge.png",
+        "materials_b/approved_standalone/iron_block_v02/textures/candidate_512/normal_flat_gl.png",
+        "materials_b/approved_standalone/iron_block_v02/textures/candidate_512/roughness_constant.png",
+        "materials_b/approved_standalone/iron_block_v02/textures/mobile_256/basecolor.png",
+        "materials_b/approved_standalone/iron_block_v02/textures/mobile_256/dram_native.png",
+        "materials_b/approved_standalone/iron_block_v02/textures/mobile_256/hdrp_mask_bridge.png",
+        "materials_b/approved_standalone/iron_block_v02/textures/mobile_256/normal_flat_gl.png",
+        "materials_b/approved_standalone/iron_block_v02/textures/mobile_256/roughness_constant.png"
+      ],
+      "manifest_entries": [
+        "geometry/next_trapdoor12/delivery/content_manifest.json"
+      ]
+    }
+  ],
+  "summary": {
+    "zip_count": 18,
+    "all_glb_entry_count": 24,
+    "unique_glb_basenames_not_logical_asset_count": 21,
+    "obj_entry_count": 0,
+    "block_focused_geometry": {
+      "oak_fence": 3,
+      "iron_trapdoor12": 2,
+      "loom": 1,
+      "grindstone": 1
+    },
+    "block_focused_geometry_note": "7 entries across 4 path-inferred families; fence/trapdoor entries include alternatives/references, not 7 independent logical blocks. Barrel backups are separate related props.",
+    "standalone_material_families": [
+      "oak_planks",
+      "white_concrete",
+      "iron_block",
+      "deepslate_tiles",
+      "red_terracotta"
+    ],
+    "standalone_material_zip_texture_png_entries": 95,
+    "mobile_completion_verified": false,
+    "full_catalogue_restorable_verified": false
+  },
+  "visual_review": {
+    "path": "materials_library_delivery/Aether_Mobile_Three_Material_Art_Overview.png",
+    "actually_viewed": true,
+    "findings": "Three shaded cube previews. Oak has distinct warm plank divisions and readable grain; white concrete is pale cream with subtle mottling; iron is blue-grey with broad horizontal bands and reads fairly matte in this lighting. No obvious missing-texture checkerboard. This image alone cannot verify tiling, all faces, mesh validity, GPU performance, or six-style coverage."
+  }
+}

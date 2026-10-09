@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-10-09T08:39:08.079798+00:00",
+  "image": "aether-building-images/15-general-store.png",
+  "actualViewed": true,
+  "size": [
+    1536,
+    1024
+  ],
+  "scope": "historical UI design only",
+  "findings": [
+    {
+      "panel": 4,
+      "confidence": "high",
+      "lineSubtotals": [
+        540,
+        640,
+        1100
+      ],
+      "correctTotal": 2280,
+      "shownTotal": 1980,
+      "buyerBudget": 2000,
+      "issue": "Sum and green within-budget indicator conflict with visible line subtotals; receipt also repeats1980.",
+      "suggestedRevision": "Show2280and280overbudgetstate or deliberately adjust itemquantity/unitprice; keep receipt from same transaction state."
+    }
+  ],
+  "notCurrentGameBug": true,
+  "noNewImageGeneration": true
+}
