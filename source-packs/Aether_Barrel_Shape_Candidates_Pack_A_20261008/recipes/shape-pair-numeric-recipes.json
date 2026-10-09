@@ -1,0 +1,1610 @@
+{
+  "schema_version": 1,
+  "purpose": "Numeric authoring specification for the two final original barrel shapes. Documents the exact constants used by the accompanying Blender builder, not a new modeling pass.",
+  "created_at_utc": "2026-10-08T12:04:37.264343+00:00",
+  "scope": "Offline geometry/material comparison candidates only; no Unity/native shader/mobile/device acceptance",
+  "authoritative_builder": {
+    "path": "/workspace/shared/aether-production-20261008/style-shapes-pair/scripts/build_shape_pair.py",
+    "sha256": "cd30086275a9060106a6fd6b870b2871a04b82f05322a530d53d131a4723c4f3",
+    "blender_version": "4.3.2",
+    "geometry_entry_points": {
+      "endfield": "build_endfield()",
+      "bloomwalker": "build_bloomwalker()"
+    },
+    "function_line_ranges": {
+      "now": {
+        "start_line": 14,
+        "end_line": 14
+      },
+      "stage": {
+        "start_line": 15,
+        "end_line": 19
+      },
+      "guard": {
+        "start_line": 21,
+        "end_line": 29
+      },
+      "scene_settings": {
+        "start_line": 31,
+        "end_line": 33
+      },
+      "signature": {
+        "start_line": 34,
+        "end_line": 34
+      },
+      "mesh": {
+        "start_line": 37,
+        "end_line": 51
+      },
+      "box": {
+        "start_line": 53,
+        "end_line": 56
+      },
+      "sector": {
+        "start_line": 58,
+        "end_line": 77
+      },
+      "ring": {
+        "start_line": 79,
+        "end_line": 88
+      },
+      "solid_cylinder": {
+        "start_line": 90,
+        "end_line": 93
+      },
+      "disc": {
+        "start_line": 95,
+        "end_line": 100
+      },
+      "clip": {
+        "start_line": 102,
+        "end_line": 109
+      },
+      "lid": {
+        "start_line": 111,
+        "end_line": 117
+      },
+      "handle": {
+        "start_line": 119,
+        "end_line": 130
+      },
+      "build_endfield": {
+        "start_line": 132,
+        "end_line": 149
+      },
+      "foot": {
+        "start_line": 151,
+        "end_line": 159
+      },
+      "build_bloomwalker": {
+        "start_line": 161,
+        "end_line": 180
+      },
+      "qa": {
+        "start_line": 182,
+        "end_line": 187
+      },
+      "welded_geometry_qa": {
+        "start_line": 189,
+        "end_line": 195
+      },
+      "merged_asset": {
+        "start_line": 197,
+        "end_line": 209
+      },
+      "portable_materials": {
+        "start_line": 211,
+        "end_line": 218
+      },
+      "roundtrip": {
+        "start_line": 220,
+        "end_line": 232
+      },
+      "run_style": {
+        "start_line": 234,
+        "end_line": 268
+      }
+    },
+    "usage": "Run the accompanying build_shape_pair.py in Blender 4.3.2. This JSON describes its numeric constants; the builder does not parse this JSON. In a clean output directory both geometry entries run. Its recovery mode may reuse already-existing final files; AETHER_FORCE_STYLE=endfield or AETHER_FORCE_STYLE=bloomwalker forces that named existing style.",
+    "command": "OPENBLAS_NUM_THREADS=2 OMP_NUM_THREADS=2 blender -b -t 2 --python scripts/build_shape_pair.py",
+    "source_dependencies": {
+      "frozen_studio_reference": "/workspace/shared/aether-production-20261008/barrel-composter/source/aether_wooden_barrel_v01_sample.blend",
+      "matching_material_library": "/workspace/shared/aether-production-20261008/barrel-composter/styles/source/barrel_six_styles_library.blend",
+      "matching_original_textures": "/workspace/shared/aether-style-comparison/textures",
+      "note": "These paths are authoring-environment inputs. Delivered .blend geometry and images are packed and do not require these paths to open or edit. Adjust source paths to reproduce elsewhere."
+    }
+  },
+  "conventions": {
+    "distance_unit": "metre",
+    "angle_unit": "radian",
+    "up_axis": "+Z",
+    "pivot_world_m": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "rotation_radians": [
+      0,
+      0,
+      0
+    ],
+    "unit_scale_length": 1.0,
+    "coordinate_precision": "Python math double precision is converted to Blender mesh float32",
+    "randomness": "None; deterministic trigonometric variation only",
+    "level_pair_order": [
+      "z_m",
+      "radius_m"
+    ],
+    "ring_profile_pair_order": [
+      "radius_m",
+      "z_m"
+    ],
+    "finalize": "Join authored closed pieces into one mesh, keep a named vertex group per component, consolidate to two wood/iron slots, set origin to scene cursor (0,0,0), apply rotation/scale"
+  },
+  "primitive_rules": {
+    "sector": {
+      "angular_samples": "subdivisions+1 at inclusive t0..t1",
+      "radial_surfaces": "outer radius r, inner radius r-thickness; close both sides and both ends",
+      "uv0": {
+        "u": "0.006 + (stave_index % 8)*0.125 + angular_fraction*0.113",
+        "v": "0.02 + z*0.91"
+      },
+      "source_function": "sector"
+    },
+    "ring": {
+      "sweep_samples": "n evenly spaced samples t=2*pi*j/n, closed around axis",
+      "cross_section": "closed ordered list of (radius,z) profile samples",
+      "wave_z": "wave*sin(3*t+0.6)",
+      "wave_radius": "wave*0.18*sin(5*t)",
+      "faces": "Closed cyclic quads between adjacent angular and profile samples",
+      "source_function": "ring"
+    },
+    "disc": {
+      "front_radius_multiplier": 0.82,
+      "ring_count": 2,
+      "back_depth_m": 0,
+      "front_depth_m": "depth parameter",
+      "caps": "Both ends capped",
+      "source_function": "disc"
+    },
+    "box": {
+      "faces": "Six closed quad faces; dimensions/center can be rotated around Z by angle",
+      "bevel_segments": 1,
+      "bevel_width_m": "Per-component value below; Blender 4.3.2 Bevel modifier applied",
+      "source_function": "box"
+    },
+    "lid": {
+      "boundary_circle_vertices": 32,
+      "strip_clipping_axis": 1,
+      "seam_margin_each_side_m": 0.0025,
+      "bottom_z": "lid_z-0.025",
+      "crown_formula": "top_z=lid_z+0.012*(1-(x*x+y*y)/(radius*radius)) if rounded; otherwise lid_z",
+      "uv0": {
+        "u": "0.10+(y+radius)*0.84",
+        "v": "0.10+(x+radius)*0.90"
+      },
+      "source_function": "lid"
+    },
+    "smoothing": {
+      "rule": "If smooth=True, mark polygon smooth only when abs(face_normal.z)<0.999",
+      "source_function": "mesh"
+    },
+    "generic_uv0": {
+      "vertical_or_sloping_surface": "(x+0.5,z)",
+      "horizontal_surface_abs_normal_z_gt_0_6": "(x/0.95+0.5,y/0.95+0.5)"
+    }
+  },
+  "endfield": {
+    "final_metrics": {
+      "triangles": 2692,
+      "vertices": 1440,
+      "polygons": 1314,
+      "material_slots": [
+        "M_Style_endfield_Wood",
+        "M_Style_endfield_Iron"
+      ],
+      "material_count": 2,
+      "component_vertex_groups": [
+        "Modular_Wood_Panel_00",
+        "Modular_Wood_Panel_01",
+        "Modular_Wood_Panel_02",
+        "Modular_Wood_Panel_03",
+        "Modular_Wood_Panel_04",
+        "Modular_Wood_Panel_05",
+        "Modular_Wood_Panel_06",
+        "Modular_Wood_Panel_07",
+        "Modular_Wood_Panel_08",
+        "Modular_Wood_Panel_09",
+        "Modular_Wood_Panel_10",
+        "Modular_Wood_Panel_11",
+        "Bottom_Protective_Flange",
+        "Top_Closure_Flange",
+        "Vertical_Frame_Strap_00",
+        "Frame_Fastener_00_0",
+        "Frame_Fastener_00_1",
+        "Vertical_Frame_Strap_01",
+        "Frame_Fastener_01_0",
+        "Frame_Fastener_01_1",
+        "Vertical_Frame_Strap_02",
+        "Frame_Fastener_02_0",
+        "Frame_Fastener_02_1",
+        "Vertical_Frame_Strap_03",
+        "Frame_Fastener_03_0",
+        "Frame_Fastener_03_1",
+        "Vertical_Frame_Strap_04",
+        "Frame_Fastener_04_0",
+        "Frame_Fastener_04_1",
+        "Vertical_Frame_Strap_05",
+        "Frame_Fastener_05_0",
+        "Frame_Fastener_05_1",
+        "Lid_Panel_00",
+        "Lid_Panel_01",
+        "Lid_Panel_02",
+        "Lid_Panel_03",
+        "Lid_Panel_04",
+        "Lid_Panel_05",
+        "Lid_Cross_Brace",
+        "Lid_Brace_Clamp_-0.265",
+        "Lid_Brace_Clamp_0.265",
+        "Side_D_Grip_Left",
+        "Side_D_Grip_Left_Mount_-1",
+        "Side_D_Grip_Left_Mount_1",
+        "Side_D_Grip_Right",
+        "Side_D_Grip_Right_Mount_-1",
+        "Side_D_Grip_Right_Mount_1",
+        "Front_Closure_Latch",
+        "Latch_Screw_0.928",
+        "Latch_Screw_0.992",
+        "Bottom_Wood_Closure"
+      ],
+      "bounds_m": {
+        "min": [
+          -0.4819999933242798,
+          -0.45100000500679016,
+          0.0
+        ],
+        "max": [
+          0.4819999933242798,
+          0.45100000500679016,
+          1.0605000257492065
+        ]
+      },
+      "dimensions_m": [
+        0.9639999866485596,
+        0.9020000100135803,
+        1.0605000257492065
+      ],
+      "origin_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "object_rotation_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uv_layers": [
+        "UV0"
+      ],
+      "uv_loops": 5320,
+      "uv_finite": true,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "closed_components": "Disconnected closed authored pieces are intentional; no Boolean union",
+      "unit_scale_length": 1.0
+    },
+    "geometry_entry": "build_endfield",
+    "wood_panels": {
+      "count": 12,
+      "levels_z_radius_m": [
+        [
+          0.055,
+          0.395
+        ],
+        [
+          0.09,
+          0.419
+        ],
+        [
+          0.17,
+          0.436
+        ],
+        [
+          0.87,
+          0.436
+        ],
+        [
+          0.967,
+          0.418
+        ],
+        [
+          1.017,
+          0.394
+        ]
+      ],
+      "wall_thickness_m": 0.028,
+      "subdivisions": 2,
+      "seam_half_angle_radians": 0.007,
+      "smooth": false,
+      "resolved_panels": [
+        {
+          "index": 0,
+          "t0": 0.007,
+          "t1": 0.5165987755982988
+        },
+        {
+          "index": 1,
+          "t0": 0.5305987755982988,
+          "t1": 1.0401975511965977
+        },
+        {
+          "index": 2,
+          "t0": 1.0541975511965975,
+          "t1": 1.5637963267948967
+        },
+        {
+          "index": 3,
+          "t0": 1.5777963267948965,
+          "t1": 2.087395102393195
+        },
+        {
+          "index": 4,
+          "t0": 2.1013951023931954,
+          "t1": 2.6109938779914943
+        },
+        {
+          "index": 5,
+          "t0": 2.6249938779914945,
+          "t1": 3.134592653589793
+        },
+        {
+          "index": 6,
+          "t0": 3.1485926535897932,
+          "t1": 3.6581914291880917
+        },
+        {
+          "index": 7,
+          "t0": 3.672191429188092,
+          "t1": 4.181790204786391
+        },
+        {
+          "index": 8,
+          "t0": 4.19579020478639,
+          "t1": 4.70538898038469
+        },
+        {
+          "index": 9,
+          "t0": 4.719388980384689,
+          "t1": 5.228987755982989
+        },
+        {
+          "index": 10,
+          "t0": 5.2429877559829885,
+          "t1": 5.752586531581287
+        },
+        {
+          "index": 11,
+          "t0": 5.766586531581287,
+          "t1": 6.276185307179587
+        }
+      ]
+    },
+    "bottom_flange": {
+      "angular_segments": 24,
+      "profile_radius_z_m": [
+        [
+          0.367,
+          0
+        ],
+        [
+          0.435,
+          0
+        ],
+        [
+          0.451,
+          0.017
+        ],
+        [
+          0.451,
+          0.059
+        ],
+        [
+          0.436,
+          0.08
+        ],
+        [
+          0.403,
+          0.08
+        ],
+        [
+          0.392,
+          0.057
+        ],
+        [
+          0.367,
+          0.016
+        ]
+      ],
+      "material": "iron"
+    },
+    "top_flange": {
+      "angular_segments": 24,
+      "profile_radius_z_m": [
+        [
+          0.381,
+          0.991
+        ],
+        [
+          0.431,
+          0.991
+        ],
+        [
+          0.451,
+          1.01
+        ],
+        [
+          0.451,
+          1.04
+        ],
+        [
+          0.433,
+          1.06
+        ],
+        [
+          0.395,
+          1.06
+        ],
+        [
+          0.381,
+          1.046
+        ]
+      ],
+      "material": "iron"
+    },
+    "vertical_frame_straps": {
+      "count": 6,
+      "angle_phase_radians": 0.26,
+      "angles_radians": [
+        0.26,
+        1.3071975511965976,
+        2.3543951023931955,
+        3.401592653589793,
+        4.44879020478639,
+        5.495987755982989
+      ],
+      "angular_half_width_radians": 0.035,
+      "levels_z_radius_m": [
+        [
+          0.07,
+          0.42
+        ],
+        [
+          0.17,
+          0.444
+        ],
+        [
+          0.87,
+          0.444
+        ],
+        [
+          1.005,
+          0.409
+        ]
+      ],
+      "thickness_m": 0.016,
+      "subdivisions": 1,
+      "material": "iron",
+      "fasteners_per_strap": {
+        "z_positions_m": [
+          0.187,
+          0.853
+        ],
+        "center_radius_m": 0.447,
+        "radius_m": 0.009,
+        "depth_m": 0.005,
+        "segments": 6,
+        "normal": "outward radial unit vector"
+      }
+    },
+    "lid": {
+      "radius_m": 0.375,
+      "z_m": 1.016,
+      "panel_count": 6,
+      "rounded_crown": false
+    },
+    "lid_cross_brace": {
+      "center_m": [
+        0,
+        0,
+        1.031
+      ],
+      "dimensions_m": [
+        0.695,
+        0.05,
+        0.026
+      ],
+      "bevel_m": 0.004,
+      "material": "iron"
+    },
+    "lid_brace_clamps": {
+      "x_positions_m": [
+        -0.265,
+        0.265
+      ],
+      "y_m": 0,
+      "z_m": 1.047,
+      "dimensions_m": [
+        0.064,
+        0.085,
+        0.027
+      ],
+      "bevel_m": 0.003,
+      "material": "iron"
+    },
+    "side_D_grips": {
+      "count": 2,
+      "angles_radians": [
+        0,
+        3.141592653589793
+      ],
+      "center_radius_m": 0.47,
+      "center_z_m": 0.71,
+      "tangent": "(-sin(t),cos(t),0)",
+      "radial_normal": "(cos(t),sin(t),0)",
+      "outer_chamfered_rectangle_half_width_half_height_chamfer_m": [
+        0.078,
+        0.082,
+        0.014
+      ],
+      "inner_chamfered_rectangle_half_width_half_height_chamfer_m": [
+        0.047,
+        0.05,
+        0.01
+      ],
+      "radial_depth_slices_m": [
+        -0.012,
+        0.012
+      ],
+      "outline_vertex_count": 8,
+      "material": "iron",
+      "mounts_per_grip": {
+        "count": 2,
+        "center_radius_m": 0.444,
+        "center_z_m": 0.71,
+        "z_offsets_m": [
+          -0.057,
+          0.057
+        ],
+        "dimensions_m": [
+          0.038,
+          0.04,
+          0.038
+        ],
+        "bevel_m": 0.003,
+        "z_rotation": "same t as grip"
+      }
+    },
+    "front_latch": {
+      "center_m": [
+        0,
+        -0.433,
+        0.963
+      ],
+      "dimensions_m": [
+        0.067,
+        0.019,
+        0.115
+      ],
+      "bevel_m": 0.004,
+      "material": "iron",
+      "screws": {
+        "x_m": 0,
+        "y_m": -0.446,
+        "z_positions_m": [
+          0.928,
+          0.992
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "radius_m": 0.006,
+        "depth_m": 0.003,
+        "segments": 6
+      }
+    },
+    "bottom_wood_closure": {
+      "radius_m": 0.389,
+      "z0_m": 0.032,
+      "z1_m": 0.055,
+      "segments": 12
+    },
+    "materials": {
+      "id": "endfield",
+      "label": "明日方舟：终末地方向",
+      "texture": "02_endfield_wood_albedo_v01.png",
+      "stroke_structure": "Fine irregular fibers and weathering, low-contrast rubbed natural grain, restrained wear, de-emphasized decorative outlines",
+      "frequency": "mid and fine surface frequencies",
+      "wood": {
+        "roughness": 0.68,
+        "metallic": 0
+      },
+      "iron": {
+        "base_color_srgb": [
+          0.22,
+          0.25,
+          0.27,
+          1
+        ],
+        "roughness": 0.58,
+        "metallic": 0.65
+      },
+      "shading": {
+        "type": "physical_continuous",
+        "bands": 0,
+        "blend_strength": 0,
+        "notes": "Continuous broad physical shading, modest realistic metal response, avoid overly polished iron"
+      }
+    }
+  },
+  "bloomwalker": {
+    "final_revision": 2,
+    "final_metrics": {
+      "triangles": 2960,
+      "vertices": 1530,
+      "polygons": 1412,
+      "material_slots": [
+        "M_Style_bloomwalker_Wood",
+        "M_Style_bloomwalker_Iron"
+      ],
+      "material_count": 2,
+      "component_vertex_groups": [
+        "Organic_Curved_Stave_00",
+        "Organic_Curved_Stave_01",
+        "Organic_Curved_Stave_02",
+        "Organic_Curved_Stave_03",
+        "Organic_Curved_Stave_04",
+        "Organic_Curved_Stave_05",
+        "Organic_Curved_Stave_06",
+        "Organic_Curved_Stave_07",
+        "Organic_Curved_Stave_08",
+        "Organic_Curved_Stave_09",
+        "Organic_Curved_Stave_10",
+        "Organic_Curved_Stave_11",
+        "Closed_Inner_Seam_Lining",
+        "Rounded_Wood_Lip",
+        "Soft_Wavy_Hoop_00",
+        "Rounded_Wood_Hoop_Peg_0_0",
+        "Rounded_Wood_Hoop_Peg_0_1",
+        "Soft_Wavy_Hoop_01",
+        "Rounded_Wood_Hoop_Peg_1_0",
+        "Rounded_Wood_Hoop_Peg_1_1",
+        "Lid_Panel_00",
+        "Lid_Panel_01",
+        "Lid_Panel_02",
+        "Lid_Panel_03",
+        "Lid_Panel_04",
+        "Rounded_Short_Foot_00",
+        "Rounded_Short_Foot_01",
+        "Rounded_Short_Foot_02",
+        "Bottom_Wood_Closure"
+      ],
+      "bounds_m": {
+        "min": [
+          -0.5053701996803284,
+          -0.5055522322654724,
+          0.0
+        ],
+        "max": [
+          0.5029748678207397,
+          0.5022082924842834,
+          1.0199486017227173
+        ]
+      },
+      "dimensions_m": [
+        1.0083450675010681,
+        1.0077605247497559,
+        1.0199486017227173
+      ],
+      "origin_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "object_rotation_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uv_layers": [
+        "UV0"
+      ],
+      "uv_loops": 5784,
+      "uv_finite": true,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "closed_components": "Disconnected closed authored pieces are intentional; no Boolean union",
+      "unit_scale_length": 1.0
+    },
+    "geometry_entry": "build_bloomwalker",
+    "unlined_revision_triangle_count": 2672,
+    "added_lining_triangle_count": 288,
+    "organic_staves": {
+      "count": 12,
+      "base_levels_z_radius_m": [
+        [
+          0.079,
+          0.344
+        ],
+        [
+          0.132,
+          0.399
+        ],
+        [
+          0.245,
+          0.465
+        ],
+        [
+          0.441,
+          0.503
+        ],
+        [
+          0.654,
+          0.499
+        ],
+        [
+          0.837,
+          0.457
+        ],
+        [
+          0.937,
+          0.402
+        ],
+        [
+          0.985,
+          0.382
+        ]
+      ],
+      "wall_thickness_m": 0.027,
+      "subdivisions": 2,
+      "seam_half_angle_radians": 0.01,
+      "smooth": true,
+      "variation_formula": "phase=sin(stave_index*1.7); radius += 0.003*phase; z += 0.004*phase only when original z>0.9",
+      "resolved_staves": [
+        {
+          "index": 0,
+          "phase": 0.0,
+          "t0": 0.01,
+          "t1": 0.5135987755982988,
+          "levels_z_radius_m": [
+            [
+              0.079,
+              0.344
+            ],
+            [
+              0.132,
+              0.399
+            ],
+            [
+              0.245,
+              0.465
+            ],
+            [
+              0.441,
+              0.503
+            ],
+            [
+              0.654,
+              0.499
+            ],
+            [
+              0.837,
+              0.457
+            ],
+            [
+              0.937,
+              0.402
+            ],
+            [
+              0.985,
+              0.382
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "phase": 0.9916648104524686,
+          "t0": 0.5335987755982988,
+          "t1": 1.0371975511965976,
+          "levels_z_radius_m": [
+            [
+              0.079,
+              0.3469749944313574
+            ],
+            [
+              0.132,
+              0.4019749944313574
+            ],
+            [
+              0.245,
+              0.4679749944313574
+            ],
+            [
+              0.441,
+              0.5059749944313574
+            ],
+            [
+              0.654,
+              0.5019749944313574
+            ],
+            [
+              0.837,
+              0.4599749944313574
+            ],
+            [
+              0.9409666592418099,
+              0.4049749944313574
+            ],
+            [
+              0.9889666592418098,
+              0.3849749944313574
+            ]
+          ]
+        },
+        {
+          "index": 2,
+          "phase": -0.2555411020268312,
+          "t0": 1.0571975511965976,
+          "t1": 1.5607963267948965,
+          "levels_z_radius_m": [
+            [
+              0.079,
+              0.34323337669391946
+            ],
+            [
+              0.132,
+              0.3982333766939195
+            ],
+            [
+              0.245,
+              0.4642333766939195
+            ],
+            [
+              0.441,
+              0.5022333766939195
+            ],
+            [
+              0.654,
+              0.4982333766939195
+            ],
+            [
+              0.837,
+              0.4562333766939195
+            ],
+            [
+              0.9359778355918927,
+              0.4012333766939195
+            ],
+            [
+              0.9839778355918927,
+              0.3812333766939195
+            ]
+          ]
+        },
+        {
+          "index": 3,
+          "phase": -0.9258146823277325,
+          "t0": 1.5807963267948966,
+          "t1": 2.0843951023931955,
+          "levels_z_radius_m": [
+            [
+              0.079,
+              0.34122255595301676
+            ],
+            [
+              0.132,
+              0.3962225559530168
+            ],
+            [
+              0.245,
+              0.4622225559530168
+            ],
+            [
+              0.441,
+              0.5002225559530168
+            ],
+            [
+              0.654,
+              0.4962225559530168
+            ],
+            [
+              0.837,
+              0.4542225559530168
+            ],
+            [
+              0.9332967412706892,
+              0.3992225559530168
+            ],
+            [
+              0.9812967412706891,
+              0.3792225559530168
+            ]
+          ]
+        },
+        {
+          "index": 4,
+          "phase": 0.49411335113860816,
+          "t0": 2.104395102393195,
+          "t1": 2.6079938779914946,
+          "levels_z_radius_m": [
+            [
+              0.079,
+              0.34548234005341577
+            ],
+            [
+              0.132,
+              0.4004823400534158
+            ],
+            [
+              0.245,
+              0.4664823400534158
+            ],
+            [
+              0.441,
+              0.5044823400534159
+            ],
+            [
+              0.654,
+              0.5004823400534159
+            ],
+            [
+              0.837,
+              0.4584823400534158
+            ],
+            [
+              0.9389764534045545,
+              0.4034823400534158
+            ],
+            [
+              0.9869764534045544,
+              0.3834823400534158
+            ]
+          ]
+        },
+        {
+          "index": 5,
+          "phase": 0.7984871126234903,
+          "t0": 2.627993877991494,
+          "t1": 3.1315926535897933,
+          "levels_z_radius_m": [
+            [
+              0.079,
+              0.34639546133787047
+            ],
+            [
+              0.132,
+              0.4013954613378705
+            ],
+            [
+              0.245,
+              0.4673954613378705
+            ],
+            [
+              0.441,
+              0.5053954613378705
+            ],
+            [
+              0.654,
+              0.5013954613378705
+            ],
+            [
+              0.837,
+              0.4593954613378705
+            ],
+            [
+              0.940193948450494,
+              0.4043954613378705
+            ],
+            [
+              0.9881939484504939,
+              0.3843954613378705
+            ]
+          ]
+        },
+        {
+          "index": 6,
+          "phase": -0.6998746875935423,
+          "t0": 3.151592653589793,
+          "t1": 3.655191429188092,
+          "levels_z_radius_m": [
+            [
+              0.079,
+              0.34190037593721934
+            ],
+            [
+              0.132,
+              0.3969003759372194
+            ],
+            [
+              0.245,
+              0.4629003759372194
+            ],
+            [
+              0.441,
+              0.5009003759372194
+            ],
+            [
+              0.654,
+              0.49690037593721936
+            ],
+            [
+              0.837,
+              0.4549003759372194
+            ],
+            [
+              0.9342005012496258,
+              0.3999003759372194
+            ],
+            [
+              0.9822005012496258,
+              0.37990037593721937
+            ]
+          ]
+        },
+        {
+          "index": 7,
+          "phase": -0.6181371122370333,
+          "t0": 3.6751914291880916,
+          "t1": 4.178790204786391,
+          "levels_z_radius_m": [
+            [
+              0.079,
+              0.34214558866328887
+            ],
+            [
+              0.132,
+              0.3971455886632889
+            ],
+            [
+              0.245,
+              0.4631455886632889
+            ],
+            [
+              0.441,
+              0.501145588663289
+            ],
+            [
+              0.654,
+              0.4971455886632889
+            ],
+            [
+              0.837,
+              0.4551455886632889
+            ],
+            [
+              0.9345274515510519,
+              0.4001455886632889
+            ],
+            [
+              0.9825274515510518,
+              0.3801455886632889
+            ]
+          ]
+        },
+        {
+          "index": 8,
+          "phase": 0.8591618148564958,
+          "t0": 4.19879020478639,
+          "t1": 4.70238898038469,
+          "levels_z_radius_m": [
+            [
+              0.079,
+              0.34657748544456946
+            ],
+            [
+              0.132,
+              0.4015774854445695
+            ],
+            [
+              0.245,
+              0.4675774854445695
+            ],
+            [
+              0.441,
+              0.5055774854445695
+            ],
+            [
+              0.654,
+              0.5015774854445695
+            ],
+            [
+              0.837,
+              0.4595774854445695
+            ],
+            [
+              0.940436647259426,
+              0.4045774854445695
+            ],
+            [
+              0.9884366472594259,
+              0.3845774854445695
+            ]
+          ]
+        },
+        {
+          "index": 9,
+          "phase": 0.39674057313061367,
+          "t0": 4.7223889803846895,
+          "t1": 5.225987755982989,
+          "levels_z_radius_m": [
+            [
+              0.079,
+              0.3451902217193918
+            ],
+            [
+              0.132,
+              0.40019022171939184
+            ],
+            [
+              0.245,
+              0.46619022171939184
+            ],
+            [
+              0.441,
+              0.5041902217193919
+            ],
+            [
+              0.654,
+              0.5001902217193919
+            ],
+            [
+              0.837,
+              0.45819022171939183
+            ],
+            [
+              0.9385869622925225,
+              0.40319022171939184
+            ],
+            [
+              0.9865869622925224,
+              0.3831902217193918
+            ]
+          ]
+        },
+        {
+          "index": 10,
+          "phase": -0.9613974918795568,
+          "t0": 5.245987755982989,
+          "t1": 5.749586531581287,
+          "levels_z_radius_m": [
+            [
+              0.079,
+              0.3411158075243613
+            ],
+            [
+              0.132,
+              0.3961158075243614
+            ],
+            [
+              0.245,
+              0.4621158075243614
+            ],
+            [
+              0.441,
+              0.5001158075243614
+            ],
+            [
+              0.654,
+              0.49611580752436135
+            ],
+            [
+              0.837,
+              0.45411580752436137
+            ],
+            [
+              0.9331544100324818,
+              0.3991158075243614
+            ],
+            [
+              0.9811544100324817,
+              0.37911580752436136
+            ]
+          ]
+        },
+        {
+          "index": 11,
+          "phase": -0.1489990258141988,
+          "t0": 5.769586531581287,
+          "t1": 6.2731853071795864,
+          "levels_z_radius_m": [
+            [
+              0.079,
+              0.34355300292255736
+            ],
+            [
+              0.132,
+              0.3985530029225574
+            ],
+            [
+              0.245,
+              0.4645530029225574
+            ],
+            [
+              0.441,
+              0.5025530029225574
+            ],
+            [
+              0.654,
+              0.4985530029225574
+            ],
+            [
+              0.837,
+              0.4565530029225574
+            ],
+            [
+              0.9364040038967433,
+              0.4015530029225574
+            ],
+            [
+              0.9844040038967432,
+              0.3815530029225574
+            ]
+          ]
+        }
+      ]
+    },
+    "closed_inner_seam_lining": {
+      "purpose": "Blocks through-background at intentional stave joints while preserving two material slots",
+      "angular_segments": 12,
+      "outer_levels_z_radius_m": [
+        [
+          0.079,
+          0.305
+        ],
+        [
+          0.245,
+          0.43
+        ],
+        [
+          0.441,
+          0.465
+        ],
+        [
+          0.654,
+          0.46
+        ],
+        [
+          0.937,
+          0.365
+        ],
+        [
+          0.985,
+          0.343
+        ]
+      ],
+      "thickness_m": 0.012,
+      "profile_radius_z_m": [
+        [
+          0.305,
+          0.079
+        ],
+        [
+          0.43,
+          0.245
+        ],
+        [
+          0.465,
+          0.441
+        ],
+        [
+          0.46,
+          0.654
+        ],
+        [
+          0.365,
+          0.937
+        ],
+        [
+          0.343,
+          0.985
+        ],
+        [
+          0.331,
+          0.985
+        ],
+        [
+          0.353,
+          0.937
+        ],
+        [
+          0.448,
+          0.654
+        ],
+        [
+          0.453,
+          0.441
+        ],
+        [
+          0.418,
+          0.245
+        ],
+        [
+          0.293,
+          0.079
+        ]
+      ],
+      "profile_vertex_count": 12,
+      "triangle_count": 288,
+      "material": "wood",
+      "smooth": false
+    },
+    "rounded_wood_lip": {
+      "angular_segments": 24,
+      "cross_section_segments": 8,
+      "major_radius_m": 0.382,
+      "profile_center_z_m": 0.98,
+      "cross_section_radius_m": 0.037,
+      "wave_m": 0.003,
+      "smooth": true,
+      "material": "wood",
+      "resolved_profile_radius_z_m": [
+        [
+          0.419,
+          0.98
+        ],
+        [
+          0.40816295090390226,
+          1.0061629509039023
+        ],
+        [
+          0.382,
+          1.017
+        ],
+        [
+          0.35583704909609776,
+          1.0061629509039023
+        ],
+        [
+          0.34500000000000003,
+          0.98
+        ],
+        [
+          0.35583704909609776,
+          0.9538370490960977
+        ],
+        [
+          0.382,
+          0.943
+        ],
+        [
+          0.40816295090390226,
+          0.9538370490960977
+        ]
+      ]
+    },
+    "soft_wavy_hoops": {
+      "count": 2,
+      "angular_segments": 24,
+      "cross_section_segments": 6,
+      "cross_section_radius_horizontal_m": 0.017,
+      "cross_section_radius_vertical_m": 0.026,
+      "wave_m": 0.01,
+      "smooth": true,
+      "material": "iron",
+      "hoops": [
+        {
+          "index": 0,
+          "center_z_m": 0.267,
+          "major_radius_m": 0.478,
+          "resolved_profile_radius_z_m": [
+            [
+              0.495,
+              0.267
+            ],
+            [
+              0.4865,
+              0.2895166604983954
+            ],
+            [
+              0.4695,
+              0.2895166604983954
+            ],
+            [
+              0.46099999999999997,
+              0.267
+            ],
+            [
+              0.4695,
+              0.2444833395016046
+            ],
+            [
+              0.4865,
+              0.2444833395016046
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "center_z_m": 0.757,
+          "major_radius_m": 0.483,
+          "resolved_profile_radius_z_m": [
+            [
+              0.5,
+              0.757
+            ],
+            [
+              0.4915,
+              0.7795166604983954
+            ],
+            [
+              0.4745,
+              0.7795166604983954
+            ],
+            [
+              0.46599999999999997,
+              0.757
+            ],
+            [
+              0.4745,
+              0.7344833395016046
+            ],
+            [
+              0.4915,
+              0.7344833395016046
+            ]
+          ]
+        }
+      ],
+      "wood_pegs_per_hoop": {
+        "count": 2,
+        "angles_radians": [
+          -0.75,
+          2.391592653589793
+        ],
+        "center_radius": "hoop major radius + 0.018",
+        "center_z": "hoop center z + 0.010*sin(3*t+0.6)",
+        "disc_radius_m": 0.017,
+        "disc_depth_m": 0.013,
+        "segments": 8,
+        "normal": "outward radial unit vector",
+        "material": "wood"
+      }
+    },
+    "lid": {
+      "radius_m": 0.358,
+      "z_m": 0.954,
+      "panel_count": 5,
+      "rounded_crown": true
+    },
+    "rounded_short_feet": {
+      "count": 3,
+      "angles_radians": [
+        -1.5707963267948966,
+        0.5235987755982988,
+        2.6179938779914944
+      ],
+      "center_radius_m": 0.345,
+      "center_z_m": 0,
+      "angular_segments": 10,
+      "levels_z_radius_m": [
+        [
+          0,
+          0.042
+        ],
+        [
+          0.018,
+          0.063
+        ],
+        [
+          0.059,
+          0.068
+        ],
+        [
+          0.109,
+          0.055
+        ],
+        [
+          0.145,
+          0.033
+        ]
+      ],
+      "local_y_radius_multiplier": 0.88,
+      "caps": "Closed top and bottom",
+      "smooth": true,
+      "material": "wood"
+    },
+    "bottom_wood_closure": {
+      "radius_m": 0.333,
+      "z0_m": 0.095,
+      "z1_m": 0.121,
+      "segments": 12
+    },
+    "materials": {
+      "id": "bloomwalker",
+      "label": "Bloomwalker方向",
+      "texture": "06_bloomwalker_wood_albedo_v01.png",
+      "stroke_structure": "Opaque creamy gouache groups, rounded teardrop grain, warm soft oval knots, soft crescent wear, restrained pastel moss undertone",
+      "frequency": "low and middle frequency rounded motifs, quieter than oil",
+      "wood": {
+        "roughness": 0.9,
+        "metallic": 0
+      },
+      "iron": {
+        "base_color_srgb": [
+          0.24,
+          0.31,
+          0.23,
+          1
+        ],
+        "roughness": 0.9,
+        "metallic": 0.16
+      },
+      "shading": {
+        "type": "soft_three_zone",
+        "bands": 3,
+        "thresholds": [
+          0.18,
+          0.62
+        ],
+        "multipliers": [
+          0.76,
+          0.9,
+          1
+        ],
+        "blend_strength": 0.24,
+        "transition_width": 0.14,
+        "notes": "Soft storybook 3D value grouping, rounded coherent local forms; no glow or lighting edits"
+      }
+    }
+  },
+  "frozen_preview": {
+    "camera_and_lights": "Copy from reference .blend unchanged; see final manifest for full matrices and powers",
+    "render_resolution": [
+      [
+        512,
+        512
+      ],
+      [
+        768,
+        768
+      ]
+    ],
+    "camera_ortho_scale": 1.58,
+    "cycles_samples": 48,
+    "denoising": false,
+    "maximum_threads": 2,
+    "minimum_mem_available_gib": 2,
+    "minimum_disk_available_gib": 3
+  },
+  "export": {
+    "files": [
+      "FBX",
+      "GLB"
+    ],
+    "export_selected_mesh_only": true,
+    "material_mode": "Temporary portable Principled PBR with original albedo directly linked; restore style material for editable .blend",
+    "actual_roundtrip_reports": [
+      "/workspace/shared/aether-production-20261008/style-shapes-pair/reports/endfield_roundtrip.json",
+      "/workspace/shared/aether-production-20261008/style-shapes-pair/reports/bloomwalker_roundtrip.json"
+    ]
+  }
+}

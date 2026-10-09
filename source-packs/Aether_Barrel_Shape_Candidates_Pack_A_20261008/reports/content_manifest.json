@@ -1,0 +1,125 @@
+{
+  "package": "A",
+  "included_variants": [
+    "genshin",
+    "endfield",
+    "ghibli"
+  ],
+  "files": [
+    {
+      "path": "README.txt",
+      "bytes": 1716,
+      "sha256": "4c668afe9a6f0da1e8874eb17398d14c98ec243a85c311f943c6821542fe8139"
+    },
+    {
+      "path": "source/aether_barrel_three_shapes_A.blend",
+      "bytes": 1292320,
+      "sha256": "c11ab4ebd5998c51fe20f884b666b01ba4cb8b88dd14b8317f35235b76228940"
+    },
+    {
+      "path": "previews/barrel_shape_genshin_512.png",
+      "bytes": 445470,
+      "sha256": "0cf81af60cfa66c03b060bcda99ff740effcca87b7faa965077423c1032b8f10"
+    },
+    {
+      "path": "previews/barrel_shape_endfield_512.png",
+      "bytes": 419489,
+      "sha256": "5a5b50d50811a0288d15be020cbddf82f5398d64e9a0f0b18e456b7e0c876f17"
+    },
+    {
+      "path": "previews/barrel_shape_ghibli_512.png",
+      "bytes": 460460,
+      "sha256": "8a537250fc67bed3f8a5f9077990b8c2a0c8fb97ab483978fbcf8e0ca59b8098"
+    },
+    {
+      "path": "authoring/build_shape_variants.py",
+      "bytes": 11750,
+      "sha256": "996ba5c50a4a3341fe30499c3c22a70a416fc119d7b65ea78352f810bf81ec78"
+    },
+    {
+      "path": "authoring/geometry_utils.py",
+      "bytes": 2086,
+      "sha256": "52085f1d63d4d4f98a9e52c42d95281ad60705268864a5592c72dd48b0f0c831"
+    },
+    {
+      "path": "authoring/build_shape_pair.py",
+      "bytes": 26015,
+      "sha256": "cd30086275a9060106a6fd6b870b2871a04b82f05322a530d53d131a4723c4f3"
+    },
+    {
+      "path": "textures/03_ghibli_wood_albedo_v01.png",
+      "bytes": 2557879,
+      "sha256": "bd5ce0a33deb5e4a88e24fb1d25676456d12b4c60eb027886e853bdeb8624c05"
+    },
+    {
+      "path": "textures/02_endfield_wood_albedo_v01.png",
+      "bytes": 2087705,
+      "sha256": "5605aa4e6140f88f4872a98af8e0262c48b908bec44ffedd60bbb2962804e54e"
+    },
+    {
+      "path": "textures/01_genshin_wood_albedo_v01.png",
+      "bytes": 1536697,
+      "sha256": "630890e35693ad8bda0885aa24f590e3ff188d34cb384be40216ed2d7bd08e95"
+    },
+    {
+      "path": "recipes/shape-variants.json",
+      "bytes": 2137,
+      "sha256": "f1108194dc7d21fcd6cfc0eed1df74d746d768c617d8e4df11bce1743c1638ac"
+    },
+    {
+      "path": "recipes/shape-pair-numeric-recipes.json",
+      "bytes": 36917,
+      "sha256": "f36fa1266c79403cc0b4e34d71c0fb2ad16e216b016b5594cf4ace81b9cf8df7"
+    },
+    {
+      "path": "exports/aether_barrel_shape_genshin.fbx",
+      "bytes": 69308,
+      "sha256": "c6f7ef464f5566b1dfc498d9427807423cf01155248804f83e2dc2f1d988d22d"
+    },
+    {
+      "path": "exports/aether_barrel_shape_ghibli.fbx",
+      "bytes": 70428,
+      "sha256": "28a03fa284f39d50ebf0429f76d285b45e1c2fa795bf50ee594c2155e96d4ee9"
+    },
+    {
+      "path": "exports/aether_barrel_shape_genshin.glb",
+      "bytes": 1709212,
+      "sha256": "1b01538c48ce4942c84f1780be2277a7e34be8377ee587b612bbeb6639f7c87b"
+    },
+    {
+      "path": "exports/aether_barrel_shape_endfield.fbx",
+      "bytes": 65484,
+      "sha256": "2222e4b6142d97d7ceb8579ac7158511b2d5f200be1fcf378c802ec1e6f6ba65"
+    },
+    {
+      "path": "exports/aether_barrel_shape_ghibli.glb",
+      "bytes": 2701560,
+      "sha256": "dd9b50b20352106cb7aeda3372a6ee667684a3345f5ea3ea69d525cbdeb880c0"
+    },
+    {
+      "path": "exports/aether_barrel_shape_endfield.glb",
+      "bytes": 2260364,
+      "sha256": "7e15980a81f0fc2af278a395b336b9007f6d010e00d8f244c62350c84d38794c"
+    },
+    {
+      "path": "reports/export_roundtrip.json",
+      "bytes": 7128,
+      "sha256": "f7261876fdf3548fca731e9130ba0af2ae67c5b2119a887c9a12cca3474a2a3a"
+    },
+    {
+      "path": "reports/package_source_path_check.json",
+      "bytes": 1570,
+      "sha256": "b788680b4653655b05cdf1d56dce98b7cf281900452d6741e865f736008f97c3"
+    },
+    {
+      "path": "reports/glb_spatial_closure_diagnostic.json",
+      "bytes": 2531,
+      "sha256": "2a9538302417739e0ef31ddd6deba5d2d67edd4eff80a4f16f91c1a0a297164a"
+    },
+    {
+      "path": "reports/package_manifest.json",
+      "bytes": 12231,
+      "sha256": "ee713695314b769d09b4e46d3bffbbaddabe18f5e6801c1bb663949e03d22d28"
+    }
+  ]
+}

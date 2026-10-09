@@ -1,0 +1,125 @@
+{
+  "package": "B",
+  "included_variants": [
+    "bk",
+    "oil",
+    "bloomwalker"
+  ],
+  "files": [
+    {
+      "path": "README.txt",
+      "bytes": 1711,
+      "sha256": "9dccbeee0438b66ba8b9118122d2f35b9069b677344be3be768b90bfd6c5ab20"
+    },
+    {
+      "path": "source/aether_barrel_three_shapes_B.blend",
+      "bytes": 1169788,
+      "sha256": "d1b2aa79fc892beaa2607049a487ee408896c861ac08a1e0d0c4e8f26ab01f52"
+    },
+    {
+      "path": "previews/barrel_shape_bk_512.png",
+      "bytes": 431823,
+      "sha256": "3921d48574a5fe9ce36e63dd44ad1453309c72c07c760fc181e9a9a3d009ec8f"
+    },
+    {
+      "path": "previews/barrel_shape_oil_512.png",
+      "bytes": 477347,
+      "sha256": "878a11f932798548d6019798f7bf0b90f2384732a1b436fa722c5818752ab3dd"
+    },
+    {
+      "path": "previews/barrel_shape_bloomwalker_512.png",
+      "bytes": 463834,
+      "sha256": "fdb651b45054e7989bf46f5df1f8d17aaef06fd7c2b100a3f8caa7763123140b"
+    },
+    {
+      "path": "authoring/build_shape_variants.py",
+      "bytes": 11750,
+      "sha256": "996ba5c50a4a3341fe30499c3c22a70a416fc119d7b65ea78352f810bf81ec78"
+    },
+    {
+      "path": "authoring/geometry_utils.py",
+      "bytes": 2086,
+      "sha256": "52085f1d63d4d4f98a9e52c42d95281ad60705268864a5592c72dd48b0f0c831"
+    },
+    {
+      "path": "authoring/build_shape_pair.py",
+      "bytes": 26015,
+      "sha256": "cd30086275a9060106a6fd6b870b2871a04b82f05322a530d53d131a4723c4f3"
+    },
+    {
+      "path": "textures/04_bk_provisional_wood_albedo_v01.png",
+      "bytes": 1490694,
+      "sha256": "69bdf32dc235c92cacbc94a62ae3d4c7c944164777e741fe395f8aef9039df3d"
+    },
+    {
+      "path": "textures/06_bloomwalker_wood_albedo_v01.png",
+      "bytes": 1860003,
+      "sha256": "f46428e3bdd0c340d4b7d9d4ab98ab1ce50ebf52c8911f63ce60157c713bafe4"
+    },
+    {
+      "path": "textures/05_oil_wood_albedo_v01.png",
+      "bytes": 2513266,
+      "sha256": "bbe5776b5d080488f15a078dac8ae6b9716f57f9f47288e1e2777ea07fe65ef4"
+    },
+    {
+      "path": "recipes/shape-variants.json",
+      "bytes": 2066,
+      "sha256": "3b911873b58a2a15f71f9e127a136a5333aca59bb3ae5e19bf86f5586ada5ba0"
+    },
+    {
+      "path": "recipes/shape-pair-numeric-recipes.json",
+      "bytes": 36917,
+      "sha256": "f36fa1266c79403cc0b4e34d71c0fb2ad16e216b016b5594cf4ace81b9cf8df7"
+    },
+    {
+      "path": "exports/aether_barrel_shape_bk.fbx",
+      "bytes": 50444,
+      "sha256": "091c74d48949dba490fa0bb30612f6e66b795055ef1393e2be22f134b73f089c"
+    },
+    {
+      "path": "exports/aether_barrel_shape_oil.glb",
+      "bytes": 2618904,
+      "sha256": "c93c88f2bc2f5d168e4183240309d552f2d3d8b0bd7ae0c8ce752d6cc4f4937c"
+    },
+    {
+      "path": "exports/aether_barrel_shape_bk.glb",
+      "bytes": 1597076,
+      "sha256": "a61cb20457cb81a33af24acbaf38fb3f9c3e2474869083916454b423641803e6"
+    },
+    {
+      "path": "exports/aether_barrel_shape_bloomwalker.glb",
+      "bytes": 1974468,
+      "sha256": "bd68f4e9cc33eb33a58ffbe65c72b44b1b6cd491684ccf060d2ac01121ffe055"
+    },
+    {
+      "path": "exports/aether_barrel_shape_oil.fbx",
+      "bytes": 49244,
+      "sha256": "1c028bd1a28c1f19775dfb54eca7f8ce382d12b7bc8bfdab2b42245ffc92bc8c"
+    },
+    {
+      "path": "exports/aether_barrel_shape_bloomwalker.fbx",
+      "bytes": 86492,
+      "sha256": "79547e97dc2d2d3a13060d5836ca66d59b09ce2d6aadac42ee86c04824684109"
+    },
+    {
+      "path": "reports/export_roundtrip.json",
+      "bytes": 7089,
+      "sha256": "3d4185af0c08bf0f20f0a5644b7e95ec253b2296daf4da8b7ee5541264d578e4"
+    },
+    {
+      "path": "reports/package_source_path_check.json",
+      "bytes": 1570,
+      "sha256": "b788680b4653655b05cdf1d56dce98b7cf281900452d6741e865f736008f97c3"
+    },
+    {
+      "path": "reports/glb_spatial_closure_diagnostic.json",
+      "bytes": 2531,
+      "sha256": "2a9538302417739e0ef31ddd6deba5d2d67edd4eff80a4f16f91c1a0a297164a"
+    },
+    {
+      "path": "reports/package_manifest.json",
+      "bytes": 12147,
+      "sha256": "534aa2773d4373995367edb9c28721cffec53024323109cd1998cd5c2b3bec65"
+    }
+  ]
+}

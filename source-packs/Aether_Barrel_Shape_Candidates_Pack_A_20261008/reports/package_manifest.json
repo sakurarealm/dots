@@ -1,0 +1,409 @@
+{
+  "package": "A",
+  "included_variants": [
+    "genshin",
+    "endfield",
+    "ghibli"
+  ],
+  "scope": "Independent original geometry+material candidates; all <=3000tris; not Unity/native shader/phone acceptance or exact source-game geometry certification",
+  "source_unit": "1 unit = 1m; base-center pivots",
+  "records": [
+    {
+      "id": "genshin",
+      "object": "aether_barrel_shape_genshin",
+      "triangles": 2588,
+      "vertices": 1336,
+      "dimension_m": [
+        0.9024342894554138,
+        0.9024342894554138,
+        1.0709999799728394
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "M_Style_genshin_Wood",
+        "M_Style_genshin_Iron"
+      ],
+      "source_object": "aether_barrel_shape_genshin",
+      "fbx": "exports/aether_barrel_shape_genshin.fbx",
+      "glb": "exports/aether_barrel_shape_genshin.glb",
+      "texture": "textures/01_genshin_wood_albedo_v01.png",
+      "texture_sha256": "630890e35693ad8bda0885aa24f590e3ff188d34cb384be40216ed2d7bd08e95",
+      "geometry_sha256": "b178f0f19cd1d90a91a7b5bd36f276d6ebbf731c795c9dfc563f96983c65f9d7",
+      "source": "source/aether_barrel_three_shapes_A.blend",
+      "preview": "previews/barrel_shape_genshin_512.png",
+      "roundtrip": [
+        {
+          "file": "exports/aether_barrel_shape_genshin.fbx",
+          "sha256": "c6f7ef464f5566b1dfc498d9427807423cf01155248804f83e2dc2f1d988d22d",
+          "bytes": 69308,
+          "mesh_objects": 1,
+          "triangles": 2588,
+          "material_slots": [
+            "M_Style_genshin_Wood_DeliveryPBR",
+            "M_Style_genshin_Iron_DeliveryPBR"
+          ],
+          "bounds_m": {
+            "min": [
+              -0.4512171447277069,
+              -0.45121705532073975,
+              -5.94867692882417e-08
+            ],
+            "max": [
+              0.4512171447277069,
+              0.45121726393699646,
+              1.071000099182129
+            ]
+          },
+          "dimensions_m": [
+            0.9024342894554138,
+            0.9024343192577362,
+            1.0710001586688982
+          ],
+          "origin_points_world_m": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "uv_loops": 5272,
+          "zero_area_faces": 0,
+          "nonmanifold_edges": 0,
+          "textures": [
+            {
+              "name": "T_Style_genshin_Wood_Albedo",
+              "dimensions": [
+                1254,
+                1254
+              ],
+              "packed": false,
+              "exists_or_packed": true
+            }
+          ],
+          "pass": true
+        },
+        {
+          "file": "exports/aether_barrel_shape_genshin.glb",
+          "sha256": "1b01538c48ce4942c84f1780be2277a7e34be8377ee587b612bbeb6639f7c87b",
+          "bytes": 1709212,
+          "mesh_objects": 1,
+          "triangles": 2588,
+          "material_slots": [
+            "M_Export_genshin_Wood",
+            "M_Export_genshin_Iron"
+          ],
+          "bounds_m": {
+            "min": [
+              -0.4512171447277069,
+              -0.4512171447277069,
+              0.0
+            ],
+            "max": [
+              0.4512171447277069,
+              0.4512171447277069,
+              1.0709999799728394
+            ]
+          },
+          "dimensions_m": [
+            0.9024342894554138,
+            0.9024342894554138,
+            1.0709999799728394
+          ],
+          "origin_points_world_m": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "uv_loops": 7764,
+          "zero_area_faces": 0,
+          "nonmanifold_edges": 4824,
+          "textures": [
+            {
+              "name": "01_genshin_wood_albedo_v01",
+              "dimensions": [
+                1254,
+                1254
+              ],
+              "packed": true,
+              "exists_or_packed": true
+            }
+          ],
+          "pass": true
+        }
+      ],
+      "source_sha256": "c11ab4ebd5998c51fe20f884b666b01ba4cb8b88dd14b8317f35235b76228940"
+    },
+    {
+      "id": "endfield",
+      "object": "aether_barrel_shape_endfield",
+      "triangles": 2692,
+      "vertices": 1440,
+      "dimension_m": [
+        0.9639999866485596,
+        0.9020000100135803,
+        1.0605000257492065
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "M_Style_endfield_Wood",
+        "M_Style_endfield_Iron"
+      ],
+      "source_object": "aether_barrel_shape_endfield",
+      "fbx": "exports/aether_barrel_shape_endfield.fbx",
+      "glb": "exports/aether_barrel_shape_endfield.glb",
+      "texture": "textures/02_endfield_wood_albedo_v01.png",
+      "texture_sha256": "5605aa4e6140f88f4872a98af8e0262c48b908bec44ffedd60bbb2962804e54e",
+      "geometry_sha256": "12967bac1406f6603cce158603337316ef2802124c6c4654e5fe55663ca5262d",
+      "source": "source/aether_barrel_three_shapes_A.blend",
+      "preview": "previews/barrel_shape_endfield_512.png",
+      "roundtrip": [
+        {
+          "file": "exports/aether_barrel_shape_endfield.fbx",
+          "sha256": "2222e4b6142d97d7ceb8579ac7158511b2d5f200be1fcf378c802ec1e6f6ba65",
+          "bytes": 65484,
+          "mesh_objects": 1,
+          "triangles": 2692,
+          "material_slots": [
+            "M_Style_endfield_Wood_DeliveryPBR",
+            "M_Style_endfield_Iron_DeliveryPBR"
+          ],
+          "bounds_m": {
+            "min": [
+              -0.4819999933242798,
+              -0.45100000500679016,
+              -7.087049169740567e-08
+            ],
+            "max": [
+              0.4819999933242798,
+              0.4510001838207245,
+              1.0605000257492065
+            ]
+          },
+          "dimensions_m": [
+            0.9639999866485596,
+            0.9020001888275146,
+            1.0605000966196982
+          ],
+          "origin_points_world_m": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "uv_loops": 5320,
+          "zero_area_faces": 0,
+          "nonmanifold_edges": 0,
+          "textures": [
+            {
+              "name": "T_Style_endfield_Wood_Albedo",
+              "dimensions": [
+                1254,
+                1254
+              ],
+              "packed": false,
+              "exists_or_packed": true
+            }
+          ],
+          "pass": true
+        },
+        {
+          "file": "exports/aether_barrel_shape_endfield.glb",
+          "sha256": "7e15980a81f0fc2af278a395b336b9007f6d010e00d8f244c62350c84d38794c",
+          "bytes": 2260364,
+          "mesh_objects": 1,
+          "triangles": 2692,
+          "material_slots": [
+            "M_Style_endfield_Wood_PortablePBR",
+            "M_Style_endfield_Iron_PortablePBR"
+          ],
+          "bounds_m": {
+            "min": [
+              -0.4819999933242798,
+              -0.45100000500679016,
+              0.0
+            ],
+            "max": [
+              0.4819999933242798,
+              0.45100000500679016,
+              1.0605000257492065
+            ]
+          },
+          "dimensions_m": [
+            0.9639999866485596,
+            0.9020000100135803,
+            1.0605000257492065
+          ],
+          "origin_points_world_m": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "uv_loops": 8076,
+          "zero_area_faces": 0,
+          "nonmanifold_edges": 4808,
+          "textures": [
+            {
+              "name": "02_endfield_wood_albedo_v01",
+              "dimensions": [
+                1254,
+                1254
+              ],
+              "packed": true,
+              "exists_or_packed": true
+            }
+          ],
+          "pass": true
+        }
+      ],
+      "source_sha256": "c11ab4ebd5998c51fe20f884b666b01ba4cb8b88dd14b8317f35235b76228940"
+    },
+    {
+      "id": "ghibli",
+      "object": "aether_barrel_shape_ghibli",
+      "triangles": 2056,
+      "vertices": 1068,
+      "dimension_m": [
+        0.9315780401229858,
+        0.9030600190162659,
+        1.0659267902374268
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "M_Style_ghibli_Wood",
+        "M_Style_ghibli_Iron"
+      ],
+      "source_object": "aether_barrel_shape_ghibli",
+      "fbx": "exports/aether_barrel_shape_ghibli.fbx",
+      "glb": "exports/aether_barrel_shape_ghibli.glb",
+      "texture": "textures/03_ghibli_wood_albedo_v01.png",
+      "texture_sha256": "bd5ce0a33deb5e4a88e24fb1d25676456d12b4c60eb027886e853bdeb8624c05",
+      "geometry_sha256": "f52a275fdbb33a5c4d85d0fc95c1f41d1dc44a1d9fd27b66643b2c7d642d3657",
+      "source": "source/aether_barrel_three_shapes_A.blend",
+      "preview": "previews/barrel_shape_ghibli_512.png",
+      "roundtrip": [
+        {
+          "file": "exports/aether_barrel_shape_ghibli.fbx",
+          "sha256": "28a03fa284f39d50ebf0429f76d285b45e1c2fa795bf50ee594c2155e96d4ee9",
+          "bytes": 70428,
+          "mesh_objects": 1,
+          "triangles": 2056,
+          "material_slots": [
+            "M_Style_ghibli_Wood_DeliveryPBR",
+            "M_Style_ghibli_Iron_DeliveryPBR"
+          ],
+          "bounds_m": {
+            "min": [
+              -0.4613385498523712,
+              -0.4493303596973419,
+              -5.801942748462352e-08
+            ],
+            "max": [
+              0.47023946046829224,
+              0.45372965931892395,
+              1.0659267902374268
+            ]
+          },
+          "dimensions_m": [
+            0.9315780103206635,
+            0.9030600190162659,
+            1.0659268482568542
+          ],
+          "origin_points_world_m": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "uv_loops": 4192,
+          "zero_area_faces": 0,
+          "nonmanifold_edges": 0,
+          "textures": [
+            {
+              "name": "T_Style_ghibli_Wood_Albedo",
+              "dimensions": [
+                1254,
+                1254
+              ],
+              "packed": false,
+              "exists_or_packed": true
+            }
+          ],
+          "pass": true
+        },
+        {
+          "file": "exports/aether_barrel_shape_ghibli.glb",
+          "sha256": "dd9b50b20352106cb7aeda3372a6ee667684a3345f5ea3ea69d525cbdeb880c0",
+          "bytes": 2701560,
+          "mesh_objects": 1,
+          "triangles": 2056,
+          "material_slots": [
+            "M_Export_ghibli_Wood",
+            "M_Export_ghibli_Iron"
+          ],
+          "bounds_m": {
+            "min": [
+              -0.4613385498523712,
+              -0.4493304491043091,
+              0.0
+            ],
+            "max": [
+              0.47023946046829224,
+              0.4537295699119568,
+              1.0659267902374268
+            ]
+          },
+          "dimensions_m": [
+            0.9315780103206635,
+            0.9030600190162659,
+            1.0659267902374268
+          ],
+          "origin_points_world_m": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "uv_loops": 6168,
+          "zero_area_faces": 0,
+          "nonmanifold_edges": 4024,
+          "textures": [
+            {
+              "name": "03_ghibli_wood_albedo_v01",
+              "dimensions": [
+                1254,
+                1254
+              ],
+              "packed": true,
+              "exists_or_packed": true
+            }
+          ],
+          "pass": true
+        }
+      ],
+      "source_sha256": "c11ab4ebd5998c51fe20f884b666b01ba4cb8b88dd14b8317f35235b76228940"
+    }
+  ],
+  "material_note": "Editable source keeps original art-value-group nodes. FBX/GLB exports use portable Principled PBR with exactly same artwork, roughness and iron values; project/native cel shader implementation is unverified.",
+  "portable_use": "This package has its own editable 3-geometry source and all three textures/FBX/GLB; it can be extracted and imported without the other package. Keep source/exports/textures as siblings.",
+  "offline_import_checked": true,
+  "new_FBX_material_transport": "Portable relative image paths; GLB embeds the reused artwork."
+}

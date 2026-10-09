@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "scope": "Six original barrel form-language candidates using the six existing texture artworks; not exact source-game geometry certification",
+  "unit": "1 Blender unit = 1 metre",
+  "pivot": "base-center",
+  "fixed_scene": "Original barrel camera, lights, world and exposure; common 512px shape-comparison renders",
+  "variants": [
+    {
+      "id": "bk",
+      "label": "BK（暂定）",
+      "staves": 10,
+      "profile": [
+        [
+          0,
+          0.354
+        ],
+        [
+          0.18,
+          0.41
+        ],
+        [
+          0.5,
+          0.481
+        ],
+        [
+          0.86,
+          0.415
+        ],
+        [
+          1.06,
+          0.379
+        ]
+      ],
+      "wall": 0.042,
+      "seam": 0.008,
+      "bevel": 0.006,
+      "bands": [
+        [
+          0.19,
+          0.108
+        ],
+        [
+          0.84,
+          0.112
+        ]
+      ],
+      "lid_z": 0.992,
+      "lid_planks": 3,
+      "lid_vertices": 20,
+      "square_rivets": true,
+      "feature": "Wide ten-sided chisel planes, emphatic thick hoops, square rivets and three broad lid boards; provisional workbench interpretation"
+    },
+    {
+      "id": "oil",
+      "label": "手绘油画方向",
+      "staves": 12,
+      "profile": [
+        [
+          0,
+          0.385
+        ],
+        [
+          0.22,
+          0.443
+        ],
+        [
+          0.72,
+          0.452
+        ],
+        [
+          1.04,
+          0.392
+        ]
+      ],
+      "wall": 0.036,
+      "seam": 0.006,
+      "bevel": 0.002,
+      "bands": [
+        [
+          0.18,
+          0.084
+        ],
+        [
+          0.84,
+          0.085
+        ]
+      ],
+      "lid_z": 0.991,
+      "lid_planks": 3,
+      "lid_vertices": 24,
+      "feature": "Quiet broad uninterrupted wooden masses, few large profile planes, three-board lid and simple hoops for legible painted brushwork"
+    }
+  ],
+  "notes": "This numeric recipe is for the listed shared-builder candidates. Endfield/Bloomwalker exact author recipe and builder are separate."
+}
