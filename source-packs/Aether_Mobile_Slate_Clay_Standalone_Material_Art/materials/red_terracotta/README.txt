@@ -1,0 +1,4 @@
+red_terracotta v02: standalone material art approved, 8.0/10.
+Red-grey fired clay without brick or roof joints. Actual source mean RGB159.4/72.8/59.6 (approximately #9F493C) is about6% darker than target#A94C3F; no exact-match claim. Reference ID327 is not a runtime assignment.
+Editable Blender review library with four albedo resolutions:1024 master,512 close-up,256 candidate,128 lower-budget QA. Packed images and relative //textures/<variant>/basecolor.png references were reopened and byte-hash checked. The unchanged1m review cube has12 triangles and one used material slot. No Unity import, native .mat, URP integration, full block/state acceptance, or mobile device test is claimed.
+Minimal mobile can use albedo and constants; neutral data maps are compatibility options. Native DRAM and HDRP mask channel conventions differ. Historical catalog/shared-atlas/shader adapters remain pending.
