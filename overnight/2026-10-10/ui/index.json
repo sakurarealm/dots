@@ -1,0 +1,1244 @@
+{
+  "date": "2026-10-10",
+  "scope": "baseline",
+  "image_count": 82,
+  "image_bytes": 178376386,
+  "baseline_design_count": 82,
+  "additional_subpage_candidates": 0,
+  "revision_candidates": 0,
+  "all_ui_complete": false,
+  "note": "这是可下载的原创静态UI设计档案。82为保留基线，不代表82项功能都已实现或逐图最终验收。",
+  "images": [
+    {
+      "path": "baseline-82/liquid-glass-ui-batch1-20261009/01-floating-main-menu.png",
+      "title": "浮空主菜单",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2168431,
+      "sha256": "a0bd7ef00873f26701b7fa360649d8538b1bba0ac0f3f0fa52441ca251cdd278",
+      "git_blob_sha": "1cf4bcef3e7e4c2dc6618aef80012919fa724759",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 1
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch1-20261009/02-warehouse-inventory-transfer-v2.png",
+      "title": "仓库·库存调拨",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 1900909,
+      "sha256": "c7438dda89278a56d213c9e8405f788bb4203cffb92b72f0ccf708fa8e434071",
+      "git_blob_sha": "0351b96d32617408b17a04cfd7577855b62f8fbd",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 2
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch1-20261009/03-quest-journal.png",
+      "title": "任务·主线追踪",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2181047,
+      "sha256": "a4750f20a559be9aa43726a8b6a0b151e38c84bc5e1504d18bce51bdfd6533ea",
+      "git_blob_sha": "6027a75bdeadcee34ac60eaf9631e03c03fa9f00",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 3
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch2-20261009/04-character-work-assignment.png",
+      "title": "人物志·工作指派",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2055890,
+      "sha256": "d169941b25b3175196329e06bd600ba74bc92df57a42b180fef74de848c43903",
+      "git_blob_sha": "c0b6f6b66945a0fd5c3945f9d7826a4e116d4ab5",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 4
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch2-20261009/05-restaurant-operation.png",
+      "title": "基地·餐馆运营",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2199949,
+      "sha256": "8d713993b5e1f8127643ca17885f5ba15847a598e33683b369f95f6d0bf83110",
+      "git_blob_sha": "b467f4b16ac12efac959ceab362389f1242f59ac",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 5
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch2-20261009/06-production-supply-queue.png",
+      "title": "基地·生产供给",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2075940,
+      "sha256": "42cbabf32f3785976979186744906884b4707a732de218bed04d3e9cc0d81669",
+      "git_blob_sha": "55cd37e82dcf118c7ca23a4f153a7dc0db43b2ce",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 6
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch3-20261009/07-forge-tool-repair.png",
+      "title": "铁匠铺·工具维修",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2133844,
+      "sha256": "665b2d6d9dff80fd7b79a3da30eff9fd0401e878bab488f0a80526b143a8b693",
+      "git_blob_sha": "fa9b10a7d2880bd90b563785b2d9364b2f012791",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 7
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch3-20261009/08-animal-pen-care.png",
+      "title": "畜栏·个体与照料",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2085894,
+      "sha256": "e12ebb11149b5d98c3c55e8332ca9762b78717949a18136506857210048ec4d3",
+      "git_blob_sha": "084a6d771e900cf4e070f403f675510fc9d70b45",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 8
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch3-20261009/09-inn-room-management.png",
+      "title": "旅馆·房间管理",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2108639,
+      "sha256": "edfc1c3a7c77ae04271a57bec6876f1a1f1d6839e714e82f6cb6ecc1df28866d",
+      "git_blob_sha": "d32f25f5f54e5c0e49b7eff403fee0f4c33a9910",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 9
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch4-20261009/10-inventory-craft-skills.png",
+      "title": "行囊·百业修为与物品详情",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2175158,
+      "sha256": "d570a94c2d3ac571a3ace74fac943b94889f7a36c7129b32d070ef7eb6d9cfa8",
+      "git_blob_sha": "bd420e76a99f5f2d586d66d93e7510dc45def903",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 10
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch4-20261009/11-companion-duties-schedule.png",
+      "title": "居民·职责与日程",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2117457,
+      "sha256": "f013ace5999717dc54faf56b17871acf3e37cfab0c78f01eb8f498fc7f35344c",
+      "git_blob_sha": "9e98b51ddc59767ae9b943f629c5f7f8dfa9c6fc",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 11
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch4-20261009/12-construction-catalog.png",
+      "title": "营造·全部建筑",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2281098,
+      "sha256": "42e71705232586ce951a61a4c11446a9269ec6521cdf32632797a2f6a7b8f1ed",
+      "git_blob_sha": "92767278788630dba8dd0846290fa80b2c400e18",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 12
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch5-20261009/13-fishing-equipment.png",
+      "title": "渔舍·钓具配装",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 1966457,
+      "sha256": "ccf28edb71aed9203a574c91a5f189e7bc22d4c190aef2f62db248a6c986b90b",
+      "git_blob_sha": "7e530b3ef51d8f8134f4d397afe004fcd8649fd4",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 13
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch5-20261009/14-farm-field-overview.png",
+      "title": "农庄·田块总览",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2478629,
+      "sha256": "bd87854c8c59c13000bb2750d45c03895bc545a0baa3b2408f59acc64da9c0f7",
+      "git_blob_sha": "2419ec5531505be1541171df299aec1be00969b5",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 14
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch5-20261009/15-mining-route.png",
+      "title": "采石场·矿点路线",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2269695,
+      "sha256": "db2c8f543fe308e13a08aef498c9c60cd832057731164d99646f5489bbc42f8a",
+      "git_blob_sha": "091ab0344dd1715539537cbf95ced6c79689657b",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 15
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch6-20261009/16-forestry-preparation.png",
+      "title": "伐木场·行前准备",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2319497,
+      "sha256": "c1d97dd6b84a9a79645fc8331127cef300e423870fcd3420076024102748c8b6",
+      "git_blob_sha": "466343df655c237b103aaa6fd65fc206ccdd4141",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 16
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch6-20261009/17-smelter-new-batch.png",
+      "title": "冶炼厂·新炉次",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2225026,
+      "sha256": "9fcaee1ba46dbbd123bce8bcfa335a767db2cf23415a2231ad55689c632fda1a",
+      "git_blob_sha": "ffdda9f1a1a537d822eeb710440c50863524a281",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 17
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch6-20261009/18-workshop-chest-design.png",
+      "title": "工坊·木箱定制",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2157094,
+      "sha256": "ed1c5f82f9168b0c32c92d4120b77ea075caee27498fc8d34be9953930851c37",
+      "git_blob_sha": "812a8cd480b9964c52d8d31e9b3270f9393302eb",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 18
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch7-20261009/19-mill-grain-allocation-final.png",
+      "title": "磨坊·粮食分配",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2009928,
+      "sha256": "161d888817a265126c09a0c35339203cc8439be8d421b72e0d419e762f9c2bcd",
+      "git_blob_sha": "1b7042bd29cac4d2afa5bb52cc242c459c410f85",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 19
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch7-20261009/20-bakery-recipe-blend.png",
+      "title": "面包坊·配方拼配",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2121835,
+      "sha256": "672c90fff00dbeb0ae54ba080528a3dbd80ddf7a4d6d0baa0b6c70a2e9feb410",
+      "git_blob_sha": "13dff0d4484f21be951c94d8e456fe2f181c0228",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 20
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch7-20261009/21-weaver-cloak-comparison.png",
+      "title": "织坊·披风对比",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 1999356,
+      "sha256": "65d13ac65673b7552de7540a3faa5c62016521e6ee303d5c7ba9d0901bd900d9",
+      "git_blob_sha": "3f54165b879fb7be85a02c88a17fc332cd90cdf9",
+      "dimensions": [
+        1670,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 21
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch8-20261009/22-pharmacy-compounding-plan.png",
+      "title": "药铺·配制方案",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2137728,
+      "sha256": "d95eb2506b208f44c3a5275d6442841f85595f96ea5cbc93d0d7cb7a3990ee0d",
+      "git_blob_sha": "38308c72fbc9b8fa40baab4082f7a29f2780049f",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 22
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch8-20261009/23-restaurant-menu-selection-final.png",
+      "title": "餐馆·菜单选择",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2205143,
+      "sha256": "770ba6bb72343b62c77d94eceb75b52d63634db7b674c217ab8f202017b53d9c",
+      "git_blob_sha": "15ac4dab0def9626d41965ad6a44b9d5827b1752",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 23
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch8-20261009/24-teahouse-brewing-workspace-final.png",
+      "title": "酒馆·冲泡工作区",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2102786,
+      "sha256": "482c10c969c839437b2aa4b1fcc7aea4556f8efe76dcc87dc935e80c5046789f",
+      "git_blob_sha": "e95d44db9792799f67d1f0b2c6c096bdfc79fd41",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 24
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch9-20261009/25-grocery-purchase-confirmation.png",
+      "title": "杂货铺·商品购买确认",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2122411,
+      "sha256": "558d866bda0c13597226f55086a6ba296b097daf02847aeb27b21f74406d3a5c",
+      "git_blob_sha": "57f3a88922ad5ba7afe8c310de5b6dc8b2a856ba",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 25
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch9-20261009/26-airport-destination-map-final.png",
+      "title": "空港·目的地星图",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2225259,
+      "sha256": "5b8c901f0be0b1e4e6e9c0bd4b12a3c6bd440a14febe5c8aa7266e98dd2f3845",
+      "git_blob_sha": "f41b2a4298d2c3469d39ac09ca9b4e3383234bd2",
+      "dimensions": [
+        1671,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 26,
+      "known_open_issue": "原基线保留；目的地名称一致性和最终队伍验证状态仍有待确认。失败的两轮修订图未收录。"
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch9-20261009/27-settings-multiplayer-friends.png",
+      "title": "设置·联机好友世界",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 1991887,
+      "sha256": "2f09ca2018347770ef079498f4f1994b94a5234b646e63d63ae9ff3df6422238",
+      "git_blob_sha": "3c2f9795ef00f73b22e9c150f9489fcc321ab547",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 27
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch10-20261009/28-restaurant-today-cooking.png",
+      "title": "餐馆·今日菜肴",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2193069,
+      "sha256": "e0e6828b5af0003d69fda47f15bdbf17386dc6905bd80d248c4e4573672d3c2c",
+      "git_blob_sha": "0a33ddb87a24a8ff410670db494638183ecb0b85",
+      "dimensions": [
+        1672,
+        940
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 28
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch10-20261009/29-warehouse-supply-priority.png",
+      "title": "仓库·供货优先级",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2003869,
+      "sha256": "d7c91b68e5e4a595e086e29972526de59ea44f6e20dc630c5aa9c91b38494a2e",
+      "git_blob_sha": "3085187dca9d0f7cfc94a2bdd55a10ede00bb941",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 29
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch10-20261009/30-warehouse-travel-template-final.png",
+      "title": "仓库·出行备货模板",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 1965601,
+      "sha256": "b89565175c1084b82428ebb1aa287be2266bab151db430aa142c8528eb77dfe2",
+      "git_blob_sha": "b34cfe69daeaebb121578e4de4911c98721512c1",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 30
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch11-20261009/31-grocery-shelf-browse.png",
+      "title": "杂货铺·货架浏览",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2031297,
+      "sha256": "fbfad6517c94ca24b6f027c333e19a5f145eb4ddc1041f0b837209e1c534ffe7",
+      "git_blob_sha": "99000b56243a8addd2b0b2e563fbd1060214dc2b",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 31
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch11-20261009/32-grocery-preorders.png",
+      "title": "杂货铺·采购预订",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2157217,
+      "sha256": "f38bc8d406d8a6c0890c8f426f0bad3dd907c971a0f18e4161416189b0b0a605",
+      "git_blob_sha": "36ed7cf56f51f1afb5b5cbea4098aa05571bfa25",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 32
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch11-20261009/33-grocery-sale-budget-blocked.png",
+      "title": "杂货铺·售卖预算不足",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2084910,
+      "sha256": "562271401c1a38e5eb9b32b6bc3af412e45a16e46cc3a9d45ab2e3567673d0b9",
+      "git_blob_sha": "cfcb35ea353f629c315b5a8fed7154eee8fbd66f",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 33
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch12-20261009/34-airport-team-inventory.png",
+      "title": "空港·队伍与行囊",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2163016,
+      "sha256": "4812bf50b32ce465c13a0424e095a5993044034199be818e794e67989d282c34",
+      "git_blob_sha": "0d9a8befa97d6d39e6b1ab6346fa1db26c50e92a",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 34
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch12-20261009/35-airport-return-delivery-blocked.png",
+      "title": "空港·返航交货容量不足",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2117840,
+      "sha256": "0408648416a291f473562838e748a037b9047d244722c65411df266187b71404",
+      "git_blob_sha": "93356085ac4fef05b4cf31c12ede5715f1d1d47d",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 35
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch12-20261009/36-airport-logistics-routes.png",
+      "title": "空港·后勤接应与特色路线",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2122688,
+      "sha256": "004bfde9e9f7ae5f8f2c90a46eebfc33887abf17db61689fe85fe0c267988bb0",
+      "git_blob_sha": "ca62da619bafa912f0c3b4a287ccaca268185a40",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 36
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch13-20261009/37-inn-checkin-room-blocked.png",
+      "title": "旅馆·入住确认与房间未就绪",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2078266,
+      "sha256": "a82954166febb1577779264b0a29ba11dcfa9aefe07f684e328ede3df0487a7a",
+      "git_blob_sha": "b0b78dc9ef2aace7a65e932afd0e9df542ce0b46",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 37
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch13-20261009/38-inn-residents-guests.png",
+      "title": "旅馆·住客与居民",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 1991608,
+      "sha256": "43137571b881046742b04f2cebd30fa57d56f67d858bdd9a067d5c42c5af2f6b",
+      "git_blob_sha": "52485f71858f36b4bf266c840d83591ff9d3ffc9",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 38
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch13-20261009/39-inn-themed-stay.png",
+      "title": "旅馆·主题住宿",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2183087,
+      "sha256": "5cbfb6b4de174b5411af46ed4f2c8eb9229c9e757df36bcc99dea5ed539b35ff",
+      "git_blob_sha": "2ad9dd2fd74ecc8d9e83f34612b4940a897b8dc4",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 39
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch14-20261009/40-enclosure-purchase-capacity-v2.png",
+      "title": "畜栏·购入与容量不足",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2062763,
+      "sha256": "32b3562a4c2b7a7d0a1e8920fa5cbd5dc57b7a342cb564aa83cb9c8974ca3889",
+      "git_blob_sha": "85c6071de837b52ba2f0d482a8fbdeaa69228399",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 40
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch14-20261009/41-enclosure-dairy-breeding.png",
+      "title": "畜栏·乳品与繁育发展",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2262658,
+      "sha256": "8e38c6bd1584da58bb08a84d4a4eda98c04de67a8d3f07dc87afcd50bc8463cf",
+      "git_blob_sha": "3c7ee47f49ce71ab602f75ea1e50ce9708bbaacb",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 41
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch14-20261009/42-character-overview-v2.png",
+      "title": "人物总览·旅人成长与幸福",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 1997998,
+      "sha256": "1b68b5eb4e9619834a8169e7bcc8cf26cf51e3e208cd9709917066b0b49fa958",
+      "git_blob_sha": "06d0c21b632f0a6cb16adcf0f277044af2a6ae89",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 42
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch15-20261009/43-fishing-counter.png",
+      "title": "渔舍·柜台",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2250304,
+      "sha256": "81e4a483c04e431d5d78f833a6661c4a27649a6e1594ef7d3625baf17c30db41",
+      "git_blob_sha": "1fee8c89bab42560ad5c0fe2c946e6fe3829a910",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 43
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch15-20261009/44-fishing-gentle-reeling.png",
+      "title": "渔舍·现场轻收线",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2189969,
+      "sha256": "522d238c537833b08625bc9553ebd47ba6cbfa72468cf1be2a38ed7aaca9cf7b",
+      "git_blob_sha": "2d404837d1c1278a2f6c9d737c8ed5c9583475c7",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 44
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch15-20261009/45-fishing-catch-development.png",
+      "title": "渔舍·鱼获去向与发展",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 1992461,
+      "sha256": "e6bbc4165edbdd3238e638a26e3db8e19f6d9a911696cfba9ab0471299145094",
+      "git_blob_sha": "59f9167ffbac72e7c66564de45d688ac4ac59435",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 45
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch16-20261009/46-farm-planting-plan.png",
+      "title": "农庄·种植计划",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2058730,
+      "sha256": "c75ff7d3d715811e981ce9d747dc1c8e080c28ac19e4f398cf7f506f562ab5e8",
+      "git_blob_sha": "41e6842f8d2433382602cdc9fdccfe8c849417fb",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 46
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch16-20261009/47-farm-irrigation-blocked-v2.png",
+      "title": "农庄·灌溉缺水",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 1990465,
+      "sha256": "02a1d4cd9c27ee14b9a76433447c572d94849c52d1b5dfc9e806e7e3b9d054cd",
+      "git_blob_sha": "c18fdd59c2eb4e32ce3c47c85b203bac82975cac",
+      "dimensions": [
+        1671,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 47
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch16-20261009/48-farm-sowing-harvest-calendar-v2.png",
+      "title": "农庄·播收日历",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 1898191,
+      "sha256": "14e0cbd1ec073fe0bd884d553112094afd8fb658cc71a31694d43d0f7a953766",
+      "git_blob_sha": "758c087bb123a520d406bf4d75f9f91b3eaadc41",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 48
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch17-20261009/49-forestry-route-planning.png",
+      "title": "伐木场·历史四屏交互提案 · ui21-p01",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2338076,
+      "sha256": "ff7f47eb2bb3a78dea6385163bec1acd5fcb3cdce06a9c17ccbc3e7f724e1acd",
+      "git_blob_sha": "6be0f3b54f85209f10a066f03b9874fc57a19ca7",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 49
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch17-20261009/50-forestry-companion-invite-v2.png",
+      "title": "伐木场·历史四屏交互提案 · ui21-p03",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2092564,
+      "sha256": "0ad49941ce0b3d083dd3facde24016a99495e5cdff1f4d0a9ea8168a5c93dc6c",
+      "git_blob_sha": "fb8f6d198bf0a779853c0b9927411e58fa233724",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 50
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch17-20261009/51-forestry-replant-release.png",
+      "title": "伐木场·历史四屏交互提案 · ui21-p04",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2246813,
+      "sha256": "b967bdb8fb94295e57f126828be367246c4145d5e4c0c2d05f3b692b77bf9d03",
+      "git_blob_sha": "b8bba1b4e482a1f1191cc029ff1fa00c000362ab",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 51
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch18-20261009/52-mining-bag-burden.png",
+      "title": "采石场·历史四屏交互提案 · ui22-p02",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2060538,
+      "sha256": "2bde0ff5c3a57875d43120c858926a2b56f4d00b41886b1d0808b692be4e1e2e",
+      "git_blob_sha": "d7fd340f1ca377473cf02125b4ecb5815366242f",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 52
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch18-20261009/53-mining-sort-withdraw-v2.png",
+      "title": "采石场·历史四屏交互提案 · ui22-p03",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2064550,
+      "sha256": "76a17ca1e825ec1d50b9f4f67e28ffab34172f7d600496b10c36769d5808373a",
+      "git_blob_sha": "2215a84dc299505e6cfe09ed98628768206c890f",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 53
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch18-20261009/54-mining-support-upgrade-v3.png",
+      "title": "采石场·历史四屏交互提案 · ui22-p04",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2001140,
+      "sha256": "3175d93b4a6054cd5eb3650556df8b68d7b4a7b1f929ff7b1a8076ff0450dc93",
+      "git_blob_sha": "45b570296c6b55c80686420f6bd878ce96fe8aca",
+      "dimensions": [
+        1671,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 54
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch19-20261009/55-forge-batch-overview.png",
+      "title": "冶炼厂·历史四屏交互提案 · ui23-p01",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2096053,
+      "sha256": "d47b4fcb59bac978fb63c97dfd0851d459e5116c95579622a1e9f86bf47554ea",
+      "git_blob_sha": "b2262aebe471a6aa65f8baed71d8606f709011da",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 55
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch19-20261009/56-forge-temperature-smelting.png",
+      "title": "冶炼厂·历史四屏交互提案 · ui23-p03",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2162832,
+      "sha256": "25e0bd6c00a1ffd5502a254b041bc053eedc77473107fd5af8e3ae1841c2b40a",
+      "git_blob_sha": "79a07304ee2a4e34bcc9fad050e1c6847eed5a7e",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 56
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch19-20261009/57-forge-claim-development.png",
+      "title": "冶炼厂·历史四屏交互提案 · ui23-p04",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2177818,
+      "sha256": "4271fbfa3bd09355fc4c82022f096b607037d8cdbc686e14ee565f2c9d4b5ff4",
+      "git_blob_sha": "18104fdbc6c274f42f3f6600b9bad0466dcb8439",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 57
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch20-20261009/58-blacksmith-menu-tool-detail.png",
+      "title": "铁匠铺·历史四屏交互提案 · ui24-p01",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2047439,
+      "sha256": "97d58414dfd897553bbd39d3007f5810a7439ba8b451acc4d409fc1ccc83317b",
+      "git_blob_sha": "1743df74f8196cb367f260cf9bcddaa424347f97",
+      "dimensions": [
+        1672,
+        940
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 58
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch20-20261009/59-blacksmith-custom-material-compare.png",
+      "title": "铁匠铺·历史四屏交互提案 · ui24-p02",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2138210,
+      "sha256": "de330073d1a2cc9df1cee208d0fc5185a0e6a57b134d82e64026909c2ce45ef7",
+      "git_blob_sha": "a40b64b79bbb2efaf711127fedbe1629485bdfb7",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 59
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch20-20261009/60-blacksmith-companion-delivery.png",
+      "title": "铁匠铺·历史四屏交互提案 · ui24-p04",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2152727,
+      "sha256": "1d1128bdc07484914c1e7776e40c980ef83be0cedec7c8b97f97fb8edd1184c6",
+      "git_blob_sha": "ddf071451b2639afac132566281659cf6381c8b4",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 60
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch21-20261009/61-workshop-design-catalog.png",
+      "title": "工坊·历史四屏交互提案 · ui25-p01",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2079092,
+      "sha256": "abb45093481387ad7e8dce8c015ba3d792c7f9c3aa76e1174504d249ebb5ef7e",
+      "git_blob_sha": "05e5a3d9a14d9bdf84a4844eb606b6cb50add629",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 61
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch21-20261009/62-workshop-room-passage.png",
+      "title": "工坊·历史四屏交互提案 · ui25-p03",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2131063,
+      "sha256": "7fe3962cc8d2a71c611e89dd60903976d62ab1282bbf9356c26ac15fc8235ebb",
+      "git_blob_sha": "2c2da3aac997dc4bf2fb80067458cd35254a922e",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 62
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch21-20261009/63-workshop-output-uses-full-bag.png",
+      "title": "工坊·历史四屏交互提案 · ui25-p04",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2162771,
+      "sha256": "a966b702dc8d7d57c92c540c6ae7a8494a6bcc3b3dfb0f5b538cf3d0155e1111",
+      "git_blob_sha": "756d2324f5f8e7c6d995138f80d4767a4fef4aba",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 63
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch22-20261009/64-mill-grain-flow.png",
+      "title": "磨坊·历史四屏交互提案 · ui26-p01",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2553081,
+      "sha256": "fa7c84443da534fc9854419d95a5e0084e4e5d6da670b222972efa65dfc66f6a",
+      "git_blob_sha": "d61d271350f06cee67e8441701a62cb766e9fca0",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 64
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch22-20261009/65-mill-milling-progress.png",
+      "title": "磨坊·历史四屏交互提案 · ui26-p03",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2401336,
+      "sha256": "eefdd33f99e7b0e36e677c9d26f412eb83ca4c151dce787f4ed7b76cd1c099c1",
+      "git_blob_sha": "3af6db506d45ab6bca157fea7a392fea2a7a6c06",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 65
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch22-20261009/66-mill-products-orders.png",
+      "title": "磨坊·历史四屏交互提案 · ui26-p04",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2381686,
+      "sha256": "b9033fbfd80400f793d79328a12b4a15fca97e1509e7da7640f6bda745b25897",
+      "git_blob_sha": "d37e1681bc5959ff1777c799cf3c80144854b9ae",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 66
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch23-20261009/67-bakery-breakfast-menu.png",
+      "title": "面包坊·历史四屏交互提案 · ui27-p01",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2458288,
+      "sha256": "a200323a3ca329f99161dbeb1e9a12225ee1f2e8bda5d7bf74cf57dcf45a2053",
+      "git_blob_sha": "d13a0b4620a7636eb7a72e0e8164a06f29aeeaeb",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 67
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch23-20261009/68-bakery-cooperative-baking.png",
+      "title": "面包坊·历史四屏交互提案 · ui27-p03",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2194764,
+      "sha256": "84271b505ea0170468911c15ecb88c5e6f4e2b5533738247073c43f31cbf582f",
+      "git_blob_sha": "797b22cba449f16858a7a5dbc7f9bc5a6c692952",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 68
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch23-20261009/69-bakery-reservation-sharing.png",
+      "title": "面包坊·历史四屏交互提案 · ui27-p04",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2137132,
+      "sha256": "63f4e205cc6096d98aa6d818a5d1ed15fc94aea6fe8e6d5edefbd830b7cbaba3",
+      "git_blob_sha": "c565c0f85b8ad974dedc6272724e654f23c52930",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 69
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch24-20261009/70-weaver-fitting-customization-v2.png",
+      "title": "织坊·历史四屏交互提案 · ui28-p01",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2345965,
+      "sha256": "4b2a2123a46328c86a13ddc4f3ae558483ad2d6020b89933b76acabadebe2c3f",
+      "git_blob_sha": "9f8db5d9d0c586d4d125afd39a5256ee74b39f25",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 70
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch24-20261009/71-weaver-orders-bag-blocked-v2.png",
+      "title": "织坊·历史四屏交互提案 · ui28-p03",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2390832,
+      "sha256": "b9dedeaf8d2365c1a562c076502f10fb264beb78755ec518f0be7e1d6dc42be6",
+      "git_blob_sha": "d721c7c3e7de3737cbcf3325cdac8c640095491a",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 71
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch24-20261009/72-weaver-companion-equipment.png",
+      "title": "织坊·历史四屏交互提案 · ui28-p04",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2303592,
+      "sha256": "6a56ecca89f982334f2863363319fd20f6563b09ca2d5489bf96b6daf92c4cac",
+      "git_blob_sha": "083f2a9781e035735963df2fe20b8d56595ea94d",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 72
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch25-20261009/73-apothecary-team-status.png",
+      "title": "队员状态按需配药",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2272675,
+      "sha256": "aa06daf51afb056f022516652946d6bbd508993ab599cf91385e5d2cccec3cd9",
+      "git_blob_sha": "83d36d01795b68a7391a70a5167c86320aab9e2f",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 73
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch25-20261009/74-apothecary-effect-match.png",
+      "title": "状态药效匹配",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2254904,
+      "sha256": "6dc7eee7c4d6fa8329db9ba1d8a3105199f7e686985cd0b583e6007165a8775e",
+      "git_blob_sha": "a94d720af865690c7e5ca4a4346cbd6600200d78",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 74
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch25-20261009/75-apothecary-pack-delivery-final.png",
+      "title": "药包分配与交付",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2230643,
+      "sha256": "badaee3e39c05711db16665c1059d7d98b28829effb85ee8b8cbefee8b009f40",
+      "git_blob_sha": "7d4994f6985b9f65ae13607bf5d2311414ad3439",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 75
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch26-20261009/76-restaurant-today-menu.png",
+      "title": "今日菜单与厨师用餐",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2411280,
+      "sha256": "9f188bd65db2de09994dee8ea0daa580252a065e5d84fa0ffdcb7d5c05a6091e",
+      "git_blob_sha": "94d684fd038825160327f27e4e52d9edf91d5fab",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 76
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch26-20261009/77-restaurant-cooking-collaboration.png",
+      "title": "料理现场协作",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2596925,
+      "sha256": "b238fa793dc3cfd33545deb01ef406c0782bb76fcc3d7391ea6a5ce3d90e58a2",
+      "git_blob_sha": "442b9ae72a1067144d7c7ca80b394baaf8b0958b",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 77
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch26-20261009/78-restaurant-banquet-seating.png",
+      "title": "宴席座位邀请收支",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2477531,
+      "sha256": "d5d5a0123b91ca89cf3f112eaa67ad3c39ed74373c00a3af5bd916b3e26db651",
+      "git_blob_sha": "2e525c8956fb04821af4f6dacdbd8bf18413f441",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 78
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch27-20261009/79-tavern-today-tea.png",
+      "title": "今日茶饮主持空座",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2568524,
+      "sha256": "4d1f28efb0622011559c323a09b1d6dcbc7908945a3104c47a07078d5be34208",
+      "git_blob_sha": "a93c1ca2133fb4be14f6254703ec82b81b5d1e3b",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 79
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch27-20261009/80-tavern-table-invitations.png",
+      "title": "桌边邀请与六席预留",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2426913,
+      "sha256": "3ae2d24027d287690adf28388e65f313b4db0d5ee96fb14b468bbf994ca0d14c",
+      "git_blob_sha": "613bfee747901a07f4c27f34702aca040bd12c07",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 80
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch27-20261009/81-tavern-gathering-reschedule.png",
+      "title": "主题小聚人数不足改期",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2137350,
+      "sha256": "dbba8a50dd54379873009f50839480453ebd347cddc6fa80971318c844b03265",
+      "git_blob_sha": "75bf8096d92ef9969930f1c9f84885b82ac665d9",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 81
+    },
+    {
+      "path": "baseline-82/liquid-glass-ui-batch28-20261009/82-warehouse-transfer-capacity-blocked.png",
+      "title": "仓库·历史四屏交互提案 · ui33-p02",
+      "kind": "retained_baseline_design",
+      "status": "静态设计候选；未声明当前交互实现或完整视觉验收",
+      "bytes": 2268285,
+      "sha256": "f18fb973b331ad6b277d20ce8dc450cf636ca7b618f40e75a3e116f6173027e8",
+      "git_blob_sha": "394ecac44f250036313aa64ddf4695941a7b4528",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "original_generation_provenance_verified": true,
+      "baseline_number": 82
+    }
+  ]
+}

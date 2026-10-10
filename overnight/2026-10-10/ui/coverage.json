@@ -1,0 +1,563 @@
+{
+  "scope": "静态设计覆盖与剩余缺项，不是全部功能完成报告",
+  "base_design_count": 82,
+  "additional_static_subpage_candidates": 13,
+  "revision_candidates": 3,
+  "complete_current_source_available": false,
+  "full_system_audit_complete": false,
+  "counting_rule": "组件、页签、四屏槽位、移动横竖屏和状态变体不累计为独立完成全屏页。原缺项保留，候选图不等于实装或验收。",
+  "remaining_pages": [
+    {
+      "system": "餐厅今日料理",
+      "retained_baseline_ids": [
+        28
+      ],
+      "missing_suboptions": [
+        "更换厨师选择器",
+        "库存不足",
+        "制作成功回执"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "管理同伴",
+      "retained_baseline_ids": [
+        11
+      ],
+      "missing_suboptions": [
+        "装备与行囊",
+        "培养",
+        "更多操作",
+        "作息切换/宅家限制状态"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "人物志工作指派",
+      "retained_baseline_ids": [
+        4
+      ],
+      "missing_suboptions": [
+        "经历",
+        "关系",
+        "能力",
+        "指派工作选目标/缺工具",
+        "停止确认或反馈",
+        "交谈",
+        "更多"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "基地总览及餐厅运营",
+      "retained_baseline_ids": [
+        5,
+        6
+      ],
+      "missing_suboptions": [
+        "基地居民",
+        "餐厅计划",
+        "餐厅设施",
+        "庆典详情"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "营造目录",
+      "retained_baseline_ids": [
+        12
+      ],
+      "missing_suboptions": [
+        "居所分类",
+        "生产分类",
+        "功能分类",
+        "装饰分类",
+        "选址合法/阻塞",
+        "查看材料明细"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "任务札记",
+      "retained_baseline_ids": [
+        3
+      ],
+      "missing_suboptions": [
+        "支线",
+        "已完成",
+        "完成奖励待领取/领取状态"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "生产与补给",
+      "retained_baseline_ids": [
+        6
+      ],
+      "missing_suboptions": [
+        "制作中筛选",
+        "待补料筛选",
+        "添加计划/调整计划"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "原料与库存",
+      "retained_baseline_ids": [
+        2
+      ],
+      "missing_suboptions": [
+        "来源/目标选择",
+        "源物被消耗",
+        "目标失去交互距离",
+        "移交成功回执"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "图标和玻璃组件",
+      "retained_baseline_ids": [],
+      "missing_suboptions": [],
+      "coverage_status": "规范或重复视觉，不计新增业务页"
+    },
+    {
+      "system": "人物总览",
+      "retained_baseline_ids": [
+        42
+      ],
+      "missing_suboptions": [
+        "行为",
+        "属性",
+        "行囊",
+        "经历",
+        "关系"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "人物总览",
+      "retained_baseline_ids": [
+        42
+      ],
+      "missing_suboptions": [
+        "行为",
+        "属性",
+        "行囊",
+        "经历",
+        "关系"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "人物总览",
+      "retained_baseline_ids": [
+        42
+      ],
+      "missing_suboptions": [
+        "行为",
+        "属性",
+        "行囊",
+        "经历",
+        "关系"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "人物总览",
+      "retained_baseline_ids": [
+        42
+      ],
+      "missing_suboptions": [
+        "行为",
+        "属性",
+        "行囊",
+        "经历",
+        "关系"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "居民与住客",
+      "retained_baseline_ids": [
+        38
+      ],
+      "missing_suboptions": [
+        "住所详情",
+        "人物更多操作",
+        "身份筛选状态"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "居民与住客",
+      "retained_baseline_ids": [
+        38
+      ],
+      "missing_suboptions": [
+        "住所详情",
+        "人物更多操作",
+        "身份筛选状态"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "行囊与百业修为",
+      "retained_baseline_ids": [
+        10
+      ],
+      "missing_suboptions": [
+        "武器",
+        "防具",
+        "材料",
+        "药品",
+        "食物",
+        "任务",
+        "其他",
+        "装备比较",
+        "物品来源",
+        "快捷栏配置",
+        "行业详情"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "项目图标集",
+      "retained_baseline_ids": [],
+      "missing_suboptions": [],
+      "coverage_status": "规范或重复视觉，不计新增业务页"
+    },
+    {
+      "system": "设置及联机",
+      "retained_baseline_ids": [
+        27
+      ],
+      "missing_suboptions": [
+        "游戏",
+        "显示",
+        "音频",
+        "操作",
+        "辅助",
+        "存档",
+        "联机收藏",
+        "联机最近",
+        "世界规则",
+        "加入失败/满员/版本不符"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "渔舍",
+      "retained_baseline_ids": [
+        43,
+        13,
+        44,
+        45
+      ],
+      "missing_suboptions": [
+        "管理",
+        "配装方案",
+        "伙伴邀约",
+        "鱼情手册",
+        "留餐/处理完整流"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "农庄",
+      "retained_baseline_ids": [
+        14,
+        46,
+        47,
+        48
+      ],
+      "missing_suboptions": [
+        "设施",
+        "共同收获邀请",
+        "升级详情"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "畜栏",
+      "retained_baseline_ids": [
+        8,
+        8,
+        40,
+        41
+      ],
+      "missing_suboptions": [
+        "管理",
+        "饮水",
+        "清理圈舍",
+        "收集产出",
+        "繁育配对选择/预留位置"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "林务小屋",
+      "retained_baseline_ids": [
+        49,
+        16,
+        50,
+        51
+      ],
+      "missing_suboptions": [
+        "森林笔记",
+        "管理许可",
+        "更换动物",
+        "邀请结果/改期"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "采掘营站",
+      "retained_baseline_ids": [
+        15,
+        52,
+        53,
+        54
+      ],
+      "missing_suboptions": [
+        "矿点记事细节",
+        "路线不可达处理",
+        "真实撤回交货回执"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "熔炉",
+      "retained_baseline_ids": [
+        55,
+        17,
+        56,
+        57
+      ],
+      "missing_suboptions": [
+        "管理升级详情",
+        "配方切换",
+        "批次历史详情",
+        "库存变化失效"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "铁匠铺",
+      "retained_baseline_ids": [
+        58,
+        59,
+        7,
+        60
+      ],
+      "missing_suboptions": [
+        "其他工具",
+        "渔猎定制",
+        "采矿定制",
+        "部件选择",
+        "选择同伴",
+        "第二工具槽交互"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "木陶工坊",
+      "retained_baseline_ids": [
+        61,
+        18,
+        62,
+        63
+      ],
+      "missing_suboptions": [
+        "陶器",
+        "配方管理",
+        "灵感图鉴",
+        "房间选择",
+        "装饰/地面/墙饰",
+        "家具用途"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "磨坊",
+      "retained_baseline_ids": [
+        64,
+        19,
+        65,
+        66
+      ],
+      "missing_suboptions": [
+        "岗位管理",
+        "发展与订单独立页",
+        "新批次投料",
+        "领取回执"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "面包坊",
+      "retained_baseline_ids": [
+        67,
+        20,
+        68,
+        69
+      ],
+      "missing_suboptions": [
+        "更多面包",
+        "我的配方",
+        "我发起的",
+        "收到的邀请",
+        "新增预订",
+        "邀请选择"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "织坊",
+      "retained_baseline_ids": [
+        70,
+        21,
+        71,
+        72
+      ],
+      "missing_suboptions": [
+        "我的衣物",
+        "布料染材",
+        "配方图纸",
+        "工坊管理",
+        "下装/外套/鞋靴/饰品",
+        "待领取",
+        "历史记录"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "药房",
+      "retained_baseline_ids": [
+        73,
+        74,
+        22,
+        75
+      ],
+      "missing_suboptions": [
+        "营养类筛选",
+        "提神类筛选",
+        "恢复类筛选",
+        "完整配制过程",
+        "交付满包/源不足"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "餐馆",
+      "retained_baseline_ids": [
+        76,
+        23,
+        77,
+        78
+      ],
+      "missing_suboptions": [
+        "食材库存",
+        "厨师与帮手",
+        "收支记录",
+        "设置",
+        "客群菜单",
+        "邀请详情"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "茶酒馆",
+      "retained_baseline_ids": [
+        79,
+        24,
+        80,
+        81
+      ],
+      "missing_suboptions": [
+        "茶酒口味",
+        "主题小聚记录",
+        "共饮消费回执",
+        "改期",
+        "邀请对象/结果"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "杂货铺",
+      "retained_baseline_ids": [
+        31,
+        25,
+        32,
+        33
+      ],
+      "missing_suboptions": [
+        "日用品",
+        "今日装饰",
+        "外来商货",
+        "货主与库存",
+        "特色组合订单",
+        "订单取消详情",
+        "成交回执"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "仓库",
+      "retained_baseline_ids": [
+        2,
+        82,
+        29,
+        30
+      ],
+      "missing_suboptions": [
+        "公共仓库双库存及任务预留锁定",
+        "标签管理",
+        "模板管理",
+        "另存模板"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "旅馆",
+      "retained_baseline_ids": [
+        9,
+        37,
+        38,
+        39
+      ],
+      "missing_suboptions": [
+        "经营设置",
+        "常客管理",
+        "活动记录",
+        "调整房间",
+        "取消活动",
+        "退房明细",
+        "主题升级"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    },
+    {
+      "system": "空港",
+      "retained_baseline_ids": [
+        26,
+        34,
+        35,
+        36
+      ],
+      "missing_suboptions": [
+        "收藏",
+        "航线日志",
+        "逐人装备",
+        "共享行囊选择",
+        "分开交货",
+        "特色路线详情",
+        "确认出航队伍失效/恢复期阻塞与恢复状态"
+      ],
+      "coverage_status": "已覆盖核心候选，子项未齐"
+    }
+  ],
+  "registered_image_count": 98,
+  "delivered_image_count": 82,
+  "delivery_scope": "baseline",
+  "additional_candidates_delivered": false
+}
