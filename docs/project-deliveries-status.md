@@ -32,3 +32,12 @@ Their latest release changes are not included in the public baseline above. Sepa
 ## Preservation limits
 
 Only materials actually stored in a verified backup are covered by that backup. A release identifier, index entry, or status report is not a substitute for the underlying files. Original ZIP container bytes are not preserved by expanding their entries, and no storage arrangement can guarantee that loss will never occur.
+
+## Verified public reference atlas addition
+
+On 2026-10-10, commit [5bfd7345be335e154a10a0c63da8cc14e802a901](https://github.com/sakurarealm/dots/commit/5bfd7345be335e154a10a0c63da8cc14e802a901) added the [public reference atlas](../research/2026-10-10/reference-atlas/).
+
+- 34 files (206,287 bytes): an HTML page, stylesheet, script, reference catalog, README, SHA256SUMS, and 28 original SVG explanatory diagrams.
+- The catalog contains 34 public references and eight validation guidelines. Diagrams explain mechanisms; they are not completed 3D assets or third-party screenshots.
+- After the push, all 34 remote Git blob identifiers matched the locally computed blob identifiers. The SHA256SUMS file has SHA-256 `acc4032eb6bae267ef53b4d28f190c00ebe56a72c67fccebb2629defd4e8fa06`.
+- The export excludes private project records, private attachments, internal progress and restricted source assets. The historical archive counts above remain baseline counts, not current repository totals.
