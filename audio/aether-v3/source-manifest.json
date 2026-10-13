@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "source_archive_sha256": "1be7e3f8ff552cc5fdb10ae6d3dbcd667222efd14250fa00b993d4d859a004db",
+  "verified_node": "v24.19.0",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2523,
+      "sha256": "ace405c9bdc366fb0dc3987b3d50e1c328e68be62e591b106a381b913a693f9c"
+    },
+    {
+      "path": "build-and-verify.cjs",
+      "bytes": 965,
+      "sha256": "c49a2b396bd25d33b0ea776921cff404b92c545844065df8dbca4c590ab59c21"
+    },
+    {
+      "path": "dist/dsp.js",
+      "bytes": 12788,
+      "sha256": "4d33aeb664980c98b0b7f13cf0b0304164a6d7f7d85bb0172fefc7b26119b530"
+    },
+    {
+      "path": "dist/game-events.json",
+      "bytes": 53267,
+      "sha256": "530f94d8eb60ba7892db643995a0ec801f4dd4c1329a1e58dd15cfe3b843a576"
+    },
+    {
+      "path": "dist/presets.json",
+      "bytes": 43723,
+      "sha256": "9ff61b53834aa7adcfde1fd6d2e1fd951429670949c377e7b23b81c9ac2ebef0"
+    },
+    {
+      "path": "expected-sha256.json",
+      "bytes": 59738,
+      "sha256": "b9873501736e207321c0285bf3662e04a2c2fc7edf0e984dde054253faf53aa5"
+    },
+    {
+      "path": "requirements/event-asset-manifest.json",
+      "bytes": 53184,
+      "sha256": "1ccff688f55355476127258abb5d08c34eda370b0ef0586cb256377ec25506a4"
+    },
+    {
+      "path": "requirements/requirements-matrix.json",
+      "bytes": 50180,
+      "sha256": "34ccc697164294fde46774a989d91588182a371bbcc339eae2bd73bc4ee0aa14"
+    },
+    {
+      "path": "revisions/v2-baseline/dsp.js",
+      "bytes": 8089,
+      "sha256": "d705d0909b368a00346c28e44dccf720af6d90b605e3de97bf7609a21b779b3d"
+    },
+    {
+      "path": "revisions/v2-baseline/presets.json",
+      "bytes": 43723,
+      "sha256": "11a8615d856a0473410234e45bf8c7251562677f9b8a979d6073884855a084ed"
+    },
+    {
+      "path": "scripts/bake-events.cjs",
+      "bytes": 5814,
+      "sha256": "b36e45ec19f45268a3a8b63b7e4ed28b769fe3f6f68d018d95edcbcd1e1e840e"
+    },
+    {
+      "path": "scripts/create-game-events.py",
+      "bytes": 8036,
+      "sha256": "119fbbcb79e4c85b6038867dd97b1a14098d82d94d97067b7ae428f0a0772914"
+    },
+    {
+      "path": "tests/spatial-verify.cjs",
+      "bytes": 4990,
+      "sha256": "65fa6271aa6bdb16b24008bcab70bd204940546794260a5b87db586363763ab6"
+    }
+  ]
+}

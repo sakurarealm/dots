@@ -1,0 +1,2467 @@
+[
+  {
+    "version": 1,
+    "id": "metal-hover",
+    "name": "银铃 · 悬停",
+    "category": "金属",
+    "material": "金属",
+    "description": "轻触银质全息边缘，短起音后散开非整数金属泛音。",
+    "seed": 21031,
+    "variantSeeds": [
+      21031,
+      41047
+    ],
+    "duration": 0.505,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 1280,
+        "duration": 0.48,
+        "gain": 0.58,
+        "ratios": [
+          1,
+          2.013,
+          2.756,
+          4.087,
+          5.431
+        ],
+        "weights": [
+          0.56,
+          0.24,
+          0.12,
+          0.055,
+          0.025
+        ],
+        "damping": [
+          5.5,
+          9,
+          13,
+          22,
+          30
+        ],
+        "start": 0,
+        "attack": 0.003
+      },
+      {
+        "type": "noise",
+        "duration": 0.038,
+        "gain": 0.09,
+        "start": 0,
+        "decay": 6,
+        "cutoff": 5500,
+        "attack": 0.003
+      },
+      {
+        "type": "modal",
+        "freq": 640.0,
+        "duration": 0.48,
+        "gain": 0.13,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.025,
+        "attack": 0.018
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.45,
+      "room": 0.3,
+      "gain": 0.36
+    }
+  },
+  {
+    "version": 1,
+    "id": "metal-confirm",
+    "name": "铭印 · 确认",
+    "category": "金属",
+    "material": "金属",
+    "description": "清晰的金属铭印，接续五度与八度的符文回响。",
+    "seed": 21210,
+    "variantSeeds": [
+      21210,
+      41270
+    ],
+    "duration": 0.725,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 880,
+        "duration": 0.7,
+        "gain": 0.58,
+        "ratios": [
+          1,
+          2.013,
+          2.756,
+          4.087,
+          5.431
+        ],
+        "weights": [
+          0.56,
+          0.24,
+          0.12,
+          0.055,
+          0.025
+        ],
+        "damping": [
+          5.5,
+          9,
+          13,
+          22,
+          30
+        ],
+        "start": 0,
+        "attack": 0.003
+      },
+      {
+        "type": "noise",
+        "duration": 0.038,
+        "gain": 0.09,
+        "start": 0,
+        "decay": 6,
+        "cutoff": 5500,
+        "attack": 0.003
+      },
+      {
+        "type": "modal",
+        "freq": 440.0,
+        "duration": 0.7,
+        "gain": 0.13,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.025,
+        "attack": 0.018
+      },
+      {
+        "type": "modal",
+        "freq": 1318.5102276514797,
+        "duration": 0.43,
+        "gain": 0.105,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.07,
+        "attack": 0.018
+      },
+      {
+        "type": "modal",
+        "freq": 1760.0,
+        "duration": 0.43,
+        "gain": 0.105,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.185,
+        "attack": 0.018
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.45,
+      "room": 0.3,
+      "gain": 0.36
+    }
+  },
+  {
+    "version": 1,
+    "id": "metal-notification",
+    "name": "星铃 · 通知",
+    "category": "金属",
+    "material": "金属",
+    "description": "薄银铃体与高处微光，留出空灵而克制的尾音。",
+    "seed": 21389,
+    "variantSeeds": [
+      21389,
+      41493
+    ],
+    "duration": 0.925,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 1046,
+        "duration": 0.9,
+        "gain": 0.58,
+        "ratios": [
+          1,
+          2.013,
+          2.756,
+          4.087,
+          5.431
+        ],
+        "weights": [
+          0.56,
+          0.24,
+          0.12,
+          0.055,
+          0.025
+        ],
+        "damping": [
+          5.5,
+          9,
+          13,
+          22,
+          30
+        ],
+        "start": 0,
+        "attack": 0.003
+      },
+      {
+        "type": "noise",
+        "duration": 0.038,
+        "gain": 0.09,
+        "start": 0,
+        "decay": 6,
+        "cutoff": 5500,
+        "attack": 0.003
+      },
+      {
+        "type": "modal",
+        "freq": 523.0,
+        "duration": 0.9,
+        "gain": 0.13,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.025,
+        "attack": 0.018
+      },
+      {
+        "type": "modal",
+        "freq": 1567.2292024130088,
+        "duration": 0.43,
+        "gain": 0.105,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.07,
+        "attack": 0.018
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.45,
+      "room": 0.3,
+      "gain": 0.36
+    }
+  },
+  {
+    "version": 1,
+    "id": "metal-pickup",
+    "name": "晶币 · 拾取",
+    "category": "金属",
+    "material": "金属",
+    "description": "细小金属碰击，像虚拟背包中归位的一枚晶币。",
+    "seed": 21568,
+    "variantSeeds": [
+      21568,
+      41716
+    ],
+    "duration": 0.575,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 1480,
+        "duration": 0.55,
+        "gain": 0.58,
+        "ratios": [
+          1,
+          2.013,
+          2.756,
+          4.087,
+          5.431
+        ],
+        "weights": [
+          0.56,
+          0.24,
+          0.12,
+          0.055,
+          0.025
+        ],
+        "damping": [
+          5.5,
+          9,
+          13,
+          22,
+          30
+        ],
+        "start": 0,
+        "attack": 0.003
+      },
+      {
+        "type": "noise",
+        "duration": 0.038,
+        "gain": 0.09,
+        "start": 0,
+        "decay": 6,
+        "cutoff": 5500,
+        "attack": 0.003
+      },
+      {
+        "type": "modal",
+        "freq": 740.0,
+        "duration": 0.55,
+        "gain": 0.13,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.025,
+        "attack": 0.018
+      },
+      {
+        "type": "modal",
+        "freq": 2960.0,
+        "duration": 0.43,
+        "gain": 0.105,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.07,
+        "attack": 0.018
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.45,
+      "room": 0.3,
+      "gain": 0.36
+    }
+  },
+  {
+    "version": 1,
+    "id": "metal-success",
+    "name": "圣印 · 完成",
+    "category": "金属",
+    "material": "金属",
+    "description": "银质起音与上行和声，轻盈的RPG完成反馈。",
+    "seed": 21747,
+    "variantSeeds": [
+      21747,
+      41939
+    ],
+    "duration": 0.875,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 784,
+        "duration": 0.85,
+        "gain": 0.58,
+        "ratios": [
+          1,
+          2.013,
+          2.756,
+          4.087,
+          5.431
+        ],
+        "weights": [
+          0.56,
+          0.24,
+          0.12,
+          0.055,
+          0.025
+        ],
+        "damping": [
+          5.5,
+          9,
+          13,
+          22,
+          30
+        ],
+        "start": 0,
+        "attack": 0.003
+      },
+      {
+        "type": "noise",
+        "duration": 0.038,
+        "gain": 0.09,
+        "start": 0,
+        "decay": 6,
+        "cutoff": 5500,
+        "attack": 0.003
+      },
+      {
+        "type": "modal",
+        "freq": 392.0,
+        "duration": 0.85,
+        "gain": 0.13,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.025,
+        "attack": 0.018
+      },
+      {
+        "type": "modal",
+        "freq": 987.7781031175806,
+        "duration": 0.43,
+        "gain": 0.105,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.07,
+        "attack": 0.018
+      },
+      {
+        "type": "modal",
+        "freq": 1174.6727482713184,
+        "duration": 0.43,
+        "gain": 0.105,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.185,
+        "attack": 0.018
+      },
+      {
+        "type": "modal",
+        "freq": 1568.0,
+        "duration": 0.43,
+        "gain": 0.105,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.30000000000000004,
+        "attack": 0.018
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.45,
+      "room": 0.3,
+      "gain": 0.36
+    }
+  },
+  {
+    "version": 1,
+    "id": "wood-press",
+    "name": "灵木 · 按下",
+    "category": "木",
+    "material": "木",
+    "description": "短促木腔与柔软纤维摩擦，后方有一线魔法余韵。",
+    "seed": 21926,
+    "variantSeeds": [
+      21926,
+      42162
+    ],
+    "duration": 0.478,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 460,
+        "duration": 0.24,
+        "gain": 0.68,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.83,
+          0.14,
+          0.03
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "start": 0,
+        "attack": 0.0015
+      },
+      {
+        "type": "noise",
+        "duration": 0.055,
+        "gain": 0.25,
+        "start": 0,
+        "decay": 6,
+        "cutoff": 1500,
+        "attack": 0.003
+      },
+      {
+        "type": "tone",
+        "freq": 225.4,
+        "endFreq": 216.2,
+        "duration": 0.17,
+        "gain": 0.17,
+        "start": 0,
+        "decay": 22,
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 690.0,
+        "duration": 0.46,
+        "gain": 0.15,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.018,
+        "attack": 0.018
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.7,
+      "room": 0.22,
+      "gain": 0.36
+    }
+  },
+  {
+    "version": 1,
+    "id": "wood-release",
+    "name": "枝纹 · 回弹",
+    "category": "木",
+    "material": "木",
+    "description": "更高的木质空腔回弹，保留干净、温暖的触感。",
+    "seed": 22105,
+    "variantSeeds": [
+      22105,
+      42385
+    ],
+    "duration": 0.418,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 620,
+        "duration": 0.24,
+        "gain": 0.68,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.83,
+          0.14,
+          0.03
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "start": 0,
+        "attack": 0.0015
+      },
+      {
+        "type": "noise",
+        "duration": 0.055,
+        "gain": 0.25,
+        "start": 0,
+        "decay": 6,
+        "cutoff": 1500,
+        "attack": 0.003
+      },
+      {
+        "type": "tone",
+        "freq": 303.8,
+        "endFreq": 291.4,
+        "duration": 0.17,
+        "gain": 0.17,
+        "start": 0,
+        "decay": 22,
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 930.0,
+        "duration": 0.4,
+        "gain": 0.15,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.018,
+        "attack": 0.018
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.7,
+      "room": 0.22,
+      "gain": 0.36
+    }
+  },
+  {
+    "version": 1,
+    "id": "wood-cancel",
+    "name": "木符 · 取消",
+    "category": "木",
+    "material": "木",
+    "description": "低矮木质落点，像关闭一枚沉静的森林符咒。",
+    "seed": 22284,
+    "variantSeeds": [
+      22284,
+      42608
+    ],
+    "duration": 0.5,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 330,
+        "duration": 0.24,
+        "gain": 0.68,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.83,
+          0.14,
+          0.03
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "start": 0,
+        "attack": 0.0015
+      },
+      {
+        "type": "noise",
+        "duration": 0.055,
+        "gain": 0.25,
+        "start": 0,
+        "decay": 6,
+        "cutoff": 1500,
+        "attack": 0.003
+      },
+      {
+        "type": "tone",
+        "freq": 161.7,
+        "endFreq": 155.1,
+        "duration": 0.17,
+        "gain": 0.17,
+        "start": 0,
+        "decay": 22,
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 495.0,
+        "duration": 0.4,
+        "gain": 0.15,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.018,
+        "attack": 0.018
+      },
+      {
+        "type": "modal",
+        "freq": 247.22066768465245,
+        "duration": 0.43,
+        "gain": 0.105,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.07,
+        "attack": 0.018
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.7,
+      "room": 0.22,
+      "gain": 0.36
+    }
+  },
+  {
+    "version": 1,
+    "id": "wood-toggle-on",
+    "name": "生息 · 开启",
+    "category": "木",
+    "material": "木",
+    "description": "木制符环轻敲开启，尾部浮起一点透明和声。",
+    "seed": 22463,
+    "variantSeeds": [
+      22463,
+      42831
+    ],
+    "duration": 0.598,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 520,
+        "duration": 0.24,
+        "gain": 0.68,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.83,
+          0.14,
+          0.03
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "start": 0,
+        "attack": 0.0015
+      },
+      {
+        "type": "noise",
+        "duration": 0.055,
+        "gain": 0.25,
+        "start": 0,
+        "decay": 6,
+        "cutoff": 1500,
+        "attack": 0.003
+      },
+      {
+        "type": "tone",
+        "freq": 254.79999999999998,
+        "endFreq": 244.39999999999998,
+        "duration": 0.17,
+        "gain": 0.17,
+        "start": 0,
+        "decay": 22,
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 780.0,
+        "duration": 0.58,
+        "gain": 0.15,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.018,
+        "attack": 0.018
+      },
+      {
+        "type": "modal",
+        "freq": 779.1196799758744,
+        "duration": 0.43,
+        "gain": 0.105,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.07,
+        "attack": 0.018
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.7,
+      "room": 0.22,
+      "gain": 0.36
+    }
+  },
+  {
+    "version": 1,
+    "id": "wood-resource",
+    "name": "林藏 · 入库",
+    "category": "木",
+    "material": "木",
+    "description": "两点木腔与纤维细响，温暖而有实体感。",
+    "seed": 22642,
+    "variantSeeds": [
+      22642,
+      43054
+    ],
+    "duration": 0.638,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 560,
+        "duration": 0.24,
+        "gain": 0.68,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.83,
+          0.14,
+          0.03
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "start": 0,
+        "attack": 0.0015
+      },
+      {
+        "type": "noise",
+        "duration": 0.055,
+        "gain": 0.25,
+        "start": 0,
+        "decay": 6,
+        "cutoff": 1500,
+        "attack": 0.003
+      },
+      {
+        "type": "tone",
+        "freq": 274.4,
+        "endFreq": 263.2,
+        "duration": 0.17,
+        "gain": 0.17,
+        "start": 0,
+        "decay": 22,
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 840.0,
+        "duration": 0.62,
+        "gain": 0.15,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.018,
+        "attack": 0.018
+      },
+      {
+        "type": "modal",
+        "freq": 560.0,
+        "duration": 0.43,
+        "gain": 0.105,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.07,
+        "attack": 0.018
+      },
+      {
+        "type": "modal",
+        "freq": 839.0519630509416,
+        "duration": 0.43,
+        "gain": 0.105,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.185,
+        "attack": 0.018
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.7,
+      "room": 0.22,
+      "gain": 0.36
+    }
+  },
+  {
+    "version": 1,
+    "id": "stone-press",
+    "name": "岩印 · 按下",
+    "category": "石",
+    "material": "石",
+    "description": "低沉石体的短实心撞击，带细微矿物颗粒感。",
+    "seed": 22821,
+    "variantSeeds": [
+      22821,
+      43277
+    ],
+    "duration": 0.508,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 210,
+        "duration": 0.34,
+        "gain": 0.72,
+        "ratios": [
+          1,
+          1.43,
+          2.37,
+          3.81
+        ],
+        "weights": [
+          0.68,
+          0.2,
+          0.085,
+          0.035
+        ],
+        "damping": [
+          16,
+          29,
+          43,
+          65
+        ],
+        "start": 0,
+        "attack": 0.002
+      },
+      {
+        "type": "noise",
+        "duration": 0.08,
+        "gain": 0.3,
+        "start": 0,
+        "decay": 6,
+        "cutoff": 750,
+        "attack": 0.003
+      },
+      {
+        "type": "tone",
+        "freq": 96.60000000000001,
+        "endFreq": 84.0,
+        "duration": 0.23,
+        "gain": 0.18,
+        "start": 0,
+        "decay": 18,
+        "attack": 0.003
+      },
+      {
+        "type": "modal",
+        "freq": 630,
+        "duration": 0.48,
+        "gain": 0.14,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.028,
+        "attack": 0.018
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.78,
+      "room": 0.25,
+      "gain": 0.36
+    }
+  },
+  {
+    "version": 1,
+    "id": "stone-build",
+    "name": "基岩 · 放置",
+    "category": "石",
+    "material": "石",
+    "description": "更厚重的石材落定，短促重心后是细薄的符文光晕。",
+    "seed": 23000,
+    "variantSeeds": [
+      23000,
+      43500
+    ],
+    "duration": 0.708,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 155,
+        "duration": 0.34,
+        "gain": 0.72,
+        "ratios": [
+          1,
+          1.43,
+          2.37,
+          3.81
+        ],
+        "weights": [
+          0.68,
+          0.2,
+          0.085,
+          0.035
+        ],
+        "damping": [
+          16,
+          29,
+          43,
+          65
+        ],
+        "start": 0,
+        "attack": 0.002
+      },
+      {
+        "type": "noise",
+        "duration": 0.08,
+        "gain": 0.3,
+        "start": 0,
+        "decay": 6,
+        "cutoff": 750,
+        "attack": 0.003
+      },
+      {
+        "type": "tone",
+        "freq": 71.3,
+        "endFreq": 62.0,
+        "duration": 0.23,
+        "gain": 0.18,
+        "start": 0,
+        "decay": 18,
+        "attack": 0.003
+      },
+      {
+        "type": "modal",
+        "freq": 465,
+        "duration": 0.68,
+        "gain": 0.14,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.028,
+        "attack": 0.018
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.78,
+      "room": 0.25,
+      "gain": 0.36
+    }
+  },
+  {
+    "version": 1,
+    "id": "stone-warning",
+    "name": "石阵 · 提醒",
+    "category": "石",
+    "material": "石",
+    "description": "沉稳石腔接续两段间隔回响，提醒但不尖锐。",
+    "seed": 23179,
+    "variantSeeds": [
+      23179,
+      43723
+    ],
+    "duration": 0.678,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 280,
+        "duration": 0.34,
+        "gain": 0.72,
+        "ratios": [
+          1,
+          1.43,
+          2.37,
+          3.81
+        ],
+        "weights": [
+          0.68,
+          0.2,
+          0.085,
+          0.035
+        ],
+        "damping": [
+          16,
+          29,
+          43,
+          65
+        ],
+        "start": 0,
+        "attack": 0.002
+      },
+      {
+        "type": "noise",
+        "duration": 0.08,
+        "gain": 0.3,
+        "start": 0,
+        "decay": 6,
+        "cutoff": 750,
+        "attack": 0.003
+      },
+      {
+        "type": "tone",
+        "freq": 128.8,
+        "endFreq": 112.0,
+        "duration": 0.23,
+        "gain": 0.18,
+        "start": 0,
+        "decay": 18,
+        "attack": 0.003
+      },
+      {
+        "type": "modal",
+        "freq": 840,
+        "duration": 0.65,
+        "gain": 0.14,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.028,
+        "attack": 0.018
+      },
+      {
+        "type": "modal",
+        "freq": 280.0,
+        "duration": 0.43,
+        "gain": 0.105,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.07,
+        "attack": 0.018
+      },
+      {
+        "type": "modal",
+        "freq": 249.451641079295,
+        "duration": 0.43,
+        "gain": 0.105,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.185,
+        "attack": 0.018
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.78,
+      "room": 0.25,
+      "gain": 0.36
+    }
+  },
+  {
+    "version": 1,
+    "id": "stone-error",
+    "name": "封印 · 受阻",
+    "category": "石",
+    "material": "石",
+    "description": "向下的石质封印反馈，明确、低沉且不过分刺耳。",
+    "seed": 23358,
+    "variantSeeds": [
+      23358,
+      43946
+    ],
+    "duration": 0.628,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 185,
+        "duration": 0.34,
+        "gain": 0.72,
+        "ratios": [
+          1,
+          1.43,
+          2.37,
+          3.81
+        ],
+        "weights": [
+          0.68,
+          0.2,
+          0.085,
+          0.035
+        ],
+        "damping": [
+          16,
+          29,
+          43,
+          65
+        ],
+        "start": 0,
+        "attack": 0.002
+      },
+      {
+        "type": "noise",
+        "duration": 0.08,
+        "gain": 0.3,
+        "start": 0,
+        "decay": 6,
+        "cutoff": 750,
+        "attack": 0.003
+      },
+      {
+        "type": "tone",
+        "freq": 85.10000000000001,
+        "endFreq": 74.0,
+        "duration": 0.23,
+        "gain": 0.18,
+        "start": 0,
+        "decay": 18,
+        "attack": 0.003
+      },
+      {
+        "type": "modal",
+        "freq": 555,
+        "duration": 0.6,
+        "gain": 0.14,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.028,
+        "attack": 0.018
+      },
+      {
+        "type": "modal",
+        "freq": 164.81626285596278,
+        "duration": 0.43,
+        "gain": 0.105,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.07,
+        "attack": 0.018
+      },
+      {
+        "type": "modal",
+        "freq": 138.59340461109304,
+        "duration": 0.43,
+        "gain": 0.105,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.185,
+        "attack": 0.018
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.78,
+      "room": 0.25,
+      "gain": 0.36
+    }
+  },
+  {
+    "version": 1,
+    "id": "stone-resource",
+    "name": "矿脉 · 收取",
+    "category": "石",
+    "material": "石",
+    "description": "较亮的矿石叩击与低频实体共鸣，同时保留空气尾音。",
+    "seed": 23537,
+    "variantSeeds": [
+      23537,
+      44169
+    ],
+    "duration": 0.678,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 390,
+        "duration": 0.34,
+        "gain": 0.72,
+        "ratios": [
+          1,
+          1.43,
+          2.37,
+          3.81
+        ],
+        "weights": [
+          0.68,
+          0.2,
+          0.085,
+          0.035
+        ],
+        "damping": [
+          16,
+          29,
+          43,
+          65
+        ],
+        "start": 0,
+        "attack": 0.002
+      },
+      {
+        "type": "noise",
+        "duration": 0.08,
+        "gain": 0.3,
+        "start": 0,
+        "decay": 6,
+        "cutoff": 750,
+        "attack": 0.003
+      },
+      {
+        "type": "tone",
+        "freq": 179.4,
+        "endFreq": 156.0,
+        "duration": 0.23,
+        "gain": 0.18,
+        "start": 0,
+        "decay": 18,
+        "attack": 0.003
+      },
+      {
+        "type": "modal",
+        "freq": 1170,
+        "duration": 0.65,
+        "gain": 0.14,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.028,
+        "attack": 0.018
+      },
+      {
+        "type": "modal",
+        "freq": 584.3397599819058,
+        "duration": 0.43,
+        "gain": 0.105,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.07,
+        "attack": 0.018
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.78,
+      "room": 0.25,
+      "gain": 0.36
+    }
+  },
+  {
+    "version": 1,
+    "id": "float-hover",
+    "name": "浮光 · 悬停",
+    "category": "悬浮",
+    "material": "悬浮",
+    "description": "无实体接触的微光，柔和频移与近频拍动轻轻悬起。",
+    "seed": 23716,
+    "variantSeeds": [
+      23716,
+      44392
+    ],
+    "duration": 0.61,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 740,
+        "duration": 0.14,
+        "gain": 0.21,
+        "ratios": [
+          1,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.64,
+          0.25,
+          0.11
+        ],
+        "damping": [
+          23,
+          30,
+          40
+        ],
+        "start": 0,
+        "attack": 0.003
+      },
+      {
+        "type": "tone",
+        "freq": 532.8,
+        "endFreq": 740,
+        "duration": 0.6,
+        "gain": 0.22,
+        "start": 0,
+        "decay": 5,
+        "attack": 0.012
+      },
+      {
+        "type": "modal",
+        "freq": 740,
+        "duration": 0.6,
+        "gain": 0.39,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.008,
+        "attack": 0.018
+      },
+      {
+        "type": "noise",
+        "duration": 0.6,
+        "gain": 0.1,
+        "start": 0.01,
+        "decay": 6,
+        "cutoff": 4400,
+        "attack": 0.003
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.74,
+      "room": 0.39,
+      "gain": 0.36
+    }
+  },
+  {
+    "version": 1,
+    "id": "float-tab",
+    "name": "光页 · 切换",
+    "category": "悬浮",
+    "material": "悬浮",
+    "description": "全息页面滑移，短起音后展开透明的频率轨迹。",
+    "seed": 23895,
+    "variantSeeds": [
+      23895,
+      44615
+    ],
+    "duration": 0.61,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 830,
+        "duration": 0.14,
+        "gain": 0.21,
+        "ratios": [
+          1,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.64,
+          0.25,
+          0.11
+        ],
+        "damping": [
+          23,
+          30,
+          40
+        ],
+        "start": 0,
+        "attack": 0.003
+      },
+      {
+        "type": "tone",
+        "freq": 597.6,
+        "endFreq": 830,
+        "duration": 0.6,
+        "gain": 0.22,
+        "start": 0,
+        "decay": 5,
+        "attack": 0.012
+      },
+      {
+        "type": "modal",
+        "freq": 830,
+        "duration": 0.6,
+        "gain": 0.39,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.008,
+        "attack": 0.018
+      },
+      {
+        "type": "noise",
+        "duration": 0.6,
+        "gain": 0.1,
+        "start": 0.01,
+        "decay": 6,
+        "cutoff": 4400,
+        "attack": 0.003
+      },
+      {
+        "type": "modal",
+        "freq": 1243.5948738076456,
+        "duration": 0.43,
+        "gain": 0.105,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.07,
+        "attack": 0.018
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.74,
+      "room": 0.39,
+      "gain": 0.36
+    }
+  },
+  {
+    "version": 1,
+    "id": "float-toggle-on",
+    "name": "升维 · 开启",
+    "category": "悬浮",
+    "material": "悬浮",
+    "description": "柔和上行频移与悬浮和声，像界面从空气中显现。",
+    "seed": 24074,
+    "variantSeeds": [
+      24074,
+      44838
+    ],
+    "duration": 0.76,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 660,
+        "duration": 0.14,
+        "gain": 0.21,
+        "ratios": [
+          1,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.64,
+          0.25,
+          0.11
+        ],
+        "damping": [
+          23,
+          30,
+          40
+        ],
+        "start": 0,
+        "attack": 0.003
+      },
+      {
+        "type": "tone",
+        "freq": 475.2,
+        "endFreq": 660,
+        "duration": 0.75,
+        "gain": 0.22,
+        "start": 0,
+        "decay": 5,
+        "attack": 0.012
+      },
+      {
+        "type": "modal",
+        "freq": 660,
+        "duration": 0.75,
+        "gain": 0.39,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.008,
+        "attack": 0.018
+      },
+      {
+        "type": "noise",
+        "duration": 0.75,
+        "gain": 0.1,
+        "start": 0.01,
+        "decay": 6,
+        "cutoff": 4400,
+        "attack": 0.003
+      },
+      {
+        "type": "modal",
+        "freq": 988.8826707386098,
+        "duration": 0.43,
+        "gain": 0.105,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.07,
+        "attack": 0.018
+      },
+      {
+        "type": "modal",
+        "freq": 1320.0,
+        "duration": 0.43,
+        "gain": 0.105,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.185,
+        "attack": 0.018
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.74,
+      "room": 0.39,
+      "gain": 0.36
+    }
+  },
+  {
+    "version": 1,
+    "id": "float-toggle-off",
+    "name": "归零 · 关闭",
+    "category": "悬浮",
+    "material": "悬浮",
+    "description": "全息光线向内收拢，漂浮和声缓缓下落。",
+    "seed": 24253,
+    "variantSeeds": [
+      24253,
+      45061
+    ],
+    "duration": 0.69,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 590,
+        "duration": 0.14,
+        "gain": 0.21,
+        "ratios": [
+          1,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.64,
+          0.25,
+          0.11
+        ],
+        "damping": [
+          23,
+          30,
+          40
+        ],
+        "start": 0,
+        "attack": 0.003
+      },
+      {
+        "type": "tone",
+        "freq": 590,
+        "endFreq": 383.5,
+        "duration": 0.68,
+        "gain": 0.22,
+        "start": 0,
+        "decay": 5,
+        "attack": 0.012
+      },
+      {
+        "type": "modal",
+        "freq": 590,
+        "duration": 0.68,
+        "gain": 0.39,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.008,
+        "attack": 0.018
+      },
+      {
+        "type": "noise",
+        "duration": 0.68,
+        "gain": 0.1,
+        "start": 0.01,
+        "decay": 6,
+        "cutoff": 4400,
+        "attack": 0.003
+      },
+      {
+        "type": "modal",
+        "freq": 442.00058767862106,
+        "duration": 0.43,
+        "gain": 0.105,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.07,
+        "attack": 0.018
+      },
+      {
+        "type": "modal",
+        "freq": 295.0,
+        "duration": 0.43,
+        "gain": 0.105,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.185,
+        "attack": 0.018
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.74,
+      "room": 0.39,
+      "gain": 0.36
+    }
+  },
+  {
+    "version": 1,
+    "id": "float-unlock",
+    "name": "天穹 · 解锁",
+    "category": "悬浮",
+    "material": "悬浮",
+    "description": "清晰触发后展开四层光晕，未来感与RPG探索感相融。",
+    "seed": 24432,
+    "variantSeeds": [
+      24432,
+      45284
+    ],
+    "duration": 0.96,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 698,
+        "duration": 0.14,
+        "gain": 0.21,
+        "ratios": [
+          1,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.64,
+          0.25,
+          0.11
+        ],
+        "damping": [
+          23,
+          30,
+          40
+        ],
+        "start": 0,
+        "attack": 0.003
+      },
+      {
+        "type": "tone",
+        "freq": 502.56,
+        "endFreq": 698,
+        "duration": 0.95,
+        "gain": 0.22,
+        "start": 0,
+        "decay": 5,
+        "attack": 0.012
+      },
+      {
+        "type": "modal",
+        "freq": 698,
+        "duration": 0.95,
+        "gain": 0.39,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.008,
+        "attack": 0.018
+      },
+      {
+        "type": "noise",
+        "duration": 0.95,
+        "gain": 0.1,
+        "start": 0.01,
+        "decay": 6,
+        "cutoff": 4400,
+        "attack": 0.003
+      },
+      {
+        "type": "modal",
+        "freq": 698.0,
+        "duration": 0.43,
+        "gain": 0.105,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.07,
+        "attack": 0.018
+      },
+      {
+        "type": "modal",
+        "freq": 1045.8183396599236,
+        "duration": 0.43,
+        "gain": 0.105,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.185,
+        "attack": 0.018
+      },
+      {
+        "type": "modal",
+        "freq": 1396.0,
+        "duration": 0.43,
+        "gain": 0.105,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.30000000000000004,
+        "attack": 0.018
+      },
+      {
+        "type": "modal",
+        "freq": 1758.8497856532429,
+        "duration": 0.43,
+        "gain": 0.105,
+        "ratios": [
+          1,
+          1.006,
+          1.5,
+          2
+        ],
+        "weights": [
+          0.44,
+          0.3,
+          0.18,
+          0.08
+        ],
+        "damping": [
+          5,
+          4.5,
+          6,
+          9
+        ],
+        "start": 0.41500000000000004,
+        "attack": 0.018
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.74,
+      "room": 0.39,
+      "gain": 0.36
+    }
+  }
+]

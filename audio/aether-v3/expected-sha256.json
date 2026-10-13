@@ -1,0 +1,1876 @@
+{
+  "archives": [
+    {
+      "filename": "aether-game-events-v3.zip",
+      "bytes": 15351406,
+      "sha256": "62891ad5abf3ddf8d7535005ce39a5fb185e60fe0932bb7437259e00d36d0839"
+    },
+    {
+      "filename": "aether-holographic-rpg-v3-40-stereo.zip",
+      "bytes": 11205832,
+      "sha256": "c5bfa15827c170ab8ef9d675979d2ffb7008dc2665659eb25cc8290094c64d8f"
+    }
+  ],
+  "wav_files": [
+    {
+      "path": "exports-game-events/ui_focus_tick-A-stereo.wav",
+      "bytes": 103404,
+      "sha256": "45fae816a67578f27c80d4226059b55e7c0dfcdeda27fb25ef96d1e0c6fc4557",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 25840,
+      "seconds": 0.5383333333333333
+    },
+    {
+      "path": "exports-game-events/ui_focus_tick-A-dry-mono.wav",
+      "bytes": 30188,
+      "sha256": "a18a8146f1780da2d9e5704eab5a3ac01a4b74da0dcaf8b6042c5bff6703b9ca",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 15072,
+      "seconds": 0.314
+    },
+    {
+      "path": "exports-game-events/ui_focus_tick-B-stereo.wav",
+      "bytes": 103404,
+      "sha256": "807b32dd21951d988d3519fd532fb2f3f29d8df7a0b36a557fa99cf61cb31916",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 25840,
+      "seconds": 0.5383333333333333
+    },
+    {
+      "path": "exports-game-events/ui_focus_tick-B-dry-mono.wav",
+      "bytes": 30188,
+      "sha256": "e90cd324e01340d0ac0b5793365e7da9bfd93e96e8bac21eb62e71c55a732e7b",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 15072,
+      "seconds": 0.314
+    },
+    {
+      "path": "exports-game-events/ui_panel_open-A-stereo.wav",
+      "bytes": 148656,
+      "sha256": "26f5ed0726eb6c33b638ee7072683e8744cadac023eafffd915b4fb09a17501b",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 37153,
+      "seconds": 0.7740208333333334
+    },
+    {
+      "path": "exports-game-events/ui_panel_open-A-dry-mono.wav",
+      "bytes": 42476,
+      "sha256": "5a176acc7d49a1d2a0630747b4b433e119ee5c29bbdda9e3b910292871493e8f",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 21216,
+      "seconds": 0.442
+    },
+    {
+      "path": "exports-game-events/ui_panel_open-B-stereo.wav",
+      "bytes": 148656,
+      "sha256": "22ff93f5cbd49edf10455ec38df12a1359947033a708248fb3a020d0928d70cf",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 37153,
+      "seconds": 0.7740208333333334
+    },
+    {
+      "path": "exports-game-events/ui_panel_open-B-dry-mono.wav",
+      "bytes": 42476,
+      "sha256": "42122a8cf1dd8c2ff7d21295976e7e0f361b0e81f6471d894af303813594163d",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 21216,
+      "seconds": 0.442
+    },
+    {
+      "path": "exports-game-events/ui_panel_close-A-stereo.wav",
+      "bytes": 126892,
+      "sha256": "277458a67a5e39dc46acb06b3919f142dc23e4baae51b59e03e23eb62726a074",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 31712,
+      "seconds": 0.6606666666666666
+    },
+    {
+      "path": "exports-game-events/ui_panel_close-A-dry-mono.wav",
+      "bytes": 37676,
+      "sha256": "081d25ef30731ea15bf018753b9755039ea40ccb420f3b7c0f3ae25caa36c4a9",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 18816,
+      "seconds": 0.392
+    },
+    {
+      "path": "exports-game-events/ui_panel_close-B-stereo.wav",
+      "bytes": 126892,
+      "sha256": "d94a5f537f7136a410b28b2385adf398c332f872d2b868d25a3724479c119aac",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 31712,
+      "seconds": 0.6606666666666666
+    },
+    {
+      "path": "exports-game-events/ui_panel_close-B-dry-mono.wav",
+      "bytes": 37676,
+      "sha256": "4f8073427510c2b62a122324c768387451d07e4d4ba99c2ee4e858dcc04a4af6",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 18816,
+      "seconds": 0.392
+    },
+    {
+      "path": "exports-game-events/ui_tab_switch-A-stereo.wav",
+      "bytes": 107248,
+      "sha256": "62fa54e38c132ad716b97c9db43ab289d1195a98ce449efb7397e02c0ea467ba",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 26801,
+      "seconds": 0.5583541666666667
+    },
+    {
+      "path": "exports-game-events/ui_tab_switch-A-dry-mono.wav",
+      "bytes": 32110,
+      "sha256": "0c8faea7fcc6f8c3176898e956885cb453a8ef5f841573c36326d1417c840b11",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 16033,
+      "seconds": 0.3340208333333333
+    },
+    {
+      "path": "exports-game-events/ui_tab_switch-B-stereo.wav",
+      "bytes": 107248,
+      "sha256": "19f4bf27643c97f6ae6a2b5aa7ed45ac3e7060466db9949d37bb3c0769cff281",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 26801,
+      "seconds": 0.5583541666666667
+    },
+    {
+      "path": "exports-game-events/ui_tab_switch-B-dry-mono.wav",
+      "bytes": 32110,
+      "sha256": "41a34ccfd1c010d8e82a4928dd0cae6689456425b564e6901fdddd864f216b4a",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 16033,
+      "seconds": 0.3340208333333333
+    },
+    {
+      "path": "exports-game-events/ui_plan_accepted-A-stereo.wav",
+      "bytes": 142636,
+      "sha256": "232cf5b4085483c94fe74851c9f81e97b16d2347793bf578bb0856b25041b2e8",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 35648,
+      "seconds": 0.7426666666666667
+    },
+    {
+      "path": "exports-game-events/ui_plan_accepted-A-dry-mono.wav",
+      "bytes": 41900,
+      "sha256": "599333c217381847ac261798da05f7c0acdaed9e52e98d130863f87fc2736063",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 20928,
+      "seconds": 0.436
+    },
+    {
+      "path": "exports-game-events/ui_plan_accepted-B-stereo.wav",
+      "bytes": 142636,
+      "sha256": "651c0b535f872cbd9a84a17b68c02994c793823b48e44f8939474858560f1a7e",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 35648,
+      "seconds": 0.7426666666666667
+    },
+    {
+      "path": "exports-game-events/ui_plan_accepted-B-dry-mono.wav",
+      "bytes": 41900,
+      "sha256": "d909002a11aa4e68aca888b3229b43d4f0eb3f3ff5dc30ecc813e61f99399b04",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 20928,
+      "seconds": 0.436
+    },
+    {
+      "path": "exports-game-events/ui_action_cancel-A-stereo.wav",
+      "bytes": 141356,
+      "sha256": "a50444fabf2959250161631780740e63e6b99084ee69036b01dbbfe3fdd4deab",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 35328,
+      "seconds": 0.736
+    },
+    {
+      "path": "exports-game-events/ui_action_cancel-A-dry-mono.wav",
+      "bytes": 42476,
+      "sha256": "9db6998bf014803996c1b707e0bfb56120a058a38d878a430beb99f5fd6e7a38",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 21216,
+      "seconds": 0.442
+    },
+    {
+      "path": "exports-game-events/ui_action_cancel-B-stereo.wav",
+      "bytes": 141356,
+      "sha256": "f7bd08995f7b3af6b04402c01ad25cb94ceaeb1298ec7286f3429fb7a80d0063",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 35328,
+      "seconds": 0.736
+    },
+    {
+      "path": "exports-game-events/ui_action_cancel-B-dry-mono.wav",
+      "bytes": 42476,
+      "sha256": "71c25d07bd752dce15bbba42657764dbbd86251d3cbea9c77ef9225f731870c7",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 21216,
+      "seconds": 0.442
+    },
+    {
+      "path": "exports-game-events/ui_soft_warning-A-stereo.wav",
+      "bytes": 138668,
+      "sha256": "27fe0e3f655654396092c11528b10be6cd3a5f6c8d94c66b9cdabaa30d7d8bfe",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 34656,
+      "seconds": 0.722
+    },
+    {
+      "path": "exports-game-events/ui_soft_warning-A-dry-mono.wav",
+      "bytes": 42956,
+      "sha256": "3b3a225fa9ae48f2789f697768097f397e06b5c4ef90e2778254882d9af3d3f3",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 21456,
+      "seconds": 0.447
+    },
+    {
+      "path": "exports-game-events/ui_soft_warning-B-stereo.wav",
+      "bytes": 138668,
+      "sha256": "2fc860a26b699cae6d51bc233a71840cbea40cb44d88cda223e9908c250ae763",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 34656,
+      "seconds": 0.722
+    },
+    {
+      "path": "exports-game-events/ui_soft_warning-B-dry-mono.wav",
+      "bytes": 42956,
+      "sha256": "07690fb25f7fd503dd0c73ffd8a23661fe30a0aa513e246d1a0829f14229199b",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 21456,
+      "seconds": 0.447
+    },
+    {
+      "path": "exports-game-events/ui_action_blocked-A-stereo.wav",
+      "bytes": 123948,
+      "sha256": "36982c4765e002316a13a8343f6e5ce8bd915e8f633db3561f613af713707d29",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 30976,
+      "seconds": 0.6453333333333333
+    },
+    {
+      "path": "exports-game-events/ui_action_blocked-A-dry-mono.wav",
+      "bytes": 38636,
+      "sha256": "121e96f39215be6c00e3c2b8cc8d05fb6740fada4ff3e567747d82d16f620f72",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 19296,
+      "seconds": 0.402
+    },
+    {
+      "path": "exports-game-events/ui_action_blocked-B-stereo.wav",
+      "bytes": 123948,
+      "sha256": "d6cd93970d8316f638205ccb320b0fbb875a7c30ac8432cf4d6b306e3ceb323c",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 30976,
+      "seconds": 0.6453333333333333
+    },
+    {
+      "path": "exports-game-events/ui_action_blocked-B-dry-mono.wav",
+      "bytes": 38636,
+      "sha256": "2b6acca6a3c108296d983bf9042fa0f8bbda0ca07e1350598e05fd8b1177e7ad",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 19296,
+      "seconds": 0.402
+    },
+    {
+      "path": "exports-game-events/build_placement_valid-A-stereo.wav",
+      "bytes": 107820,
+      "sha256": "8fc4326cb505a443d428b0bc5b22ec59f304c6946117d02505eb85eb02a98d63",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 26944,
+      "seconds": 0.5613333333333334
+    },
+    {
+      "path": "exports-game-events/build_placement_valid-A-dry-mono.wav",
+      "bytes": 32396,
+      "sha256": "c707279d430017015ad5afe3c077b110c2df60bf38561d52781dc7e6336c913a",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 16176,
+      "seconds": 0.337
+    },
+    {
+      "path": "exports-game-events/build_placement_valid-B-stereo.wav",
+      "bytes": 107820,
+      "sha256": "1f21079272edd91d5065fec653f040a509fb29574a902eb6ccaa806c98fc2cbb",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 26944,
+      "seconds": 0.5613333333333334
+    },
+    {
+      "path": "exports-game-events/build_placement_valid-B-dry-mono.wav",
+      "bytes": 32396,
+      "sha256": "4eae6b10e6fa6f55a14c2af82b0a5a3f4af9652296bdf9c49fc7e3f939595771",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 16176,
+      "seconds": 0.337
+    },
+    {
+      "path": "exports-game-events/build_placement_commit-A-stereo.wav",
+      "bytes": 170348,
+      "sha256": "a978822af12f92563156e0fbef5bc5126c117e0046cc73d37912d24984031a92",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 42576,
+      "seconds": 0.887
+    },
+    {
+      "path": "exports-game-events/build_placement_commit-A-dry-mono.wav",
+      "bytes": 49676,
+      "sha256": "b21ccc20adc71d4662f553e1fde76d57c19f40a4717cb23df00358511860df61",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 24816,
+      "seconds": 0.517
+    },
+    {
+      "path": "exports-game-events/build_placement_commit-B-stereo.wav",
+      "bytes": 170348,
+      "sha256": "9afaf93a20b4e234dbc833b3340d7757ac6eac01d3a59622e387e7aa2d63bb69",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 42576,
+      "seconds": 0.887
+    },
+    {
+      "path": "exports-game-events/build_placement_commit-B-dry-mono.wav",
+      "bytes": 49676,
+      "sha256": "abea43d282ba21aa4e7db608001e72ed2ac29ce0bd7de43c5f82b40451275e2f",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 24816,
+      "seconds": 0.517
+    },
+    {
+      "path": "exports-game-events/build_construction_complete-A-stereo.wav",
+      "bytes": 239724,
+      "sha256": "2f654654d0881cf331fd14d5753cad69b70c1faf5bd2e81a8a991d0bdde7aced",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 59920,
+      "seconds": 1.2483333333333333
+    },
+    {
+      "path": "exports-game-events/build_construction_complete-A-dry-mono.wav",
+      "bytes": 74636,
+      "sha256": "b2d7676fdb0a82c2e57f4831df83d1025be5b1f67e71fc5013dfd151060bf8df",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 37296,
+      "seconds": 0.777
+    },
+    {
+      "path": "exports-game-events/build_construction_complete-B-stereo.wav",
+      "bytes": 239724,
+      "sha256": "1c0406830ca068fc8f7a7f1b877549c8f2f765d20d29102c8e86f267c0b54700",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 59920,
+      "seconds": 1.2483333333333333
+    },
+    {
+      "path": "exports-game-events/build_construction_complete-B-dry-mono.wav",
+      "bytes": 74636,
+      "sha256": "6795eb0895f3ffce13083063a723045a82ddeef45be97595dce3f1ce6e3769b8",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 37296,
+      "seconds": 0.777
+    },
+    {
+      "path": "exports-game-events/production_batch_start-A-stereo.wav",
+      "bytes": 167852,
+      "sha256": "90326dc374bcb395bb0c490a3dec75225598901cc008bf43a45c3141007caa4b",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 41952,
+      "seconds": 0.874
+    },
+    {
+      "path": "exports-game-events/production_batch_start-A-dry-mono.wav",
+      "bytes": 52076,
+      "sha256": "f5ce74b2770a5aa3ab26ace174cdd56eb16dd7ce057196aef37372df94f4fba2",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 26016,
+      "seconds": 0.542
+    },
+    {
+      "path": "exports-game-events/production_batch_start-B-stereo.wav",
+      "bytes": 167852,
+      "sha256": "00c445068bf9e875bd94fbf420948ead67b6387b2643f3efbb0f5005c84f5c37",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 41952,
+      "seconds": 0.874
+    },
+    {
+      "path": "exports-game-events/production_batch_start-B-dry-mono.wav",
+      "bytes": 52076,
+      "sha256": "da6c54f814ccfb0d791e1c7683aeb8c2f044b2d411c2d49cc3a2439011858f18",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 26016,
+      "seconds": 0.542
+    },
+    {
+      "path": "exports-game-events/production_stage_complete-A-stereo.wav",
+      "bytes": 134128,
+      "sha256": "167c2a3f59dfab0625b15381685fef90f25e2e759d06172d2511b0c422d6fa88",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 33521,
+      "seconds": 0.6983541666666667
+    },
+    {
+      "path": "exports-game-events/production_stage_complete-A-dry-mono.wav",
+      "bytes": 40076,
+      "sha256": "72c70b1dbbc66f275d7e22d9f57b7ed6e64f4ab7ffa4d933f482bc3a3e17a3e3",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 20016,
+      "seconds": 0.417
+    },
+    {
+      "path": "exports-game-events/production_stage_complete-B-stereo.wav",
+      "bytes": 134128,
+      "sha256": "5f2379fa9a610dbb64eed8e583d26cd5475ad7ced4a489a1ef7a9383b0168880",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 33521,
+      "seconds": 0.6983541666666667
+    },
+    {
+      "path": "exports-game-events/production_stage_complete-B-dry-mono.wav",
+      "bytes": 40076,
+      "sha256": "5244ad96f351b941f2a16a6aa4b80cea79f856f9674b108c276b6e3537c80352",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 20016,
+      "seconds": 0.417
+    },
+    {
+      "path": "exports-game-events/production_batch_ready-A-stereo.wav",
+      "bytes": 222764,
+      "sha256": "f52f7bb1ecb9500fb6987b96dbf4825a185be634d487b697ebeb488913a72518",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 55680,
+      "seconds": 1.16
+    },
+    {
+      "path": "exports-game-events/production_batch_ready-A-dry-mono.wav",
+      "bytes": 72236,
+      "sha256": "550459cad4a1a68104e85ca8f3115287da1a8145205188eb0ce91b94ef05f784",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 36096,
+      "seconds": 0.752
+    },
+    {
+      "path": "exports-game-events/production_batch_ready-B-stereo.wav",
+      "bytes": 222764,
+      "sha256": "58d00f578e02bf72fe8a3d341ff00922795f95f16334ae27b93e1978a5687c09",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 55680,
+      "seconds": 1.16
+    },
+    {
+      "path": "exports-game-events/production_batch_ready-B-dry-mono.wav",
+      "bytes": 72236,
+      "sha256": "03101f555e67b623d6666bd023621b09dee7dcb067746df54a3d380928460ad6",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 36096,
+      "seconds": 0.752
+    },
+    {
+      "path": "exports-game-events/production_claim_commit-A-stereo.wav",
+      "bytes": 153388,
+      "sha256": "372933da8e06cf28763ac1519d877be1a46dcb0460da6c30222b19ddc2c7d7d4",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 38336,
+      "seconds": 0.7986666666666666
+    },
+    {
+      "path": "exports-game-events/production_claim_commit-A-dry-mono.wav",
+      "bytes": 47276,
+      "sha256": "882c01384687faab4a176eb8dee58f82549b849e4ac06fc14911d9b2cc8d290e",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 23616,
+      "seconds": 0.492
+    },
+    {
+      "path": "exports-game-events/production_claim_commit-B-stereo.wav",
+      "bytes": 153388,
+      "sha256": "381cbfb3b1bd5d41bbc4bd0d00b5249b94cc2edae5e44fa8cba61742c9068d1a",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 38336,
+      "seconds": 0.7986666666666666
+    },
+    {
+      "path": "exports-game-events/production_claim_commit-B-dry-mono.wav",
+      "bytes": 47276,
+      "sha256": "53f0b25bee780e926437b2d5e229b7179b5f4376febde28a93122498e60b288c",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 23616,
+      "seconds": 0.492
+    },
+    {
+      "path": "exports-game-events/production_material_blocked-A-stereo.wav",
+      "bytes": 134508,
+      "sha256": "a8f358ae7512ef6c71996a86db6a48cf0516bc0ee6aafde42584a7dd1bfc124d",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 33616,
+      "seconds": 0.7003333333333334
+    },
+    {
+      "path": "exports-game-events/production_material_blocked-A-dry-mono.wav",
+      "bytes": 42092,
+      "sha256": "08c1218c984f9cdbee114e6aa80ba8122f6680584418ca75a7cb02ab429a1e75",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 21024,
+      "seconds": 0.438
+    },
+    {
+      "path": "exports-game-events/production_material_blocked-B-stereo.wav",
+      "bytes": 134508,
+      "sha256": "79133e8987cb87644a116517f050fcb6fb828d72c6198aadaa7519c47719e473",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 33616,
+      "seconds": 0.7003333333333334
+    },
+    {
+      "path": "exports-game-events/production_material_blocked-B-dry-mono.wav",
+      "bytes": 42092,
+      "sha256": "b93a1306c50039f94ba565d7140010708419976ee5908c7a6c4eea80b7e1df85",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 21024,
+      "seconds": 0.438
+    },
+    {
+      "path": "exports-game-events/inventory_transfer_commit-A-stereo.wav",
+      "bytes": 144940,
+      "sha256": "309fcfcf8310241439aad1f4973c9e6aab608b765892480d0667b60a6aaa591f",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 36224,
+      "seconds": 0.7546666666666667
+    },
+    {
+      "path": "exports-game-events/inventory_transfer_commit-A-dry-mono.wav",
+      "bytes": 44876,
+      "sha256": "e07709383e5bdf30f9c19fc9032521df40bd9d1d005bee46908b6c3c6b96b901",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 22416,
+      "seconds": 0.467
+    },
+    {
+      "path": "exports-game-events/inventory_transfer_commit-B-stereo.wav",
+      "bytes": 144940,
+      "sha256": "54ecf645366762d7057814ae75faedbc406b42d6b3145d38d2b19ace63becc6d",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 36224,
+      "seconds": 0.7546666666666667
+    },
+    {
+      "path": "exports-game-events/inventory_transfer_commit-B-dry-mono.wav",
+      "bytes": 44876,
+      "sha256": "28152e9f31806316bb3ca46eed904311b575450e2e8eaa8588bc8552b31fc9ef",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 22416,
+      "seconds": 0.467
+    },
+    {
+      "path": "exports-game-events/inventory_capacity_blocked-A-stereo.wav",
+      "bytes": 120812,
+      "sha256": "a9b7d218ef692c0b3bf56f48a7f98bc15bd1b2642b137df0c84cd4faf2eaab5e",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 30192,
+      "seconds": 0.629
+    },
+    {
+      "path": "exports-game-events/inventory_capacity_blocked-A-dry-mono.wav",
+      "bytes": 37676,
+      "sha256": "3d5c370f5f70a964b97e670bda91f086476504bc69574cebab2f29f39c30d13f",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 18816,
+      "seconds": 0.392
+    },
+    {
+      "path": "exports-game-events/inventory_capacity_blocked-B-stereo.wav",
+      "bytes": 120812,
+      "sha256": "b428b9e64fa01f29ee767449c809bde241d9f39e9c2cf15629ca954e7d0b4649",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 30192,
+      "seconds": 0.629
+    },
+    {
+      "path": "exports-game-events/inventory_capacity_blocked-B-dry-mono.wav",
+      "bytes": 37676,
+      "sha256": "2ce75672bc72df6a15de3219a5945f2b89893ec6b72e4eac78e8672dcb90add0",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 18816,
+      "seconds": 0.392
+    },
+    {
+      "path": "exports-game-events/item_gear_apply-A-stereo.wav",
+      "bytes": 152236,
+      "sha256": "0c8f0248336c88faa813bf094baa5fa68a3087f356288342fad84f5cdb0db5e4",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 38048,
+      "seconds": 0.7926666666666666
+    },
+    {
+      "path": "exports-game-events/item_gear_apply-A-dry-mono.wav",
+      "bytes": 46700,
+      "sha256": "0c05d3ce1e06ff8084a8f7fd33d634fe12232ee20b5a70e85bd3046328f04078",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 23328,
+      "seconds": 0.486
+    },
+    {
+      "path": "exports-game-events/item_gear_apply-B-stereo.wav",
+      "bytes": 152236,
+      "sha256": "cd4d52cb76bc4fdbc487b24241f3cea450efd18284d0b00a5176da5e26e9cf05",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 38048,
+      "seconds": 0.7926666666666666
+    },
+    {
+      "path": "exports-game-events/item_gear_apply-B-dry-mono.wav",
+      "bytes": 46700,
+      "sha256": "2f938288ab18b97852c9978ba19d688c7d2ec7da38beabfcc2e11eeedac48a9f",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 23328,
+      "seconds": 0.486
+    },
+    {
+      "path": "exports-game-events/trade_commit-A-stereo.wav",
+      "bytes": 162604,
+      "sha256": "4665714abd28bb4afa43e648697a797a5813d5c8cacdbbc12d9933723f79960f",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 40640,
+      "seconds": 0.8466666666666667
+    },
+    {
+      "path": "exports-game-events/trade_commit-A-dry-mono.wav",
+      "bytes": 48236,
+      "sha256": "064c61b04ff5a4d1ef1654b21d5350ee3f30f2431ede7cda95bf1eae3763fe5d",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 24096,
+      "seconds": 0.502
+    },
+    {
+      "path": "exports-game-events/trade_commit-B-stereo.wav",
+      "bytes": 162604,
+      "sha256": "c0b5ffd48e53da3ed180e6751e33f0a89ead401f14b9a45794dc1f92a416362f",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 40640,
+      "seconds": 0.8466666666666667
+    },
+    {
+      "path": "exports-game-events/trade_commit-B-dry-mono.wav",
+      "bytes": 48236,
+      "sha256": "65563aa81271aa2a840db94966bcdf5efca7260a1492b47c7e1e4f111dc0db31",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 24096,
+      "seconds": 0.502
+    },
+    {
+      "path": "exports-game-events/agriculture_water_commit-A-stereo.wav",
+      "bytes": 195244,
+      "sha256": "27f357c9f02e3d0a8ee31d72dacd93a37df5f601d551ac9e1f20812342bc4326",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 48800,
+      "seconds": 1.0166666666666666
+    },
+    {
+      "path": "exports-game-events/agriculture_water_commit-A-dry-mono.wav",
+      "bytes": 64556,
+      "sha256": "f933173d4541e7c4090df991b23df3b9c8d969c33b75ec7f9db75257d6b724bb",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 32256,
+      "seconds": 0.672
+    },
+    {
+      "path": "exports-game-events/agriculture_water_commit-B-stereo.wav",
+      "bytes": 195244,
+      "sha256": "8d8a07c38786a76875ba5ec630dd5c94c4c7d3f2492cd9f8bf3baed56434aaed",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 48800,
+      "seconds": 1.0166666666666666
+    },
+    {
+      "path": "exports-game-events/agriculture_water_commit-B-dry-mono.wav",
+      "bytes": 64556,
+      "sha256": "81ef180ab22130edc3df8cef1ced1d537d1729a062dc6f244cafc993c67ad405",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 32256,
+      "seconds": 0.672
+    },
+    {
+      "path": "exports-game-events/agriculture_harvest_commit-A-stereo.wav",
+      "bytes": 164908,
+      "sha256": "e095f4858837c5b157b50ac523030704bce635b2a994cad4ab1cc49ea5a2cfbd",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 41216,
+      "seconds": 0.8586666666666667
+    },
+    {
+      "path": "exports-game-events/agriculture_harvest_commit-A-dry-mono.wav",
+      "bytes": 53038,
+      "sha256": "644e5d321492cf302fba1c8bf79b557abe3ef554225d95b046d06668d01b5893",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 26497,
+      "seconds": 0.5520208333333333
+    },
+    {
+      "path": "exports-game-events/agriculture_harvest_commit-B-stereo.wav",
+      "bytes": 164908,
+      "sha256": "752a40617962aea90eb7060b8afe7ad9d0369ed28cfba98e83fb783aadee058f",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 41216,
+      "seconds": 0.8586666666666667
+    },
+    {
+      "path": "exports-game-events/agriculture_harvest_commit-B-dry-mono.wav",
+      "bytes": 53038,
+      "sha256": "5553850ebbe7a0d6093ea1c72a9fc5435ceefa5692cf0a16b01062d01b9cf33c",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 26497,
+      "seconds": 0.5520208333333333
+    },
+    {
+      "path": "exports-game-events/companion_invite_sent-A-stereo.wav",
+      "bytes": 157356,
+      "sha256": "8dede65bba47bfd7749109403bc0d20305a9517594c391a5f7656b1b1db54379",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 39328,
+      "seconds": 0.8193333333333334
+    },
+    {
+      "path": "exports-game-events/companion_invite_sent-A-dry-mono.wav",
+      "bytes": 44396,
+      "sha256": "6f8a99e989839f47b4456b35c1b4952923d2daec27d3739733e84116189b514a",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 22176,
+      "seconds": 0.462
+    },
+    {
+      "path": "exports-game-events/companion_invite_sent-B-stereo.wav",
+      "bytes": 157356,
+      "sha256": "772af77288a68ae9e85eb8f5b95a6298984938d9a27ddcf348195c5c22723891",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 39328,
+      "seconds": 0.8193333333333334
+    },
+    {
+      "path": "exports-game-events/companion_invite_sent-B-dry-mono.wav",
+      "bytes": 44396,
+      "sha256": "2e439737a425f27240ed4914a6ac1be18c2264428ecc20a43c14cc61bdfcf096",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 22176,
+      "seconds": 0.462
+    },
+    {
+      "path": "exports-game-events/companion_invite_accepted-A-stereo.wav",
+      "bytes": 170796,
+      "sha256": "4b4df40b3372d3a51de3ce988c88526137eb28fb8fd032f0f4f51c2edb861ad8",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 42688,
+      "seconds": 0.8893333333333333
+    },
+    {
+      "path": "exports-game-events/companion_invite_accepted-A-dry-mono.wav",
+      "bytes": 51116,
+      "sha256": "2dcdb0732ea12456b297323be236e4e6a0bd652497f0e6393973f6fe176cfbc6",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 25536,
+      "seconds": 0.532
+    },
+    {
+      "path": "exports-game-events/companion_invite_accepted-B-stereo.wav",
+      "bytes": 170796,
+      "sha256": "4e7bccd9765ea051757342fdb44d1ee2d98b8aad9eb91f7a724e24b246d592af",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 42688,
+      "seconds": 0.8893333333333333
+    },
+    {
+      "path": "exports-game-events/companion_invite_accepted-B-dry-mono.wav",
+      "bytes": 51116,
+      "sha256": "88bc2eea71932f228d5cb75394c1896e933c9d1b637ccbeb1df6c06402b9a5b9",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 25536,
+      "seconds": 0.532
+    },
+    {
+      "path": "exports-game-events/companion_arrived-A-stereo.wav",
+      "bytes": 166316,
+      "sha256": "8c200205399c514ce19b6121663b5fad4434f5a3ca401f621d29f3a026e93e58",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 41568,
+      "seconds": 0.866
+    },
+    {
+      "path": "exports-game-events/companion_arrived-A-dry-mono.wav",
+      "bytes": 54958,
+      "sha256": "d1752959964eb7fe9751ca9db7a8c16dd06d01f05c33f57e24f1554b52d8314f",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 27457,
+      "seconds": 0.5720208333333333
+    },
+    {
+      "path": "exports-game-events/companion_arrived-B-stereo.wav",
+      "bytes": 166316,
+      "sha256": "c8aca84458f82c2a7929ab78c2d454395b820e857834dcfad7506803dbfb6c23",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 41568,
+      "seconds": 0.866
+    },
+    {
+      "path": "exports-game-events/companion_arrived-B-dry-mono.wav",
+      "bytes": 54958,
+      "sha256": "521c348c2cb804e76ee6bd3d9a045741f96158de14fe6bcbc93336644f53d194",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 27457,
+      "seconds": 0.5720208333333333
+    },
+    {
+      "path": "exports-game-events/companion_activity_complete-A-stereo.wav",
+      "bytes": 237236,
+      "sha256": "0b6b5ca4270c43538a24303dc247fa8574fb73f7360758efa17d02fa4ade9381",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 59298,
+      "seconds": 1.235375
+    },
+    {
+      "path": "exports-game-events/companion_activity_complete-A-dry-mono.wav",
+      "bytes": 77036,
+      "sha256": "5a130d9a3cbd51d00125d488b6fb89a687d172ee4f2dd1703d90a859cca68ce8",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 38496,
+      "seconds": 0.802
+    },
+    {
+      "path": "exports-game-events/companion_activity_complete-B-stereo.wav",
+      "bytes": 237236,
+      "sha256": "8362d751a0c14322184e3bc44e4919c6045d2b6fac2d2d0e8696171e2734b7ce",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 59298,
+      "seconds": 1.235375
+    },
+    {
+      "path": "exports-game-events/companion_activity_complete-B-dry-mono.wav",
+      "bytes": 77036,
+      "sha256": "da44b252b88f58e25e0da3130f95c8723df240edae17964350fd5917b37e61a7",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 38496,
+      "seconds": 0.802
+    },
+    {
+      "path": "exports-game-events/companion_work_blocked-A-stereo.wav",
+      "bytes": 151148,
+      "sha256": "56dcf9255a6e97bb2549d69e3908b7b97f5347d932ffea26cf597fb6db7ff10c",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 37776,
+      "seconds": 0.787
+    },
+    {
+      "path": "exports-game-events/companion_work_blocked-A-dry-mono.wav",
+      "bytes": 49196,
+      "sha256": "f33d97b09355be9fa20276c4a6d21d68fb5ed5cc37a6881970b4eed553bd8473",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 24576,
+      "seconds": 0.512
+    },
+    {
+      "path": "exports-game-events/companion_work_blocked-B-stereo.wav",
+      "bytes": 151148,
+      "sha256": "8b61ba6ac5653bc1a4eea29d1e9712a77994e8b359687297c635f2768700986c",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 37776,
+      "seconds": 0.787
+    },
+    {
+      "path": "exports-game-events/companion_work_blocked-B-dry-mono.wav",
+      "bytes": 49196,
+      "sha256": "e1fe5297a2a2209779cc1376285abbf3bed3000f459ab08ee36dbca049299437",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 24576,
+      "seconds": 0.512
+    },
+    {
+      "path": "exports-game-events/companion_invite_declined-A-stereo.wav",
+      "bytes": 150060,
+      "sha256": "d73c11d0bef5e554d2c6d9049c96104a7be1b3768fb6ef4dc8624629c50d3bca",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 37504,
+      "seconds": 0.7813333333333333
+    },
+    {
+      "path": "exports-game-events/companion_invite_declined-A-dry-mono.wav",
+      "bytes": 44396,
+      "sha256": "aa8ebba9d6469905991265bbcff8aa17cf8058462d02046c9522fe19fda428fa",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 22176,
+      "seconds": 0.462
+    },
+    {
+      "path": "exports-game-events/companion_invite_declined-B-stereo.wav",
+      "bytes": 150060,
+      "sha256": "350832929a902e7b4ec55800b576918e3f52012008974a00b76a1ee17ab6373d",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 37504,
+      "seconds": 0.7813333333333333
+    },
+    {
+      "path": "exports-game-events/companion_invite_declined-B-dry-mono.wav",
+      "bytes": 44396,
+      "sha256": "7d1a17e4e95f8cb302abfe19b64dd30a1ef3f9deb47ed92af1173821983b0d4a",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 22176,
+      "seconds": 0.462
+    },
+    {
+      "path": "exports-game-events/fishing_cast-A-stereo.wav",
+      "bytes": 182832,
+      "sha256": "5489d6847fab702258ffe74daf5a50d745f3c7e7601b4dae81c33d2e9122fe4f",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 45697,
+      "seconds": 0.9520208333333333
+    },
+    {
+      "path": "exports-game-events/fishing_cast-A-dry-mono.wav",
+      "bytes": 55918,
+      "sha256": "8fe1b505b8383cee5b103cd4e00916bd97f8cd766ef29547e254499b746af58a",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 27937,
+      "seconds": 0.5820208333333333
+    },
+    {
+      "path": "exports-game-events/fishing_cast-B-stereo.wav",
+      "bytes": 182832,
+      "sha256": "8c576aea800cfc7bd150decddcc719221877fea95fe9fe35f6d6e52a3f3b6e37",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 45697,
+      "seconds": 0.9520208333333333
+    },
+    {
+      "path": "exports-game-events/fishing_cast-B-dry-mono.wav",
+      "bytes": 55918,
+      "sha256": "730300e65a8d1ae52005c61ce410951159c25a471dccb0462c051d74051bd3b7",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 27937,
+      "seconds": 0.5820208333333333
+    },
+    {
+      "path": "exports-game-events/fishing_bite-A-stereo.wav",
+      "bytes": 126508,
+      "sha256": "29d8c18508952eb58ca4e2f2b208621e35a2adf8399935bde322012d24cb5d25",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 31616,
+      "seconds": 0.6586666666666666
+    },
+    {
+      "path": "exports-game-events/fishing_bite-A-dry-mono.wav",
+      "bytes": 37484,
+      "sha256": "844568fa64985ca31fa55b5d507bd7cc8cfb16f6577bebfe4dbd993e05b079f6",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 18720,
+      "seconds": 0.39
+    },
+    {
+      "path": "exports-game-events/fishing_bite-B-stereo.wav",
+      "bytes": 126508,
+      "sha256": "d315a1ca519377e4eaf6025718c58e5105a47c33c2bed83b03b1c652101c23e1",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 31616,
+      "seconds": 0.6586666666666666
+    },
+    {
+      "path": "exports-game-events/fishing_bite-B-dry-mono.wav",
+      "bytes": 37484,
+      "sha256": "5039e195df291e5040a913f40e1e28102113e2a201ab8601c3a2c890df4e435b",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 18720,
+      "seconds": 0.39
+    },
+    {
+      "path": "exports-game-events/fishing_reel_tension-A-stereo.wav",
+      "bytes": 196908,
+      "sha256": "65aac9fc982ff61e003426ce64229ac23b869134bdaeed678d9e0847fbf8411d",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 49216,
+      "seconds": 1.0253333333333334
+    },
+    {
+      "path": "exports-game-events/fishing_reel_tension-A-dry-mono.wav",
+      "bytes": 75116,
+      "sha256": "2806b530a55a80b76d59d96c17205b9f7d2958638275ab2c1a46c20850f011a7",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 37536,
+      "seconds": 0.782
+    },
+    {
+      "path": "exports-game-events/fishing_reel_tension-B-stereo.wav",
+      "bytes": 196908,
+      "sha256": "240beaaf1c75d5788ab39c1aba597580168d92c9bb1939f285fa9c9b0a84484e",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 49216,
+      "seconds": 1.0253333333333334
+    },
+    {
+      "path": "exports-game-events/fishing_reel_tension-B-dry-mono.wav",
+      "bytes": 75116,
+      "sha256": "60d37210ab6816a8c8651eff2f545bf7313a8bf0ced7de748168a3eccc1d75d1",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 37536,
+      "seconds": 0.782
+    },
+    {
+      "path": "exports-game-events/fishing_catch_commit-A-stereo.wav",
+      "bytes": 162092,
+      "sha256": "c58b2bd7ddcd8e006fa6fd3284007a18d0bd4852e9217dc8fb196de5bd1dde64",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 40512,
+      "seconds": 0.844
+    },
+    {
+      "path": "exports-game-events/fishing_catch_commit-A-dry-mono.wav",
+      "bytes": 49196,
+      "sha256": "12ac11277e67a04fc214e99bee6d3df25b337d7af30ebb517868920dbd738237",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 24576,
+      "seconds": 0.512
+    },
+    {
+      "path": "exports-game-events/fishing_catch_commit-B-stereo.wav",
+      "bytes": 162092,
+      "sha256": "a0f3f05c26b0d65ed5f71c76033aa6c1a2a3f4f61e8356ea416b94a04428730c",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 40512,
+      "seconds": 0.844
+    },
+    {
+      "path": "exports-game-events/fishing_catch_commit-B-dry-mono.wav",
+      "bytes": 49196,
+      "sha256": "38aeb632cd2bf2f7d0efcd4a6384c03d7ceeab78d18534fd90558bb32e0a4aa7",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 24576,
+      "seconds": 0.512
+    },
+    {
+      "path": "exports-game-events/fishing_escape-A-stereo.wav",
+      "bytes": 154412,
+      "sha256": "2950e38033091ad82264f94365934305dd1740f3b174e7b42256b61ca771525a",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 38592,
+      "seconds": 0.804
+    },
+    {
+      "path": "exports-game-events/fishing_escape-A-dry-mono.wav",
+      "bytes": 45356,
+      "sha256": "e7cfcf9cba86bbdf28673dd458890a0fb82599f9deacbf5300cd370b3be311bf",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 22656,
+      "seconds": 0.472
+    },
+    {
+      "path": "exports-game-events/fishing_escape-B-stereo.wav",
+      "bytes": 154412,
+      "sha256": "8ee9c23b1e45e4acbf8a8bced06dfd6237d306e64c3fb62dd180857d468175f6",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 38592,
+      "seconds": 0.804
+    },
+    {
+      "path": "exports-game-events/fishing_escape-B-dry-mono.wav",
+      "bytes": 45356,
+      "sha256": "34cbdbefbe9e70c0fc9ae20ab2d3da05497edc7d217ab788f658c65784ef839b",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 22656,
+      "seconds": 0.472
+    },
+    {
+      "path": "exports-game-events/route_departure_accepted-A-stereo.wav",
+      "bytes": 184752,
+      "sha256": "fc2910801adbc449eeded1a8b95ff52a1620836bd5877414a3c910b6ea404034",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 46177,
+      "seconds": 0.9620208333333333
+    },
+    {
+      "path": "exports-game-events/route_departure_accepted-A-dry-mono.wav",
+      "bytes": 56878,
+      "sha256": "45a44f19f31c46b1680e6d3736b9f8d9a77f2d9e915abba9e7cb8862d508b986",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 28417,
+      "seconds": 0.5920208333333333
+    },
+    {
+      "path": "exports-game-events/route_departure_accepted-B-stereo.wav",
+      "bytes": 184752,
+      "sha256": "ddcc2f15563d959484d0c7a868ab38ea30b6d28a2877ee57d851ced8e41d7347",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 46177,
+      "seconds": 0.9620208333333333
+    },
+    {
+      "path": "exports-game-events/route_departure_accepted-B-dry-mono.wav",
+      "bytes": 56878,
+      "sha256": "ff0c65524549490d8088175c9670450be5e7176f8ba99f3fb1e0ac4e8219bd53",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 28417,
+      "seconds": 0.5920208333333333
+    },
+    {
+      "path": "exports-game-events/route_path_blocked-A-stereo.wav",
+      "bytes": 148976,
+      "sha256": "96547574085d33e3ea790d56550c1d3f27e261ddbc9eeb51d58583a82b98b3e1",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 37233,
+      "seconds": 0.7756875
+    },
+    {
+      "path": "exports-game-events/route_path_blocked-A-dry-mono.wav",
+      "bytes": 48716,
+      "sha256": "4f5f68032115e7eeb24d1c54c01dc9c6e208b52b36d0343b4ac460e6385d7709",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 24336,
+      "seconds": 0.507
+    },
+    {
+      "path": "exports-game-events/route_path_blocked-B-stereo.wav",
+      "bytes": 148976,
+      "sha256": "c79a8af39a860e6e75c534d62f8f4f959e3595043c1d1ee231191455cf56bf49",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 37233,
+      "seconds": 0.7756875
+    },
+    {
+      "path": "exports-game-events/route_path_blocked-B-dry-mono.wav",
+      "bytes": 48716,
+      "sha256": "d1278d3a60cb8999ddf0867d78dccb8446c82b35bde4b73d9d6859ca14b58a5b",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 24336,
+      "seconds": 0.507
+    },
+    {
+      "path": "exports-game-events/world_safety_interrupt-A-stereo.wav",
+      "bytes": 198700,
+      "sha256": "25d6938f429e897ce8a8bc8e2689b9a32ed6704bfabf7ad02be677ec5614275e",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 49664,
+      "seconds": 1.0346666666666666
+    },
+    {
+      "path": "exports-game-events/world_safety_interrupt-A-dry-mono.wav",
+      "bytes": 62636,
+      "sha256": "fa916b3da66096dd96e0bdb46063239b97ee88e844a5dd8b651e42f53eb719b9",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 31296,
+      "seconds": 0.652
+    },
+    {
+      "path": "exports-game-events/world_safety_interrupt-B-stereo.wav",
+      "bytes": 198700,
+      "sha256": "aacac6dedb14bfb35399a1c3ecc3a07575071f520f9f3797e02a53e99639366f",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 49664,
+      "seconds": 1.0346666666666666
+    },
+    {
+      "path": "exports-game-events/world_safety_interrupt-B-dry-mono.wav",
+      "bytes": 62636,
+      "sha256": "df2d033d43e86b6d234cfa2333fee918aaecda2be221d3acf7f36e34d6c44c43",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 31296,
+      "seconds": 0.652
+    },
+    {
+      "path": "exports-game-events/fishing_reel_tension-A-loop-1s-mono.wav",
+      "bytes": 96044,
+      "sha256": "24611e3b6c45fa806b6a66bc9d9030755afe29fe192359861589c7e28e9eb2f3",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 48000,
+      "seconds": 1.0
+    },
+    {
+      "path": "exports-game-events/fishing_reel_tension-B-loop-1s-mono.wav",
+      "bytes": 96044,
+      "sha256": "3cf34033aba2e61e688c9a800c5cd0a7a7d1d8bcb464554e4585e687f48a4d0c",
+      "sample_rate": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "frames": 48000,
+      "seconds": 1.0
+    },
+    {
+      "path": "exports-v3/aether-metal-hover-A-stereo.wav",
+      "bytes": 252524,
+      "sha256": "c733f79ee50126ef37a9a128d333004ec2888aa1c925f9dad3a2f6b475182aac",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 63120,
+      "seconds": 1.315
+    },
+    {
+      "path": "exports-v3/aether-metal-hover-B-stereo.wav",
+      "bytes": 252524,
+      "sha256": "4f6635f712acb87e1a7edc62d02df0820ffd9bcf3a7951d4f94bf7455e275c26",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 63120,
+      "seconds": 1.315
+    },
+    {
+      "path": "exports-v3/aether-metal-confirm-A-stereo.wav",
+      "bytes": 294768,
+      "sha256": "40b50bc76906e3b3d6dad949a38bccc3af6be8d0d1a08fb07d66d58ebb4869b1",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 73681,
+      "seconds": 1.5350208333333333
+    },
+    {
+      "path": "exports-v3/aether-metal-confirm-B-stereo.wav",
+      "bytes": 294768,
+      "sha256": "4badff780b6e0ba0257f96b46908f6b1d260b2c3c871e285560b8f7646957334",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 73681,
+      "seconds": 1.5350208333333333
+    },
+    {
+      "path": "exports-v3/aether-metal-notification-A-stereo.wav",
+      "bytes": 333164,
+      "sha256": "a02b970a82adfe7a6e9d10303a9157948f74adebc56ec80744e2141a399d4f0d",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 83280,
+      "seconds": 1.735
+    },
+    {
+      "path": "exports-v3/aether-metal-notification-B-stereo.wav",
+      "bytes": 333164,
+      "sha256": "bd8f7ab9bbebab898fc44eb1a4486bf84b2ae20437ceddde6d16da414955532b",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 83280,
+      "seconds": 1.735
+    },
+    {
+      "path": "exports-v3/aether-metal-pickup-A-stereo.wav",
+      "bytes": 265964,
+      "sha256": "5886948bbe0b673cc6fce7aae5b9234b553f9444b6213117197fa1efe733cc5b",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 66480,
+      "seconds": 1.385
+    },
+    {
+      "path": "exports-v3/aether-metal-pickup-B-stereo.wav",
+      "bytes": 265964,
+      "sha256": "dc89472a657a25459eff70575b6abddbd3f831aa1f3db89b5359de5d76536bec",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 66480,
+      "seconds": 1.385
+    },
+    {
+      "path": "exports-v3/aether-metal-success-A-stereo.wav",
+      "bytes": 323564,
+      "sha256": "b86f69988a243fa0af1aade37f948b3bfb72a2d96effd9a063fcd9835ccfabba",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 80880,
+      "seconds": 1.685
+    },
+    {
+      "path": "exports-v3/aether-metal-success-B-stereo.wav",
+      "bytes": 323564,
+      "sha256": "40c39b0947fb2e9e960a892f5a5dd8b52e64d832df0d06abde968e4d5234be8a",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 80880,
+      "seconds": 1.685
+    },
+    {
+      "path": "exports-v3/aether-wood-press-A-stereo.wav",
+      "bytes": 227884,
+      "sha256": "a8671031ba89a5fe170aa21a82f8e48d5cc3693040a88d04240489fa520f1d83",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 56960,
+      "seconds": 1.1866666666666668
+    },
+    {
+      "path": "exports-v3/aether-wood-press-B-stereo.wav",
+      "bytes": 227884,
+      "sha256": "c990facf645b7ae4ffabafdb9510dfeea3b710b00125eb40b62f48b3c740821a",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 56960,
+      "seconds": 1.1866666666666668
+    },
+    {
+      "path": "exports-v3/aether-wood-release-A-stereo.wav",
+      "bytes": 216364,
+      "sha256": "56b0a68ebff1870fb8fa05b34be3fa8e90f5ee25e17bf601be062aaf153ed445",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 54080,
+      "seconds": 1.1266666666666667
+    },
+    {
+      "path": "exports-v3/aether-wood-release-B-stereo.wav",
+      "bytes": 216364,
+      "sha256": "6e66850069ef8509a4e82f0070455e556f04033091a42a254becbab74d0357ed",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 54080,
+      "seconds": 1.1266666666666667
+    },
+    {
+      "path": "exports-v3/aether-wood-cancel-A-stereo.wav",
+      "bytes": 232108,
+      "sha256": "d78f341f92cf45896f11fc2ad2591a1e1977595142f6d291ac65c3c113071d97",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 58016,
+      "seconds": 1.2086666666666666
+    },
+    {
+      "path": "exports-v3/aether-wood-cancel-B-stereo.wav",
+      "bytes": 232108,
+      "sha256": "49e8dca7c16c2d046c5900b1369ac985acb18e34b0a5ec6592774a02bc21fab3",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 58016,
+      "seconds": 1.2086666666666666
+    },
+    {
+      "path": "exports-v3/aether-wood-toggle-on-A-stereo.wav",
+      "bytes": 250924,
+      "sha256": "84371b1d8b7463c28e5a6a05ace2ab769cb06d7129b7d774ecdcc99b91429fd7",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 62720,
+      "seconds": 1.3066666666666666
+    },
+    {
+      "path": "exports-v3/aether-wood-toggle-on-B-stereo.wav",
+      "bytes": 250924,
+      "sha256": "bc5546b0b5a0189e3e7a36358b440d5a7224075e6f5d4f034d0502c831ba7ea4",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 62720,
+      "seconds": 1.3066666666666666
+    },
+    {
+      "path": "exports-v3/aether-wood-resource-A-stereo.wav",
+      "bytes": 258608,
+      "sha256": "14cd8f2ea2fd933856016b86258fe80e1d8445e63013753bc46cac5fe76aab17",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 64641,
+      "seconds": 1.3466875
+    },
+    {
+      "path": "exports-v3/aether-wood-resource-B-stereo.wav",
+      "bytes": 258608,
+      "sha256": "faa6345b2e8544022338a1b7464e20613dc3ac304c022f90e71d917036e4250d",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 64641,
+      "seconds": 1.3466875
+    },
+    {
+      "path": "exports-v3/aether-stone-press-A-stereo.wav",
+      "bytes": 240940,
+      "sha256": "d1313919183afbca89b1a7d4a3be9c9ae7cf136c83b1afcaec62181e47c23240",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 60224,
+      "seconds": 1.2546666666666666
+    },
+    {
+      "path": "exports-v3/aether-stone-press-B-stereo.wav",
+      "bytes": 240940,
+      "sha256": "9eb82df1b9b499896b72bad483c26f1b1aa32510f9758a7e2ecad7f87f11813c",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 60224,
+      "seconds": 1.2546666666666666
+    },
+    {
+      "path": "exports-v3/aether-stone-build-A-stereo.wav",
+      "bytes": 279340,
+      "sha256": "b92bcc1d47691f498358561a47b52a00e1b51cf32c51e336beae25a3a15e8e64",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 69824,
+      "seconds": 1.4546666666666668
+    },
+    {
+      "path": "exports-v3/aether-stone-build-B-stereo.wav",
+      "bytes": 279340,
+      "sha256": "c5a30b02ddca9c274b7863e025e0562c647899a5c327e27bd962293e5449909e",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 69824,
+      "seconds": 1.4546666666666668
+    },
+    {
+      "path": "exports-v3/aether-stone-warning-A-stereo.wav",
+      "bytes": 273580,
+      "sha256": "804fb959fe53345e8c298f950a54913cb1f845e917fbad8ba22098e8b9da60d8",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 68384,
+      "seconds": 1.4246666666666667
+    },
+    {
+      "path": "exports-v3/aether-stone-warning-B-stereo.wav",
+      "bytes": 273580,
+      "sha256": "3564994c946109e2edcb6175dc8f391ba27c9e7477b1b42cd9521c8b84709f82",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 68384,
+      "seconds": 1.4246666666666667
+    },
+    {
+      "path": "exports-v3/aether-stone-error-A-stereo.wav",
+      "bytes": 263980,
+      "sha256": "6871b593f1aedda80b6c3aa2f50b4b8996cfb983c4a6662927edea5d7b7a4bdd",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 65984,
+      "seconds": 1.3746666666666667
+    },
+    {
+      "path": "exports-v3/aether-stone-error-B-stereo.wav",
+      "bytes": 263980,
+      "sha256": "7a4f1cd059947e790b306604f17667140019635e2f6d88e7f8c210ce5c826781",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 65984,
+      "seconds": 1.3746666666666667
+    },
+    {
+      "path": "exports-v3/aether-stone-resource-A-stereo.wav",
+      "bytes": 273580,
+      "sha256": "f94ba1cd0f7362d75a2f3ca143a7285ce25624ff1604ebe934c2682cd7aef2ee",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 68384,
+      "seconds": 1.4246666666666667
+    },
+    {
+      "path": "exports-v3/aether-stone-resource-B-stereo.wav",
+      "bytes": 273580,
+      "sha256": "3611d008ad3429ebb63c8187d01a81e10a39f83b65562062d22c53c33a8bf973",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 68384,
+      "seconds": 1.4246666666666667
+    },
+    {
+      "path": "exports-v3/aether-float-hover-A-stereo.wav",
+      "bytes": 294576,
+      "sha256": "972e9cd47afed05b458d1fd8da0c8e574b38d0219433623c063c5543a8c66baf",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 73633,
+      "seconds": 1.5340208333333334
+    },
+    {
+      "path": "exports-v3/aether-float-hover-B-stereo.wav",
+      "bytes": 294576,
+      "sha256": "137c443c8c02a10b6e1e1b35ddf3d09dcd68f97ae1a4c41b8e681e3856b7be5e",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 73633,
+      "seconds": 1.5340208333333334
+    },
+    {
+      "path": "exports-v3/aether-float-tab-A-stereo.wav",
+      "bytes": 294576,
+      "sha256": "df7207d7af7861da1b98169410a54035b79fef6faf9d1747ddc30f8b5b69258c",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 73633,
+      "seconds": 1.5340208333333334
+    },
+    {
+      "path": "exports-v3/aether-float-tab-B-stereo.wav",
+      "bytes": 294576,
+      "sha256": "34b608dd6640a5866ffa617c6bc88d7d3827313effe80ba734ae5d1e66b2b83d",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 73633,
+      "seconds": 1.5340208333333334
+    },
+    {
+      "path": "exports-v3/aether-float-toggle-on-A-stereo.wav",
+      "bytes": 323372,
+      "sha256": "ede0dd39b34164d681057881728c37a9a02bd9bb65a348c35289f8bf81266106",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 80832,
+      "seconds": 1.684
+    },
+    {
+      "path": "exports-v3/aether-float-toggle-on-B-stereo.wav",
+      "bytes": 323372,
+      "sha256": "619808dae4d8aefcae6367a05f52ca21dcb7f8894f61ce261631de2fa208d829",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 80832,
+      "seconds": 1.684
+    },
+    {
+      "path": "exports-v3/aether-float-toggle-off-A-stereo.wav",
+      "bytes": 309932,
+      "sha256": "bd5c9213d2c1570e34cfb86ba85ae1d889ad693d0d9e5196af78b3e4baac83fd",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 77472,
+      "seconds": 1.614
+    },
+    {
+      "path": "exports-v3/aether-float-toggle-off-B-stereo.wav",
+      "bytes": 309932,
+      "sha256": "f5f6da51948d2a1105bf3005a1cada8c751311efadd3b597ce28a6c78eb62325",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 77472,
+      "seconds": 1.614
+    },
+    {
+      "path": "exports-v3/aether-float-unlock-A-stereo.wav",
+      "bytes": 361772,
+      "sha256": "1b43ed9b47ff351c5dfe5eac35881dbf663ecdad953369372b1488974afd0dea",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 90432,
+      "seconds": 1.884
+    },
+    {
+      "path": "exports-v3/aether-float-unlock-B-stereo.wav",
+      "bytes": 361772,
+      "sha256": "f47dbcc21c4f6efece4559b7fdf5941ede220217f72549f2665b63ec8b839340",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bits_per_sample": 16,
+      "frames": 90432,
+      "seconds": 1.884
+    }
+  ]
+}

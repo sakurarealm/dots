@@ -1,0 +1,1244 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-12T17:18:00Z",
+  "scope": "Aether first SFX batch requirements mapped from recovered historical design and static UI candidates; original asset production input only, not implementation instructions",
+  "historical_commit": "d55797d17490a8ac84cbbb23ad287e8cd5686c86",
+  "source_caveat": "44 recovered manifest records include only five WorldGen/vegetation C# files; no current gameplay/audio code hook verified. Historical review references are secondhand code descriptions, not current source verification. All new event IDs and sound treatments are proposed. UI images are static design candidates, not runtime evidence.",
+  "document_root": "recovery-worldgen-20261012/extracted/Aether-review-recovery-d55797d/Docs/Design/TownGameplay/2026-09-29",
+  "events": [
+    {
+      "event_id": "ui_focus_tick",
+      "category": "UI反馈",
+      "priority": "P0",
+      "trigger_contract": "可交互项首次获得焦点，节流且只在焦点变化触发",
+      "never_trigger_on": "disabled hover/每帧刷新",
+      "sound_direction": "40–70ms薄玻璃微触，低响度，禁止长混响",
+      "candidate_numbers": [
+        1,
+        10,
+        12
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=1]",
+          "title": "浮空主菜单",
+          "state": "浮空主菜单",
+          "source_state_id": "candidate-01"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=10]",
+          "title": "行囊·百业修为与物品详情",
+          "state": "修为、物品网格及选中物品详情",
+          "source_state_id": "candidate-10"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=12]",
+          "title": "营造·全部建筑",
+          "state": "未筛选建筑总览与仓库选中",
+          "source_state_id": "candidate-12"
+        }
+      ],
+      "document_reference": "REVIEW-IMPLEMENTATION-UI.md:162–175",
+      "evidence_status": "recommended_sound_for_documented_ui",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "ui_panel_open",
+      "category": "UI反馈",
+      "priority": "P0",
+      "trigger_contract": "实际入栈并显示一个面板",
+      "never_trigger_on": "后台刷新、嵌套列表重绘",
+      "sound_direction": "100–220ms空气展开+玻璃边缘低亮度",
+      "candidate_numbers": [
+        1,
+        2,
+        10
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=1]",
+          "title": "浮空主菜单",
+          "state": "浮空主菜单",
+          "source_state_id": "candidate-01"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=2]",
+          "title": "仓库·库存调拨",
+          "state": "双库存与数量移交预览",
+          "source_state_id": "candidate-02"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=10]",
+          "title": "行囊·百业修为与物品详情",
+          "state": "修为、物品网格及选中物品详情",
+          "source_state_id": "candidate-10"
+        }
+      ],
+      "document_reference": "REVIEW-IMPLEMENTATION-UI.md:24",
+      "evidence_status": "recommended_sound_for_documented_ui",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "ui_panel_close",
+      "category": "UI反馈",
+      "priority": "P0",
+      "trigger_contract": "最上层面板确实关闭一次",
+      "never_trigger_on": "Esc穿透多层、取消生产回执",
+      "sound_direction": "90–180ms轻收拢，弱于打开",
+      "candidate_numbers": [
+        1,
+        2,
+        10
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=1]",
+          "title": "浮空主菜单",
+          "state": "浮空主菜单",
+          "source_state_id": "candidate-01"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=2]",
+          "title": "仓库·库存调拨",
+          "state": "双库存与数量移交预览",
+          "source_state_id": "candidate-02"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=10]",
+          "title": "行囊·百业修为与物品详情",
+          "state": "修为、物品网格及选中物品详情",
+          "source_state_id": "candidate-10"
+        }
+      ],
+      "document_reference": "REVIEW-IMPLEMENTATION-UI.md:162",
+      "evidence_status": "recommended_sound_for_documented_ui",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "ui_tab_switch",
+      "category": "UI反馈",
+      "priority": "P0",
+      "trigger_contract": "选中标签真的改变",
+      "never_trigger_on": "重复点当前标签",
+      "sound_direction": "50–100ms横向短滑片，无奖励音程",
+      "candidate_numbers": [
+        31,
+        32,
+        33
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=31]",
+          "title": "杂货铺·货架浏览",
+          "state": "日用品、装饰与外来商货浏览",
+          "source_state_id": "ui32-p01"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=32]",
+          "title": "杂货铺·采购预订",
+          "state": "全部预订列表与运输中订单详情；未到货，领取禁用；已到货和已完成仅为标签入口",
+          "source_state_id": "ui32-p03"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=33]",
+          "title": "杂货铺·售卖预算不足",
+          "state": "报价超过采购客预算，禁止确认出售",
+          "source_state_id": "ui32-p04"
+        }
+      ],
+      "document_reference": "REVIEW-IMPLEMENTATION-UI.md:175",
+      "evidence_status": "recommended_sound_for_documented_ui",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "ui_plan_accepted",
+      "category": "UI反馈",
+      "priority": "P0",
+      "trigger_contract": "计划/配置被系统接受保存",
+      "never_trigger_on": "实际播种、收获或批次完成",
+      "sound_direction": "柔和两段落锁，短促不上扬庆祝",
+      "candidate_numbers": [
+        11,
+        19,
+        46,
+        64
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=11]",
+          "title": "居民·职责与日程",
+          "state": "白班后勤职责计划预览",
+          "source_state_id": "candidate-11"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=19]",
+          "title": "磨坊·粮食分配",
+          "state": "100kg粮食三向分配",
+          "source_state_id": "candidate-19"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=46]",
+          "title": "农庄·种植计划",
+          "state": "两田块1×2种植范围计划",
+          "source_state_id": "ui19-p02"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=64]",
+          "title": "磨坊·历史四屏交互提案 · ui26-p01",
+          "state": "100 kg planning split 20+30+50; allocation remains unconfirmed",
+          "source_state_id": "ui26-p01"
+        }
+      ],
+      "document_reference": "REVIEW-BUILDINGS.md:89",
+      "evidence_status": "documented_design_or_ui_candidate",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "ui_action_cancel",
+      "category": "UI反馈",
+      "priority": "P0",
+      "trigger_contract": "主动取消并收到取消结果",
+      "never_trigger_on": "拒绝/失败/安全暂停",
+      "sound_direction": "柔性退让空气尾，不刺耳不惩罚",
+      "candidate_numbers": [
+        82
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=82]",
+          "title": "仓库·历史四屏交互提案 · ui33-p02",
+          "state": "488/500kg leaves12kg;request32 logs at1kg each exceeds capacity20;confirm disabled;reduce-to12 and cancel available",
+          "source_state_id": "ui33-p02"
+        }
+      ],
+      "document_reference": "REVIEW-IMPLEMENTATION-UI.md:98,124",
+      "evidence_status": "documented_design_or_ui_candidate",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "ui_soft_warning",
+      "category": "UI反馈",
+      "priority": "P0",
+      "trigger_contract": "第一次出现允许继续的软提醒",
+      "never_trigger_on": "硬阻塞、每次刷新重复提示",
+      "sound_direction": "轻木质双点+短空气纹理，不警笛",
+      "candidate_numbers": [
+        13
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=13]",
+          "title": "渔舍·钓具配装",
+          "state": "竿线钩饵配置与无饵提醒",
+          "source_state_id": "candidate-13"
+        }
+      ],
+      "document_reference": "REVIEW-LIFE-ECONOMY.md:243",
+      "evidence_status": "documented_design_or_ui_candidate",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "ui_action_blocked",
+      "category": "UI反馈",
+      "priority": "P0",
+      "trigger_contract": "用户尝试受阻操作，已有明确原因",
+      "never_trigger_on": "普通选择、默认不停循环",
+      "sound_direction": "钝玻璃止动一次，保留原因文字",
+      "candidate_numbers": [
+        22,
+        33,
+        37,
+        40,
+        47,
+        81,
+        108
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=22]",
+          "title": "药铺·配制方案",
+          "state": "空瓶不足的配制方案",
+          "source_state_id": "candidate-22"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=33]",
+          "title": "杂货铺·售卖预算不足",
+          "state": "报价超过采购客预算，禁止确认出售",
+          "source_state_id": "ui32-p04"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=37]",
+          "title": "旅馆·入住确认与房间未就绪",
+          "state": "房间准备不足的入住确认",
+          "source_state_id": "ui34-p02"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=40]",
+          "title": "畜栏·购入与容量不足",
+          "state": "圈舍6/6已满与牛许可锁定",
+          "source_state_id": "ui20-p03"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=47]",
+          "title": "农庄·灌溉缺水",
+          "state": "储水32/100不足与四田块范围",
+          "source_state_id": "ui19-p03"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=81]",
+          "title": "主题小聚人数不足改期",
+          "state": "2/4还需2人；开席灰色带锁禁用；明日18:00避免日期星期矛盾",
+          "source_state_id": "ui31-p04"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=108]",
+          "title": "设置 · 选中沉舟营地离线状态",
+          "state": "现有页面状态变体参考 · 已逐图复核，待用户审阅，未实装验证",
+          "source_state_id": "state-108-offline-world-v1"
+        }
+      ],
+      "document_reference": "REVIEW-LIFE-ECONOMY.md:243",
+      "evidence_status": "documented_design_or_ui_candidate",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "build_placement_valid",
+      "category": "建造生产",
+      "priority": "P1",
+      "trigger_contract": "空间预览从无效变为有效，尚未保存",
+      "never_trigger_on": "完工、授予建筑能力",
+      "sound_direction": "轻木质定位扣，极短",
+      "candidate_numbers": [
+        62
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=62]",
+          "title": "工坊·历史四屏交互提案 · ui25-p03",
+          "state": "通行路径避开家具和门口；已把选中椅子红色足印修正为绿色可放置足印；未保存状态清晰。",
+          "source_state_id": "ui25-p03"
+        }
+      ],
+      "document_reference": "REVIEW-IMPLEMENTATION-UI.md:32",
+      "evidence_status": "recommended_sound_for_documented_ui",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "build_placement_commit",
+      "category": "建造生产",
+      "priority": "P1",
+      "trigger_contract": "权威系统确认真实放置/施工提交",
+      "never_trigger_on": "绿色预览、选择蓝图",
+      "sound_direction": "干木榫+低石稳落，不用完工庆典",
+      "candidate_numbers": [
+        12,
+        62
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=12]",
+          "title": "营造·全部建筑",
+          "state": "未筛选建筑总览与仓库选中",
+          "source_state_id": "candidate-12"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=62]",
+          "title": "工坊·历史四屏交互提案 · ui25-p03",
+          "state": "通行路径避开家具和门口；已把选中椅子红色足印修正为绿色可放置足印；未保存状态清晰。",
+          "source_state_id": "ui25-p03"
+        }
+      ],
+      "document_reference": "REVIEW-IMPLEMENTATION-UI.md:32",
+      "evidence_status": "proposed_event_from_documented_workflow",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "build_construction_complete",
+      "category": "建造生产",
+      "priority": "P1",
+      "trigger_contract": "真实建筑完工及单次completion收据",
+      "never_trigger_on": "施工开始、预览、载入旧建筑",
+      "sound_direction": "木石安定落点+克制玻璃泛音",
+      "candidate_numbers": [
+        12
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=12]",
+          "title": "营造·全部建筑",
+          "state": "未筛选建筑总览与仓库选中",
+          "source_state_id": "candidate-12"
+        }
+      ],
+      "document_reference": "REVIEW-IMPLEMENTATION-UI.md:85",
+      "evidence_status": "proposed_event_from_documented_workflow",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "production_batch_start",
+      "category": "建造生产",
+      "priority": "P0",
+      "trigger_contract": "投料和批次建立成功",
+      "never_trigger_on": "配方预览、到工位导航",
+      "sound_direction": "木台/陶器轻扣+短引燃空气层",
+      "candidate_numbers": [
+        6,
+        17,
+        55
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=6]",
+          "title": "基地·生产供给",
+          "state": "制作中与待补料队列",
+          "source_state_id": "candidate-06"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=17]",
+          "title": "冶炼厂·新炉次",
+          "state": "配比燃料与预估产出",
+          "source_state_id": "candidate-17"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=55]",
+          "title": "冶炼厂·历史四屏交互提案 · ui23-p01",
+          "state": "铁矿10→铁锭10；燃料10；预估产出与尚未投料一致。",
+          "source_state_id": "ui23-p01"
+        }
+      ],
+      "document_reference": "REVIEW-IMPLEMENTATION-UI.md:106",
+      "evidence_status": "documented_design_or_ui_candidate",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "production_stage_complete",
+      "category": "建造生产",
+      "priority": "P0",
+      "trigger_contract": "真实工序转下一步，批次仍未结束",
+      "never_trigger_on": "预估进度、总产物领取",
+      "sound_direction": "短陶木接合音，不用奖励尾",
+      "candidate_numbers": [
+        68,
+        77
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=68]",
+          "title": "面包坊·历史四屏交互提案 · ui27-p03",
+          "state": "Knead2/2complete;shape1/2ongoing;bake0/2waiting;output4cannotclaim;participants consistent",
+          "source_state_id": "ui27-p03"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=77]",
+          "title": "料理现场协作",
+          "state": "处理完成、烹饪进行、装盘等待；下一道0/12",
+          "source_state_id": "ui30-p03"
+        }
+      ],
+      "document_reference": "REVIEW-IMPLEMENTATION-UI.md:106",
+      "evidence_status": "documented_design_or_ui_candidate",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "production_batch_ready",
+      "category": "建造生产",
+      "priority": "P0",
+      "trigger_contract": "批次完成进入待领，尚未进入背包",
+      "never_trigger_on": "当前批次仍65%、预估产量",
+      "sound_direction": "温暖金属/陶瓷两音提示，与领取不同",
+      "candidate_numbers": [
+        63,
+        65,
+        66,
+        71
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=63]",
+          "title": "工坊·历史四屏交互提案 · ui25-p04",
+          "state": "木箱3件已完成、背包0格、领取灰锁禁用；用途与合作伙伴信息保留。",
+          "source_state_id": "ui25-p04"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=65]",
+          "title": "磨坊·历史四屏交互提案 · ui26-p03",
+          "state": "Batch003 ongoing65%; projected37+13 from50; current batch cannot be claimed",
+          "source_state_id": "ui26-p03"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=66]",
+          "title": "磨坊·历史四屏交互提案 · ui26-p04",
+          "state": "Completed batch002 has37kg flour13kg feed; fine flour order locked; role management separate",
+          "source_state_id": "ui26-p04"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=71]",
+          "title": "织坊·历史四屏交互提案 · ui28-p03",
+          "state": "Cloth2/5ongoing;cloak0/1awaits materials;bag96/96blocks claim;replaced inaccurate progress bar with counters",
+          "source_state_id": "ui28-p03"
+        }
+      ],
+      "document_reference": "REVIEW-IMPLEMENTATION-UI.md:106",
+      "evidence_status": "documented_design_or_ui_candidate",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "production_claim_commit",
+      "category": "建造生产",
+      "priority": "P0",
+      "trigger_contract": "待领物确已成功写入接收库存",
+      "never_trigger_on": "满包、点领取按钮但未成功",
+      "sound_direction": "布袋落物+干木实感，极短完成亮点",
+      "candidate_numbers": [
+        57,
+        63,
+        66,
+        71
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=57]",
+          "title": "冶炼厂·历史四屏交互提案 · ui23-p04",
+          "state": "背包0格时逐件领取、全部领取均灰色加锁；升级材料和五锭计数复查。",
+          "source_state_id": "ui23-p04"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=63]",
+          "title": "工坊·历史四屏交互提案 · ui25-p04",
+          "state": "木箱3件已完成、背包0格、领取灰锁禁用；用途与合作伙伴信息保留。",
+          "source_state_id": "ui25-p04"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=66]",
+          "title": "磨坊·历史四屏交互提案 · ui26-p04",
+          "state": "Completed batch002 has37kg flour13kg feed; fine flour order locked; role management separate",
+          "source_state_id": "ui26-p04"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=71]",
+          "title": "织坊·历史四屏交互提案 · ui28-p03",
+          "state": "Cloth2/5ongoing;cloak0/1awaits materials;bag96/96blocks claim;replaced inaccurate progress bar with counters",
+          "source_state_id": "ui28-p03"
+        }
+      ],
+      "document_reference": "REVIEW-IMPLEMENTATION-UI.md:35,96",
+      "evidence_status": "documented_design_or_ui_candidate",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "production_material_blocked",
+      "category": "建造生产",
+      "priority": "P0",
+      "trigger_contract": "启动/继续被具体缺料阻止",
+      "never_trigger_on": "无饵软提醒、工位导航",
+      "sound_direction": "空陶敲/木质止动，避免错误蜂鸣",
+      "candidate_numbers": [
+        5,
+        7,
+        22,
+        59,
+        71
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=5]",
+          "title": "基地·餐馆运营",
+          "state": "运转页等待补料",
+          "source_state_id": "candidate-05"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=7]",
+          "title": "铁匠铺·工具维修",
+          "state": "工具维修缺料与工位导航",
+          "source_state_id": "candidate-07"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=22]",
+          "title": "药铺·配制方案",
+          "state": "空瓶不足的配制方案",
+          "source_state_id": "candidate-22"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=59]",
+          "title": "铁匠铺·历史四屏交互提案 · ui24-p02",
+          "state": "缺少1橡木时确认配方禁用；重量增加+0.3kg使用警示色。",
+          "source_state_id": "ui24-p02"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=71]",
+          "title": "织坊·历史四屏交互提案 · ui28-p03",
+          "state": "Cloth2/5ongoing;cloak0/1awaits materials;bag96/96blocks claim;replaced inaccurate progress bar with counters",
+          "source_state_id": "ui28-p03"
+        }
+      ],
+      "document_reference": "REVIEW-LIFE-ECONOMY.md:243",
+      "evidence_status": "documented_design_or_ui_candidate",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "inventory_transfer_commit",
+      "category": "物品交互",
+      "priority": "P0",
+      "trigger_contract": "来源扣除与目标收取真实提交同一收据",
+      "never_trigger_on": "数量预览、授权取用顺序",
+      "sound_direction": "物件滑移+布袋/木箱落点双层",
+      "candidate_numbers": [
+        2,
+        29,
+        75,
+        82
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=2]",
+          "title": "仓库·库存调拨",
+          "state": "双库存与数量移交预览",
+          "source_state_id": "candidate-02"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=29]",
+          "title": "仓库·供货优先级",
+          "state": "餐馆、磨坊、外客杂货取用优先级",
+          "source_state_id": "candidate-29"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=75]",
+          "title": "药包分配与交付",
+          "state": "已实际看图复查最终修正版：交付后预计剩余0；本次两份打包占1格，确认后才扣除库存；移除库存不叠加歧义。容量2/6→3/6，历史回执独立。",
+          "source_state_id": "ui29-p04"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=82]",
+          "title": "仓库·历史四屏交互提案 · ui33-p02",
+          "state": "488/500kg leaves12kg;request32 logs at1kg each exceeds capacity20;confirm disabled;reduce-to12 and cancel available",
+          "source_state_id": "ui33-p02"
+        }
+      ],
+      "document_reference": "REVIEW-LIFE-ECONOMY.md:204,210",
+      "evidence_status": "documented_design_or_ui_candidate",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "inventory_capacity_blocked",
+      "category": "物品交互",
+      "priority": "P0",
+      "trigger_contract": "容量检查拒绝调拨/领取",
+      "never_trigger_on": "已经转移、部分装包被误报全失败",
+      "sound_direction": "低木箱闷扣，窄而短，不庆祝",
+      "candidate_numbers": [
+        35,
+        57,
+        63,
+        71,
+        82
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=35]",
+          "title": "空港·返航交货容量不足",
+          "state": "公共仓库容量阻塞交货",
+          "source_state_id": "ui35-p03"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=57]",
+          "title": "冶炼厂·历史四屏交互提案 · ui23-p04",
+          "state": "背包0格时逐件领取、全部领取均灰色加锁；升级材料和五锭计数复查。",
+          "source_state_id": "ui23-p04"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=63]",
+          "title": "工坊·历史四屏交互提案 · ui25-p04",
+          "state": "木箱3件已完成、背包0格、领取灰锁禁用；用途与合作伙伴信息保留。",
+          "source_state_id": "ui25-p04"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=71]",
+          "title": "织坊·历史四屏交互提案 · ui28-p03",
+          "state": "Cloth2/5ongoing;cloak0/1awaits materials;bag96/96blocks claim;replaced inaccurate progress bar with counters",
+          "source_state_id": "ui28-p03"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=82]",
+          "title": "仓库·历史四屏交互提案 · ui33-p02",
+          "state": "488/500kg leaves12kg;request32 logs at1kg each exceeds capacity20;confirm disabled;reduce-to12 and cancel available",
+          "source_state_id": "ui33-p02"
+        }
+      ],
+      "document_reference": "REVIEW-LIFE-ECONOMY.md:243",
+      "evidence_status": "documented_design_or_ui_candidate",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "item_gear_apply",
+      "category": "物品交互",
+      "priority": "P0",
+      "trigger_contract": "选定装备配置被接受用于下一次操作",
+      "never_trigger_on": "预览对比、立即改变已进行中的抛竿",
+      "sound_direction": "皮革带扣+细金属扣合",
+      "candidate_numbers": [
+        13,
+        21,
+        34,
+        87
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=13]",
+          "title": "渔舍·钓具配装",
+          "state": "竿线钩饵配置与无饵提醒",
+          "source_state_id": "candidate-13"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=21]",
+          "title": "织坊·披风对比",
+          "state": "旅行披风属性与材料对比",
+          "source_state_id": "candidate-21"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=34]",
+          "title": "空港·队伍与行囊",
+          "state": "四名队员与共享行囊出航前配置",
+          "source_state_id": "ui35-p02"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=87]",
+          "title": "管理同伴 · 装备与行囊",
+          "state": "新增独立静态候选 · 待用户审阅，未实装验证",
+          "source_state_id": "supplement-character-subpages-01-equipment-v3"
+        }
+      ],
+      "document_reference": "REVIEW-IMPLEMENTATION-UI.md:94",
+      "evidence_status": "documented_design_or_ui_candidate",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "trade_commit",
+      "category": "物品交互",
+      "priority": "P1",
+      "trigger_contract": "钱货与预算原子提交且有实际收据",
+      "never_trigger_on": "购买确认弹窗、报价或预算不足",
+      "sound_direction": "一枚干金属币+物品落点，不金币雨",
+      "candidate_numbers": [
+        25,
+        33
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=25]",
+          "title": "杂货铺·商品购买确认",
+          "state": "付费商品结算确认",
+          "source_state_id": "candidate-25"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=33]",
+          "title": "杂货铺·售卖预算不足",
+          "state": "报价超过采购客预算，禁止确认出售",
+          "source_state_id": "ui32-p04"
+        }
+      ],
+      "document_reference": "REVIEW-IMPLEMENTATION-UI.md:102–104; REVIEW-LIFE-ECONOMY.md:210",
+      "evidence_status": "documented_design_or_ui_candidate",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "agriculture_water_commit",
+      "category": "物品交互",
+      "priority": "P1",
+      "trigger_contract": "实际扣水且浇水成功",
+      "never_trigger_on": "储水不足、种植计划接受",
+      "sound_direction": "小陶罐水流+湿土颗粒",
+      "candidate_numbers": [
+        47
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=47]",
+          "title": "农庄·灌溉缺水",
+          "state": "储水32/100不足与四田块范围",
+          "source_state_id": "ui19-p03"
+        }
+      ],
+      "document_reference": "REVIEW-BUILDINGS.md:79–91",
+      "evidence_status": "documented_design_or_ui_candidate",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "agriculture_harvest_commit",
+      "category": "物品交互",
+      "priority": "P1",
+      "trigger_contract": "成熟作物收取成功且产物收据成立",
+      "never_trigger_on": "去田边导航、日历预计成熟",
+      "sound_direction": "短植物纤维断裂+布袋收纳",
+      "candidate_numbers": [
+        14,
+        48,
+        102
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=14]",
+          "title": "农庄·田块总览",
+          "state": "八田块总览及选中小麦详情",
+          "source_state_id": "candidate-14"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=48]",
+          "title": "农庄·播收日历",
+          "state": "相对日期播收计划与升级材料",
+          "source_state_id": "ui19-p04"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=102]",
+          "title": "农庄 · 连续播收修订",
+          "state": "新增独立静态候选 · 待用户审阅，未实装验证",
+          "source_state_id": "revision-48-farm-continuous-sowing-v2"
+        }
+      ],
+      "document_reference": "REVIEW-BUILDINGS.md:75–93",
+      "evidence_status": "documented_design_or_ui_candidate",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "companion_invite_sent",
+      "category": "NPC陪伴",
+      "priority": "P0",
+      "trigger_contract": "邀请已发出进入等待回复",
+      "never_trigger_on": "接受/到场/共同活动完成",
+      "sound_direction": "薄玻璃气泡+柔木两点，不社会奖励",
+      "candidate_numbers": [
+        50,
+        80,
+        95
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=50]",
+          "title": "伐木场·历史四屏交互提案 · ui21-p03",
+          "state": "Explicit pending send/consent; source incorrect character count removed",
+          "source_state_id": "ui21-p03"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=80]",
+          "title": "桌边邀请与六席预留",
+          "state": "六席完整且编号1–6；预留2空4；接受邀请不等于到场",
+          "source_state_id": "ui31-p03"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=95]",
+          "title": "面包坊 · 我发起的邀请",
+          "state": "新增独立静态候选 · 待用户审阅，未实装验证",
+          "source_state_id": "supplement-new-building-pages-E1-sent-invitations"
+        }
+      ],
+      "document_reference": "REVIEW-IMPLEMENTATION-UI.md:119–124",
+      "evidence_status": "documented_design_or_ui_candidate",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "companion_invite_accepted",
+      "category": "NPC陪伴",
+      "priority": "P0",
+      "trigger_contract": "收到对方接受响应",
+      "never_trigger_on": "真实到场、已建立关系增长",
+      "sound_direction": "温暖中音轻应答，尾短于完成",
+      "candidate_numbers": [
+        80,
+        96
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=80]",
+          "title": "桌边邀请与六席预留",
+          "state": "六席完整且编号1–6；预留2空4；接受邀请不等于到场",
+          "source_state_id": "ui31-p03"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=96]",
+          "title": "面包坊 · 收到的邀请",
+          "state": "新增独立静态候选 · 待用户审阅，未实装验证",
+          "source_state_id": "supplement-new-building-pages-E2-received-invitations"
+        }
+      ],
+      "document_reference": "REVIEW-IMPLEMENTATION-UI.md:119–124",
+      "evidence_status": "documented_design_or_ui_candidate",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "companion_arrived",
+      "category": "NPC陪伴",
+      "priority": "P0",
+      "trigger_contract": "真实到达本次活动有效地点",
+      "never_trigger_on": "接受邀请、远程排程",
+      "sound_direction": "柔软布料/脚步小停驻+弱玻璃点",
+      "candidate_numbers": [
+        80
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=80]",
+          "title": "桌边邀请与六席预留",
+          "state": "六席完整且编号1–6；预留2空4；接受邀请不等于到场",
+          "source_state_id": "ui31-p03"
+        }
+      ],
+      "document_reference": "REVIEW-IMPLEMENTATION-UI.md:121",
+      "evidence_status": "documented_design_or_ui_candidate",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "companion_activity_complete",
+      "category": "NPC陪伴",
+      "priority": "P1",
+      "trigger_contract": "双方真实贡献与终态回执成立，去重",
+      "never_trigger_on": "仅站90秒、单人产出、到场",
+      "sound_direction": "两种柔木/陶器音色呼应，暖而克制",
+      "candidate_numbers": [
+        68,
+        77
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=68]",
+          "title": "面包坊·历史四屏交互提案 · ui27-p03",
+          "state": "Knead2/2complete;shape1/2ongoing;bake0/2waiting;output4cannotclaim;participants consistent",
+          "source_state_id": "ui27-p03"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=77]",
+          "title": "料理现场协作",
+          "state": "处理完成、烹饪进行、装盘等待；下一道0/12",
+          "source_state_id": "ui30-p03"
+        }
+      ],
+      "document_reference": "REVIEW-IMPLEMENTATION-UI.md:119–124; REVIEW-LIFE-ECONOMY.md:271",
+      "evidence_status": "documented_design_or_ui_candidate",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "companion_work_blocked",
+      "category": "NPC陪伴",
+      "priority": "P0",
+      "trigger_contract": "缺工具/道路等真实原因首次进入受阻",
+      "never_trigger_on": "正常休息、每帧AI重评",
+      "sound_direction": "小木质顿点+中性呼吸纹理",
+      "candidate_numbers": [
+        107,
+        53
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=107]",
+          "title": "人物志 · 苏糖缺工具受阻详情",
+          "state": "现有页面状态变体参考 · 已逐图复核，待用户审阅，未实装验证",
+          "source_state_id": "state-107-character-tool-blocked-v2"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=53]",
+          "title": "采石场·历史四屏交互提案 · ui22-p03",
+          "state": "Road blocked; prepare return requires actual walking; corrected source location caption to on-route counting before station sorting",
+          "source_state_id": "ui22-p03"
+        }
+      ],
+      "document_reference": "REVIEW-IMPLEMENTATION-UI.md:114; REVIEW-LIFE-ECONOMY.md:243",
+      "evidence_status": "documented_design_or_ui_candidate",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "companion_invite_declined",
+      "category": "NPC陪伴",
+      "priority": "P1",
+      "trigger_contract": "对方拒绝或改期明确返回",
+      "never_trigger_on": "取消等价扣好感、敌对关系事件",
+      "sound_direction": "轻降温的布/空气短尾，不失落重击",
+      "candidate_numbers": [
+        81
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=81]",
+          "title": "主题小聚人数不足改期",
+          "state": "2/4还需2人；开席灰色带锁禁用；明日18:00避免日期星期矛盾",
+          "source_state_id": "ui31-p04"
+        }
+      ],
+      "document_reference": "REVIEW-IMPLEMENTATION-UI.md:124",
+      "evidence_status": "documented_design_or_ui_candidate",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "fishing_cast",
+      "category": "世界事件",
+      "priority": "P0",
+      "trigger_contract": "真实StartCast成功进入Cast",
+      "never_trigger_on": "装备预览、不能抛竿时点按钮",
+      "sound_direction": "细绳甩动+水滴入水，近场物理主体",
+      "candidate_numbers": [
+        44
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=44]",
+          "title": "渔舍·现场轻收线",
+          "state": "安全区张力与按住、松开、辅助模式",
+          "source_state_id": "ui18-p03"
+        }
+      ],
+      "document_reference": "REVIEW-IMPLEMENTATION-UI.md:92–94",
+      "evidence_status": "documented_design_or_ui_candidate",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "fishing_bite",
+      "category": "世界事件",
+      "priority": "P0",
+      "trigger_contract": "会话首次进入Bite",
+      "never_trigger_on": "等待动画循环",
+      "sound_direction": "浮标轻水击+一颗高可辨短木点",
+      "candidate_numbers": [
+        44
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=44]",
+          "title": "渔舍·现场轻收线",
+          "state": "安全区张力与按住、松开、辅助模式",
+          "source_state_id": "ui18-p03"
+        }
+      ],
+      "document_reference": "REVIEW-IMPLEMENTATION-UI.md:92",
+      "evidence_status": "documented_design_or_ui_candidate",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "fishing_reel_tension",
+      "category": "世界事件",
+      "priority": "P0",
+      "trigger_contract": "收线中张力进入提示区/控制压力变化",
+      "never_trigger_on": "稳定张力每帧新建声音",
+      "sound_direction": "柔弦摩擦层随张力连续控制；不持续尖叫",
+      "candidate_numbers": [
+        44
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=44]",
+          "title": "渔舍·现场轻收线",
+          "state": "安全区张力与按住、松开、辅助模式",
+          "source_state_id": "ui18-p03"
+        }
+      ],
+      "document_reference": "REVIEW-IMPLEMENTATION-UI.md:92",
+      "evidence_status": "documented_design_or_ui_candidate",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "fishing_catch_commit",
+      "category": "世界事件",
+      "priority": "P0",
+      "trigger_contract": "CommitCatch权威成功；入袋另走领取/转移",
+      "never_trigger_on": "落鱼动画但库存失败、取消",
+      "sound_direction": "水滴+鱼篓木底湿触，短清晰回执",
+      "candidate_numbers": [
+        45
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=45]",
+          "title": "渔舍·鱼获去向与发展",
+          "state": "采购客未到访禁止出售与升级缺料",
+          "source_state_id": "ui18-p04"
+        }
+      ],
+      "document_reference": "REVIEW-IMPLEMENTATION-UI.md:96–98",
+      "evidence_status": "documented_design_or_ui_candidate",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "fishing_escape",
+      "category": "世界事件",
+      "priority": "P1",
+      "trigger_contract": "会话真实Escaped终态",
+      "never_trigger_on": "玩家主动取消、软暂停",
+      "sound_direction": "水面轻扑+绳张力释放，不失败惩罚旋律",
+      "candidate_numbers": [
+        44
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=44]",
+          "title": "渔舍·现场轻收线",
+          "state": "安全区张力与按住、松开、辅助模式",
+          "source_state_id": "ui18-p03"
+        }
+      ],
+      "document_reference": "REVIEW-IMPLEMENTATION-UI.md:92",
+      "evidence_status": "documented_design_or_ui_candidate",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "route_departure_accepted",
+      "category": "世界事件",
+      "priority": "P0",
+      "trigger_contract": "真实出发命令/航次被接受",
+      "never_trigger_on": "到达、已完成采集、重复出航阻塞",
+      "sound_direction": "皮革整备扣+轻空气前移",
+      "candidate_numbers": [
+        15,
+        16,
+        26,
+        36
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=15]",
+          "title": "采石场·矿点路线",
+          "state": "铜矿浅层路线与整备出发",
+          "source_state_id": "candidate-15"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=16]",
+          "title": "伐木场·行前准备",
+          "state": "工具背包准备与路线确认",
+          "source_state_id": "candidate-16"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=26]",
+          "title": "空港·目的地星图",
+          "state": "五目的地星图与航次状态",
+          "source_state_id": "candidate-26"
+        },
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=36]",
+          "title": "空港·后勤接应与特色路线",
+          "state": "接应安排与航线进行中限制",
+          "source_state_id": "ui35-p04"
+        }
+      ],
+      "document_reference": "REVIEW-LIFE-ECONOMY.md:191",
+      "evidence_status": "documented_design_or_ui_candidate",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "route_path_blocked",
+      "category": "世界事件",
+      "priority": "P1",
+      "trigger_contract": "真实道路阻断首次报告",
+      "never_trigger_on": "到岗暂停、取消出发",
+      "sound_direction": "碎石短滑停+低木点，与战斗危险区分",
+      "candidate_numbers": [
+        53
+      ],
+      "evidence": [
+        {
+          "path": "gallery-fullscreen-recovery-20261012/public/review-catalog.json",
+          "selector": "items[number=53]",
+          "title": "采石场·历史四屏交互提案 · ui22-p03",
+          "state": "Road blocked; prepare return requires actual walking; corrected source location caption to on-route counting before station sorting",
+          "source_state_id": "ui22-p03"
+        }
+      ],
+      "document_reference": "REVIEW-LIFE-ECONOMY.md:243",
+      "evidence_status": "documented_design_or_ui_candidate",
+      "actual_code_hook_verified": false
+    },
+    {
+      "event_id": "world_safety_interrupt",
+      "category": "世界事件",
+      "priority": "P1",
+      "trigger_contract": "真实危险/天气避险中断当前工作",
+      "never_trigger_on": "普通午休、材料不足",
+      "sound_direction": "低空气压力+短木/金属定向警示，不报警循环",
+      "candidate_numbers": [],
+      "evidence": [],
+      "document_reference": "REVIEW-IMPLEMENTATION-UI.md:114; REVIEW-LIFE-ECONOMY.md:76,243",
+      "evidence_status": "documented_design_or_ui_candidate",
+      "actual_code_hook_verified": false
+    }
+  ]
+}

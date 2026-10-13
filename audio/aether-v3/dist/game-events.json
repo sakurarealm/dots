@@ -1,0 +1,2935 @@
+[
+  {
+    "version": 1,
+    "id": "ui_focus_tick",
+    "name": "焦点 · 薄光微触",
+    "category": "UI反馈",
+    "material": "悬浮",
+    "description": "40–70ms薄玻璃微触，低响度，禁止长混响",
+    "seed": 90001,
+    "variantSeeds": [
+      90001,
+      150001
+    ],
+    "duration": 0.064,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 1750,
+        "duration": 0.052,
+        "gain": 0.18,
+        "start": 0,
+        "ratios": [
+          1,
+          2.013,
+          2.756,
+          4.087
+        ],
+        "weights": [
+          0.6,
+          0.23,
+          0.1,
+          0.04
+        ],
+        "damping": [
+          10,
+          16,
+          23,
+          35
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "noise",
+        "duration": 0.042,
+        "gain": 0.07,
+        "cutoff": 5500,
+        "start": 0,
+        "decay": 5,
+        "attack": 0.004
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.5,
+      "room": 0.035,
+      "gain": 0.1
+    }
+  },
+  {
+    "version": 1,
+    "id": "ui_panel_open",
+    "name": "面板 · 空气展开",
+    "category": "UI反馈",
+    "material": "悬浮",
+    "description": "100–220ms空气展开+玻璃边缘低亮度",
+    "seed": 90104,
+    "variantSeeds": [
+      90104,
+      150108
+    ],
+    "duration": 0.192,
+    "modules": [
+      {
+        "type": "noise",
+        "duration": 0.18,
+        "gain": 0.24,
+        "cutoff": 3600,
+        "start": 0,
+        "decay": 5,
+        "attack": 0.004
+      },
+      {
+        "type": "tone",
+        "freq": 540,
+        "endFreq": 960,
+        "duration": 0.16,
+        "gain": 0.14,
+        "start": 0,
+        "decay": 9,
+        "attack": 0.006
+      },
+      {
+        "type": "modal",
+        "freq": 1320,
+        "duration": 0.15,
+        "gain": 0.09,
+        "start": 0.026,
+        "ratios": [
+          1,
+          2.013,
+          2.756,
+          4.087
+        ],
+        "weights": [
+          0.6,
+          0.23,
+          0.1,
+          0.04
+        ],
+        "damping": [
+          10,
+          16,
+          23,
+          35
+        ],
+        "attack": 0.002
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.5,
+      "room": 0.12,
+      "gain": 0.18
+    }
+  },
+  {
+    "version": 1,
+    "id": "ui_panel_close",
+    "name": "面板 · 轻柔收拢",
+    "category": "UI反馈",
+    "material": "悬浮",
+    "description": "90–180ms轻收拢，弱于打开",
+    "seed": 90207,
+    "variantSeeds": [
+      90207,
+      150215
+    ],
+    "duration": 0.142,
+    "modules": [
+      {
+        "type": "noise",
+        "duration": 0.12,
+        "gain": 0.16,
+        "cutoff": 1700,
+        "start": 0,
+        "decay": 5,
+        "attack": 0.004
+      },
+      {
+        "type": "tone",
+        "freq": 790,
+        "endFreq": 370,
+        "duration": 0.13,
+        "gain": 0.14,
+        "start": 0,
+        "decay": 9,
+        "attack": 0.006
+      },
+      {
+        "type": "modal",
+        "freq": 430,
+        "duration": 0.065,
+        "gain": 0.13,
+        "start": 0.045,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.5,
+      "room": 0.07,
+      "gain": 0.14
+    }
+  },
+  {
+    "version": 1,
+    "id": "ui_tab_switch",
+    "name": "标签 · 横向滑片",
+    "category": "UI反馈",
+    "material": "悬浮",
+    "description": "50–100ms横向短滑片，无奖励音程",
+    "seed": 90310,
+    "variantSeeds": [
+      90310,
+      150322
+    ],
+    "duration": 0.084,
+    "modules": [
+      {
+        "type": "noise",
+        "duration": 0.068,
+        "gain": 0.2,
+        "cutoff": 2700,
+        "start": 0,
+        "decay": 5,
+        "attack": 0.004
+      },
+      {
+        "type": "tone",
+        "freq": 1150,
+        "endFreq": 1030,
+        "duration": 0.072,
+        "gain": 0.15,
+        "start": 0,
+        "decay": 9,
+        "attack": 0.006
+      },
+      {
+        "type": "modal",
+        "freq": 1580,
+        "duration": 0.055,
+        "gain": 0.07,
+        "start": 0.017,
+        "ratios": [
+          1,
+          2.013,
+          2.756,
+          4.087
+        ],
+        "weights": [
+          0.6,
+          0.23,
+          0.1,
+          0.04
+        ],
+        "damping": [
+          10,
+          16,
+          23,
+          35
+        ],
+        "attack": 0.002
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.5,
+      "room": 0.035,
+      "gain": 0.13
+    }
+  },
+  {
+    "version": 1,
+    "id": "ui_plan_accepted",
+    "name": "计划 · 双段落锁",
+    "category": "UI反馈",
+    "material": "木",
+    "description": "柔和两段落锁，短促不上扬庆祝",
+    "seed": 90413,
+    "variantSeeds": [
+      90413,
+      150429
+    ],
+    "duration": 0.186,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 520,
+        "duration": 0.1,
+        "gain": 0.46,
+        "start": 0,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 480,
+        "duration": 0.09,
+        "gain": 0.39,
+        "start": 0.082,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 1150,
+        "duration": 0.08,
+        "gain": 0.065,
+        "start": 0.094,
+        "ratios": [
+          1,
+          2.013,
+          2.756,
+          4.087
+        ],
+        "weights": [
+          0.6,
+          0.23,
+          0.1,
+          0.04
+        ],
+        "damping": [
+          10,
+          16,
+          23,
+          35
+        ],
+        "attack": 0.002
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.62,
+      "room": 0.1,
+      "gain": 0.23
+    }
+  },
+  {
+    "version": 1,
+    "id": "ui_action_cancel",
+    "name": "取消 · 柔性退让",
+    "category": "UI反馈",
+    "material": "悬浮",
+    "description": "柔性退让空气尾，不刺耳不惩罚",
+    "seed": 90516,
+    "variantSeeds": [
+      90516,
+      150536
+    ],
+    "duration": 0.192,
+    "modules": [
+      {
+        "type": "tone",
+        "freq": 470,
+        "endFreq": 320,
+        "duration": 0.16,
+        "gain": 0.18,
+        "start": 0,
+        "decay": 9,
+        "attack": 0.006
+      },
+      {
+        "type": "noise",
+        "duration": 0.18,
+        "gain": 0.16,
+        "cutoff": 1500,
+        "start": 0,
+        "decay": 5,
+        "attack": 0.004
+      },
+      {
+        "type": "modal",
+        "freq": 310,
+        "duration": 0.055,
+        "gain": 0.11,
+        "start": 0,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.5,
+      "room": 0.09,
+      "gain": 0.16
+    }
+  },
+  {
+    "version": 1,
+    "id": "ui_soft_warning",
+    "name": "提醒 · 轻木双点",
+    "category": "UI反馈",
+    "material": "木",
+    "description": "轻木质双点+短空气纹理，不警笛",
+    "seed": 90619,
+    "variantSeeds": [
+      90619,
+      150643
+    ],
+    "duration": 0.197,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 610,
+        "duration": 0.08,
+        "gain": 0.38,
+        "start": 0,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 575,
+        "duration": 0.08,
+        "gain": 0.3,
+        "start": 0.105,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "noise",
+        "duration": 0.13,
+        "gain": 0.06,
+        "cutoff": 1600,
+        "start": 0.035,
+        "decay": 5,
+        "attack": 0.004
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.62,
+      "room": 0.075,
+      "gain": 0.21
+    }
+  },
+  {
+    "version": 1,
+    "id": "ui_action_blocked",
+    "name": "受阻 · 钝玻璃止动",
+    "category": "UI反馈",
+    "material": "石",
+    "description": "钝玻璃止动一次，保留原因文字",
+    "seed": 90722,
+    "variantSeeds": [
+      90722,
+      150750
+    ],
+    "duration": 0.152,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 360,
+        "duration": 0.14,
+        "gain": 0.44,
+        "start": 0,
+        "ratios": [
+          1,
+          1.87,
+          3.14
+        ],
+        "weights": [
+          0.65,
+          0.22,
+          0.09
+        ],
+        "damping": [
+          17,
+          29,
+          48
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 150,
+        "duration": 0.09,
+        "gain": 0.24,
+        "start": 0,
+        "ratios": [
+          1,
+          1.43,
+          2.37,
+          3.81
+        ],
+        "weights": [
+          0.66,
+          0.22,
+          0.08,
+          0.025
+        ],
+        "damping": [
+          20,
+          31,
+          47,
+          66
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "noise",
+        "duration": 0.06,
+        "gain": 0.13,
+        "cutoff": 1900,
+        "start": 0,
+        "decay": 5,
+        "attack": 0.004
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.62,
+      "room": 0.05,
+      "gain": 0.25
+    }
+  },
+  {
+    "version": 1,
+    "id": "build_placement_valid",
+    "name": "定位 · 木榫轻扣",
+    "category": "建造生产",
+    "material": "木",
+    "description": "轻木质定位扣，极短",
+    "seed": 90825,
+    "variantSeeds": [
+      90825,
+      150857
+    ],
+    "duration": 0.087,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 650,
+        "duration": 0.075,
+        "gain": 0.36,
+        "start": 0,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "noise",
+        "duration": 0.032,
+        "gain": 0.075,
+        "cutoff": 2300,
+        "start": 0,
+        "decay": 5,
+        "attack": 0.004
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.62,
+      "room": 0.035,
+      "gain": 0.17
+    }
+  },
+  {
+    "version": 1,
+    "id": "build_placement_commit",
+    "name": "放置 · 木石稳落",
+    "category": "建造生产",
+    "material": "石",
+    "description": "干木榫+低石稳落，不用完工庆典",
+    "seed": 90928,
+    "variantSeeds": [
+      90928,
+      150964
+    ],
+    "duration": 0.267,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 360,
+        "duration": 0.13,
+        "gain": 0.42,
+        "start": 0,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 135,
+        "duration": 0.22,
+        "gain": 0.51,
+        "start": 0.035,
+        "ratios": [
+          1,
+          1.43,
+          2.37,
+          3.81
+        ],
+        "weights": [
+          0.66,
+          0.22,
+          0.08,
+          0.025
+        ],
+        "damping": [
+          20,
+          31,
+          47,
+          66
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "noise",
+        "duration": 0.095,
+        "gain": 0.17,
+        "cutoff": 1050,
+        "start": 0.03,
+        "decay": 5,
+        "attack": 0.004
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.62,
+      "room": 0.15,
+      "gain": 0.32
+    }
+  },
+  {
+    "version": 1,
+    "id": "build_construction_complete",
+    "name": "完工 · 材质安定",
+    "category": "建造生产",
+    "material": "石",
+    "description": "木石安定落点+克制玻璃泛音",
+    "seed": 91031,
+    "variantSeeds": [
+      91031,
+      151071
+    ],
+    "duration": 0.527,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 185,
+        "duration": 0.22,
+        "gain": 0.43,
+        "start": 0,
+        "ratios": [
+          1,
+          1.43,
+          2.37,
+          3.81
+        ],
+        "weights": [
+          0.66,
+          0.22,
+          0.08,
+          0.025
+        ],
+        "damping": [
+          20,
+          31,
+          47,
+          66
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 470,
+        "duration": 0.17,
+        "gain": 0.36,
+        "start": 0.095,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 830,
+        "duration": 0.32,
+        "gain": 0.21,
+        "start": 0.165,
+        "ratios": [
+          1,
+          2.013,
+          2.756,
+          4.087
+        ],
+        "weights": [
+          0.6,
+          0.23,
+          0.1,
+          0.04
+        ],
+        "damping": [
+          10,
+          16,
+          23,
+          35
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 1245,
+        "duration": 0.28,
+        "gain": 0.11,
+        "start": 0.235,
+        "ratios": [
+          1,
+          2.013,
+          2.756,
+          4.087
+        ],
+        "weights": [
+          0.6,
+          0.23,
+          0.1,
+          0.04
+        ],
+        "damping": [
+          10,
+          16,
+          23,
+          35
+        ],
+        "attack": 0.002
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.62,
+      "room": 0.23,
+      "gain": 0.34
+    }
+  },
+  {
+    "version": 1,
+    "id": "production_batch_start",
+    "name": "投料 · 陶木起炉",
+    "category": "建造生产",
+    "material": "木",
+    "description": "木台/陶器轻扣+短引燃空气层",
+    "seed": 91134,
+    "variantSeeds": [
+      91134,
+      151178
+    ],
+    "duration": 0.292,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 400,
+        "duration": 0.13,
+        "gain": 0.39,
+        "start": 0,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 610,
+        "duration": 0.17,
+        "gain": 0.3,
+        "start": 0.052,
+        "ratios": [
+          1,
+          1.87,
+          3.14
+        ],
+        "weights": [
+          0.65,
+          0.22,
+          0.09
+        ],
+        "damping": [
+          17,
+          29,
+          48
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "noise",
+        "duration": 0.21,
+        "gain": 0.16,
+        "cutoff": 2100,
+        "start": 0.07,
+        "decay": 5,
+        "attack": 0.004
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.62,
+      "room": 0.12,
+      "gain": 0.28
+    }
+  },
+  {
+    "version": 1,
+    "id": "production_stage_complete",
+    "name": "工序 · 陶木接合",
+    "category": "建造生产",
+    "material": "木",
+    "description": "短陶木接合音，不用奖励尾",
+    "seed": 91237,
+    "variantSeeds": [
+      91237,
+      151285
+    ],
+    "duration": 0.167,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 710,
+        "duration": 0.15,
+        "gain": 0.32,
+        "start": 0,
+        "ratios": [
+          1,
+          1.87,
+          3.14
+        ],
+        "weights": [
+          0.65,
+          0.22,
+          0.09
+        ],
+        "damping": [
+          17,
+          29,
+          48
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 565,
+        "duration": 0.09,
+        "gain": 0.36,
+        "start": 0.065,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "noise",
+        "duration": 0.048,
+        "gain": 0.05,
+        "cutoff": 1300,
+        "start": 0.065,
+        "decay": 5,
+        "attack": 0.004
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.62,
+      "room": 0.08,
+      "gain": 0.22
+    }
+  },
+  {
+    "version": 1,
+    "id": "production_batch_ready",
+    "name": "待领 · 温暖双音",
+    "category": "建造生产",
+    "material": "金属",
+    "description": "温暖金属/陶瓷两音提示，与领取不同",
+    "seed": 91340,
+    "variantSeeds": [
+      91340,
+      151392
+    ],
+    "duration": 0.502,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 780,
+        "duration": 0.28,
+        "gain": 0.37,
+        "start": 0,
+        "ratios": [
+          1,
+          1.87,
+          3.14
+        ],
+        "weights": [
+          0.65,
+          0.22,
+          0.09
+        ],
+        "damping": [
+          17,
+          29,
+          48
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 1040,
+        "duration": 0.32,
+        "gain": 0.25,
+        "start": 0.17,
+        "ratios": [
+          1,
+          2.013,
+          2.756,
+          4.087
+        ],
+        "weights": [
+          0.6,
+          0.23,
+          0.1,
+          0.04
+        ],
+        "damping": [
+          10,
+          16,
+          23,
+          35
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "tone",
+        "freq": 390,
+        "endFreq": 390,
+        "duration": 0.21,
+        "gain": 0.12,
+        "start": 0,
+        "decay": 9,
+        "attack": 0.006
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.5,
+      "room": 0.18,
+      "gain": 0.27
+    }
+  },
+  {
+    "version": 1,
+    "id": "production_claim_commit",
+    "name": "领取 · 布袋落物",
+    "category": "建造生产",
+    "material": "木",
+    "description": "布袋落物+干木实感，极短完成亮点",
+    "seed": 91443,
+    "variantSeeds": [
+      91443,
+      151499
+    ],
+    "duration": 0.242,
+    "modules": [
+      {
+        "type": "noise",
+        "duration": 0.15,
+        "gain": 0.23,
+        "cutoff": 950,
+        "start": 0,
+        "decay": 5,
+        "attack": 0.004
+      },
+      {
+        "type": "modal",
+        "freq": 315,
+        "duration": 0.12,
+        "gain": 0.48,
+        "start": 0.062,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 1390,
+        "duration": 0.12,
+        "gain": 0.105,
+        "start": 0.11,
+        "ratios": [
+          1,
+          2.013,
+          2.756,
+          4.087
+        ],
+        "weights": [
+          0.6,
+          0.23,
+          0.1,
+          0.04
+        ],
+        "damping": [
+          10,
+          16,
+          23,
+          35
+        ],
+        "attack": 0.002
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.62,
+      "room": 0.1,
+      "gain": 0.28
+    }
+  },
+  {
+    "version": 1,
+    "id": "production_material_blocked",
+    "name": "缺料 · 空陶止动",
+    "category": "建造生产",
+    "material": "石",
+    "description": "空陶敲/木质止动，避免错误蜂鸣",
+    "seed": 91546,
+    "variantSeeds": [
+      91546,
+      151606
+    ],
+    "duration": 0.188,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 410,
+        "duration": 0.15,
+        "gain": 0.46,
+        "start": 0,
+        "ratios": [
+          1,
+          1.87,
+          3.14
+        ],
+        "weights": [
+          0.65,
+          0.22,
+          0.09
+        ],
+        "damping": [
+          17,
+          29,
+          48
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 255,
+        "duration": 0.08,
+        "gain": 0.25,
+        "start": 0.096,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "noise",
+        "duration": 0.044,
+        "gain": 0.065,
+        "cutoff": 1650,
+        "start": 0,
+        "decay": 5,
+        "attack": 0.004
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.62,
+      "room": 0.065,
+      "gain": 0.25
+    }
+  },
+  {
+    "version": 1,
+    "id": "inventory_transfer_commit",
+    "name": "调拨 · 布木交接",
+    "category": "物品交互",
+    "material": "木",
+    "description": "物件滑移+布袋/木箱落点双层",
+    "seed": 91649,
+    "variantSeeds": [
+      91649,
+      151713
+    ],
+    "duration": 0.217,
+    "modules": [
+      {
+        "type": "noise",
+        "duration": 0.12,
+        "gain": 0.22,
+        "cutoff": 1100,
+        "start": 0,
+        "decay": 5,
+        "attack": 0.004
+      },
+      {
+        "type": "modal",
+        "freq": 370,
+        "duration": 0.11,
+        "gain": 0.42,
+        "start": 0.052,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 590,
+        "duration": 0.08,
+        "gain": 0.23,
+        "start": 0.125,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.62,
+      "room": 0.085,
+      "gain": 0.27
+    }
+  },
+  {
+    "version": 1,
+    "id": "inventory_capacity_blocked",
+    "name": "满载 · 木箱闷扣",
+    "category": "物品交互",
+    "material": "木",
+    "description": "低木箱闷扣，窄而短，不庆祝",
+    "seed": 91752,
+    "variantSeeds": [
+      91752,
+      151820
+    ],
+    "duration": 0.142,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 205,
+        "duration": 0.13,
+        "gain": 0.53,
+        "start": 0,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 120,
+        "duration": 0.08,
+        "gain": 0.18,
+        "start": 0,
+        "ratios": [
+          1,
+          1.43,
+          2.37,
+          3.81
+        ],
+        "weights": [
+          0.66,
+          0.22,
+          0.08,
+          0.025
+        ],
+        "damping": [
+          20,
+          31,
+          47,
+          66
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "noise",
+        "duration": 0.058,
+        "gain": 0.08,
+        "cutoff": 620,
+        "start": 0,
+        "decay": 5,
+        "attack": 0.004
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.62,
+      "room": 0.045,
+      "gain": 0.24
+    }
+  },
+  {
+    "version": 1,
+    "id": "item_gear_apply",
+    "name": "配装 · 皮革细扣",
+    "category": "物品交互",
+    "material": "金属",
+    "description": "皮革带扣+细金属扣合",
+    "seed": 91855,
+    "variantSeeds": [
+      91855,
+      151927
+    ],
+    "duration": 0.236,
+    "modules": [
+      {
+        "type": "noise",
+        "duration": 0.13,
+        "gain": 0.22,
+        "cutoff": 900,
+        "start": 0,
+        "decay": 5,
+        "attack": 0.004
+      },
+      {
+        "type": "modal",
+        "freq": 410,
+        "duration": 0.09,
+        "gain": 0.25,
+        "start": 0.043,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 1940,
+        "duration": 0.13,
+        "gain": 0.2,
+        "start": 0.094,
+        "ratios": [
+          1,
+          2.013,
+          2.756,
+          4.087
+        ],
+        "weights": [
+          0.6,
+          0.23,
+          0.1,
+          0.04
+        ],
+        "damping": [
+          10,
+          16,
+          23,
+          35
+        ],
+        "attack": 0.002
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.5,
+      "room": 0.1,
+      "gain": 0.26
+    }
+  },
+  {
+    "version": 1,
+    "id": "trade_commit",
+    "name": "交易 · 一币一物",
+    "category": "物品交互",
+    "material": "金属",
+    "description": "一枚干金属币+物品落点，不金币雨",
+    "seed": 91958,
+    "variantSeeds": [
+      91958,
+      152034
+    ],
+    "duration": 0.252,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 2230,
+        "duration": 0.24,
+        "gain": 0.3,
+        "start": 0,
+        "ratios": [
+          1,
+          2.013,
+          2.756,
+          4.087
+        ],
+        "weights": [
+          0.6,
+          0.23,
+          0.1,
+          0.04
+        ],
+        "damping": [
+          10,
+          16,
+          23,
+          35
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 330,
+        "duration": 0.12,
+        "gain": 0.41,
+        "start": 0.083,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "noise",
+        "duration": 0.075,
+        "gain": 0.12,
+        "cutoff": 1150,
+        "start": 0.073,
+        "decay": 5,
+        "attack": 0.004
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.5,
+      "room": 0.13,
+      "gain": 0.28
+    }
+  },
+  {
+    "version": 1,
+    "id": "agriculture_water_commit",
+    "name": "浇水 · 陶罐湿土",
+    "category": "物品交互",
+    "material": "石",
+    "description": "小陶罐水流+湿土颗粒",
+    "seed": 92061,
+    "variantSeeds": [
+      92061,
+      152141
+    ],
+    "duration": 0.422,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 850,
+        "duration": 0.16,
+        "gain": 0.16,
+        "start": 0,
+        "ratios": [
+          1,
+          1.87,
+          3.14
+        ],
+        "weights": [
+          0.65,
+          0.22,
+          0.09
+        ],
+        "damping": [
+          17,
+          29,
+          48
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "noise",
+        "duration": 0.36,
+        "gain": 0.35,
+        "cutoff": 2700,
+        "start": 0.025,
+        "decay": 5,
+        "attack": 0.004
+      },
+      {
+        "type": "tone",
+        "freq": 1200,
+        "endFreq": 510,
+        "duration": 0.095,
+        "gain": 0.11,
+        "start": 0.075,
+        "decay": 9,
+        "attack": 0.006
+      },
+      {
+        "type": "tone",
+        "freq": 860,
+        "endFreq": 360,
+        "duration": 0.1,
+        "gain": 0.1,
+        "start": 0.208,
+        "decay": 9,
+        "attack": 0.006
+      },
+      {
+        "type": "modal",
+        "freq": 155,
+        "duration": 0.12,
+        "gain": 0.19,
+        "start": 0.29,
+        "ratios": [
+          1,
+          1.43,
+          2.37,
+          3.81
+        ],
+        "weights": [
+          0.66,
+          0.22,
+          0.08,
+          0.025
+        ],
+        "damping": [
+          20,
+          31,
+          47,
+          66
+        ],
+        "attack": 0.002
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.62,
+      "room": 0.13,
+      "gain": 0.28
+    }
+  },
+  {
+    "version": 1,
+    "id": "agriculture_harvest_commit",
+    "name": "收获 · 纤维入袋",
+    "category": "物品交互",
+    "material": "木",
+    "description": "短植物纤维断裂+布袋收纳",
+    "seed": 92164,
+    "variantSeeds": [
+      92164,
+      152248
+    ],
+    "duration": 0.302,
+    "modules": [
+      {
+        "type": "noise",
+        "duration": 0.075,
+        "gain": 0.3,
+        "cutoff": 4800,
+        "start": 0,
+        "decay": 5,
+        "attack": 0.004
+      },
+      {
+        "type": "noise",
+        "duration": 0.21,
+        "gain": 0.24,
+        "cutoff": 1000,
+        "start": 0.08,
+        "decay": 5,
+        "attack": 0.004
+      },
+      {
+        "type": "modal",
+        "freq": 280,
+        "duration": 0.13,
+        "gain": 0.34,
+        "start": 0.13,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 430,
+        "duration": 0.07,
+        "gain": 0.15,
+        "start": 0.195,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.62,
+      "room": 0.1,
+      "gain": 0.28
+    }
+  },
+  {
+    "version": 1,
+    "id": "companion_invite_sent",
+    "name": "邀请 · 轻声送出",
+    "category": "NPC陪伴",
+    "material": "悬浮",
+    "description": "薄玻璃气泡+柔木两点，不社会奖励",
+    "seed": 92267,
+    "variantSeeds": [
+      92267,
+      152355
+    ],
+    "duration": 0.212,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 1140,
+        "duration": 0.16,
+        "gain": 0.18,
+        "start": 0,
+        "ratios": [
+          1,
+          2.013,
+          2.756,
+          4.087
+        ],
+        "weights": [
+          0.6,
+          0.23,
+          0.1,
+          0.04
+        ],
+        "damping": [
+          10,
+          16,
+          23,
+          35
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 540,
+        "duration": 0.08,
+        "gain": 0.22,
+        "start": 0.065,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 595,
+        "duration": 0.07,
+        "gain": 0.17,
+        "start": 0.13,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "tone",
+        "freq": 570,
+        "endFreq": 660,
+        "duration": 0.15,
+        "gain": 0.07,
+        "start": 0,
+        "decay": 9,
+        "attack": 0.006
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.5,
+      "room": 0.14,
+      "gain": 0.2
+    }
+  },
+  {
+    "version": 1,
+    "id": "companion_invite_accepted",
+    "name": "应邀 · 温暖回应",
+    "category": "NPC陪伴",
+    "material": "木",
+    "description": "温暖中音轻应答，尾短于完成",
+    "seed": 92370,
+    "variantSeeds": [
+      92370,
+      152462
+    ],
+    "duration": 0.282,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 620,
+        "duration": 0.23,
+        "gain": 0.32,
+        "start": 0,
+        "ratios": [
+          1,
+          1.87,
+          3.14
+        ],
+        "weights": [
+          0.65,
+          0.22,
+          0.09
+        ],
+        "damping": [
+          17,
+          29,
+          48
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 465,
+        "duration": 0.09,
+        "gain": 0.22,
+        "start": 0.09,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 930,
+        "duration": 0.15,
+        "gain": 0.11,
+        "start": 0.12,
+        "ratios": [
+          1,
+          2.013,
+          2.756,
+          4.087
+        ],
+        "weights": [
+          0.6,
+          0.23,
+          0.1,
+          0.04
+        ],
+        "damping": [
+          10,
+          16,
+          23,
+          35
+        ],
+        "attack": 0.002
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.62,
+      "room": 0.14,
+      "gain": 0.24
+    }
+  },
+  {
+    "version": 1,
+    "id": "companion_arrived",
+    "name": "到场 · 柔软停驻",
+    "category": "NPC陪伴",
+    "material": "木",
+    "description": "柔软布料/脚步小停驻+弱玻璃点",
+    "seed": 92473,
+    "variantSeeds": [
+      92473,
+      152569
+    ],
+    "duration": 0.322,
+    "modules": [
+      {
+        "type": "noise",
+        "duration": 0.18,
+        "gain": 0.24,
+        "cutoff": 880,
+        "start": 0,
+        "decay": 5,
+        "attack": 0.004
+      },
+      {
+        "type": "modal",
+        "freq": 240,
+        "duration": 0.13,
+        "gain": 0.36,
+        "start": 0.055,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 270,
+        "duration": 0.1,
+        "gain": 0.25,
+        "start": 0.165,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 1170,
+        "duration": 0.1,
+        "gain": 0.07,
+        "start": 0.21,
+        "ratios": [
+          1,
+          2.013,
+          2.756,
+          4.087
+        ],
+        "weights": [
+          0.6,
+          0.23,
+          0.1,
+          0.04
+        ],
+        "damping": [
+          10,
+          16,
+          23,
+          35
+        ],
+        "attack": 0.002
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.62,
+      "room": 0.09,
+      "gain": 0.25
+    }
+  },
+  {
+    "version": 1,
+    "id": "companion_activity_complete",
+    "name": "协作 · 双材质呼应",
+    "category": "NPC陪伴",
+    "material": "木",
+    "description": "两种柔木/陶器音色呼应，暖而克制",
+    "seed": 92576,
+    "variantSeeds": [
+      92576,
+      152676
+    ],
+    "duration": 0.552,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 520,
+        "duration": 0.16,
+        "gain": 0.39,
+        "start": 0,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 780,
+        "duration": 0.24,
+        "gain": 0.36,
+        "start": 0.14,
+        "ratios": [
+          1,
+          1.87,
+          3.14
+        ],
+        "weights": [
+          0.65,
+          0.22,
+          0.09
+        ],
+        "damping": [
+          17,
+          29,
+          48
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 650,
+        "duration": 0.13,
+        "gain": 0.24,
+        "start": 0.26,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 1040,
+        "duration": 0.23,
+        "gain": 0.13,
+        "start": 0.31,
+        "ratios": [
+          1,
+          2.013,
+          2.756,
+          4.087
+        ],
+        "weights": [
+          0.6,
+          0.23,
+          0.1,
+          0.04
+        ],
+        "damping": [
+          10,
+          16,
+          23,
+          35
+        ],
+        "attack": 0.002
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.62,
+      "room": 0.2,
+      "gain": 0.3
+    }
+  },
+  {
+    "version": 1,
+    "id": "companion_work_blocked",
+    "name": "同伴 · 中性顿点",
+    "category": "NPC陪伴",
+    "material": "木",
+    "description": "小木质顿点+中性呼吸纹理",
+    "seed": 92679,
+    "variantSeeds": [
+      92679,
+      152783
+    ],
+    "duration": 0.262,
+    "modules": [
+      {
+        "type": "modal",
+        "freq": 325,
+        "duration": 0.13,
+        "gain": 0.41,
+        "start": 0,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "noise",
+        "duration": 0.21,
+        "gain": 0.17,
+        "cutoff": 1250,
+        "start": 0.04,
+        "decay": 5,
+        "attack": 0.004
+      },
+      {
+        "type": "tone",
+        "freq": 490,
+        "endFreq": 440,
+        "duration": 0.15,
+        "gain": 0.06,
+        "start": 0.04,
+        "decay": 9,
+        "attack": 0.006
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.62,
+      "room": 0.075,
+      "gain": 0.22
+    }
+  },
+  {
+    "version": 1,
+    "id": "companion_invite_declined",
+    "name": "改期 · 空气轻落",
+    "category": "NPC陪伴",
+    "material": "悬浮",
+    "description": "轻降温的布/空气短尾，不失落重击",
+    "seed": 92782,
+    "variantSeeds": [
+      92782,
+      152890
+    ],
+    "duration": 0.212,
+    "modules": [
+      {
+        "type": "noise",
+        "duration": 0.2,
+        "gain": 0.19,
+        "cutoff": 950,
+        "start": 0,
+        "decay": 5,
+        "attack": 0.004
+      },
+      {
+        "type": "tone",
+        "freq": 590,
+        "endFreq": 455,
+        "duration": 0.18,
+        "gain": 0.14,
+        "start": 0,
+        "decay": 9,
+        "attack": 0.006
+      },
+      {
+        "type": "modal",
+        "freq": 345,
+        "duration": 0.065,
+        "gain": 0.1,
+        "start": 0.09,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.5,
+      "room": 0.11,
+      "gain": 0.17
+    }
+  },
+  {
+    "version": 1,
+    "id": "fishing_cast",
+    "name": "抛竿 · 细绳入水",
+    "category": "世界事件",
+    "material": "木",
+    "description": "细绳甩动+水滴入水，近场物理主体",
+    "seed": 92885,
+    "variantSeeds": [
+      92885,
+      152997
+    ],
+    "duration": 0.332,
+    "modules": [
+      {
+        "type": "noise",
+        "duration": 0.17,
+        "gain": 0.3,
+        "cutoff": 4500,
+        "start": 0,
+        "decay": 5,
+        "attack": 0.004
+      },
+      {
+        "type": "tone",
+        "freq": 680,
+        "endFreq": 1280,
+        "duration": 0.11,
+        "gain": 0.12,
+        "start": 0,
+        "decay": 9,
+        "attack": 0.006
+      },
+      {
+        "type": "noise",
+        "duration": 0.14,
+        "gain": 0.27,
+        "cutoff": 2100,
+        "start": 0.18,
+        "decay": 5,
+        "attack": 0.004
+      },
+      {
+        "type": "tone",
+        "freq": 1150,
+        "endFreq": 480,
+        "duration": 0.09,
+        "gain": 0.18,
+        "start": 0.19,
+        "decay": 9,
+        "attack": 0.006
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.62,
+      "room": 0.15,
+      "gain": 0.31
+    }
+  },
+  {
+    "version": 1,
+    "id": "fishing_bite",
+    "name": "咬钩 · 浮标轻击",
+    "category": "世界事件",
+    "material": "木",
+    "description": "浮标轻水击+一颗高可辨短木点",
+    "seed": 92988,
+    "variantSeeds": [
+      92988,
+      153104
+    ],
+    "duration": 0.14,
+    "modules": [
+      {
+        "type": "tone",
+        "freq": 920,
+        "endFreq": 440,
+        "duration": 0.082,
+        "gain": 0.22,
+        "start": 0,
+        "decay": 9,
+        "attack": 0.006
+      },
+      {
+        "type": "noise",
+        "duration": 0.08,
+        "gain": 0.21,
+        "cutoff": 2800,
+        "start": 0,
+        "decay": 5,
+        "attack": 0.004
+      },
+      {
+        "type": "modal",
+        "freq": 950,
+        "duration": 0.078,
+        "gain": 0.39,
+        "start": 0.05,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.62,
+      "room": 0.07,
+      "gain": 0.28
+    }
+  },
+  {
+    "version": 1,
+    "id": "fishing_reel_tension",
+    "name": "收线 · 柔弦张力",
+    "category": "世界事件",
+    "material": "木",
+    "description": "柔弦摩擦层随张力连续控制；不持续尖叫",
+    "seed": 93091,
+    "variantSeeds": [
+      93091,
+      153211
+    ],
+    "duration": 0.532,
+    "modules": [
+      {
+        "type": "noise",
+        "duration": 0.52,
+        "gain": 0.26,
+        "cutoff": 2150,
+        "start": 0,
+        "decay": 5,
+        "attack": 0.004
+      },
+      {
+        "type": "tone",
+        "freq": 185,
+        "endFreq": 230,
+        "duration": 0.52,
+        "gain": 0.19,
+        "start": 0,
+        "decay": 9,
+        "attack": 0.006
+      },
+      {
+        "type": "tone",
+        "freq": 372,
+        "endFreq": 460,
+        "duration": 0.5,
+        "gain": 0.095,
+        "start": 0,
+        "decay": 9,
+        "attack": 0.006
+      },
+      {
+        "type": "modal",
+        "freq": 380,
+        "duration": 0.048,
+        "gain": 0.13,
+        "start": 0.12,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 410,
+        "duration": 0.048,
+        "gain": 0.11,
+        "start": 0.3,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.62,
+      "room": 0.05,
+      "gain": 0.24
+    }
+  },
+  {
+    "version": 1,
+    "id": "fishing_catch_commit",
+    "name": "鱼获 · 湿触回执",
+    "category": "世界事件",
+    "material": "木",
+    "description": "水滴+鱼篓木底湿触，短清晰回执",
+    "seed": 93194,
+    "variantSeeds": [
+      93194,
+      153318
+    ],
+    "duration": 0.262,
+    "modules": [
+      {
+        "type": "noise",
+        "duration": 0.13,
+        "gain": 0.28,
+        "cutoff": 2600,
+        "start": 0,
+        "decay": 5,
+        "attack": 0.004
+      },
+      {
+        "type": "tone",
+        "freq": 1080,
+        "endFreq": 510,
+        "duration": 0.088,
+        "gain": 0.16,
+        "start": 0,
+        "decay": 9,
+        "attack": 0.006
+      },
+      {
+        "type": "modal",
+        "freq": 280,
+        "duration": 0.14,
+        "gain": 0.44,
+        "start": 0.09,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "noise",
+        "duration": 0.09,
+        "gain": 0.14,
+        "cutoff": 900,
+        "start": 0.16,
+        "decay": 5,
+        "attack": 0.004
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.62,
+      "room": 0.12,
+      "gain": 0.31
+    }
+  },
+  {
+    "version": 1,
+    "id": "fishing_escape",
+    "name": "脱钩 · 水面释线",
+    "category": "世界事件",
+    "material": "悬浮",
+    "description": "水面轻扑+绳张力释放，不失败惩罚旋律",
+    "seed": 93297,
+    "variantSeeds": [
+      93297,
+      153425
+    ],
+    "duration": 0.222,
+    "modules": [
+      {
+        "type": "noise",
+        "duration": 0.21,
+        "gain": 0.31,
+        "cutoff": 2300,
+        "start": 0,
+        "decay": 5,
+        "attack": 0.004
+      },
+      {
+        "type": "tone",
+        "freq": 760,
+        "endFreq": 210,
+        "duration": 0.16,
+        "gain": 0.17,
+        "start": 0,
+        "decay": 9,
+        "attack": 0.006
+      },
+      {
+        "type": "noise",
+        "duration": 0.085,
+        "gain": 0.12,
+        "cutoff": 4200,
+        "start": 0.1,
+        "decay": 5,
+        "attack": 0.004
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.5,
+      "room": 0.12,
+      "gain": 0.24
+    }
+  },
+  {
+    "version": 1,
+    "id": "route_departure_accepted",
+    "name": "出发 · 整备前移",
+    "category": "世界事件",
+    "material": "木",
+    "description": "皮革整备扣+轻空气前移",
+    "seed": 93400,
+    "variantSeeds": [
+      93400,
+      153532
+    ],
+    "duration": 0.342,
+    "modules": [
+      {
+        "type": "noise",
+        "duration": 0.13,
+        "gain": 0.22,
+        "cutoff": 1050,
+        "start": 0,
+        "decay": 5,
+        "attack": 0.004
+      },
+      {
+        "type": "modal",
+        "freq": 370,
+        "duration": 0.11,
+        "gain": 0.35,
+        "start": 0.035,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 1680,
+        "duration": 0.095,
+        "gain": 0.11,
+        "start": 0.07,
+        "ratios": [
+          1,
+          2.013,
+          2.756,
+          4.087
+        ],
+        "weights": [
+          0.6,
+          0.23,
+          0.1,
+          0.04
+        ],
+        "damping": [
+          10,
+          16,
+          23,
+          35
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "tone",
+        "freq": 420,
+        "endFreq": 650,
+        "duration": 0.22,
+        "gain": 0.13,
+        "start": 0.09,
+        "decay": 9,
+        "attack": 0.006
+      },
+      {
+        "type": "noise",
+        "duration": 0.23,
+        "gain": 0.13,
+        "cutoff": 3100,
+        "start": 0.1,
+        "decay": 5,
+        "attack": 0.004
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.62,
+      "room": 0.15,
+      "gain": 0.27
+    }
+  },
+  {
+    "version": 1,
+    "id": "route_path_blocked",
+    "name": "阻路 · 碎石滑停",
+    "category": "世界事件",
+    "material": "石",
+    "description": "碎石短滑停+低木点，与战斗危险区分",
+    "seed": 93503,
+    "variantSeeds": [
+      93503,
+      153639
+    ],
+    "duration": 0.257,
+    "modules": [
+      {
+        "type": "noise",
+        "duration": 0.17,
+        "gain": 0.26,
+        "cutoff": 2600,
+        "start": 0,
+        "decay": 5,
+        "attack": 0.004
+      },
+      {
+        "type": "modal",
+        "freq": 205,
+        "duration": 0.18,
+        "gain": 0.4,
+        "start": 0.065,
+        "ratios": [
+          1,
+          1.43,
+          2.37,
+          3.81
+        ],
+        "weights": [
+          0.66,
+          0.22,
+          0.08,
+          0.025
+        ],
+        "damping": [
+          20,
+          31,
+          47,
+          66
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 290,
+        "duration": 0.09,
+        "gain": 0.25,
+        "start": 0.13,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.62,
+      "room": 0.07,
+      "gain": 0.28
+    }
+  },
+  {
+    "version": 1,
+    "id": "world_safety_interrupt",
+    "name": "避险 · 低压定向",
+    "category": "世界事件",
+    "material": "石",
+    "description": "低空气压力+短木/金属定向警示，不报警循环",
+    "seed": 93606,
+    "variantSeeds": [
+      93606,
+      153746
+    ],
+    "duration": 0.402,
+    "modules": [
+      {
+        "type": "noise",
+        "duration": 0.31,
+        "gain": 0.27,
+        "cutoff": 720,
+        "start": 0,
+        "decay": 5,
+        "attack": 0.004
+      },
+      {
+        "type": "modal",
+        "freq": 135,
+        "duration": 0.28,
+        "gain": 0.45,
+        "start": 0,
+        "ratios": [
+          1,
+          1.43,
+          2.37,
+          3.81
+        ],
+        "weights": [
+          0.66,
+          0.22,
+          0.08,
+          0.025
+        ],
+        "damping": [
+          20,
+          31,
+          47,
+          66
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 430,
+        "duration": 0.1,
+        "gain": 0.27,
+        "start": 0.13,
+        "ratios": [
+          1,
+          2.76,
+          5.4
+        ],
+        "weights": [
+          0.72,
+          0.19,
+          0.05
+        ],
+        "damping": [
+          24,
+          45,
+          70
+        ],
+        "attack": 0.002
+      },
+      {
+        "type": "modal",
+        "freq": 810,
+        "duration": 0.17,
+        "gain": 0.17,
+        "start": 0.22,
+        "ratios": [
+          1,
+          2.013,
+          2.756,
+          4.087
+        ],
+        "weights": [
+          0.6,
+          0.23,
+          0.1,
+          0.04
+        ],
+        "damping": [
+          10,
+          16,
+          23,
+          35
+        ],
+        "attack": 0.002
+      }
+    ],
+    "global": {
+      "pitch": 0,
+      "stretch": 1,
+      "softness": 0.62,
+      "room": 0.16,
+      "gain": 0.32
+    }
+  }
+]
