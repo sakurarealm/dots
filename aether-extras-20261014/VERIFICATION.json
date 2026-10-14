@@ -1,0 +1,21 @@
+{
+  "verify_only_no_write": "PASS",
+  "isolated_restore_all_hashes": 993,
+  "idempotent": "PASS",
+  "traversal": "PASS",
+  "absolute": "PASS",
+  "duplicate": "PASS",
+  "archive_symlink": "PASS",
+  "corrupt_chunk": "PASS",
+  "overwrite_prevalidate": "PASS",
+  "destination_symlink": "PASS",
+  "elapsed_seconds": 3.993,
+  "peak_rss_kib": 18008,
+  "deterministic_rebuild": "PASS",
+  "archive_sha256": "c7919b26be0823b800079eae87f0fa640ad9b51e22d8e4380d1a6d82afe8b1b2",
+  "uncompressed_bytes": 176568538,
+  "archive_bytes": 96271113,
+  "chunk_count": 13,
+  "maximum_chunk_bytes": 8000000,
+  "scope": "Offline byte and restore/security checks only; no Unity or runtime test."
+}
