@@ -1,0 +1,122 @@
+[
+  {
+    "file": "mouth-oblique-r02.png",
+    "inputSha256": "7480bca515e28f319706498f87971599381a927b3ed1913fa28ce3bb549b178c",
+    "camera": {
+      "name": "mouth-oblique",
+      "location": [
+        0.12,
+        -0.32,
+        1.38
+      ],
+      "rotation": [
+        2.0708436965942383,
+        1.4490872501937702e-08,
+        -0.6202495694160461
+      ],
+      "scale": 0.18
+    },
+    "hiddenGeometry": false,
+    "sha256": "1f1cae3dcd1b51d03d587ddf1290f42e442556c75fe3fd050f9e38e79a063a05"
+  },
+  {
+    "file": "mouth-axial-r02.png",
+    "inputSha256": "7480bca515e28f319706498f87971599381a927b3ed1913fa28ce3bb549b178c",
+    "camera": {
+      "name": "mouth-axial",
+      "location": [
+        0.37,
+        0.03,
+        1.42
+      ],
+      "rotation": [
+        8.742277657347586e-08,
+        3.1415927410125732,
+        -8.742277657347586e-08
+      ],
+      "scale": 0.11
+    },
+    "hiddenGeometry": false,
+    "sha256": "b461dbc0b4b0ff19880e902be75408f201e107f5f473de0a8660503cc867c4d5"
+  },
+  {
+    "file": "front-upper-r03.png",
+    "inputSha256": "b25bf2094dec3f155347d5625eb5a7eee92ffa050195cddf603846d3fdb05b5c",
+    "camera": {
+      "name": "front-upper",
+      "location": [
+        3.2414000034332275,
+        -5.118000030517578,
+        4.947399616241455
+      ],
+      "rotation": [
+        0.9764593839645386,
+        2.7427461191109614e-08,
+        0.5645694136619568
+      ],
+      "scale": 2.7790350914001465
+    },
+    "hiddenGeometry": false,
+    "sha256": "e04c520a2d3051d566cd1fa5f9c9028aa7c55268995c94f1b016550e3fd59ffa"
+  },
+  {
+    "file": "front-lower-side-r03.png",
+    "inputSha256": "b25bf2094dec3f155347d5625eb5a7eee92ffa050195cddf603846d3fdb05b5c",
+    "camera": {
+      "name": "front-lower-side",
+      "location": [
+        -4.4355998039245605,
+        -5.118000030517578,
+        0.4265000522136688
+      ],
+      "rotation": [
+        1.6336873769760132,
+        -1.3319389324806252e-07,
+        -0.7140907049179077
+      ],
+      "scale": 2.2891533374786377
+    },
+    "hiddenGeometry": false,
+    "sha256": "94aa9d7426ef75c5a1b9bbdd5bb620ea3f7bc940eddfa316fe2dbdcaa21171ca"
+  },
+  {
+    "file": "mouth-oblique-r03.png",
+    "inputSha256": "b25bf2094dec3f155347d5625eb5a7eee92ffa050195cddf603846d3fdb05b5c",
+    "camera": {
+      "name": "mouth-oblique",
+      "location": [
+        0.12,
+        -0.32,
+        1.38
+      ],
+      "rotation": [
+        2.0708436965942383,
+        1.4490872501937702e-08,
+        -0.6202495694160461
+      ],
+      "scale": 0.18
+    },
+    "hiddenGeometry": false,
+    "sha256": "526c5ffbdea0d4108096008d7390c1fb4b89be28887c608f9853f13d984dbbc0"
+  },
+  {
+    "file": "mouth-axial-r03.png",
+    "inputSha256": "b25bf2094dec3f155347d5625eb5a7eee92ffa050195cddf603846d3fdb05b5c",
+    "camera": {
+      "name": "mouth-axial",
+      "location": [
+        0.37,
+        0.03,
+        1.42
+      ],
+      "rotation": [
+        8.742277657347586e-08,
+        3.1415927410125732,
+        -8.742277657347586e-08
+      ],
+      "scale": 0.11
+    },
+    "hiddenGeometry": false,
+    "sha256": "e74019465593881c4f46cc17d39a1f9a95578283d6eda2ad1750cb66ade883ee"
+  }
+]

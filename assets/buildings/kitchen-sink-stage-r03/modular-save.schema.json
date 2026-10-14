@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Kitchen modular visual save proposal; no game integration",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "familyId",
+    "coreEntityId",
+    "coreRegistryId",
+    "corePrefabGuid",
+    "businessLevel",
+    "visualStage",
+    "moduleManifest",
+    "bindings",
+    "units",
+    "retainedPlayerDeletionIds",
+    "unresolvedAssetInstances"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "kitchen-modular-save/0.1-proposal"
+    },
+    "familyId": {
+      "const": "restaurant"
+    },
+    "coreRegistryId": {
+      "const": "diner"
+    },
+    "coreEntityId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "corePrefabGuid": {
+      "const": "7bc4756a114018d469a92c21c38754ee"
+    },
+    "businessLevel": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "visualStage": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "moduleManifest": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "instanceId",
+          "moduleTypeId",
+          "assetRevision",
+          "localMatrix",
+          "materialOverrides",
+          "connections",
+          "owner",
+          "playerEdited",
+          "deletedByPlayer"
+        ],
+        "properties": {
+          "instanceId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "moduleTypeId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "assetRevision": {
+            "type": "string"
+          },
+          "localMatrix": {
+            "type": "array",
+            "minItems": 16,
+            "maxItems": 16,
+            "items": {
+              "type": "number"
+            }
+          },
+          "materialOverrides": {
+            "type": "object"
+          },
+          "connections": {
+            "type": "array"
+          },
+          "owner": {
+            "enum": [
+              "template",
+              "player"
+            ]
+          },
+          "playerEdited": {
+            "type": "boolean"
+          },
+          "deletedByPlayer": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "bindings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "bindingId",
+          "visualInstanceId",
+          "targetEntityId",
+          "role",
+          "ownsBusinessState",
+          "interactionAnchorMatrix"
+        ],
+        "properties": {
+          "targetEntityId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "ownsBusinessState": {
+            "const": false
+          },
+          "interactionAnchorMatrix": {
+            "type": "array",
+            "minItems": 16,
+            "maxItems": 16,
+            "items": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "units": {
+      "type": "object"
+    }
+  }
+}

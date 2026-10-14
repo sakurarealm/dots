@@ -1,0 +1,164 @@
+{
+  "checks": [
+    {
+      "revision": "r02",
+      "inputSha256": "7480bca515e28f319706498f87971599381a927b3ed1913fa28ce3bb549b178c",
+      "boundsMin": [
+        -0.6600000262260437,
+        -0.38999998569488525,
+        0.0
+      ],
+      "boundsMax": [
+        0.6600000262260437,
+        0.38999998569488525,
+        1.7059999704360962
+      ],
+      "rays": [
+        {
+          "name": "outlet_center_up",
+          "hit": true,
+          "locationSourceZUp": [
+            0.3700000047683716,
+            0.029999999329447746,
+            1.590000033378601
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -0.9999999403953552
+          ],
+          "faceIndex": 1705
+        },
+        {
+          "name": "rim_up",
+          "hit": true,
+          "locationSourceZUp": [
+            0.37950000166893005,
+            0.029999999329447746,
+            1.590000033378601
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -0.9999999403953552
+          ],
+          "faceIndex": 1704
+        },
+        {
+          "name": "inner_wall_positive_x",
+          "hit": true,
+          "locationSourceZUp": [
+            0.3960000276565552,
+            0.029999999329447746,
+            1.6100000143051147
+          ],
+          "normal": [
+            1.0,
+            0.0,
+            -0.0
+          ],
+          "faceIndex": 1706
+        },
+        {
+          "name": "inner_wall_negative_x",
+          "hit": true,
+          "locationSourceZUp": [
+            0.343999981880188,
+            0.029999999329447746,
+            1.6100000143051147
+          ],
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "faceIndex": 1702
+        }
+      ],
+      "triangles": 1996,
+      "nearZeroTriangleAreasBelow1e-12": 32
+    },
+    {
+      "revision": "r03",
+      "inputSha256": "b25bf2094dec3f155347d5625eb5a7eee92ffa050195cddf603846d3fdb05b5c",
+      "boundsMin": [
+        -0.6600000262260437,
+        -0.38999998569488525,
+        0.0
+      ],
+      "boundsMax": [
+        0.6600000262260437,
+        0.38999998569488525,
+        1.7059999704360962
+      ],
+      "rays": [
+        {
+          "name": "outlet_center_up",
+          "hit": true,
+          "locationSourceZUp": [
+            0.3700000047683716,
+            0.029999999329447746,
+            1.6449999809265137
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "faceIndex": 2011
+        },
+        {
+          "name": "rim_up",
+          "hit": true,
+          "locationSourceZUp": [
+            0.37950000166893005,
+            0.029999999329447746,
+            1.590000033378601
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "faceIndex": 1998
+        },
+        {
+          "name": "inner_wall_positive_x",
+          "hit": true,
+          "locationSourceZUp": [
+            0.3779999911785126,
+            0.029999999329447746,
+            1.6100000143051147
+          ],
+          "normal": [
+            -0.9999999403953552,
+            0.0,
+            0.0
+          ],
+          "faceIndex": 2000
+        },
+        {
+          "name": "inner_wall_negative_x",
+          "hit": true,
+          "locationSourceZUp": [
+            0.3620000183582306,
+            0.029999999329447746,
+            1.6100000143051147
+          ],
+          "normal": [
+            0.9999999403953552,
+            0.0,
+            0.0
+          ],
+          "faceIndex": 2008
+        }
+      ],
+      "triangles": 2012,
+      "nearZeroTriangleAreasBelow1e-12": 32
+    }
+  ],
+  "boundsExact": true,
+  "originalBottomCapReplacedByRealCavity": true,
+  "centerRayCavityDepthMetres": 0.0549999475479126,
+  "fluidSystemValidated": false
+}

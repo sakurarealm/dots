@@ -1,0 +1,187 @@
+[
+  {
+    "stage": "L1",
+    "nodeIndex": 58,
+    "meshIndex": 22,
+    "instanceId": "station.wash",
+    "node": {
+      "extras": {
+        "moduleTypeId": "kitchen.sink",
+        "instanceId": "station.wash"
+      },
+      "mesh": 22,
+      "name": "station.wash",
+      "rotation": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "translation": [
+        0.699999988079071,
+        0,
+        -3.359999895095825
+      ]
+    },
+    "sourceSha256": "1488642880c5fd826468b6cefca743be16883950eba87241e37e3e4339500205",
+    "outputSha256": "69701f9e728e0aecc0964de8d40b0cb5dc0de1cba8917f254cada765a38df5db",
+    "originalBinaryPrefixExact": true,
+    "allNodesExact": true,
+    "allOtherMeshesExact": true,
+    "allOriginalAccessorsViewsExact": true,
+    "materialsTexturesImagesExact": true,
+    "allOtherJSONSectionsExact": true,
+    "sinkMatchesApprovedOriginalGeometry": true,
+    "addedTriangles": 18,
+    "netTriangleChange": 16,
+    "stageContractByteIdentical": true
+  },
+  {
+    "stage": "L2",
+    "nodeIndex": 70,
+    "meshIndex": 24,
+    "instanceId": "station.wash",
+    "node": {
+      "extras": {
+        "moduleTypeId": "kitchen.sink",
+        "instanceId": "station.wash"
+      },
+      "mesh": 24,
+      "name": "station.wash",
+      "rotation": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "translation": [
+        0.699999988079071,
+        0,
+        -3.359999895095825
+      ]
+    },
+    "sourceSha256": "d892ab543d7d0886ae2d7f72fb6cc798ccfb25145d65e6de98e001d658f4706b",
+    "outputSha256": "152b4ace9cfe7e0bbc036059995422bfb2ea0eac512b021b28c1ad84b613d6e1",
+    "originalBinaryPrefixExact": true,
+    "allNodesExact": true,
+    "allOtherMeshesExact": true,
+    "allOriginalAccessorsViewsExact": true,
+    "materialsTexturesImagesExact": true,
+    "allOtherJSONSectionsExact": true,
+    "sinkMatchesApprovedOriginalGeometry": true,
+    "addedTriangles": 18,
+    "netTriangleChange": 16,
+    "stageContractByteIdentical": true
+  },
+  {
+    "stage": "L3",
+    "nodeIndex": 80,
+    "meshIndex": 25,
+    "instanceId": "station.wash",
+    "node": {
+      "extras": {
+        "moduleTypeId": "kitchen.sink",
+        "instanceId": "station.wash"
+      },
+      "mesh": 25,
+      "name": "station.wash",
+      "rotation": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "translation": [
+        0.699999988079071,
+        0,
+        -3.359999895095825
+      ]
+    },
+    "sourceSha256": "a98a10ff336ac9fe04cb63921dc29165696ffb9f0806bd7782ef6f9c169a20ab",
+    "outputSha256": "f4647650f4b4729f4475c1abb75d2e7c305405cbcdff440dbfa47fb64686e004",
+    "originalBinaryPrefixExact": true,
+    "allNodesExact": true,
+    "allOtherMeshesExact": true,
+    "allOriginalAccessorsViewsExact": true,
+    "materialsTexturesImagesExact": true,
+    "allOtherJSONSectionsExact": true,
+    "sinkMatchesApprovedOriginalGeometry": true,
+    "addedTriangles": 18,
+    "netTriangleChange": 16,
+    "stageContractByteIdentical": true
+  },
+  {
+    "stage": "L4",
+    "nodeIndex": 96,
+    "meshIndex": 26,
+    "instanceId": "station.wash",
+    "node": {
+      "extras": {
+        "moduleTypeId": "kitchen.sink",
+        "instanceId": "station.wash"
+      },
+      "mesh": 26,
+      "name": "station.wash",
+      "rotation": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "translation": [
+        0.699999988079071,
+        0,
+        -3.359999895095825
+      ]
+    },
+    "sourceSha256": "e408b1979a34280175ac2136a5a513276c20d28f6c3eb2679f7be2e45e55b3ad",
+    "outputSha256": "e4dbcd6635b747d478fbea10759a9e6e2f6ea008993836cc7af92820edcad345",
+    "originalBinaryPrefixExact": true,
+    "allNodesExact": true,
+    "allOtherMeshesExact": true,
+    "allOriginalAccessorsViewsExact": true,
+    "materialsTexturesImagesExact": true,
+    "allOtherJSONSectionsExact": true,
+    "sinkMatchesApprovedOriginalGeometry": true,
+    "addedTriangles": 18,
+    "netTriangleChange": 16,
+    "stageContractByteIdentical": true
+  },
+  {
+    "stage": "L5",
+    "nodeIndex": 106,
+    "meshIndex": 27,
+    "instanceId": "station.wash",
+    "node": {
+      "extras": {
+        "moduleTypeId": "kitchen.sink",
+        "instanceId": "station.wash"
+      },
+      "mesh": 27,
+      "name": "station.wash",
+      "rotation": [
+        0,
+        0.7071068286895752,
+        0,
+        0.7071068286895752
+      ],
+      "translation": [
+        0.699999988079071,
+        0,
+        -3.359999895095825
+      ]
+    },
+    "sourceSha256": "114b26b2df273a88cfdc6c2e543448428b2d9e9e83ac8c2a51989f79fdce84ea",
+    "outputSha256": "38ce075fc23cb9ebd5b48c0409f1fdd1eb28e7ecc2ad4078a59e58cb82fdfefc",
+    "originalBinaryPrefixExact": true,
+    "allNodesExact": true,
+    "allOtherMeshesExact": true,
+    "allOriginalAccessorsViewsExact": true,
+    "materialsTexturesImagesExact": true,
+    "allOtherJSONSectionsExact": true,
+    "sinkMatchesApprovedOriginalGeometry": true,
+    "addedTriangles": 18,
+    "netTriangleChange": 16,
+    "stageContractByteIdentical": true
+  }
+]

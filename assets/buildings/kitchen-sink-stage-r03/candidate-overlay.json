@@ -1,0 +1,8 @@
+{
+  "scope": "offline stage visualization candidate only; not Unity/runtime integration",
+  "moduleId": "kitchen.sink",
+  "overlayGeometrySha256": "b25bf2094dec3f155347d5625eb5a7eee92ffa050195cddf603846d3fdb05b5c",
+  "baseCatalogAndStageContractsRetainedVerbatim": true,
+  "baseCatalogGeometryHashIntentionallyDescribesOriginalModule": "7480bca515e28f319706498f87971599381a927b3ed1913fa28ce3bb549b178c",
+  "note": "Use this overlay only for offline candidate inspection. The unchanged base catalog is NOT a release manifest for the revised geometry."
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "file": "L5-mouth-close-r02.png",
+    "sourceSha256": "4218ed2d1550d859d04e21968a39c06ae697473d31507ce975c9113a5554a14f",
+    "deliverySha256": "ec835e4bc62d3bac80066c97757a619418463b51ce3e6a8f3b4774ca2f83131e",
+    "IDATBytesUnchanged": true
+  },
+  {
+    "file": "L5-installation-r03.png",
+    "sourceSha256": "f1c15d2ce609fd1ad75ad6cbef07cd9709c31b67b23b3bbf24eda5f0be4384c4",
+    "deliverySha256": "411f678daa3497425cd30bf4624bbc04d13c380ca84b6d97c79ee2f0cc1cc47a",
+    "IDATBytesUnchanged": true
+  },
+  {
+    "file": "L2-installation-r03.png",
+    "sourceSha256": "7ae91003d99fd093397a0840704fda734b7549378e813dd088561e72adae07f2",
+    "deliverySha256": "8ee9706ae645020fccedeb84388d51836610b4aaf453e5d566d030dd579093bc",
+    "IDATBytesUnchanged": true
+  },
+  {
+    "file": "L1-installation-r03.png",
+    "sourceSha256": "28d0600b337560b2a14712cd20a8e7854519d0d225680a4710903679bfbd643c",
+    "deliverySha256": "0c846dfc72423b4e360b83dcf42da892b4813ad45dcca6b316467c083892c2ac",
+    "IDATBytesUnchanged": true
+  },
+  {
+    "file": "L1-mouth-close-r03.png",
+    "sourceSha256": "a8e5da369f8817da6cf75a15c70dc7700c7ee4a1377a0aa53588bf0abb7344d5",
+    "deliverySha256": "e9eb4debc38eb41266f0d03d928683ebd2ceb63abc1e9085a3817cc257afcadc",
+    "IDATBytesUnchanged": true
+  },
+  {
+    "file": "L3-installation-r03.png",
+    "sourceSha256": "da6213b9f9c2c35326513142a8f5d65b8fc2cfff7413a3c27517264a7f54e3f4",
+    "deliverySha256": "1234b5dd82bd36fc1b90d2929d80bdb9d894257a402e273439ac9bd2cb1ef316",
+    "IDATBytesUnchanged": true
+  },
+  {
+    "file": "L5-installation-r02.png",
+    "sourceSha256": "020d7008e998e9d1fb465902d722871f0294bdaee1effe7f2520bbd304b5ed75",
+    "deliverySha256": "941de1f92eb9d3a001bfde3d30b7baccf9a0d30fb40108ec3eeb3209f585191c",
+    "IDATBytesUnchanged": true
+  },
+  {
+    "file": "L1-mouth-close-r02.png",
+    "sourceSha256": "a0920476ab9935133b7f92ecf227c881e64b1a6bb40479c67b47f841dd799fbb",
+    "deliverySha256": "28e6763aeaffac74a1042d8628f47fd730528c579e8c4468e155b89bd332f510",
+    "IDATBytesUnchanged": true
+  },
+  {
+    "file": "L1-installation-r02.png",
+    "sourceSha256": "25a3eac5b6390760b6d8c2f41a2286dc9e67b1e3530a39ecbcff27565bce8567",
+    "deliverySha256": "699a3ae7bdc5e0d4d4ee0f098e5618caf51b895d19d336aeadb3d68f7eed9c07",
+    "IDATBytesUnchanged": true
+  },
+  {
+    "file": "L4-installation-r03.png",
+    "sourceSha256": "7b7abf11570373a203f149c4edac553feb9d297ba9936214a7ec0910d66edcaa",
+    "deliverySha256": "bd63273213ec71f3c1b0a503108c24083f2c4b86a4d2b456d3c0ed6e9e65319f",
+    "IDATBytesUnchanged": true
+  },
+  {
+    "file": "L5-mouth-close-r03.png",
+    "sourceSha256": "226b9312374689564cc245456e3951e09b66cdb2b3d912d1455e5c154b2fc6d9",
+    "deliverySha256": "c064af7529846e479c1364980e6c181f2afcc4264e651e5e9a9bd1b988e6a5d6",
+    "IDATBytesUnchanged": true
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "source": "rollback/kitchen.sink.glb",
+  "source_sha256": "7480bca515e28f319706498f87971599381a927b3ed1913fa28ce3bb549b178c",
+  "bbox_min_zup": [
+    -0.6600000262260437,
+    -0.38999998569488525,
+    0.0
+  ],
+  "bbox_max_zup": [
+    0.6600000262260437,
+    0.38999998569488525,
+    1.7059999704360962
+  ],
+  "all_imported_geometry_visible": true,
+  "geometry_or_materials_modified": false,
+  "module_isolated_not_in_building": "No neighboring structures shown; no placement/route conclusion",
+  "CPU_only": true,
+  "views": [
+    {
+      "image": "front-upper.png",
+      "sha256": "9a8e24898ceec2b96fe7978375be14a4628a71b604c48a565c6557e2566b4cd1",
+      "camera_location_zup": [
+        3.2414000034332275,
+        -5.118000030517578,
+        4.947399616241455
+      ],
+      "rotation_euler": [
+        0.9764593839645386,
+        2.7427461191109614e-08,
+        0.5645694136619568
+      ],
+      "ortho_scale": 2.7790350914001465
+    },
+    {
+      "image": "front-lower-side.png",
+      "sha256": "8df4bd4ad510b98423b2928b07d41cc817f5160886ef95777f151a6602f41d84",
+      "camera_location_zup": [
+        -4.4355998039245605,
+        -5.118000030517578,
+        0.4265000522136688
+      ],
+      "rotation_euler": [
+        1.6336873769760132,
+        -1.3319389324806252e-07,
+        -0.7140907049179077
+      ],
+      "ortho_scale": 2.2891533374786377
+    }
+  ]
+}

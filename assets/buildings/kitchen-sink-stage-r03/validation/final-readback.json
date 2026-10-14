@@ -1,0 +1,61 @@
+{
+  "stages": [
+    {
+      "stage": "L1",
+      "sinkAllAttributeAndIndexBytesMatchReviewedR03Module": true,
+      "originalSourceUnchanged": true,
+      "sha256": "69701f9e728e0aecc0964de8d40b0cb5dc0de1cba8917f254cada765a38df5db"
+    },
+    {
+      "stage": "L2",
+      "sinkAllAttributeAndIndexBytesMatchReviewedR03Module": true,
+      "originalSourceUnchanged": true,
+      "sha256": "152b4ace9cfe7e0bbc036059995422bfb2ea0eac512b021b28c1ad84b613d6e1"
+    },
+    {
+      "stage": "L3",
+      "sinkAllAttributeAndIndexBytesMatchReviewedR03Module": true,
+      "originalSourceUnchanged": true,
+      "sha256": "f4647650f4b4729f4475c1abb75d2e7c305405cbcdff440dbfa47fb64686e004"
+    },
+    {
+      "stage": "L4",
+      "sinkAllAttributeAndIndexBytesMatchReviewedR03Module": true,
+      "originalSourceUnchanged": true,
+      "sha256": "e4dbcd6635b747d478fbea10759a9e6e2f6ea008993836cc7af92820edcad345"
+    },
+    {
+      "stage": "L5",
+      "sinkAllAttributeAndIndexBytesMatchReviewedR03Module": true,
+      "originalSourceUnchanged": true,
+      "sha256": "38ce075fc23cb9ebd5b48c0409f1fdd1eb28e7ecc2ad4078a59e58cb82fdfefc"
+    }
+  ],
+  "baseContractsUpgradeFilesTexturesByteIdentical": [
+    "module-catalog.json",
+    "stage-design-evidence.json",
+    "material-parameters.json",
+    "modular-save.schema.json",
+    "upgrades/L2-to-L3.json",
+    "upgrades/L4-to-L5.json",
+    "upgrades/L3-to-L4.json",
+    "upgrades/L1-to-L2.json",
+    "textures/limestone_rough.png",
+    "textures/burlap_rough.png",
+    "textures/terracotta_color.png",
+    "textures/oak_color.png",
+    "textures/burlap_color.png",
+    "textures/terracotta_rough.png",
+    "textures/fdd10df9a68502d0.png",
+    "textures/52fa8ce63eada5d0.png",
+    "textures/terracotta_normal.png",
+    "textures/burlap_normal.png",
+    "textures/limestone_normal.png",
+    "textures/oak_rough.png",
+    "textures/fd58d4a432499539.png",
+    "textures/oak_normal.png",
+    "textures/limestone_color.png",
+    "textures/8b0c4f2c010a07a5.png"
+  ],
+  "runtimeValidated": false
+}

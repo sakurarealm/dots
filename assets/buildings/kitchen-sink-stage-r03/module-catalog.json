@@ -1,0 +1,5539 @@
+[
+  {
+    "moduleTypeId": "floor.bay",
+    "assetRevision": "r01",
+    "geometryUri": "modules/floor.bay.glb",
+    "geometrySha256": "bf87b240bce3fe044afe22ef12ebcbe686ef40392241864ff8f2079af82baaa7",
+    "stableSelector": "floor.bay",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "Authored metre-scale origin at structural start / furniture footprint center; Blender Z-up converted to glTF Y-up",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      0.0,
+      -0.25999999046325684,
+      -3.2339999675750732
+    ],
+    "boundsMax": [
+      3.240000009536743,
+      0.0,
+      -0.006000012159347534
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "floor",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      },
+      {
+        "socketId": "east",
+        "kind": "floor",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          3.24,
+          0,
+          -1.62,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      },
+      {
+        "socketId": "west",
+        "kind": "floor",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          -1.62,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      },
+      {
+        "socketId": "north",
+        "kind": "floor",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1.62,
+          0,
+          -3.24,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      },
+      {
+        "socketId": "south",
+        "kind": "floor",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1.62,
+          0,
+          0,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      },
+      {
+        "socketId": "east.ramp",
+        "kind": "floor",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          3.24,
+          0,
+          -1.08,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      }
+    ],
+    "collisionProfile": "authored_proxy_pending_runtime_collision",
+    "interactionClearanceProfile": null,
+    "materialSlotIds": [
+      "Oak.005"
+    ],
+    "provenance": "Original procedural geometry; approved original room textures reused byte-identically. No commercial mesh extraction.",
+    "sourceOriginalModuleSha256": "bf87b240bce3fe044afe22ef12ebcbe686ef40392241864ff8f2079af82baaa7",
+    "reuse": "byte_identical_frozen_warehouse_module"
+  },
+  {
+    "moduleTypeId": "wall.window",
+    "assetRevision": "r01",
+    "geometryUri": "modules/wall.window.glb",
+    "geometrySha256": "3aa69eff042e38c63418427405b4aa562466ee8c2d906ad6fabc48de254ba3d7",
+    "stableSelector": "wall.window",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "Authored metre-scale origin at structural start / furniture footprint center; Blender Z-up converted to glTF Y-up",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      2.9802322387695312e-08,
+      2.9802322387695312e-08,
+      -0.12999999523162842
+    ],
+    "boundsMax": [
+      3.240000009536743,
+      3.240000009536743,
+      0.20000000298023224
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "wall",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      },
+      {
+        "socketId": "end",
+        "kind": "wall",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          3.24,
+          0,
+          0,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      },
+      {
+        "socketId": "top",
+        "kind": "wall",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1.62,
+          3.24,
+          0,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      }
+    ],
+    "collisionProfile": "authored_proxy_pending_runtime_collision",
+    "interactionClearanceProfile": null,
+    "materialSlotIds": [
+      "Limestone.005",
+      "Oak.027"
+    ],
+    "provenance": "Original procedural geometry; approved original room textures reused byte-identically. No commercial mesh extraction.",
+    "sourceOriginalModuleSha256": "3aa69eff042e38c63418427405b4aa562466ee8c2d906ad6fabc48de254ba3d7",
+    "reuse": "byte_identical_frozen_warehouse_module"
+  },
+  {
+    "moduleTypeId": "wall.solid",
+    "assetRevision": "r01",
+    "geometryUri": "modules/wall.solid.glb",
+    "geometrySha256": "6e74ff5de11149d35733592b3250f52bff3298d9bc641343acdd593d3531618f",
+    "stableSelector": "wall.solid",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "Authored metre-scale origin at structural start / furniture footprint center; Blender Z-up converted to glTF Y-up",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      2.9802322387695312e-08,
+      2.9802322387695312e-08,
+      -0.12999999523162842
+    ],
+    "boundsMax": [
+      3.240000009536743,
+      3.240000009536743,
+      0.14999999105930328
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "wall",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      },
+      {
+        "socketId": "end",
+        "kind": "wall",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          3.24,
+          0,
+          0,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      },
+      {
+        "socketId": "top",
+        "kind": "wall",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1.62,
+          3.24,
+          0,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      }
+    ],
+    "collisionProfile": "authored_proxy_pending_runtime_collision",
+    "interactionClearanceProfile": null,
+    "materialSlotIds": [
+      "Limestone.004",
+      "Oak.026"
+    ],
+    "provenance": "Original procedural geometry; approved original room textures reused byte-identically. No commercial mesh extraction.",
+    "sourceOriginalModuleSha256": "6e74ff5de11149d35733592b3250f52bff3298d9bc641343acdd593d3531618f",
+    "reuse": "byte_identical_frozen_warehouse_module"
+  },
+  {
+    "moduleTypeId": "wall.portal",
+    "assetRevision": "r01",
+    "geometryUri": "modules/wall.portal.glb",
+    "geometrySha256": "60d9f87f3affc0968d5068fa88d7ffd29c997c79343f18398e74c403018def37",
+    "stableSelector": "wall.portal",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "Authored metre-scale origin at structural start / furniture footprint center; Blender Z-up converted to glTF Y-up",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      2.9802322387695312e-08,
+      2.9802322387695312e-08,
+      -0.1599999964237213
+    ],
+    "boundsMax": [
+      3.240000009536743,
+      3.240000009536743,
+      0.1599999964237213
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "wall",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      },
+      {
+        "socketId": "end",
+        "kind": "wall",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          3.24,
+          0,
+          0,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      },
+      {
+        "socketId": "top",
+        "kind": "wall",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1.62,
+          3.24,
+          0,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      }
+    ],
+    "collisionProfile": "authored_proxy_pending_runtime_collision",
+    "interactionClearanceProfile": null,
+    "materialSlotIds": [
+      "Limestone.003",
+      "Oak.025"
+    ],
+    "provenance": "Original procedural geometry; approved original room textures reused byte-identically. No commercial mesh extraction.",
+    "sourceOriginalModuleSha256": "60d9f87f3affc0968d5068fa88d7ffd29c997c79343f18398e74c403018def37",
+    "reuse": "byte_identical_frozen_warehouse_module"
+  },
+  {
+    "moduleTypeId": "column",
+    "assetRevision": "r01",
+    "geometryUri": "modules/column.glb",
+    "geometrySha256": "d50a9d962d0a517bee43b87320809d632ccfc0d4362c836b23d1df216feab178",
+    "stableSelector": "column",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "Authored metre-scale origin at structural start / furniture footprint center; Blender Z-up converted to glTF Y-up",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.11999999731779099,
+      0.0,
+      -0.11999999731779099
+    ],
+    "boundsMax": [
+      0.11999999731779099,
+      3.240000009536743,
+      0.11999999731779099
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "structure",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      },
+      {
+        "socketId": "top",
+        "kind": "structure",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          3.24,
+          0,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      }
+    ],
+    "collisionProfile": "authored_proxy_pending_runtime_collision",
+    "interactionClearanceProfile": null,
+    "materialSlotIds": [
+      "Oak.002"
+    ],
+    "provenance": "Original procedural geometry; approved original room textures reused byte-identically. No commercial mesh extraction.",
+    "sourceOriginalModuleSha256": "d50a9d962d0a517bee43b87320809d632ccfc0d4362c836b23d1df216feab178",
+    "reuse": "byte_identical_frozen_warehouse_module"
+  },
+  {
+    "moduleTypeId": "door.leaf",
+    "assetRevision": "r01",
+    "geometryUri": "modules/door.leaf.glb",
+    "geometrySha256": "a2b4bf5d0cab2227b0e9156c7ffe01c3851ad9bcf2bfe8fb6d73b089fb38f5b7",
+    "stableSelector": "door.leaf",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "Authored metre-scale origin at structural start / furniture footprint center; Blender Z-up converted to glTF Y-up",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      0.0040000006556510925,
+      0.0,
+      -0.05000000074505806
+    ],
+    "boundsMax": [
+      1.0759999752044678,
+      2.5999999046325684,
+      0.05000000074505806
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "structure",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      }
+    ],
+    "collisionProfile": "authored_proxy_pending_runtime_collision",
+    "interactionClearanceProfile": null,
+    "materialSlotIds": [
+      "Oak.004"
+    ],
+    "provenance": "Original procedural geometry; approved original room textures reused byte-identically. No commercial mesh extraction.",
+    "sourceOriginalModuleSha256": "a2b4bf5d0cab2227b0e9156c7ffe01c3851ad9bcf2bfe8fb6d73b089fb38f5b7",
+    "reuse": "byte_identical_frozen_warehouse_module"
+  },
+  {
+    "moduleTypeId": "roof.shingled.half",
+    "assetRevision": "r01",
+    "geometryUri": "modules/roof.shingled.half.glb",
+    "geometrySha256": "f93a76feb79765c8b931ea5dcc671f9dd30d4c2a6a63ef672daeabebf3600db1",
+    "stableSelector": "roof.shingled.half",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "Authored metre-scale origin at structural start / furniture footprint center; Blender Z-up converted to glTF Y-up",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.14213597774505615,
+      -0.2116643786430359,
+      -3.2750000953674316
+    ],
+    "boundsMax": [
+      3.3821358680725098,
+      1.313405156135559,
+      0.03500032424926758
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "roof",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      },
+      {
+        "socketId": "eave.start",
+        "kind": "roof",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      },
+      {
+        "socketId": "eave.end",
+        "kind": "roof",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          -3.24,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      },
+      {
+        "socketId": "ridge.start",
+        "kind": "roof",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          3.24,
+          1.08,
+          0,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      },
+      {
+        "socketId": "ridge.end",
+        "kind": "roof",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          3.24,
+          1.08,
+          -3.24,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      }
+    ],
+    "collisionProfile": "authored_proxy_pending_runtime_collision",
+    "interactionClearanceProfile": null,
+    "materialSlotIds": [
+      "Oak.022",
+      "Slate lap r02 0",
+      "Slate lap r02 1",
+      "Slate lap r02 2",
+      "Slate lap r02 3"
+    ],
+    "provenance": "Original procedural geometry; approved original room textures reused byte-identically. No commercial mesh extraction.",
+    "sourceOriginalModuleSha256": "f93a76feb79765c8b931ea5dcc671f9dd30d4c2a6a63ef672daeabebf3600db1",
+    "reuse": "byte_identical_frozen_warehouse_module"
+  },
+  {
+    "moduleTypeId": "roof.gable",
+    "assetRevision": "r01",
+    "geometryUri": "modules/roof.gable.glb",
+    "geometrySha256": "58f54ed33dca2d2e3aeb261fc48d0b34fe1526114500f5afb94c086473b15d72",
+    "stableSelector": "roof.gable",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "Authored metre-scale origin at structural start / furniture footprint center; Blender Z-up converted to glTF Y-up",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.02055475115776062,
+      -0.09000000357627869,
+      -0.10999999940395355
+    ],
+    "boundsMax": [
+      6.50055456161499,
+      1.151151418685913,
+      0.12000000476837158
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "roof",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      }
+    ],
+    "collisionProfile": "authored_proxy_pending_runtime_collision",
+    "interactionClearanceProfile": null,
+    "materialSlotIds": [
+      "Indigo paint.002",
+      "Oak.020"
+    ],
+    "provenance": "Original procedural geometry; approved original room textures reused byte-identically. No commercial mesh extraction.",
+    "sourceOriginalModuleSha256": "58f54ed33dca2d2e3aeb261fc48d0b34fe1526114500f5afb94c086473b15d72",
+    "reuse": "byte_identical_frozen_warehouse_module"
+  },
+  {
+    "moduleTypeId": "roof.ridge",
+    "assetRevision": "r01",
+    "geometryUri": "modules/roof.ridge.glb",
+    "geometrySha256": "008520513bad02509c1dcd2ad85ee7d120a8dc3fca196e26e91d95de0709c248",
+    "stableSelector": "roof.ridge",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "Authored metre-scale origin at structural start / furniture footprint center; Blender Z-up converted to glTF Y-up",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.09000000357627869,
+      1.2799999713897705,
+      -3.2339999675750732
+    ],
+    "boundsMax": [
+      0.09000000357627869,
+      1.4200000762939453,
+      -0.006000041961669922
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "roof",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      }
+    ],
+    "collisionProfile": "authored_proxy_pending_runtime_collision",
+    "interactionClearanceProfile": null,
+    "materialSlotIds": [
+      "Weathered slate.001"
+    ],
+    "provenance": "Original procedural geometry; approved original room textures reused byte-identically. No commercial mesh extraction.",
+    "sourceOriginalModuleSha256": "008520513bad02509c1dcd2ad85ee7d120a8dc3fca196e26e91d95de0709c248",
+    "reuse": "byte_identical_frozen_warehouse_module"
+  },
+  {
+    "moduleTypeId": "roof.bay",
+    "assetRevision": "r01",
+    "geometryUri": "modules/roof.bay.glb",
+    "geometrySha256": "3e105842716f622f99215cfc53183c4fe60430153ce118ffc20fed2cc5116434",
+    "stableSelector": "roof.bay",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "Authored metre-scale origin at structural start / furniture footprint center; Blender Z-up converted to glTF Y-up",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.09000003337860107,
+      -0.14000000059604645,
+      -3.3450002670288086
+    ],
+    "boundsMax": [
+      3.3299999237060547,
+      0.20250001549720764,
+      0.0849999189376831
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "roof",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      },
+      {
+        "socketId": "east",
+        "kind": "roof",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          3.24,
+          0,
+          -1.62,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      },
+      {
+        "socketId": "west",
+        "kind": "roof",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          -1.62,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      },
+      {
+        "socketId": "north",
+        "kind": "roof",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1.62,
+          0,
+          -3.24,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      },
+      {
+        "socketId": "south",
+        "kind": "roof",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1.62,
+          0,
+          0,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      }
+    ],
+    "collisionProfile": "authored_proxy_pending_runtime_collision",
+    "interactionClearanceProfile": null,
+    "materialSlotIds": [
+      "Oak.019",
+      "Weathered slate"
+    ],
+    "provenance": "Original procedural geometry; approved original room textures reused byte-identically. No commercial mesh extraction.",
+    "sourceOriginalModuleSha256": "3e105842716f622f99215cfc53183c4fe60430153ce118ffc20fed2cc5116434",
+    "reuse": "byte_identical_frozen_warehouse_module"
+  },
+  {
+    "moduleTypeId": "foundation.pier",
+    "assetRevision": "r01",
+    "geometryUri": "modules/foundation.pier.glb",
+    "geometrySha256": "2b6a0a19af38aff863941fa0bff0c8e66d42b0ba7b4f702b3668f7a58ff6892d",
+    "stableSelector": "foundation.pier",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "Authored metre-scale origin at structural start / furniture footprint center; Blender Z-up converted to glTF Y-up",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.1899999976158142,
+      -0.36000001430511475,
+      -0.1899999976158142
+    ],
+    "boundsMax": [
+      0.1899999976158142,
+      -0.012000000104308128,
+      0.1899999976158142
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "structure",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      }
+    ],
+    "collisionProfile": "authored_proxy_pending_runtime_collision",
+    "interactionClearanceProfile": null,
+    "materialSlotIds": [
+      "Limestone.001"
+    ],
+    "provenance": "Original procedural geometry; approved original room textures reused byte-identically. No commercial mesh extraction.",
+    "sourceOriginalModuleSha256": "2b6a0a19af38aff863941fa0bff0c8e66d42b0ba7b4f702b3668f7a58ff6892d",
+    "reuse": "byte_identical_frozen_warehouse_module"
+  },
+  {
+    "moduleTypeId": "entry.step",
+    "assetRevision": "r01",
+    "geometryUri": "modules/entry.step.glb",
+    "geometrySha256": "4b4329f2c8bf8bf9de4b2e82ae14ac094eb9be1403a2b8d7e2ecad7150063234",
+    "stableSelector": "entry.step",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "Authored metre-scale origin at structural start / furniture footprint center; Blender Z-up converted to glTF Y-up",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      0.0,
+      -0.36000001430511475,
+      -0.5400000214576721
+    ],
+    "boundsMax": [
+      2.1600000858306885,
+      -0.18000000715255737,
+      -0.0
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "structure",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      }
+    ],
+    "collisionProfile": "authored_proxy_pending_runtime_collision",
+    "interactionClearanceProfile": null,
+    "materialSlotIds": [
+      "Limestone"
+    ],
+    "provenance": "Original procedural geometry; approved original room textures reused byte-identically. No commercial mesh extraction.",
+    "sourceOriginalModuleSha256": "4b4329f2c8bf8bf9de4b2e82ae14ac094eb9be1403a2b8d7e2ecad7150063234",
+    "reuse": "byte_identical_frozen_warehouse_module"
+  },
+  {
+    "moduleTypeId": "floor.porch",
+    "assetRevision": "r01",
+    "geometryUri": "modules/floor.porch.glb",
+    "geometrySha256": "c668f5be3a9a69361bd299cad8f0bde17b87e407cf1478728c464d078cbb5e80",
+    "stableSelector": "floor.porch",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "Authored metre-scale origin at structural start / furniture footprint center; Blender Z-up converted to glTF Y-up",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      0.0,
+      -0.25999999046325684,
+      -1.0740000009536743
+    ],
+    "boundsMax": [
+      4.320000171661377,
+      0.0,
+      -0.006000012159347534
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "floor",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      },
+      {
+        "socketId": "north.stair",
+        "kind": "floor",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0.54,
+          0,
+          -1.08,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      },
+      {
+        "socketId": "north.door",
+        "kind": "floor",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          2.7,
+          0,
+          -1.08,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      }
+    ],
+    "collisionProfile": "authored_proxy_pending_runtime_collision",
+    "interactionClearanceProfile": null,
+    "materialSlotIds": [
+      "Oak.006"
+    ],
+    "provenance": "Original procedural geometry; approved original room textures reused byte-identically. No commercial mesh extraction.",
+    "sourceOriginalModuleSha256": "c668f5be3a9a69361bd299cad8f0bde17b87e407cf1478728c464d078cbb5e80",
+    "reuse": "byte_identical_frozen_warehouse_module"
+  },
+  {
+    "moduleTypeId": "canopy.bay",
+    "assetRevision": "r01",
+    "geometryUri": "modules/canopy.bay.glb",
+    "geometrySha256": "4ae48d818283c011d68eba85c69d080727f482a54cc59d93feaff8d98740287e",
+    "stableSelector": "canopy.bay",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "Authored metre-scale origin at structural start / furniture footprint center; Blender Z-up converted to glTF Y-up",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.12000000476837158,
+      -0.22518379986286163,
+      -3.3600001335144043
+    ],
+    "boundsMax": [
+      3.3600001335144043,
+      0.013993661850690842,
+      0.12000000476837158
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "structure",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      },
+      {
+        "socketId": "east",
+        "kind": "structure",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          3.24,
+          0,
+          -1.62,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      },
+      {
+        "socketId": "west",
+        "kind": "structure",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          -1.62,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      },
+      {
+        "socketId": "north",
+        "kind": "structure",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1.62,
+          0,
+          -3.24,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      },
+      {
+        "socketId": "south",
+        "kind": "structure",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1.62,
+          0,
+          0,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      }
+    ],
+    "collisionProfile": "authored_proxy_pending_runtime_collision",
+    "interactionClearanceProfile": null,
+    "materialSlotIds": [
+      "Burlap",
+      "Oak"
+    ],
+    "provenance": "Original procedural geometry; approved original room textures reused byte-identically. No commercial mesh extraction.",
+    "sourceOriginalModuleSha256": "4ae48d818283c011d68eba85c69d080727f482a54cc59d93feaff8d98740287e",
+    "reuse": "byte_identical_frozen_warehouse_module"
+  },
+  {
+    "moduleTypeId": "rail.unit",
+    "assetRevision": "r01",
+    "geometryUri": "modules/rail.unit.glb",
+    "geometrySha256": "d3a38f71f5a6c5850ca320e460dd865de77874529e9ba03c26937bd242ba2019",
+    "stableSelector": "rail.unit",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "Authored metre-scale origin at structural start / furniture footprint center; Blender Z-up converted to glTF Y-up",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.03750000149011612,
+      0.0,
+      -0.03750000149011612
+    ],
+    "boundsMax": [
+      1.1175000667572021,
+      1.0350000858306885,
+      0.03750000149011612
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "structure",
+        "compatibilityFamily": "warehouse-1080mm-v1",
+        "localMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_validated"
+      }
+    ],
+    "collisionProfile": "authored_proxy_pending_runtime_collision",
+    "interactionClearanceProfile": null,
+    "materialSlotIds": [
+      "Oak.018"
+    ],
+    "provenance": "Original procedural geometry; approved original room textures reused byte-identically. No commercial mesh extraction.",
+    "sourceOriginalModuleSha256": "d3a38f71f5a6c5850ca320e460dd865de77874529e9ba03c26937bd242ba2019",
+    "reuse": "byte_identical_frozen_warehouse_module"
+  },
+  {
+    "moduleTypeId": "wall.top.cap",
+    "assetRevision": "r01",
+    "geometryUri": "modules/wall.top.cap.glb",
+    "geometrySha256": "598f638bb62f56ea68d804ace99cf3cd49d49c7f8a4560b28013740a90f62b53",
+    "stableSelector": "wall.top.cap",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      0.0,
+      0.0,
+      -0.14499999582767487
+    ],
+    "boundsMax": [
+      3.240000009536743,
+      0.03999999910593033,
+      0.14499999582767487
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      },
+      {
+        "socketId": "end",
+        "kind": "structure",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          3.240000009536743,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_transform_only"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen Oak"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "column.service",
+    "assetRevision": "r01",
+    "geometryUri": "modules/column.service.glb",
+    "geometrySha256": "c876da1000ab7f594ecb48187824eacdee69d0cf501140b9d8fe36fa2492f93f",
+    "stableSelector": "column.service",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.11999999731779099,
+      0.0,
+      -0.11999999731779099
+    ],
+    "boundsMax": [
+      0.11999999731779099,
+      2.640000104904175,
+      0.11999999731779099
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      },
+      {
+        "socketId": "top",
+        "kind": "structure",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          2.640000104904175,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_transform_only"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen Oak"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "wall.service",
+    "assetRevision": "r01",
+    "geometryUri": "modules/wall.service.glb",
+    "geometrySha256": "fda97478f03b69855da621a899c87b7a45f1c1eda281385352e193c59266592b",
+    "stableSelector": "wall.service",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      0.0,
+      -1.1920928955078125e-07,
+      -0.12999999523162842
+    ],
+    "boundsMax": [
+      3.240000009536743,
+      3.2400002479553223,
+      0.18000000715255737
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      },
+      {
+        "socketId": "end",
+        "kind": "structure",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          3.240000009536743,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_transform_only"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen Limestone",
+      "Kitchen Oak"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "kitchen.service.shelf",
+    "assetRevision": "r01",
+    "geometryUri": "modules/kitchen.service.shelf.glb",
+    "geometrySha256": "2e743af175b3f25bbafb1d5c50d2ec0d79dfa29bb97ed0df2cbae3e32f7cc5fc",
+    "stableSelector": "kitchen.service.shelf",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -1.1299999952316284,
+      -0.5032898187637329,
+      -0.4099999964237213
+    ],
+    "boundsMax": [
+      1.1299999952316284,
+      0.12999999523162842,
+      0.4099999964237213
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      },
+      {
+        "socketId": "server",
+        "kind": "interaction",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          -0.9800000190734863,
+          -1.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_transform_only"
+      },
+      {
+        "socketId": "customer",
+        "kind": "interaction",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          -0.9800000190734863,
+          1.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_transform_only"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen Limestone",
+      "Kitchen Forged iron",
+      "Kitchen glazed cream"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "canopy.service",
+    "assetRevision": "r01",
+    "geometryUri": "modules/canopy.service.glb",
+    "geometrySha256": "c52357a656f394f58cb6c634148f3b19359cc4f48b443bd1e32fd61c50363c43",
+    "stableSelector": "canopy.service",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.12000000476837158,
+      -0.5774275064468384,
+      -1.1536192893981934
+    ],
+    "boundsMax": [
+      3.3600001335144043,
+      0.2565872073173523,
+      0.07361918687820435
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      },
+      {
+        "socketId": "front.left",
+        "kind": "structure",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_transform_only"
+      },
+      {
+        "socketId": "front.right",
+        "kind": "structure",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          3.240000009536743,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_transform_only"
+      },
+      {
+        "socketId": "wall.left",
+        "kind": "structure",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.18000000715255737,
+          -1.0800000429153442,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_transform_only"
+      },
+      {
+        "socketId": "wall.right",
+        "kind": "structure",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          3.240000009536743,
+          0.18000000715255737,
+          -1.0800000429153442,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_transform_only"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen Oak",
+      "Kitchen terracotta"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "kitchen.cutting",
+    "assetRevision": "r01",
+    "geometryUri": "modules/kitchen.cutting.glb",
+    "geometrySha256": "30c970930a9c0e58791263c5a5c367f05f639e2ef76f39c5f30f275a1173f5ef",
+    "stableSelector": "kitchen.cutting",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.6600000262260437,
+      0.0,
+      -0.38999998569488525
+    ],
+    "boundsMax": [
+      0.6600000262260437,
+      1.1100000143051147,
+      0.38999998569488525
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      },
+      {
+        "socketId": "operator",
+        "kind": "interaction",
+        "compatibilityFamily": "station-operator-proposal",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.059999942779541,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.36,
+          0,
+          -0.36
+        ],
+        "clearanceMax": [
+          0.36,
+          1.85,
+          0.36
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_proxy_not_game_runtime"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen Oak",
+      "Kitchen Forged iron",
+      "Kitchen raw produce"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "kitchen.plating",
+    "assetRevision": "r01",
+    "geometryUri": "modules/kitchen.plating.glb",
+    "geometrySha256": "148893bc6cc8093de8bcfa1418e5cc0e4933e97a89f35371c518a7629666cdf4",
+    "stableSelector": "kitchen.plating",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.6600000262260437,
+      0.0,
+      -0.38999998569488525
+    ],
+    "boundsMax": [
+      0.6600000262260437,
+      1.1649999618530273,
+      0.38999998569488525
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      },
+      {
+        "socketId": "operator",
+        "kind": "interaction",
+        "compatibilityFamily": "station-operator-proposal",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0499999523162842,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.36,
+          0,
+          -0.36
+        ],
+        "clearanceMax": [
+          0.36,
+          1.85,
+          0.36
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_proxy_not_game_runtime"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen Oak",
+      "Kitchen Limestone",
+      "Kitchen glazed cream"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "kitchen.return",
+    "assetRevision": "r01",
+    "geometryUri": "modules/kitchen.return.glb",
+    "geometrySha256": "7e179b94b52730205071691f665160bb9fbf00bd832dc88199c7f985fccf54e0",
+    "stableSelector": "kitchen.return",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.6600000262260437,
+      0.0,
+      -0.38999998569488525
+    ],
+    "boundsMax": [
+      0.6600000262260437,
+      1.125,
+      0.4240000247955322
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      },
+      {
+        "socketId": "operator",
+        "kind": "interaction",
+        "compatibilityFamily": "station-operator-proposal",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.059999942779541,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.36,
+          0,
+          -0.36
+        ],
+        "clearanceMax": [
+          0.36,
+          1.85,
+          0.36
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_proxy_not_game_runtime"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen Oak",
+      "Kitchen Limestone",
+      "Kitchen Forged iron",
+      "Kitchen glazed cream",
+      "Kitchen sage"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "kitchen.sink",
+    "assetRevision": "r01",
+    "geometryUri": "modules/kitchen.sink.glb",
+    "geometrySha256": "7480bca515e28f319706498f87971599381a927b3ed1913fa28ce3bb549b178c",
+    "stableSelector": "kitchen.sink",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.6600000262260437,
+      0.0,
+      -0.38999998569488525
+    ],
+    "boundsMax": [
+      0.6600000262260437,
+      1.7059999704360962,
+      0.38999998569488525
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      },
+      {
+        "socketId": "operator",
+        "kind": "interaction",
+        "compatibilityFamily": "station-operator-proposal",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.059999942779541,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.36,
+          0,
+          -0.36
+        ],
+        "clearanceMax": [
+          0.36,
+          1.85,
+          0.36
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_proxy_not_game_runtime"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen Oak",
+      "Kitchen Limestone",
+      "Kitchen Forged iron",
+      "Kitchen aged copper",
+      "Kitchen charcoal"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "kitchen.prep",
+    "assetRevision": "r01",
+    "geometryUri": "modules/kitchen.prep.glb",
+    "geometrySha256": "0a8448baa482edb0c2042e14fb17e09dfa846a70824576d0ca71048894d859c3",
+    "stableSelector": "kitchen.prep",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.6600000262260437,
+      0.0,
+      -0.38999998569488525
+    ],
+    "boundsMax": [
+      0.6600000262260437,
+      1.1439999341964722,
+      0.38999998569488525
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      },
+      {
+        "socketId": "operator",
+        "kind": "interaction",
+        "compatibilityFamily": "station-operator-proposal",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.059999942779541,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.36,
+          0,
+          -0.36
+        ],
+        "clearanceMax": [
+          0.36,
+          1.85,
+          0.36
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_proxy_not_game_runtime"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen Oak",
+      "Kitchen terracotta"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "kitchen.refinement",
+    "assetRevision": "r01",
+    "geometryUri": "modules/kitchen.refinement.glb",
+    "geometrySha256": "92d8039bf0734371cb1fde80d6149d4a2bca2e815b629ba76f75163bc8af9330",
+    "stableSelector": "kitchen.refinement",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.6600000262260437,
+      0.0,
+      -0.38999998569488525
+    ],
+    "boundsMax": [
+      0.6600000262260437,
+      1.2049999237060547,
+      0.38999998569488525
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      },
+      {
+        "socketId": "operator",
+        "kind": "interaction",
+        "compatibilityFamily": "station-operator-proposal",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0700000524520874,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.36,
+          0,
+          -0.36
+        ],
+        "clearanceMax": [
+          0.36,
+          1.85,
+          0.36
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_proxy_not_game_runtime"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen Oak",
+      "Kitchen terracotta",
+      "Kitchen raw produce"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "kitchen.pantry",
+    "assetRevision": "r01",
+    "geometryUri": "modules/kitchen.pantry.glb",
+    "geometrySha256": "a6be79a511c45d61841e1216a6e77b4b27edc6ca8bebcab517dd975684ee8432",
+    "stableSelector": "kitchen.pantry",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.6000000238418579,
+      0.0,
+      -0.3449999988079071
+    ],
+    "boundsMax": [
+      0.6000000834465027,
+      2.0999999046325684,
+      0.3449999988079071
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      },
+      {
+        "socketId": "operator",
+        "kind": "interaction",
+        "compatibilityFamily": "station-operator-proposal",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.9800000190734863,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.36,
+          0,
+          -0.36
+        ],
+        "clearanceMax": [
+          0.36,
+          1.85,
+          0.36
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_proxy_not_game_runtime"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen Oak",
+      "Kitchen terracotta",
+      "Kitchen Forged iron"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "kitchen.plate_rack",
+    "assetRevision": "r01",
+    "geometryUri": "modules/kitchen.plate_rack.glb",
+    "geometrySha256": "666a13aefebce2d23aa521b979e02efed40fb1d21cd7f8a1604638c3446b1d6a",
+    "stableSelector": "kitchen.plate_rack",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.5249999761581421,
+      0.0,
+      -0.32999998331069946
+    ],
+    "boundsMax": [
+      0.5249999761581421,
+      1.8650000095367432,
+      0.36500000953674316
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      },
+      {
+        "socketId": "operator",
+        "kind": "interaction",
+        "compatibilityFamily": "station-operator-proposal",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.9900000095367432,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.36,
+          0,
+          -0.36
+        ],
+        "clearanceMax": [
+          0.36,
+          1.85,
+          0.36
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_proxy_not_game_runtime"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen Oak",
+      "Kitchen glazed cream",
+      "Kitchen indigo"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "kitchen.stove",
+    "assetRevision": "r01",
+    "geometryUri": "modules/kitchen.stove.glb",
+    "geometrySha256": "ab74c632526ee53815c02ac41271ac034b071f3c6d360046c0e47d19ed324d05",
+    "stableSelector": "kitchen.stove",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.6899999976158142,
+      0.0,
+      -0.5
+    ],
+    "boundsMax": [
+      0.6899999976158142,
+      1.024999976158142,
+      0.5
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      },
+      {
+        "socketId": "operator",
+        "kind": "interaction",
+        "compatibilityFamily": "station-operator-proposal",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0700000524520874,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.36,
+          0,
+          -0.36
+        ],
+        "clearanceMax": [
+          0.36,
+          1.85,
+          0.36
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_proxy_not_game_runtime"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen Limestone",
+      "Kitchen charcoal",
+      "Kitchen Forged iron"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "kitchen.pan",
+    "assetRevision": "r01",
+    "geometryUri": "modules/kitchen.pan.glb",
+    "geometrySha256": "3bffd6b13ec2d3ebaab640fc7675c2b14eaa2881d4579105dada57f1dfd0c0c8",
+    "stableSelector": "kitchen.pan",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.6899999976158142,
+      0.0,
+      -0.5
+    ],
+    "boundsMax": [
+      0.6899999976158142,
+      1.184823989868164,
+      0.5
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      },
+      {
+        "socketId": "operator",
+        "kind": "interaction",
+        "compatibilityFamily": "station-operator-proposal",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.1100000143051147,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.36,
+          0,
+          -0.36
+        ],
+        "clearanceMax": [
+          0.36,
+          1.85,
+          0.36
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_proxy_not_game_runtime"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen Limestone",
+      "Kitchen charcoal",
+      "Kitchen Forged iron",
+      "Kitchen Oak"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "kitchen.fryer",
+    "assetRevision": "r01",
+    "geometryUri": "modules/kitchen.fryer.glb",
+    "geometrySha256": "6b085378d680be676a75eca093c364ebe2974a422cad6942906849e9a625457b",
+    "stableSelector": "kitchen.fryer",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.6899999976158142,
+      0.0,
+      -0.5
+    ],
+    "boundsMax": [
+      0.6899999976158142,
+      1.4739481210708618,
+      0.5
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      },
+      {
+        "socketId": "operator",
+        "kind": "interaction",
+        "compatibilityFamily": "station-operator-proposal",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.100000023841858,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.36,
+          0,
+          -0.36
+        ],
+        "clearanceMax": [
+          0.36,
+          1.85,
+          0.36
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_proxy_not_game_runtime"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen Limestone",
+      "Kitchen charcoal",
+      "Kitchen Forged iron",
+      "Kitchen aged copper",
+      "Kitchen raw produce"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "kitchen.pot",
+    "assetRevision": "r01",
+    "geometryUri": "modules/kitchen.pot.glb",
+    "geometrySha256": "79be68f78bf37f3b449910409a279f8fae95ef9ba4f80abcb65e1533dbfa993e",
+    "stableSelector": "kitchen.pot",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.47200000286102295,
+      0.0,
+      -0.33000001311302185
+    ],
+    "boundsMax": [
+      0.47200000286102295,
+      0.4300000071525574,
+      0.33000001311302185
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen aged copper",
+      "Kitchen Forged iron",
+      "Kitchen raw produce"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "kitchen.hood",
+    "assetRevision": "r01",
+    "geometryUri": "modules/kitchen.hood.glb",
+    "geometrySha256": "c214e04eb29db2a8c259ddf94dd64facd01ce579b2e6402199d663fd7f872a00",
+    "stableSelector": "kitchen.hood",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.9024999737739563,
+      -0.0075000012293457985,
+      -0.6424999833106995
+    ],
+    "boundsMax": [
+      0.9024999737739563,
+      0.46000000834465027,
+      0.6424999833106995
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      },
+      {
+        "socketId": "duct.inlet",
+        "kind": "flue_proposal",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.46000000834465027,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_transform_only"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen aged copper",
+      "Kitchen Forged iron"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "kitchen.hood.compact",
+    "assetRevision": "r01",
+    "geometryUri": "modules/kitchen.hood.compact.glb",
+    "geometrySha256": "af121a43bec1b4657ea4c0b952db98ab0fba338d898f0c5fc4c664382fbe6d1b",
+    "stableSelector": "kitchen.hood.compact",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.7224999666213989,
+      -0.0075000012293457985,
+      -0.6424999833106995
+    ],
+    "boundsMax": [
+      0.7224999666213989,
+      0.46000000834465027,
+      0.6424999833106995
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      },
+      {
+        "socketId": "duct.inlet",
+        "kind": "flue_proposal",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.46000000834465027,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_transform_only"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen aged copper",
+      "Kitchen Forged iron"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "kitchen.flue",
+    "assetRevision": "r01",
+    "geometryUri": "modules/kitchen.flue.glb",
+    "geometrySha256": "9ffdd0919fb8e1dffb046222fd4a4170cb52d410e0201f050126bef63e5a3f37",
+    "stableSelector": "kitchen.flue",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.45500001311302185,
+      0.0,
+      -0.45500001311302185
+    ],
+    "boundsMax": [
+      0.45500001311302185,
+      5.570000171661377,
+      1.5449999570846558
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      },
+      {
+        "socketId": "duct.inlet",
+        "kind": "flue_proposal",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          2.7300000190734863,
+          1.2400000095367432,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_transform_only"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen Limestone",
+      "Kitchen Forged iron",
+      "Kitchen aged copper"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "kitchen.flue.collar",
+    "assetRevision": "r01",
+    "geometryUri": "modules/kitchen.flue.collar.glb",
+    "geometrySha256": "19c1dc6d104c7586af8f38a4b068dffbe75b4b20a8f575c4a97acc07113e8c42",
+    "stableSelector": "kitchen.flue.collar",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.38999998569488525,
+      -0.38999998569488525,
+      -0.15000000596046448
+    ],
+    "boundsMax": [
+      0.39000001549720764,
+      0.38999998569488525,
+      0.15000000596046448
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen Forged iron"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "wall.flue",
+    "assetRevision": "r01",
+    "geometryUri": "modules/wall.flue.glb",
+    "geometrySha256": "77d7bd6ba66187c3b461f7f0734b15e40fb722a9f3ea1a83f17d71fd71b17dd6",
+    "stableSelector": "wall.flue",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      0.0,
+      0.0,
+      -0.12999999523162842
+    ],
+    "boundsMax": [
+      3.2400002479553223,
+      3.2400002479553223,
+      0.14999999105930328
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      },
+      {
+        "socketId": "end",
+        "kind": "structure",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          3.240000009536743,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_transform_only"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen Limestone",
+      "Kitchen Oak"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "wall.flue.end",
+    "assetRevision": "r01",
+    "geometryUri": "modules/wall.flue.end.glb",
+    "geometrySha256": "d383d2b5bee68b4c4f56c2604471a6802557ec432c14e1846145e48be111bf49",
+    "stableSelector": "wall.flue.end",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      0.0,
+      0.0,
+      -0.12999999523162842
+    ],
+    "boundsMax": [
+      3.240000009536743,
+      3.2400002479553223,
+      0.14999999105930328
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      },
+      {
+        "socketId": "end",
+        "kind": "structure",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          3.240000009536743,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_transform_only"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen Limestone",
+      "Kitchen Oak"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "wall.flue.double",
+    "assetRevision": "r01",
+    "geometryUri": "modules/wall.flue.double.glb",
+    "geometrySha256": "68769e3bc2b7ff41d0bc8b5384fe314c8e11cd2007b92633a05e3257b03aab93",
+    "stableSelector": "wall.flue.double",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -1.4901161193847656e-08,
+      0.0,
+      -0.12999999523162842
+    ],
+    "boundsMax": [
+      3.240000009536743,
+      3.2400002479553223,
+      0.14999999105930328
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      },
+      {
+        "socketId": "end",
+        "kind": "structure",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          3.240000009536743,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_transform_only"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen Limestone",
+      "Kitchen Oak"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "kitchen.oven",
+    "assetRevision": "r01",
+    "geometryUri": "modules/kitchen.oven.glb",
+    "geometrySha256": "e75190c34f555d970d3954c7797d1401e9c6dd45cde62b0c3fc6d0895b978019",
+    "stableSelector": "kitchen.oven",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.699999988079071,
+      0.0,
+      -0.6000000238418579
+    ],
+    "boundsMax": [
+      0.699999988079071,
+      1.7699999809265137,
+      0.7200000286102295
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      },
+      {
+        "socketId": "operator",
+        "kind": "interaction",
+        "compatibilityFamily": "station-operator-proposal",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.2200000286102295,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.36,
+          0,
+          -0.36
+        ],
+        "clearanceMax": [
+          0.36,
+          1.85,
+          0.36
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_proxy_not_game_runtime"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen Limestone",
+      "Kitchen terracotta",
+      "Kitchen charcoal",
+      "Kitchen Forged iron",
+      "Kitchen raw produce"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "dining.table",
+    "assetRevision": "r01",
+    "geometryUri": "modules/dining.table.glb",
+    "geometrySha256": "11a2ca71cff1f46923a180692c753da4c5754026185be3bc1049c03683afac91",
+    "stableSelector": "dining.table",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.75,
+      0.0,
+      -0.429999977350235
+    ],
+    "boundsMax": [
+      0.75,
+      0.8199999928474426,
+      0.4300000071525574
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen Oak"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "dining.long_table",
+    "assetRevision": "r01",
+    "geometryUri": "modules/dining.long_table.glb",
+    "geometrySha256": "de2af9e52ae7941751f6f03420bd7f4ff062692ad8cdde509e151049696fdb4b",
+    "stableSelector": "dining.long_table",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -1.2999999523162842,
+      0.0,
+      -0.44999998807907104
+    ],
+    "boundsMax": [
+      1.2999999523162842,
+      0.8199999928474426,
+      0.44999998807907104
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen Oak"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "dining.bench",
+    "assetRevision": "r01",
+    "geometryUri": "modules/dining.bench.glb",
+    "geometrySha256": "867b8929769751b1a4f77e906fffdfbda016e6251c4e2e39fff7cef937dbb500",
+    "stableSelector": "dining.bench",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.75,
+      0.0,
+      -0.1899999976158142
+    ],
+    "boundsMax": [
+      0.75,
+      0.5099999904632568,
+      0.1899999976158142
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen Oak"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "dining.stool",
+    "assetRevision": "r01",
+    "geometryUri": "modules/dining.stool.glb",
+    "geometrySha256": "cd2a36c8f23528d9909d53b3e413485bea9576616d85efba3365de542bc0d80a",
+    "stableSelector": "dining.stool",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.23999999463558197,
+      0.0,
+      -0.23999999463558197
+    ],
+    "boundsMax": [
+      0.23999999463558197,
+      0.5249999761581421,
+      0.23999999463558197
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen Oak"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "kitchen.sign",
+    "assetRevision": "r01",
+    "geometryUri": "modules/kitchen.sign.glb",
+    "geometrySha256": "7c17d3697c71c07ad1a46f506d4b225627941581e3ce9ad85511d99e49a53408",
+    "stableSelector": "kitchen.sign",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.7749999761581421,
+      -0.26499998569488525,
+      -0.07500000298023224
+    ],
+    "boundsMax": [
+      0.7749999761581421,
+      0.26499998569488525,
+      0.1525000035762787
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen Oak",
+      "Kitchen glazed cream"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "dining.screen",
+    "assetRevision": "r01",
+    "geometryUri": "modules/dining.screen.glb",
+    "geometrySha256": "0e35b54915bcbec986b12f3da84937e52f1c759caee6488556872e46551815d9",
+    "stableSelector": "dining.screen",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.699999988079071,
+      0.0,
+      -0.05000000074505806
+    ],
+    "boundsMax": [
+      0.6999999284744263,
+      1.1649999618530273,
+      0.05000000074505806
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen Oak"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "floor.promenade",
+    "assetRevision": "r01",
+    "geometryUri": "modules/floor.promenade.glb",
+    "geometrySha256": "019b8fc749a35b1b56036a8bb3b800c8f1b45de0ca001da622d32e8fb507ef34",
+    "stableSelector": "floor.promenade",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      0.0,
+      -0.25999999046325684,
+      -2.1540000438690186
+    ],
+    "boundsMax": [
+      6.480000019073486,
+      0.0,
+      -0.006000012159347534
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      },
+      {
+        "socketId": "west",
+        "kind": "structure",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0800000429153442,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_transform_only"
+      },
+      {
+        "socketId": "east",
+        "kind": "structure",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          6.480000019073486,
+          0.0,
+          -1.0800000429153442,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_transform_only"
+      },
+      {
+        "socketId": "north",
+        "kind": "structure",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          3.240000009536743,
+          0.0,
+          -2.1600000858306885,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_transform_only"
+      },
+      {
+        "socketId": "south",
+        "kind": "structure",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          3.240000009536743,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_transform_only"
+      },
+      {
+        "socketId": "north.court",
+        "kind": "structure",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1.6200000047683716,
+          0.0,
+          -2.1600000858306885,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_transform_only"
+      },
+      {
+        "socketId": "north.main",
+        "kind": "structure",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          4.860000133514404,
+          0.0,
+          -2.1600000858306885,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_transform_only"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen Oak"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  },
+  {
+    "moduleTypeId": "kitchen.queue",
+    "assetRevision": "r01",
+    "geometryUri": "modules/kitchen.queue.glb",
+    "geometrySha256": "e80eed0edd99424af563fc4e199291f77d58b67faca990652cf849a51c06e31b",
+    "stableSelector": "kitchen.queue",
+    "coordinateSystem": "RH_Y_UP",
+    "sourceMetresToGameUnits": null,
+    "pivotConvention": "equipment footprint origin; hood underside center; flue floor center; wall start; independent part, no grouped furniture aliases",
+    "pivotSourcePosition": [
+      0,
+      0,
+      0
+    ],
+    "boundsMin": [
+      -0.375,
+      0.0,
+      -0.06499999761581421
+    ],
+    "boundsMax": [
+      0.375,
+      0.02800000086426735,
+      0.06499999761581421
+    ],
+    "rotationStepDegrees": 90,
+    "sockets": [
+      {
+        "socketId": "origin",
+        "kind": "placement",
+        "compatibilityFamily": "kitchen-original-metre-v1",
+        "localMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "clearanceMin": [
+          -0.02,
+          -0.02,
+          -0.02
+        ],
+        "clearanceMax": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "loadBearing": false,
+        "maxLoad": null,
+        "validation": "offline_only"
+      }
+    ],
+    "collisionProfile": "mesh_detail_with_separate_offline_proxy; runtime_pending",
+    "materialSlotIds": [
+      "Kitchen glazed cream"
+    ],
+    "provenance": "Original geometry authored from primitives; approved original room maps reused byte-identically; previous complete kitchen observed for functional zones, no whole-site rebuild"
+  }
+]

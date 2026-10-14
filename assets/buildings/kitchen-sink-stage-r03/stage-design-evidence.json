@@ -1,0 +1,27 @@
+{
+  "status": "new_original_visual_stage_candidates; all functionality allocations proposal",
+  "levels": [
+    {
+      "visualStage": 1,
+      "delta": "2x2 hall, seven real station visual modules, pantry, delivery entrance and external hollow flue"
+    },
+    {
+      "visualStage": 2,
+      "delta": "Append dedicated hot preparation wing, separate prep and pan stations, sidewall flue"
+    },
+    {
+      "visualStage": 3,
+      "delta": "Append baking wing with modeled arched oven, fryer and distinct thermal extraction"
+    },
+    {
+      "visualStage": 4,
+      "delta": "Append dining wing plus service foyer, real open serving hatch, detached counter shelf, supported rain awning and queue"
+    },
+    {
+      "visualStage": 5,
+      "delta": "Append open communal courtyard with canopy and long-table/bench modules; exterior front promenade preserves original washing/return stations"
+    }
+  ],
+  "knownBusinessGrades": 3,
+  "actualGameBusinessLevel": null
+}

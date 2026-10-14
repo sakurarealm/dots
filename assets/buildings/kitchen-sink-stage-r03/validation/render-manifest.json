@@ -1,0 +1,189 @@
+[
+  {
+    "file": "L1-installation-r02.png",
+    "inputSha256": "1488642880c5fd826468b6cefca743be16883950eba87241e37e3e4339500205",
+    "cameraSourceZUp": [
+      2.3,
+      2.75,
+      1.8
+    ],
+    "targetSourceZUp": [
+      0.699999988079071,
+      3.359999895095825,
+      1.149999976158142
+    ],
+    "orthoScale": 1.9,
+    "hiddenGeometry": false,
+    "sha256": "699a3ae7bdc5e0d4d4ee0f098e5618caf51b895d19d336aeadb3d68f7eed9c07"
+  },
+  {
+    "file": "L1-mouth-close-r02.png",
+    "inputSha256": "1488642880c5fd826468b6cefca743be16883950eba87241e37e3e4339500205",
+    "cameraSourceZUp": [
+      1.0199999809265137,
+      3.4800000190734863,
+      1.3799999952316284
+    ],
+    "targetSourceZUp": [
+      0.6699999570846558,
+      3.7300000190734863,
+      1.6150000095367432
+    ],
+    "orthoScale": 0.18,
+    "hiddenGeometry": false,
+    "sha256": "28e6763aeaffac74a1042d8628f47fd730528c579e8c4468e155b89bd332f510"
+  },
+  {
+    "file": "L1-installation-r03.png",
+    "inputSha256": "69701f9e728e0aecc0964de8d40b0cb5dc0de1cba8917f254cada765a38df5db",
+    "cameraSourceZUp": [
+      2.3,
+      2.75,
+      1.8
+    ],
+    "targetSourceZUp": [
+      0.699999988079071,
+      3.359999895095825,
+      1.149999976158142
+    ],
+    "orthoScale": 1.9,
+    "hiddenGeometry": false,
+    "sha256": "0c846dfc72423b4e360b83dcf42da892b4813ad45dcca6b316467c083892c2ac"
+  },
+  {
+    "file": "L1-mouth-close-r03.png",
+    "inputSha256": "69701f9e728e0aecc0964de8d40b0cb5dc0de1cba8917f254cada765a38df5db",
+    "cameraSourceZUp": [
+      1.0199999809265137,
+      3.4800000190734863,
+      1.3799999952316284
+    ],
+    "targetSourceZUp": [
+      0.6699999570846558,
+      3.7300000190734863,
+      1.6150000095367432
+    ],
+    "orthoScale": 0.18,
+    "hiddenGeometry": false,
+    "sha256": "e9eb4debc38eb41266f0d03d928683ebd2ceb63abc1e9085a3817cc257afcadc"
+  },
+  {
+    "file": "L2-installation-r03.png",
+    "inputSha256": "152b4ace9cfe7e0bbc036059995422bfb2ea0eac512b021b28c1ad84b613d6e1",
+    "cameraSourceZUp": [
+      2.3,
+      2.75,
+      1.8
+    ],
+    "targetSourceZUp": [
+      0.699999988079071,
+      3.359999895095825,
+      1.149999976158142
+    ],
+    "orthoScale": 1.9,
+    "hiddenGeometry": false,
+    "sha256": "8ee9706ae645020fccedeb84388d51836610b4aaf453e5d566d030dd579093bc"
+  },
+  {
+    "file": "L3-installation-r03.png",
+    "inputSha256": "f4647650f4b4729f4475c1abb75d2e7c305405cbcdff440dbfa47fb64686e004",
+    "cameraSourceZUp": [
+      2.3,
+      2.75,
+      1.8
+    ],
+    "targetSourceZUp": [
+      0.699999988079071,
+      3.359999895095825,
+      1.149999976158142
+    ],
+    "orthoScale": 1.9,
+    "hiddenGeometry": false,
+    "sha256": "1234b5dd82bd36fc1b90d2929d80bdb9d894257a402e273439ac9bd2cb1ef316"
+  },
+  {
+    "file": "L4-installation-r03.png",
+    "inputSha256": "e4dbcd6635b747d478fbea10759a9e6e2f6ea008993836cc7af92820edcad345",
+    "cameraSourceZUp": [
+      2.3,
+      2.75,
+      1.8
+    ],
+    "targetSourceZUp": [
+      0.699999988079071,
+      3.359999895095825,
+      1.149999976158142
+    ],
+    "orthoScale": 1.9,
+    "hiddenGeometry": false,
+    "sha256": "bd63273213ec71f3c1b0a503108c24083f2c4b86a4d2b456d3c0ed6e9e65319f"
+  },
+  {
+    "file": "L5-installation-r02.png",
+    "inputSha256": "114b26b2df273a88cfdc6c2e543448428b2d9e9e83ac8c2a51989f79fdce84ea",
+    "cameraSourceZUp": [
+      2.3,
+      2.75,
+      1.8
+    ],
+    "targetSourceZUp": [
+      0.699999988079071,
+      3.359999895095825,
+      1.149999976158142
+    ],
+    "orthoScale": 1.9,
+    "hiddenGeometry": false,
+    "sha256": "941de1f92eb9d3a001bfde3d30b7baccf9a0d30fb40108ec3eeb3209f585191c"
+  },
+  {
+    "file": "L5-mouth-close-r02.png",
+    "inputSha256": "114b26b2df273a88cfdc6c2e543448428b2d9e9e83ac8c2a51989f79fdce84ea",
+    "cameraSourceZUp": [
+      1.0199999809265137,
+      3.4800000190734863,
+      1.3799999952316284
+    ],
+    "targetSourceZUp": [
+      0.6699999570846558,
+      3.7300000190734863,
+      1.6150000095367432
+    ],
+    "orthoScale": 0.18,
+    "hiddenGeometry": false,
+    "sha256": "ec835e4bc62d3bac80066c97757a619418463b51ce3e6a8f3b4774ca2f83131e"
+  },
+  {
+    "file": "L5-installation-r03.png",
+    "inputSha256": "38ce075fc23cb9ebd5b48c0409f1fdd1eb28e7ecc2ad4078a59e58cb82fdfefc",
+    "cameraSourceZUp": [
+      2.3,
+      2.75,
+      1.8
+    ],
+    "targetSourceZUp": [
+      0.699999988079071,
+      3.359999895095825,
+      1.149999976158142
+    ],
+    "orthoScale": 1.9,
+    "hiddenGeometry": false,
+    "sha256": "411f678daa3497425cd30bf4624bbc04d13c380ca84b6d97c79ee2f0cc1cc47a"
+  },
+  {
+    "file": "L5-mouth-close-r03.png",
+    "inputSha256": "38ce075fc23cb9ebd5b48c0409f1fdd1eb28e7ecc2ad4078a59e58cb82fdfefc",
+    "cameraSourceZUp": [
+      1.0199999809265137,
+      3.4800000190734863,
+      1.3799999952316284
+    ],
+    "targetSourceZUp": [
+      0.6699999570846558,
+      3.7300000190734863,
+      1.6150000095367432
+    ],
+    "orthoScale": 0.18,
+    "hiddenGeometry": false,
+    "sha256": "c064af7529846e479c1364980e6c181f2afcc4264e651e5e9a9bd1b988e6a5d6"
+  }
+]

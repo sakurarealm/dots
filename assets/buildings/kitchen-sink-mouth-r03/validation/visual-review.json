@@ -1,0 +1,51 @@
+{
+  "actualImagesViewed": [
+    "front-lower-side-r02.png",
+    "front-lower-side-r03.png",
+    "front-upper-r02.png",
+    "front-upper-r03.png",
+    "mouth-axial-r02.png",
+    "mouth-axial-r03.png",
+    "mouth-oblique-r02.png",
+    "mouth-oblique-r03.png"
+  ],
+  "result": "Visible open mouth and modeled rim/cavity; original whole-module views retain existing shape and materials.",
+  "newMouthTriangles": 18,
+  "newMouthNearZeroAreaTriangles": 0,
+  "inheritedNearZeroAreaTrianglesUnchanged": 32,
+  "textures": [
+    {
+      "uri": "../textures/oak_normal.png",
+      "sha256": "f3a47ac0b5b8baea352c2ee49b4b1fe2ce2226401e9fd58f7666c472b6e526de",
+      "matchesOriginal": true
+    },
+    {
+      "uri": "../textures/oak_color.png",
+      "sha256": "1fc1a77319e588108076bf9fc41f7cb21fdb7e999ad9c59384996e000fd5d951",
+      "matchesOriginal": true
+    },
+    {
+      "uri": "../textures/8b0c4f2c010a07a5.png",
+      "sha256": "8b0c4f2c010a07a552fd48f15b3b5b0e1e2b9636cf7e673d5cbfcb06ce49dcae",
+      "matchesOriginal": true
+    },
+    {
+      "uri": "../textures/limestone_normal.png",
+      "sha256": "20003b5b162ab4289411cd46c69d824b1369a9b1300a2663b495ebf6657bb19e",
+      "matchesOriginal": true
+    },
+    {
+      "uri": "../textures/limestone_color.png",
+      "sha256": "d884dca5b76b7e036b714afa96573074d4664cbacb4a1fe5f7574b92b779e9c5",
+      "matchesOriginal": true
+    },
+    {
+      "uri": "../textures/fd58d4a432499539.png",
+      "sha256": "fd58d4a432499539cedbe09c8278002f967e959ef0d6c0e87edbfda034e5a02f",
+      "matchesOriginal": true
+    }
+  ],
+  "readbackPassed": true,
+  "runtimeOrCompletePlumbingPassed": false,
+  "stagesModified": false
+}

@@ -1,0 +1,27 @@
+{
+  "sourceSha256Before": "7480bca515e28f319706498f87971599381a927b3ed1913fa28ce3bb549b178c",
+  "sourceSha256After": "7480bca515e28f319706498f87971599381a927b3ed1913fa28ce3bb549b178c",
+  "outputSha256": "b25bf2094dec3f155347d5625eb5a7eee92ffa050195cddf603846d3fdb05b5c",
+  "nodesExact": true,
+  "materialsTexturesImagesSamplersExact": true,
+  "originalBinaryPrefixExact": true,
+  "originalAccessorsExact": true,
+  "originalBufferViewsExact": true,
+  "nonCopperPrimitivesExact": true,
+  "copperOriginalAttributesExact": true,
+  "removedOnlyTriangleIndices": [
+    300,
+    301
+  ],
+  "remainingOriginalCopperTrianglesExact": true,
+  "addedTriangles": 18,
+  "netTriangleChange": 16,
+  "outerContourUnchanged": true,
+  "openingInnerWidthMetres": 0.016,
+  "minimumRimThicknessMetres": 0.0029999775886535643,
+  "cavityDepthMetres": 0.055,
+  "cavityCeilingSourceZUp": 1.645000033378601,
+  "moduleIdUnchanged": "kitchen.sink",
+  "stageFilesModified": false,
+  "runtimeOrFluidValidation": false
+}

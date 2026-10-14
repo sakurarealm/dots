@@ -1,0 +1,154 @@
+[
+  {
+    "file": "front-upper-r02.png",
+    "sourceSha256": "06e86d9b0ec22a3ba496638e2b4f0b782bd2016d675005d8ed848b5343513b40",
+    "deliverySha256": "9a8e24898ceec2b96fe7978375be14a4628a71b604c48a565c6557e2566b4cd1",
+    "removedMetadataChunks": [
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt"
+    ],
+    "pixelDataIDATUnchanged": true
+  },
+  {
+    "file": "front-upper-r03.png",
+    "sourceSha256": "519636141d403bb9b5be5f096164f9e949409f451506485cb0a0b4b0f96fd66d",
+    "deliverySha256": "e04c520a2d3051d566cd1fa5f9c9028aa7c55268995c94f1b016550e3fd59ffa",
+    "removedMetadataChunks": [
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt"
+    ],
+    "pixelDataIDATUnchanged": true
+  },
+  {
+    "file": "front-lower-side-r02.png",
+    "sourceSha256": "0426d0f985bceaed7b07326c59b1262ee25b21820c05f67a53b0c439b10f40c7",
+    "deliverySha256": "8df4bd4ad510b98423b2928b07d41cc817f5160886ef95777f151a6602f41d84",
+    "removedMetadataChunks": [
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt"
+    ],
+    "pixelDataIDATUnchanged": true
+  },
+  {
+    "file": "front-lower-side-r03.png",
+    "sourceSha256": "c7d763676319c143f19a47d632132ae814c3168f22711e09de99aaab12c2c237",
+    "deliverySha256": "94aa9d7426ef75c5a1b9bbdd5bb620ea3f7bc940eddfa316fe2dbdcaa21171ca",
+    "removedMetadataChunks": [
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt"
+    ],
+    "pixelDataIDATUnchanged": true
+  },
+  {
+    "file": "mouth-oblique-r02.png",
+    "sourceSha256": "c78ae38dc9eef86354a0d4904c9164172057fc1f1dbf57c7ec76b33aff86eaa6",
+    "deliverySha256": "1f1cae3dcd1b51d03d587ddf1290f42e442556c75fe3fd050f9e38e79a063a05",
+    "removedMetadataChunks": [
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt"
+    ],
+    "pixelDataIDATUnchanged": true
+  },
+  {
+    "file": "mouth-oblique-r03.png",
+    "sourceSha256": "5a0445fb70ac74a9defa7e5acf6674c4d1e94c2aaab0c0307d730df189d5a093",
+    "deliverySha256": "526c5ffbdea0d4108096008d7390c1fb4b89be28887c608f9853f13d984dbbc0",
+    "removedMetadataChunks": [
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt"
+    ],
+    "pixelDataIDATUnchanged": true
+  },
+  {
+    "file": "mouth-axial-r03.png",
+    "sourceSha256": "ecc25f9ecca6a5078dac2c4106fec36d7d72d0a9d00b5a12e62ef5c71b2353c6",
+    "deliverySha256": "e74019465593881c4f46cc17d39a1f9a95578283d6eda2ad1750cb66ade883ee",
+    "removedMetadataChunks": [
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt"
+    ],
+    "pixelDataIDATUnchanged": true
+  },
+  {
+    "file": "mouth-axial-r02.png",
+    "sourceSha256": "d93808f94dd08a7267970e2b9dc3faa03e06f1092d91fe8d95f222da66817608",
+    "deliverySha256": "b461dbc0b4b0ff19880e902be75408f201e107f5f473de0a8660503cc867c4d5",
+    "removedMetadataChunks": [
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt",
+      "tEXt"
+    ],
+    "pixelDataIDATUnchanged": true
+  }
+]

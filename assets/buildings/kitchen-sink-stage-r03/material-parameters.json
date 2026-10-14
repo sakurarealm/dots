@@ -1,0 +1,129 @@
+{
+  "originalsPreserved": 12,
+  "normalMapStrength": 0.5,
+  "boxUV": "0.55 repeats per authored metre",
+  "revolvedPrimitiveUV": "native primitive UV, unchanged maps",
+  "roughnessDefault": 0.72,
+  "textureDrivenRoughness": "rough maps override the default",
+  "metallic": {
+    "Kitchen Forged iron": 0.65,
+    "Kitchen aged copper": 0.6
+  },
+  "textures": [
+    {
+      "file": "textures/52fa8ce63eada5d0.png",
+      "sha256": "52fa8ce63eada5d00befca4ebca48d73caf5e7fcdac213a4946b22348a47a45c",
+      "byteIdenticalToOriginal": true,
+      "source": "warehouse-bk-upgrades-20261012/textures/52fa8ce63eada5d0.png",
+      "resampled": false
+    },
+    {
+      "file": "textures/8b0c4f2c010a07a5.png",
+      "sha256": "8b0c4f2c010a07a552fd48f15b3b5b0e1e2b9636cf7e673d5cbfcb06ce49dcae",
+      "byteIdenticalToOriginal": true,
+      "source": "warehouse-bk-upgrades-20261012/textures/8b0c4f2c010a07a5.png",
+      "resampled": false
+    },
+    {
+      "file": "textures/burlap_color.png",
+      "sha256": "8cdda54f14d0cd52c62a1fcf3453c0e357b4b712b59605d99635bed458b4c324",
+      "byteIdenticalToOriginal": true,
+      "source": "bk-room-interior-candidate-20261012/textures/burlap_color.png",
+      "resampled": false
+    },
+    {
+      "file": "textures/burlap_normal.png",
+      "sha256": "6aebf50d31bca3f3a462050cc02273389ddf129947bf3e424912287ac3f6261d",
+      "byteIdenticalToOriginal": true,
+      "source": "bk-room-interior-candidate-20261012/textures/burlap_normal.png",
+      "resampled": false
+    },
+    {
+      "file": "textures/burlap_rough.png",
+      "sha256": "59797be5de54d4f170dd3908a60024f3b4afeeb681090c872beb10be38da0f64",
+      "byteIdenticalToOriginal": true,
+      "source": "bk-room-interior-candidate-20261012/textures/burlap_rough.png",
+      "resampled": false
+    },
+    {
+      "file": "textures/fd58d4a432499539.png",
+      "sha256": "fd58d4a432499539cedbe09c8278002f967e959ef0d6c0e87edbfda034e5a02f",
+      "byteIdenticalToOriginal": true,
+      "source": "warehouse-bk-upgrades-20261012/textures/fd58d4a432499539.png",
+      "resampled": false
+    },
+    {
+      "file": "textures/fdd10df9a68502d0.png",
+      "sha256": "fdd10df9a68502d01e883cbf24db0104dcdaa146e3479c717e5bf6d597f3971e",
+      "byteIdenticalToOriginal": false,
+      "source": "lossless glTF channel packing from original roughness",
+      "resampled": false
+    },
+    {
+      "file": "textures/limestone_color.png",
+      "sha256": "d884dca5b76b7e036b714afa96573074d4664cbacb4a1fe5f7574b92b779e9c5",
+      "byteIdenticalToOriginal": true,
+      "source": "bk-room-interior-candidate-20261012/textures/limestone_color.png",
+      "resampled": false
+    },
+    {
+      "file": "textures/limestone_normal.png",
+      "sha256": "20003b5b162ab4289411cd46c69d824b1369a9b1300a2663b495ebf6657bb19e",
+      "byteIdenticalToOriginal": true,
+      "source": "bk-room-interior-candidate-20261012/textures/limestone_normal.png",
+      "resampled": false
+    },
+    {
+      "file": "textures/limestone_rough.png",
+      "sha256": "71690ff65190209cf4486d686cbda92423dcc872ff4ef73ba8ca06b0cc6a8efd",
+      "byteIdenticalToOriginal": true,
+      "source": "bk-room-interior-candidate-20261012/textures/limestone_rough.png",
+      "resampled": false
+    },
+    {
+      "file": "textures/oak_color.png",
+      "sha256": "1fc1a77319e588108076bf9fc41f7cb21fdb7e999ad9c59384996e000fd5d951",
+      "byteIdenticalToOriginal": true,
+      "source": "bk-room-interior-candidate-20261012/textures/oak_color.png",
+      "resampled": false
+    },
+    {
+      "file": "textures/oak_normal.png",
+      "sha256": "f3a47ac0b5b8baea352c2ee49b4b1fe2ce2226401e9fd58f7666c472b6e526de",
+      "byteIdenticalToOriginal": true,
+      "source": "bk-room-interior-candidate-20261012/textures/oak_normal.png",
+      "resampled": false
+    },
+    {
+      "file": "textures/oak_rough.png",
+      "sha256": "149e5cb9aa121bd80d95f6285b4e7c542ee34c11a7e0d7775f672a8b5ba7459b",
+      "byteIdenticalToOriginal": true,
+      "source": "bk-room-interior-candidate-20261012/textures/oak_rough.png",
+      "resampled": false
+    },
+    {
+      "file": "textures/terracotta_color.png",
+      "sha256": "c042d18532ce94c798375be6845e55aa73999f548bc2fc4159cdb5c6e8fb8361",
+      "byteIdenticalToOriginal": true,
+      "source": "bk-room-interior-candidate-20261012/textures/terracotta_color.png",
+      "resampled": false
+    },
+    {
+      "file": "textures/terracotta_normal.png",
+      "sha256": "a3a81d34fdf34464e3e45936918ce8678682f16b18d06d926404728cfbf2b927",
+      "byteIdenticalToOriginal": true,
+      "source": "bk-room-interior-candidate-20261012/textures/terracotta_normal.png",
+      "resampled": false
+    },
+    {
+      "file": "textures/terracotta_rough.png",
+      "sha256": "b66433ede3f2cf11194661a7096f0e4eb02eafc4c0d912dad74fd0579bbd715e",
+      "byteIdenticalToOriginal": true,
+      "source": "bk-room-interior-candidate-20261012/textures/terracotta_rough.png",
+      "resampled": false
+    }
+  ],
+  "sharedMaterialContract": "evidence/warehouse-material-parameters.json",
+  "actualGlbMaterialValues": "validation/final-schema-anchors-materials.json",
+  "runtimeGameValidation": "not_tested"
+}
