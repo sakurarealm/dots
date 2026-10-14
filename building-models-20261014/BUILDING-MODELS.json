@@ -1,0 +1,1008 @@
+{
+  "scope": "18 historical building types, 90 offline stage model candidates. Original assets and necessary external textures only. Not a complete editable-source or runtime integration package.",
+  "models": [
+    {
+      "type": "warehouse",
+      "level": 1,
+      "revision": "historical",
+      "size": 1255592,
+      "sha256": "3e1f87c3ffb3ab535019ae569a7bcc5efb393dbae02d513955214f273ee1989d",
+      "external_images": [
+        "../textures/oak_normal.png",
+        "../textures/oak_color.png",
+        "../textures/8b0c4f2c010a07a5.png",
+        "../textures/limestone_normal.png",
+        "../textures/limestone_color.png",
+        "../textures/fd58d4a432499539.png",
+        "../textures/burlap_normal.png",
+        "../textures/burlap_color.png",
+        "../textures/52fa8ce63eada5d0.png"
+      ],
+      "path": "assets/buildings/warehouse/stages/L1.glb"
+    },
+    {
+      "type": "warehouse",
+      "level": 2,
+      "revision": "historical",
+      "size": 1767208,
+      "sha256": "d2086bdbca545683ae244265fb9a0a61b77c1eb55df65b0a72b9876476b921b6",
+      "external_images": [
+        "../textures/oak_normal.png",
+        "../textures/oak_color.png",
+        "../textures/8b0c4f2c010a07a5.png",
+        "../textures/limestone_normal.png",
+        "../textures/limestone_color.png",
+        "../textures/fd58d4a432499539.png",
+        "../textures/burlap_normal.png",
+        "../textures/burlap_color.png",
+        "../textures/52fa8ce63eada5d0.png"
+      ],
+      "path": "assets/buildings/warehouse/stages/L2.glb"
+    },
+    {
+      "type": "warehouse",
+      "level": 3,
+      "revision": "historical",
+      "size": 1919676,
+      "sha256": "46316219ecff60ba35d883207033d29bb2ce99d7c2816c3216bf78e5a29f7ea4",
+      "external_images": [
+        "../textures/oak_normal.png",
+        "../textures/oak_color.png",
+        "../textures/8b0c4f2c010a07a5.png",
+        "../textures/limestone_normal.png",
+        "../textures/limestone_color.png",
+        "../textures/fd58d4a432499539.png",
+        "../textures/burlap_normal.png",
+        "../textures/burlap_color.png",
+        "../textures/52fa8ce63eada5d0.png"
+      ],
+      "path": "assets/buildings/warehouse/stages/L3.glb"
+    },
+    {
+      "type": "warehouse",
+      "level": 4,
+      "revision": "hoist-r02",
+      "size": 10842664,
+      "sha256": "c00ae12875efb656f5c063141c9cf39cae231821afeb683ba64700d7f5b72a8a",
+      "external_images": [
+        "../textures/oak_normal.png",
+        "../textures/oak_color.png",
+        "../textures/8b0c4f2c010a07a5.png",
+        "../textures/limestone_normal.png",
+        "../textures/limestone_color.png",
+        "../textures/fd58d4a432499539.png",
+        "../textures/burlap_normal.png",
+        "../textures/burlap_color.png",
+        "../textures/52fa8ce63eada5d0.png"
+      ],
+      "path": "assets/buildings/warehouse/stages/L4.glb"
+    },
+    {
+      "type": "warehouse",
+      "level": 5,
+      "revision": "hoist-r02",
+      "size": 11350904,
+      "sha256": "5423bd23c5fe9e19d84a4d70de639cb867962ab82a1d3688cf6615d1fb6dac90",
+      "external_images": [
+        "../textures/oak_normal.png",
+        "../textures/oak_color.png",
+        "../textures/8b0c4f2c010a07a5.png",
+        "../textures/limestone_normal.png",
+        "../textures/limestone_color.png",
+        "../textures/fd58d4a432499539.png",
+        "../textures/burlap_normal.png",
+        "../textures/burlap_color.png",
+        "../textures/52fa8ce63eada5d0.png"
+      ],
+      "path": "assets/buildings/warehouse/stages/L5.glb"
+    },
+    {
+      "type": "kitchen",
+      "level": 1,
+      "revision": "sink-stage-r03",
+      "size": 4106088,
+      "sha256": "69701f9e728e0aecc0964de8d40b0cb5dc0de1cba8917f254cada765a38df5db",
+      "external_images": [
+        "../textures/oak_normal.png",
+        "../textures/oak_color.png",
+        "../textures/8b0c4f2c010a07a5.png",
+        "../textures/limestone_normal.png",
+        "../textures/limestone_color.png",
+        "../textures/fd58d4a432499539.png",
+        "../textures/8b0c4f2c010a07a5.png",
+        "../textures/fd58d4a432499539.png",
+        "../textures/terracotta_normal.png",
+        "../textures/terracotta_color.png",
+        "../textures/fdd10df9a68502d0.png"
+      ],
+      "path": "assets/buildings/kitchen/stages/L1.glb"
+    },
+    {
+      "type": "kitchen",
+      "level": 2,
+      "revision": "sink-stage-r03",
+      "size": 5004756,
+      "sha256": "152b4ace9cfe7e0bbc036059995422bfb2ea0eac512b021b28c1ad84b613d6e1",
+      "external_images": [
+        "../textures/oak_normal.png",
+        "../textures/oak_color.png",
+        "../textures/8b0c4f2c010a07a5.png",
+        "../textures/limestone_normal.png",
+        "../textures/limestone_color.png",
+        "../textures/fd58d4a432499539.png",
+        "../textures/8b0c4f2c010a07a5.png",
+        "../textures/fd58d4a432499539.png",
+        "../textures/terracotta_normal.png",
+        "../textures/terracotta_color.png",
+        "../textures/fdd10df9a68502d0.png"
+      ],
+      "path": "assets/buildings/kitchen/stages/L2.glb"
+    },
+    {
+      "type": "kitchen",
+      "level": 3,
+      "revision": "sink-stage-r03",
+      "size": 5594608,
+      "sha256": "f4647650f4b4729f4475c1abb75d2e7c305405cbcdff440dbfa47fb64686e004",
+      "external_images": [
+        "../textures/oak_normal.png",
+        "../textures/oak_color.png",
+        "../textures/8b0c4f2c010a07a5.png",
+        "../textures/limestone_normal.png",
+        "../textures/limestone_color.png",
+        "../textures/fd58d4a432499539.png",
+        "../textures/8b0c4f2c010a07a5.png",
+        "../textures/fd58d4a432499539.png",
+        "../textures/terracotta_normal.png",
+        "../textures/terracotta_color.png",
+        "../textures/fdd10df9a68502d0.png"
+      ],
+      "path": "assets/buildings/kitchen/stages/L3.glb"
+    },
+    {
+      "type": "kitchen",
+      "level": 4,
+      "revision": "sink-stage-r03",
+      "size": 6239416,
+      "sha256": "e4dbcd6635b747d478fbea10759a9e6e2f6ea008993836cc7af92820edcad345",
+      "external_images": [
+        "../textures/oak_normal.png",
+        "../textures/oak_color.png",
+        "../textures/8b0c4f2c010a07a5.png",
+        "../textures/limestone_normal.png",
+        "../textures/limestone_color.png",
+        "../textures/fd58d4a432499539.png",
+        "../textures/8b0c4f2c010a07a5.png",
+        "../textures/fd58d4a432499539.png",
+        "../textures/terracotta_normal.png",
+        "../textures/terracotta_color.png",
+        "../textures/fdd10df9a68502d0.png"
+      ],
+      "path": "assets/buildings/kitchen/stages/L4.glb"
+    },
+    {
+      "type": "kitchen",
+      "level": 5,
+      "revision": "sink-stage-r03",
+      "size": 6469756,
+      "sha256": "38ce075fc23cb9ebd5b48c0409f1fdd1eb28e7ecc2ad4078a59e58cb82fdfefc",
+      "external_images": [
+        "../textures/oak_normal.png",
+        "../textures/oak_color.png",
+        "../textures/8b0c4f2c010a07a5.png",
+        "../textures/burlap_normal.png",
+        "../textures/burlap_color.png",
+        "../textures/52fa8ce63eada5d0.png",
+        "../textures/limestone_normal.png",
+        "../textures/limestone_color.png",
+        "../textures/fd58d4a432499539.png",
+        "../textures/8b0c4f2c010a07a5.png",
+        "../textures/fd58d4a432499539.png",
+        "../textures/terracotta_normal.png",
+        "../textures/terracotta_color.png",
+        "../textures/fdd10df9a68502d0.png"
+      ],
+      "path": "assets/buildings/kitchen/stages/L5.glb"
+    },
+    {
+      "type": "smithy",
+      "level": 1,
+      "revision": "historical",
+      "size": 3512600,
+      "sha256": "433be165d09a3a7f3bfb8a6e800b3f43d16e9396a91a63c73db34896b1232f06",
+      "external_images": [],
+      "path": "assets/buildings/smithy/stages/L1.glb"
+    },
+    {
+      "type": "smithy",
+      "level": 2,
+      "revision": "historical",
+      "size": 4993976,
+      "sha256": "5c456ac58b5316959818152958ec709b8120dc12d078bd88fea298bdf543af11",
+      "external_images": [],
+      "path": "assets/buildings/smithy/stages/L2.glb"
+    },
+    {
+      "type": "smithy",
+      "level": 3,
+      "revision": "historical",
+      "size": 7190248,
+      "sha256": "6d5ed79e332ee3220a459afd28c52ff6fe2c2bf4203d9bd3281c039432a4f64c",
+      "external_images": [],
+      "path": "assets/buildings/smithy/stages/L3.glb"
+    },
+    {
+      "type": "smithy",
+      "level": 4,
+      "revision": "historical",
+      "size": 3988524,
+      "sha256": "9ada7db03f9ff837cde5641bcf1b6cf27e988b54302988ec4b144144468ecf26",
+      "external_images": [],
+      "path": "assets/buildings/smithy/stages/L4.glb"
+    },
+    {
+      "type": "smithy",
+      "level": 5,
+      "revision": "historical",
+      "size": 5294428,
+      "sha256": "69fb32626a5ec56c14cb7ac18c68f04180139bfe41a4006eb3fb85e89fdc4f72",
+      "external_images": [],
+      "path": "assets/buildings/smithy/stages/L5.glb"
+    },
+    {
+      "type": "stable",
+      "level": 1,
+      "revision": "gable-r01",
+      "size": 6356464,
+      "sha256": "f8e07e79a5d15bd4ac9b81353f6bc7193d34188832ed023d34447a3127f91ea4",
+      "external_images": [],
+      "path": "assets/buildings/stable/stages/L1.glb"
+    },
+    {
+      "type": "stable",
+      "level": 2,
+      "revision": "gable-r01",
+      "size": 9445016,
+      "sha256": "d0ac01039652abf03c30bcbc3d4e76d09bf449a99d118738ae61eac9902bc3c9",
+      "external_images": [],
+      "path": "assets/buildings/stable/stages/L2.glb"
+    },
+    {
+      "type": "stable",
+      "level": 3,
+      "revision": "gable-r01",
+      "size": 11227884,
+      "sha256": "7905b1d7f3ce504f7a23abb607754f744a28c454feaddb424beafc4b948e8b17",
+      "external_images": [],
+      "path": "assets/buildings/stable/stages/L3.glb"
+    },
+    {
+      "type": "stable",
+      "level": 4,
+      "revision": "gable-r01",
+      "size": 13524980,
+      "sha256": "f9ad385ce3dd5f830b2df549eb2aa84b731d35e11b46cf6f1b4438f576b96501",
+      "external_images": [],
+      "path": "assets/buildings/stable/stages/L4.glb"
+    },
+    {
+      "type": "stable",
+      "level": 5,
+      "revision": "gable-r01",
+      "size": 15366364,
+      "sha256": "bf8b1bad975c2d96c535b336f565d3a549f64d3e888cafa4852ea0295b24011b",
+      "external_images": [],
+      "path": "assets/buildings/stable/stages/L5.glb"
+    },
+    {
+      "type": "inn",
+      "level": 1,
+      "revision": "portable-r02",
+      "size": 7073392,
+      "sha256": "e6016c31a2e10745157d57f73a494c6355cba6bfbc4155517f40fdd015973655",
+      "external_images": [
+        "../textures/oak_normal.png",
+        "../textures/oak_color.png",
+        "../textures/8b0c4f2c010a07a5.png",
+        "../textures/limestone_normal.png",
+        "../textures/limestone_color.png",
+        "../textures/fd58d4a432499539.png",
+        "../textures/8b0c4f2c010a07a5.png",
+        "../textures/terracotta_normal.png",
+        "../textures/terracotta_color.png",
+        "../textures/fdd10df9a68502d0.png",
+        "../textures/fd58d4a432499539.png",
+        "../textures/rug_normal.png",
+        "../textures/linen_color.png",
+        "../textures/52fa8ce63eada5d0.png",
+        "../textures/blue_wool_color.png",
+        "../textures/leather_color.png"
+      ],
+      "path": "assets/buildings/inn/stages/L1.glb"
+    },
+    {
+      "type": "inn",
+      "level": 2,
+      "revision": "portable-r02",
+      "size": 7381500,
+      "sha256": "32c648969808ba840488cb7b960979e5a8f7fce6cd08ef57adecb28c9efeec58",
+      "external_images": [
+        "../textures/oak_normal.png",
+        "../textures/oak_color.png",
+        "../textures/8b0c4f2c010a07a5.png",
+        "../textures/limestone_normal.png",
+        "../textures/limestone_color.png",
+        "../textures/fd58d4a432499539.png",
+        "../textures/8b0c4f2c010a07a5.png",
+        "../textures/terracotta_normal.png",
+        "../textures/terracotta_color.png",
+        "../textures/fdd10df9a68502d0.png",
+        "../textures/fd58d4a432499539.png",
+        "../textures/rug_normal.png",
+        "../textures/linen_color.png",
+        "../textures/52fa8ce63eada5d0.png",
+        "../textures/blue_wool_color.png",
+        "../textures/leather_color.png"
+      ],
+      "path": "assets/buildings/inn/stages/L2.glb"
+    },
+    {
+      "type": "inn",
+      "level": 3,
+      "revision": "portable-r02",
+      "size": 7740936,
+      "sha256": "66b50354f7cd0fee374085c174d9dae8409626a34c55a9005d8bfbf177462e24",
+      "external_images": [
+        "../textures/oak_normal.png",
+        "../textures/oak_color.png",
+        "../textures/8b0c4f2c010a07a5.png",
+        "../textures/limestone_normal.png",
+        "../textures/limestone_color.png",
+        "../textures/fd58d4a432499539.png",
+        "../textures/terracotta_normal.png",
+        "../textures/terracotta_color.png",
+        "../textures/fdd10df9a68502d0.png",
+        "../textures/rug_normal.png",
+        "../textures/linen_color.png",
+        "../textures/52fa8ce63eada5d0.png",
+        "../textures/blue_wool_color.png",
+        "../textures/leather_color.png",
+        "../textures/8b0c4f2c010a07a5.png"
+      ],
+      "path": "assets/buildings/inn/stages/L3.glb"
+    },
+    {
+      "type": "inn",
+      "level": 4,
+      "revision": "portable-r02",
+      "size": 8168152,
+      "sha256": "160f65ce9f1fe60b7d2259c8282c7011c4d8ffb06a08c7d5f88263ceaf424d01",
+      "external_images": [
+        "../textures/oak_normal.png",
+        "../textures/oak_color.png",
+        "../textures/8b0c4f2c010a07a5.png",
+        "../textures/limestone_normal.png",
+        "../textures/limestone_color.png",
+        "../textures/fd58d4a432499539.png",
+        "../textures/terracotta_normal.png",
+        "../textures/terracotta_color.png",
+        "../textures/fdd10df9a68502d0.png",
+        "../textures/rug_normal.png",
+        "../textures/linen_color.png",
+        "../textures/52fa8ce63eada5d0.png",
+        "../textures/blue_wool_color.png",
+        "../textures/leather_color.png"
+      ],
+      "path": "assets/buildings/inn/stages/L4.glb"
+    },
+    {
+      "type": "inn",
+      "level": 5,
+      "revision": "portable-r02",
+      "size": 8431176,
+      "sha256": "812d13d2e82f55f6da843b2a47b3fef0536dffe4f26a2c0ef69f48b3331ea261",
+      "external_images": [
+        "../textures/oak_normal.png",
+        "../textures/oak_color.png",
+        "../textures/8b0c4f2c010a07a5.png",
+        "../textures/limestone_normal.png",
+        "../textures/limestone_color.png",
+        "../textures/fd58d4a432499539.png",
+        "../textures/terracotta_normal.png",
+        "../textures/terracotta_color.png",
+        "../textures/fdd10df9a68502d0.png",
+        "../textures/rug_normal.png",
+        "../textures/linen_color.png",
+        "../textures/52fa8ce63eada5d0.png",
+        "../textures/blue_wool_color.png",
+        "../textures/leather_color.png"
+      ],
+      "path": "assets/buildings/inn/stages/L5.glb"
+    },
+    {
+      "type": "fishery",
+      "level": 1,
+      "revision": "gable-r01",
+      "size": 5909888,
+      "sha256": "a478e67f48cca2f5d13a114795e150a14d390c6a290206dd17e4d7cd63c52ef9",
+      "external_images": [],
+      "path": "assets/buildings/fishery/stages/L1.glb"
+    },
+    {
+      "type": "fishery",
+      "level": 2,
+      "revision": "gable-r01",
+      "size": 7978636,
+      "sha256": "e9115f05917de58e1313bd5ac9ac97c24fa0e0ad381cbeafecc490bca28edcdf",
+      "external_images": [],
+      "path": "assets/buildings/fishery/stages/L2.glb"
+    },
+    {
+      "type": "fishery",
+      "level": 3,
+      "revision": "gable-r01",
+      "size": 10154920,
+      "sha256": "07775b954726adff5037c32f4fb1e5358606a6560257c5a1fc8cd2fb1160fd1c",
+      "external_images": [],
+      "path": "assets/buildings/fishery/stages/L3.glb"
+    },
+    {
+      "type": "fishery",
+      "level": 4,
+      "revision": "gable-r01",
+      "size": 10668872,
+      "sha256": "9488050ac32fee41f153d4409785f9412d2b86f3f4dd41af187429c90ec93c4f",
+      "external_images": [],
+      "path": "assets/buildings/fishery/stages/L4.glb"
+    },
+    {
+      "type": "fishery",
+      "level": 5,
+      "revision": "gable-r01",
+      "size": 10827684,
+      "sha256": "1934a37fa69320d61c629bcef4b674224d6c4eb9660ade35f27bd3da414f1688",
+      "external_images": [],
+      "path": "assets/buildings/fishery/stages/L5.glb"
+    },
+    {
+      "type": "farmstead",
+      "level": 1,
+      "revision": "historical",
+      "size": 15480144,
+      "sha256": "14fb7968b8d26908e3122b9c9b18188d7fe08e2e6a64294aba9444a7f1f1d4b1",
+      "external_images": [],
+      "path": "assets/buildings/farmstead/stages/L1.glb"
+    },
+    {
+      "type": "farmstead",
+      "level": 2,
+      "revision": "gable-r01",
+      "size": 19907032,
+      "sha256": "b31ca998a5d23d6469720debb834f6918230de24480f9f4b7af50255974fbbd6",
+      "external_images": [],
+      "path": "assets/buildings/farmstead/stages/L2.glb"
+    },
+    {
+      "type": "farmstead",
+      "level": 3,
+      "revision": "gable-r01",
+      "size": 20618144,
+      "sha256": "3ff688c39e88dce99815de9ef3357da17422cbf132fad5bbc06c62a6d6fe43e9",
+      "external_images": [],
+      "path": "assets/buildings/farmstead/stages/L3.glb"
+    },
+    {
+      "type": "farmstead",
+      "level": 4,
+      "revision": "gable-r01",
+      "size": 22533824,
+      "sha256": "3997266e27fc8556c8ab10f9734fd3691cd26a8a693f7615513860628fd9e850",
+      "external_images": [],
+      "path": "assets/buildings/farmstead/stages/L4.glb"
+    },
+    {
+      "type": "farmstead",
+      "level": 5,
+      "revision": "gable-r01",
+      "size": 24326400,
+      "sha256": "33909f0e11f26d64ac0632e5672afb01de50e86fb46a805c97f96daf9cd6a8e7",
+      "external_images": [],
+      "path": "assets/buildings/farmstead/stages/L5.glb"
+    },
+    {
+      "type": "quarry",
+      "level": 1,
+      "revision": "historical",
+      "size": 7472188,
+      "sha256": "d54ff27b76915c714546a3eda3fb3f7f01e81fbcb04c82260340ddc8dbf3e904",
+      "external_images": [],
+      "path": "assets/buildings/quarry/stages/L1.glb"
+    },
+    {
+      "type": "quarry",
+      "level": 2,
+      "revision": "historical",
+      "size": 7770300,
+      "sha256": "c66c8f68be34d6f1ba7178a13bc13a66a24398fcbe5b24384510636156fab47c",
+      "external_images": [],
+      "path": "assets/buildings/quarry/stages/L2.glb"
+    },
+    {
+      "type": "quarry",
+      "level": 3,
+      "revision": "historical",
+      "size": 8485628,
+      "sha256": "0e636f4cf1e52d1170eb5f6d78166002d9a95c50fa0847e6180732c54b2b43f7",
+      "external_images": [],
+      "path": "assets/buildings/quarry/stages/L3.glb"
+    },
+    {
+      "type": "quarry",
+      "level": 4,
+      "revision": "historical",
+      "size": 10022520,
+      "sha256": "3340ba125920b7fe367d3055fdcb5fdccd3cc29fe6879c09f85cd03b584daa69",
+      "external_images": [],
+      "path": "assets/buildings/quarry/stages/L4.glb"
+    },
+    {
+      "type": "quarry",
+      "level": 5,
+      "revision": "historical",
+      "size": 11172180,
+      "sha256": "4e7952ce10a2a6b86a6c54e2b0c2e86a490ea63043ee69323b826db802a6461f",
+      "external_images": [],
+      "path": "assets/buildings/quarry/stages/L5.glb"
+    },
+    {
+      "type": "lumberyard",
+      "level": 1,
+      "revision": "historical",
+      "size": 6047000,
+      "sha256": "1811a8f490dff0046238750d82aa1e481bf01c6e4baf87f3e1074becdeb8e5d0",
+      "external_images": [],
+      "path": "assets/buildings/lumberyard/stages/L1.glb"
+    },
+    {
+      "type": "lumberyard",
+      "level": 2,
+      "revision": "historical",
+      "size": 7684432,
+      "sha256": "bac74fa74e2c8e285f45704fde3509f62a7ed21d95c3c20f226c3193d69c8c6e",
+      "external_images": [],
+      "path": "assets/buildings/lumberyard/stages/L2.glb"
+    },
+    {
+      "type": "lumberyard",
+      "level": 3,
+      "revision": "historical",
+      "size": 8331456,
+      "sha256": "564dfba1d450cd37cd672f9a1d44964e2e11c25088c8b6c56a9bfc4cefc13c4c",
+      "external_images": [],
+      "path": "assets/buildings/lumberyard/stages/L3.glb"
+    },
+    {
+      "type": "lumberyard",
+      "level": 4,
+      "revision": "historical",
+      "size": 10020376,
+      "sha256": "cae4d0e181e932f581904c7ea182330da0a602ee3cbb6f4e9d9315b4db998c68",
+      "external_images": [],
+      "path": "assets/buildings/lumberyard/stages/L4.glb"
+    },
+    {
+      "type": "lumberyard",
+      "level": 5,
+      "revision": "historical",
+      "size": 11180852,
+      "sha256": "dc98a687fd73f7c1cc4758063a448e2acf8835e1b1303af50af2f30774d0154b",
+      "external_images": [],
+      "path": "assets/buildings/lumberyard/stages/L5.glb"
+    },
+    {
+      "type": "smelter",
+      "level": 1,
+      "revision": "gable-r01",
+      "size": 8259096,
+      "sha256": "e9a91903929fe08240a660d31e4873e338bb0e7cd8aecaac7de73594439e2ddc",
+      "external_images": [],
+      "path": "assets/buildings/smelter/stages/L1.glb"
+    },
+    {
+      "type": "smelter",
+      "level": 2,
+      "revision": "gable-r01",
+      "size": 9864852,
+      "sha256": "bae3ed0097849fd121855869850b020865e4b7a316407468ee5bcf4d5f306924",
+      "external_images": [],
+      "path": "assets/buildings/smelter/stages/L2.glb"
+    },
+    {
+      "type": "smelter",
+      "level": 3,
+      "revision": "gable-r01",
+      "size": 10733272,
+      "sha256": "f3ad22aabeffa389e2b310c715ed7da0439df6ab7abd708b98470c957382b3cf",
+      "external_images": [],
+      "path": "assets/buildings/smelter/stages/L3.glb"
+    },
+    {
+      "type": "smelter",
+      "level": 4,
+      "revision": "gable-r01",
+      "size": 12511024,
+      "sha256": "bacba57c5a6e62a8cc1bfb082925aa0c4282489082b3eda89320392ea97c2f78",
+      "external_images": [],
+      "path": "assets/buildings/smelter/stages/L4.glb"
+    },
+    {
+      "type": "smelter",
+      "level": 5,
+      "revision": "gable-r01",
+      "size": 14747588,
+      "sha256": "ec5b69d5ecfed09a2988f1b0641cd4725e3e611fb9f26fc5ae257ad720543c12",
+      "external_images": [],
+      "path": "assets/buildings/smelter/stages/L5.glb"
+    },
+    {
+      "type": "workshop",
+      "level": 1,
+      "revision": "historical",
+      "size": 3617668,
+      "sha256": "950e8f89019a6d902b3d8537887456cf0007503a68d7c541062d186319934fca",
+      "external_images": [],
+      "path": "assets/buildings/workshop/stages/L1.glb"
+    },
+    {
+      "type": "workshop",
+      "level": 2,
+      "revision": "historical",
+      "size": 3706152,
+      "sha256": "16a47b1388e02ba1205e0241f7f441443e5caa4df62101c30aba7d0db494bc34",
+      "external_images": [],
+      "path": "assets/buildings/workshop/stages/L2.glb"
+    },
+    {
+      "type": "workshop",
+      "level": 3,
+      "revision": "historical",
+      "size": 4121728,
+      "sha256": "4a68cf0b77158579609b0bb91111b7faab2bd8fc07ce026e612bfbb7740e4a4a",
+      "external_images": [],
+      "path": "assets/buildings/workshop/stages/L3.glb"
+    },
+    {
+      "type": "workshop",
+      "level": 4,
+      "revision": "historical",
+      "size": 4340888,
+      "sha256": "a907d0de7d14d35efadafb4466fe6375cff068360cc60ecc591f7a4c26fdb928",
+      "external_images": [],
+      "path": "assets/buildings/workshop/stages/L4.glb"
+    },
+    {
+      "type": "workshop",
+      "level": 5,
+      "revision": "historical",
+      "size": 4509824,
+      "sha256": "c6a30ef0f6d9ca48be390b8d5ec9d40ed6575fe3fcb3fdb6aa401acce80b8418",
+      "external_images": [],
+      "path": "assets/buildings/workshop/stages/L5.glb"
+    },
+    {
+      "type": "mill",
+      "level": 1,
+      "revision": "gable-r01",
+      "size": 6972060,
+      "sha256": "e9e03343b7cc698f00c8f4990ade5c305a2b1935d8a4b1961de354b19d854bd4",
+      "external_images": [],
+      "path": "assets/buildings/mill/stages/L1.glb"
+    },
+    {
+      "type": "mill",
+      "level": 2,
+      "revision": "gable-r01",
+      "size": 7067684,
+      "sha256": "eedda9a1c7babe4cfbcf76d01d86a6dfcb744957dc0919aa3c70a61b1502ace6",
+      "external_images": [],
+      "path": "assets/buildings/mill/stages/L2.glb"
+    },
+    {
+      "type": "mill",
+      "level": 3,
+      "revision": "gable-r01",
+      "size": 8936092,
+      "sha256": "0ce18c7e954af36e4abf2aca0f1a9be01d7fdc8f10f69ae22d0fc8cb00b1552a",
+      "external_images": [],
+      "path": "assets/buildings/mill/stages/L3.glb"
+    },
+    {
+      "type": "mill",
+      "level": 4,
+      "revision": "gable-r01",
+      "size": 10845584,
+      "sha256": "8c305ea5a29eaf5e1f6e9f901a0159643eb5153fa6cb4f263b2158e77a0df963",
+      "external_images": [],
+      "path": "assets/buildings/mill/stages/L4.glb"
+    },
+    {
+      "type": "mill",
+      "level": 5,
+      "revision": "gable-r01",
+      "size": 12791412,
+      "sha256": "737cf2584d2f26b9ca04141b809276e8068688ad3f9b7dff32ce6f08ddcbfa6a",
+      "external_images": [],
+      "path": "assets/buildings/mill/stages/L5.glb"
+    },
+    {
+      "type": "bakery",
+      "level": 1,
+      "revision": "gable-r01",
+      "size": 13581284,
+      "sha256": "d3b42519e655cfaec2b521f0feedfdbf2d36813a46c49cc68f86f11aa0de6140",
+      "external_images": [],
+      "path": "assets/buildings/bakery/stages/L1.glb"
+    },
+    {
+      "type": "bakery",
+      "level": 2,
+      "revision": "gable-r01",
+      "size": 15978000,
+      "sha256": "fd9b5931ad1218196d5f0edd266ddf14872ffabce1ac3033d9ae6615e3e65433",
+      "external_images": [],
+      "path": "assets/buildings/bakery/stages/L2.glb"
+    },
+    {
+      "type": "bakery",
+      "level": 3,
+      "revision": "gable-r01",
+      "size": 18014256,
+      "sha256": "f324fb387cc06052e110f42d444a791d83e4bc6f3ecb2839aab62b0f8e08686e",
+      "external_images": [],
+      "path": "assets/buildings/bakery/stages/L3.glb"
+    },
+    {
+      "type": "bakery",
+      "level": 4,
+      "revision": "gable-r01",
+      "size": 19878908,
+      "sha256": "87e3eab7ecf95a4b46970addaaf65d9e57ef7560d881cbbfae8e198f33d18bef",
+      "external_images": [],
+      "path": "assets/buildings/bakery/stages/L4.glb"
+    },
+    {
+      "type": "bakery",
+      "level": 5,
+      "revision": "gable-r01",
+      "size": 21830788,
+      "sha256": "892f47628fadae4b427baa55dcf47eda67438fc9afb0a7d09407fd4ea0fbbcc6",
+      "external_images": [],
+      "path": "assets/buildings/bakery/stages/L5.glb"
+    },
+    {
+      "type": "weaver",
+      "level": 1,
+      "revision": "gable-r01",
+      "size": 5516412,
+      "sha256": "1d620e2ad7195d5b25bafe6122a7646914fea318730e42a16ca6509e857b476a",
+      "external_images": [],
+      "path": "assets/buildings/weaver/stages/L1.glb"
+    },
+    {
+      "type": "weaver",
+      "level": 2,
+      "revision": "gable-r01",
+      "size": 7328368,
+      "sha256": "c33fe3f1cecb14c304e121a4fc5c4dadebd4c697145777cd2d4c1ffcb5b0b022",
+      "external_images": [],
+      "path": "assets/buildings/weaver/stages/L2.glb"
+    },
+    {
+      "type": "weaver",
+      "level": 3,
+      "revision": "gable-r01",
+      "size": 9097788,
+      "sha256": "4a818a29d23031972a7cc8dd1083a98223d8cc774853b93ec4fbed9418458ae8",
+      "external_images": [],
+      "path": "assets/buildings/weaver/stages/L3.glb"
+    },
+    {
+      "type": "weaver",
+      "level": 4,
+      "revision": "gable-r01",
+      "size": 11027460,
+      "sha256": "b964ce429b482a3119343c6d257eeee916e9d5ed6e5350af9b55c45131738361",
+      "external_images": [],
+      "path": "assets/buildings/weaver/stages/L4.glb"
+    },
+    {
+      "type": "weaver",
+      "level": 5,
+      "revision": "gable-r01",
+      "size": 12855948,
+      "sha256": "16f6e809a53bcf6d847b58fff84f849cbd444521e70daf5a54aa28590103b39d",
+      "external_images": [],
+      "path": "assets/buildings/weaver/stages/L5.glb"
+    },
+    {
+      "type": "apothecary",
+      "level": 1,
+      "revision": "historical",
+      "size": 7284236,
+      "sha256": "76641e9a365b14233e60116f1e6c47384c1a9476f104bcfab6b3d9e133a140ec",
+      "external_images": [],
+      "path": "assets/buildings/apothecary/stages/L1.glb"
+    },
+    {
+      "type": "apothecary",
+      "level": 2,
+      "revision": "historical",
+      "size": 9390480,
+      "sha256": "e28992e7f3c1d7cb180b84fcc24511789964c7824f222f938c971038d9307d83",
+      "external_images": [],
+      "path": "assets/buildings/apothecary/stages/L2.glb"
+    },
+    {
+      "type": "apothecary",
+      "level": 3,
+      "revision": "historical",
+      "size": 12695028,
+      "sha256": "6fdab6b96d4b1f9d552e297e02ac541dec47f5406a1f3130b4ced51cfd18657d",
+      "external_images": [],
+      "path": "assets/buildings/apothecary/stages/L3.glb"
+    },
+    {
+      "type": "apothecary",
+      "level": 4,
+      "revision": "historical",
+      "size": 15191244,
+      "sha256": "b8a9bb13780b3512e6b806a973f043e0a7c6271fd426b2b88d14d5bd0bbb52a3",
+      "external_images": [],
+      "path": "assets/buildings/apothecary/stages/L4.glb"
+    },
+    {
+      "type": "apothecary",
+      "level": 5,
+      "revision": "historical",
+      "size": 17621876,
+      "sha256": "201cba7e929428d128d72bd870002ba2fc0d0192a8cd7971a56ff71e4319570e",
+      "external_images": [],
+      "path": "assets/buildings/apothecary/stages/L5.glb"
+    },
+    {
+      "type": "tavern",
+      "level": 1,
+      "revision": "historical",
+      "size": 6738736,
+      "sha256": "dc7e7b63d278cc5aafb56728ef725b7425842496322a477221f81fd70049fc6b",
+      "external_images": [],
+      "path": "assets/buildings/tavern/stages/L1.glb"
+    },
+    {
+      "type": "tavern",
+      "level": 2,
+      "revision": "historical",
+      "size": 8892744,
+      "sha256": "260f818ac6200652b1a64b204e15d9c7ee266f83fcbadce2aed4500eae61c207",
+      "external_images": [],
+      "path": "assets/buildings/tavern/stages/L2.glb"
+    },
+    {
+      "type": "tavern",
+      "level": 3,
+      "revision": "historical",
+      "size": 11781520,
+      "sha256": "4295ff796446d039f358f1932c4336c969a7650f29ef484508dd9a543b36fbc2",
+      "external_images": [],
+      "path": "assets/buildings/tavern/stages/L3.glb"
+    },
+    {
+      "type": "tavern",
+      "level": 4,
+      "revision": "instrument-r02",
+      "size": 14755600,
+      "sha256": "245c4498d7bd6d21e826cd9b47fdd30cc13764f2c5d67b77e8e0b8d3b68490a2",
+      "external_images": [],
+      "path": "assets/buildings/tavern/stages/L4.glb"
+    },
+    {
+      "type": "tavern",
+      "level": 5,
+      "revision": "instrument-r02",
+      "size": 17338532,
+      "sha256": "ffadfad0e6e6654461b65fb8090c956e1f149c1c4093ad98ab445f1483d81147",
+      "external_images": [],
+      "path": "assets/buildings/tavern/stages/L5.glb"
+    },
+    {
+      "type": "general-store",
+      "level": 1,
+      "revision": "historical",
+      "size": 7719932,
+      "sha256": "df60298f848cadc44591f2be6720bae82ffd641052b7bd02ea4d826890b3fe1b",
+      "external_images": [],
+      "path": "assets/buildings/general-store/stages/L1.glb"
+    },
+    {
+      "type": "general-store",
+      "level": 2,
+      "revision": "historical",
+      "size": 7861016,
+      "sha256": "c9264e63427bf1baacb6bb7b65be45a8f53ff927835de1f26a0db4f1db594677",
+      "external_images": [],
+      "path": "assets/buildings/general-store/stages/L2.glb"
+    },
+    {
+      "type": "general-store",
+      "level": 3,
+      "revision": "historical",
+      "size": 11586392,
+      "sha256": "0f6f480ab990294b4ec3173c1476150f3e8e4766bbb956848648dd4270e93043",
+      "external_images": [],
+      "path": "assets/buildings/general-store/stages/L3.glb"
+    },
+    {
+      "type": "general-store",
+      "level": 4,
+      "revision": "historical",
+      "size": 14711540,
+      "sha256": "dfadf3c2e9f87a64e54e75b3bc702ee1404274f3f0dee68c5b6ad04416ef2793",
+      "external_images": [],
+      "path": "assets/buildings/general-store/stages/L4.glb"
+    },
+    {
+      "type": "general-store",
+      "level": 5,
+      "revision": "historical",
+      "size": 18269812,
+      "sha256": "23cfdbe742c9d46bdfd6286c1849c38c46f70ddb7ff5a66e8bb02a3109610d4e",
+      "external_images": [],
+      "path": "assets/buildings/general-store/stages/L5.glb"
+    },
+    {
+      "type": "terminal",
+      "level": 1,
+      "revision": "historical",
+      "size": 1660788,
+      "sha256": "2614b5df3d3c1f5e785a0038049abe0bf8319285299a18d87c0ed9563cb15ec9",
+      "external_images": [],
+      "path": "assets/buildings/terminal/stages/L1.glb"
+    },
+    {
+      "type": "terminal",
+      "level": 2,
+      "revision": "historical",
+      "size": 2930828,
+      "sha256": "1d95701b36623da4b4ad2bf9e0000490b72578f71b655238758e40da3cc5d80f",
+      "external_images": [],
+      "path": "assets/buildings/terminal/stages/L2.glb"
+    },
+    {
+      "type": "terminal",
+      "level": 3,
+      "revision": "historical",
+      "size": 3522120,
+      "sha256": "7c5286710f803f98aff4503cbff5f748b6edeb048ab5fb380b60352c13d14e5a",
+      "external_images": [],
+      "path": "assets/buildings/terminal/stages/L3.glb"
+    },
+    {
+      "type": "terminal",
+      "level": 4,
+      "revision": "hoist-end-r02",
+      "size": 3928528,
+      "sha256": "c5b9c7e3890c446e03c8170df64c4cc1f7f4ab88a93c39865ca08e5ce7d26e28",
+      "external_images": [],
+      "path": "assets/buildings/terminal/stages/L4.glb"
+    },
+    {
+      "type": "terminal",
+      "level": 5,
+      "revision": "hoist-end-r02",
+      "size": 4669344,
+      "sha256": "f9226c81d640d364cc8f98a2c5856e40535078ceadf543506f528c0af4966917",
+      "external_images": [],
+      "path": "assets/buildings/terminal/stages/L5.glb"
+    }
+  ]
+}

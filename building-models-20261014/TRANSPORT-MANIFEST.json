@@ -1,0 +1,1528 @@
+{
+  "format": "building-models-lossless-gzip-v1",
+  "model_count": 90,
+  "models": [
+    {
+      "path": "assets/buildings/apothecary/stages/L1.glb",
+      "size": 7284236,
+      "sha256": "76641e9a365b14233e60116f1e6c47384c1a9476f104bcfab6b3d9e133a140ec",
+      "gzip_size": 3948112,
+      "gzip_sha256": "fb89fcb4c50c99d0be25824940c5e975a9c95b438d5e26b33c2e9183641277c7",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/apothecary/stages/L1.glb.gz.part001",
+          "size": 3948112,
+          "sha256": "fb89fcb4c50c99d0be25824940c5e975a9c95b438d5e26b33c2e9183641277c7"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/apothecary/stages/L2.glb",
+      "size": 9390480,
+      "sha256": "e28992e7f3c1d7cb180b84fcc24511789964c7824f222f938c971038d9307d83",
+      "gzip_size": 4218371,
+      "gzip_sha256": "abb9fbfb27c57c58c549f2ffdc5ba913364ff2d0efc87679aa2cb4e90af18917",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/apothecary/stages/L2.glb.gz.part001",
+          "size": 4218371,
+          "sha256": "abb9fbfb27c57c58c549f2ffdc5ba913364ff2d0efc87679aa2cb4e90af18917"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/apothecary/stages/L3.glb",
+      "size": 12695028,
+      "sha256": "6fdab6b96d4b1f9d552e297e02ac541dec47f5406a1f3130b4ced51cfd18657d",
+      "gzip_size": 4492035,
+      "gzip_sha256": "629b4ab325cd037ebe4e6817ab1f5388bf2bd28b0fb5b3fa1e6cf799601dc6a0",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/apothecary/stages/L3.glb.gz.part001",
+          "size": 4492035,
+          "sha256": "629b4ab325cd037ebe4e6817ab1f5388bf2bd28b0fb5b3fa1e6cf799601dc6a0"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/apothecary/stages/L4.glb",
+      "size": 15191244,
+      "sha256": "b8a9bb13780b3512e6b806a973f043e0a7c6271fd426b2b88d14d5bd0bbb52a3",
+      "gzip_size": 4804539,
+      "gzip_sha256": "6f8a2866e3660a9446835d8b93b15d18349078fc00b06b4421dd470c0acf1180",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/apothecary/stages/L4.glb.gz.part001",
+          "size": 4804539,
+          "sha256": "6f8a2866e3660a9446835d8b93b15d18349078fc00b06b4421dd470c0acf1180"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/apothecary/stages/L5.glb",
+      "size": 17621876,
+      "sha256": "201cba7e929428d128d72bd870002ba2fc0d0192a8cd7971a56ff71e4319570e",
+      "gzip_size": 5063879,
+      "gzip_sha256": "34eb101536b134dc04241422c90986e39d52065b8a0930265630b1733a73d57e",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/apothecary/stages/L5.glb.gz.part001",
+          "size": 5063879,
+          "sha256": "34eb101536b134dc04241422c90986e39d52065b8a0930265630b1733a73d57e"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/bakery/stages/L1.glb",
+      "size": 13581284,
+      "sha256": "d3b42519e655cfaec2b521f0feedfdbf2d36813a46c49cc68f86f11aa0de6140",
+      "gzip_size": 11597911,
+      "gzip_sha256": "df035f18e781949c45dcf185d84347d12f7a3ce060f8e35676cc34859289ed64",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/bakery/stages/L1.glb.gz.part001",
+          "size": 8000000,
+          "sha256": "fd6a1c8a6cd57540d98e07dbc969cdf6b246b752068a1ee24ab1d0dec5fc1f06"
+        },
+        {
+          "path": "compressed/assets/buildings/bakery/stages/L1.glb.gz.part002",
+          "size": 3597911,
+          "sha256": "dded2cc52af2cfd6cf2f14369d8a546b2f1b83fcf5947810a7da0a987279ffab"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/bakery/stages/L2.glb",
+      "size": 15978000,
+      "sha256": "fd9b5931ad1218196d5f0edd266ddf14872ffabce1ac3033d9ae6615e3e65433",
+      "gzip_size": 12096616,
+      "gzip_sha256": "861be40febf2474320258ad07fbe1916582c4f8a96fbd693f148c86d973b45c1",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/bakery/stages/L2.glb.gz.part001",
+          "size": 8000000,
+          "sha256": "795972c6a7c2de8adaa5c865ef12d3136181b1c55af07c8f5d83ec0c45417585"
+        },
+        {
+          "path": "compressed/assets/buildings/bakery/stages/L2.glb.gz.part002",
+          "size": 4096616,
+          "sha256": "0b9363ff33220c8903ed4d358b3db385e109e00f216917cbf40cc67ec7d9e4fb"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/bakery/stages/L3.glb",
+      "size": 18014256,
+      "sha256": "f324fb387cc06052e110f42d444a791d83e4bc6f3ecb2839aab62b0f8e08686e",
+      "gzip_size": 12290644,
+      "gzip_sha256": "c897d20f96ff2c1e32746554f16bff93e9d1dc2b5825780d2d081d2ebd1c9d0c",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/bakery/stages/L3.glb.gz.part001",
+          "size": 8000000,
+          "sha256": "36f478211f4888f83a43cc74aa6e3cf371334572df10b7b40181106b5d186c5e"
+        },
+        {
+          "path": "compressed/assets/buildings/bakery/stages/L3.glb.gz.part002",
+          "size": 4290644,
+          "sha256": "fa1063a07f841e4f4fd19710adfba4ba6737a6548220fcd4263b6bff96d3aa3c"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/bakery/stages/L4.glb",
+      "size": 19878908,
+      "sha256": "87e3eab7ecf95a4b46970addaaf65d9e57ef7560d881cbbfae8e198f33d18bef",
+      "gzip_size": 12472064,
+      "gzip_sha256": "d905743f2405a19df271bd49354ee9078bf36b4d113ecd7759dd689c0bc78480",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/bakery/stages/L4.glb.gz.part001",
+          "size": 8000000,
+          "sha256": "5a568c47ee8998cc76d76945e6c76df4b5f77cecd21c7ec2079eb08eac895fdd"
+        },
+        {
+          "path": "compressed/assets/buildings/bakery/stages/L4.glb.gz.part002",
+          "size": 4472064,
+          "sha256": "d726817031521fc8d3b6d6629cba8ab5ed620925742be4ebe1acbad0cf5ba9ab"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/bakery/stages/L5.glb",
+      "size": 21830788,
+      "sha256": "892f47628fadae4b427baa55dcf47eda67438fc9afb0a7d09407fd4ea0fbbcc6",
+      "gzip_size": 12655889,
+      "gzip_sha256": "0147c40a5aff733ae6567fa74b0c2d7a0f6b462aae1fda6de89c3cc216da8bdd",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/bakery/stages/L5.glb.gz.part001",
+          "size": 8000000,
+          "sha256": "81f5af3def882b127098b3ea1fde07fe7d7efc33bfb8a0047d6a1519776bb86e"
+        },
+        {
+          "path": "compressed/assets/buildings/bakery/stages/L5.glb.gz.part002",
+          "size": 4655889,
+          "sha256": "3772117f82b9f83f1d5b83e87a2b745575c1216938cce8a5fae39244142f89ff"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/farmstead/stages/L1.glb",
+      "size": 15480144,
+      "sha256": "14fb7968b8d26908e3122b9c9b18188d7fe08e2e6a64294aba9444a7f1f1d4b1",
+      "gzip_size": 13434340,
+      "gzip_sha256": "8dd9b73f77766f17d68f6156ba63a81151e8aadc59a87c90f92b43340e290a2e",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/farmstead/stages/L1.glb.gz.part001",
+          "size": 8000000,
+          "sha256": "03ebb14026d09e5e3a349a11d603d0c9eee1636482d12bcd0abfc9ce7456d4f0"
+        },
+        {
+          "path": "compressed/assets/buildings/farmstead/stages/L1.glb.gz.part002",
+          "size": 5434340,
+          "sha256": "44431252f514e257d803bb25f9404d1fdbbfc0b5201518f7dca816e5e0656a1a"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/farmstead/stages/L2.glb",
+      "size": 19907032,
+      "sha256": "b31ca998a5d23d6469720debb834f6918230de24480f9f4b7af50255974fbbd6",
+      "gzip_size": 15908477,
+      "gzip_sha256": "7f1f216639fb9b42eee21e115088b09e767be43026175384dd89f49254adbcc0",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/farmstead/stages/L2.glb.gz.part001",
+          "size": 8000000,
+          "sha256": "2ab321704311080f1384f2987a019dbbf924ad91decd50d3b7e120cc9c001329"
+        },
+        {
+          "path": "compressed/assets/buildings/farmstead/stages/L2.glb.gz.part002",
+          "size": 7908477,
+          "sha256": "4ba31d65837c849026d7263858c483307283064e05edd3160c261c6a63a2dbf4"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/farmstead/stages/L3.glb",
+      "size": 20618144,
+      "sha256": "3ff688c39e88dce99815de9ef3357da17422cbf132fad5bbc06c62a6d6fe43e9",
+      "gzip_size": 16378708,
+      "gzip_sha256": "3d197ee96a808f95b0901842534f2f898542a992747e9710a4888d2faa4e2297",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/farmstead/stages/L3.glb.gz.part001",
+          "size": 8000000,
+          "sha256": "dd65a06a54d449f40bc2251f3fdf1874c8c91f762fd9e3ad0e45c8e86976487d"
+        },
+        {
+          "path": "compressed/assets/buildings/farmstead/stages/L3.glb.gz.part002",
+          "size": 8000000,
+          "sha256": "9b1144aa20c04b034d1bfef708311982cfc2909623370c150ffcc6da2b118d68"
+        },
+        {
+          "path": "compressed/assets/buildings/farmstead/stages/L3.glb.gz.part003",
+          "size": 378708,
+          "sha256": "14f20de551413c0332616872921b16e6631fdc07ba374658fd60d435a2f425c7"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/farmstead/stages/L4.glb",
+      "size": 22533824,
+      "sha256": "3997266e27fc8556c8ab10f9734fd3691cd26a8a693f7615513860628fd9e850",
+      "gzip_size": 16566850,
+      "gzip_sha256": "a434b87c6f2afe736af5c2e55197a5ebb845deb37c3fd258afb627ee43cf157e",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/farmstead/stages/L4.glb.gz.part001",
+          "size": 8000000,
+          "sha256": "b4a63ca50473b3a3c6a0e6de12f60f63d8e390809cf2b3da12c8be94fb35e6df"
+        },
+        {
+          "path": "compressed/assets/buildings/farmstead/stages/L4.glb.gz.part002",
+          "size": 8000000,
+          "sha256": "03ccf176915b5c566f8946ae1cb6224eed5a33685bfe4817069c681f4fdcf043"
+        },
+        {
+          "path": "compressed/assets/buildings/farmstead/stages/L4.glb.gz.part003",
+          "size": 566850,
+          "sha256": "5a11b5ede076f99b996d482ecadc5ca8bdeb3f1e1238091fedbbe47b9c31b358"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/farmstead/stages/L5.glb",
+      "size": 24326400,
+      "sha256": "33909f0e11f26d64ac0632e5672afb01de50e86fb46a805c97f96daf9cd6a8e7",
+      "gzip_size": 16739028,
+      "gzip_sha256": "bf69eaff818e2eef32e330bd885e4431cd04c5355676dd9b74962f467a3638b7",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/farmstead/stages/L5.glb.gz.part001",
+          "size": 8000000,
+          "sha256": "74bdc4049b78d5d82f239e107933398d938f07732fce744340b45884b4f57c89"
+        },
+        {
+          "path": "compressed/assets/buildings/farmstead/stages/L5.glb.gz.part002",
+          "size": 8000000,
+          "sha256": "80c5a56680f0f913ddb627b5c15a51a629c382d0fdcde806bc0103443e95f7f0"
+        },
+        {
+          "path": "compressed/assets/buildings/farmstead/stages/L5.glb.gz.part003",
+          "size": 739028,
+          "sha256": "95279b6570e149ea405049257a7cdd8ea72f51c2793b3fec46d2609d3741c293"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/fishery/stages/L1.glb",
+      "size": 5909888,
+      "sha256": "a478e67f48cca2f5d13a114795e150a14d390c6a290206dd17e4d7cd63c52ef9",
+      "gzip_size": 3058658,
+      "gzip_sha256": "8dc713e9f9a15175d89e3beefee5801ebf95eb18422eab1fdf6fa35fb3e463db",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/fishery/stages/L1.glb.gz.part001",
+          "size": 3058658,
+          "sha256": "8dc713e9f9a15175d89e3beefee5801ebf95eb18422eab1fdf6fa35fb3e463db"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/fishery/stages/L2.glb",
+      "size": 7978636,
+      "sha256": "e9115f05917de58e1313bd5ac9ac97c24fa0e0ad381cbeafecc490bca28edcdf",
+      "gzip_size": 3268243,
+      "gzip_sha256": "9178670c26262954b7b8c919c512f8168584e2a78fc339c2f3549bcd93edf607",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/fishery/stages/L2.glb.gz.part001",
+          "size": 3268243,
+          "sha256": "9178670c26262954b7b8c919c512f8168584e2a78fc339c2f3549bcd93edf607"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/fishery/stages/L3.glb",
+      "size": 10154920,
+      "sha256": "07775b954726adff5037c32f4fb1e5358606a6560257c5a1fc8cd2fb1160fd1c",
+      "gzip_size": 3589356,
+      "gzip_sha256": "f0d8d22022fd966f5e54f9e832852598d9e868b8bc827f410070a4736a78ba98",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/fishery/stages/L3.glb.gz.part001",
+          "size": 3589356,
+          "sha256": "f0d8d22022fd966f5e54f9e832852598d9e868b8bc827f410070a4736a78ba98"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/fishery/stages/L4.glb",
+      "size": 10668872,
+      "sha256": "9488050ac32fee41f153d4409785f9412d2b86f3f4dd41af187429c90ec93c4f",
+      "gzip_size": 3624536,
+      "gzip_sha256": "9c7932b28898dcb7c5e2b52ebc56a7419ce55b53ca33feb55e46d3186ec0c1aa",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/fishery/stages/L4.glb.gz.part001",
+          "size": 3624536,
+          "sha256": "9c7932b28898dcb7c5e2b52ebc56a7419ce55b53ca33feb55e46d3186ec0c1aa"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/fishery/stages/L5.glb",
+      "size": 10827684,
+      "sha256": "1934a37fa69320d61c629bcef4b674224d6c4eb9660ade35f27bd3da414f1688",
+      "gzip_size": 3643885,
+      "gzip_sha256": "4d3076788c28df71530d54652374692e2706703cda294a9515219819814736be",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/fishery/stages/L5.glb.gz.part001",
+          "size": 3643885,
+          "sha256": "4d3076788c28df71530d54652374692e2706703cda294a9515219819814736be"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/general-store/stages/L1.glb",
+      "size": 7719932,
+      "sha256": "df60298f848cadc44591f2be6720bae82ffd641052b7bd02ea4d826890b3fe1b",
+      "gzip_size": 4467381,
+      "gzip_sha256": "31d14f2e8211bc7f1988e19969937b062f14010eae7bf603230c75aee1bc8564",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/general-store/stages/L1.glb.gz.part001",
+          "size": 4467381,
+          "sha256": "31d14f2e8211bc7f1988e19969937b062f14010eae7bf603230c75aee1bc8564"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/general-store/stages/L2.glb",
+      "size": 7861016,
+      "sha256": "c9264e63427bf1baacb6bb7b65be45a8f53ff927835de1f26a0db4f1db594677",
+      "gzip_size": 4482462,
+      "gzip_sha256": "33263b9315ec61aca2ce1b80362382925328ed9450cd22382bbf7064e144ab5b",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/general-store/stages/L2.glb.gz.part001",
+          "size": 4482462,
+          "sha256": "33263b9315ec61aca2ce1b80362382925328ed9450cd22382bbf7064e144ab5b"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/general-store/stages/L3.glb",
+      "size": 11586392,
+      "sha256": "0f6f480ab990294b4ec3173c1476150f3e8e4766bbb956848648dd4270e93043",
+      "gzip_size": 5222999,
+      "gzip_sha256": "ed7ce7f280717788e02506cdb08555cdb08549b2ec67c20b944663e97ecded41",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/general-store/stages/L3.glb.gz.part001",
+          "size": 5222999,
+          "sha256": "ed7ce7f280717788e02506cdb08555cdb08549b2ec67c20b944663e97ecded41"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/general-store/stages/L4.glb",
+      "size": 14711540,
+      "sha256": "dfadf3c2e9f87a64e54e75b3bc702ee1404274f3f0dee68c5b6ad04416ef2793",
+      "gzip_size": 5917656,
+      "gzip_sha256": "0d8c1fdf56fee16347c1afe5ecfd36d02a7e770dab6861d4365809b9ed378276",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/general-store/stages/L4.glb.gz.part001",
+          "size": 5917656,
+          "sha256": "0d8c1fdf56fee16347c1afe5ecfd36d02a7e770dab6861d4365809b9ed378276"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/general-store/stages/L5.glb",
+      "size": 18269812,
+      "sha256": "23cfdbe742c9d46bdfd6286c1849c38c46f70ddb7ff5a66e8bb02a3109610d4e",
+      "gzip_size": 6647981,
+      "gzip_sha256": "83c7d734c2f310f1439b6b03deedf98437883b3c8856134e5ed469646a411e4b",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/general-store/stages/L5.glb.gz.part001",
+          "size": 6647981,
+          "sha256": "83c7d734c2f310f1439b6b03deedf98437883b3c8856134e5ed469646a411e4b"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/inn/stages/L1.glb",
+      "size": 7073392,
+      "sha256": "e6016c31a2e10745157d57f73a494c6355cba6bfbc4155517f40fdd015973655",
+      "gzip_size": 2625522,
+      "gzip_sha256": "b8be6cb16d91c55ce32b60588af57146f1cdf02a963342ff95c5a2953d8ee03d",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/inn/stages/L1.glb.gz.part001",
+          "size": 2625522,
+          "sha256": "b8be6cb16d91c55ce32b60588af57146f1cdf02a963342ff95c5a2953d8ee03d"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/inn/stages/L2.glb",
+      "size": 7381500,
+      "sha256": "32c648969808ba840488cb7b960979e5a8f7fce6cd08ef57adecb28c9efeec58",
+      "gzip_size": 2662805,
+      "gzip_sha256": "eee75233f9755dd053a2c7b2826fad854911a3fd6c1d826aa1a1574197cfeff3",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/inn/stages/L2.glb.gz.part001",
+          "size": 2662805,
+          "sha256": "eee75233f9755dd053a2c7b2826fad854911a3fd6c1d826aa1a1574197cfeff3"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/inn/stages/L3.glb",
+      "size": 7740936,
+      "sha256": "66b50354f7cd0fee374085c174d9dae8409626a34c55a9005d8bfbf177462e24",
+      "gzip_size": 2716720,
+      "gzip_sha256": "ab3603bc61af85970d76d8d644264cff17c2d14b1908d88d228b45c2e81c59f4",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/inn/stages/L3.glb.gz.part001",
+          "size": 2716720,
+          "sha256": "ab3603bc61af85970d76d8d644264cff17c2d14b1908d88d228b45c2e81c59f4"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/inn/stages/L4.glb",
+      "size": 8168152,
+      "sha256": "160f65ce9f1fe60b7d2259c8282c7011c4d8ffb06a08c7d5f88263ceaf424d01",
+      "gzip_size": 2790324,
+      "gzip_sha256": "e98c5e25e6b013e80275c98ecc0e8739e54ca168c1501ce35062db84dd855387",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/inn/stages/L4.glb.gz.part001",
+          "size": 2790324,
+          "sha256": "e98c5e25e6b013e80275c98ecc0e8739e54ca168c1501ce35062db84dd855387"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/inn/stages/L5.glb",
+      "size": 8431176,
+      "sha256": "812d13d2e82f55f6da843b2a47b3fef0536dffe4f26a2c0ef69f48b3331ea261",
+      "gzip_size": 2849605,
+      "gzip_sha256": "d7f66349f075ae0fcfe4a769e8b246ce82faa1fd3fcfd6e0efa22668b037dd1c",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/inn/stages/L5.glb.gz.part001",
+          "size": 2849605,
+          "sha256": "d7f66349f075ae0fcfe4a769e8b246ce82faa1fd3fcfd6e0efa22668b037dd1c"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/kitchen/stages/L1.glb",
+      "size": 4106088,
+      "sha256": "69701f9e728e0aecc0964de8d40b0cb5dc0de1cba8917f254cada765a38df5db",
+      "gzip_size": 594223,
+      "gzip_sha256": "f2c8b0955258efe10d328da79d4e75f37a646cc3775b8267487105c8bcf13eb1",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/kitchen/stages/L1.glb.gz.part001",
+          "size": 594223,
+          "sha256": "f2c8b0955258efe10d328da79d4e75f37a646cc3775b8267487105c8bcf13eb1"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/kitchen/stages/L2.glb",
+      "size": 5004756,
+      "sha256": "152b4ace9cfe7e0bbc036059995422bfb2ea0eac512b021b28c1ad84b613d6e1",
+      "gzip_size": 716502,
+      "gzip_sha256": "e3f5d14c6a93fcb47c32a7aa78eb9f4e0e5308fef6d32546bd2e3696a0f12087",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/kitchen/stages/L2.glb.gz.part001",
+          "size": 716502,
+          "sha256": "e3f5d14c6a93fcb47c32a7aa78eb9f4e0e5308fef6d32546bd2e3696a0f12087"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/kitchen/stages/L3.glb",
+      "size": 5594608,
+      "sha256": "f4647650f4b4729f4475c1abb75d2e7c305405cbcdff440dbfa47fb64686e004",
+      "gzip_size": 795678,
+      "gzip_sha256": "93c5daaa7b4b121759019842642877a336198f10404f755083bb341d87dbcc57",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/kitchen/stages/L3.glb.gz.part001",
+          "size": 795678,
+          "sha256": "93c5daaa7b4b121759019842642877a336198f10404f755083bb341d87dbcc57"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/kitchen/stages/L4.glb",
+      "size": 6239416,
+      "sha256": "e4dbcd6635b747d478fbea10759a9e6e2f6ea008993836cc7af92820edcad345",
+      "gzip_size": 892236,
+      "gzip_sha256": "4b8c02011be30d74f56834c0b910b0aa180fca34a69cb6a8bd3956ae3505008b",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/kitchen/stages/L4.glb.gz.part001",
+          "size": 892236,
+          "sha256": "4b8c02011be30d74f56834c0b910b0aa180fca34a69cb6a8bd3956ae3505008b"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/kitchen/stages/L5.glb",
+      "size": 6469756,
+      "sha256": "38ce075fc23cb9ebd5b48c0409f1fdd1eb28e7ecc2ad4078a59e58cb82fdfefc",
+      "gzip_size": 935734,
+      "gzip_sha256": "4e8398c5ef727899731c5027360361b42f056c06a8a5a5ac5247cbf7dd30f696",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/kitchen/stages/L5.glb.gz.part001",
+          "size": 935734,
+          "sha256": "4e8398c5ef727899731c5027360361b42f056c06a8a5a5ac5247cbf7dd30f696"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/lumberyard/stages/L1.glb",
+      "size": 6047000,
+      "sha256": "1811a8f490dff0046238750d82aa1e481bf01c6e4baf87f3e1074becdeb8e5d0",
+      "gzip_size": 4055174,
+      "gzip_sha256": "2e4b73af2fe19bc8bde4667be51d848ae1247cda4bfd038a1eeea7568d10558c",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/lumberyard/stages/L1.glb.gz.part001",
+          "size": 4055174,
+          "sha256": "2e4b73af2fe19bc8bde4667be51d848ae1247cda4bfd038a1eeea7568d10558c"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/lumberyard/stages/L2.glb",
+      "size": 7684432,
+      "sha256": "bac74fa74e2c8e285f45704fde3509f62a7ed21d95c3c20f226c3193d69c8c6e",
+      "gzip_size": 4249255,
+      "gzip_sha256": "7cc9a94b54c26fd0836b67d66c0e0d54140a3b1f7706f991db38acf903c98fc2",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/lumberyard/stages/L2.glb.gz.part001",
+          "size": 4249255,
+          "sha256": "7cc9a94b54c26fd0836b67d66c0e0d54140a3b1f7706f991db38acf903c98fc2"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/lumberyard/stages/L3.glb",
+      "size": 8331456,
+      "sha256": "564dfba1d450cd37cd672f9a1d44964e2e11c25088c8b6c56a9bfc4cefc13c4c",
+      "gzip_size": 4605611,
+      "gzip_sha256": "c9332e6e6211890b2628ef412320683c1da10778698d387655bf9129ccd4034f",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/lumberyard/stages/L3.glb.gz.part001",
+          "size": 4605611,
+          "sha256": "c9332e6e6211890b2628ef412320683c1da10778698d387655bf9129ccd4034f"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/lumberyard/stages/L4.glb",
+      "size": 10020376,
+      "sha256": "cae4d0e181e932f581904c7ea182330da0a602ee3cbb6f4e9d9315b4db998c68",
+      "gzip_size": 4836377,
+      "gzip_sha256": "fca37dc7f7ea47202ba32b5bf8000b8448d2a3a785ff67b93bbbaa42413d6bb7",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/lumberyard/stages/L4.glb.gz.part001",
+          "size": 4836377,
+          "sha256": "fca37dc7f7ea47202ba32b5bf8000b8448d2a3a785ff67b93bbbaa42413d6bb7"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/lumberyard/stages/L5.glb",
+      "size": 11180852,
+      "sha256": "dc98a687fd73f7c1cc4758063a448e2acf8835e1b1303af50af2f30774d0154b",
+      "gzip_size": 5133423,
+      "gzip_sha256": "babf4662d926cb695058aa9817a4175ec6b7f22217ad101d237cae98fcfd4eee",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/lumberyard/stages/L5.glb.gz.part001",
+          "size": 5133423,
+          "sha256": "babf4662d926cb695058aa9817a4175ec6b7f22217ad101d237cae98fcfd4eee"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/mill/stages/L1.glb",
+      "size": 6972060,
+      "sha256": "e9e03343b7cc698f00c8f4990ade5c305a2b1935d8a4b1961de354b19d854bd4",
+      "gzip_size": 3588977,
+      "gzip_sha256": "b31a232bc83ff267f5e173591d7a61979a1356b2c0e9f54c753b2275cae406b1",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/mill/stages/L1.glb.gz.part001",
+          "size": 3588977,
+          "sha256": "b31a232bc83ff267f5e173591d7a61979a1356b2c0e9f54c753b2275cae406b1"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/mill/stages/L2.glb",
+      "size": 7067684,
+      "sha256": "eedda9a1c7babe4cfbcf76d01d86a6dfcb744957dc0919aa3c70a61b1502ace6",
+      "gzip_size": 3599476,
+      "gzip_sha256": "edf4b01ba887f3a3f25c65fcebcfbfc06827985a6922fe309cb77e49bd4e052a",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/mill/stages/L2.glb.gz.part001",
+          "size": 3599476,
+          "sha256": "edf4b01ba887f3a3f25c65fcebcfbfc06827985a6922fe309cb77e49bd4e052a"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/mill/stages/L3.glb",
+      "size": 8936092,
+      "sha256": "0ce18c7e954af36e4abf2aca0f1a9be01d7fdc8f10f69ae22d0fc8cb00b1552a",
+      "gzip_size": 3786873,
+      "gzip_sha256": "c165488aa87afe0d560e909f09efd24f8d4dec12244836d32d675b65bfe7f0e8",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/mill/stages/L3.glb.gz.part001",
+          "size": 3786873,
+          "sha256": "c165488aa87afe0d560e909f09efd24f8d4dec12244836d32d675b65bfe7f0e8"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/mill/stages/L4.glb",
+      "size": 10845584,
+      "sha256": "8c305ea5a29eaf5e1f6e9f901a0159643eb5153fa6cb4f263b2158e77a0df963",
+      "gzip_size": 3974884,
+      "gzip_sha256": "b909501f4648cc61b2004818f07a0f2a646e9e49bf954254e7bf38d91439c0ea",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/mill/stages/L4.glb.gz.part001",
+          "size": 3974884,
+          "sha256": "b909501f4648cc61b2004818f07a0f2a646e9e49bf954254e7bf38d91439c0ea"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/mill/stages/L5.glb",
+      "size": 12791412,
+      "sha256": "737cf2584d2f26b9ca04141b809276e8068688ad3f9b7dff32ce6f08ddcbfa6a",
+      "gzip_size": 4164812,
+      "gzip_sha256": "fce40eac06f0fd2fadcaf25d9aea57c4067bb59457d8901a1ae8f5ea9ea48909",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/mill/stages/L5.glb.gz.part001",
+          "size": 4164812,
+          "sha256": "fce40eac06f0fd2fadcaf25d9aea57c4067bb59457d8901a1ae8f5ea9ea48909"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/quarry/stages/L1.glb",
+      "size": 7472188,
+      "sha256": "d54ff27b76915c714546a3eda3fb3f7f01e81fbcb04c82260340ddc8dbf3e904",
+      "gzip_size": 5777785,
+      "gzip_sha256": "e358f73096bca67631295a5bde039790ba0992163807b6b87e8605383f090714",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/quarry/stages/L1.glb.gz.part001",
+          "size": 5777785,
+          "sha256": "e358f73096bca67631295a5bde039790ba0992163807b6b87e8605383f090714"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/quarry/stages/L2.glb",
+      "size": 7770300,
+      "sha256": "c66c8f68be34d6f1ba7178a13bc13a66a24398fcbe5b24384510636156fab47c",
+      "gzip_size": 5800851,
+      "gzip_sha256": "11343d131744cc4b7d45b0d9b2a70dd430f3439d3c365956eb0144d463a4db21",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/quarry/stages/L2.glb.gz.part001",
+          "size": 5800851,
+          "sha256": "11343d131744cc4b7d45b0d9b2a70dd430f3439d3c365956eb0144d463a4db21"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/quarry/stages/L3.glb",
+      "size": 8485628,
+      "sha256": "0e636f4cf1e52d1170eb5f6d78166002d9a95c50fa0847e6180732c54b2b43f7",
+      "gzip_size": 6130355,
+      "gzip_sha256": "9bbe848811190e1556be1d3cb522d490a08512f4142ee36929ae0913b396434b",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/quarry/stages/L3.glb.gz.part001",
+          "size": 6130355,
+          "sha256": "9bbe848811190e1556be1d3cb522d490a08512f4142ee36929ae0913b396434b"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/quarry/stages/L4.glb",
+      "size": 10022520,
+      "sha256": "3340ba125920b7fe367d3055fdcb5fdccd3cc29fe6879c09f85cd03b584daa69",
+      "gzip_size": 6342342,
+      "gzip_sha256": "2402a925c621a96bb601d22972878f9cb60ee2a95c1fab264b90c8dd38aa0085",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/quarry/stages/L4.glb.gz.part001",
+          "size": 6342342,
+          "sha256": "2402a925c621a96bb601d22972878f9cb60ee2a95c1fab264b90c8dd38aa0085"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/quarry/stages/L5.glb",
+      "size": 11172180,
+      "sha256": "4e7952ce10a2a6b86a6c54e2b0c2e86a490ea63043ee69323b826db802a6461f",
+      "gzip_size": 6447191,
+      "gzip_sha256": "daa7f9299dca3cc90abae4080ab89ff22ec7429bc83036e36cc0a8bc925ce8c8",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/quarry/stages/L5.glb.gz.part001",
+          "size": 6447191,
+          "sha256": "daa7f9299dca3cc90abae4080ab89ff22ec7429bc83036e36cc0a8bc925ce8c8"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/smelter/stages/L1.glb",
+      "size": 8259096,
+      "sha256": "e9a91903929fe08240a660d31e4873e338bb0e7cd8aecaac7de73594439e2ddc",
+      "gzip_size": 6295576,
+      "gzip_sha256": "b939cff88b48809a4cba9646dc9f9ae66590427b119f87a567a25425ebd23caa",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/smelter/stages/L1.glb.gz.part001",
+          "size": 6295576,
+          "sha256": "b939cff88b48809a4cba9646dc9f9ae66590427b119f87a567a25425ebd23caa"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/smelter/stages/L2.glb",
+      "size": 9864852,
+      "sha256": "bae3ed0097849fd121855869850b020865e4b7a316407468ee5bcf4d5f306924",
+      "gzip_size": 6516120,
+      "gzip_sha256": "31e7e544992e21609a7d93c9936111636720a55c3dc3df2d0656e047fa3ad438",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/smelter/stages/L2.glb.gz.part001",
+          "size": 6516120,
+          "sha256": "31e7e544992e21609a7d93c9936111636720a55c3dc3df2d0656e047fa3ad438"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/smelter/stages/L3.glb",
+      "size": 10733272,
+      "sha256": "f3ad22aabeffa389e2b310c715ed7da0439df6ab7abd708b98470c957382b3cf",
+      "gzip_size": 6597945,
+      "gzip_sha256": "7c61ea821ce10c7085daee7cbd80081bfe3d54e043b754de5398f579d3064884",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/smelter/stages/L3.glb.gz.part001",
+          "size": 6597945,
+          "sha256": "7c61ea821ce10c7085daee7cbd80081bfe3d54e043b754de5398f579d3064884"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/smelter/stages/L4.glb",
+      "size": 12511024,
+      "sha256": "bacba57c5a6e62a8cc1bfb082925aa0c4282489082b3eda89320392ea97c2f78",
+      "gzip_size": 6809602,
+      "gzip_sha256": "9b285bb452fbdce55e1806ff5382bdc01af58bb952d2bec0022d9999d5cf4267",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/smelter/stages/L4.glb.gz.part001",
+          "size": 6809602,
+          "sha256": "9b285bb452fbdce55e1806ff5382bdc01af58bb952d2bec0022d9999d5cf4267"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/smelter/stages/L5.glb",
+      "size": 14747588,
+      "sha256": "ec5b69d5ecfed09a2988f1b0641cd4725e3e611fb9f26fc5ae257ad720543c12",
+      "gzip_size": 7352468,
+      "gzip_sha256": "ed87be6c5858336e1f9a440191cab69f380fe00a27cd35cdbf0246b9725112ea",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/smelter/stages/L5.glb.gz.part001",
+          "size": 7352468,
+          "sha256": "ed87be6c5858336e1f9a440191cab69f380fe00a27cd35cdbf0246b9725112ea"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/smithy/stages/L1.glb",
+      "size": 3512600,
+      "sha256": "433be165d09a3a7f3bfb8a6e800b3f43d16e9396a91a63c73db34896b1232f06",
+      "gzip_size": 2001395,
+      "gzip_sha256": "b1ca48c02a1c8c61c605b937392ba0153442f64633357b85334f6cf74f72864b",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/smithy/stages/L1.glb.gz.part001",
+          "size": 2001395,
+          "sha256": "b1ca48c02a1c8c61c605b937392ba0153442f64633357b85334f6cf74f72864b"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/smithy/stages/L2.glb",
+      "size": 4993976,
+      "sha256": "5c456ac58b5316959818152958ec709b8120dc12d078bd88fea298bdf543af11",
+      "gzip_size": 2243752,
+      "gzip_sha256": "8667ed341ad1b6fb49a252a6dbc9d14e387e73941052e4658ea106dbb4d3a7ea",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/smithy/stages/L2.glb.gz.part001",
+          "size": 2243752,
+          "sha256": "8667ed341ad1b6fb49a252a6dbc9d14e387e73941052e4658ea106dbb4d3a7ea"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/smithy/stages/L3.glb",
+      "size": 7190248,
+      "sha256": "6d5ed79e332ee3220a459afd28c52ff6fe2c2bf4203d9bd3281c039432a4f64c",
+      "gzip_size": 3289575,
+      "gzip_sha256": "dc2f86ef23198dfe2ff42229f64f067d4ea268900d3f086b0225726116c86eea",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/smithy/stages/L3.glb.gz.part001",
+          "size": 3289575,
+          "sha256": "dc2f86ef23198dfe2ff42229f64f067d4ea268900d3f086b0225726116c86eea"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/smithy/stages/L4.glb",
+      "size": 3988524,
+      "sha256": "9ada7db03f9ff837cde5641bcf1b6cf27e988b54302988ec4b144144468ecf26",
+      "gzip_size": 3135508,
+      "gzip_sha256": "59c2b7c1609bb56eed87b72d4ebbe2f40f714e116329c533d3e6c236a0e10566",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/smithy/stages/L4.glb.gz.part001",
+          "size": 3135508,
+          "sha256": "59c2b7c1609bb56eed87b72d4ebbe2f40f714e116329c533d3e6c236a0e10566"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/smithy/stages/L5.glb",
+      "size": 5294428,
+      "sha256": "69fb32626a5ec56c14cb7ac18c68f04180139bfe41a4006eb3fb85e89fdc4f72",
+      "gzip_size": 4303883,
+      "gzip_sha256": "fb92e0a3c489acd1b8c247945f407ae6b046d1a44581e2c1fb376665df439291",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/smithy/stages/L5.glb.gz.part001",
+          "size": 4303883,
+          "sha256": "fb92e0a3c489acd1b8c247945f407ae6b046d1a44581e2c1fb376665df439291"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/stable/stages/L1.glb",
+      "size": 6356464,
+      "sha256": "f8e07e79a5d15bd4ac9b81353f6bc7193d34188832ed023d34447a3127f91ea4",
+      "gzip_size": 3988228,
+      "gzip_sha256": "17d2f83276a7aa27cab7901c3bc02604c4593b6564b1b31495c941aa199cc644",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/stable/stages/L1.glb.gz.part001",
+          "size": 3988228,
+          "sha256": "17d2f83276a7aa27cab7901c3bc02604c4593b6564b1b31495c941aa199cc644"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/stable/stages/L2.glb",
+      "size": 9445016,
+      "sha256": "d0ac01039652abf03c30bcbc3d4e76d09bf449a99d118738ae61eac9902bc3c9",
+      "gzip_size": 4731624,
+      "gzip_sha256": "9a83113ce547d4d89debf6b549866ea0a59a8d943b11e1d16ce4927fe2f08375",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/stable/stages/L2.glb.gz.part001",
+          "size": 4731624,
+          "sha256": "9a83113ce547d4d89debf6b549866ea0a59a8d943b11e1d16ce4927fe2f08375"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/stable/stages/L3.glb",
+      "size": 11227884,
+      "sha256": "7905b1d7f3ce504f7a23abb607754f744a28c454feaddb424beafc4b948e8b17",
+      "gzip_size": 4909812,
+      "gzip_sha256": "c7807ddff0b5e707659c130355551bc498c7f5663988c6c5b36a62b1099a957b",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/stable/stages/L3.glb.gz.part001",
+          "size": 4909812,
+          "sha256": "c7807ddff0b5e707659c130355551bc498c7f5663988c6c5b36a62b1099a957b"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/stable/stages/L4.glb",
+      "size": 13524980,
+      "sha256": "f9ad385ce3dd5f830b2df549eb2aa84b731d35e11b46cf6f1b4438f576b96501",
+      "gzip_size": 5171838,
+      "gzip_sha256": "c5a78e80fecbfbb8458aef57822587e2b46241bb1a9fce073cdf13552ec86144",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/stable/stages/L4.glb.gz.part001",
+          "size": 5171838,
+          "sha256": "c5a78e80fecbfbb8458aef57822587e2b46241bb1a9fce073cdf13552ec86144"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/stable/stages/L5.glb",
+      "size": 15366364,
+      "sha256": "bf8b1bad975c2d96c535b336f565d3a549f64d3e888cafa4852ea0295b24011b",
+      "gzip_size": 5355765,
+      "gzip_sha256": "77cb8fa600d6f2692b1f7be7449f2f9f020d1917f3be2966ae2709b58c2cd05e",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/stable/stages/L5.glb.gz.part001",
+          "size": 5355765,
+          "sha256": "77cb8fa600d6f2692b1f7be7449f2f9f020d1917f3be2966ae2709b58c2cd05e"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/tavern/stages/L1.glb",
+      "size": 6738736,
+      "sha256": "dc7e7b63d278cc5aafb56728ef725b7425842496322a477221f81fd70049fc6b",
+      "gzip_size": 3395182,
+      "gzip_sha256": "34874e062555ef409ffcc959f309d20a7a355791beb661101bfe4731c332a443",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/tavern/stages/L1.glb.gz.part001",
+          "size": 3395182,
+          "sha256": "34874e062555ef409ffcc959f309d20a7a355791beb661101bfe4731c332a443"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/tavern/stages/L2.glb",
+      "size": 8892744,
+      "sha256": "260f818ac6200652b1a64b204e15d9c7ee266f83fcbadce2aed4500eae61c207",
+      "gzip_size": 3672973,
+      "gzip_sha256": "d08482f52b015e6810e9d6bea631bf57cea72ae50bc9ae745d2decb8714186d3",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/tavern/stages/L2.glb.gz.part001",
+          "size": 3672973,
+          "sha256": "d08482f52b015e6810e9d6bea631bf57cea72ae50bc9ae745d2decb8714186d3"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/tavern/stages/L3.glb",
+      "size": 11781520,
+      "sha256": "4295ff796446d039f358f1932c4336c969a7650f29ef484508dd9a543b36fbc2",
+      "gzip_size": 4037849,
+      "gzip_sha256": "acb3f72d7a329cd6417f03aa491e4138fc351f59728030e9886dd1072306211b",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/tavern/stages/L3.glb.gz.part001",
+          "size": 4037849,
+          "sha256": "acb3f72d7a329cd6417f03aa491e4138fc351f59728030e9886dd1072306211b"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/tavern/stages/L4.glb",
+      "size": 14755600,
+      "sha256": "245c4498d7bd6d21e826cd9b47fdd30cc13764f2c5d67b77e8e0b8d3b68490a2",
+      "gzip_size": 4397477,
+      "gzip_sha256": "5028b542f6126ba46f78f08f7a8f3436690ac7078d76b6a7b4b58b6e490ca6e2",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/tavern/stages/L4.glb.gz.part001",
+          "size": 4397477,
+          "sha256": "5028b542f6126ba46f78f08f7a8f3436690ac7078d76b6a7b4b58b6e490ca6e2"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/tavern/stages/L5.glb",
+      "size": 17338532,
+      "sha256": "ffadfad0e6e6654461b65fb8090c956e1f149c1c4093ad98ab445f1483d81147",
+      "gzip_size": 4684356,
+      "gzip_sha256": "d50bb62e61c91ea9bb1720c9b2dddad38c492bca0153f314950ff98d4c3c10ac",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/tavern/stages/L5.glb.gz.part001",
+          "size": 4684356,
+          "sha256": "d50bb62e61c91ea9bb1720c9b2dddad38c492bca0153f314950ff98d4c3c10ac"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/terminal/stages/L1.glb",
+      "size": 1660788,
+      "sha256": "2614b5df3d3c1f5e785a0038049abe0bf8319285299a18d87c0ed9563cb15ec9",
+      "gzip_size": 979476,
+      "gzip_sha256": "689116e44589e96e2388959fb3a3c508324ef174ce2ac9bca6112e037abbc0b5",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/terminal/stages/L1.glb.gz.part001",
+          "size": 979476,
+          "sha256": "689116e44589e96e2388959fb3a3c508324ef174ce2ac9bca6112e037abbc0b5"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/terminal/stages/L2.glb",
+      "size": 2930828,
+      "sha256": "1d95701b36623da4b4ad2bf9e0000490b72578f71b655238758e40da3cc5d80f",
+      "gzip_size": 1410925,
+      "gzip_sha256": "8b3cf611236b57a0fc5fba226d04df28d6425d3fa90a7bdc1797274bcef67395",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/terminal/stages/L2.glb.gz.part001",
+          "size": 1410925,
+          "sha256": "8b3cf611236b57a0fc5fba226d04df28d6425d3fa90a7bdc1797274bcef67395"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/terminal/stages/L3.glb",
+      "size": 3522120,
+      "sha256": "7c5286710f803f98aff4503cbff5f748b6edeb048ab5fb380b60352c13d14e5a",
+      "gzip_size": 1436814,
+      "gzip_sha256": "c620cdb7b30b7b0efaf9e29660e97d37b0c070c0303fa9cfbe36ea72ba44a158",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/terminal/stages/L3.glb.gz.part001",
+          "size": 1436814,
+          "sha256": "c620cdb7b30b7b0efaf9e29660e97d37b0c070c0303fa9cfbe36ea72ba44a158"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/terminal/stages/L4.glb",
+      "size": 3928528,
+      "sha256": "c5b9c7e3890c446e03c8170df64c4cc1f7f4ab88a93c39865ca08e5ce7d26e28",
+      "gzip_size": 1562844,
+      "gzip_sha256": "3433955d0f58924811a97a69939fdf42f0a8dcbe49b750699a542a8b21e977e5",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/terminal/stages/L4.glb.gz.part001",
+          "size": 1562844,
+          "sha256": "3433955d0f58924811a97a69939fdf42f0a8dcbe49b750699a542a8b21e977e5"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/terminal/stages/L5.glb",
+      "size": 4669344,
+      "sha256": "f9226c81d640d364cc8f98a2c5856e40535078ceadf543506f528c0af4966917",
+      "gzip_size": 1593451,
+      "gzip_sha256": "db99e6014ffff6942f288cb065002a803c5792946c52753168a37338d823e15f",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/terminal/stages/L5.glb.gz.part001",
+          "size": 1593451,
+          "sha256": "db99e6014ffff6942f288cb065002a803c5792946c52753168a37338d823e15f"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/warehouse/stages/L1.glb",
+      "size": 1255592,
+      "sha256": "3e1f87c3ffb3ab535019ae569a7bcc5efb393dbae02d513955214f273ee1989d",
+      "gzip_size": 166132,
+      "gzip_sha256": "7429a188065a7789bd54c6e948b76223acfadef68da5fc48fe6162f516f7c05a",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/warehouse/stages/L1.glb.gz.part001",
+          "size": 166132,
+          "sha256": "7429a188065a7789bd54c6e948b76223acfadef68da5fc48fe6162f516f7c05a"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/warehouse/stages/L2.glb",
+      "size": 1767208,
+      "sha256": "d2086bdbca545683ae244265fb9a0a61b77c1eb55df65b0a72b9876476b921b6",
+      "gzip_size": 234672,
+      "gzip_sha256": "3d920e31d1d63528f0faf56cc436f9356014ecf04f7dc3671e5e56e680386615",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/warehouse/stages/L2.glb.gz.part001",
+          "size": 234672,
+          "sha256": "3d920e31d1d63528f0faf56cc436f9356014ecf04f7dc3671e5e56e680386615"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/warehouse/stages/L3.glb",
+      "size": 1919676,
+      "sha256": "46316219ecff60ba35d883207033d29bb2ce99d7c2816c3216bf78e5a29f7ea4",
+      "gzip_size": 255870,
+      "gzip_sha256": "295726630b5aacec1fd56989a23bdc880d1ba6f46900b12a0e336e1b9caee047",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/warehouse/stages/L3.glb.gz.part001",
+          "size": 255870,
+          "sha256": "295726630b5aacec1fd56989a23bdc880d1ba6f46900b12a0e336e1b9caee047"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/warehouse/stages/L4.glb",
+      "size": 10842664,
+      "sha256": "c00ae12875efb656f5c063141c9cf39cae231821afeb683ba64700d7f5b72a8a",
+      "gzip_size": 8163325,
+      "gzip_sha256": "b66063a2a29bcc8340b4b2906257908bdadf9e4ae4654c888f50ed42f24929ff",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/warehouse/stages/L4.glb.gz.part001",
+          "size": 8000000,
+          "sha256": "707707dd01e5692bfd9bc46e5bf59a7713ee5ab31859237df017732396c583a2"
+        },
+        {
+          "path": "compressed/assets/buildings/warehouse/stages/L4.glb.gz.part002",
+          "size": 163325,
+          "sha256": "4b667b65c807bdf39fbd557f322ed5973fd22d8595bd7032229efa3fa63a5e06"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/warehouse/stages/L5.glb",
+      "size": 11350904,
+      "sha256": "5423bd23c5fe9e19d84a4d70de639cb867962ab82a1d3688cf6615d1fb6dac90",
+      "gzip_size": 8242475,
+      "gzip_sha256": "a32aed739e61a9536cfe968d29ca1a2002e525635840fa762251cbada0f05caf",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/warehouse/stages/L5.glb.gz.part001",
+          "size": 8000000,
+          "sha256": "e641bf16e06bcd9fb5060d84a924f4974b48aa2a70f13b32f8ff60210490e2a6"
+        },
+        {
+          "path": "compressed/assets/buildings/warehouse/stages/L5.glb.gz.part002",
+          "size": 242475,
+          "sha256": "25f0186829a7582bd4e91dbd20c1892c94f8b10bd35a8bb7d55b1abb287e3670"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/weaver/stages/L1.glb",
+      "size": 5516412,
+      "sha256": "1d620e2ad7195d5b25bafe6122a7646914fea318730e42a16ca6509e857b476a",
+      "gzip_size": 3704222,
+      "gzip_sha256": "3709a7d9f330b482dc8757bb01c4ff2e7919c8dd8387b8fd67bc0f3d521cd72b",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/weaver/stages/L1.glb.gz.part001",
+          "size": 3704222,
+          "sha256": "3709a7d9f330b482dc8757bb01c4ff2e7919c8dd8387b8fd67bc0f3d521cd72b"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/weaver/stages/L2.glb",
+      "size": 7328368,
+      "sha256": "c33fe3f1cecb14c304e121a4fc5c4dadebd4c697145777cd2d4c1ffcb5b0b022",
+      "gzip_size": 3884140,
+      "gzip_sha256": "782ebcb656e39f7204b9bc7d061bfea026cd6f19c2045fe741b4d62f99f9d0b0",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/weaver/stages/L2.glb.gz.part001",
+          "size": 3884140,
+          "sha256": "782ebcb656e39f7204b9bc7d061bfea026cd6f19c2045fe741b4d62f99f9d0b0"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/weaver/stages/L3.glb",
+      "size": 9097788,
+      "sha256": "4a818a29d23031972a7cc8dd1083a98223d8cc774853b93ec4fbed9418458ae8",
+      "gzip_size": 4064416,
+      "gzip_sha256": "0bf67e2b279e659c52a0bace12d8c0c255637d6668560b98f904fce0aa320c7c",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/weaver/stages/L3.glb.gz.part001",
+          "size": 4064416,
+          "sha256": "0bf67e2b279e659c52a0bace12d8c0c255637d6668560b98f904fce0aa320c7c"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/weaver/stages/L4.glb",
+      "size": 11027460,
+      "sha256": "b964ce429b482a3119343c6d257eeee916e9d5ed6e5350af9b55c45131738361",
+      "gzip_size": 4261009,
+      "gzip_sha256": "2022c58b2620ae464594cc307680795ebd80aaaf1c8c58fc4bf0f96978218b72",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/weaver/stages/L4.glb.gz.part001",
+          "size": 4261009,
+          "sha256": "2022c58b2620ae464594cc307680795ebd80aaaf1c8c58fc4bf0f96978218b72"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/weaver/stages/L5.glb",
+      "size": 12855948,
+      "sha256": "16f6e809a53bcf6d847b58fff84f849cbd444521e70daf5a54aa28590103b39d",
+      "gzip_size": 4448770,
+      "gzip_sha256": "4133bf47313e8e9beadf3435550c0b28bcd50e13e119d81fd75831d7a2dfce5c",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/weaver/stages/L5.glb.gz.part001",
+          "size": 4448770,
+          "sha256": "4133bf47313e8e9beadf3435550c0b28bcd50e13e119d81fd75831d7a2dfce5c"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/workshop/stages/L1.glb",
+      "size": 3617668,
+      "sha256": "950e8f89019a6d902b3d8537887456cf0007503a68d7c541062d186319934fca",
+      "gzip_size": 3379721,
+      "gzip_sha256": "f1e71cb736ef344166d3eb3c8feeba53062d8c77a0a0b8e7b96eab753eafdc04",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/workshop/stages/L1.glb.gz.part001",
+          "size": 3379721,
+          "sha256": "f1e71cb736ef344166d3eb3c8feeba53062d8c77a0a0b8e7b96eab753eafdc04"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/workshop/stages/L2.glb",
+      "size": 3706152,
+      "sha256": "16a47b1388e02ba1205e0241f7f441443e5caa4df62101c30aba7d0db494bc34",
+      "gzip_size": 3387288,
+      "gzip_sha256": "16ba9836848f7dac439cfe4934ae6ef6ac7b33237239985963519a4e00f24c5e",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/workshop/stages/L2.glb.gz.part001",
+          "size": 3387288,
+          "sha256": "16ba9836848f7dac439cfe4934ae6ef6ac7b33237239985963519a4e00f24c5e"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/workshop/stages/L3.glb",
+      "size": 4121728,
+      "sha256": "4a68cf0b77158579609b0bb91111b7faab2bd8fc07ce026e612bfbb7740e4a4a",
+      "gzip_size": 3692477,
+      "gzip_sha256": "383730faabbea3759c6a498a0ac7db5f064e4999b334d23506b229c6d7d06d13",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/workshop/stages/L3.glb.gz.part001",
+          "size": 3692477,
+          "sha256": "383730faabbea3759c6a498a0ac7db5f064e4999b334d23506b229c6d7d06d13"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/workshop/stages/L4.glb",
+      "size": 4340888,
+      "sha256": "a907d0de7d14d35efadafb4466fe6375cff068360cc60ecc591f7a4c26fdb928",
+      "gzip_size": 3711985,
+      "gzip_sha256": "8dd0f25f0f1f452b2d53dd8546ad8f2b22f32640a37813795cd4f28d080d223d",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/workshop/stages/L4.glb.gz.part001",
+          "size": 3711985,
+          "sha256": "8dd0f25f0f1f452b2d53dd8546ad8f2b22f32640a37813795cd4f28d080d223d"
+        }
+      ]
+    },
+    {
+      "path": "assets/buildings/workshop/stages/L5.glb",
+      "size": 4509824,
+      "sha256": "c6a30ef0f6d9ca48be390b8d5ec9d40ed6575fe3fcb3fdb6aa401acce80b8418",
+      "gzip_size": 3727151,
+      "gzip_sha256": "71bb5111452cdfb637896621c63bd58149911aa66f5696610911da806258f4e0",
+      "parts": [
+        {
+          "path": "compressed/assets/buildings/workshop/stages/L5.glb.gz.part001",
+          "size": 3727151,
+          "sha256": "71bb5111452cdfb637896621c63bd58149911aa66f5696610911da806258f4e0"
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "path": "BUILDING-MODELS.json",
+      "size": 33027,
+      "sha256": "c6f3b72910cf44e38e0ff022acde9623089555f18ca5eb9a8e3b85c3fac42b47"
+    },
+    {
+      "path": "README.txt",
+      "size": 1361,
+      "sha256": "159e9d4b3b1daaa1b36c6af82dda67347a601d31a01a585c937d0202b482fbff"
+    },
+    {
+      "path": "assets/buildings/inn/textures/52fa8ce63eada5d0.png",
+      "size": 690076,
+      "sha256": "52fa8ce63eada5d00befca4ebca48d73caf5e7fcdac213a4946b22348a47a45c"
+    },
+    {
+      "path": "assets/buildings/inn/textures/8b0c4f2c010a07a5.png",
+      "size": 746295,
+      "sha256": "8b0c4f2c010a07a552fd48f15b3b5b0e1e2b9636cf7e673d5cbfcb06ce49dcae"
+    },
+    {
+      "path": "assets/buildings/inn/textures/blue_wool_color.png",
+      "size": 487586,
+      "sha256": "d99211e23d460d84a1e178fa21153318c9fad98a26b490c5d5dc73c386dea28a"
+    },
+    {
+      "path": "assets/buildings/inn/textures/fd58d4a432499539.png",
+      "size": 757243,
+      "sha256": "fd58d4a432499539cedbe09c8278002f967e959ef0d6c0e87edbfda034e5a02f"
+    },
+    {
+      "path": "assets/buildings/inn/textures/fdd10df9a68502d0.png",
+      "size": 240127,
+      "sha256": "fdd10df9a68502d01e883cbf24db0104dcdaa146e3479c717e5bf6d597f3971e"
+    },
+    {
+      "path": "assets/buildings/inn/textures/leather_color.png",
+      "size": 324383,
+      "sha256": "982abef0c66de2c402775c2c74415416d1e59250876864e9dfed6648aef9b7c7"
+    },
+    {
+      "path": "assets/buildings/inn/textures/limestone_color.png",
+      "size": 756299,
+      "sha256": "d884dca5b76b7e036b714afa96573074d4664cbacb4a1fe5f7574b92b779e9c5"
+    },
+    {
+      "path": "assets/buildings/inn/textures/limestone_normal.png",
+      "size": 2530185,
+      "sha256": "20003b5b162ab4289411cd46c69d824b1369a9b1300a2663b495ebf6657bb19e"
+    },
+    {
+      "path": "assets/buildings/inn/textures/linen_color.png",
+      "size": 817630,
+      "sha256": "7c2d9d4a740191d2b27b819b79eb1288c459b25b7caa5ba5100c40e5c442f95d"
+    },
+    {
+      "path": "assets/buildings/inn/textures/oak_color.png",
+      "size": 662179,
+      "sha256": "1fc1a77319e588108076bf9fc41f7cb21fdb7e999ad9c59384996e000fd5d951"
+    },
+    {
+      "path": "assets/buildings/inn/textures/oak_normal.png",
+      "size": 1916497,
+      "sha256": "f3a47ac0b5b8baea352c2ee49b4b1fe2ce2226401e9fd58f7666c472b6e526de"
+    },
+    {
+      "path": "assets/buildings/inn/textures/rug_normal.png",
+      "size": 3012941,
+      "sha256": "6aebf50d31bca3f3a462050cc02273389ddf129947bf3e424912287ac3f6261d"
+    },
+    {
+      "path": "assets/buildings/inn/textures/terracotta_color.png",
+      "size": 233112,
+      "sha256": "c042d18532ce94c798375be6845e55aa73999f548bc2fc4159cdb5c6e8fb8361"
+    },
+    {
+      "path": "assets/buildings/inn/textures/terracotta_normal.png",
+      "size": 568008,
+      "sha256": "a3a81d34fdf34464e3e45936918ce8678682f16b18d06d926404728cfbf2b927"
+    },
+    {
+      "path": "assets/buildings/kitchen/textures/52fa8ce63eada5d0.png",
+      "size": 690076,
+      "sha256": "52fa8ce63eada5d00befca4ebca48d73caf5e7fcdac213a4946b22348a47a45c"
+    },
+    {
+      "path": "assets/buildings/kitchen/textures/8b0c4f2c010a07a5.png",
+      "size": 746295,
+      "sha256": "8b0c4f2c010a07a552fd48f15b3b5b0e1e2b9636cf7e673d5cbfcb06ce49dcae"
+    },
+    {
+      "path": "assets/buildings/kitchen/textures/burlap_color.png",
+      "size": 581959,
+      "sha256": "8cdda54f14d0cd52c62a1fcf3453c0e357b4b712b59605d99635bed458b4c324"
+    },
+    {
+      "path": "assets/buildings/kitchen/textures/burlap_normal.png",
+      "size": 3012941,
+      "sha256": "6aebf50d31bca3f3a462050cc02273389ddf129947bf3e424912287ac3f6261d"
+    },
+    {
+      "path": "assets/buildings/kitchen/textures/fd58d4a432499539.png",
+      "size": 757243,
+      "sha256": "fd58d4a432499539cedbe09c8278002f967e959ef0d6c0e87edbfda034e5a02f"
+    },
+    {
+      "path": "assets/buildings/kitchen/textures/fdd10df9a68502d0.png",
+      "size": 240127,
+      "sha256": "fdd10df9a68502d01e883cbf24db0104dcdaa146e3479c717e5bf6d597f3971e"
+    },
+    {
+      "path": "assets/buildings/kitchen/textures/limestone_color.png",
+      "size": 756299,
+      "sha256": "d884dca5b76b7e036b714afa96573074d4664cbacb4a1fe5f7574b92b779e9c5"
+    },
+    {
+      "path": "assets/buildings/kitchen/textures/limestone_normal.png",
+      "size": 2530185,
+      "sha256": "20003b5b162ab4289411cd46c69d824b1369a9b1300a2663b495ebf6657bb19e"
+    },
+    {
+      "path": "assets/buildings/kitchen/textures/oak_color.png",
+      "size": 662179,
+      "sha256": "1fc1a77319e588108076bf9fc41f7cb21fdb7e999ad9c59384996e000fd5d951"
+    },
+    {
+      "path": "assets/buildings/kitchen/textures/oak_normal.png",
+      "size": 1916497,
+      "sha256": "f3a47ac0b5b8baea352c2ee49b4b1fe2ce2226401e9fd58f7666c472b6e526de"
+    },
+    {
+      "path": "assets/buildings/kitchen/textures/terracotta_color.png",
+      "size": 233112,
+      "sha256": "c042d18532ce94c798375be6845e55aa73999f548bc2fc4159cdb5c6e8fb8361"
+    },
+    {
+      "path": "assets/buildings/kitchen/textures/terracotta_normal.png",
+      "size": 568008,
+      "sha256": "a3a81d34fdf34464e3e45936918ce8678682f16b18d06d926404728cfbf2b927"
+    },
+    {
+      "path": "assets/buildings/warehouse/textures/52fa8ce63eada5d0.png",
+      "size": 690076,
+      "sha256": "52fa8ce63eada5d00befca4ebca48d73caf5e7fcdac213a4946b22348a47a45c"
+    },
+    {
+      "path": "assets/buildings/warehouse/textures/8b0c4f2c010a07a5.png",
+      "size": 746295,
+      "sha256": "8b0c4f2c010a07a552fd48f15b3b5b0e1e2b9636cf7e673d5cbfcb06ce49dcae"
+    },
+    {
+      "path": "assets/buildings/warehouse/textures/burlap_color.png",
+      "size": 581959,
+      "sha256": "8cdda54f14d0cd52c62a1fcf3453c0e357b4b712b59605d99635bed458b4c324"
+    },
+    {
+      "path": "assets/buildings/warehouse/textures/burlap_normal.png",
+      "size": 3012941,
+      "sha256": "6aebf50d31bca3f3a462050cc02273389ddf129947bf3e424912287ac3f6261d"
+    },
+    {
+      "path": "assets/buildings/warehouse/textures/fd58d4a432499539.png",
+      "size": 757243,
+      "sha256": "fd58d4a432499539cedbe09c8278002f967e959ef0d6c0e87edbfda034e5a02f"
+    },
+    {
+      "path": "assets/buildings/warehouse/textures/limestone_color.png",
+      "size": 756299,
+      "sha256": "d884dca5b76b7e036b714afa96573074d4664cbacb4a1fe5f7574b92b779e9c5"
+    },
+    {
+      "path": "assets/buildings/warehouse/textures/limestone_normal.png",
+      "size": 2530185,
+      "sha256": "20003b5b162ab4289411cd46c69d824b1369a9b1300a2663b495ebf6657bb19e"
+    },
+    {
+      "path": "assets/buildings/warehouse/textures/oak_color.png",
+      "size": 662179,
+      "sha256": "1fc1a77319e588108076bf9fc41f7cb21fdb7e999ad9c59384996e000fd5d951"
+    },
+    {
+      "path": "assets/buildings/warehouse/textures/oak_normal.png",
+      "size": 1916497,
+      "sha256": "f3a47ac0b5b8baea352c2ee49b4b1fe2ce2226401e9fd58f7666c472b6e526de"
+    }
+  ]
+}
