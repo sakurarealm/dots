@@ -1,0 +1,26 @@
+[
+  {
+    "file": "terminal.hoist.r02.hook.glb",
+    "triangles": 1996,
+    "geometricBoundaryEdgesAfterCoordinateWeld1eMinus6": 0,
+    "nonmanifoldEdgesAboveTwo": 0,
+    "nearZeroTriangleCount": 0,
+    "note": "Closed component shells may intentionally overlap at assembly connections; no union/structural certification claimed"
+  },
+  {
+    "file": "terminal.hoist.r02.link.glb",
+    "triangles": 1280,
+    "geometricBoundaryEdgesAfterCoordinateWeld1eMinus6": 0,
+    "nonmanifoldEdgesAboveTwo": 0,
+    "nearZeroTriangleCount": 0,
+    "note": "Closed component shells may intentionally overlap at assembly connections; no union/structural certification claimed"
+  },
+  {
+    "file": "terminal.hoist.r02.termination.glb",
+    "triangles": 504,
+    "geometricBoundaryEdgesAfterCoordinateWeld1eMinus6": 0,
+    "nonmanifoldEdgesAboveTwo": 0,
+    "nearZeroTriangleCount": 0,
+    "note": "Closed component shells may intentionally overlap at assembly connections; no union/structural certification claimed"
+  }
+]

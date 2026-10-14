@@ -1,0 +1,50 @@
+{
+  "source": "rollback/L4.glb",
+  "source_sha256": "a6fcb5dc0f86dc2ad533dbae2f2c5ad44ed9cc197ec4707c6b9ed77853909d62",
+  "bbox_min_zup": [
+    -11.47499942779541,
+    5.700000286102295,
+    8.0
+  ],
+  "bbox_max_zup": [
+    -8.925000190734863,
+    5.900000095367432,
+    11.5
+  ],
+  "all_imported_geometry_visible": true,
+  "geometry_or_materials_modified": false,
+  "geometry_visibility": "Entire original GLB retained visible. Camera framed around cargo.hoist bounds; no cutaway, no isolation.",
+  "CPU_only": true,
+  "views": [
+    {
+      "image": "north-front.png",
+      "sha256": "9027f6f04bc68798ec771317c113f16d36d22f33315765d495838808d1a34afe",
+      "camera_location_zup": [
+        -11.774908065795898,
+        16.299386978149414,
+        12.027886390686035
+      ],
+      "rotation_euler": [
+        1.3597185611724854,
+        3.716476371096178e-08,
+        -2.9927027225494385
+      ],
+      "ortho_scale": 5.252603530883789
+    },
+    {
+      "image": "west-side.png",
+      "sha256": "fca8dd08fe921c034b35413daa69f88add76f28c90ab80e21f4777f20ef4a9a3",
+      "camera_location_zup": [
+        -20.69930648803711,
+        8.949790000915527,
+        11.155684471130371
+      ],
+      "rotation_euler": [
+        1.4437739849090576,
+        -8.646994587024892e-08,
+        -1.8622530698776245
+      ],
+      "ortho_scale": 5.608889102935791
+    }
+  ]
+}

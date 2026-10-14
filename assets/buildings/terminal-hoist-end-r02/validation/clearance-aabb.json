@@ -1,0 +1,130 @@
+[
+  {
+    "stage": 4,
+    "components": [
+      {
+        "component": "terminal.hoist.r02.link",
+        "boundsGltfYUp": [
+          [
+            -10.260412454605103,
+            8.449587345123291,
+            -5.812000200152397
+          ],
+          [
+            -10.139587044715881,
+            8.570412695407867,
+            -5.788000181317329
+          ]
+        ],
+        "originalGeometryAABBCandidates": []
+      },
+      {
+        "component": "terminal.hoist.r02.hook",
+        "boundsGltfYUp": [
+          [
+            -10.222999811172485,
+            8.226999998092651,
+            -5.848314985632896
+          ],
+          [
+            -10.007006764411926,
+            8.509314775466919,
+            -5.75168539583683
+          ]
+        ],
+        "originalGeometryAABBCandidates": []
+      },
+      {
+        "component": "terminal.hoist.r02.termination",
+        "boundsGltfYUp": [
+          [
+            -10.2524998113513,
+            8.550000011920929,
+            -5.842000190168619
+          ],
+          [
+            -10.147499807178974,
+            8.689999997615814,
+            -5.758000191301107
+          ]
+        ],
+        "originalGeometryAABBCandidates": [
+          {
+            "nodeIndex": 736,
+            "name": "Cable",
+            "overlapAABB": [
+              0.04000040679456873,
+              0.0899991423288462,
+              0.03999999910593033
+            ]
+          }
+        ]
+      }
+    ],
+    "broadPhaseOnly": true
+  },
+  {
+    "stage": 5,
+    "components": [
+      {
+        "component": "terminal.hoist.r02.link",
+        "boundsGltfYUp": [
+          [
+            -10.260412454605103,
+            8.449587345123291,
+            -5.812000200152397
+          ],
+          [
+            -10.139587044715881,
+            8.570412695407867,
+            -5.788000181317329
+          ]
+        ],
+        "originalGeometryAABBCandidates": []
+      },
+      {
+        "component": "terminal.hoist.r02.hook",
+        "boundsGltfYUp": [
+          [
+            -10.222999811172485,
+            8.226999998092651,
+            -5.848314985632896
+          ],
+          [
+            -10.007006764411926,
+            8.509314775466919,
+            -5.75168539583683
+          ]
+        ],
+        "originalGeometryAABBCandidates": []
+      },
+      {
+        "component": "terminal.hoist.r02.termination",
+        "boundsGltfYUp": [
+          [
+            -10.2524998113513,
+            8.550000011920929,
+            -5.842000190168619
+          ],
+          [
+            -10.147499807178974,
+            8.689999997615814,
+            -5.758000191301107
+          ]
+        ],
+        "originalGeometryAABBCandidates": [
+          {
+            "nodeIndex": 727,
+            "name": "Cable",
+            "overlapAABB": [
+              0.04000040679456873,
+              0.0899991423288462,
+              0.03999999910593033
+            ]
+          }
+        ]
+      }
+    ],
+    "broadPhaseOnly": true
+  }
+]

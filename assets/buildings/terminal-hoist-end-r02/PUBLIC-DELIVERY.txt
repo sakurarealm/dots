@@ -1,0 +1,7 @@
+Public asset subset: terminal hoist-end r02, L4/L5.
+Original model, source, prerequisite geometry, rollback, and compact validation records are included unchanged. Previews and redundant reproduced-stage outputs are omitted. The historical README references preview files and ZIP delivery; those refer to the earlier full delivery, not this subset.
+No new license grant is added. Existing provenance identifies original project materials and geometry; no restricted BK input is asserted by that provenance.
+Reproduce stage files using: python3 source/merge_stages.py
+This is an offline asset candidate, not verified game integration.
+
+Release exclusion: the historical editable BLEND is withheld from this public subset because an internal environment path remains in its metadata. References to that BLEND in the historical README describe the earlier private package. The GLB models and source scripts remain included.

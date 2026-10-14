@@ -1,0 +1,62 @@
+[
+  {
+    "file": "L5-north-front-r02.png",
+    "sourceSha256": "f880d7c3cafbfa02ec9a69846830c051b8eaab9fe70592180901a947ad76be79",
+    "deliverySha256": "fa94291caba6f8f03e2fb96269e9d162e338be81c78bff9b06a44ea1deaef549",
+    "IDATUnchanged": true
+  },
+  {
+    "file": "L4-end-side-r02.png",
+    "sourceSha256": "5de352a092549eb190966ad0f063982afe72d76416e760836623da8c43ea869e",
+    "deliverySha256": "f4449fcd7492af9cb5179a3a638be54c1c8d338b7f01642af4a7067c72e22aea",
+    "IDATUnchanged": true
+  },
+  {
+    "file": "L4-north-front-r02.png",
+    "sourceSha256": "53831054396b3ca1188179fc507e32133bbdd52f71ac8bc87fcabfdabdbb6b44",
+    "deliverySha256": "f5c9e70fee437bce88e03d616f4e5d6e141c661cd2803dc568c9e5c9e0e14f15",
+    "IDATUnchanged": true
+  },
+  {
+    "file": "L5-west-side-r02.png",
+    "sourceSha256": "83a20658b8605affaf09de0ffdb9aab7af90d5b7442e535a171451f63d5df539",
+    "deliverySha256": "4d97e974b152e6e8ec152be498ed599bb53946448c8a1fa8388569725dc25e65",
+    "IDATUnchanged": true
+  },
+  {
+    "file": "L4-end-front-r02.png",
+    "sourceSha256": "bd4f8b4e675717640b206ee2f246aadb8556660c0d1d47c564dd658a3e811cf4",
+    "deliverySha256": "cca2765d4454b9859bd72fe68f12a8cb9ee2053f8d0cfcf5cd69bdd7852d0635",
+    "IDATUnchanged": true
+  },
+  {
+    "file": "L4-west-side-r02.png",
+    "sourceSha256": "53a6f53e8667a6b2858a4b2f3831d2e96e26c6327fae71ae28c0004199d40294",
+    "deliverySha256": "b38a32b128162a337cef85c0858c0826901f837a07dcfa46245e8e8b1650f172",
+    "IDATUnchanged": true
+  },
+  {
+    "file": "L4-north-front-original.png",
+    "sourceSha256": "c6bbba01efb6723ba3030365d060bd43d0bd57b11d3d1b4bf24d3b4eccf3b915",
+    "deliverySha256": "9027f6f04bc68798ec771317c113f16d36d22f33315765d495838808d1a34afe",
+    "IDATUnchanged": true
+  },
+  {
+    "file": "L4-west-side-original.png",
+    "sourceSha256": "f124ef5a2972db1e092ee6353f003b108b8777ff6328c6a4a3cb73ea65f9a870",
+    "deliverySha256": "fca8dd08fe921c034b35413daa69f88add76f28c90ab80e21f4777f20ef4a9a3",
+    "IDATUnchanged": true
+  },
+  {
+    "file": "L5-end-front-r02.png",
+    "sourceSha256": "fbf667bae65c82d047143d4e5fa93b17e682a27f69677c075890754f910f6a50",
+    "deliverySha256": "95846484bb909f2490cb2d605986fb82622fb6d19c58b9e12c321bba5b0ae28c",
+    "IDATUnchanged": true
+  },
+  {
+    "file": "L5-end-side-r02.png",
+    "sourceSha256": "5396fb9a63c1ced80bbed605fbddcc61c7220c1c777098c579c967ad054f08cf",
+    "deliverySha256": "53cd26edcacf8411b3900e3f629ab1c0fd02c0419a45fd884e5c9ca4a2197f7a",
+    "IDATUnchanged": true
+  }
+]

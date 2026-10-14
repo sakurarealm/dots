@@ -1,0 +1,237 @@
+[
+  {
+    "id": "terminal.hoist.r02.link",
+    "adaptedFromOriginalWarehouseComponent": "hoist.r02.rope.eye",
+    "sourceSha256": "5e0453e634ce74c8d2aa40044bfaf871963a163588717af09b787bbddf18cd49",
+    "pivotSourceZUp": [
+      0.0,
+      0.0,
+      0.5099999904632568
+    ],
+    "pivotGltfYUp": [
+      0.0,
+      0.5099999904632568,
+      -0.0
+    ],
+    "boundsSourceZUp": {
+      "min": [
+        -0.06041264533996582,
+        -0.012000009417533875,
+        0.449587345123291
+      ],
+      "max": [
+        0.06041276454925537,
+        0.012000009417533875,
+        0.5704126954078674
+      ]
+    },
+    "parentId": "cargo.hoist",
+    "original645Contribution": 0,
+    "interfacesOnly": true,
+    "runtimeImplemented": false,
+    "coordinateFrame": "Local to unchanged cargo.hoist root. SourceZUp to GltfYUp: (x,y,z)->(x,z,-y)",
+    "sourceToGltfMatrixRowMajor": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "pivotMeaning": "Static authored origin only, no interactive rotation pivot implemented",
+    "rotationAxisSourceZUp": null,
+    "rotationAxisGltfYUp": null,
+    "interfaces": [
+      {
+        "id": "termination.fixed.link",
+        "positionSourceZUp": [
+          0,
+          0,
+          0.55
+        ],
+        "positionGltfYUp": [
+          0,
+          0.55,
+          0
+        ],
+        "contractOnly": true
+      }
+    ]
+  },
+  {
+    "id": "terminal.hoist.r02.hook",
+    "adaptedFromOriginalWarehouseComponent": "hoist.r02.hook.forged",
+    "sourceSha256": "762f394bb43db377cacb3b3decb13db1699d77b4dbc66f7d55dafccc64730de9",
+    "pivotSourceZUp": [
+      0.0,
+      0.0,
+      0.4610000252723694
+    ],
+    "pivotGltfYUp": [
+      0.0,
+      0.4610000252723694,
+      -0.0
+    ],
+    "boundsSourceZUp": {
+      "min": [
+        -0.023000001907348633,
+        -0.04831479489803314,
+        0.22699999809265137
+      ],
+      "max": [
+        0.19299304485321045,
+        0.04831479489803314,
+        0.509314775466919
+      ]
+    },
+    "parentId": "cargo.hoist",
+    "original645Contribution": 0,
+    "interfacesOnly": true,
+    "runtimeImplemented": false,
+    "coordinateFrame": "Local to unchanged cargo.hoist root. SourceZUp to GltfYUp: (x,y,z)->(x,z,-y)",
+    "sourceToGltfMatrixRowMajor": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "pivotMeaning": "Static authored origin only, no interactive rotation pivot implemented",
+    "rotationAxisSourceZUp": null,
+    "rotationAxisGltfYUp": null,
+    "tubeEndsCappedInTerminalDerivative": true,
+    "interfaces": [
+      {
+        "id": "orthogonal.suspension.eye",
+        "positionSourceZUp": [
+          0,
+          0,
+          0.461
+        ],
+        "positionGltfYUp": [
+          0,
+          0.461,
+          0
+        ],
+        "contractOnly": true
+      }
+    ]
+  },
+  {
+    "id": "terminal.hoist.r02.termination",
+    "originalAuthoredGeometry": true,
+    "boreDiameterMetres": 0.058,
+    "cableSquareWidthMetres": 0.04,
+    "outerDiameterMetres": 0.084,
+    "pivotSourceZUp": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pivotGltfYUp": [
+      0.0,
+      0.0,
+      -0.0
+    ],
+    "boundsSourceZUp": {
+      "min": [
+        -0.05250000208616257,
+        -0.041999999433755875,
+        0.550000011920929
+      ],
+      "max": [
+        0.05250000208616257,
+        0.041999999433755875,
+        0.6899999976158142
+      ]
+    },
+    "parentId": "cargo.hoist",
+    "original645Contribution": 0,
+    "interfacesOnly": true,
+    "runtimeImplemented": false,
+    "coordinateFrame": "Local to unchanged cargo.hoist root. SourceZUp to GltfYUp: (x,y,z)->(x,z,-y)",
+    "sourceToGltfMatrixRowMajor": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "pivotMeaning": "Static authored origin only, no interactive rotation pivot implemented",
+    "rotationAxisSourceZUp": null,
+    "rotationAxisGltfYUp": null,
+    "clampPinsNominalCableOverlapMetres": 0.0025,
+    "interfaces": [
+      {
+        "id": "cable.clamp",
+        "positionSourceZUp": [
+          0,
+          0,
+          0.64
+        ],
+        "positionGltfYUp": [
+          0,
+          0.64,
+          0
+        ],
+        "contractOnly": true
+      }
+    ]
+  }
+]

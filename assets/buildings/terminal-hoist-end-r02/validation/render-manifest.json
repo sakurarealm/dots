@@ -1,0 +1,162 @@
+[
+  {
+    "file": "L4-north-front-r02.png",
+    "inputSha256": "c5b9c7e3890c446e03c8170df64c4cc1f7f4ab88a93c39865ca08e5ce7d26e28",
+    "camera": {
+      "name": "north-front",
+      "location": [
+        -11.774908065795898,
+        16.299386978149414,
+        12.027886390686035
+      ],
+      "rotation": [
+        1.3597185611724854,
+        3.716476371096178e-08,
+        -2.9927027225494385
+      ],
+      "scale": 5.252603530883789
+    },
+    "hiddenGeometry": false,
+    "sha256": "f5c9e70fee437bce88e03d616f4e5d6e141c661cd2803dc568c9e5c9e0e14f15"
+  },
+  {
+    "file": "L4-west-side-r02.png",
+    "inputSha256": "c5b9c7e3890c446e03c8170df64c4cc1f7f4ab88a93c39865ca08e5ce7d26e28",
+    "camera": {
+      "name": "west-side",
+      "location": [
+        -20.69930648803711,
+        8.949790000915527,
+        11.155684471130371
+      ],
+      "rotation": [
+        1.4437739849090576,
+        -8.646994587024892e-08,
+        -1.8622530698776245
+      ],
+      "scale": 5.608889102935791
+    },
+    "hiddenGeometry": false,
+    "sha256": "b38a32b128162a337cef85c0858c0826901f837a07dcfa46245e8e8b1650f172"
+  },
+  {
+    "file": "L4-end-front-r02.png",
+    "inputSha256": "c5b9c7e3890c446e03c8170df64c4cc1f7f4ab88a93c39865ca08e5ce7d26e28",
+    "camera": {
+      "name": "end-front",
+      "location": [
+        -10.05,
+        7.0,
+        8.65
+      ],
+      "rotation": [
+        1.4224135875701904,
+        -2.254056941097815e-09,
+        3.0584518909454346
+      ],
+      "scale": 0.78
+    },
+    "hiddenGeometry": false,
+    "sha256": "cca2765d4454b9859bd72fe68f12a8cb9ee2053f8d0cfcf5cd69bdd7852d0635"
+  },
+  {
+    "file": "L4-end-side-r02.png",
+    "inputSha256": "c5b9c7e3890c446e03c8170df64c4cc1f7f4ab88a93c39865ca08e5ce7d26e28",
+    "camera": {
+      "name": "end-side",
+      "location": [
+        -11.4,
+        6.1,
+        8.68
+      ],
+      "rotation": [
+        1.4088656902313232,
+        1.9118536087603388e-08,
+        -1.806341290473938
+      ],
+      "scale": 0.78
+    },
+    "hiddenGeometry": false,
+    "sha256": "f4449fcd7492af9cb5179a3a638be54c1c8d338b7f01642af4a7067c72e22aea"
+  },
+  {
+    "file": "L5-north-front-r02.png",
+    "inputSha256": "f9226c81d640d364cc8f98a2c5856e40535078ceadf543506f528c0af4966917",
+    "camera": {
+      "name": "north-front",
+      "location": [
+        -11.774908065795898,
+        16.299386978149414,
+        12.027886390686035
+      ],
+      "rotation": [
+        1.3597185611724854,
+        3.716476371096178e-08,
+        -2.9927027225494385
+      ],
+      "scale": 5.252603530883789
+    },
+    "hiddenGeometry": false,
+    "sha256": "fa94291caba6f8f03e2fb96269e9d162e338be81c78bff9b06a44ea1deaef549"
+  },
+  {
+    "file": "L5-west-side-r02.png",
+    "inputSha256": "f9226c81d640d364cc8f98a2c5856e40535078ceadf543506f528c0af4966917",
+    "camera": {
+      "name": "west-side",
+      "location": [
+        -20.69930648803711,
+        8.949790000915527,
+        11.155684471130371
+      ],
+      "rotation": [
+        1.4437739849090576,
+        -8.646994587024892e-08,
+        -1.8622530698776245
+      ],
+      "scale": 5.608889102935791
+    },
+    "hiddenGeometry": false,
+    "sha256": "4d97e974b152e6e8ec152be498ed599bb53946448c8a1fa8388569725dc25e65"
+  },
+  {
+    "file": "L5-end-front-r02.png",
+    "inputSha256": "f9226c81d640d364cc8f98a2c5856e40535078ceadf543506f528c0af4966917",
+    "camera": {
+      "name": "end-front",
+      "location": [
+        -10.05,
+        7.0,
+        8.65
+      ],
+      "rotation": [
+        1.4224135875701904,
+        -2.254056941097815e-09,
+        3.0584518909454346
+      ],
+      "scale": 0.78
+    },
+    "hiddenGeometry": false,
+    "sha256": "95846484bb909f2490cb2d605986fb82622fb6d19c58b9e12c321bba5b0ae28c"
+  },
+  {
+    "file": "L5-end-side-r02.png",
+    "inputSha256": "f9226c81d640d364cc8f98a2c5856e40535078ceadf543506f528c0af4966917",
+    "camera": {
+      "name": "end-side",
+      "location": [
+        -11.4,
+        6.1,
+        8.68
+      ],
+      "rotation": [
+        1.4088656902313232,
+        1.9118536087603388e-08,
+        -1.806341290473938
+      ],
+      "scale": 0.78
+    },
+    "hiddenGeometry": false,
+    "sha256": "53cd26edcacf8411b3900e3f629ab1c0fd02c0419a45fd884e5c9ca4a2197f7a"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "stage": 4,
+    "sourceSha256": "a6fcb5dc0f86dc2ad533dbae2f2c5ad44ed9cc197ec4707c6b9ed77853909d62",
+    "outputSha256": "c5b9c7e3890c446e03c8170df64c4cc1f7f4ab88a93c39865ca08e5ce7d26e28",
+    "rootIndex": 740,
+    "originalNodesUnchangedExceptAppendingRootChildren": true,
+    "allOriginalMeshesAccessorsViewsBinaryExact": true,
+    "originalMaterialsTexturesImagesExact": true,
+    "newExtensionNodes": 3,
+    "original645Contribution": 0
+  },
+  {
+    "stage": 5,
+    "sourceSha256": "e3b038c7c7e96fc918696d84a56b87e985f832e8fa36a8901901d32e8a3e7908",
+    "outputSha256": "f9226c81d640d364cc8f98a2c5856e40535078ceadf543506f528c0af4966917",
+    "rootIndex": 731,
+    "originalNodesUnchangedExceptAppendingRootChildren": true,
+    "allOriginalMeshesAccessorsViewsBinaryExact": true,
+    "originalMaterialsTexturesImagesExact": true,
+    "newExtensionNodes": 3,
+    "original645Contribution": 0
+  }
+]

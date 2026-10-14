@@ -1,0 +1,21 @@
+{
+  "actualFinalImagesViewed": [
+    "L4-north-front-r02.png",
+    "L4-west-side-r02.png",
+    "L4-end-front-r02.png",
+    "L4-end-side-r02.png",
+    "L5-north-front-r02.png",
+    "L5-west-side-r02.png",
+    "L5-end-front-r02.png",
+    "L5-end-side-r02.png"
+  ],
+  "baselineImagesViewed": [
+    "L4-north-front-original.png",
+    "L4-west-side-original.png"
+  ],
+  "assessment": "Final ferrule/clamp pins, orthogonal interlocking link and capped J-hook visible; no false cap across hook eye. Entire stage geometry retained visible. Some installation views are naturally occluded by unchanged crates/rails/roof; closeups resolve the end connection.",
+  "floorVerticalClearanceMetres": 0.202999914,
+  "addedTriangles": 3780,
+  "original645Contribution": 0,
+  "runtimeOrRealLiftingValidated": false
+}
