@@ -1,0 +1,138 @@
+{
+  "format_version": 1,
+  "scope": "source-only; incomplete model backup",
+  "archived_on": "2026-10-21",
+  "source_file_count": 16,
+  "total_original_bytes": 433731,
+  "total_archived_bytes": 433731,
+  "files": [
+    {
+      "path": "grid-stone-template-r1/README.md",
+      "original_bytes": 2273,
+      "archived_bytes": 2273,
+      "original_sha256": "accae1ba54ea7ff19bb4f8076c055f01a700294e2c758bf95a0a9d7fecbc78fc",
+      "archived_sha256": "accae1ba54ea7ff19bb4f8076c055f01a700294e2c758bf95a0a9d7fecbc78fc",
+      "archive_modifications": []
+    },
+    {
+      "path": "grid-stone-template-r1/after-close-view.json",
+      "original_bytes": 374,
+      "archived_bytes": 374,
+      "original_sha256": "6bf780b89d730e971d60088d41c0dcea250e3ee7f9ba18b6a912e92c217fd972",
+      "archived_sha256": "6bf780b89d730e971d60088d41c0dcea250e3ee7f9ba18b6a912e92c217fd972",
+      "archive_modifications": []
+    },
+    {
+      "path": "grid-stone-template-r1/after-full-corrected-view.json",
+      "original_bytes": 402,
+      "archived_bytes": 402,
+      "original_sha256": "79bcfb6a31640a4e9a315f5104226019b84b8ae832e98873fc7511a80ff8c3dd",
+      "archived_sha256": "79bcfb6a31640a4e9a315f5104226019b84b8ae832e98873fc7511a80ff8c3dd",
+      "archive_modifications": []
+    },
+    {
+      "path": "grid-stone-template-r1/after-full-view.json",
+      "original_bytes": 363,
+      "archived_bytes": 363,
+      "original_sha256": "d39e95f8112de15a864179965aaab7a075db86e4911bdf51c2bb91ae8128d0e8",
+      "archived_sha256": "d39e95f8112de15a864179965aaab7a075db86e4911bdf51c2bb91ae8128d0e8",
+      "archive_modifications": []
+    },
+    {
+      "path": "grid-stone-template-r1/baseline-inspection.json",
+      "original_bytes": 29975,
+      "archived_bytes": 29975,
+      "original_sha256": "d88898f80b213289036a8ca45cf5c72959916b3c9e9c60bacb7d530bfb624bdc",
+      "archived_sha256": "d88898f80b213289036a8ca45cf5c72959916b3c9e9c60bacb7d530bfb624bdc",
+      "archive_modifications": []
+    },
+    {
+      "path": "grid-stone-template-r1/before-close-view.json",
+      "original_bytes": 371,
+      "archived_bytes": 371,
+      "original_sha256": "b32f9dfebc52caaf33ee22e2bc6e73f7b64085cc9a26a38eaf8071293ad88001",
+      "archived_sha256": "b32f9dfebc52caaf33ee22e2bc6e73f7b64085cc9a26a38eaf8071293ad88001",
+      "archive_modifications": []
+    },
+    {
+      "path": "grid-stone-template-r1/build.py",
+      "original_bytes": 6397,
+      "archived_bytes": 6397,
+      "original_sha256": "92cbac26d3e68950b081569d048452e850092048894e975bc6f95d290a225132",
+      "archived_sha256": "92cbac26d3e68950b081569d048452e850092048894e975bc6f95d290a225132",
+      "archive_modifications": []
+    },
+    {
+      "path": "grid-stone-template-r1/glb-instance-test.json",
+      "original_bytes": 864,
+      "archived_bytes": 864,
+      "original_sha256": "e30a9ff3e0597d5c4c0376d0f8ff956ba3f35f8c2819064d950012386e1b342a",
+      "archived_sha256": "e30a9ff3e0597d5c4c0376d0f8ff956ba3f35f8c2819064d950012386e1b342a",
+      "archive_modifications": []
+    },
+    {
+      "path": "grid-stone-template-r1/inspect.py",
+      "original_bytes": 841,
+      "archived_bytes": 841,
+      "original_sha256": "6e566573d3197e7c0fc3ce644038cbbc381102116c584da95c871b7779f52b69",
+      "archived_sha256": "6e566573d3197e7c0fc3ce644038cbbc381102116c584da95c871b7779f52b69",
+      "archive_modifications": []
+    },
+    {
+      "path": "grid-stone-template-r1/legacy-refine_facade_r2.py",
+      "original_bytes": 7104,
+      "archived_bytes": 7104,
+      "original_sha256": "7c9f51c808d97cd2bc0cd00bfe18ad41c670c5a1ab50ba4b3c0d392c4cdd1567",
+      "archived_sha256": "7c9f51c808d97cd2bc0cd00bfe18ad41c670c5a1ab50ba4b3c0d392c4cdd1567",
+      "archive_modifications": []
+    },
+    {
+      "path": "grid-stone-template-r1/migration-and-tests.json",
+      "original_bytes": 8265,
+      "archived_bytes": 8265,
+      "original_sha256": "85d93115c217a57dd812ef838ce16ad5bc88ab77fd1fb3bf28dd3e6fbd7c2e00",
+      "archived_sha256": "85d93115c217a57dd812ef838ce16ad5bc88ab77fd1fb3bf28dd3e6fbd7c2e00",
+      "archive_modifications": []
+    },
+    {
+      "path": "grid-stone-template-r1/render.py",
+      "original_bytes": 1360,
+      "archived_bytes": 1360,
+      "original_sha256": "d3d55aaa551202065b3871cda193625dedfd337dc657197745f1611ffd8fbf35",
+      "archived_sha256": "d3d55aaa551202065b3871cda193625dedfd337dc657197745f1611ffd8fbf35",
+      "archive_modifications": []
+    },
+    {
+      "path": "grid-stone-template-r1/unchanged-object-digests.json",
+      "original_bytes": 282820,
+      "archived_bytes": 282820,
+      "original_sha256": "65d76afb3ec011b967683911f7d3317d21f61bb6a890c8ebf2edc7d390976d0c",
+      "archived_sha256": "65d76afb3ec011b967683911f7d3317d21f61bb6a890c8ebf2edc7d390976d0c",
+      "archive_modifications": []
+    },
+    {
+      "path": "grid-stone-template-r1b/README.md",
+      "original_bytes": 945,
+      "archived_bytes": 945,
+      "original_sha256": "441a9045c5998862a1e9e09e6c298464ca3be58ee2ec079ea79d59f4e6eb491d",
+      "archived_sha256": "441a9045c5998862a1e9e09e6c298464ca3be58ee2ec079ea79d59f4e6eb491d",
+      "archive_modifications": []
+    },
+    {
+      "path": "grid-stone-template-r1b/export-scope-tests.json",
+      "original_bytes": 88562,
+      "archived_bytes": 88562,
+      "original_sha256": "3e834d094d4272d78c57d02f85b283d7e7307e3489a75e7865e2efd985d6c180",
+      "archived_sha256": "3e834d094d4272d78c57d02f85b283d7e7307e3489a75e7865e2efd985d6c180",
+      "archive_modifications": []
+    },
+    {
+      "path": "grid-stone-template-r1b/export_correction.py",
+      "original_bytes": 2815,
+      "archived_bytes": 2815,
+      "original_sha256": "52ea2529ad63cfd07b26f521b8c7f90155eda09cadddc2eb473628dfe8a27856",
+      "archived_sha256": "52ea2529ad63cfd07b26f521b8c7f90155eda09cadddc2eb473628dfe8a27856",
+      "archive_modifications": []
+    }
+  ]
+}

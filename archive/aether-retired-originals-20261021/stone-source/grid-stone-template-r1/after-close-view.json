@@ -1,0 +1,20 @@
+{
+  "source": "stone-grid-trial.blend",
+  "sha256": "618be37f4494a20097138aafbd07ef7fbea10adce775030d7ec2f74f30d6f42e",
+  "camera": [
+    5.0,
+    -10.0,
+    3.799999952316284
+  ],
+  "rotationEuler": [
+    1.1907200813293457,
+    -3.5038802970177585e-09,
+    0.04995839297771454
+  ],
+  "orthoScale": 6.0,
+  "noGeometryHidden": true,
+  "resolution": [
+    1000,
+    850
+  ]
+}

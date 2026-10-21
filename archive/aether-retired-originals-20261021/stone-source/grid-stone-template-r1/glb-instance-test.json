@@ -1,0 +1,60 @@
+{
+  "status": "PASS_AUTHOR_EXPORT_TEST",
+  "gltfYup": true,
+  "instances": [
+    {
+      "key": "stone.grid.front.3.0.-1",
+      "gltfTranslation": [
+        3,
+        -1,
+        0
+      ],
+      "childMeshes": [
+        505
+      ],
+      "childTranslations": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "stone.grid.front.4.0.-1",
+      "gltfTranslation": [
+        4,
+        -1,
+        0
+      ],
+      "childMeshes": [
+        505
+      ],
+      "childTranslations": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "stone.grid.front.5.0.-1",
+      "gltfTranslation": [
+        5,
+        -1,
+        0
+      ],
+      "childMeshes": [
+        505
+      ],
+      "childTranslations": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+}

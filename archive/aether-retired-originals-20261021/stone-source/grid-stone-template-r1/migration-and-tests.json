@@ -1,0 +1,385 @@
+{
+  "status": "AUTHOR_TESTS_PASS_PENDING_INDEPENDENT_REVIEW",
+  "baselineSHA256": "cc316c682bb45712a96b3108379d8b83184d1718f282376fde62dd501c05b481",
+  "uniformRecipeSharedMesh": true,
+  "nonmanifoldEdges": 0,
+  "actualLocalGeometryBounds": [
+    [
+      0.0,
+      -0.10999999940395355,
+      0.007500000298023224
+    ],
+    [
+      1.0,
+      0.019999995827674866,
+      0.9925000071525574
+    ]
+  ],
+  "installationCellBounds": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1
+    ]
+  ],
+  "supportRequired": "1x1x1 solid cell behind Y=0; surface is NOT wall thickness",
+  "depth": 0.13,
+  "unchangedObjectCount": 3101,
+  "unchangedObjectFailures": [],
+  "changedOldObjects": [
+    "block.003",
+    "block.004",
+    "block.005",
+    "block.017",
+    "block.018",
+    "block.019",
+    "block.020",
+    "block.032",
+    "block.033",
+    "block.034",
+    "block.046",
+    "block.047",
+    "block.048",
+    "block.049",
+    "stone.-0.045.0.3",
+    "stone.-0.045.0.4",
+    "stone.-0.045.0.5",
+    "stone.-0.045.1.3",
+    "stone.-0.045.1.4",
+    "stone.-0.045.1.5",
+    "stone.-0.045.1.6",
+    "stone.-0.045.2.3",
+    "stone.-0.045.2.4",
+    "stone.-0.045.2.5",
+    "stone.-0.045.3.3",
+    "stone.-0.045.3.4",
+    "stone.-0.045.3.5",
+    "stone.-0.045.3.6"
+  ],
+  "instances": [
+    {
+      "stableLogicalKey": "stone.grid.front.3.0.-1",
+      "anchor": [
+        3,
+        0,
+        -1
+      ],
+      "supportKey": "cell.3.0.-1",
+      "childOffset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "stableLogicalKey": "stone.grid.front.4.0.-1",
+      "anchor": [
+        4,
+        0,
+        -1
+      ],
+      "supportKey": "cell.4.0.-1",
+      "childOffset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "stableLogicalKey": "stone.grid.front.5.0.-1",
+      "anchor": [
+        5,
+        0,
+        -1
+      ],
+      "supportKey": "cell.5.0.-1",
+      "childOffset": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "replacementMapping": [
+    {
+      "stableLogicalKey": "stone.-0.045.0.3",
+      "oldBounds": [
+        [
+          3.009000062942505,
+          -0.10999999940395355,
+          -0.9925000071525574
+        ],
+        [
+          3.990999937057495,
+          0.019999995827674866,
+          -0.7574999928474426
+        ]
+      ],
+      "replacementKeys": [
+        "stone.grid.front.3.0.-1"
+      ],
+      "remainingLegacyRoot": null
+    },
+    {
+      "stableLogicalKey": "stone.-0.045.0.4",
+      "oldBounds": [
+        [
+          4.008999824523926,
+          -0.10999999940395355,
+          -0.9925000071525574
+        ],
+        [
+          4.991000175476074,
+          0.019999995827674866,
+          -0.7574999928474426
+        ]
+      ],
+      "replacementKeys": [
+        "stone.grid.front.4.0.-1"
+      ],
+      "remainingLegacyRoot": null
+    },
+    {
+      "stableLogicalKey": "stone.-0.045.0.5",
+      "oldBounds": [
+        [
+          5.008999824523926,
+          -0.10999999940395355,
+          -0.9925000071525574
+        ],
+        [
+          5.991000175476074,
+          0.019999995827674866,
+          -0.7574999928474426
+        ]
+      ],
+      "replacementKeys": [
+        "stone.grid.front.5.0.-1"
+      ],
+      "remainingLegacyRoot": null
+    },
+    {
+      "stableLogicalKey": "stone.-0.045.1.3",
+      "oldBounds": [
+        [
+          2.509000062942505,
+          -0.10999999940395355,
+          -0.7425000071525574
+        ],
+        [
+          3.490999937057495,
+          0.019999995827674866,
+          -0.5074999928474426
+        ]
+      ],
+      "replacementKeys": [
+        "stone.grid.front.3.0.-1"
+      ],
+      "remainingLegacyRoot": "stone.-0.045.1.3",
+      "retainedRegion": "X<=3"
+    },
+    {
+      "stableLogicalKey": "stone.-0.045.1.4",
+      "oldBounds": [
+        [
+          3.509000062942505,
+          -0.10999999940395355,
+          -0.7425000071525574
+        ],
+        [
+          4.491000175476074,
+          0.019999995827674866,
+          -0.5074999928474426
+        ]
+      ],
+      "replacementKeys": [
+        "stone.grid.front.3.0.-1",
+        "stone.grid.front.4.0.-1"
+      ],
+      "remainingLegacyRoot": null
+    },
+    {
+      "stableLogicalKey": "stone.-0.045.1.5",
+      "oldBounds": [
+        [
+          4.508999824523926,
+          -0.10999999940395355,
+          -0.7425000071525574
+        ],
+        [
+          5.491000175476074,
+          0.019999995827674866,
+          -0.5074999928474426
+        ]
+      ],
+      "replacementKeys": [
+        "stone.grid.front.4.0.-1",
+        "stone.grid.front.5.0.-1"
+      ],
+      "remainingLegacyRoot": null
+    },
+    {
+      "stableLogicalKey": "stone.-0.045.1.6",
+      "oldBounds": [
+        [
+          5.508999824523926,
+          -0.10999999940395355,
+          -0.7425000071525574
+        ],
+        [
+          6.491000175476074,
+          0.019999995827674866,
+          -0.5074999928474426
+        ]
+      ],
+      "replacementKeys": [
+        "stone.grid.front.5.0.-1"
+      ],
+      "remainingLegacyRoot": "stone.-0.045.1.6",
+      "retainedRegion": "X>=6"
+    },
+    {
+      "stableLogicalKey": "stone.-0.045.2.3",
+      "oldBounds": [
+        [
+          3.009000062942505,
+          -0.10999999940395355,
+          -0.4925000071525574
+        ],
+        [
+          3.990999937057495,
+          0.019999995827674866,
+          -0.2574999928474426
+        ]
+      ],
+      "replacementKeys": [
+        "stone.grid.front.3.0.-1"
+      ],
+      "remainingLegacyRoot": null
+    },
+    {
+      "stableLogicalKey": "stone.-0.045.2.4",
+      "oldBounds": [
+        [
+          4.008999824523926,
+          -0.10999999940395355,
+          -0.4925000071525574
+        ],
+        [
+          4.991000175476074,
+          0.019999995827674866,
+          -0.2574999928474426
+        ]
+      ],
+      "replacementKeys": [
+        "stone.grid.front.4.0.-1"
+      ],
+      "remainingLegacyRoot": null
+    },
+    {
+      "stableLogicalKey": "stone.-0.045.2.5",
+      "oldBounds": [
+        [
+          5.008999824523926,
+          -0.10999999940395355,
+          -0.4925000071525574
+        ],
+        [
+          5.991000175476074,
+          0.019999995827674866,
+          -0.2574999928474426
+        ]
+      ],
+      "replacementKeys": [
+        "stone.grid.front.5.0.-1"
+      ],
+      "remainingLegacyRoot": null
+    },
+    {
+      "stableLogicalKey": "stone.-0.045.3.3",
+      "oldBounds": [
+        [
+          2.509000062942505,
+          -0.10999999940395355,
+          -0.24250000715255737
+        ],
+        [
+          3.490999937057495,
+          0.019999995827674866,
+          -0.007500000298023224
+        ]
+      ],
+      "replacementKeys": [
+        "stone.grid.front.3.0.-1"
+      ],
+      "remainingLegacyRoot": "stone.-0.045.3.3",
+      "retainedRegion": "X<=3"
+    },
+    {
+      "stableLogicalKey": "stone.-0.045.3.4",
+      "oldBounds": [
+        [
+          3.509000062942505,
+          -0.10999999940395355,
+          -0.24250000715255737
+        ],
+        [
+          4.491000175476074,
+          0.019999995827674866,
+          -0.007500000298023224
+        ]
+      ],
+      "replacementKeys": [
+        "stone.grid.front.3.0.-1",
+        "stone.grid.front.4.0.-1"
+      ],
+      "remainingLegacyRoot": null
+    },
+    {
+      "stableLogicalKey": "stone.-0.045.3.5",
+      "oldBounds": [
+        [
+          4.508999824523926,
+          -0.10999999940395355,
+          -0.24250000715255737
+        ],
+        [
+          5.491000175476074,
+          0.019999995827674866,
+          -0.007500000298023224
+        ]
+      ],
+      "replacementKeys": [
+        "stone.grid.front.4.0.-1",
+        "stone.grid.front.5.0.-1"
+      ],
+      "remainingLegacyRoot": null
+    },
+    {
+      "stableLogicalKey": "stone.-0.045.3.6",
+      "oldBounds": [
+        [
+          5.508999824523926,
+          -0.10999999940395355,
+          -0.24250000715255737
+        ],
+        [
+          6.491000175476074,
+          0.019999995827674866,
+          -0.007500000298023224
+        ]
+      ],
+      "replacementKeys": [
+        "stone.grid.front.5.0.-1"
+      ],
+      "remainingLegacyRoot": "stone.-0.045.3.6",
+      "retainedRegion": "X>=6"
+    }
+  ],
+  "remainingScope": "Only front X[3,6], Z[-1,0] migrated; outside legacy bricks remain non-grid."
+}

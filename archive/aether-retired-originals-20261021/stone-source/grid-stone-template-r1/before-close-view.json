@@ -1,0 +1,20 @@
+{
+  "source": "rooftop-cloud.blend",
+  "sha256": "cc316c682bb45712a96b3108379d8b83184d1718f282376fde62dd501c05b481",
+  "camera": [
+    5.0,
+    -10.0,
+    3.799999952316284
+  ],
+  "rotationEuler": [
+    1.1907200813293457,
+    -3.5038802970177585e-09,
+    0.04995839297771454
+  ],
+  "orthoScale": 6.0,
+  "noGeometryHidden": true,
+  "resolution": [
+    1000,
+    850
+  ]
+}
