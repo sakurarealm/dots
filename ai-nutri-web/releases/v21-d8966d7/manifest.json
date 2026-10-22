@@ -1,0 +1,44 @@
+{
+  "format_version": 1,
+  "project": "AI-Nutri Web",
+  "release": "v21",
+  "archive_type": "incremental-files-only",
+  "source_commit": "d8966d70074a1ac249835c9347b3e2591ff2e348",
+  "required_base_source_commit": "791ccbc57f67f1c6f5375550d6bbd93999626ba9",
+  "needs_base": true,
+  "complete_project_backup": false,
+  "files": [
+    {
+      "path": "dist/original-redo/pages/diet.html",
+      "bytes": 8905,
+      "sha256": "508608500f39b1236bd14ceac720dff1d46ede246e8c313ccade1807312d1360"
+    },
+    {
+      "path": "dist/original-redo/pages/diet.js",
+      "bytes": 19203,
+      "sha256": "5c654ab2b6ba6f092dc647682293d347bc57d2a1949c316e057a2c320104cda8"
+    },
+    {
+      "path": "dist/original-redo/pages/health-assessment.html",
+      "bytes": 7294,
+      "sha256": "437cc5e8bd12a7a4cf41dd91ee773216ba0389f926446e55573be278e8316f5b"
+    },
+    {
+      "path": "dist/original-redo/pages/health-assessment.js",
+      "bytes": 6344,
+      "sha256": "c8582363cb6141e4fa46adc0f7f0fb070dee93c1b5dcfa50e6cd59a9327604c4"
+    },
+    {
+      "path": "dist/original-redo/pages/health-calendar.js",
+      "bytes": 13814,
+      "sha256": "1230c763a555c070010745f195cd2c9187109fea2dda06d839578fe82ce63625"
+    },
+    {
+      "path": "dist/original-redo/pages/shop.css",
+      "bytes": 392,
+      "sha256": "ee029ab3c785c6d90118a3b6a585c1a55ca6155372c47bc57c0f1642a6b82cde"
+    }
+  ],
+  "scope": "Committed code, CSS and HTML only; excludes runtime records, uncommitted work, credentials and unrelated assets.",
+  "verification_limits": "Archive integrity is separate from browser, backend, WeChat and device acceptance."
+}

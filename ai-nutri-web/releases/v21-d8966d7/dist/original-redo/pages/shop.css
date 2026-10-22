@@ -1,0 +1,11 @@
+/* Page layout is shared by commerce.css; baseline preserved in verification/commerce-baseline. */
+
+/* Keep two product columns; give each action a readable row on narrow screens. */
+@media (max-width: 340px) {
+  body[data-commerce-page="shop"] #commerce-root > .grid .product-actions > button {
+    flex-basis: 100%;
+    min-width: 44px;
+    min-height: 44px;
+    white-space: nowrap;
+  }
+}

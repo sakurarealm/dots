@@ -1,0 +1,54 @@
+{
+  "format_version": 1,
+  "project": "AI-Nutri Web",
+  "release": "v20",
+  "archive_type": "incremental-files-only",
+  "source_commit": "791ccbc57f67f1c6f5375550d6bbd93999626ba9",
+  "required_base_source_commit": "b57bf4cf44e0d8f022ff8f2002101f099fb6e278",
+  "needs_base": true,
+  "complete_project_backup": false,
+  "files": [
+    {
+      "path": "dist/original-redo/pages/demo-account-shell-registration-v3.js",
+      "bytes": 9944,
+      "sha256": "8e136c7f21173ae6b89cecc07b797e82db535b6b214f1a7b913fcd4cd6d4c82c"
+    },
+    {
+      "path": "dist/original-redo/pages/family-ui-v1.js",
+      "bytes": 8595,
+      "sha256": "73ea13941fbee7d2ed81cf725fc70d97b4cb463aac9f79abd340bbaa80c73f0e"
+    },
+    {
+      "path": "dist/original-redo/pages/family.css",
+      "bytes": 2159,
+      "sha256": "9341e6412f58d07484b799ac05d052afcddffa1448762efc53cc5dc385d35f93"
+    },
+    {
+      "path": "dist/original-redo/pages/family.html",
+      "bytes": 1103,
+      "sha256": "a977def022f3783a49e9ea0ba80ff20b07baf30b8b853d57459a020391186f4b"
+    },
+    {
+      "path": "dist/original-redo/pages/health-demo-ui-registration-v3.js",
+      "bytes": 51679,
+      "sha256": "58f108c99b6abd45de7ef40bcb633e203cb24f8684b9116102acd423756cd2ac"
+    },
+    {
+      "path": "dist/original-redo/responsive-preview.css",
+      "bytes": 4568,
+      "sha256": "b9b95bdbe45b4306f5ed69f850cd3241cd2814575c83cc00b6b1005d1298ab59"
+    },
+    {
+      "path": "dist/original-redo/responsive-preview.html",
+      "bytes": 5664,
+      "sha256": "f728e7fc710b7d1f98c6bc36814e446e50a115705412d9af5e7f34265a6b072d"
+    },
+    {
+      "path": "dist/original-redo/responsive-preview.js",
+      "bytes": 3526,
+      "sha256": "46663a7df7e045d76c7addcfaa9e541a32a94d3096e79233879add9cc3422f7a"
+    }
+  ],
+  "scope": "Committed code, CSS and HTML only; excludes runtime records, uncommitted work, credentials and unrelated assets.",
+  "verification_limits": "Archive integrity is separate from browser, backend, WeChat and device acceptance."
+}

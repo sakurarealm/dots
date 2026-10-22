@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; frame-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="no-referrer">
+  <title>AI-Nutri · 桌面窄视口预览</title>
+  <link rel="stylesheet" href="responsive-preview.css">
+  <script src="responsive-preview.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#preview-controls">跳至预览控制</a>
+  <main class="preview-page">
+    <header class="page-header">
+      <p class="eyebrow">AI-NUTRI / LAYOUT PREVIEW</p>
+      <h1>桌面窄视口预览</h1>
+      <p class="lead">在一个嵌入窗口中，查看现有页面在不同 CSS 布局宽度下的表现。</p>
+      <p class="scope-label">桌面浏览器内嵌页面 · 不是手机设备模拟</p>
+    </header>
+
+    <section class="boundary-note" aria-labelledby="boundary-title">
+      <h2 id="boundary-title">与原页面共用本机浏览器中的合成账号和存储</h2>
+      <p>开始预览会载入真实的现有页面；页面读取可能整理合成状态，操作也可能改动合成演示数据。请勿输入真实个人或健康信息。</p>
+      <p>这里只检查桌面嵌入窄视口的布局，不代表手机设备、软键盘、触控或安全区测试。宽度切换不会重新载入页面；打开另一页或重新打开当前页可能丢失未保存草稿。</p>
+    </section>
+
+    <section class="controls-card" aria-labelledby="controls-title">
+      <h2 id="controls-title">预览设置</h2>
+      <form id="route-form" aria-describedby="route-help">
+        <fieldset id="preview-controls" disabled>
+          <legend class="visually-hidden">页面与布局宽度</legend>
+          <div class="control-grid">
+            <div class="route-control">
+              <label for="route-select">现有页面</label>
+              <div class="route-action">
+                <select id="route-select" name="route">
+                  <option value="home">默认入口（助手）</option>
+                  <option value="booklet">营养册首页</option>
+                  <option value="aiAgent" selected>营养助手</option>
+                  <option value="profile">个人主页</option>
+                  <option value="intake">今日摄入</option>
+                  <option value="family">合成家庭</option>
+                  <option value="shop">营养商城</option>
+                  <option value="wallet">分享与权益</option>
+                  <option value="student">营养师与需求工作台</option>
+                </select>
+                <button id="open-route" type="submit">开始预览</button>
+              </div>
+              <p class="control-help" id="route-help">选择页面不会立即跳转，需点击按钮。已开始后，每次打开都会先确认草稿风险。</p>
+            </div>
+            <fieldset class="width-control">
+              <legend>嵌入窗口宽度（CSS px）</legend>
+              <div class="width-options">
+                <label><input type="radio" name="preview-width" value="320"><span>320</span></label>
+                <label><input type="radio" name="preview-width" value="390" checked><span>390</span></label>
+                <label><input type="radio" name="preview-width" value="430"><span>430</span></label>
+              </div>
+              <p class="control-help">保持同一页面，只调整宽度。</p>
+            </fieldset>
+          </div>
+        </fieldset>
+      </form>
+      <noscript><p class="noscript-warning">此预览需要 JavaScript。为避免意外载入或切换，控制已停用；现有默认入口未作修改。</p></noscript>
+    </section>
+
+    <section class="preview-card" aria-labelledby="viewport-title">
+      <div class="viewport-heading">
+        <h2 id="viewport-title">嵌入页面</h2>
+        <p><output id="width-output" aria-live="polite">390 CSS px</output><span> × 760 CSS px 高</span></p>
+      </div>
+      <p class="scroll-hint" id="scroll-help">窗口较窄时，请在下方预览区域横向滚动；也可聚焦此区域后用方向键。不会压缩或缩放内页。</p>
+      <p id="preview-status" class="preview-status" role="status" aria-live="polite">尚未载入页面。点击「开始预览」后，将使用同源合成演示环境。</p>
+      <div class="viewport-scroller" role="region" aria-label="可横向滚动的嵌入页面预览" aria-describedby="scroll-help" tabindex="0">
+        <div id="frame-shell" class="frame-shell" data-width="390">
+          <div id="frame-placeholder" class="frame-placeholder">
+            <strong>等待开始预览</strong>
+            <p>选择一个现有页面，再点击「开始预览」。</p>
+          </div>
+          <iframe id="preview-frame" title="AI-Nutri 现有页面：桌面嵌入窄视口预览" width="390" height="760" referrerpolicy="no-referrer" hidden></iframe>
+        </div>
+      </div>
+      <p class="frame-note">窗口内的链接和操作保持原应用行为；页内导航也可能离开草稿。上方选择器只表示最近主动打开的入口，不追踪页内导航。</p>
+    </section>
+
+    <footer>
+      <p>仅使用同源现有页面和本地静态资源。本预览不新增账号、后端或外部接口，不自动填写或重置数据。</p>
+      <p>如果页面因站点安全策略无法嵌入，请回到原有入口；不要降低安全策略。</p>
+    </footer>
+  </main>
+</body>
+</html>
