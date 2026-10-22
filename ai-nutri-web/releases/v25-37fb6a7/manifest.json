@@ -1,0 +1,35 @@
+{
+  "format_version": 1,
+  "project": "AI-Nutri Web",
+  "release": "v25",
+  "archive_type": "incremental-files-only",
+  "source_commit": "37fb6a7d0f9c712673e962b968aa335b566ded1a",
+  "required_base_source_commit": "2a9a66837c40beb6b9420feaf4967276635b83ff",
+  "needs_base": true,
+  "complete_project_backup": false,
+  "files": [
+    {
+      "path": "dist/original-redo/pages/health-demo-ui-registration-v3.js",
+      "bytes": 52684,
+      "sha256": "c47f57108e3508fafafee73db59c651be639dbba5d8663ec872bd73452000bf3"
+    },
+    {
+      "path": "dist/original-redo/shared/nutri-demo-core-registration-v3.js",
+      "bytes": 33923,
+      "sha256": "781d359ec9b2c7862713b8c11226fafa13a8b9885441be45ed042da444baefe8"
+    },
+    {
+      "path": "dist/original-redo/shared/nutri-mobile-shell-v17.js",
+      "bytes": 1596,
+      "sha256": "0705967bfdda4229210957016b42d7b53a08a1e8aeaf33cb15fa0a0245607ec9"
+    },
+    {
+      "path": "dist/original-redo/shared/nutri-registration-entry-v3.js",
+      "bytes": 29395,
+      "sha256": "efbc460209e917a29d80c5e15e4d066da094c9c04d86625fa14fbc4fc4264dca"
+    }
+  ],
+  "scope": "Four committed production JavaScript files only; no runtime data, private reports, logs or uncommitted changes.",
+  "restoration_limits": "Data rollback requires the complete compatible pre-upgrade checkpoint; source overlays do not restore account data.",
+  "verification_limits": "Archive integrity is separate from complete application, browser, database, mobile and WeChat acceptance."
+}
