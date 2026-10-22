@@ -1,0 +1,24 @@
+{
+  "format_version": 1,
+  "project": "AI-Nutri Web",
+  "release": "v22",
+  "archive_type": "incremental-files-only",
+  "source_commit": "85145c52ea11129c54fbe954a1d862aa04591522",
+  "required_base_source_commit": "d8966d70074a1ac249835c9347b3e2591ff2e348",
+  "needs_base": true,
+  "complete_project_backup": false,
+  "files": [
+    {
+      "path": "dist/original-redo/pages/health-demo-chat.css",
+      "bytes": 8400,
+      "sha256": "60947a59796100e905bccaed84a3eb4c4164934e23d9ab3d6445a8fde3b3c651"
+    },
+    {
+      "path": "dist/original-redo/pages/health-demo-ui-registration-v3.js",
+      "bytes": 51649,
+      "sha256": "1e9d0f49c0121eea489ba27e68cab2458ed06adb13bb0ced873bb31403c264f8"
+    }
+  ],
+  "scope": "Two committed CSS and JavaScript files only; no runtime data, credentials, internal reports or uncommitted changes.",
+  "verification_limits": "Archive integrity is not browser, backend, WeChat or device acceptance."
+}
