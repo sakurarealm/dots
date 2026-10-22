@@ -1,0 +1,60 @@
+{
+  "format_version": 1,
+  "project": "AI-Nutri Web",
+  "release": "v23",
+  "archive_type": "incremental-files-only",
+  "source_commit": "8a31b0e4c06373269c34a3f697db30617bb852da",
+  "required_base_source_commit": "85145c52ea11129c54fbe954a1d862aa04591522",
+  "needs_base": true,
+  "complete_project_backup": false,
+  "files": [
+    {
+      "path": "dist/original-redo/pages/health-demo-chat.css",
+      "bytes": 8428,
+      "sha256": "423d68e268ea5475aa71d4ff827add98e745e4db1d07c7e2f85b19d9818a77ba"
+    },
+    {
+      "path": "dist/original-redo/pages/health-demo-ui-registration-v3.js",
+      "bytes": 52560,
+      "sha256": "b7c3c678564699f7b834bcece642e45a44a53aafabad2738394cf1983f5011a8"
+    },
+    {
+      "path": "dist/original-redo/pages/practitioner-controller-v3.js",
+      "bytes": 24683,
+      "sha256": "e5e5d0c6b0510609549fb9c828ebb209f9c69ea10bbdf81374fa45ac62653f8d"
+    },
+    {
+      "path": "dist/original-redo/pages/practitioner-ui-v3.js",
+      "bytes": 17774,
+      "sha256": "f5d40e5be078af0849f98ba6e1979d8f22a8ded1d071c5d1280d42e1ee272342"
+    },
+    {
+      "path": "dist/original-redo/pages/student-platform-v3.js",
+      "bytes": 18935,
+      "sha256": "f49ebbccdb6569dddeff8deddbbdd801ffc566828322b27e330a49c2fdd15807"
+    },
+    {
+      "path": "dist/original-redo/shared/nutri-demo-core-registration-v3.js",
+      "bytes": 31085,
+      "sha256": "59c03ee4af5e49a0b12c6da04f9b10cc3e13c7eb142574c4de43a281b3e2fa24"
+    },
+    {
+      "path": "dist/original-redo/shared/nutri-registration-entry-v3.js",
+      "bytes": 29336,
+      "sha256": "2be6e1490e8d4049eef14742d8a9c40c6e74be130b8d23e1a8548e118e200328"
+    },
+    {
+      "path": "dist/original-redo/shared/nutri-registration-kernel-v1.js",
+      "bytes": 74990,
+      "sha256": "910a4db4bf41d84ceb6cd157370ee524e10eb067067d8cef983732f4e25318bf"
+    },
+    {
+      "path": "dist/original-redo/shared/nutri-registration-store-v1.js",
+      "bytes": 14505,
+      "sha256": "9ed6d8eceef8c2859d9b27e2c3717a037aad9123d02631b301c4674205a3ea69"
+    }
+  ],
+  "scope": "Fixed committed source only; no runtime data, credentials, internal reports or uncommitted changes.",
+  "restoration_limits": "Article data v2 rollback requires the complete pre-upgrade checkpoint; arbitrary older sites cannot be assumed to read v2.",
+  "verification_limits": "Historical incremental archive; archival integrity is not complete functional or visual acceptance."
+}

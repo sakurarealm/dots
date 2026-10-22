@@ -1,0 +1,20 @@
+{
+  "format_version": 1,
+  "project": "AI-Nutri Web",
+  "release": "v24",
+  "archive_type": "incremental-files-only",
+  "source_commit": "2a9a66837c40beb6b9420feaf4967276635b83ff",
+  "required_base_source_commit": "8a31b0e4c06373269c34a3f697db30617bb852da",
+  "needs_base": true,
+  "complete_project_backup": false,
+  "files": [
+    {
+      "path": "dist/original-redo/pages/health-demo-ui-registration-v3.js",
+      "bytes": 52626,
+      "sha256": "851ebd9d5cf24cf821e9ea06bc0f7cce01406635b70e58d73eaf2709aa4b61de"
+    }
+  ],
+  "scope": "Fixed committed source only; no runtime data, credentials, internal reports or uncommitted changes.",
+  "restoration_limits": "Article data v2 rollback requires the complete pre-upgrade checkpoint; arbitrary older sites cannot be assumed to read v2.",
+  "verification_limits": "Historical incremental archive; archival integrity is not complete functional or visual acceptance."
+}
