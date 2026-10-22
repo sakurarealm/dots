@@ -1,0 +1,33 @@
+/* Profile-only presentation. Canvas dimensions stay owned by the original mobile shell. */
+body[data-nutri-shell="profile"]{background:#f4f7f4;color:#203a32}
+body[data-nutri-shell="profile"] .np-profile{margin:0;border-radius:0;background:transparent;padding:22px 18px 28px;font-family:inherit;line-height:1.55}
+.np-profile,.np-profile *{box-sizing:border-box}
+.np-profile .np-account{display:flex;align-items:center;gap:16px;padding:22px 20px;border:1px solid #d8e7dd;border-radius:24px;background:linear-gradient(120deg,#e4f2e6,#f6faf1);box-shadow:0 6px 24px #294e3210}
+.np-profile .np-avatar{display:grid;place-items:center;flex:0 0 64px;height:64px;background:#fffdf5;border:3px solid #fff;border-radius:23px;color:#50785b;font-size:28px;font-weight:700;box-shadow:0 3px 12px #36694312}
+.np-profile .np-account p{margin:0 0 2px;color:#5d7768;font-size:12px;letter-spacing:1px}
+.np-profile .np-account h2{margin:0 0 5px;font-size:25px;line-height:1.3;letter-spacing:.5px}
+.np-profile .np-account div>span{display:inline-block;padding:3px 9px;border-radius:20px;background:#fff9;color:#56705b;font-size:11px}
+.np-profile .np-notice{margin:12px 3px 21px;color:#68786d;font-size:12px;line-height:1.65}
+.np-profile .np-groups{display:grid;gap:19px}
+.np-profile .np-group h3{margin:0 0 9px 3px;font-size:15px;letter-spacing:.5px;font-weight:650;color:#29463a}
+.np-profile .np-entries{overflow:hidden;border:1px solid #e5eae3;border-radius:19px;background:#fff;box-shadow:0 3px 14px #20372b04}
+.np-profile .np-entries a{display:flex;align-items:center;gap:12px;min-height:73px;padding:13px 15px;text-decoration:none;color:inherit;margin:0;border:0;border-radius:0;background:transparent}
+.np-profile .np-entries a+a{border-top:1px solid #f0f3ee}
+.np-profile .np-entry-icon{display:grid;place-items:center;flex:0 0 37px;height:37px;border-radius:12px;background:#edf4e9;color:#557752;font-size:15px;font-weight:650}
+.np-profile .np-group:nth-child(2) .np-entry-icon{background:#fff3dc;color:#927140}
+.np-profile .np-group:nth-child(4) .np-entry-icon{background:#edf1f8;color:#63738a}
+.np-profile .np-entry-text{display:grid;gap:3px;min-width:0;flex:1}
+.np-profile .np-entry-text strong{font-size:14px;font-weight:600;line-height:1.5}
+.np-profile .np-entry-text small{font-size:11px;color:#7b897f;line-height:1.5;overflow-wrap:anywhere}
+.np-profile .np-chevron{font-size:23px;font-weight:300;color:#a8b5aa}
+.np-profile .np-entries a:hover{background:#f7faf5}
+.np-profile a:focus-visible,.np-profile button:focus-visible,.np-profile summary:focus-visible{outline:3px solid #7ca777;outline-offset:-3px}
+.np-profile .np-summary{font-size:12px;line-height:1.8;color:#5f7465;margin:20px 5px 10px}
+.np-profile .np-data-details{font-size:11px;color:#7d897f;padding:11px 12px;background:#eaf0e9;border-radius:12px;line-height:1.8}
+.np-profile .np-data-details summary{cursor:pointer;color:#627966;font-size:12px;min-height:28px;display:list-item}
+.np-profile .np-data-details p{margin:8px 0 0;overflow-wrap:anywhere}
+.np-profile .np-refresh{display:block;width:100%;min-height:44px;margin:12px 0 0;padding:10px 15px;border:1px solid #d4dfd0;border-radius:13px;color:#4f7054;background:#f8fbf6;font:inherit;font-size:12px;cursor:pointer}
+.np-profile .np-refresh:disabled{opacity:.55;cursor:wait}
+.np-profile .np-feedback{margin:8px 4px 0;font-size:12px;line-height:1.65;overflow-wrap:anywhere;color:#6a7d6d}
+.np-profile .np-feedback:empty{display:none}
+@media(max-width:360px){body[data-nutri-shell="profile"] .np-profile{padding:16px 12px 24px}.np-profile .np-account{padding:18px 15px;gap:12px}.np-profile .np-entries a{padding:12px;gap:10px}}

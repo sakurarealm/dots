@@ -1,0 +1,39 @@
+{
+  "format_version": 1,
+  "project": "AI-Nutri Web",
+  "release": "v18",
+  "archive_type": "incremental-files-only",
+  "source_commit": "a321be5e03f510db0c463be23a8a93a5632ddae3",
+  "required_base_source_commit": "a0a0426ce73b3a7ea740b3d08dc7ee961ceb1fc4",
+  "needs_base": true,
+  "complete_project_backup": false,
+  "files": [
+    {
+      "path": "dist/original-redo/pages/demo-account-shell-registration-v3.js",
+      "bytes": 9908,
+      "sha256": "1f25cd5cdc6432b8fc122ba754ea022dcd94274983839574a0263c6d3b662bf6"
+    },
+    {
+      "path": "dist/original-redo/pages/health-demo-ui-registration-v3.js",
+      "bytes": 46946,
+      "sha256": "3d095a659586512eff90db0af004b584aa82a35d342be42f8a58b99ae3ad5657"
+    },
+    {
+      "path": "dist/original-redo/pages/profile-account-polish-v18.css",
+      "bytes": 3633,
+      "sha256": "c39d22022ef7e84234295299fa1d0fa7f7e665baac7e87a6d4db6528c47ffb0c"
+    },
+    {
+      "path": "dist/original-redo/pages/profile.html",
+      "bytes": 7456,
+      "sha256": "facfca6570c013595012cd895795cdff88aa89416ea480db756ebc48d8a9ef3a"
+    },
+    {
+      "path": "dist/original-redo/shared/nutri-mobile-shell-v17.css",
+      "bytes": 5604,
+      "sha256": "9e21d46f608dbbc6ba86bef3f44c76842628635c7c3a27e2460112591e2aee41"
+    }
+  ],
+  "scope": "Five committed v18 source files only; excludes uncommitted work, unrelated assets, account records and runtime data.",
+  "verification_limits": "Archive integrity is separate from browser, backend, WeChat and device acceptance."
+}
