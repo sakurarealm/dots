@@ -1,0 +1,49 @@
+{
+  "format_version": 1,
+  "project": "AI-Nutri Web",
+  "release": "v19",
+  "archive_type": "incremental-files-only",
+  "source_commit": "b57bf4cf44e0d8f022ff8f2002101f099fb6e278",
+  "required_base_source_commit": "a321be5e03f510db0c463be23a8a93a5632ddae3",
+  "needs_base": true,
+  "complete_project_backup": false,
+  "files": [
+    {
+      "path": "dist/original-redo/pages/family-model-v1.js",
+      "bytes": 4826,
+      "sha256": "5be392c60aa038d274f38a56b9902604c6420653574f0cb7af59bca337b78558"
+    },
+    {
+      "path": "dist/original-redo/pages/family-ui-v1.js",
+      "bytes": 7223,
+      "sha256": "2a6db110dd48b06574aecb80f98e7e4e1e1532a3d3d28c94115d6737a8c98ad7"
+    },
+    {
+      "path": "dist/original-redo/pages/family.css",
+      "bytes": 898,
+      "sha256": "bd4eaf3c6734c95af49b5c9caec612a1becf677f3b19a45b1f3c4dd5399e1504"
+    },
+    {
+      "path": "dist/original-redo/pages/family.html",
+      "bytes": 1081,
+      "sha256": "5717db3c71ca2a13465ec2da64f175ccd14edc52e67612903e353f6a229d7a31"
+    },
+    {
+      "path": "dist/original-redo/pages/health-demo-ui-registration-v3.js",
+      "bytes": 51485,
+      "sha256": "8a411fe5ba470e698408422678e6943f9c16ccf4e52ab67b72eeb77a42663270"
+    },
+    {
+      "path": "dist/original-redo/pages/intake.html",
+      "bytes": 13699,
+      "sha256": "cf3d6faf1255aa748caa371faa7c4def988321a2c3b97fbbf9874587acd00ea2"
+    },
+    {
+      "path": "dist/original-redo/shared/nutri-registration-entry-v3.js",
+      "bytes": 27108,
+      "sha256": "8c81508eb58ae19308fac4f9612bde0b091c4fc7a13737c39e81999f0df186de"
+    }
+  ],
+  "scope": "Seven committed v19 source files only; excludes uncommitted work, unrelated assets, account records and runtime data.",
+  "verification_limits": "Archive integrity is separate from browser, backend, WeChat and device acceptance."
+}
