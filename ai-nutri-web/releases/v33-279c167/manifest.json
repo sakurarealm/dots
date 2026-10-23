@@ -1,0 +1,63 @@
+{
+  "format_version": 1,
+  "project": "AI-Nutri Web",
+  "release": "v33",
+  "archive_type": "incremental-files-only",
+  "source_commit": "279c16780f1706ae07bfc3224efbb81d7db49f71",
+  "required_base_source_commit": "bbfe37af19da0a47547e8938462e9afb389f4c17",
+  "needs_base": true,
+  "complete_project_backup": false,
+  "files": [
+    {
+      "path": "dist/original-redo/nutrition-booklet.html",
+      "change": "M",
+      "bytes": 6594,
+      "sha256": "421b91e739e167e6fba4a3c8c69ee3a698f9e19a183f7fb1e80ff036b8246c99",
+      "git_blob_sha": "a62e45c0dd8d6b597bae1d97c6b1e33caa85dd40"
+    },
+    {
+      "path": "dist/original-redo/pages/aiAgent.html",
+      "change": "M",
+      "bytes": 27645,
+      "sha256": "9849d5ff6062cde07bad3020ed3b738fbee9140c10b958dc13230d601b4bf62d",
+      "git_blob_sha": "66c8f673fe61b35cfeba6bfd12fef027186ef983"
+    },
+    {
+      "path": "dist/original-redo/pages/diet.html",
+      "change": "M",
+      "bytes": 9558,
+      "sha256": "086ef8ca4d924bc21243557ac247b4b739f582c3af417bb80dfbb5de9dc409e8",
+      "git_blob_sha": "7f8c7c66ede9e3ca74995eafc557a295642ce542"
+    },
+    {
+      "path": "dist/original-redo/pages/phone-demo.html",
+      "change": "M",
+      "bytes": 4784,
+      "sha256": "b510ef5e9889ac1c4a4b161172d9f000ecfaa3bacb7c6a6dddb79c80f3dfe618",
+      "git_blob_sha": "95630a56ce201baac36f8774f8ebbf3c5aebc564"
+    },
+    {
+      "path": "dist/original-redo/pages/profile-management.html",
+      "change": "M",
+      "bytes": 2898,
+      "sha256": "fba00b043c3c73f78fd502a8d7a3d38c1460ff19a3798ee5ec055462d63c9fbe",
+      "git_blob_sha": "8d2826a23a9d40d22330e5aa8e67465fdd7461ae"
+    },
+    {
+      "path": "dist/original-redo/pages/profile.html",
+      "change": "M",
+      "bytes": 8069,
+      "sha256": "9965e36a1d38aa93d321de78085f44f1e9d88792a5c0960c82ca3feb56a27d6d",
+      "git_blob_sha": "b2d2bec09e8e385c061df11707272104c6b550e3"
+    },
+    {
+      "path": "dist/original-redo/pages/shop.html",
+      "change": "M",
+      "bytes": 2936,
+      "sha256": "092f6dc29f120b131ba1ea8a78f04bea3cb9d135146ca83b95440cc7b197f336",
+      "git_blob_sha": "ca93dcfd4684c28ec1a0e2142c4f8b8abe1f00f1"
+    }
+  ],
+  "scope": "Seven already-public HTML files only. No runtime account or health data, credentials, private evidence or new assets.",
+  "restoration_limits": "Requires complete v32 source baseline; earlier release archives are incremental, not complete baselines."
+}
