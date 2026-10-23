@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "project": "AI-Nutri Web",
+  "release": "v34",
+  "archive_type": "incremental-files-only",
+  "source_commit": "c67203e031e29ba148ab237721a99482b2a06545",
+  "required_base_source_commit": "279c16780f1706ae07bfc3224efbb81d7db49f71",
+  "needs_base": true,
+  "complete_project_backup": false,
+  "files": [
+    {
+      "path": "dist/original-redo/pages/health-demo-ui-registration-v3.js",
+      "change": "M",
+      "bytes": 56982,
+      "sha256": "85d6d786b49902bf36b7c54d56efba2d90bffb3cb48059e98485450920f5eddf",
+      "git_blob_sha": "26f7330547cea0b1ae8ca44d8207906de9519b38"
+    }
+  ],
+  "scope": "One already-public JavaScript file only. No runtime user data, credentials, private evidence or new assets.",
+  "restoration_limits": "Requires complete v33 source baseline. Earlier release archives are incremental, not complete baselines."
+}
