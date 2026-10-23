@@ -1,0 +1,84 @@
+{
+  "format_version": 1,
+  "project": "AI-Nutri Web",
+  "release": "v30",
+  "archive_type": "incremental-files-only",
+  "source_commit": "cdcdea9b217122e981184d41ffbbefeb39e36204",
+  "required_base_source_commit": "0149b9397460fedf08c893312c8baffc66e6297d",
+  "needs_base": true,
+  "complete_project_backup": false,
+  "files": [
+    {
+      "path": "dist/original-redo/nutrition-booklet.html",
+      "change": "M",
+      "bytes": 6441,
+      "sha256": "0676cb656bc48b8f7356ecadaa1f3b209d7d111206eaf1b02aaad909d91ed838",
+      "git_blob_sha": "45e24237fe5242a3f89f987c7f467f4f2c267e86"
+    },
+    {
+      "path": "dist/original-redo/pages/health-demo-pages-registration-v3.js",
+      "change": "M",
+      "bytes": 27706,
+      "sha256": "e8b4ddfe9fdd91e7b82fb8366fadbebf8a20a4f970acccec1f03c9c5c2f0b020",
+      "git_blob_sha": "c7a820c26195a53cf89993135533965f79b322a0"
+    },
+    {
+      "path": "dist/original-redo/pages/health-demo-pages.css",
+      "change": "M",
+      "bytes": 11083,
+      "sha256": "5f5a2ed885730633a477550c9defebcd4fa02b3106cd9bdecc267306e60d1b09",
+      "git_blob_sha": "ec8e56205ec8eedc093b7bff17b750441a5d0d25"
+    },
+    {
+      "path": "dist/original-redo/pages/health-demo-ui-registration-v3.js",
+      "change": "M",
+      "bytes": 55455,
+      "sha256": "271c746800fefb80531094b4f66d0d83e6902828e8ba5e3436bbb379b111e615",
+      "git_blob_sha": "2502067c097d2cb3fb31ace4fec65c8bcc8ddad2"
+    },
+    {
+      "path": "dist/original-redo/pages/phone-demo-model.js",
+      "change": "A",
+      "bytes": 2279,
+      "sha256": "0a29ff92ac2791b3c83eea9050a1470ccbcbd89d72fd4b8a667d8e14a99d0570",
+      "git_blob_sha": "948aa28666b801c4901fd000d971f03271a2668d"
+    },
+    {
+      "path": "dist/original-redo/pages/phone-demo.css",
+      "change": "A",
+      "bytes": 1766,
+      "sha256": "9540418841e7f626351e782738a7e48a7bfd74c4eb94c04d4f96e90342467503",
+      "git_blob_sha": "14193b8bc51d887fb0b47be45ac8f6eeaabde3ad"
+    },
+    {
+      "path": "dist/original-redo/pages/phone-demo.html",
+      "change": "A",
+      "bytes": 2425,
+      "sha256": "a36f4715c3a15d403328517d1c984bde036ca19449953e6373240bbb6648e6c8",
+      "git_blob_sha": "b28498ac052f7b8fb2352a01a4a173bedfd6323e"
+    },
+    {
+      "path": "dist/original-redo/pages/phone-demo.js",
+      "change": "A",
+      "bytes": 2682,
+      "sha256": "af9a4f6cac5700d57990195d6051d965aa475086fd2936476c4843168257c392",
+      "git_blob_sha": "0e8e7c5bcee31cac899606ceea9e1def061c0cd7"
+    },
+    {
+      "path": "dist/original-redo/shared/nutri-mobile-shell-v17.css",
+      "change": "M",
+      "bytes": 7109,
+      "sha256": "b722cc5a5be2a89b297e6408da489382c675018a7fc0bf24967787e1cc703684",
+      "git_blob_sha": "ed34e75c80d2554a8d1f87a1c5f7fb1bd33c4b87"
+    },
+    {
+      "path": "dist/original-redo/shared/nutri-mobile-shell-v17.js",
+      "change": "M",
+      "bytes": 3676,
+      "sha256": "31bbcc23965d05532fa05b195adb098bad705b3d06e8d80102d54f5b8a4674af",
+      "git_blob_sha": "1e90718f902461cddef98580028395bcfd97131e"
+    }
+  ],
+  "scope": "Ten already-public text source files only. No account data, credentials, private evidence or images.",
+  "restoration_limits": "Requires complete v29 source baseline; earlier GitHub release folders are incremental, not complete baselines."
+}

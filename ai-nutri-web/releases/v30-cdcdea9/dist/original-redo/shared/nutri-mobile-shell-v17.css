@@ -1,0 +1,57 @@
+/* v17 viewport shell: page notices never add a second viewport above chat. */
+html:has(body[data-nutri-shell]){min-height:100%;width:100%}
+body[data-nutri-shell]{margin:0;width:100%;max-width:none;min-width:0;padding-bottom:calc(68px + env(safe-area-inset-bottom));overflow-x:hidden}
+.nutri-demo-label{box-sizing:border-box;display:flex;align-items:center;justify-content:space-between;gap:8px;margin:0;padding:5px 14px;min-height:32px;font:12px/1.5 system-ui,sans-serif;background:#edf7f2;color:#496b5d}
+.nutri-demo-label a{color:inherit;text-decoration:none;padding:3px 0}.nutri-demo-label span{min-width:0}
+body[data-nutri-shell] section.registration-entry-v3{max-width:none;margin:0;border-radius:0;max-height:35dvh;overflow:auto;flex:none;font-size:13px}
+body[data-nutri-shell] section.registration-entry-v3[hidden]{display:none!important}
+.nutri-primary-nav{box-sizing:border-box;position:fixed;bottom:0;left:0;right:0;z-index:30;display:flex;justify-content:space-around;gap:4px;margin:0;padding:7px 8px calc(7px + env(safe-area-inset-bottom));border-top:1px solid #dce9e2;background:#fff;box-shadow:0 -2px 12px #203c2d08;font:14px/1.5 system-ui,sans-serif}
+.nutri-primary-nav a{display:flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;flex:1;color:#527168;text-decoration:none;border-radius:10px}.nutri-primary-nav a[aria-current=page]{color:#147c5c;background:#e6f5ee;font-weight:600}.nutri-primary-nav a:focus-visible{outline:3px solid #218bd0}
+body[data-nutri-shell] .commerce-nav,body[data-nutri-shell] .hdp-fixed{display:none}
+body[data-nutri-shell] .hdp-page,body[data-nutri-shell] .registration-v3-shell,body[data-nutri-shell] #commerce-root,body[data-nutri-shell=student]>main{max-width:none;width:100%}
+body[data-nutri-shell=aiAgent]{height:var(--nutri-viewport-height,100dvh);min-height:0;padding:0;display:flex;flex-direction:column;overflow:hidden;background:#f1f4f7}
+body[data-nutri-shell=aiAgent]>.nutri-demo-label{display:none}
+body[data-nutri-shell=aiAgent]>#original-page{flex:1;min-height:0;min-width:0;display:flex;overflow:hidden}
+body[data-nutri-shell=aiAgent] .hd-shell{width:100%;max-width:none;min-height:0;height:100%;margin:0;flex:1;overflow:hidden;border:0}
+body[data-nutri-shell=aiAgent] .hd-header,body[data-nutri-shell=aiAgent] .hd-demo-strip,body[data-nutri-shell=aiAgent] .hd-bottom{flex:none}
+body[data-nutri-shell=aiAgent] .hd-stream{flex:1 1 0;min-height:0;overflow-y:auto;overscroll-behavior:contain}
+body[data-nutri-shell=aiAgent] .hd-header{padding:8px 12px}.hd-tabs a{min-width:44px;min-height:44px}.hd-composer textarea{font-size:16px}
+body[data-nutri-chat-ready=true]>[data-shell-nav]{display:none}
+body[data-nutri-shell=aiAgent]:not([data-nutri-chat-ready=true]){padding-bottom:calc(68px + env(safe-area-inset-bottom))}
+body[data-nutri-shell=aiAgent] .hd-status{max-height:62px;overflow:auto}.hd-footer-note{display:none}
+@media(max-height:600px){body[data-nutri-shell=aiAgent] .hd-shortcuts{padding:3px 8px}.hd-shortcuts button{min-height:32px;padding:3px 9px}body[data-nutri-shell=aiAgent] .hd-header{padding:4px 10px}body[data-nutri-shell=aiAgent] .hd-demo-strip{font-size:10px;padding:2px 8px}.hd-composer{padding:5px 8px}.hd-tabs{padding:3px 5px}.hd-tabs a span{font-size:16px;line-height:18px}}
+
+/* Notches and short keyboard viewports retain the composer and routes. */
+body[data-nutri-shell=aiAgent] .hd-header{padding-top:calc(8px + env(safe-area-inset-top));padding-left:max(12px,env(safe-area-inset-left));padding-right:max(12px,env(safe-area-inset-right))}
+body[data-nutri-shell=aiAgent] .hd-stream{padding-left:max(14px,env(safe-area-inset-left));padding-right:max(14px,env(safe-area-inset-right))}
+body[data-nutri-shell=aiAgent] .hd-composer{padding-left:max(12px,env(safe-area-inset-left));padding-right:max(12px,env(safe-area-inset-right))}
+.nutri-primary-nav{padding-left:max(8px,env(safe-area-inset-left));padding-right:max(8px,env(safe-area-inset-right))}
+@media(max-height:450px){body[data-nutri-shell=aiAgent] .hd-shortcuts{display:none}body[data-nutri-shell=aiAgent] .hd-header{padding-top:calc(4px + env(safe-area-inset-top))}}
+
+/* Restore each v16 page's established canvas, not a new uniform desktop scale.
+   Original homepage stays 430px in style.css; v17 keyboard/navigation fixes remain. */
+html:has(body[data-nutri-shell]){background:#eaf0ed}
+body[data-nutri-shell]{--nutri-canvas-width:760px;box-sizing:border-box;width:100%;max-width:var(--nutri-canvas-width);margin:0 auto;min-height:100dvh;box-shadow:0 0 70px #25453710}
+body[data-nutri-shell=aiAgent]{--nutri-canvas-width:600px;min-height:0}
+body[data-nutri-shell=diet],body[data-nutri-shell=health-calendar],body[data-nutri-shell=intake]{--nutri-canvas-width:650px}
+@media(min-width:720px){body[data-nutri-shell=profile],body[data-nutri-shell=settings]{--nutri-canvas-width:680px}}
+body[data-nutri-shell=student]{--nutri-canvas-width:700px}
+/* Intake's original desktop adapter constrains its body before the 650px child. */
+@media(min-width:600px){body[data-nutri-shell=intake]{--nutri-canvas-width:430px}}
+body[data-nutri-shell] .nutri-primary-nav{left:50%;right:auto;transform:translateX(-50%);width:100%;max-width:var(--nutri-canvas-width)}
+body[data-nutri-shell=aiAgent] .hd-shell{border:0}
+body[data-nutri-shell=aiAgent] .hd-sheet{left:50%;right:auto;transform:translateX(-50%);width:100%;max-width:var(--nutri-canvas-width);bottom:auto;height:var(--nutri-viewport-height,100dvh)}
+body[data-nutri-shell=aiAgent] .hd-sheet-panel{max-width:100%;max-height:calc(var(--nutri-viewport-height,100dvh) - 24px);overscroll-behavior:contain}
+
+/* Canonical five destinations: original PNG icons, no secondary-record tab. */
+.nutri-canonical-nav{box-sizing:border-box;display:flex;align-items:stretch;justify-content:space-around;background:#fff;gap:0}
+.nutri-canonical-nav a,.hd-tabs.nutri-canonical-nav a,.tabbar.nutri-canonical-nav a{box-sizing:border-box;display:flex;flex:1;flex-direction:column;align-items:center;justify-content:center;gap:3px;min-width:0;min-height:52px;padding:3px 1px;border-radius:0;color:#687670;background:transparent;text-decoration:none;font:11px/1.4 system-ui,sans-serif;white-space:nowrap}
+.nutri-canonical-nav a img{display:block;width:26px;height:26px;object-fit:contain}
+.nutri-canonical-nav a span,.hd-tabs.nutri-canonical-nav a span{font-size:11px;line-height:16px}
+.nutri-canonical-nav a[aria-current=page]{color:#008a70;background:transparent;font-weight:700}
+.nutri-canonical-nav a:focus-visible{outline:3px solid #218bd0;outline-offset:-3px}
+body[data-nutri-canonical-ready=true]>.bottom-nav,body[data-nutri-canonical-ready=true] .hdp-fixed{display:none!important}
+body[data-nutri-shell=diet] .hdp-page.hdp-diet{width:100%;max-width:none;box-sizing:border-box;margin:0}
+body[data-nutri-shell=diet]>.diet-page[hidden]{display:none!important}
+body[data-nutri-shell] .nutri-primary-nav{border-radius:22px 22px 0 0}
+@media(max-height:450px){body[data-nutri-shell=aiAgent] .hd-tabs.nutri-canonical-nav a{min-height:44px}body[data-nutri-shell=aiAgent] .hd-tabs.nutri-canonical-nav a img{width:22px;height:22px}}
