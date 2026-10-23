@@ -1,0 +1,8 @@
+/* Owner layout only; pure r2 stylesheet and 06 cart are unchanged. */
+body[data-nutri-shell][data-commerce-catalog-glass="0507"]{--nutri-canvas-width:480px;box-sizing:border-box;width:100%;max-width:var(--nutri-canvas-width);margin:0 auto}
+body[data-commerce-catalog-glass="0507"] #commerce-root{box-sizing:border-box;width:100%;max-width:var(--nutri-canvas-width);margin:0 auto;padding:12px 0 120px}
+body[data-commerce-catalog-glass="0507"] .app-head{box-sizing:border-box;width:100%;max-width:var(--nutri-canvas-width);margin:0 auto;padding-inline:16px}
+body[data-commerce-catalog-glass="0507"] #cart{box-sizing:border-box;max-width:100%;scroll-margin-top:16px;margin-inline:12px}
+body[data-commerce-catalog-glass="0507"] [data-shell-nav][hidden]{display:none!important}
+body[data-commerce-catalog-glass="0507"][data-ccg-detail="true"] [data-shell-nav]{display:none!important}
+body[data-commerce-catalog-glass="0507"] #commerce-status{box-sizing:border-box;left:50%;right:auto;transform:translateX(-50%);width:calc(100% - 24px);max-width:456px;overflow-wrap:anywhere}

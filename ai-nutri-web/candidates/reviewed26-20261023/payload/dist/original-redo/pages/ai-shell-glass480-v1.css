@@ -1,0 +1,34 @@
+/* Presentation-only group 15 shell. Load last. Existing nodes, flow, keyboard and scroll ownership stay intact. */
+body[data-nutri-shell=aiAgent]{--nutri-canvas-width:480px;max-width:480px;background:#e9e5e1;color:#303b43;box-shadow:0 0 64px #493c2e18}
+body[data-nutri-shell=aiAgent] .nutri-original-ai{--hd-ink:#303b43;--hd-muted:#59646c;--hd-green:#326b98;background:radial-gradient(ellipse at 100% 12%,#f4e4d4a6,transparent 52%),radial-gradient(ellipse at 0 55%,#d6dde4a6,transparent 58%),linear-gradient(135deg,#eeeae6,#e2e3e3 55%,#eee2d7);color:#303b43}
+body[data-nutri-shell=aiAgent] .nutri-original-ai .header{background:linear-gradient(120deg,#fffaf2dc,#eef1f4cc);border-bottom:1px solid #ffffffd9;box-shadow:0 4px 20px #4b41330a;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
+body[data-nutri-shell=aiAgent] .nutri-original-ai .header::after{background:#ffffffa6}
+body[data-nutri-shell=aiAgent] .nutri-original-ai .dh-name{color:#29343c}
+body[data-nutri-shell=aiAgent] .nutri-original-ai .dh-greeting{color:#59646c}
+body[data-nutri-shell=aiAgent] .nutri-original-ai .dh-avatar{background:#eee9e1;border-color:#fff;box-shadow:0 3px 12px #5b514019}
+body[data-nutri-shell=aiAgent] .nutri-original-ai .dh-ring{border-color:#91a4b35c;animation:none}
+body[data-nutri-shell=aiAgent] .nutri-original-ai .dh-status-dot{background:#697780;box-shadow:none;animation:none}
+body[data-nutri-shell=aiAgent] .nutri-original-ai .dh-badge{background:#f7e5df;color:#823d35;border:1px solid #fff9}
+body[data-nutri-shell=aiAgent] .nutri-original-ai .header-action-chip{background:#ffffffa6;color:#3e5669;border:1px solid #fff;border-radius:14px;box-shadow:inset 0 1px #fff}
+body[data-nutri-shell=aiAgent] .nutri-original-ai .hd-demo-strip{background:#f3ede6;color:#665247;border-block:1px solid #fff9}
+body[data-nutri-shell=aiAgent] .nutri-original-ai .main-container{background:transparent}
+body[data-nutri-shell=aiAgent] .nutri-original-ai .input-bar{background:linear-gradient(120deg,#f6f1eadf,#e9edf1eb);border-color:#fff;box-shadow:0 -5px 20px #5147380d;backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)}
+body[data-nutri-shell=aiAgent] .nutri-original-ai .top-action-chip,
+body[data-nutri-shell=aiAgent] .nutri-original-ai .manager-chip{background:#fffaf2c4;color:#3f5667;border:1px solid #fff;border-radius:14px;box-shadow:inset 0 1px #fff}
+body[data-nutri-shell=aiAgent] .nutri-original-ai .hd-composer{background:linear-gradient(120deg,#fffdf8f2,#f2f5f7ef);border:1px solid #a0abb3;border-radius:26px;box-shadow:inset 0 1px #fff,0 4px 14px #534a3a0d;gap:6px}
+body[data-nutri-shell=aiAgent] .nutri-original-ai .hd-composer:focus-within{border-color:#326b98;box-shadow:0 0 0 2px #326b9826,inset 0 1px #fff;transform:none}
+body[data-nutri-shell=aiAgent] .nutri-original-ai .hd-composer textarea{background:transparent;color:#28363f;caret-color:#245c88;box-shadow:none}
+body[data-nutri-shell=aiAgent] .nutri-original-ai .hd-composer textarea::placeholder{color:#606b74;opacity:1}
+body[data-nutri-shell=aiAgent] .nutri-original-ai .input-wrapper button{color:#365f7b;border-radius:50%}
+body[data-nutri-shell=aiAgent] .nutri-original-ai .input-wrapper button[type=submit]{color:#fff;background:linear-gradient(135deg,#326b98,#24567f);border:1px solid #22557c;border-radius:22px;padding:4px 10px;font-weight:650;box-shadow:inset 0 1px #ffffff3b,0 3px 8px #1f527d21}
+body[data-nutri-shell=aiAgent] .nutri-original-ai .input-wrapper button[type=submit]:disabled{color:#fff;cursor:default}
+body[data-nutri-shell=aiAgent] .nutri-original-ai .hd-status{color:#7a3e24;background:#fff6e9;border-radius:10px}
+body[data-nutri-shell=aiAgent] .nutri-original-ai .original-bottom-nav{background:linear-gradient(120deg,#fffaf2e8,#eef1f4e8);border-top:1px solid #fff;box-shadow:0 -2px 14px #50463708;backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)}
+body[data-nutri-shell=aiAgent] .nutri-original-ai .original-bottom-nav a{color:#535f68;background:transparent}
+body[data-nutri-shell=aiAgent] .nutri-original-ai .original-bottom-nav a[aria-current=page]{color:#245f8c;background:#dce8f1a6;border-radius:14px}
+body[data-nutri-shell=aiAgent] .nutri-original-ai .original-bottom-nav a span{color:inherit}
+body[data-nutri-shell=aiAgent] .nutri-original-ai button:focus-visible,
+body[data-nutri-shell=aiAgent] .nutri-original-ai a:focus-visible,
+body[data-nutri-shell=aiAgent] .nutri-original-ai textarea:focus-visible{outline:3px solid #245f8c;outline-offset:2px}
+@media(prefers-reduced-transparency:reduce){body[data-nutri-shell=aiAgent] .nutri-original-ai .header,body[data-nutri-shell=aiAgent] .nutri-original-ai .input-bar,body[data-nutri-shell=aiAgent] .nutri-original-ai .original-bottom-nav{background:#f4f0eb;backdrop-filter:none;-webkit-backdrop-filter:none}}
+@media(forced-colors:active){body[data-nutri-shell=aiAgent] .nutri-original-ai .hd-composer,body[data-nutri-shell=aiAgent] .nutri-original-ai .input-wrapper button[type=submit]{border:1px solid ButtonText}body[data-nutri-shell=aiAgent] .nutri-original-ai .original-bottom-nav a[aria-current=page]{outline:1px solid LinkText}}

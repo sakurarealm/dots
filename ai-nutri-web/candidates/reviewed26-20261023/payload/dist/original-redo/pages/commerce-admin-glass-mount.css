@@ -1,0 +1,7 @@
+/* Admin route only; no global shell or model changes. */
+body[data-nutri-shell][data-commerce-admin-glass="08"]{--nutri-canvas-width:480px;box-sizing:border-box;width:100%;max-width:var(--nutri-canvas-width);margin:0 auto}
+body[data-commerce-admin-glass="08"] main{box-sizing:border-box;width:100%;max-width:var(--nutri-canvas-width);padding:12px 0 120px;margin:0 auto}
+body[data-commerce-admin-glass="08"] .app-head{box-sizing:border-box;width:100%;padding-inline:16px}
+body[data-commerce-admin-glass="08"] main>label,body[data-commerce-admin-glass="08"] main>.notice{display:block;box-sizing:border-box;margin:12px}
+body[data-commerce-admin-glass="08"] #admin-role{box-sizing:border-box;width:100%;max-width:100%}
+body[data-commerce-admin-glass="08"] #commerce-status{box-sizing:border-box;left:50%;right:auto;transform:translateX(-50%);width:calc(100% - 24px);max-width:456px;overflow-wrap:anywhere}

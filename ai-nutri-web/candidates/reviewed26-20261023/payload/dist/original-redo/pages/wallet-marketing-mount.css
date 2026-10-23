@@ -1,0 +1,5 @@
+/* Wallet-only mounting rules; prepared view/r2 skin remain byte-identical. */
+body[data-nutri-shell="wallet"][data-commerce-marketing-glass="v1"]{--nutri-canvas-width:480px;box-sizing:border-box;width:100%;max-width:var(--nutri-canvas-width);margin-inline:auto;padding-bottom:100px}
+body[data-nutri-shell="wallet"][data-commerce-marketing-glass="v1"] #commerce-root{box-sizing:border-box;width:100%;max-width:var(--nutri-canvas-width);margin-inline:auto}
+body[data-nutri-shell="wallet"][data-commerce-marketing-glass="v1"] .app-head{padding:16px;gap:10px;flex-wrap:wrap}
+body[data-nutri-shell="wallet"][data-commerce-marketing-glass="v1"] #commerce-status{box-sizing:border-box;bottom:12px;left:50%;right:auto;transform:translateX(-50%);width:calc(100% - 32px);max-width:448px;max-height:35dvh;overflow:auto}

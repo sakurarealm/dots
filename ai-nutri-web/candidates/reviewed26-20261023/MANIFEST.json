@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "project": "AI nutritionist web",
+  "status": "offline-candidate-not-deployed",
+  "kind": "source-overlay-not-full-site",
+  "baseline": {
+    "version": "v36",
+    "sourceCommit": "f7d3c827a4c6aed02ebfa093cf77730e12a5d32c",
+    "publicBackupDirectory": "ai-nutri-web/releases/v36-f7d3c82",
+    "publicBackupCommit": "6431be85bb51958f1e2a0ce453346b43185f7f00",
+    "requiresCompleteRuntimeBaseline": true
+  },
+  "counts": {
+    "overlayFiles": 26,
+    "newPaths": 14,
+    "replacedPaths": 12,
+    "baselineRuntimeReferences": 327,
+    "composedRuntimeReferences": 341,
+    "unchangedRuntimeReferencesNotIncluded": 315
+  },
+  "files": [
+    {
+      "path": "payload/dist/original-redo/pages/ai-shell-glass480-v1.css",
+      "bytes": 5106,
+      "sha256": "90592c238bff9160222919253159c05664ec91703262d448d384097502e7be5c",
+      "gitBlobSha1": "870fd190d33520665aba547fb33ff574845af50c",
+      "change": "add"
+    },
+    {
+      "path": "payload/dist/original-redo/pages/aiAgent.html",
+      "bytes": 32174,
+      "sha256": "2d2bfb4eb126dd879b4a4cd4c6e3280caaac4b1acaf924bd1d0a9f2f4e3f99bf",
+      "gitBlobSha1": "dac0c13ed957ddf5ecd6d805d9344ff22a9f7299",
+      "change": "replace"
+    },
+    {
+      "path": "payload/dist/original-redo/pages/commerce-admin-glass-mount.css",
+      "bytes": 904,
+      "sha256": "96c5825f6d07a222598c47a3ac8025f8bbb152f0b095a13dd7e6e830be61535a",
+      "gitBlobSha1": "8d3895f8d1e9c98de9ff4b343ae5de4282e82ef9",
+      "change": "add"
+    },
+    {
+      "path": "payload/dist/original-redo/pages/commerce-admin-glass-view-v1.css",
+      "bytes": 5302,
+      "sha256": "d1641dde98c177402e0a40b60c21791f5b5172ab6c4ccba1e09fb272a7c8a078",
+      "gitBlobSha1": "02e75080401f3ffd5bd784d467a61f407bfcef70",
+      "change": "add"
+    },
+    {
+      "path": "payload/dist/original-redo/pages/commerce-admin-glass-view-v1.js",
+      "bytes": 9832,
+      "sha256": "b78695cc1e218755e5e31235fa4645d476b6e21a7179b0e1d34ab891ac91721d",
+      "gitBlobSha1": "8e08ccbf9ec9cc61b9939362083739368d7be2d1",
+      "change": "add"
+    },
+    {
+      "path": "payload/dist/original-redo/pages/commerce-admin-registration-v3.js",
+      "bytes": 13261,
+      "sha256": "314692c59ffd13d5b2af44a268db3d9225604f4ac2c6827f0a9fa52d747b8e6b",
+      "gitBlobSha1": "fc5d70d6843ca4973d2443d6a46d525b53ddaeb8",
+      "change": "replace"
+    },
+    {
+      "path": "payload/dist/original-redo/pages/commerce-admin.html",
+      "bytes": 2521,
+      "sha256": "811aa00e45974f8411f2ac12d9c7babacb27078d1118a3faf0c576935ebac902",
+      "gitBlobSha1": "ea4127bd08565ca270eb41c819424413c463ba9a",
+      "change": "replace"
+    },
+    {
+      "path": "payload/dist/original-redo/pages/commerce-catalog-orders-glass-view-v1.css",
+      "bytes": 6439,
+      "sha256": "27834c4d2f34db53619507e22b734860bed9cc0fa7b92598d2536f3b66071676",
+      "gitBlobSha1": "ef82a300dbc4e1d98a18eb73063deb44f4bbfe57",
+      "change": "add"
+    },
+    {
+      "path": "payload/dist/original-redo/pages/commerce-catalog-orders-glass-view-v1.js",
+      "bytes": 10121,
+      "sha256": "5ba68357305b017b3a10dbc611d6b79573f766bba057ba6d82cd1eefbed14304",
+      "gitBlobSha1": "7a15e492e07fb62bc3cca611e0fa95fd8d0de3e0",
+      "change": "add"
+    },
+    {
+      "path": "payload/dist/original-redo/pages/commerce-catalog-orders-mount.css",
+      "bytes": 1071,
+      "sha256": "890070453fccabecf222cd3b05020914374dcd5075182b7ee71780a36b884c18",
+      "gitBlobSha1": "83ac91177ab69a6d9cda36f128ce2dc26d6115ec",
+      "change": "add"
+    },
+    {
+      "path": "payload/dist/original-redo/pages/commerce-marketing-glass-v1.css",
+      "bytes": 12086,
+      "sha256": "916fbea0549dbb6fd912ef9d93a193c5b58db3a9035ef8877f09ea88e7dda261",
+      "gitBlobSha1": "42902e65b86e31d4a8541ee9dccaae536e8f6680",
+      "change": "add"
+    },
+    {
+      "path": "payload/dist/original-redo/pages/commerce-marketing-glass-view-v1.js",
+      "bytes": 16799,
+      "sha256": "f93a132c70c6f72e223231c3b404ae36a2afbed0b7a8414b4adc2f5dc6bb20d9",
+      "gitBlobSha1": "8efe9db746b290b70d57003ad5968cfaf9614da5",
+      "change": "add"
+    },
+    {
+      "path": "payload/dist/original-redo/pages/commerce-ui-registration-v3.js",
+      "bytes": 21663,
+      "sha256": "359fb4fe9207c6acab3f274f76798d47118f7d1a9b7e5c1adee0f4cb70950fed",
+      "gitBlobSha1": "724dfde75507d7d98f705995dd67f687b47bd1e2",
+      "change": "replace"
+    },
+    {
+      "path": "payload/dist/original-redo/pages/family.css",
+      "bytes": 13587,
+      "sha256": "43b9228bbcc77303dae088a69c0c04a2c9f6bcfedb0b1f575cce48b6e4532c90",
+      "gitBlobSha1": "b033a6510dbe34b1755e3a5d0979ef951eb8a5d1",
+      "change": "replace"
+    },
+    {
+      "path": "payload/dist/original-redo/pages/health-companion-glass-v1.css",
+      "bytes": 8625,
+      "sha256": "bd7855cc2a2293441d8772491f81ea524d68c21f1b15c5ae1c6488a175da9c46",
+      "gitBlobSha1": "2714405afe84030491e59598fd66f488aeeb7559",
+      "change": "add"
+    },
+    {
+      "path": "payload/dist/original-redo/pages/health-companion-glass-view-v1.js",
+      "bytes": 12037,
+      "sha256": "1a5195428cb60c50a9329c8c673d6d8051c27229c60eccaa23f4a69b69404ae2",
+      "gitBlobSha1": "61891898e64acac69a6c3819ca9d0e29b3528220",
+      "change": "add"
+    },
+    {
+      "path": "payload/dist/original-redo/pages/health-demo-pages-registration-v3.js",
+      "bytes": 33136,
+      "sha256": "178a69cf2160471c791a94c6c41061c3cd836ad8880041f0e107187591b8861b",
+      "gitBlobSha1": "27771e963b5e45df4bb91ba76543cb41c1886cb8",
+      "change": "replace"
+    },
+    {
+      "path": "payload/dist/original-redo/pages/health-demo-ui-registration-v3.js",
+      "bytes": 64249,
+      "sha256": "11165364987f3fdba34fbdadd86eecf89ea357204528cb6d87cdcb9d23076ee1",
+      "gitBlobSha1": "2c49091ad1812b2d5d6e76758732d2d2d827a9c6",
+      "change": "replace"
+    },
+    {
+      "path": "payload/dist/original-redo/pages/health-insights-glass-v1.css",
+      "bytes": 6438,
+      "sha256": "81a59d36f224c3840cfe9237f744f274008a6c8e6f944bdb2be63d783f179b76",
+      "gitBlobSha1": "3f805102c104528d648869b0b1c9d2ef1fb4b025",
+      "change": "add"
+    },
+    {
+      "path": "payload/dist/original-redo/pages/health-insights-glass-view-v1.js",
+      "bytes": 13428,
+      "sha256": "57a98424aa1d14f7e90e2cd02aad0c5c4dfc615628be7cab94fb586a2dbcd5f2",
+      "gitBlobSha1": "7c99396338f9ec4574771c208e052ec5de1f8384",
+      "change": "add"
+    },
+    {
+      "path": "payload/dist/original-redo/pages/orders.html",
+      "bytes": 2283,
+      "sha256": "716214add5aecac4ea5871391e53f7d704d70cb1d0ba9aa55fbd60e367ab43f8",
+      "gitBlobSha1": "807310de3df88bd8929823bcd685d3e2277f1299",
+      "change": "replace"
+    },
+    {
+      "path": "payload/dist/original-redo/pages/shop.html",
+      "bytes": 3020,
+      "sha256": "c8a732f3bf94dd78e33be593c0480914d596933ef3d548f090d64b817e28e823",
+      "gitBlobSha1": "8b973fdaf5d456c06f4d36db5f5c6bb407aed0dd",
+      "change": "replace"
+    },
+    {
+      "path": "payload/dist/original-redo/pages/student-platform-v3.js",
+      "bytes": 24381,
+      "sha256": "22694262b33818bfee0ada1b130f890a01f2e96f3b8c589e69f5ccda0b27af5b",
+      "gitBlobSha1": "cbe3a768b976946701c86c59bdf2005c5a5b0b69",
+      "change": "replace"
+    },
+    {
+      "path": "payload/dist/original-redo/pages/student.css",
+      "bytes": 11926,
+      "sha256": "36d7774965c50ec1823083aada5fbba350aa91840c117c5a8c8ecf411071c128",
+      "gitBlobSha1": "96e0562fb23a2b20a971e298f7406dbfee1bce52",
+      "change": "replace"
+    },
+    {
+      "path": "payload/dist/original-redo/pages/wallet-marketing-mount.css",
+      "bytes": 810,
+      "sha256": "485614069c115738000b219f3b7823f0163231c4cc0b6d2b94007f6a5d5ec56b",
+      "gitBlobSha1": "81ac135d03126b6091aa9145ddd8e51e776417e9",
+      "change": "add"
+    },
+    {
+      "path": "payload/dist/original-redo/pages/wallet.html",
+      "bytes": 2194,
+      "sha256": "e31a4c2a22971f8b0fb7689473a28a2756e90a03322bce1033165620737390ee",
+      "gitBlobSha1": "b4918f072a7e3be448b06ba0178d9abd3eeb9193",
+      "change": "replace"
+    }
+  ]
+}
