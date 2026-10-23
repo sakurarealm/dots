@@ -1,0 +1,70 @@
+{
+  "format_version": 1,
+  "project": "AI-Nutri Web",
+  "release": "v31",
+  "archive_type": "incremental-files-only",
+  "source_commit": "5ba8f7bf4954888e39850410103d1c8dd3214387",
+  "required_base_source_commit": "cdcdea9b217122e981184d41ffbbefeb39e36204",
+  "needs_base": true,
+  "complete_project_backup": false,
+  "files": [
+    {
+      "path": "dist/original-redo/pages/demo-account-shell-registration-v3.js",
+      "change": "M",
+      "bytes": 14632,
+      "sha256": "f01ce7af74ea6947b5b5dc406b4376cc54004a41d66ed30939bfbb4b678349d1",
+      "git_blob_sha": "14946438e5c915b9be015bd2f41359fca05e427e"
+    },
+    {
+      "path": "dist/original-redo/pages/phone-demo-art.js",
+      "change": "A",
+      "bytes": 968,
+      "sha256": "e0fcd27f839e57a986bfd93e2a611b2589819f5dafc937cdbbd7e9be4f5c1c26",
+      "git_blob_sha": "a563212f2ed7a98142b97c9e753997cb373ddb36"
+    },
+    {
+      "path": "dist/original-redo/pages/phone-demo.css",
+      "change": "M",
+      "bytes": 10210,
+      "sha256": "023eed8b96481175c88f3d9fd78fa36cd24952cf21993c59132e26a5905d3baf",
+      "git_blob_sha": "22882ebbdfacd9a22ee99890008b6118dd0d5c81"
+    },
+    {
+      "path": "dist/original-redo/pages/phone-demo.html",
+      "change": "M",
+      "bytes": 4365,
+      "sha256": "b42e1bf8b5aee02fa412112d46d352998eccf4cec93a3c28fb937fe93c35dca2",
+      "git_blob_sha": "864280a0ef8cbdf2379342b088f071194d6effa9"
+    },
+    {
+      "path": "dist/original-redo/pages/profile-management.html",
+      "change": "A",
+      "bytes": 2253,
+      "sha256": "dcad29fc0712a004e39a8e3957253cfb06fba5d37657c4df5b29d0ba74264d3f",
+      "git_blob_sha": "a4693bf0585f332d0fb8aa62c0041dbdc4a84760"
+    },
+    {
+      "path": "dist/original-redo/pages/profile.css",
+      "change": "M",
+      "bytes": 9626,
+      "sha256": "826b09291b47e3cf5f6f60bf8cdb12d4930071694d893961a6c1555eaf76d59f",
+      "git_blob_sha": "b6c145a5b816ffeb43f547f08f4e4742a73919ba"
+    },
+    {
+      "path": "dist/original-redo/pages/profile.html",
+      "change": "M",
+      "bytes": 7644,
+      "sha256": "537e582834ec986228ca3332478d3723cf89ada3dbd85d884bb76016ca34e666",
+      "git_blob_sha": "1241b7eefb2eaab033050b195281ffc2cd229950"
+    },
+    {
+      "path": "dist/original-redo/shared/nutri-registration-entry-v3.js",
+      "change": "M",
+      "bytes": 31598,
+      "sha256": "9c57eb2b244247ce239a0872e370d6c273f379c280db80d557fc6bde7584ac6b",
+      "git_blob_sha": "fc3ffd6997a09dafc5191add1f628e5044173f3f"
+    }
+  ],
+  "scope": "Eight already-public text source files only. No runtime account or health data, credentials, private evidence or images.",
+  "restoration_limits": "Requires complete v30 source baseline; earlier release archives are incremental, not complete baselines."
+}
