@@ -1,0 +1,143 @@
+/* Optional visual-only delta. Load after base CSS and any inline base styles.
+   Personal page opts in with body[data-nutri-food-glass="personal"].
+   Quiet v4-inspired frosted revision; no image assets, overlays, layout changes, animation or business state. */
+.fc-panel,
+body[data-nutri-food-glass="personal"] {
+  /* 月白 / 墨蓝 / 藕粉 / 赭石 / 朱砂: quiet surfaces, restrained accents. */
+  --food-moonwhite: #f3f2ee;
+  --food-inkblue: #234b68;
+  --food-lotuspink: #eadcde;
+  --food-ochre: #8b5c2c;
+  --food-cinnabar: #a63e32;
+  --food-glass-ink: #182e3c;
+  --food-glass-muted: #455663;
+  --food-glass-surface: #f3f2ee;
+  --food-glass-edge: rgba(255,255,255,.96);
+  --food-glass-shadow: inset 0 1px 0 var(--food-glass-edge),
+    inset 1px 0 0 rgba(255,255,255,.80),
+    inset 0 -1px 0 rgba(48,68,82,.18),
+    inset 0 0 14px rgba(255,255,255,.32),
+    0 8px 24px rgba(35,57,72,.10);
+  color: var(--food-glass-ink);
+}
+/* This is an abstract local CSS backdrop, not a photograph or food asset. */
+body[data-nutri-food-glass="personal"] {
+  background-color: #e8ebec;
+  /* One low-contrast wash only: no flowers, texture, spots or image assets. */
+  background-image: linear-gradient(155deg,#f3f2ee 0%,#e8edf0 58%,#eeebe6 100%);
+}
+.fc-panel .fc-status,
+.fc-panel details,
+body[data-nutri-food-glass="personal"] :is(section,article,details) {
+  background: var(--food-glass-surface);
+  -webkit-backdrop-filter:none;
+  backdrop-filter:none;
+  border-color: var(--food-glass-edge);
+  box-shadow: var(--food-glass-shadow);
+  color: var(--food-glass-ink);
+}
+.fc-panel :is(input,select,textarea),
+body[data-nutri-food-glass="personal"] :is(input,select,textarea) {
+  background-color: #fbfaf7;
+  border-color: #83939e;
+  color: #182e3c;
+  caret-color: #234b68;
+  box-shadow: inset 0 1px 3px rgba(35,57,72,.08),0 1px 0 rgba(255,255,255,.8);
+  accent-color: var(--food-ochre);
+}
+.fc-panel :is(input,textarea)::placeholder,
+body[data-nutri-food-glass="personal"] :is(input,textarea)::placeholder { color:#52616b; opacity:1; }
+.fc-panel button,
+body[data-nutri-food-glass="personal"] button {
+  background: linear-gradient(160deg,#faf9f6,var(--food-lotuspink));
+  border-color: #91a0aa;
+  box-shadow: inset 0 1px 0 #fff,inset 0 -1px 2px rgba(45,61,74,.12),0 3px 8px rgba(35,57,72,.08);
+  color: #243d50;
+  text-shadow: none;
+}
+.fc-panel button[type="submit"],
+body[data-nutri-food-glass="personal"] :is(#plus,#save,#enter) {
+  background: linear-gradient(155deg,#a63e32,#863b33 60%,#98443a);
+  border-color: #dcb8af;
+  box-shadow: inset 0 2px 1px rgba(255,244,237,.72),inset 0 -2px 4px rgba(72,27,25,.28),inset 0 0 12px rgba(242,218,215,.14),0 4px 12px rgba(86,39,34,.18);
+  color:#fff;
+}
+.fc-panel :is(button,input,select,textarea,summary):focus-visible,
+body[data-nutri-food-glass="personal"] :is(button,input,select,textarea,summary,a):focus-visible {
+  outline: 3px solid #234b68;
+  outline-offset: 3px;
+}
+.fc-panel button:disabled,
+body[data-nutri-food-glass="personal"] button:disabled {
+  background:#e5e7e8;
+  border-color:#89959e;
+  color:#495965;
+  box-shadow:inset 0 1px 0 #faf9f6;
+  opacity:1;
+  cursor:not-allowed;
+}
+.fc-panel .fc-sticker,
+body[data-nutri-food-glass="personal"] .sticker img {
+  border-color:#faf9f6;
+  box-shadow:0 5px 13px rgba(35,57,72,.15),0 1px 2px rgba(35,57,72,.10);
+}
+body[data-nutri-food-glass="personal"] #plus {
+  background:linear-gradient(155deg,#345b76,var(--food-inkblue));
+  border-color:#adc2d0;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.70),0 4px 12px rgba(35,57,72,.16);
+  color:#fff;
+}
+body[data-nutri-food-glass="personal"] a { color:var(--food-inkblue); }
+/* Keep disabled primary controls neutral, including the later blue camera rule. */
+body[data-nutri-food-glass="personal"] :is(#plus,#save,#enter):disabled {
+  background:#e5e7e8; border-color:#89959e; color:#495965;
+  box-shadow:inset 0 1px 0 #faf9f6;
+}
+@supports ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .fc-panel .fc-status,
+  .fc-panel details,
+  body[data-nutri-food-glass="personal"] :is(section,article,details) {
+    background: repeating-linear-gradient(117deg,rgba(255,255,255,.018) 0 1px,rgba(35,57,72,.012) 1px 2px,transparent 2px 4px),linear-gradient(135deg,rgba(255,255,253,.82),rgba(243,245,246,.70) 55%,rgba(247,242,239,.80));
+    -webkit-backdrop-filter: blur(32px) saturate(105%);
+    backdrop-filter: blur(32px) saturate(105%);
+  }
+  /* Nested nutrition surfaces need less blur, avoiding stacked wash-out. */
+  .fc-panel details,
+  body[data-nutri-food-glass="personal"] section details {
+    background:rgba(250,249,246,.82);
+    -webkit-backdrop-filter:blur(12px) saturate(100%);
+    backdrop-filter:blur(12px) saturate(100%);
+  }
+}
+@media (prefers-reduced-transparency: reduce) {
+  body[data-nutri-food-glass="personal"] { background:#f3f2ee; }
+  .fc-panel .fc-status,.fc-panel details,
+  body[data-nutri-food-glass="personal"] :is(section,article,details),
+  body[data-nutri-food-glass="personal"] section details {
+    background:#f3f2ee;
+    -webkit-backdrop-filter:none;
+    backdrop-filter:none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .fc-panel button,
+  body[data-nutri-food-glass="personal"] button {
+    animation:none;
+    transition:none;
+  }
+}
+@media (forced-colors: active) {
+  .fc-panel,
+  body[data-nutri-food-glass="personal"] { background:Canvas; color:CanvasText; }
+  .fc-panel :is(button,input,select,textarea,details,.fc-status),
+  .fc-panel button[type="submit"],
+  .fc-panel button:disabled,
+  body[data-nutri-food-glass="personal"] :is(section,article,details,button,input,select,textarea),
+  body[data-nutri-food-glass="personal"] :is(#plus,#plus:disabled,#save:disabled,#enter:disabled,#save,#enter),
+  body[data-nutri-food-glass="personal"] section details {
+    background:Canvas; color:CanvasText; border-color:ButtonText; box-shadow:none;
+    -webkit-backdrop-filter:none; backdrop-filter:none;
+  }
+  .fc-panel :is(button,input,select,textarea,summary):focus-visible,
+  body[data-nutri-food-glass="personal"] :is(button,input,select,textarea,summary,a):focus-visible {outline-color:Highlight;}
+}

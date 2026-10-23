@@ -1,0 +1,3 @@
+(function(root){'use strict';async function prepare(blob,{confirmed=false,crypto=root.crypto}={}){if(!confirmed)throw Error('请明确确认仅本设备保存照片');if(!(blob instanceof Blob)||!/^image\/(jpeg|png|webp)$/.test(blob.type)||blob.size>8*1024*1024)throw Error('仅支持不超过8MB的JPEG/PNG/WebP图片');const bytes=await blob.arrayBuffer(),digest=await crypto.subtle.digest('SHA-256',bytes),sha256=Array.from(new Uint8Array(digest),b=>b.toString(16).padStart(2,'0')).join('');return{id:crypto.randomUUID(),sha256,blob};}
+root.NutriPersonalFoodMedia={prepare};if(typeof module!=='undefined')module.exports=root.NutriPersonalFoodMedia;
+})(typeof window!=='undefined'?window:globalThis);

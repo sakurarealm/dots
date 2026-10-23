@@ -1,0 +1,280 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' blob:; connect-src 'none'; object-src 'none'; base-uri 'none'"><title>原小程序UI适配 · AI营养师</title><link rel="stylesheet" href="intake.css"><link rel="stylesheet" href="adapter.css"><link rel="stylesheet" href="navigation-repair.css"><link rel="stylesheet" href="health-demo-pages.css"><link rel="stylesheet" href="../shared/nutri-registration-entry-v3.css"><link rel="stylesheet" href="../shared/nutri-mobile-shell-v17.css"><meta name="nutri-demo-release" content="20261023-family-drawer-candidate"><link rel="stylesheet" href="../shared/nutri-interaction-feedback.css"><link rel="stylesheet" href="food-glass-applied.css"></head><body data-food-glass="approved-round" data-nutri-shell="intake" data-page="intake" data-registration-bundle="registration-web-v3-c1"><aside class="nutri-demo-label" role="note"><a href="aiAgent.html" aria-label="返回营养助手">‹ 首页</a><span>默认合成演示 · legacy 为隔离旧版</span><a href="family.html">合成家庭</a><a href="settings.html">说明</a><noscript>请启用 JavaScript；未启用时不能保存。</noscript></aside><aside class="adapt-notice">原小程序 UI 适配候选 · 演示数据 · 未接账户或健康接口<a href="book.html">营养册</a><a href="recipes.html">食谱</a></aside><main id="app"></main><template id="source-template">
+<div class="nutrition-page">
+  <div class="month-bar" hover-class="card-pressed">
+    <span class="month-nav" data-tap="prevMonth">‹</span>
+    <div mode="date" fields="month" value="{{monthPickerValue}}" bindchange="onMonthPickerChange">
+      <div class="month-pill" hover-class="btn-pressed">
+        <span class="month-text">{{currentMonthText}}</span>
+      </div>
+    </div>
+    <span class="month-nav" data-tap="nextMonth">›</span>
+  </div>
+
+  <div class="date-strip" scroll-x="true" enhanced show-scrollbar="{{false}}" scroll-left="{{dateScrollLeft}}" scroll-with-animation>
+    <div class="date-list">
+      <div class="top-line-track"></div>
+      <div class="top-line" style="width: {{dateTopLineW}}rpx"></div>
+      <div
+        data-wx-for="{{monthDays}}"
+        data-wx-key="id"
+        id="day-{{item.day}}"
+        class="date-item {{item.selected ? 'active' : ''}}"
+        data-day="{{item.day}}"
+        data-tap="onSelectDay"
+        hover-class="btn-pressed"
+      >
+        <span class="date-day">{{item.day}}</span>
+        <span class="date-week">{{item.week}}</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 圆环进度与营养统计 -->
+  <div class="nutrition-summary" hover-class="card-pressed">
+    <div class="card-topbar"></div>
+    <span class="summary-title">
+      <div class="title-bar"></div>
+      今日营养
+    </span>
+
+    <div class="summary-body">
+      <div class="circle-panel">
+        <div class="outer-circle">
+          <span class="remain-text">已摄入（千卡）</span>
+          <span class="main-value">{{calorieConsumed}}</span>
+          <span class="main-label">目标 {{calorieTarget}} 千卡</span>
+        </div>
+      </div>
+
+      <div class="macro-panel" hover-class="card-pressed">
+        <div class="macro-row" data-wx-for="{{macroItems}}" data-wx-key="key">
+          <div class="macro-row-top">
+            <span class="macro-name">{{item.name}}</span>
+            <span class="macro-value">{{item.value}}</span>
+          </div>
+          <progress percent="{{item.percent}}" stroke-width="6" active active-color="#00c896"  max="100"></progress>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="meal-box impact-box" hover-class="card-pressed">
+    <div class="card-topbar"></div>
+    <div class="impact-header">
+      <div class="impact-title">
+        <div class="title-bar"></div>
+        <span>饮食影响器官</span>
+      </div>
+      <span class="impact-subtitle">点一个器官，查看饮食如何改变指标与建议</span>
+    </div>
+
+    <div class="impact-scroll" scroll-x show-scrollbar="{{false}}">
+      <div class="impact-row">
+        <div
+          data-wx-for="{{organImpacts}}"
+          data-wx-key="key"
+          class="impact-card impact-{{item.level}}"
+          data-key="{{item.key}}"
+          data-tap="goOrganImpactDetail"
+          hover-class="btn-pressed"
+        >
+          <div class="impact-card-top">
+            <span class="impact-emoji">{{item.emoji}}</span>
+            <span class="impact-name">{{item.name}}</span>
+          </div>
+          <span class="impact-delta impact-delta-{{item.level}}">{{item.deltaText}}</span>
+          <span class="impact-reason">{{item.reason}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 餐食记录列表 -->
+  <div class="meal-box" hover-class="card-pressed">
+    <div class="card-topbar"></div>
+    <div class="meal-header">
+      <span class="meal-title">
+        <span type="coffee" size="24" color="#00c896"></span>
+        早餐
+      </span>
+      <span class="unit">单位（克）</span>
+    </div>
+
+    <div class="food-record" data-wx-for="{{breakfastFoods}}" data-wx-key="index" hover-class="row-pressed" data-meal="breakfastFoods" data-index="{{index}}" data-tap="onFoodTap">
+      <div class="side-gradient"></div>
+      <img class="food-image" data-source-src="{{item.img}}" mode="aspectFill" >
+      <div class="food-info">
+        <span class="food-name">{{item.name}}</span>
+        <span class="food-unit">{{item.unit}}</span>
+      </div>
+      <div class="food-value">
+        <span>{{item.nutrient}}</span>
+        <span class="food-arrow">＞</span>
+      </div>
+    </div>
+
+    <div class="add-food-row" data-meal="breakfastFoods" data-tap="openAddFoodModal" hover-class="row-pressed">
+      <div class="side-gradient gray"></div>
+      <div class="add-food-plus">＋</div>
+      <span class="add-food-text">添加菜品</span>
+    </div>
+  </div>
+
+  <div class="meal-box" hover-class="card-pressed">
+    <div class="card-topbar"></div>
+    <div class="meal-header">
+      <span class="meal-title">
+        <span type="sunny" size="24" color="#00c896"></span>
+        中餐
+      </span>
+      <span class="unit">单位（克）</span>
+    </div>
+
+    <div class="food-record" data-wx-for="{{lunchFoods}}" data-wx-key="index" hover-class="row-pressed" data-meal="lunchFoods" data-index="{{index}}" data-tap="onFoodTap">
+      <div class="side-gradient"></div>
+      <img class="food-image" data-source-src="{{item.img}}" mode="aspectFill" >
+      <div class="food-info">
+        <span class="food-name">{{item.name}}</span>
+        <span class="food-unit">{{item.unit}}</span>
+      </div>
+      <div class="food-value">
+        <span>{{item.nutrient}}</span>
+        <span class="food-arrow">＞</span>
+      </div>
+    </div>
+
+    <div class="add-food-row" data-meal="lunchFoods" data-tap="openAddFoodModal" hover-class="row-pressed">
+      <div class="side-gradient gray"></div>
+      <div class="add-food-plus">＋</div>
+      <span class="add-food-text">添加菜品</span>
+    </div>
+  </div>
+
+  <div class="meal-box" hover-class="card-pressed">
+    <div class="card-topbar"></div>
+    <div class="meal-header">
+      <span class="meal-title">
+        <span type="moon" size="24" color="#00c896"></span>
+        晚餐
+      </span>
+      <span class="unit">单位（克）</span>
+    </div>
+
+    <div class="food-record" data-wx-for="{{dinnerFoods}}" data-wx-key="index" hover-class="row-pressed" data-meal="dinnerFoods" data-index="{{index}}" data-tap="onFoodTap">
+      <div class="side-gradient"></div>
+      <img class="food-image" data-source-src="{{item.img}}" mode="aspectFill" >
+      <div class="food-info">
+        <span class="food-name">{{item.name}}</span>
+        <span class="food-unit">{{item.unit}}</span>
+      </div>
+      <div class="food-value">
+        <span>{{item.nutrient}}</span>
+        <span class="food-arrow">＞</span>
+      </div>
+    </div>
+
+    <div class="add-food-row" data-meal="dinnerFoods" data-tap="openAddFoodModal" hover-class="row-pressed">
+      <div class="side-gradient gray"></div>
+      <div class="add-food-plus">＋</div>
+      <span class="add-food-text">添加菜品</span>
+    </div>
+  </div>
+
+  <div data-wx-for="{{snackCards}}" data-wx-for-item="snack" data-wx-for-index="snackIndex" data-wx-key="id" class="meal-box snack-box snack-warn-{{snack.level}}" hover-class="card-pressed">
+    <div class="card-topbar snack-topbar"></div>
+    <div class="meal-header" data-tap="onSnackCardTap" data-index="{{snackIndex}}" hover-class="btn-pressed">
+      <span class="meal-title">
+        <span type="fire" size="24" color="#f59e0b"></span>
+        加餐
+      </span>
+      <span class="unit">最多2个</span>
+    </div>
+
+    <div class="food-record" data-wx-for="{{snack.foods}}" data-wx-for-item="food" data-wx-for-index="foodIndex" data-wx-key="foodIndex" hover-class="row-pressed" data-meal="snack" data-snack-index="{{snackIndex}}" data-index="{{foodIndex}}" data-tap="onFoodTap">
+      <div class="side-gradient"></div>
+      <img class="food-image" data-source-src="{{food.img}}" mode="aspectFill" >
+      <div class="food-info">
+        <span class="food-name">{{food.name}}</span>
+        <span class="food-unit">{{food.unit}}</span>
+      </div>
+      <div class="food-value">
+        <span>{{food.nutrient}}</span>
+        <span class="food-arrow">＞</span>
+      </div>
+    </div>
+
+    <div data-wx-if="{{snack.foods.length < 2}}" class="add-food-row" data-meal="snack" data-snack-index="{{snackIndex}}" data-tap="openAddFoodModal" hover-class="row-pressed">
+      <div class="side-gradient gray"></div>
+      <div class="add-food-plus">＋</div>
+      <span class="add-food-text">添加加餐食物</span>
+    </div>
+    <div data-wx-else class="snack-limit">已达上限</div>
+  </div>
+
+  <div class="add-snack-row" data-tap="addSnackCard" hover-class="btn-pressed">
+    <div class="side-gradient blue"></div>
+    <div class="add-snack-plus">＋</div>
+    <span class="add-snack-text">添加加餐卡片</span>
+  </div>
+</div>
+
+<div data-wx-if="{{!familyDrawerOpen}}" class="family-handle" data-tap="toggleFamilyDrawer" hover-class="btn-pressed">
+  <span class="family-handle-text">家人</span>
+</div>
+
+<div data-wx-if="{{familyDrawerOpen}}" class="family-mask" data-tap="closeFamilyDrawer"></div>
+<div class="family-drawer {{familyDrawerOpen ? 'open' : ''}}">
+  <div class="family-title">我的家庭成员</div>
+  <div class="family-grid">
+    <div
+      data-wx-for="{{familyMembers}}"
+      data-wx-key="key"
+      class="family-cell {{item.type === 'me' ? 'me' : ''}} {{item.type === 'add' ? 'add' : ''}} {{selectedMemberKey === item.key ? 'active' : ''}}"
+      data-key="{{item.key}}"
+      data-id="{{item.id}}"
+      data-tap="onFamilyCellTap"
+      bindlongpress="onFamilyCellLongPress"
+      hover-class="{{item.type === 'add' ? '' : 'card-pressed'}}"
+    >
+      <div data-wx-if="{{item.type === 'member'}}" class="family-del" data-catchtap="onMemberDeleteTap" data-key="{{item.key}}" data-id="{{item.id}}">×</div>
+      <span class="family-name">{{item.name}}</span>
+      <span data-wx-if="{{item.type === 'add'}}" class="family-sub">{{familyAddLocked ? 'VIP解锁' : '新增'}}</span>
+    </div>
+  </div>
+
+  <div class="family-footer">
+    <div class="sync-btn" data-tap="onSyncTodayTap" hover-class="btn-pressed">一键同步今日饮食</div>
+  </div>
+</div>
+
+<div data-wx-if="{{addFoodModalOpen}}" class="add-food-mask" data-tap="closeAddFoodModal"></div>
+<div data-wx-if="{{addFoodModalOpen}}" class="add-food-modal" data-catchtap="noop">
+  <div class="add-food-modal-header">
+    <span class="add-food-modal-title">您想如何添加？</span>
+    <span class="add-food-modal-close" data-tap="closeAddFoodModal">×</span>
+  </div>
+  <div class="add-food-options">
+    <div class="add-food-option" data-tap="onAddByCamera" hover-class="card-pressed">
+      <div class="opt-icon camera"></div>
+      <span class="opt-text">拍照添加</span>
+    </div>
+    <div class="add-food-option" data-tap="onAddByAlbum" hover-class="card-pressed">
+      <div class="opt-icon album"></div>
+      <span class="opt-text">从相册中添加</span>
+    </div>
+    <div class="add-food-option" data-tap="onAddBySelect" hover-class="card-pressed">
+      <div class="opt-icon select"></div>
+      <span class="opt-text">选择添加</span>
+    </div>
+  </div>
+</div>
+
+<div data-wx-if="{{deleteConfirmOpen}}" class="add-food-mask" data-tap="closeDeleteConfirm"></div>
+<div data-wx-if="{{deleteConfirmOpen}}" class="add-food-modal" data-catchtap="noop">
+  <div class="delete-confirm-title">要删除这条数据吗？</div>
+  <div class="delete-confirm-actions">
+    <div class="delete-confirm-btn cancel" data-tap="closeDeleteConfirm" hover-class="btn-pressed">否</div>
+    <div class="delete-confirm-btn ok" data-tap="confirmDeleteFood" hover-class="btn-pressed">是</div>
+  </div>
+</div>
+</template><div id="status" role="status" aria-live="polite"></div><script src="../shared/nutri-demo-core-registration-v3.js"></script><script src="../shared/nutri-registration-kernel-v1.js"></script><script src="health-demo-model.js"></script><script src="commerce-catalog.js"></script><script src="commerce-model-registration-v3.js"></script><script src="../shared/nutri-registration-store-v1.js"></script><script src="../shared/nutri-registration-entry-v3.js"></script><script src="family-model-v1.js"></script><script src="family-ui-v1.js"></script><link rel="stylesheet" href="food-capture-view.css"><script src="food-capture-contract.js"></script><script src="food-capture-controller.js"></script><script src="food-capture-view.js"></script><script src="health-demo-pages-registration-v3.js"></script><nav class="nutri-primary-nav" data-shell-nav aria-label="主要页面"><a href="aiAgent.html">助手</a><a href="diet.html">饮食</a><a href="shop.html">商城</a><a href="health-calendar.html">记录</a><a href="profile.html">我的</a></nav><script src="../shared/nutri-mobile-shell-v17.js"></script><script src="../shared/nutri-interaction-feedback.js"></script></body></html>

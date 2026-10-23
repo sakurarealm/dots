@@ -1,0 +1,34 @@
+/* Web binding for the retained aiAgent.wxml hierarchy and aiAgent.css.
+   No new theme: only viewport/form/accessibility adaptations and existing card variables. */
+body[data-nutri-shell=aiAgent] .nutri-original-ai{--hd-green:#17b68e;--hd-ink:#263448;--hd-muted:#647386;width:100%;height:100%;min-height:0;flex:1;overflow:hidden;font:15px/1.6 system-ui,-apple-system,'PingFang SC',sans-serif}
+.nutri-original-ai .header{padding-top:max(12px,env(safe-area-inset-top));gap:8px}
+.nutri-original-ai .header-actions{flex-wrap:wrap;justify-content:flex-end;gap:4px}
+.nutri-original-ai .dh-avatar-container{padding:0;border:0;background:transparent;flex:none}
+.nutri-original-ai .dh-status-dot{background:#86978c}
+.nutri-original-ai .dh-badge{background:#eef2ee;color:#526859;white-space:nowrap}
+.nutri-original-ai .dh-greeting{white-space:normal;font-size:12px}
+.nutri-original-ai .header-action-chip{min-width:44px;min-height:44px;font:inherit;padding:6px}
+body[data-nutri-shell=aiAgent] .nutri-original-ai .main-container{padding:0;overflow-y:auto;min-height:0;scroll-behavior:auto}
+.nutri-original-ai .timeline-wrapper{padding-bottom:16px}
+.nutri-original-ai .message-bubble{min-width:0;max-width:calc(100% - 46px)}
+.nutri-original-ai .message-text{white-space:pre-wrap;overflow-wrap:anywhere}
+.nutri-original-ai .message-time{display:block;font-size:11px;white-space:normal}
+.nutri-original-ai .original-self{display:grid;place-items:center;color:#496957;font:14px/1.4 system-ui}
+.nutri-original-ai .input-bar{position:relative;inset:auto;z-index:1;padding-bottom:8px;min-width:0;flex:none}
+.nutri-original-ai .top-actions-bar{min-width:0}
+.nutri-original-ai .top-action-chip{min-height:44px;font:12px/1.3 system-ui;padding:5px;white-space:nowrap}
+.nutri-original-ai .manager-actions-bar{min-width:0;flex:1;overflow-x:auto;padding:3px;gap:6px}
+.nutri-original-ai .manager-chip{flex:none;min-height:44px;font-size:13px}
+body[data-nutri-shell=aiAgent] .nutri-original-ai .hd-composer{padding:6px 8px;margin:0;min-width:0}
+.nutri-original-ai .input-area,.nutri-original-ai .input-area-top-row{min-width:0;width:100%}
+.nutri-original-ai .input-area-top-row{display:flex}
+.nutri-original-ai .input-field{width:100%;background:transparent;border:0;border-radius:0;font-size:16px}
+.nutri-original-ai .input-actions{gap:4px}
+.nutri-original-ai .input-wrapper button{min-width:44px;min-height:44px;padding:4px;border:0;background:transparent}
+.nutri-original-ai .input-wrapper button[type=submit]{color:#157a48;font-weight:600}
+.nutri-original-ai .original-bottom-nav{order:3;flex:none;background:#fff;padding-bottom:env(safe-area-inset-bottom)}
+.nutri-original-ai button:focus-visible,.nutri-original-ai a:focus-visible,.nutri-original-ai textarea:focus-visible{outline:3px solid #218bd0;outline-offset:2px}
+.nutri-original-ai .hd-sheet{z-index:1001}
+@media(max-width:380px){.nutri-original-ai .header{padding-left:10px;padding-right:10px}.nutri-original-ai .dh-avatar-container{width:44px;height:44px}.nutri-original-ai .dh-avatar{width:44px;height:44px}.nutri-original-ai .dh-ring{display:none}.nutri-original-ai .header-actions{max-width:104px}.nutri-original-ai .top-action-title{font-size:11px}.nutri-original-ai .top-action-icon{width:16px;height:16px}.nutri-original-ai .top-actions-left{gap:2px}}
+@media(max-height:500px){.nutri-original-ai .header{padding-top:4px;padding-bottom:4px}.nutri-original-ai .dh-greeting{display:none}.nutri-original-ai .top-actions-bar{max-height:48px}.nutri-original-ai .timeline-wrapper{padding-top:8px}}
+@media(prefers-reduced-motion:reduce){.nutri-original-ai *{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
