@@ -1,0 +1,35 @@
+{
+  "format_version": 1,
+  "project": "AI-Nutri Web",
+  "release": "v32",
+  "archive_type": "incremental-files-only",
+  "source_commit": "bbfe37af19da0a47547e8938462e9afb389f4c17",
+  "required_base_source_commit": "5ba8f7bf4954888e39850410103d1c8dd3214387",
+  "needs_base": true,
+  "complete_project_backup": false,
+  "files": [
+    {
+      "path": "dist/original-redo/pages/demo-account-shell-registration-v3.js",
+      "change": "M",
+      "bytes": 14706,
+      "sha256": "db17263e3f332098b39136ed1c1f3639bef8eb1e49a13cb788e894969cd4f23a",
+      "git_blob_sha": "5ba3f4cfa1a8e4034c2600b5b1163578859438fd"
+    },
+    {
+      "path": "dist/original-redo/pages/management-loading.js",
+      "change": "A",
+      "bytes": 1267,
+      "sha256": "8e896558a30869c934a4da21672bb9dce48d6bda0e9ea87cd12ce91b3b3c9ec3",
+      "git_blob_sha": "72568fad59c193991deb2b9b72837ee606e462f3"
+    },
+    {
+      "path": "dist/original-redo/pages/profile-management.html",
+      "change": "M",
+      "bytes": 2473,
+      "sha256": "c2011add8d65e57af82b9f53cf265817c2868850088382f92a37e6f75424d2ff",
+      "git_blob_sha": "1542e609fb5905d520a559e48df0ce002af583aa"
+    }
+  ],
+  "scope": "Three already-public text source files only. No runtime account or health data, credentials, private evidence or images.",
+  "restoration_limits": "Requires complete v31 source baseline; earlier release archives are incremental, not complete baselines."
+}
