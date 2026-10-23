@@ -1,0 +1,40 @@
+{
+  "format_version": 1,
+  "project": "AI-Nutri Web",
+  "release": "v26",
+  "archive_type": "incremental-files-only",
+  "source_commit": "6cb6ef12cc16f46b98e81b9a21672e10f94e79bd",
+  "required_base_source_commit": "37fb6a7d0f9c712673e962b968aa335b566ded1a",
+  "needs_base": true,
+  "complete_project_backup": false,
+  "files": [
+    {
+      "path": "dist/original-redo/shared/nutri-registration-entry-v3.js",
+      "bytes": 30455,
+      "sha256": "01b985f206c2022595190b6b80e0dff5d9940911aed47f2c643e40c52f4dacc2"
+    },
+    {
+      "path": "dist/original-redo/shared/nutri-registration-entry-v3.css",
+      "bytes": 1324,
+      "sha256": "7cf27de6e9188c52fae55660517bdfe24d530f4287c214dfb87501640e2e7e4c"
+    },
+    {
+      "path": "dist/original-redo/pages/family-model-v1.js",
+      "bytes": 5645,
+      "sha256": "593468a62bb62ac6511bf7b77ba63e93bb7af2cc0200a9f40317d0e4f0afaab7"
+    },
+    {
+      "path": "dist/original-redo/pages/family-ui-v1.js",
+      "bytes": 10755,
+      "sha256": "1abebee63254836210e664448020c6c6ffa37e0a2133c91faf0bb966ad253e07"
+    },
+    {
+      "path": "dist/original-redo/pages/family.css",
+      "bytes": 2769,
+      "sha256": "ad1e8eb15888cf994115c790802925b31ce4cbcc82d44f5fa7414e3e9d70f903"
+    }
+  ],
+  "scope": "Five committed production JavaScript/CSS files only; no runtime data, private reports, logs or uncommitted changes.",
+  "restoration_limits": "Data rollback requires the complete compatible pre-upgrade checkpoint; source overlays do not restore account data.",
+  "verification_limits": "Archive integrity is separate from complete application, browser, database, mobile and WeChat acceptance."
+}
