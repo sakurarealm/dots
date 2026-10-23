@@ -1,0 +1,13 @@
+/* Paint-only, no transition/navigation delay or layout shift. */
+.nutri-feedback-pressed { outline: 2px solid #517e58 !important; outline-offset: 2px; filter: brightness(.92); }
+button:active, a[href]:active, [role="button"]:active, [data-tap]:active, [data-tab]:active, [data-action]:active { filter: brightness(.92); }
+.nutri-sound-toggle { position: static; display: inline-block; flex: 0 0 auto; vertical-align: middle; margin-left: 8px; min-width: 72px; min-height: 44px; padding: 6px 10px; border: 1px solid #cedbce; border-radius: 18px; color: #315b36; background: #fff; font: 12px/1.4 system-ui, sans-serif; cursor: pointer; }
+.nutri-feedback-tools { display: flex; justify-content: flex-end; padding: 4px 12px; background: #edf7f2; }
+.nutri-feedback-tools:empty { display: none; }
+.hd-demo-strip:has(> .nutri-sound-toggle), .nutri-demo-label:has(> .nutri-sound-toggle) { flex-wrap: wrap; }
+.nutri-sound-toggle:focus-visible { outline: 3px solid #517e58; outline-offset: 3px; }
+.nutri-feedback-status { position: fixed; top: calc(8px + env(safe-area-inset-top)); left: 50%; transform: translateX(-50%); z-index: 75; padding: 6px 12px; border-radius: 14px; background: #254e2ded; color: #fff; font: 13px/1.4 system-ui, sans-serif; pointer-events: none; }
+.nutri-feedback-status[hidden] { display: none; }
+.nutri-navigation-pending::before { content: ''; position: fixed; top: 0; left: 0; width: 100%; height: 3px; z-index: 76; background: #52865a; pointer-events: none; }
+@media (prefers-reduced-motion: reduce) { .nutri-feedback-pressed, .nutri-sound-toggle, .nutri-feedback-status { animation: none !important; transition: none !important; } }
+@media print { .nutri-sound-toggle, .nutri-feedback-status { display: none !important; } }

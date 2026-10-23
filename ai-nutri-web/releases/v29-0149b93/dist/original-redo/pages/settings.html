@@ -1,0 +1,172 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'; connect-src 'none'; media-src 'none'; object-src 'none'; base-uri 'none'"><title>AI-Nutri · settings</title><link rel="stylesheet" href="settings.css"><link rel="stylesheet" href="nav-tabbar.css"><link rel="stylesheet" href="nav-runtime.css"><link rel="stylesheet" href="demo-account-shell.css"><link rel="stylesheet" href="../shared/nutri-registration-entry-v3.css"><link rel="stylesheet" href="../shared/nutri-mobile-shell-v17.css"><meta name="nutri-demo-release" content="20261023-demo-r28"><link rel="stylesheet" href="../shared/nutri-interaction-feedback.css"></head><body data-nutri-shell="settings" data-original-page="settings" data-registration-bundle="registration-web-v3-c1"><aside class="nutri-demo-label" role="note"><a href="aiAgent.html" aria-label="返回营养助手">‹ 首页</a><span>合成演示 · AI 未连接</span><a href="settings.html">说明</a><noscript>请启用 JavaScript；未启用时不能保存。</noscript></aside><main id="original-page"></main><div id="nav-status" role="status" aria-live="polite"></div><template id="original-template"><div class="page">
+  <div class="top-card">
+    <img class="avatar" src="{{user.avatar}}" mode="aspectFill" >
+    <div class="top-info">
+      <span class="name">{{user.nickname}}</span>
+    </div>
+    <button class="edit-btn" data-tap="openProfileSetup">编辑资料</button>
+  </div>
+
+  <div class="group">
+    <div class="group-title">账号</div>
+    <div class="cell" data-tap="copyUserId">
+      <span class="cell-title">我的ID</span>
+      <div class="cell-right">
+        <span class="cell-value">{{user.id}}</span>
+        <img class="cell-icon" src="/static/profile/copy.png" mode="aspectFit" >
+        <span class="arrow">›</span>
+      </div>
+    </div>
+    <div class="cell cell-multi">
+      <div class="cell-left-col">
+        <span class="cell-title">注销</span>
+        <span class="cell-sub">注销后无法恢复，请谨慎操作</span>
+      </div>
+      <div class="cell-right">
+        <button class="cancel-btn" data-tap="cancelAccount">注销</button>
+        <span class="arrow">›</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="group">
+    <div class="group-title">通用</div>
+    <div class="cell" data-tap="clearCache">
+      <span class="cell-title">清理缓存</span>
+      <div class="cell-right">
+        <span class="cell-value">{{cacheSize}}</span>
+        <span class="arrow">›</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="group">
+    <div class="group-title">通知与体验</div>
+    <div class="cell">
+      <span class="cell-title">消息通知</span>
+      <div class="cell-right">
+        <switch checked="{{notifyEnabled}}" color="#0ea5e9"  ></switch>
+        <span class="arrow">›</span>
+      </div>
+    </div>
+    <div class="cell">
+      <span class="cell-title">震动反馈</span>
+      <div class="cell-right">
+        <switch checked="{{hapticEnabled}}" color="#0ea5e9"  ></switch>
+        <span class="arrow">›</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="group">
+    <div class="group-title">系统能力</div>
+    <div class="cell cell-multi">
+      <div class="cell-left-col">
+        <span class="cell-title">说明</span>
+        <span class="cell-sub">这里是服务器侧能力开关，不等同于「消息通知」。不开启时系统不会履约提醒。</span>
+      </div>
+      <div class="cell-right">
+        <span class="arrow">›</span>
+      </div>
+    </div>
+    <div class="cell cell-multi cell-switch">
+      <div class="cell-left-col">
+        <span class="cell-title">系统主动提醒</span>
+        <span class="cell-sub">开启后，系统会按计划自动触发提醒</span>
+      </div>
+      <div class="cell-right">
+        <switch checked="{{capabilityEnabledMap.PROACTIVE_REMINDER}}" color="#0ea5e9"  data-capkey="PROACTIVE_REMINDER" ></switch>
+        <span class="arrow">›</span>
+      </div>
+    </div>
+    <div class="cell cell-multi cell-switch">
+      <div class="cell-left-col">
+        <span class="cell-title">用药提醒</span>
+        <span class="cell-sub">开启后，可对用药类事项排队与自动触发</span>
+      </div>
+      <div class="cell-right">
+        <switch checked="{{capabilityEnabledMap.MEDICATION_REMINDER}}" color="#0ea5e9"  data-capkey="MEDICATION_REMINDER" ></switch>
+        <span class="arrow">›</span>
+      </div>
+    </div>
+    <div class="cell cell-multi cell-switch">
+      <div class="cell-left-col">
+        <span class="cell-title">补剂/保健品提醒</span>
+        <span class="cell-sub">开启后，可对鱼油、维生素等排队与自动触发</span>
+      </div>
+      <div class="cell-right">
+        <switch checked="{{capabilityEnabledMap.SUPPLEMENT_REMINDER}}" color="#0ea5e9"  data-capkey="SUPPLEMENT_REMINDER" ></switch>
+        <span class="arrow">›</span>
+      </div>
+    </div>
+    <div class="cell cell-multi cell-switch">
+      <div class="cell-left-col">
+        <span class="cell-title">日终总结</span>
+        <span class="cell-sub">开启后，系统可生成日终汇总</span>
+      </div>
+      <div class="cell-right">
+        <switch checked="{{capabilityEnabledMap.PROACTIVE_SUMMARY}}" color="#0ea5e9"  data-capkey="PROACTIVE_SUMMARY" ></switch>
+        <span class="arrow">›</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="group">
+    <div class="group-title">服务与隐私</div>
+    <div class="cell" data-tap="openPaySettings">
+      <span class="cell-title">支付设置</span>
+      <div class="cell-right">
+        <span class="arrow">›</span>
+      </div>
+    </div>
+    <div class="cell" data-tap="showPrivacySummary">
+      <span class="cell-title">隐私政策摘要</span>
+      <div class="cell-right">
+        <span class="arrow">›</span>
+      </div>
+    </div>
+    <div class="cell" data-tap="showInfoCollectList">
+      <span class="cell-title">个人信息收集清单</span>
+      <div class="cell-right">
+        <span class="arrow">›</span>
+      </div>
+    </div>
+    <div class="cell" data-tap="showInfoShareList">
+      <span class="cell-title">个人信息共享清单</span>
+      <div class="cell-right">
+        <span class="arrow">›</span>
+      </div>
+    </div>
+    <div class="cell" data-tap="contactService">
+      <span class="cell-title">联系客服</span>
+      <div class="cell-right">
+        <span class="arrow">›</span>
+      </div>
+    </div>
+    <div class="cell" data-tap="showAbout">
+      <span class="cell-title">关于 AI 营养师</span>
+      <div class="cell-right">
+        <span class="arrow">›</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="group">
+    <div class="group-title">推荐</div>
+    <div class="cell cell-multi cell-switch">
+      <div class="cell-left-col">
+        <span class="cell-title">个性化推荐</span>
+        <span class="cell-sub">开启后，将为您展示个性化推荐内容</span>
+      </div>
+      <div class="cell-right">
+        <switch checked="{{personalizeEnabled}}" color="#0ea5e9"  ></switch>
+        <span class="arrow">›</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="danger-zone">
+    <button class="logout-btn" data-tap="logout">退出登录</button>
+  </div>
+</div>
+</template><script src="../shared/nutri-demo-core-registration-v3.js"></script><script src="../shared/nutri-registration-kernel-v1.js"></script><script src="health-demo-model.js"></script><script src="commerce-catalog.js"></script><script src="commerce-model-registration-v3.js"></script><script src="../shared/nutri-registration-store-v1.js"></script><script src="../shared/nutri-registration-entry-v3.js"></script><script src="demo-account-shell-registration-v3.js"></script><nav class="nutri-primary-nav" data-shell-nav aria-label="主要页面"><a href="aiAgent.html">助手</a><a href="diet.html">饮食</a><a href="shop.html">商城</a><a href="health-calendar.html">记录</a><a href="profile.html">我的</a></nav><script src="../shared/nutri-mobile-shell-v17.js"></script><script src="../shared/nutri-interaction-feedback.js"></script></body></html>

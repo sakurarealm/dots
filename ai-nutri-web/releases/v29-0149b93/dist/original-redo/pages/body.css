@@ -1,0 +1,863 @@
+/* ==================== 基础变量 ==================== */
+page {
+  --green: #48bb78;
+  --green-600: #38a169;
+  --green-50: #f0fdf4;
+  --orange: #ed8936;
+  --red: #f56565;
+  --slate-900: #0f172a;
+  --slate-800: #1e293b;
+  --slate-700: #334155;
+  --slate-600: #475569;
+  --slate-500: #64748b;
+  --slate-400: #94a3b8;
+  --white: #ffffff;
+}
+
+/* ==================== 基础布局 ==================== */
+.page-container {
+  min-height: 100vh;
+  background: linear-gradient(180deg, var(--green-50) 0%, #ffffff 50%, var(--green-50) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.particle-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ==================== 导航栏 ==================== */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10.0px);
+  border-bottom: 0.5px solid rgba(72, 187, 120, 0.1);
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12.0px 16.0px;
+}
+
+.nav-btn {
+  width: 36.0px;
+  height: 36.0px;
+  border-radius: 50%;
+  background: rgba(72, 187, 120, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-btn:active {
+  transform: scale(0.92);
+  background: rgba(72, 187, 120, 0.16);
+}
+
+.nav-title {
+  flex: 1;
+  text-align: center;
+  padding: 0 16.0px;
+}
+
+.organ-name {
+  display: block;
+  font-size: 18.0px;
+  font-weight: 700;
+  color: #1a202c;
+  line-height: 1.2;
+}
+
+.organ-subtitle {
+  display: block;
+  font-size: 12.0px;
+  color: var(--green);
+  margin-top: 2.0px;
+}
+
+/* ==================== 滚动容器 ==================== */
+.main-scroll {
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+/* ==================== 器官选择 ==================== */
+.organ-selector {
+  padding: 12.0px 0 4.0px;
+}
+.organ-tabs {
+  width: 100%;
+  white-space: nowrap;
+}
+.organ-tabs-row {
+  display: flex;
+  gap: 8.0px;
+  padding: 0 14.0px;
+}
+.organ-tab {
+  flex-shrink: 0;
+  min-width: 95.0px;
+  height: 54.0px;
+  border-radius: 14.0px;
+  padding: 8.0px 9.0px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1.0px solid rgba(72, 187, 120, 0.10);
+  box-shadow: 0 6.0px 14.0px rgba(72, 187, 120, 0.10);
+  display: flex;
+  align-items: center;
+  gap: 7.0px;
+}
+.organ-tab:active { transform: scale(0.99); }
+.organ-tab.active {
+  border-color: rgba(72, 187, 120, 0.32);
+  background: linear-gradient(135deg, rgba(240, 253, 244, 0.95) 0%, rgba(255, 255, 255, 0.92) 100%);
+  box-shadow: 0 9.0px 21.0px rgba(72, 187, 120, 0.14);
+}
+.organ-tab-icon {
+  width: 36.0px;
+  height: 36.0px;
+  border-radius: 11.0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(72, 187, 120, 0.10);
+}
+.organ-tab-icon.score-good { background: rgba(72, 187, 120, 0.12); }
+.organ-tab-icon.score-neutral { background: rgba(237, 137, 54, 0.14); }
+.organ-tab-icon.score-bad { background: rgba(245, 101, 101, 0.14); }
+.organ-tab-emoji { font-size: 17.0px; }
+.organ-tab-text { display: flex; flex-direction: column; }
+.organ-tab-name { font-size: 13.0px; font-weight: 800; color: var(--slate-900); line-height: 1.2; }
+.organ-tab-score { font-size: 11.0px; color: var(--slate-500); margin-top: 3.0px; }
+
+/* ==================== 通用卡片基样式 ==================== */
+.hero-card,
+.info-card,
+.trend-card,
+.tip-card,
+.metrics-card,
+.suggestions-card,
+.foods-card,
+.ai-card,
+.achievements-card,
+.footer-actions {
+  margin: 16.0px;
+  border-radius: 18.0px;
+  background: #ffffff;
+  box-shadow: 0 8.0px 24.0px rgba(72, 187, 120, 0.12);
+  position: relative;
+}
+
+/* ==================== 进入动画 ==================== */
+.slide-up {
+  opacity: 0;
+  transform: translateY(20.0px);
+  animation: slideUp 0.55s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ==================== 英雄卡片 ==================== */
+.hero-card {
+  border-radius: 24.0px;
+  background: linear-gradient(135deg, #ffffff 0%, var(--green-50) 100%);
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(20.0px);
+  transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hero-card.card-animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.hero-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  opacity: 0.6;
+}
+
+.circle-decoration {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(72, 187, 120, 0.15) 0%, transparent 70%);
+  animation: float 6s ease-in-out infinite;
+}
+.circle-1 { width: 150.0px; height: 150.0px; top: -50.0px; right: -50.0px; animation-delay: 0s; }
+.circle-2 { width: 100.0px; height: 100.0px; bottom: -25.0px; left: -25.0px; animation-delay: 2s; }
+.circle-3 { width: 75.0px; height: 75.0px; top: 50%; right: 10%; animation-delay: 4s; }
+@keyframes float {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(10.0px, 10.0px) scale(1.08); }
+}
+
+.hero-content { position: relative; z-index: 1; padding: 24.0px; }
+
+/* ==================== 评分区域 ==================== */
+.score-section {
+  display: flex;
+  align-items: center;
+  gap: 20.0px;
+  margin-bottom: 24.0px;
+}
+
+.score-ring { position: relative; flex-shrink: 0; }
+.ring-svg { width: 100.0px; height: 100.0px; }
+.score-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.score-number {
+  display: block;
+  font-size: 32.0px;
+  font-weight: 800;
+  line-height: 1;
+  background: linear-gradient(135deg, var(--green) 0%, var(--green-600) 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+}
+.score-label { display: block; font-size: 11.0px; color: var(--slate-400); margin-top: 4.0px; font-weight: 600; }
+
+.score-info { flex: 1; }
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6.0px;
+  padding: 8.0px 14.0px;
+  border-radius: 50.0px;
+  font-size: 14.0px;
+  font-weight: 700;
+  margin-bottom: 10.0px;
+}
+.status-badge.score-good { background: rgba(72, 187, 120, 0.1); color: var(--green); }
+.status-badge.score-neutral { background: rgba(237, 137, 54, 0.1); color: var(--orange); }
+.status-badge.score-bad { background: rgba(245, 101, 101, 0.1); color: var(--red); }
+.badge-dot { width: 8.0px; height: 8.0px; border-radius: 50%; background: currentColor; animation: pulseDot 2s ease-in-out infinite; }
+@keyframes pulseDot { 0%,100% {opacity:1; transform:scale(1);} 50% {opacity:.6; transform:scale(1.2);} }
+.score-summary { display: block; font-size: 13.0px; color: var(--slate-500); line-height: 1.6; }
+.diet-impact { display: block; margin-top: 5.0px; font-size: 12.0px; color: var(--slate-600); line-height: 1.55; font-weight: 700; }
+
+/* ==================== 快速指标 ==================== */
+.quick-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12.0px;
+}
+
+.stat-item {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12.0px;
+  padding: 12.0px;
+  border: 1.0px solid rgba(72, 187, 120, 0.12);
+  display: flex;
+  align-items: center;
+  gap: 10.0px;
+  opacity: 0;
+  transform: translateY(10.0px);
+  animation: fadeInUp 0.45s ease forwards;
+}
+@keyframes fadeInUp { to { opacity: 1; transform: translateY(0); } }
+
+.stat-icon {
+  width: 34.0px;
+  height: 34.0px;
+  border-radius: 10.0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(72, 187, 120, 0.08);
+  box-shadow: inset 0 0 0 1.0px rgba(72, 187, 120, 0.12);
+}
+.stat-icon-1 { background: rgba(72, 187, 120, 0.10); }
+.stat-icon-2 { background: rgba(237, 137, 54, 0.10); }
+.stat-icon-3 { background: rgba(100, 116, 139, 0.10); }
+.stat-emoji { font-size: 17.0px; }
+
+.stat-content { flex: 1; min-width: 0; }
+.stat-name { display: block; font-size: 12.0px; color: var(--slate-600); }
+.stat-value { display: block; font-size: 16.0px; font-weight: 700; color: var(--slate-900); margin-top: 3.0px; }
+
+.stat-trend {
+  width: 20.0px;
+  height: 20.0px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8fafc;
+  box-shadow: inset 0 0 0 1.0px #eef2f7;
+}
+.trend-good { color: var(--green); background: rgba(72, 187, 120, 0.10); box-shadow: none; }
+.trend-neutral { color: var(--orange); background: rgba(237, 137, 54, 0.10); box-shadow: none; }
+.trend-bad { color: var(--red); background: rgba(245, 101, 101, 0.10); box-shadow: none; }
+
+/* ==================== 简单卡片头 ==================== */
+.card-header-simple {
+  display: flex;
+  align-items: center;
+  gap: 8.0px;
+  padding: 14.0px 16.0px 6.0px 16.0px;
+}
+.header-icon {
+  width: 28.0px;
+  height: 28.0px;
+  border-radius: 8.0px;
+  background: rgba(72, 187, 120, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-emoji { font-size: 16.0px; }
+.header-title { font-size: 15.0px; font-weight: 700; color: var(--slate-900); }
+
+/* ==================== 器官简介 ==================== */
+.info-card { overflow: hidden; }
+.intro-content {
+  display: grid;
+  grid-template-columns: 60.0px 1fr;
+  gap: 12.0px;
+  padding: 0 16.0px 14.0px;
+  align-items: center;
+}
+.intro-visual { display: flex; align-items: center; justify-content: center; }
+.organ-illustration {
+  width: 55.0px;
+  height: 55.0px;
+  border-radius: 14.0px;
+  background: radial-gradient(circle at 30% 20%, rgba(72, 187, 120, 0.2), rgba(72, 187, 120, 0.05));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 0 0 1.0px rgba(72, 187, 120, 0.12);
+}
+.intro-text { font-size: 13.0px; line-height: 1.7; color: var(--slate-600); }
+
+/* ==================== 健康趋势 ==================== */
+.trend-card { overflow: hidden; }
+.trend-card .card-header-simple { padding-bottom: 0; }
+.header-action { margin-left: auto; padding: 4.0px 6.0px; border-radius: 6.0px; background: rgba(72, 187, 120, 0.08); }
+.header-action:active { transform: scale(0.96); }
+
+.trend-content { padding: 12.0px 16.0px 14.0px; }
+.trend-canvas { width: 100%; height: 120.0px; border-radius: 8.0px; background: #ffffff; display: block; }
+
+.trend-labels {
+  margin-top: 9.0px;
+  display: flex;
+  align-items: center;
+  gap: 12.0px;
+  flex-wrap: wrap;
+}
+.trend-label-item { display: inline-flex; align-items: center; gap: 5.0px; }
+.label-dot { width: 8.0px; height: 8.0px; border-radius: 50%; }
+.dot-min { background: #86efac; }
+.dot-avg { background: #34d399; }
+.dot-max { background: #10b981; }
+.label-text { font-size: 12.0px; color: var(--slate-600); }
+
+/* ==================== 每日小贴士 ==================== */
+.tip-card { display: flex; gap: 10.0px; align-items: center; padding: 14.0px 16.0px; }
+.tip-icon-large {
+  width: 36.0px;
+  height: 36.0px;
+  border-radius: 12.0px;
+  background: rgba(72, 187, 120, 0.10);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20.0px;
+}
+.tip-content { flex: 1; }
+.tip-title { display: block; font-size: 14.0px; font-weight: 700; color: var(--slate-900); margin-bottom: 3.0px; }
+.tip-text { display: block; font-size: 13.0px; color: var(--slate-600); line-height: 1.7; }
+
+/* ==================== 详细指标 ==================== */
+.metrics-card { overflow: hidden; }
+.metrics-list { padding: 4.0px 8.0px 10.0px; }
+
+.metric-item {
+  margin: 8.0px;
+  border-radius: 14.0px;
+  border: 1.0px solid rgba(72, 187, 120, 0.12);
+  background: #ffffff;
+  overflow: hidden;
+  transition: box-shadow .2s, transform .2s;
+  position: relative;
+}
+.metric-item:active { transform: scale(0.995); }
+
+.metric-main { padding: 14.0px; }
+.metric-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8.0px;
+  margin-bottom: 8.0px;
+}
+.metric-title-row { display: flex; align-items: center; gap: 6.0px; }
+.metric-name { font-size: 14.0px; font-weight: 700; color: var(--slate-900); }
+.metric-status-dot { width: 8.0px; height: 8.0px; border-radius: 50%; }
+.status-good { background: var(--green); }
+.status-neutral { background: var(--orange); }
+.status-bad { background: var(--red); }
+
+.metric-value-large { font-size: 17.0px; font-weight: 800; color: var(--slate-800); }
+
+.metric-progress { display: flex; align-items: center; gap: 8.0px; }
+.progress-track {
+  position: relative;
+  flex: 1;
+  height: 8.0px;
+  border-radius: 499.5px;
+  overflow: hidden;
+  background: #f1f5f9;
+  box-shadow: inset 0 0 0 1.0px #eef2f7;
+}
+.progress-fill {
+  height: 100%;
+  border-radius: inherit;
+  position: relative;
+  transition: width .35s ease;
+}
+.fill-good { background: linear-gradient(90deg, #86efac, #22c55e); }
+.fill-neutral { background: linear-gradient(90deg, #fed7aa, #fb923c); }
+.fill-bad { background: linear-gradient(90deg, #fecaca, #ef4444); }
+.progress-shine {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(90deg, rgba(255,255,255,.0), rgba(255,255,255,.35), rgba(255,255,255,0));
+  transform: translateX(-100%);
+  animation: shine 2.2s infinite;
+}
+@keyframes shine { 0% { transform: translateX(-100%);} 60%,100% { transform: translateX(100%);} }
+.progress-text { width: 44.0px; text-align: right; font-size: 12.0px; color: var(--slate-600); }
+
+.metric-expand { border-top: 1.0px solid #f1f5f9; background: #fcfffd; }
+.expand-content { padding: 12.0px 14.0px; }
+.expand-label { display: block; font-size: 12.0px; font-weight: 700; color: var(--slate-800); margin-bottom: 4.0px; }
+.expand-text { display: block; font-size: 13.0px; color: var(--slate-600); line-height: 1.7; }
+
+.expand-actions { display: flex; gap: 8.0px; margin-top: 9.0px; }
+.action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5.0px;
+  padding: 9.0px 11.0px;
+  border-radius: 10.0px;
+  font-size: 13.0px;
+  font-weight: 700;
+  border: none;
+}
+.primary-action { background: var(--green); color: #fff; }
+.secondary-action { background: rgba(72, 187, 120, 0.10); color: var(--green); }
+
+.metric-toggle {
+  position: absolute;
+  right: 11.0px;
+  bottom: 9.0px;
+  width: 28.0px;
+  height: 28.0px;
+  border-radius: 50%;
+  background: #f8fafc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ==================== 改善建议 ==================== */
+.suggestions-list { padding: 4.0px 8.0px 10.0px; }
+.suggestion-item {
+  margin: 8.0px;
+  padding: 11.0px;
+  border-radius: 14.0px;
+  border: 1.0px solid #eef2f7;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 9.0px;
+  transition: transform .15s;
+}
+.suggestion-item:active { transform: scale(0.995); }
+
+.suggestion-badge {
+  width: 36.0px;
+  height: 36.0px;
+  border-radius: 11.0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18.0px;
+}
+.food-badge { background: rgba(34, 197, 94, 0.12); }
+.exercise-badge { background: rgba(59, 130, 246, 0.12); }
+.lifestyle-badge { background: rgba(234, 179, 8, 0.12); }
+.badge-emoji { font-size: 17.0px; }
+
+.suggestion-content { flex: 1; min-width: 0; }
+.suggestion-title { display: block; font-size: 14.0px; font-weight: 700; color: var(--slate-900); }
+.suggestion-desc { display: block; font-size: 13.0px; color: var(--slate-600); margin-top: 3.0px; }
+.suggestion-arrow { width: 22.0px; height: 22.0px; border-radius: 50%; background: #f8fafc; display: flex; align-items: center; justify-content: center; }
+
+/* ==================== 推荐食物 ==================== */
+.foods-card { overflow: hidden; }
+.foods-scroll { padding: 2.0px 4.0px 14.0px; }
+.foods-list { display: flex; flex-direction: row; gap: 9.0px; padding: 0 12.0px; }
+
+.food-card {
+  border-radius: 14.0px;
+  overflow: hidden;
+  position: relative;
+  background: #ffffff;
+  box-shadow: 0 5.0px 15.0px rgba(2, 6, 23, 0.06);
+  transition: transform .18s;
+  width: 210.0px;
+}
+.food-card:active { transform: scale(0.98); }
+
+.food-image-wrapper { position: relative; height: 110.0px; overflow: hidden; }
+.food-image { width: 100%; height: 100%; display: block; }
+.food-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to top, rgba(2, 6, 23, .45), rgba(2, 6, 23, 0));
+}
+
+.food-info {
+  position: absolute;
+  left: 10.0px;
+  bottom: 8.0px;
+  right: 10.0px;
+  z-index: 2;
+  color: #ffffff;
+}
+.food-name { display: block; font-size: 14.0px; font-weight: 800; text-shadow: 0 1.0px 3.0px rgba(0,0,0,.25); }
+.food-benefit { display: block; font-size: 12.0px; opacity: 0.9; }
+
+/* ==================== AI 个性化计划 ==================== */
+.ai-card { overflow: hidden; padding: 14.0px 14.0px 16.0px; }
+.ai-header { display: flex; align-items: center; gap: 9.0px; margin-bottom: 4.0px; }
+.ai-icon-wrapper { position: relative; width: 34.0px; height: 34.0px; border-radius: 10.0px; background: rgba(72, 187, 120, 0.12); display: flex; align-items: center; justify-content: center; }
+.ai-icon { font-size: 17.0px; }
+.ai-pulse {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 10.0px;
+  box-shadow: 0 0 0 0 rgba(72, 187, 120, 0.35);
+  animation: pulse 2.2s infinite;
+}
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(72, 187, 120, 0.35); }
+  70% { box-shadow: 0 0 0 12.0px rgba(72, 187, 120, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(72, 187, 120, 0); }
+}
+
+.ai-title-section { display: flex; flex-direction: column; }
+.ai-title { font-size: 15.0px; font-weight: 800; color: var(--slate-900); }
+.ai-subtitle { font-size: 12.0px; color: var(--slate-500); margin-top: 2.0px; }
+
+.ai-content { margin-top: 5.0px; }
+.ai-plan-text { font-size: 13.0px; color: var(--slate-700); line-height: 1.8; }
+
+.ai-generate-btn {
+  margin-top: 10.0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6.0px;
+  padding: 11.0px;
+  border-radius: 499.5px;
+  background: var(--green);
+  color: #fff;
+  font-weight: 800;
+  border: none;
+  position: relative;
+  overflow: hidden;
+}
+.ai-generate-btn:active { transform: scale(0.99); }
+.btn-shine {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(120deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.25) 50%, rgba(255,255,255,.0) 70%);
+  transform: translateX(-100%);
+  animation: btnShine 3s ease-in-out infinite;
+}
+@keyframes btnShine { 0% { transform: translateX(-100%);} 50% { transform: translateX(100%);} 100% { transform: translateX(100%);} }
+
+/* ==================== 成就徽章 ==================== */
+.achievements-card { overflow: hidden; padding-bottom: 12.0px; }
+.achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8.0px;
+  padding: 4.0px 12.0px 12.0px;
+}
+.achievement-badge {
+  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+  border-radius: 12.0px;
+  border: 1.0px solid #eef2f7;
+  padding: 9.0px 6.0px;
+  text-align: center;
+}
+.badge-icon { font-size: 17.0px; margin-bottom: 4.0px; }
+.trophy-icon { font-size: 18.0px; }
+.badge-text { display: block; font-size: 12.0px; color: var(--slate-700); }
+
+/* ==================== 底部操作栏 ==================== */
+.footer-actions {
+  background: linear-gradient(180deg, #ffffff 0%, #f8fffb 100%);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8.0px;
+  padding: 9.0px;
+  border-radius: 14.0px;
+}
+.footer-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5.0px;
+  padding: 11.0px 0;
+  border-radius: 10.0px;
+  font-size: 13.0px;
+  font-weight: 800;
+  border: none;
+}
+.primary-btn { background: var(--green); color: #fff; }
+.secondary-btn { background: rgba(72, 187, 120, 0.10); color: var(--green); }
+
+.safe-bottom { width: 100%; }
+
+/* ==================== 成功动画遮罩 ==================== */
+.success-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2000;
+  background: rgba(2, 6, 23, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.success-content {
+  background: #ffffff;
+  border-radius: 14.0px;
+  padding: 14.0px 18.0px;
+  display: flex;
+  align-items: center;
+  gap: 8.0px;
+  box-shadow: 0 10.0px 30.0px rgba(2, 6, 23, 0.2);
+  animation: pop .28s ease;
+}
+@keyframes pop { from { transform: scale(.96); opacity: .8;} to { transform: scale(1); opacity: 1;} }
+.success-icon {
+  width: 28.0px;
+  height: 28.0px;
+  border-radius: 50%;
+  background: var(--green);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16.0px;
+  font-weight: 900;
+}
+.success-text { font-size: 14.0px; font-weight: 700; color: var(--slate-800); }
+
+/* ==================== 响应式优化 ==================== */
+@media (max-width: 750px) {
+  .quick-stats { grid-template-columns: 1fr 1fr; }
+  .achievements-grid { grid-template-columns: 1fr 1fr; }
+  .intro-content { grid-template-columns: 1fr; text-align: left; }
+  .hero-content { padding: 20.0px 18.0px; }
+  .trend-canvas { height: 110.0px; }
+}
+
+/* ==================== 兼容/细节增强 ==================== */
+button { -webkit-tap-highlight-color: transparent; }
+
+/* ==================== 图标样式 ==================== */
+.icon-text {
+  font-size: 12.0px;
+  color: #48bb78;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trend-icon {
+  font-size: 8.0px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.organ-icon {
+  font-size: 30.0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-icon {
+  font-size: 9.0px;
+  color: #fff;
+  font-weight: bold;
+  margin-right: 4.0px;
+}
+
+.toggle-icon {
+  font-size: 10.0px;
+  color: #94a3b8;
+  font-weight: bold;
+}
+
+.arrow-icon {
+  font-size: 9.0px;
+  color: #94a3b8;
+  font-weight: bold;
+}
+
+.refresh-icon {
+  font-size: 10.0px;
+  color: #fff;
+  margin-right: 4.0px;
+}
+
+.btn-icon {
+  font-size: 11.0px;
+  margin-right: 4.0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Source template retained, with readable educational details and unknown account data. */
+body[data-page=body] .body-provenance{font-size:14px;line-height:1.7;color:#52665d;margin-top:12px}
+body[data-page=body] .intro-text,body[data-page=body] .suggestion-desc,body[data-page=body] .tip-text{font-size:16px;line-height:1.75;overflow-wrap:anywhere}
+body[data-page=body] .suggestion-title,body[data-page=body] .header-title{font-size:18px;line-height:1.5}
+body[data-page=body] .suggestion-content{min-width:0}
+body[data-page=body] .score-section{align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:0}
+body[data-page=body] .score-ring{width:96px;min-height:96px;border-radius:50%;border:5px solid #dce7e0}
+body[data-page=body] .score-info{flex:1 1 130px}
+body[data-page=body] .score-summary,body[data-page=body] .diet-impact{font-size:15px;line-height:1.65;overflow-wrap:anywhere}
+body[data-page=body] .quick-stats:empty{display:none}
+body[data-page=body] .foods-list{width:100%;min-width:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));box-sizing:border-box}
+body[data-page=body] .food-card{width:auto;min-width:0;background:#f0f9f3;border:1px solid #dbece1;padding:14px;box-sizing:border-box}
+body[data-page=body] .food-info{position:static;color:#264d39;margin-top:8px}
+body[data-page=body] .body-food-symbol{font-size:28px}
+body[data-page=body] .food-name{font-size:16px;line-height:1.5;text-shadow:none;white-space:normal}
+body[data-page=body] .food-benefit{font-size:14px;line-height:1.6;margin-top:8px;white-space:normal}
+body[data-page=body] .suggestion-item{cursor:default}
+body[data-page=body] .navbar-content{gap:8px}
+body[data-page=body] .nav-title{min-width:0}
+body[data-page=body] .organ-name{font-size:20px;line-height:1.4}
+body[data-page=body] .organ-subtitle{font-size:13px}
+body[data-page=body] .organ-tabs-row{box-sizing:border-box}
+body[data-page=body] .footer-actions{flex-wrap:wrap}
+body[data-page=body] .footer-btn{min-width:120px;min-height:48px;font-size:16px}
+body[data-page=body].large-mode .intro-text,body[data-page=body].large-mode .suggestion-desc,body[data-page=body].large-mode .tip-text,body[data-page=body].large-mode .food-name,body[data-page=body].large-mode .score-summary{font-size:20px}
+body[data-page=body].large-mode .body-provenance,body[data-page=body].large-mode .food-benefit,body[data-page=body].large-mode .diet-impact,body[data-page=body].large-mode .organ-tab-score{font-size:18px}
+body[data-page=body].large-mode .header-title,body[data-page=body].large-mode .suggestion-title,body[data-page=body].large-mode .organ-tab-name{font-size:22px}
+body[data-page=body].large-mode .foods-list{grid-template-columns:1fr}
+@media(max-width:375px){body[data-page=body] .foods-list{grid-template-columns:1fr}body[data-page=body] .hero-content{padding:18px 14px}body[data-page=body] .suggestion-item{padding:14px 12px;gap:10px}}
+/* One reading group at a time; account-only modules stay available in one disclosure. */
+body[data-page=body] .body-care-card{display:block;background:#fff;border-radius:18px;padding:14px;margin:0 0 14px;box-shadow:0 4px 16px #28764b07}
+body[data-page=body] .body-care-card .suggestions-card,body[data-page=body] .body-care-card .foods-card{margin:0;padding:0;box-shadow:none;border:0;animation:none;opacity:1;transform:none}
+body[data-page=body] .body-care-card .suggestions-list{padding:0}
+body[data-page=body] .body-care-card .suggestion-item{margin:0 0 9px;padding:12px;align-items:flex-start;background:#f4faf6;border-color:#e1eee5}
+body[data-page=body] .body-care-card .suggestion-badge{display:none}
+body[data-page=body] .body-care-card .suggestion-title{font-size:16px}
+body[data-page=body] .body-care-card .suggestion-desc{font-size:14px;line-height:1.65}
+body[data-page=body] .body-care-card .foods-scroll{padding:0}
+body[data-page=body] .body-care-card .foods-list{padding:0;gap:10px}
+body[data-page=body] .body-records{display:block;border:1px solid #dfebe3;background:#fff;border-radius:16px;padding:0 14px;margin:14px 0}
+body[data-page=body] .body-records>summary{display:flex;gap:10px;align-items:center;justify-content:space-between;min-height:62px;cursor:pointer;color:#365b46}
+body[data-page=body] .body-records>summary span{font-size:13px;color:#718478}
+body[data-page=body] .body-records>summary span:after{content:' ⌄'}
+body[data-page=body] .body-records[open]>summary span:after{content:' ⌃'}
+body[data-page=body] .body-records .hero-card{margin-top:0}
+body[data-page=body] .body-records .hero-bg,body[data-page=body] .body-records .score-ring,body[data-page=body] .body-records .trend-labels{display:none}
+body[data-page=body] .body-records [aria-disabled=true]{opacity:.5;cursor:not-allowed}
+body[data-page=body] .body-records .ai-pulse,body[data-page=body] .body-records .btn-shine{display:none}
+body[data-page=body] .body-records .hero-content{padding:12px}
+body[data-page=body] .body-records .score-info .diet-impact{display:none}
+body[data-page=body] .body-reading-note{font-size:12px;line-height:1.65;color:#6b7b72;padding:0 5px 16px}
+body[data-page=body] .info-card .intro-content{grid-template-columns:42px 1fr;gap:12px;padding:4px 16px 16px}
+body[data-page=body] .info-card .organ-illustration{width:40px;height:40px;border-radius:12px}
+body[data-page=body] .info-card .organ-icon{font-size:23px}
+body[data-page=body] .info-card .intro-text{font-size:15px;line-height:1.65}
+body[data-page=body] .body-care-card .body-provenance{font-size:13px;margin:8px 0;line-height:1.65}
+body[data-page=body].large-mode .body-care-card .suggestion-title{font-size:20px}
+body[data-page=body].large-mode .body-care-card .suggestion-desc,body[data-page=body].large-mode .info-card .intro-text{font-size:18px}
+body[data-page=body].large-mode .body-reading-note,body[data-page=body].large-mode .body-records>summary span{font-size:16px}
+body[data-page=body] .body-records summary:focus-visible{outline:3px solid #116dbe;outline-offset:3px}
+/* Personal nutrition demo: compact phone-first cards, no health score. */
+body[data-page=body] .body-nutrition-demo{margin:14px 0;padding:18px 16px;background:#fff;border:1px solid #d8e9e0;border-radius:20px;color:#173e33;overflow-wrap:anywhere;box-sizing:border-box}
+body[data-page=body] .body-nutrition-demo h2{font-size:21px;line-height:1.4;margin:8px 0 10px}
+body[data-page=body] .body-nutrition-demo h3{font-size:16px;line-height:1.5;margin:0 0 8px}
+body[data-page=body] .nutrition-demo-eyebrow{font-size:13px;color:#147d61;margin:0;font-weight:700}
+body[data-page=body] .nutrition-demo-note{font-size:13px;line-height:1.65;color:#586b65;margin:7px 0}
+body[data-page=body] .nutrition-demo-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:14px 0}
+body[data-page=body] .nutrition-demo-metric{min-width:0;padding:13px 11px;border-radius:14px;background:#f4faf7;border:1px solid #dfede5}
+body[data-page=body] .nutrition-demo-metric strong{display:block;font-size:23px;line-height:1.3;color:#155c49}
+body[data-page=body] .nutrition-demo-metric progress{display:block;width:100%;height:10px;margin:12px 0 8px;accent-color:#20a781}
+body[data-page=body] .nutrition-demo-gap{font-size:13px;line-height:1.5;color:#875519;margin:0}
+body[data-page=body] .nutrition-demo-unknown{padding:11px;background:#f6f7f9;border-radius:10px;font-size:13px;line-height:1.7;color:#5f6a75}
+body[data-page=body] .nutrition-demo-history{border-block:1px solid #e5ede8;padding:12px 0;margin:14px 0;font-size:14px}
+body[data-page=body] .nutrition-demo-history summary{cursor:pointer;min-height:32px;line-height:1.6}
+body[data-page=body] .nutrition-demo-history ol{padding-left:24px;line-height:1.9}
+body[data-page=body] .nutrition-demo-plan{padding:15px 12px;border-radius:14px;background:#ecf9f3}
+body[data-page=body] .nutrition-demo-generate{width:100%;min-height:46px;padding:10px;border:0;border-radius:12px;background:#13866b;color:white;font-size:16px;font-weight:700;cursor:pointer}
+body[data-page=body] .nutrition-demo-result{padding-top:10px;font-size:14px;line-height:1.7}
+body[data-page=body] .nutrition-demo-result[hidden]{display:none}
+body[data-page=body] .nutrition-demo-result h4{font-size:16px;margin:10px 0}
+body[data-page=body] .nutrition-demo-projection{padding:9px;background:#fff;border-radius:8px;margin:7px 0}
+body[data-page=body] .nutrition-demo-record-link{display:block;padding:15px 0 0;color:#08745b;font-size:15px;line-height:1.6}
+body[data-page=body] .body-nutrition-demo :is(button,a,summary):focus-visible{outline:3px solid #1768af;outline-offset:3px}
+body[data-page=body].large-mode .nutrition-demo-note,body[data-page=body].large-mode .nutrition-demo-gap,body[data-page=body].large-mode .nutrition-demo-result,body[data-page=body].large-mode .nutrition-demo-unknown{font-size:17px}
+body[data-page=body].large-mode .nutrition-demo-grid{grid-template-columns:1fr}
+@media(max-width:340px){body[data-page=body] .body-nutrition-demo{padding:14px 10px}body[data-page=body] .nutrition-demo-metric{padding:11px 8px}body[data-page=body] .nutrition-demo-metric strong{font-size:21px}}
+body[data-page=body] .nutrition-demo-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+body[data-page=body] .nutrition-demo-actions button{flex:1 1 120px;min-height:44px;border:1px solid #badaca;border-radius:10px;background:#fff;color:#126b55;font:inherit;padding:9px;cursor:pointer}

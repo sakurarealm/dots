@@ -1,0 +1,154 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'; connect-src 'none'; media-src 'none'; object-src 'none'; base-uri 'none'"><title>AI-Nutri · vip-center</title><link rel="stylesheet" href="vip-center.css"><link rel="stylesheet" href="nav-tabbar.css"><link rel="stylesheet" href="nav-runtime.css"><meta name="nutri-demo-release" content="20261023-demo-r28"><link rel="stylesheet" href="../shared/nutri-interaction-feedback.css"></head><body data-original-page="vip-center"><main id="original-page"></main><div id="nav-status" role="status" aria-live="polite"></div><template id="original-template"><div class="page">
+  <div class="hero">
+    <div class="hero-bg">
+      <div class="orb orb1"></div>
+      <div class="orb orb2"></div>
+      <div class="shine"></div>
+    </div>
+
+    <div class="hero-top">
+      <div class="hero-left">
+        <span class="greeting">{{greeting}}</span>
+        <span class="subtitle">{{subtitle}}</span>
+      </div>
+      <div class="badge {{vipInfo.level > 0 ? 'vip' : 'normal'}}">
+        <span class="badge-text">{{vipInfo.level > 0 ? vipInfo.levelName : '未开通'}}</span>
+      </div>
+    </div>
+
+    <div class="profile-card">
+      <div class="profile-left">
+        <div class="avatar">
+          <span class="avatar-text">{{avatarInitial}}</span>
+        </div>
+        <div class="profile-meta">
+          <span class="name">{{nickname}}</span>
+          <span class="meta">{{vipMeta}}</span>
+        </div>
+      </div>
+      <div class="profile-right">
+        <button class="ghost-btn" data-tap="goToPay">{{ctaTop}}</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head">
+      <span class="section-title">专属健康档案</span>
+      <span class="section-link" data-tap="openHealthFile">{{healthLinkText}}</span>
+    </div>
+
+    <div class="card health-card">
+      <div class="health-row">
+        <div class="health-left">
+          <span class="health-title">{{healthTitle}}</span>
+          <span class="health-sub">{{healthSub}}</span>
+        </div>
+        <div class="health-right">
+          <span class="health-level">{{healthLevelText}}</span>
+        </div>
+      </div>
+
+      <div class="progress-wrap">
+        <div class="progress-track">
+          <div class="progress-bar" style="width: {{progressPercent}}%;"></div>
+        </div>
+        <span class="progress-text">{{progressText}}</span>
+      </div>
+
+      <div class="goal-grid">
+        <div class="goal" data-wx-for="{{goals}}" data-wx-for-item="g" data-wx-key="key">
+          <span class="goal-value">{{g.value}}</span>
+          <span class="goal-label">{{g.label}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head">
+      <span class="section-title">今日定制方案</span>
+      <span class="section-subtitle">{{planHint}}</span>
+    </div>
+
+    <div class="card plan-card">
+      <div class="plan-top">
+        <div class="plan-left">
+          <span class="plan-title">{{planTitle}}</span>
+          <span class="plan-sub">{{planSub}}</span>
+        </div>
+        <div class="plan-right">
+          <div class="plan-chip">{{planChip}}</div>
+        </div>
+      </div>
+      <div class="plan-list">
+        <div class="plan-item" data-wx-for="{{planItems}}" data-wx-for-item="p" data-wx-key="key">
+          <div class="plan-dot" style="background: {{p.color}};"></div>
+          <div class="plan-texts">
+            <span class="plan-item-title">{{p.title}}</span>
+            <span class="plan-item-sub">{{p.sub}}</span>
+          </div>
+          <span class="plan-item-tag">{{p.tag}}</span>
+        </div>
+      </div>
+      <div class="plan-actions">
+        <button class="primary-btn" data-tap="openPlan">{{planAction}}</button>
+        <button class="secondary-btn" data-tap="goToPay">{{planPayAction}}</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head">
+      <span class="section-title">进度与成就</span>
+      <span class="section-link" data-tap="openAchievements">查看全部</span>
+    </div>
+    <div class="achievements" scroll-x="true" show-scrollbar="false">
+      <div class="ach-row">
+        <div class="ach-card {{a.unlocked ? 'on' : ''}}" data-wx-for="{{achievements}}" data-wx-for-item="a" data-wx-key="key">
+          <span class="ach-title">{{a.title}}</span>
+          <span class="ach-sub">{{a.sub}}</span>
+          <div class="ach-pill">{{a.pill}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head">
+      <span class="section-title">专属推荐</span>
+      <span class="section-subtitle">{{recHint}}</span>
+    </div>
+    <div class="rec-list">
+      <div class="card rec-card" data-wx-for="{{recommendations}}" data-wx-for-item="r" data-wx-key="key" data-key="{{r.key}}" data-tap="openRecommendation">
+        <div class="rec-left">
+          <div class="rec-icon" style="background: {{r.color}};"></div>
+          <div class="rec-texts">
+            <span class="rec-title">{{r.title}}</span>
+            <span class="rec-sub">{{r.sub}}</span>
+          </div>
+        </div>
+        <div class="rec-right">
+          <span class="rec-action">{{r.action}}</span>
+          <span class="rec-arrow">›</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom-space"></div>
+
+  <div class="bottom-bar">
+    <div class="bottom-left">
+      <span class="bottom-title">{{bottomTitle}}</span>
+      <span class="bottom-sub">{{bottomSub}}</span>
+    </div>
+    <button class="cta-btn" data-tap="goToPay">
+      <div class="cta-shine"></div>
+      <span class="cta-text">{{ctaBottom}}</span>
+      <span class="cta-sub">{{ctaBottomSub}}</span>
+    </button>
+  </div>
+</div>
+
+</template><script src="nav-data.js"></script><script src="nav-expressions.js"></script><script src="nav-runtime.js"></script><script src="../shared/nutri-interaction-feedback.js"></script></body></html>

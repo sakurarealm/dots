@@ -1,0 +1,149 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'; connect-src 'none'; media-src 'none'; object-src 'none'; base-uri 'none'"><title>AI-Nutri · health-space</title><link rel="stylesheet" href="health-space.css"><link rel="stylesheet" href="nav-tabbar.css"><link rel="stylesheet" href="nav-runtime.css"><meta name="nutri-demo-release" content="20261023-demo-r28"><link rel="stylesheet" href="../shared/nutri-interaction-feedback.css"></head><body data-original-page="health-space"><main id="original-page"></main><div id="nav-status" role="status" aria-live="polite"></div><template id="original-template"><div class="page">
+  <div class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <div class="user">
+        <img class="avatar" src="{{user.avatar}}" mode="aspectFill" >
+        <div class="user-meta">
+          <div class="name-row">
+            <span class="name">{{user.nickname || 'AI-nutri用户'}}</span>
+            <span class="level">{{health.healthLevel || 'Lv.0'}}</span>
+          </div>
+          <span class="subtitle">{{subtitle}}</span>
+        </div>
+      </div>
+
+      <div class="xp-card">
+        <div class="xp-top">
+          <span class="xp-title">成长值</span>
+          <span class="xp-value">{{xp.current}} / {{xp.next}}</span>
+        </div>
+        <div class="xp-bar">
+          <div class="xp-fill" style="width: {{xp.percent}}%;"></div>
+        </div>
+        <div class="xp-bottom">
+          <span class="xp-hint">再坚持 {{xp.left}} 点升级</span>
+          <span class="xp-streak">连续 {{spaceWeek.streakDays}} 天达标</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head">
+      <span class="section-title">今日三件事</span>
+      <span class="section-sub">做一点点，也算照顾自己</span>
+    </div>
+    <div class="tasks">
+      <div class="task" data-wx-for="{{tasks}}" data-wx-key="key" data-key="{{item.key}}" data-tap="onTaskTap">
+        <div class="task-left">
+          <span class="task-icon">{{item.icon}}</span>
+          <div class="task-texts">
+            <span class="task-title">{{item.title}}</span>
+            <span class="task-desc">{{item.desc}}</span>
+          </div>
+        </div>
+        <span class="task-status {{item.done ? 'done' : ''}}">{{item.done ? '已完成' : '去完成'}}</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head">
+      <span class="section-title">今日概览</span>
+      <span class="section-sub">基于你的记录自动汇总</span>
+    </div>
+    <div class="grid">
+      <div class="tile">
+        <span class="tile-label">整体完成率</span>
+        <div class="tile-main">
+          <span class="tile-value">{{spaceToday.completionRate}}</span>
+          <span class="tile-unit">%</span>
+        </div>
+        <span class="tile-foot">{{spaceToday.completionHint}}</span>
+      </div>
+      <div class="tile">
+        <span class="tile-label">温柔指数</span>
+        <div class="tile-main">
+          <span class="tile-value">{{spaceToday.warmScore}}</span>
+          <span class="tile-unit">%</span>
+        </div>
+        <span class="tile-foot">更看重趋势</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head">
+      <span class="section-title">饮食小结</span>
+      <span class="section-sub">来自营养册的今天</span>
+    </div>
+    <div class="nutrition-card" data-tap="goNutrition">
+      <div class="nutrition-top">
+        <div class="nutrition-kpi">
+          <span class="nutrition-value">{{nutrition.calorieConsumed}}</span>
+          <span class="nutrition-unit">kcal</span>
+        </div>
+        <div class="nutrition-kpi">
+          <span class="nutrition-value">{{nutrition.calorieTarget}}</span>
+          <span class="nutrition-unit">目标</span>
+        </div>
+        <span class="nutrition-action">进入营养册 ›</span>
+      </div>
+      <div class="macro">
+        <div class="macro-item">
+          <span class="macro-label">碳水</span>
+          <span class="macro-pct">{{nutrition.macroPercent.carb}}%</span>
+        </div>
+        <div class="macro-item">
+          <span class="macro-label">蛋白</span>
+          <span class="macro-pct">{{nutrition.macroPercent.protein}}%</span>
+        </div>
+        <div class="macro-item">
+          <span class="macro-label">脂肪</span>
+          <span class="macro-pct">{{nutrition.macroPercent.fat}}%</span>
+        </div>
+      </div>
+      <span class="nutrition-note">{{nutritionHint}}</span>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head">
+      <span class="section-title">成就墙</span>
+      <span class="section-sub">把过程也当作奖赏</span>
+    </div>
+    <div class="badges">
+      <div class="badge" data-wx-for="{{spaceToday.achievements}}" data-wx-key="id">
+        <span class="badge-icon">{{item.icon}}</span>
+        <span class="badge-text">{{item.text}}</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head">
+      <span class="section-title">健康时间轴</span>
+      <span class="section-sub">系统与 AI 记录你的温柔瞬间</span>
+    </div>
+    <div class="timeline">
+      <div class="t-card {{item.badge === 'AI' ? 'ai' : item.badge === '系统' ? 'system' : 'anon'}}"
+            data-wx-for="{{spaceToday.timeline}}" data-wx-key="id">
+        <div class="t-head">
+          <span class="t-time">{{item.time}}</span>
+          <span class="t-badge">{{item.badge}}</span>
+        </div>
+        <span class="t-title">{{item.title}}</span>
+        <span class="t-desc">{{item.desc}}</span>
+        <div class="t-kv" data-wx-if="{{item.kv && item.kv.length}}">
+          <div class="kv" data-wx-for="{{item.kv}}" data-wx-key="k">
+            <span class="k">{{item.k}}：</span>
+            <span class="v">{{item.v}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</template><script src="nav-data.js"></script><script src="nav-expressions.js"></script><script src="nav-runtime.js"></script><script src="../shared/nutri-interaction-feedback.js"></script></body></html>

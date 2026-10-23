@@ -1,0 +1,348 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'"><title>身体与营养 · AI营养师</title><link rel="stylesheet" href="body.css"><link rel="stylesheet" href="adapter.css"><link rel="stylesheet" href="navigation-repair.css"><link rel="stylesheet" href="../care-groups.css"><meta name="nutri-demo-release" content="20261023-demo-r28"><link rel="stylesheet" href="../shared/nutri-interaction-feedback.css"></head><body data-page="body"><aside class="adapt-notice">身体与营养 · 科普信息 · 未接账户或健康接口<a href="../nutrition-booklet.html">营养册</a><a href="recipes.html">食谱</a></aside><main id="app"></main><template id="source-template">
+<div class="page-container">
+  <!-- 动态粒子背景 -->
+  <canvas canvas-id="particleCanvas" id="particleCanvas" class="particle-canvas"></canvas>
+
+  <!-- 顶部导航栏 -->
+  <div class="navbar" style="padding-top: {{statusBarHeight}}px">
+    <div class="navbar-content">
+      <div class="nav-btn" data-tap="goBack">
+        <span class="icon-text">←</span>
+      </div>
+      <div class="nav-title">
+        <span class="organ-name">{{organ.name}}</span>
+        <span class="organ-subtitle">健康档案</span>
+      </div>
+      <div class="nav-btn" data-tap="shareOrgan">
+        <span class="icon-text">↗</span>
+      </div>
+    </div>
+  </div>
+  <div style="height: {{navBarHeight}}px"></div>
+
+  <!-- 主内容区域 -->
+  <div class="main-scroll" scroll-y="true" enable-back-to-top="{{false}}" bindscroll="onScroll" style="height: calc(100vh - {{navBarHeight}}px);">
+    <div class="organ-selector">
+      <div class="organ-tabs" scroll-x="true" show-scrollbar="false">
+        <div class="organ-tabs-row">
+          <div
+            class="organ-tab {{item.key === regionKey ? 'active' : ''}}"
+            data-wx-for="{{organTabs}}"
+            data-wx-key="key"
+            data-tap="onOrganTap"
+            data-key="{{item.key}}"
+          >
+            <div class="organ-tab-icon {{item.scoreClass}}">
+              <span class="organ-tab-emoji">{{item.emoji}}</span>
+            </div>
+            <div class="organ-tab-text">
+              <span class="organ-tab-name">{{item.name}}</span>
+              <span class="organ-tab-score">{{item.score}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 器官健康评分大卡片 -->
+    <div class="hero-card {{cardAnimated ? 'card-animate' : ''}}">
+      <div class="hero-bg">
+        <div class="circle-decoration circle-1"></div>
+        <div class="circle-decoration circle-2"></div>
+        <div class="circle-decoration circle-3"></div>
+      </div>
+
+      <div class="hero-content">
+        <!-- 3D 圆环评分 -->
+        <div class="score-section">
+          <div class="score-ring {{scoreClass}}">
+            <canvas canvas-id="ringCanvas" class="ring-svg" style="width: 120px; height: 120px;"></canvas>
+            <div class="score-center">
+              <span class="score-number">{{organ.score}}</span>
+              <span class="score-label">健康分</span>
+            </div>
+          </div>
+
+          <div class="score-info">
+            <div class="status-badge {{scoreClass}}">
+              <div class="badge-dot"></div>
+              <span>{{statusText}}</span>
+            </div>
+            <span class="score-summary">{{organ.summary}}</span>
+            <span class="diet-impact" data-wx-if="{{dietImpactText}}">{{dietImpactText}}</span>
+          </div>
+        </div>
+
+        <!-- 快速指标 -->
+        <div class="quick-stats">
+          <div
+            class="stat-item"
+            data-wx-for="{{organ.metrics.slice(0, 3)}}"
+            data-wx-key="index"
+            style="animation-delay: {{index * 0.1}}s"
+          >
+            <div class="stat-icon stat-icon-{{index + 1}}">
+              <span class="stat-emoji">{{getMetricEmoji(item.name)}}</span>
+            </div>
+            <div class="stat-content">
+              <span class="stat-name">{{item.name}}</span>
+              <span class="stat-value">{{item.value}}{{item.unit || ''}}</span>
+            </div>
+            <div class="stat-trend {{getTrendClass(item.status)}}">
+              <span class="trend-icon">{{item.status === 'good' ? '↗' : item.status === 'bad' ? '↘' : '→'}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 器官简介卡片 -->
+    <div class="info-card slide-up" style="animation-delay: 0.2s">
+      <div class="card-header-simple">
+        <div class="header-icon">
+          <span class="icon-emoji">📖</span>
+        </div>
+        <span class="header-title">器官简介</span>
+      </div>
+      <div class="intro-content">
+        <div class="intro-visual">
+          <div class="organ-illustration {{organ.key}}-illustration">
+            <span class="organ-icon">{{organEmoji}}</span>
+          </div>
+        </div>
+        <div><p class="intro-text">{{organ.intro}}</p><p class="body-provenance">{{organ.sourceNote}}</p></div>
+      </div>
+    </div>
+
+    <!-- 改善建议卡片 -->
+    <div class="suggestions-card slide-up" style="animation-delay: 0.6s">
+      <div class="card-header-simple">
+        <div class="header-icon">
+          <span class="icon-emoji">💊</span>
+        </div>
+        <span class="header-title">认识相关营养</span>
+      </div>
+
+      <div class="suggestions-list">
+        <div
+          class="suggestion-item"
+          data-wx-for="{{organ.nutrition}}"
+          data-wx-key="index"
+
+        >
+          <div class="suggestion-badge {{item.type}}-badge">
+            <span class="badge-emoji">{{item.emoji}}</span>
+          </div>
+          <div class="suggestion-content">
+            <span class="suggestion-title">{{item.title}}</span>
+            <span class="suggestion-desc">{{item.description}}</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- 推荐食物卡片 -->
+    <div class="foods-card slide-up" style="animation-delay: 0.7s">
+      <div class="card-header-simple">
+        <div class="header-icon">
+          <span class="icon-emoji">🥗</span>
+        </div>
+        <span class="header-title">相关食物类别</span>
+      </div>
+
+      <div class="foods-scroll" scroll-x="true" show-scrollbar="false">
+        <div class="foods-list">
+          <div
+            class="food-card"
+            data-wx-for="{{organ.foods}}"
+            data-wx-key="index"
+
+          >
+            <div class="body-food-symbol" aria-hidden="true">{{item.emoji}}</div>
+            <div class="food-info">
+              <span class="food-name">{{item.name}}</span>
+              <span class="food-benefit">{{item.note}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 健康趋势卡片 -->
+    <div class="trend-card slide-up" style="animation-delay: 0.3s">
+      <div class="card-header-simple">
+        <div class="header-icon">
+          <span class="icon-emoji">📈</span>
+        </div>
+        <span class="header-title">7日健康趋势</span>
+        <div class="header-action" data-tap="refreshMetrics">
+          <span class="icon-text">🔄</span>
+        </div>
+      </div>
+
+      <div class="trend-content">
+        <canvas canvas-id="trendChart" id="trendChart" class="trend-canvas"></canvas>
+
+        <div class="trend-labels">
+          <div class="trend-label-item">
+            <div class="label-dot dot-min"></div>
+            <span class="label-text">最低 {{trendMin}}</span>
+          </div>
+          <div class="trend-label-item">
+            <div class="label-dot dot-avg"></div>
+            <span class="label-text">平均 {{trendAvg}}</span>
+          </div>
+          <div class="trend-label-item">
+            <div class="label-dot dot-max"></div>
+            <span class="label-text">最高 {{trendMax}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 每日小贴士 -->
+    <div class="tip-card slide-up" style="animation-delay: 0.4s">
+      <div class="tip-icon-large">💡</div>
+      <div class="tip-content">
+        <span class="tip-title">阅读提示</span>
+        <span class="tip-text">{{organ.dailyTip}}</span>
+      </div>
+    </div>
+
+    <!-- 详细指标卡片 -->
+    <div class="metrics-card slide-up" style="animation-delay: 0.5s">
+      <div class="card-header-simple">
+        <div class="header-icon">
+          <span class="icon-emoji">🔬</span>
+        </div>
+        <span class="header-title">详细指标</span>
+      </div>
+
+      <div class="metrics-list">
+        <div
+          class="metric-item"
+          data-wx-for="{{organ.metrics}}"
+          data-wx-key="index"
+          data-tap="toggleMetric"
+          data-idx="{{index}}"
+        >
+          <div class="metric-main">
+            <div class="metric-header">
+              <div class="metric-title-row">
+                <span class="metric-name">{{item.name}}</span>
+                <div class="metric-status-dot status-{{item.status}}"></div>
+              </div>
+              <span class="metric-value-large">{{item.value}}{{item.unit || ''}}</span>
+            </div>
+
+            <div class="metric-progress">
+              <div class="progress-track">
+                <div
+                  class="progress-fill fill-{{item.status}}"
+                  style="width: {{item.percentage}}%;"
+                >
+                  <div class="progress-shine"></div>
+                </div>
+              </div>
+              <span class="progress-text">{{item.percentage}}%</span>
+            </div>
+          </div>
+
+          <div class="metric-expand" data-wx-if="{{expandedMetric === index}}">
+            <div class="expand-content">
+              <span class="expand-label">指标说明</span>
+              <span class="expand-text">{{item.detail}}</span>
+
+              <div class="expand-actions">
+                <button class="action-btn primary-action" data-tap="applyAdvice" data-metric="{{item}}">
+                  <span class="action-icon">✓</span>
+                  <span>采纳建议</span>
+                </button>
+                <button class="action-btn secondary-action" data-tap="compareStandard" data-metric="{{item}}">
+                  <span class="action-icon">📊</span>
+                  <span>查看标准</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="metric-toggle">
+            <span class="toggle-icon">{{expandedMetric === index ? '▲' : '▼'}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- AI 个性化计划 -->
+    <div class="ai-card slide-up" style="animation-delay: 0.8s">
+      <div class="ai-header">
+        <div class="ai-icon-wrapper">
+          <span class="ai-icon">🤖</span>
+          <div class="ai-pulse"></div>
+        </div>
+        <div class="ai-title-section">
+          <span class="ai-title">AI 个性化计划</span>
+          <span class="ai-subtitle">基于您的健康数据生成</span>
+        </div>
+      </div>
+
+      <div class="ai-content">
+        <span class="ai-plan-text">{{organ.aiPlan}}</span>
+      </div>
+
+      <button class="ai-generate-btn" data-tap="generateAIPlan">
+        <div class="btn-shine"></div>
+        <span class="refresh-icon">🔄</span>
+        <span>生成新计划</span>
+      </button>
+    </div>
+
+    <!-- 成就徽章 -->
+    <div class="achievements-card slide-up" style="animation-delay: 0.9s">
+      <div class="card-header-simple">
+        <div class="header-icon">
+          <span class="icon-emoji">🏆</span>
+        </div>
+        <span class="header-title">解锁成就</span>
+      </div>
+
+      <div class="achievements-grid">
+        <div
+          class="achievement-badge"
+          data-wx-for="{{organ.achievements}}"
+          data-wx-key="index"
+        >
+          <div class="badge-icon">
+            <span class="trophy-icon">🏆</span>
+          </div>
+          <span class="badge-text">{{item}}</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 底部操作栏 -->
+    <div class="footer-actions slide-up" style="animation-delay: 1s">
+      <button class="footer-btn primary-btn" data-tap="saveRecord">
+        <span class="btn-icon">➕</span>
+        <span>记录状态</span>
+      </button>
+      <button class="footer-btn secondary-btn" data-tap="exportData">
+        <span class="btn-icon">📥</span>
+        <span>导出数据</span>
+      </button>
+    </div>
+
+    <!-- 底部安全区域 -->
+    <div class="safe-bottom" style="height: {{safeAreaBottom}}px"></div>
+  </div>
+
+  <!-- 成功动画遮罩 -->
+  <div class="success-overlay" data-wx-if="{{showSuccess}}">
+    <div class="success-content">
+      <div class="success-icon">✓</div>
+      <span class="success-text">{{successMessage}}</span>
+    </div>
+  </div>
+</div>
+</template><div id="status" role="status" aria-live="polite"></div><script src="book-data.js"></script><script src="data.js"></script><script src="expressions.js"></script><script src="subpages.js"></script><script src="../goal-data.js"></script><script src="../care-groups.js"></script><script src="body-detail.js"></script><script src="adapter.js"></script><script src="../shared/nutri-interaction-feedback.js"></script></body></html>

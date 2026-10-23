@@ -1,0 +1,111 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'; connect-src 'none'; media-src 'none'; object-src 'none'; base-uri 'none'"><title>AI-Nutri · profile-setup</title><link rel="stylesheet" href="profile-setup.css"><link rel="stylesheet" href="nav-tabbar.css"><link rel="stylesheet" href="nav-runtime.css"><meta name="nutri-demo-release" content="20261023-demo-r28"><link rel="stylesheet" href="../shared/nutri-interaction-feedback.css"></head><body data-original-page="profile-setup"><main id="original-page"></main><div id="nav-status" role="status" aria-live="polite"></div><template id="original-template"><div class="page">
+  <div class="header">
+    <span class="header-title">完善资料</span>
+    <span class="header-subtitle">帮助我们提供更精准的营养建议</span>
+  </div>
+
+  <div class="content">
+    <div class="main-card">
+      <!-- 头像与昵称 -->
+      <div class="avatar-section">
+        <div class="avatar-wrap" data-tap="handleChooseAvatar">
+          <img class="avatar" src="{{avatarUrl || '/images/default_avatar.svg'}}" mode="aspectFill" >
+          <div class="avatar-tip">点击更换头像</div>
+        </div>
+
+        <!-- 同步微信按钮（保留功能，但更简洁） -->
+        <button class="sync-btn" data-tap="handleSyncWechat">同步微信头像与昵称</button>
+
+        <div class="nickname-row">
+          <span class="label">昵称</span>
+          <input readonly aria-description="账户未连接，此预览不收集个人或健康资料" class="nickname-input" placeholder="请输入昵称" value="{{nickname}}" data-input="onNicknameInput" >
+        </div>
+      </div>
+
+      <!-- 身体数据 -->
+      <div class="section">
+        <span class="section-title">身体数据</span>
+        
+        <picker mode="selector" range="{{genderOptions}}" value="{{genderIndex}}" >
+          <div class="form-row">
+            <span class="label">性别</span>
+            <div class="value {{genderIndex > 0 ? 'filled' : ''}}">
+              <span>{{genderIndex > 0 ? genderOptions[genderIndex] : '请选择'}}</span>
+              <span class="arrow">></span>
+            </div>
+          </div>
+        </picker>
+
+        <div class="form-row">
+          <span class="label">年龄</span>
+          <div class="input-wrap">
+            <input readonly aria-description="账户未连接，此预览不收集个人或健康资料" type="number" placeholder="25" value="{{age}}" data-input="onAgeInput" maxlength="3" >
+            <span class="unit">岁</span>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <span class="label">身高</span>
+          <div class="input-wrap">
+            <input readonly aria-description="账户未连接，此预览不收集个人或健康资料" type="number" placeholder="170" value="{{height}}" data-input="onHeightInput" maxlength="3" >
+            <span class="unit">cm</span>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <span class="label">体重</span>
+          <div class="input-wrap">
+            <input readonly aria-description="账户未连接，此预览不收集个人或健康资料" type="digit" placeholder="65.5" value="{{weight}}" data-input="onWeightInput" maxlength="6" >
+            <span class="unit">kg</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 目标与偏好 -->
+      <div class="section">
+        <span class="section-title">目标与偏好</span>
+
+        <picker mode="selector" range="{{goalOptions}}" value="{{goalIndex}}" >
+          <div class="form-row">
+            <span class="label">目标</span>
+            <div class="value {{goalIndex >= 0 ? 'filled' : ''}}">
+              <span>{{goalIndex >= 0 ? goalOptions[goalIndex] : '请选择'}}</span>
+              <span class="arrow">></span>
+            </div>
+          </div>
+        </picker>
+
+        <picker mode="selector" range="{{activityOptions}}" value="{{activityIndex}}" >
+          <div class="form-row">
+            <span class="label">活动水平</span>
+            <div class="value {{activityIndex >= 0 ? 'filled' : ''}}">
+              <span>{{activityIndex >= 0 ? activityOptions[activityIndex] : '请选择'}}</span>
+              <span class="arrow">></span>
+            </div>
+          </div>
+        </picker>
+
+        <picker mode="selector" range="{{dietOptions}}" value="{{dietIndex}}" >
+          <div class="form-row">
+            <span class="label">饮食偏好</span>
+            <div class="value {{dietIndex >= 0 ? 'filled' : ''}}">
+              <span>{{dietIndex >= 0 ? dietOptions[dietIndex] : '请选择'}}</span>
+              <span class="arrow">></span>
+            </div>
+          </div>
+        </picker>
+
+        <div class="form-row">
+          <span class="label">忌口/过敏</span>
+          <input readonly aria-description="账户未连接，此预览不收集个人或健康资料" placeholder="例如 牛奶、花生" value="{{allergies}}" data-input="onAllergiesInput" >
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <button class="primary-btn" data-tap="onSubmit">保存并继续</button>
+    <span class="skip-text" data-tap="onSkip">稍后再说</span>
+  </div>
+</div>
+</template><script src="nav-data.js"></script><script src="nav-expressions.js"></script><script src="nav-runtime.js"></script><script src="../shared/nutri-interaction-feedback.js"></script></body></html>

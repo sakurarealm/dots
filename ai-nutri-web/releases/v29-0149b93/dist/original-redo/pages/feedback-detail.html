@@ -1,0 +1,60 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'; connect-src 'none'; media-src 'none'; object-src 'none'; base-uri 'none'"><title>AI-Nutri · feedback-detail</title><link rel="stylesheet" href="feedback-detail.css"><link rel="stylesheet" href="nav-tabbar.css"><link rel="stylesheet" href="nav-runtime.css"><meta name="nutri-demo-release" content="20261023-demo-r28"><link rel="stylesheet" href="../shared/nutri-interaction-feedback.css"></head><body data-original-page="feedback-detail"><main id="original-page"></main><div id="nav-status" role="status" aria-live="polite"></div><template id="original-template"><div class="page">
+  <div class="banner">
+    <span class="banner-text">此投诉为本小程序自有投诉渠道，非微信官方投诉渠道</span>
+  </div>
+
+  <div class="card">
+    <div class="row">
+      <span class="label">反馈主题：</span>
+      <span class="value">{{subject}}</span>
+    </div>
+
+    <div class="row row-stars">
+      <span class="label">服务评价</span>
+      <div class="stars" role="button" aria-label="服务评价">
+        <span
+          data-wx-for="{{stars}}"
+          data-wx-key="value"
+          class="star {{rating >= item ? 'on' : ''}}"
+          data-value="{{item}}"
+          data-tap="onStarTap"
+        >★</span>
+      </div>
+    </div>
+
+    <div class="input-wrap">
+      <textarea
+        class="textarea"
+        placeholder="请简要描述您的问题或建议"
+        value="{{content}}"
+        maxlength="500"
+        auto-height
+        show-confirm-bar="{{false}}"
+        data-input="onContentInput"
+      ></textarea>
+      <span class="count">{{content.length}}/500</span>
+    </div>
+
+    <div class="divider">
+      <div class="divider-line"></div>
+      <span class="divider-text">补充信息（选填）</span>
+      <div class="divider-line"></div>
+    </div>
+
+    <div class="picker-row">
+      <span class="picker-label">选择订单</span>
+      <picker mode="selector" range="{{orderOptions}}" range-key="label" value="{{orderIndex}}" >
+        <div class="picker-value">
+          <span class="picker-text">{{orderOptions[orderIndex].label}}</span>
+          <span class="arrow">›</span>
+        </div>
+      </picker>
+    </div>
+
+    <button class="submit-btn {{canSubmit ? 'on' : 'off'}}" disabled="{{!canSubmit}}" data-tap="onSubmit">
+      提交反馈
+    </button>
+  </div>
+</div>
+
+</template><script src="nav-data.js"></script><script src="nav-expressions.js"></script><script src="nav-runtime.js"></script><script src="../shared/nutri-interaction-feedback.js"></script></body></html>

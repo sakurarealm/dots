@@ -1,0 +1,106 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'"><title>原小程序UI适配 · AI营养师</title><link rel="stylesheet" href="detail.css"><link rel="stylesheet" href="adapter.css"><link rel="stylesheet" href="navigation-repair.css"><meta name="nutri-demo-release" content="20261023-demo-r28"><link rel="stylesheet" href="../shared/nutri-interaction-feedback.css"></head><body data-page="detail"><aside class="adapt-notice">原小程序 UI 适配候选 · 演示数据 · 未接账户或健康接口<a href="book.html">营养册</a><a href="recipes.html">食谱</a></aside><main id="app"></main><template id="source-template">
+
+<div class="page">
+  <div class="bg">
+    <div class="bg-orb orb1"></div>
+    <div class="bg-orb orb2"></div>
+  </div>
+
+  <div class="nav" style="padding-top: {{navPaddingTop}}px; padding-bottom: {{navPaddingBottom}}px;">
+    <div class="nav-left" data-tap="goBack">
+      <span class="back-icon">‹</span>
+    </div>
+    <span class="nav-title">{{kind === 'food' ? '菜品详情' : '食谱详情'}}</span>
+    <div class="nav-right {{isFavorited ? 'favorited' : ''}}" data-tap="addToFavorites">
+      <span class="heart-icon">{{isFavorited ? '♥' : '♡'}}</span>
+    </div>
+  </div>
+
+  <div class="content" style="padding-top: {{contentPaddingTop}}px; padding-bottom: {{contentPaddingBottom}}px;">
+    <div class="reason-section">
+      <span class="reason-text">{{reason}}</span>
+    </div>
+
+    <div class="hero-card">
+      <img class="hero-image" data-source-src="{{image}}" mode="aspectFill" >
+      <div class="overlay">
+        <span class="title">{{title}}</span>
+        <div class="meta">
+          <span class="calories">{{calories}} 卡</span>
+          <span data-wx-if="{{kind !== 'food'}}" class="time">{{time}} 分钟</span>
+          <span data-wx-else class="time">{{unit}}</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="nutrition-section">
+      <span class="section-title">营养成分</span>
+      <span class="section-sub">每份主要营养（约）</span>
+      <div class="nutrition-grid">
+        <div class="item"><div class="circle carb"><span class="value">{{carb}}g</span></div><span class="label">碳水</span></div>
+        <div class="item"><div class="circle protein"><span class="value">{{protein}}g</span></div><span class="label">蛋白质</span></div>
+        <div class="item"><div class="circle fat"><span class="value">{{fat}}g</span></div><span class="label">脂肪</span></div>
+        <div class="item"><div class="circle fiber"><span class="value">{{fiber}}g</span></div><span class="label">纤维</span></div>
+      </div>
+    </div>
+
+    <div data-wx-if="{{kind !== 'food'}}" class="ingredients-section">
+      <span class="section-title">食材清单</span>
+      <span class="section-sub">2人份</span>
+      <div class="list">
+        <div class="item" data-wx-for="{{ingredients}}" data-wx-key="name">
+          <span class="name">{{item.name}}</span>
+          <span class="amount">{{item.amount}}</span>
+        </div>
+      </div>
+    </div>
+
+    <div data-wx-if="{{kind !== 'food'}}" class="steps-section">
+      <span class="section-title">制作步骤</span>
+      <span class="section-sub">共{{steps.length}}步，慢慢来</span>
+      <div class="list">
+        <div class="step" data-wx-for="{{steps}}" data-wx-key="title">
+          <div class="number">{{index + 1}}</div>
+          <div class="step-content">
+            <span class="title">{{item.title}}</span>
+            <span class="desc">{{item.description}}</span>
+            <div class="time">{{item.time}} 分钟</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div data-wx-if="{{kind === 'food' && (note || nutritionValue)}}" class="steps-section">
+      <span class="section-title">备注与提示</span>
+      <span class="section-sub">可用于记录口味、做法与注意事项</span>
+      <div class="list">
+        <div data-wx-if="{{nutritionValue}}" class="step">
+          <div class="number">i</div>
+          <div class="step-content">
+            <span class="title">营养概览</span>
+            <span class="desc">{{nutritionValue}}</span>
+          </div>
+        </div>
+        <div data-wx-if="{{note}}" class="step">
+          <div class="number">N</div>
+          <div class="step-content">
+            <span class="title">备注</span>
+            <span class="desc">{{note}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="value-section">
+      <span class="section-title">为什么适合你</span>
+      <span class="value-text">{{nutritionValue}}</span>
+    </div>
+  </div>
+
+  <div class="bottom-bar" style="padding-bottom: {{bottomBarPaddingBottom}}px;">
+    <div class="btn secondary" data-tap="addToFavorites">收藏</div>
+    <div data-wx-if="{{kind !== 'food'}}" class="btn primary" data-tap="startCooking">开始制作</div>
+    <div data-wx-else class="btn primary" data-tap="goBack">返回</div>
+  </div>
+</div>
+</template><div id="status" role="status" aria-live="polite"></div><script src="book-data.js"></script><script src="data.js"></script><script src="expressions.js"></script><script src="subpages.js"></script><script src="adapter.js"></script><script src="../shared/nutri-interaction-feedback.js"></script></body></html>

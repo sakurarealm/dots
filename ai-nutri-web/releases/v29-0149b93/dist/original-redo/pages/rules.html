@@ -1,0 +1,43 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'; connect-src 'none'; media-src 'none'; object-src 'none'; base-uri 'none'"><title>AI-Nutri · rules</title><link rel="stylesheet" href="rules.css"><link rel="stylesheet" href="nav-tabbar.css"><link rel="stylesheet" href="nav-runtime.css"><meta name="nutri-demo-release" content="20261023-demo-r28"><link rel="stylesheet" href="../shared/nutri-interaction-feedback.css"></head><body data-original-page="rules"><main id="original-page"></main><div id="nav-status" role="status" aria-live="polite"></div><template id="original-template"><div class="page">
+  <div class="tabs">
+    <div class="tabs-row">
+      <div
+        class="tab {{tabIndex === 0 ? 'active' : ''}}"
+        data-index="0"
+        data-tap="onTabTap"
+      >
+        <span class="tab-text">条款规则</span>
+        <div class="tab-line"></div>
+      </div>
+      <div
+        class="tab {{tabIndex === 1 ? 'active' : ''}}"
+        data-index="1"
+        data-tap="onTabTap"
+      >
+        <span class="tab-text">公告</span>
+        <div class="tab-line"></div>
+      </div>
+    </div>
+  </div>
+
+  <swiper class="content" style="height: {{contentHeightPx}}px;" current="{{tabIndex}}"  duration="220">
+    <swiper-item>
+      <div class="list" style="height: {{contentHeightPx}}px; padding-bottom: calc(18rpx + {{safeBottomPx}}px);" scroll-y="true">
+        <div class="cell" data-wx-for="{{ruleItems}}" data-wx-key="key" data-key="{{item.key}}" data-tap="onRuleTap">
+          <span class="cell-title">{{item.title}}</span>
+          <span class="arrow">›</span>
+        </div>
+      </div>
+    </swiper-item>
+
+    <swiper-item>
+      <div class="list" style="height: {{contentHeightPx}}px; padding-bottom: calc(18rpx + {{safeBottomPx}}px);" scroll-y="true">
+        <div class="notice-card">
+          <span class="notice-text">欢迎使用AI营养师小程序！</span>
+          <span class="notice-time">2026.1.1</span>
+        </div>
+      </div>
+    </swiper-item>
+  </swiper>
+</div>
+</template><script src="nav-data.js"></script><script src="nav-expressions.js"></script><script src="nav-runtime.js"></script><script src="../shared/nutri-interaction-feedback.js"></script></body></html>

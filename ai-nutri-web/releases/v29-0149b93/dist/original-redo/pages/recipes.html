@@ -1,0 +1,78 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'"><title>原小程序UI适配 · AI营养师</title><link rel="stylesheet" href="recipes.css"><link rel="stylesheet" href="adapter.css"><link rel="stylesheet" href="navigation-repair.css"><meta name="nutri-demo-release" content="20261023-demo-r28"><link rel="stylesheet" href="../shared/nutri-interaction-feedback.css"></head><body data-page="recipes"><aside class="adapt-notice">原小程序 UI 适配候选 · 演示数据 · 未接账户或健康接口<a href="book.html">营养册</a><a href="recipes.html">食谱</a></aside><main id="app"></main><template id="source-template">
+
+<div class="page">
+  <div class="bg">
+    <div class="bg-orb orb1"></div>
+    <div class="bg-orb orb2"></div>
+  </div>
+
+  <!-- 自定义导航 -->
+  <div class="nav" style="padding-top: {{navPaddingTopPx}}px;">
+    <div class="nav-left" data-tap="goBack">
+      <span class="back-icon">‹</span>
+    </div>
+    <span class="nav-title">今日饮食建议</span>
+    <div class="nav-right"></div>
+  </div>
+
+  <div class="content">
+    <!-- AI 总结 -->
+    <div class="summary-section">
+      <span class="summary-title">为什么推荐这些</span>
+      <span class="summary-text">{{todaySummary}}</span>
+    </div>
+
+    <!-- 推荐菜谱 -->
+    <div class="recipe-list">
+      <div class="recipe-card" 
+            data-wx-for="{{recipeList}}" 
+            data-wx-key="title"
+            data-tap="goToRecipeDetail"
+            data-recipe="{{item}}"
+            animation="{{item.animation}}">
+        <div class="image-container">
+          <img class="recipe-image" data-source-src="{{item.image}}" mode="aspectFill" >
+          <div class="overlay">
+            <span class="calories">{{item.calories}} 卡</span>
+            <span class="time">{{item.time}}</span>
+          </div>
+        </div>
+
+        <div class="content">
+          <span class="title">{{item.title}}</span>
+          <span class="reason">{{item.reason}}</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="food-section">
+      <div class="section-head">
+        <span class="section-title">菜品库</span>
+        <span class="section-sub">点开查看营养与做法建议</span>
+      </div>
+
+      <div class="search-row">
+        <span class="search-icon">🔎</span>
+        <input class="search-input" value="{{foodKeyword}}" placeholder="搜索菜品名称" bindinput="onFoodKeywordInput" />
+        <div data-wx-if="{{foodKeyword}}" class="search-clear" data-tap="clearFoodKeyword">×</div>
+      </div>
+
+      <div class="food-list">
+        <div class="food-card"
+              data-wx-for="{{foodKeyword ? foodSearchList : foodList}}"
+              data-wx-key="id"
+              data-tap="goToFoodDetail"
+              data-food="{{item}}">
+          <img data-wx-if="{{item.img}}" class="food-img" data-source-src="{{item.img}}" mode="aspectFill" >
+          <div data-wx-else class="food-img placeholder"></div>
+          <div class="food-main">
+            <span class="food-name">{{item.name}}</span>
+            <span class="food-sub">{{item.nutrient}} · {{item.calorie}}kcal · {{item.unit}}</span>
+          </div>
+          <span class="food-arrow">›</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</template><div id="status" role="status" aria-live="polite"></div><script src="book-data.js"></script><script src="data.js"></script><script src="expressions.js"></script><script src="subpages.js"></script><script src="adapter.js"></script><script src="../shared/nutri-interaction-feedback.js"></script></body></html>

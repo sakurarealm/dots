@@ -1,0 +1,32 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'; connect-src 'none'; media-src 'none'; object-src 'none'; base-uri 'none'"><title>AI-Nutri · favorites</title><link rel="stylesheet" href="favorites.css"><link rel="stylesheet" href="nav-tabbar.css"><link rel="stylesheet" href="nav-runtime.css"><meta name="nutri-demo-release" content="20261023-demo-r28"><link rel="stylesheet" href="../shared/nutri-interaction-feedback.css"></head><body data-original-page="favorites"><main id="original-page"></main><div id="nav-status" role="status" aria-live="polite"></div><template id="original-template"><div class="page">
+  <div class="header">
+    <span class="title">我的收藏</span>
+    <span class="sub">收藏你常用的保健品，随时回购</span>
+  </div>
+
+  <div class="list" data-wx-if="{{favorites.length}}">
+    <div class="card" data-wx-for="{{favorites}}" data-wx-key="id" data-wx-for-item="p">
+      <img class="img" src="{{p.image}}" mode="aspectFill" >
+      <div class="mid">
+        <span class="name">{{p.name}}</span>
+        <span class="spec">{{p.spec}}</span>
+        <div class="price-row">
+          <span class="price">￥{{p.price}}</span>
+          <span class="unit">/件</span>
+        </div>
+      </div>
+      <div class="right">
+        <button class="btn btn-primary" data-id="{{p.id}}" data-tap="onBuy">去购买</button>
+        <button class="btn btn-ghost" data-id="{{p.id}}" data-tap="onUnfavorite">取消收藏</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="empty" data-wx-else>
+    <span class="empty-title">暂无收藏</span>
+    <span class="empty-sub">去商城逛逛，把喜欢的商品收藏起来</span>
+    <button class="go-shop" data-tap="goShop">去逛逛</button>
+  </div>
+</div>
+
+</template><script src="nav-data.js"></script><script src="nav-expressions.js"></script><script src="nav-runtime.js"></script><script src="../shared/nutri-interaction-feedback.js"></script></body></html>

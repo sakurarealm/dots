@@ -1,0 +1,147 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'; connect-src 'none'; media-src 'none'; object-src 'none'; base-uri 'none'"><title>AI-Nutri · 个人主页</title><link rel="stylesheet" href="profile.css"><link rel="stylesheet" href="nav-tabbar.css"><link rel="stylesheet" href="nav-runtime.css"><link rel="stylesheet" href="demo-account-shell.css"><link rel="stylesheet" href="../shared/nutri-registration-entry-v3.css"><link rel="stylesheet" href="../shared/nutri-mobile-shell-v17.css"><link rel="stylesheet" href="profile-account-polish-v18.css"><meta name="nutri-demo-release" content="20261023-demo-r28"><link rel="stylesheet" href="../shared/nutri-interaction-feedback.css"></head><body data-nutri-shell="profile" data-original-page="profile" data-registration-bundle="registration-web-v3-c1"><aside class="nutri-demo-label" role="note"><a href="aiAgent.html" aria-label="返回营养助手">‹ 首页</a><span>合成演示 · AI 未连接</span><a href="settings.html">说明</a><noscript>请启用 JavaScript；未启用时不能保存。</noscript></aside><main id="original-page"></main><div id="nav-status" role="status" aria-live="polite"></div><template id="original-template">
+<div class="profile-container">
+  <!-- 顶部用户信息区域 -->
+  <div class="user-header">
+    <div class="avatar-section">
+      <img class="avatar" src="{{userInfo.avatar}}" mode="aspectFill" data-tap="handleAvatarClick" >
+      <div class="avatar-edit" data-tap="handleAvatarClick">
+        <img class="edit-icon" src="/static/profile/picture.png" mode="aspectFit" >
+      </div>
+    </div>
+
+    <div class="user-info">
+      <div class="username-line">
+        <span class="username">{{userInfo.nickname || 'Ai-Nutrier'}}</span>
+        <img data-wx-if="{{vipBadgeSrc}}" class="vip-badge" src="{{vipBadgeSrc}}" mode="aspectFit" >
+      </div>
+      <div class="kcoin-row">
+        <img class="kcoin-icon" src="/static/profile/K-coin.png" mode="aspectFit" >
+        <span class="kcoin-text">{{userAssets.kCoins}}</span>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- VIP会员卡 -->
+  <div class="vip-card" data-tap="navigateToVip">
+    <div class="vip-card-left">
+      <img class="vip-icon" src="{{vipIconSrc}}" mode="aspectFit" >
+      <div class="vip-info">
+        <div class="vip-title-line">
+          <span class="vip-title">{{vipInfo.levelName}}</span>
+          <span class="vip-status" data-wx-if="{{vipInfo.level > 0}}">有效期至{{vipInfo.expireDate || '永久'}}</span>
+        </div>
+        <span class="vip-desc">{{vipInfo.level > 0 ? '享受专属特权' : '升级会员，解锁更多特权'}}</span>
+      </div>
+    </div>
+    <div class="vip-action-btn">
+      <span>{{vipInfo.level > 0 ? '续费' : '开通'}}</span>
+      <img class="arrow-icon" src="/static/profile/arrow-right.png" mode="aspectFit" >
+    </div>
+  </div>
+
+  <!-- 钱包余额卡片 -->
+  <div class="assets-card" data-tap="navigateToWallet">
+    <div class="card-header">
+      <div class="card-title">
+        <span>余额</span>
+      </div>
+      <div class="money-balance">
+        <span class="money">￥{{userAssets.balanceYuan}}</span>
+      </div>
+    </div>
+
+    <div class="wallet-entry">
+      <span class="wallet-name">Ai-nutri钱包</span>
+      <div class="wallet-right">
+        <img class="wallet-arrow" src="/static/profile/arrow-right.png" mode="aspectFit" >
+      </div>
+    </div>
+  </div>
+
+  <div class="quick-actions-card">
+    <div class="quick-action" data-tap="navigateToOrders">
+      <div class="quick-action-texts">
+        <span class="quick-action-title">我的订单</span>
+        <span class="quick-action-sub">查看最近的订单</span>
+      </div>
+      <div class="quick-action-icon-slot">
+        <img class="quick-action-icon" src="/static/profile/profile_DD.png" mode="aspectFit" >
+      </div>
+    </div>
+    <div class="quick-action-divider"></div>
+    <div class="quick-action" data-tap="navigateToFavorites">
+      <div class="quick-action-texts">
+        <span class="quick-action-title">我的收藏</span>
+        <span class="quick-action-sub">我收藏的药品</span>
+      </div>
+      <div class="quick-action-icon-slot">
+        <img class="quick-action-icon" src="/static/profile/profile_SC.png" mode="aspectFit" >
+      </div>
+    </div>
+  </div>
+
+  <!-- 健康数据概览 -->
+  <div class="health-overview">
+    <div class="section-header">
+      <div class="section-title">
+        <span>健康数据</span>
+      </div>
+      <span class="more" data-tap="navigateToHealthSpace">健康空间</span>
+    </div>
+
+    <div class="health-stats">
+      <div class="stat-item">
+        <div class="stat-texts">
+          <span class="stat-value">{{healthData.continuousDays}}</span>
+          <span class="stat-label">连续打卡</span>
+        </div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <div class="stat-texts">
+          <span class="stat-value">{{healthData.healthLevel}}</span>
+          <span class="stat-label">健康等级</span>
+        </div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <div class="stat-texts">
+          <span class="stat-value">{{healthData.weeklyGoals}}</span>
+          <span class="stat-label">本周目标</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="profile-menu">
+    <div class="menu-cell" data-url="/pages/address/address" data-tap="navigateTo">
+      <span class="menu-title">我的地址</span>
+      <span class="menu-arrow">›</span>
+    </div>
+    <div class="menu-divider"></div>
+    <div class="menu-cell" data-url="/pages/student/student" data-tap="navigateTo">
+      <span class="menu-title">营养师登记</span>
+      <span class="menu-arrow">›</span>
+    </div>
+    <div class="menu-divider"></div>
+    <div class="menu-cell" data-url="/pages/feedback/feedback" data-tap="navigateTo">
+      <span class="menu-title">投诉与建议</span>
+      <span class="menu-arrow">›</span>
+    </div>
+    <div class="menu-divider"></div>
+    <div class="menu-cell" data-url="/pages/rules/rules" data-tap="navigateTo">
+      <span class="menu-title">条款与规则</span>
+      <span class="menu-arrow">›</span>
+    </div>
+    <div class="menu-divider"></div>
+    <div class="menu-cell" data-tap="navigateToSettings">
+      <span class="menu-title">设置</span>
+      <span class="menu-arrow">›</span>
+    </div>
+  </div>
+
+  <!-- 自定义底部导航栏 -->
+  <nav class="original-bottom-nav" aria-label="主要导航"></nav>
+</div>
+</template><script src="../shared/nutri-demo-core-registration-v3.js"></script><script src="../shared/nutri-registration-kernel-v1.js"></script><script src="health-demo-model.js"></script><script src="commerce-catalog.js"></script><script src="commerce-model-registration-v3.js"></script><script src="../shared/nutri-registration-store-v1.js"></script><script src="../shared/nutri-registration-entry-v3.js"></script><script src="demo-account-shell-registration-v3.js"></script><nav class="nutri-primary-nav" data-shell-nav aria-label="主要页面"><a href="aiAgent.html">助手</a><a href="diet.html">饮食</a><a href="shop.html">商城</a><a href="health-calendar.html">记录</a><a href="profile.html" aria-current="page">我的</a></nav><script src="../shared/nutri-mobile-shell-v17.js"></script><script src="../shared/nutri-interaction-feedback.js"></script></body></html>

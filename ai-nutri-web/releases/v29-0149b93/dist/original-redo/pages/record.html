@@ -1,0 +1,137 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'"><title>原小程序UI适配 · AI营养师</title><link rel="stylesheet" href="record.css"><link rel="stylesheet" href="adapter.css"><link rel="stylesheet" href="navigation-repair.css"><link rel="stylesheet" href="record-overflow.css"><script src="diet-entry.js"></script><meta name="nutri-demo-release" content="20261023-demo-r28"><link rel="stylesheet" href="../shared/nutri-interaction-feedback.css"></head><body data-page="record"><aside class="adapt-notice">原小程序 UI 适配候选 · 演示数据 · 未接账户或健康接口<a href="book.html">营养册</a><a href="recipes.html">食谱</a></aside><p class="offline-empty"><a href="health-calendar.html?type=diet">手动记入健康日历（仅保存在本机）</a></p><main id="app"></main><template id="source-template">
+
+<div class="nutrition-page">
+  <div class="meal-box" hover-class="card-pressed">
+    <div class="card-topbar"></div>
+    <span class="summary-title">
+      <div class="title-bar"></div>
+      添加食物
+    </span>
+    <span data-wx-if="{{targetLabel}}" class="target-tip">将添加到：{{targetLabel}}</span>
+
+    <div class="search-row" hover-class="row-pressed">
+      <span class="search-icon">🔎</span>
+      <input class="search-input" value="{{keyword}}" placeholder="搜索食物名称" bindinput="onKeywordInput" />
+      <div data-wx-if="{{keyword}}" class="search-clear" data-tap="clearKeyword">×</div>
+    </div>
+  </div>
+
+  <div data-wx-if="{{filteredRecentFoods.length}}" class="meal-box" hover-class="card-pressed">
+    <div class="card-topbar"></div>
+    <div class="meal-header">
+      <span class="meal-title">最近添加</span>
+      <span class="unit">点一下直接添加</span>
+    </div>
+
+    <div class="food-record" data-wx-for="{{filteredRecentFoods}}" data-wx-key="name" data-food="{{item}}" data-tap="onPickFood" hover-class="row-pressed">
+      <div class="side-gradient"></div>
+      <img data-wx-if="{{item.img}}" class="food-image" data-source-src="{{item.img}}" mode="aspectFill" >
+      <div data-wx-else class="food-image placeholder"></div>
+      <div class="food-info">
+        <span class="food-name">{{item.name}}</span>
+        <span class="food-unit">{{item.unit}}</span>
+      </div>
+      <div class="food-value">
+        <span>{{item.nutrient}} · {{item.calorie}}kcal</span>
+        <span class="food-arrow">＞</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="meal-box" hover-class="card-pressed">
+    <div class="card-topbar"></div>
+    <div class="meal-header">
+      <span class="meal-title">常用食物</span>
+      <span class="unit">快速添加</span>
+    </div>
+
+    <div class="food-record" data-wx-for="{{filteredCommonFoods}}" data-wx-key="name" data-food="{{item}}" data-tap="onPickFood" hover-class="row-pressed">
+      <div class="side-gradient"></div>
+      <img data-wx-if="{{item.img}}" class="food-image" data-source-src="{{item.img}}" mode="aspectFill" >
+      <div data-wx-else class="food-image placeholder"></div>
+      <div class="food-info">
+        <span class="food-name">{{item.name}}</span>
+        <span class="food-unit">{{item.unit}}</span>
+      </div>
+      <div class="food-value">
+        <span>{{item.nutrient}} · {{item.calorie}}kcal</span>
+        <span class="food-arrow">＞</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="meal-box" hover-class="card-pressed">
+    <div class="card-topbar"></div>
+    <div class="meal-header">
+      <span class="meal-title">手动添加</span>
+      <span class="unit">填完直接提交</span>
+    </div>
+
+    <div class="form">
+      <div class="form-row">
+        <span class="form-label">名称</span>
+        <input class="form-input" placeholder="比如：燕麦酸奶杯" value="{{form.name}}" data-field="name" bindinput="onFormInput" />
+      </div>
+
+      <div class="form-grid two">
+        <div class="form-cell">
+          <span class="form-label">热量(kcal)</span>
+          <input class="form-input" type="number" placeholder="选填" value="{{form.calorie}}" data-field="calorie" bindinput="onFormInput" />
+        </div>
+        <div class="form-cell">
+          <span class="form-label">单位</span>
+          <input class="form-input" placeholder="选填，如：1碗/100g" value="{{form.unit}}" data-field="unit" bindinput="onFormInput" />
+        </div>
+      </div>
+
+      <div class="form-row">
+        <span class="form-label">营养提示</span>
+        <input class="form-input" placeholder="选填，如：35克蛋白" value="{{form.nutrient}}" data-field="nutrient" bindinput="onFormInput" />
+      </div>
+
+      <div class="form-grid two">
+        <div class="form-cell">
+          <span class="form-label">碳水(g)</span>
+          <input class="form-input" type="number" placeholder="0" value="{{form.carb}}" data-field="carb" bindinput="onFormInput" />
+        </div>
+        <div class="form-cell">
+          <span class="form-label">蛋白(g)</span>
+          <input class="form-input" type="number" placeholder="0" value="{{form.protein}}" data-field="protein" bindinput="onFormInput" />
+        </div>
+      </div>
+
+      <div class="form-grid two">
+        <div class="form-cell">
+          <span class="form-label">脂肪(g)</span>
+          <input class="form-input" type="number" placeholder="0" value="{{form.fat}}" data-field="fat" bindinput="onFormInput" />
+        </div>
+        <div class="form-cell">
+          <span class="form-label">纤维(g)</span>
+          <input class="form-input" type="number" placeholder="0" value="{{form.fiber}}" data-field="fiber" bindinput="onFormInput" />
+        </div>
+      </div>
+
+      <div class="form-row">
+        <span class="form-label">图片</span>
+        <div class="img-row">
+          <div data-wx-if="{{form.img}}" class="img-wrap">
+            <img class="img" data-source-src="{{form.img}}" mode="aspectFill" >
+            <div class="img-close" data-tap="clearImage">×</div>
+          </div>
+          <div data-wx-else class="img-add" data-tap="chooseImage">选择图片</div>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <span class="form-label">备注</span>
+        <textarea class="form-input textarea" placeholder="选填，比如做法/口味/食材等" value="{{form.note}}" data-field="note" bindinput="onFormInput" maxlength="200" ></textarea>
+      </div>
+
+      <div class="actions">
+        <div class="primary-btn" data-tap="submitManual" hover-class="btn-pressed">添加到记录</div>
+        <div class="ghost-btn" data-tap="goBack" hover-class="btn-pressed">取消</div>
+      </div>
+    </div>
+  </div>
+</div>
+</template><div id="status" role="status" aria-live="polite"></div><script src="book-data.js"></script><script src="data.js"></script><script src="expressions.js"></script><script src="subpages.js"></script><script src="adapter.js"></script><script src="../shared/nutri-interaction-feedback.js"></script></body></html>

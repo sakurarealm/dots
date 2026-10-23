@@ -1,0 +1,110 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'; connect-src 'none'; media-src 'none'; object-src 'none'; base-uri 'none'"><title>AI-Nutri · dailySummary</title><link rel="stylesheet" href="dailySummary.css"><link rel="stylesheet" href="nav-tabbar.css"><link rel="stylesheet" href="nav-runtime.css"><meta name="nutri-demo-release" content="20261023-demo-r28"><link rel="stylesheet" href="../shared/nutri-interaction-feedback.css"></head><body data-original-page="dailySummary"><main id="original-page"></main><div id="nav-status" role="status" aria-live="polite"></div><template id="original-template"><div class="page">
+  <div class="tabs">
+    <div class="tabs-row">
+      <div class="tab {{tabIndex === 0 ? 'active' : ''}}" data-index="0" data-tap="onTabTap">
+        <span class="tab-text">我</span>
+        <div class="tab-line"></div>
+      </div>
+      <div class="tab {{tabIndex === 1 ? 'active' : ''}}" data-index="1" data-tap="onTabTap">
+        <span class="tab-text">家人</span>
+        <div class="tab-line"></div>
+      </div>
+    </div>
+  </div>
+
+  <swiper class="content" style="height: {{contentHeightPx}}px;" current="{{tabIndex}}"  duration="220">
+    <swiper-item>
+      <div class="toolbar">
+        <div class="toolbar-left">
+          <div class="picker-chip">
+            <picker mode="date" value="{{pickedDate}}" >
+              <div class="picker-inner">
+                <span class="picker-label">{{pickedDate ? pickedDate : '选择日期'}}</span>
+              </div>
+            </picker>
+          </div>
+          <div class="reset-chip" data-tap="onResetPick" data-wx-if="{{pickedDate}}">
+            <span class="reset-text">全部</span>
+          </div>
+        </div>
+        <div class="toolbar-right">
+          <span class="count-text">{{archiveCount}} 份</span>
+        </div>
+      </div>
+
+      <div
+        class="list"
+        style="height: {{contentHeightPx}}px; padding-bottom: calc(18rpx + {{safeBottomPx}}px);"
+        scroll-y="true"
+        scroll-into-view="{{scrollIntoView}}"
+        scroll-with-animation
+        show-scrollbar="{{false}}"
+      >
+        <div data-wx-if="{{!archiveItems || !archiveItems.length}}" class="empty">
+          <div class="empty-card">
+            <span class="empty-title">还没有档案</span>
+            <span class="empty-sub">每天 22:00 的日终汇总会自动归档在这里</span>
+          </div>
+        </div>
+
+        <div data-wx-for="{{archiveItems}}" data-wx-key="date" data-wx-for-item="it">
+          <div data-wx-if="{{it.showMonthHeader}}" class="month-header">
+            <span class="month-title">{{it.monthTitle}}</span>
+          </div>
+
+          <div class="archive-card {{pickedDate && pickedDate === it.date ? 'active' : ''}}" id="d-{{it.date}}" data-date="{{it.date}}" data-tap="onCardTap">
+            <div class="archive-top">
+              <div class="date-badge">
+                <span class="date-main">{{it.day}}</span>
+                <span class="date-sub">{{it.weekday}}</span>
+              </div>
+              <div class="archive-meta">
+                <span class="archive-date">{{it.date}}</span>
+                <span class="archive-time">{{it.timeText}}</span>
+              </div>
+              <span class="archive-arrow">›</span>
+            </div>
+            <div class="archive-body">
+              <span class="archive-preview">{{it.preview}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </swiper-item>
+
+    <swiper-item>
+      <div class="list" style="height: {{contentHeightPx}}px; padding-bottom: calc(18rpx + {{safeBottomPx}}px);" scroll-y="true">
+        <div class="empty">
+          <div class="empty-card">
+            <span class="empty-title">家人档案</span>
+            <span class="empty-sub">先把“我”的档案做好，家人联动下一步补齐</span>
+          </div>
+        </div>
+      </div>
+    </swiper-item>
+  </swiper>
+
+  <div class="detail-mask" data-wx-if="{{detailOpen}}" data-tap="onDetailClose">
+    <div class="detail-panel" data-tap="noop">
+      <div class="detail-head">
+        <div class="detail-head-left">
+          <span class="detail-title">日终汇总</span>
+          <span class="detail-date">{{detailItem.date}}</span>
+        </div>
+        <div class="detail-actions">
+          <div class="detail-btn" data-tap="onDetailCopy">
+            <span class="detail-btn-text">复制</span>
+          </div>
+          <div class="detail-btn ghost" data-tap="onDetailClose">
+            <span class="detail-btn-text">关闭</span>
+          </div>
+        </div>
+      </div>
+      <div class="detail-body" scroll-y="true">
+        <span class="detail-text">{{detailItem.text}}</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+</template><script src="nav-data.js"></script><script src="nav-expressions.js"></script><script src="nav-runtime.js"></script><script src="../shared/nutri-interaction-feedback.js"></script></body></html>

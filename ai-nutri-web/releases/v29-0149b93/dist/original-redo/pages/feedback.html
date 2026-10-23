@@ -1,0 +1,29 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'; connect-src 'none'; media-src 'none'; object-src 'none'; base-uri 'none'"><title>AI-Nutri · feedback</title><link rel="stylesheet" href="feedback.css"><link rel="stylesheet" href="nav-tabbar.css"><link rel="stylesheet" href="nav-runtime.css"><meta name="nutri-demo-release" content="20261023-demo-r28"><link rel="stylesheet" href="../shared/nutri-interaction-feedback.css"></head><body data-original-page="feedback"><main id="original-page"></main><div id="nav-status" role="status" aria-live="polite"></div><template id="original-template"><div class="page">
+  <div class="hero">
+    <div class="hero-left">
+      <span class="title">帮助我们做得更好</span>
+      <span class="sub">请选择一个问题类型</span>
+    </div>
+    <div class="hero-right">
+      <img class="hero-icon" src="/static/邮件.png" mode="aspectFit" >
+    </div>
+  </div>
+
+  <div class="list">
+    <div
+      class="cell {{selectedKey === item.key ? 'active' : ''}}"
+      data-wx-for="{{types}}"
+      data-wx-key="key"
+      data-key="{{item.key}}"
+      data-tap="onTypeTap"
+    >
+      <span class="cell-title">{{item.label}}</span>
+      <div class="cell-right">
+        <span data-wx-if="{{selectedKey === item.key}}" class="check">✓</span>
+        <span class="arrow">›</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+</template><script src="nav-data.js"></script><script src="nav-expressions.js"></script><script src="nav-runtime.js"></script><script src="../shared/nutri-interaction-feedback.js"></script></body></html>

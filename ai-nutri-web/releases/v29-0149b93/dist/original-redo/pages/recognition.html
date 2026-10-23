@@ -1,0 +1,138 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'"><title>原小程序UI适配 · AI营养师</title><link rel="stylesheet" href="recognition.css"><link rel="stylesheet" href="adapter.css"><link rel="stylesheet" href="navigation-repair.css"><meta name="nutri-demo-release" content="20261023-demo-r28"><link rel="stylesheet" href="../shared/nutri-interaction-feedback.css"></head><body data-page="recognition"><aside class="adapt-notice">原小程序 UI 适配候选 · 演示数据 · 未接账户或健康接口<a href="book.html">营养册</a><a href="recipes.html">食谱</a></aside><main id="app"></main><template id="source-template">
+
+<div class="page">
+  <div class="bg">
+    <div class="bg-orb orb1"></div>
+    <div class="bg-orb orb2"></div>
+  </div>
+
+  <!-- 自定义导航 -->
+  <div class="nav" style="height: {{navHeightPx}}px; padding-top: {{statusBarHeightPx}}px;">
+    <div class="nav-content" style="height: {{navContentHeightPx}}px;">
+      <div class="nav-left" data-tap="goBack">
+        <span class="back-icon">‹</span>
+      </div>
+      <span class="nav-title">AI 营养识别</span>
+      <div class="nav-right" data-tap="goToBrochure">
+        <span class="nav-link">营养册</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="layout" style="padding-top: {{navHeightPx}}px;">
+    <div class="camera-section" style="height: {{cameraHeightPx}}px;">
+      <div class="camera-wrapper">
+        <div data-wx-if="{{!previewImage}}" device-position="back" flash="auto" binderror="onCameraError">
+        </div>
+        <img data-wx-if="{{previewImage}}" data-source-src="{{previewImage}}" mode="aspectFill" class="preview-image" >
+
+        <div data-wx-if="{{!previewImage && !recognizing}}" class="empty-tip">
+          <span class="t1">对准餐食</span>
+          <span class="t2">点击下方拍照识别</span>
+        </div>
+        
+        <!-- 识别中遮罩 -->
+        <div data-wx-if="{{recognizing}}" class="recognizing-overlay">
+          <span class="text">AI 正在分析这餐...</span>
+        </div>
+
+        <!-- 拍照/重拍按钮 -->
+        <div class="action-bar">
+          <button data-wx-if="{{previewImage}}" class="reset-btn" data-tap="resetPhoto">重拍</button>
+          <button class="take-photo-btn" data-tap="takePhoto" disabled="{{recognizing}}">
+            <span class="btn-text">{{previewImage ? '重新识别' : '拍照识别'}}</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="result-scroll" scroll-y style="height: {{resultScrollHeightPx}}px;" enhanced bounces="{{false}}">
+      <!-- 下半：结果区（拍照后展开） -->
+      <div data-wx-if="{{showResult}}" class="result-section">
+        <!-- 一餐概览总结 -->
+        <div class="summary-card">
+          <span class="summary-text">{{summary}}</span>
+        </div>
+
+        <!-- 热量营养轮盘 -->
+        <div data-wx-if="{{showWheel}}" class="wheel-section">
+          <div
+            carbs="{{wheelCarbs}}"
+            protein="{{wheelProtein}}"
+            fat="{{wheelFat}}"
+            fiber="{{wheelFiber}}"
+            total-calories="{{wheelCalories}}"
+            size="{{340}}"
+          ></div>
+        </div>
+
+        <!-- 主要菜品 -->
+        <div class="items-section">
+          <span class="section-title">识别到的菜品</span>
+          <div class="items-grid">
+            <div class="item" data-wx-for="{{mealItems}}" data-wx-key="name">
+              <span class="name">{{item.name}}</span>
+              <span class="portion">{{item.portion}}</span>
+              <span class="calories">{{item.calories}} 卡</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 可折叠详细信息 -->
+        <div class="fold-section">
+          <div class="fold-header" data-tap="toggleFold" data-type="nutritionFolded">
+            <span class="title">营养构成</span>
+            <span class="arrow">{{nutritionFolded ? '↓' : '↑'}}</span>
+          </div>
+          <div data-wx-if="{{!nutritionFolded}}" class="fold-content">
+            <span class="text">{{nutritionText}}</span>
+          </div>
+        </div>
+
+        <div class="fold-section">
+          <div class="fold-header" data-tap="toggleFold" data-type="notesFolded">
+            <span class="title">需要注意</span>
+            <span class="arrow">{{notesFolded ? '↓' : '↑'}}</span>
+          </div>
+          <div data-wx-if="{{!notesFolded}}" class="fold-content">
+            <span class="text">{{notesText}}</span>
+          </div>
+        </div>
+
+        <div class="fold-section">
+          <div class="fold-header" data-tap="toggleFold" data-type="impactFolded">
+            <span class="title">对当天目标的影响</span>
+            <span class="arrow">{{impactFolded ? '↓' : '↑'}}</span>
+          </div>
+          <div data-wx-if="{{!impactFolded}}" class="fold-content">
+            <span class="text">{{impactText}}</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-spacer"></div>
+    </div>
+  </div>
+
+  <div data-wx-if="{{addPromptVisible}}" class="floating-card">
+    <div class="floating-title">是否添加进营养册？</div>
+    <div class="floating-actions">
+      <div class="floating-btn ghost" data-tap="dismissAddPrompt">暂不</div>
+      <div class="floating-btn primary" data-tap="openMealPicker">添加</div>
+    </div>
+  </div>
+
+  <div data-wx-if="{{mealPickerVisible}}" class="floating-card">
+    <div class="floating-title">选择餐次</div>
+    <div class="meal-grid">
+      <div class="meal-btn" data-tap="pickMealType" data-type="BREAKFAST">早餐</div>
+      <div class="meal-btn" data-tap="pickMealType" data-type="LUNCH">午餐</div>
+      <div class="meal-btn" data-tap="pickMealType" data-type="DINNER">晚餐</div>
+    </div>
+    <div class="floating-actions">
+      <div class="floating-btn ghost" data-tap="cancelMealPicker">返回</div>
+      <div class="floating-btn ghost" data-tap="goToBrochure">去营养册</div>
+    </div>
+  </div>
+</div>
+</template><div id="status" role="status" aria-live="polite"></div><script src="book-data.js"></script><script src="data.js"></script><script src="expressions.js"></script><script src="subpages.js"></script><script src="adapter.js"></script><script src="../shared/nutri-interaction-feedback.js"></script></body></html>

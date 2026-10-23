@@ -1,0 +1,70 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'; connect-src 'none'; media-src 'none'; object-src 'none'; base-uri 'none'"><title>AI-Nutri · address-picker</title><link rel="stylesheet" href="address-picker.css"><link rel="stylesheet" href="nav-tabbar.css"><link rel="stylesheet" href="nav-runtime.css"><meta name="nutri-demo-release" content="20261023-demo-r28"><link rel="stylesheet" href="../shared/nutri-interaction-feedback.css"></head><body data-original-page="address-picker"><main id="original-page"></main><div id="nav-status" role="status" aria-live="polite"></div><template id="original-template"><div class="page">
+  <div class="map-section">
+    <map
+      id="pickMap"
+      class="map"
+      longitude="{{longitude}}"
+      latitude="{{latitude}}"
+      scale="{{scale}}"
+      show-location
+      
+    >
+      <cover-view class="topbar" style="padding-top: {{statusBarHeight}}px;">
+        <cover-view class="topbar-inner">
+          <cover-view class="nav-left" data-tap="onBack">
+            <cover-view class="nav-btn">‹</cover-view>
+          </cover-view>
+        </cover-view>
+      </cover-view>
+
+      <cover-view class="pin">
+        <cover-view class="pin-dot"></cover-view>
+        <cover-view class="pin-stick"></cover-view>
+      </cover-view>
+    </map>
+  </div>
+
+  <div class="panel">
+    <div class="pill">
+      <picker mode="region" value="{{region}}" >
+        <div class="pill-left">
+          <span class="pill-left-text">{{regionShort}}</span>
+          <span class="pill-left-arrow">›</span>
+        </div>
+      </picker>
+      <div class="pill-divider"></div>
+      <div class="pill-right">
+        <input readonly aria-description="账户未连接，此预览不收集个人或健康资料"
+          class="pill-input"
+          placeholder="搜索路名/小区/写字楼/学校等"
+          placeholder-class="pill-placeholder"
+          value="{{keyword}}"
+          data-input="onKeywordInput"
+        >
+      </div>
+    </div>
+
+    <div class="nearby-head">
+      <span class="nearby-title">附近地点</span>
+    </div>
+
+    <div class="nearby-list" scroll-y>
+      <div
+        class="nearby-item {{selectedId === item.id ? 'active' : ''}}"
+        data-wx-for="{{filteredLocations}}"
+        data-wx-key="id"
+        data-id="{{item.id}}"
+        data-tap="onPickLocation"
+      >
+        <div class="nearby-main">
+          <span class="nearby-name">{{item.name}}</span>
+          <span class="nearby-addr">{{item.address}}</span>
+        </div>
+        <span class="nearby-check" data-wx-if="{{selectedId === item.id}}">✓</span>
+      </div>
+    </div>
+
+    <button class="submit-btn" disabled="{{selectedId === ''}}" data-tap="onAddAddress">添加配送地址</button>
+  </div>
+</div>
+</template><script src="nav-data.js"></script><script src="nav-expressions.js"></script><script src="nav-runtime.js"></script><script src="../shared/nutri-interaction-feedback.js"></script></body></html>

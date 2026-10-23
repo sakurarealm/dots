@@ -1,0 +1,113 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'; connect-src 'none'; media-src 'none'; object-src 'none'; base-uri 'none'"><title>AI-Nutri · 健康空间</title><link rel="stylesheet" href="digitalHuman.css"><link rel="stylesheet" href="nav-tabbar.css"><link rel="stylesheet" href="nav-runtime.css"><meta name="nutri-demo-release" content="20261023-demo-r28"><link rel="stylesheet" href="../shared/nutri-interaction-feedback.css"></head><body data-original-page="digitalHuman"><main id="original-page"></main><div id="nav-status" role="status" aria-live="polite"></div><template id="original-template">
+<div class="page">
+  <div class="bg">
+    <div class="bg-orb orb1"></div>
+    <div class="bg-orb orb2"></div>
+  </div>
+
+  <div class="nav" style="padding-top: {{navPaddingTopPx}}px; padding-right: {{navRightPaddingPx}}px; height: {{navHeightPx}}px;">
+    <div class="nav-left">
+      <span class="title">健康空间</span>
+      <span class="sub">{{dateLabel}} · {{presenceLine}}</span>
+    </div>
+    <div class="nav-right">
+      <div class="ai-btn" data-tap="goAiAgent">问AI</div>
+    </div>
+  </div>
+
+  <div class="content" style="padding-top: {{contentPaddingTopPx}}px;">
+    <div class="tab-switch">
+      <div class="tab-item {{viewIndex === 0 ? 'active' : ''}}" data-index="0" data-tap="onViewSwitch">今天</div>
+      <div class="tab-item {{viewIndex === 1 ? 'active' : ''}}" data-index="1" data-tap="onViewSwitch">本周</div>
+      <div class="tab-item {{viewIndex === 2 ? 'active' : ''}}" data-index="2" data-tap="onViewSwitch">人群</div>
+      <div class="underline" style="transform: translateX({{viewIndex * 100}}%);"></div>
+    </div>
+
+    <div class="hero-section">
+      <span class="label">整体完成率</span>
+      <div class="value-wrapper">
+        <span class="value">{{completionRate}}</span>
+        <span class="percent">%</span>
+      </div>
+      <span class="hint">{{completionHint}}</span>
+      <div class="motto-wrapper {{showMotto ? 'visible' : ''}}">
+        <span class="motto">{{currentMotto}}</span>
+      </div>
+    </div>
+
+    <div class="progress-bar">
+      <div class="fill" style="width: {{completionRate}}%;"></div>
+    </div>
+    <div class="progress-labels">
+      <span class="left">{{barLeft}}</span>
+      <span class="right">{{barRight}}</span>
+    </div>
+
+    <div class="metrics-grid">
+      <div class="metric-item">
+        <span class="value">{{streakDays}}</span>
+        <span class="label">连续达标天数</span>
+      </div>
+      <div class="metric-item">
+        <span class="value">{{warmScore}}</span>
+        <span class="label">温柔指数</span>
+      </div>
+    </div>
+
+    <div class="achievements-section">
+      <span class="title">大家今天的温柔瞬间</span>
+      <div class="achievements-scroll" scroll-x enhanced show-scrollbar="false">
+        <div class="achievements-list">
+          <div class="achievement-item" data-wx-for="{{achievements}}" data-wx-key="id">
+            <span class="icon">{{item.icon}}</span>
+            <span class="text">{{item.text}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pulse-section">
+      <span class="title">陪伴脉搏</span>
+      <span class="sub">{{pulseSubtitle}}</span>
+      <div class="pulse-grid {{pulseAnimate ? 'animate' : ''}}">
+        <div class="item">
+          <span class="value">{{pulse.reached}}</span>
+          <span class="label">今日达标人数</span>
+        </div>
+        <div class="item">
+          <span class="value">{{pulse.stepsAvg}}</span>
+          <span class="label">平均活跃度</span>
+        </div>
+        <div class="item">
+          <span class="value">{{pulse.lightMealRate}}%</span>
+          <span class="label">轻食比例</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline-section">
+      <span class="title">健康时间轴</span>
+      <span class="sub">系统与 AI 为你和大家记录的温柔瞬间</span>
+      <div class="timeline-list">
+        <div class="card {{item.badge === 'AI' ? 'ai' : item.badge === '系统' ? 'system' : 'anon'}}" 
+              data-wx-for="{{timeline}}" data-wx-key="id" data-id="{{item.id}}" data-tap="onTimelineTap">
+          <div class="header">
+            <span class="time">{{item.time}}</span>
+            <span class="badge">{{item.badge}}</span>
+          </div>
+          <span class="title">{{item.title}}</span>
+          <span class="desc">{{item.desc}}</span>
+          <div class="kv-list" data-wx-if="{{item.kv && item.kv.length}}">
+            <div class="kv" data-wx-for="{{item.kv}}" data-wx-key="k">
+              <span class="k">{{item.k}}：</span>
+              <span class="v">{{item.v}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="original-bottom-nav" aria-label="主要导航"></nav>
+</div>
+</template><script src="nav-data.js"></script><script src="nav-expressions.js"></script><script src="nav-runtime.js"></script><script src="../shared/nutri-interaction-feedback.js"></script></body></html>

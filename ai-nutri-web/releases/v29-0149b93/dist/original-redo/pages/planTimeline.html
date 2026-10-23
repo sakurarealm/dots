@@ -1,0 +1,89 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'; connect-src 'none'; media-src 'none'; object-src 'none'; base-uri 'none'"><title>AI-Nutri · planTimeline</title><link rel="stylesheet" href="planTimeline.css"><link rel="stylesheet" href="nav-tabbar.css"><link rel="stylesheet" href="nav-runtime.css"><meta name="nutri-demo-release" content="20261023-demo-r28"><link rel="stylesheet" href="../shared/nutri-interaction-feedback.css"></head><body data-original-page="planTimeline"><main id="original-page"></main><div id="nav-status" role="status" aria-live="polite"></div><template id="original-template"><div class="page">
+  <div class="bg">
+    <div class="bg-orb orb1"></div>
+    <div class="bg-orb orb2"></div>
+    <div class="bg-orb orb3"></div>
+  </div>
+
+  <div class="header">
+    <div class="title-row">
+      <span class="title">今日计划表</span>
+      <span class="date">{{dateText}}</span>
+    </div>
+  </div>
+
+  <div
+    class="list"
+    scroll-y
+    enhanced="{{true}}"
+    bounces="{{false}}"
+    show-scrollbar="{{false}}"
+    refresher-enabled="{{false}}"
+  >
+    <div class="list-inner">
+      <div class="summary-card">
+        <div class="summary-head">
+          <span class="summary-title">今日概览</span>
+        </div>
+        <div data-wx-if="{{planSummary && planSummary.length}}" class="summary-chips">
+          <div
+            data-wx-for="{{planSummary}}"
+            data-wx-key="*this"
+            class="summary-chip"
+            data-tap="onSummaryChipTap"
+            data-text="{{item}}"
+          >
+            <span class="summary-chip-text">{{item}}</span>
+          </div>
+        </div>
+        <span data-wx-else class="summary-empty">暂无可展示的今日计划</span>
+      </div>
+
+      <div data-wx-if="{{!items || !items.length}}" class="empty">
+        <span class="empty-text">暂无计划</span>
+        <button class="refresh-btn" data-tap="reload">刷新</button>
+      </div>
+
+      <div data-wx-if="{{items && items.length}}" class="timeline-section">
+        <span class="timeline-title">今日时间轴</span>
+        <span class="timeline-sub">把今天的安排串起来，看起来更有节奏</span>
+        <div class="timeline-list">
+          <div
+            class="timeline-item {{it.kind === 'SUMMARY' ? 'ai' : it.kindLabel ? 'system' : 'anon'}}"
+            data-wx-for="{{items}}"
+            data-wx-key="rowKey"
+            data-wx-for-item="it"
+          >
+            <div class="card {{it.kind === 'SUMMARY' ? 'ai' : it.kindLabel ? 'system' : 'anon'}}">
+              <div class="card-header">
+                <span class="card-time">{{it.time}}</span>
+                <span class="card-badge">{{it.kindLabel || '系统'}}</span>
+                <span class="card-status {{it.statusClass}}">{{it.statusLabel}}</span>
+              </div>
+              <span class="card-title">{{it.title}}</span>
+              <span class="card-desc">{{it.subTitle || ' '}}</span>
+              <div class="kv-list">
+                <div class="kv">
+                  <span class="k">状态：</span>
+                  <span class="v">{{it.statusLabel}}</span>
+                </div>
+                <div data-wx-if="{{it.decisionKey}}" class="kv">
+                  <span class="k">编号：</span>
+                  <span class="v">{{it.decisionKey}}</span>
+                </div>
+              </div>
+              <div data-wx-if="{{it.showActions}}" class="card-actions">
+                <button data-wx-if="{{it.showComplete}}" class="card-btn primary" data-tap="onComplete" data-decisionkey="{{it.decisionKey}}">完成</button>
+                <button data-wx-if="{{it.showSkipToday}}" class="card-btn" data-tap="onSkipToday" data-decisionkey="{{it.decisionKey}}">跳过</button>
+                <button data-wx-if="{{it.showDisable}}" class="card-btn danger" data-tap="onDisable" data-decisionkey="{{it.decisionKey}}">关闭</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-space"></div>
+    </div>
+  </div>
+</div>
+</template><script src="nav-data.js"></script><script src="nav-expressions.js"></script><script src="nav-runtime.js"></script><script src="../shared/nutri-interaction-feedback.js"></script></body></html>

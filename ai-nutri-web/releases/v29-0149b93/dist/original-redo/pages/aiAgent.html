@@ -1,0 +1,523 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,interactive-widget=resizes-content"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' blob:; connect-src 'none'; media-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'"><title>AI-Nutri · 营养师陪伴</title><link rel="stylesheet" href="guided-home.css"><link rel="stylesheet" href="health-demo-chat.css"><link rel="stylesheet" href="../shared/nutri-registration-entry-v3.css"><link rel="stylesheet" href="../shared/nutri-mobile-shell-v17.css"><meta name="nutri-demo-release" content="20261023-demo-r28"><link rel="stylesheet" href="../shared/nutri-interaction-feedback.css"></head><body data-nutri-shell="aiAgent" data-original-page="aiAgent" data-registration-bundle="registration-web-v3-c1"><aside class="nutri-demo-label" role="note"><a href="aiAgent.html" aria-label="返回营养助手">‹ 首页</a><span>合成演示 · AI 未连接</span><a href="settings.html">说明</a><noscript>请启用 JavaScript；未启用时不能保存。</noscript></aside><div id="original-page"></div><div id="nav-status" role="status" aria-live="polite"></div><template id="original-template"><!-- pages/aiAgent/aiAgent.wxml -->
+<div class="page">
+  <!-- 状态栏 -->
+  <div class="status-bar" style="height: {{statusBarHeight}}px;"></div>
+
+  <!-- AI分析动画容器 -->
+  <div class="analysis-overlay" data-wx-if="{{showAnalysisAnimation}}">
+    <div class="analysis-content">
+      <div class="analysis-icon"></div>
+      <div class="analysis-text">{{analysisText}}</div>
+    </div>
+  </div>
+
+  <!-- 数字人常驻头部 -->
+  <div class="header">
+    <div class="digital-human-section">
+      <div class="dh-avatar-container" data-tap="onStartAIPhoneCall">
+        <div class="dh-ring dh-ring-1"></div>
+        <div class="dh-ring dh-ring-2"></div>
+        <img class="dh-avatar" src="{{dhAvatarUrl}}" mode="aspectFill" >
+        <div class="dh-status-dot"></div>
+      </div>
+      <div class="dh-info" >
+        <div class="dh-name-row">
+          <span class="dh-name">AI 营养师</span>
+          <span class="dh-badge">在线</span>
+        </div>
+        <span class="dh-greeting">{{dhGreeting}}</span>
+      </div>
+    </div>
+    <div class="header-actions">
+      <div class="header-action-chip" data-tap="navigateToPlanTimeline">
+        <img class="header-action-icon" src="/static/aiAgentPage/clock.svg" mode="aspectFit">
+      </div>
+      <div class="header-action-chip" data-tap="onStartAIPhoneCall">
+        <img class="header-action-icon" src="/static/aiAgentPage/phone.svg" mode="aspectFit">
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="main-container"
+    scroll-y
+    scroll-into-view="{{scrollIntoView}}"
+    scroll-with-animation="{{scrollWithAnimation}}"
+    style="padding-bottom: {{contentBottomPaddingPx}}px;"
+    enhanced="{{true}}"
+    bounces="{{true}}"
+    show-scrollbar="{{false}}"
+    upper-threshold="{{80}}"
+    
+    
+    refresher-enabled="{{true}}"
+    refresher-threshold="{{100}}"
+    refresher-default-style="none"
+    refresher-background="#ffffff"
+    
+    refresher-triggered="{{refresherTriggered}}"
+  >
+    <div class="timeline-wrapper">
+      <div class="top-load-indicator">
+        <div data-wx-if="{{loadingOlderHistory}}" class="top-load-pill">
+          <div class="top-load-spinner"></div>
+          <span class="top-load-text">正在加载更早消息…</span>
+        </div>
+        <div data-wx-elif="{{historyHasMore === false}}" class="top-load-pill ghost">
+          <span class="top-load-text">没有更多历史了</span>
+        </div>
+      </div>
+      <div class="top-buffer"></div>
+      <div data-wx-for="{{renderTimeline}}" data-wx-key="id" data-wx-for-item="m">
+        <div class="timeline-item {{m._justLoaded ? 'just-loaded' : ''}}" id="msg-{{m.id}}">
+          <div data-wx-if="{{m.systemMessageType == 'CHAT' || m.systemMessageType == 'PROACTIVE_INQUIRY'}}" class="message-item">
+            <div data-wx-if="{{m.role == 'assistant' || m.role == 'system'}}">
+              <div class="message-row">
+                <img class="message-avatar" src="{{m.avatar}}" mode="aspectFill">
+                <div class="message-bubble ai-bubble">
+                  <div data-wx-if="{{m.pending}}" class="pending-bubble">
+                    <div data-wx-if="{{m.pendingKind == 'summary'}}" class="pending-summary">
+                      <span class="pending-summary-title">正在生成日终汇总</span>
+                      <div class="summary-progress-track">
+                        <div class="summary-progress-bar"></div>
+                      </div>
+                    </div>
+                    <div data-wx-else class="typing-dots">
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                      <div class="dot"></div>
+                    </div>
+                  </div>
+                  <span data-wx-else class="message-text">{{m.text}}</span>
+                  <span class="message-time">{{m.timeText}}</span>
+                  <div data-wx-if="{{!m.pending && !m.typing}}" class="bubble-action-divider"></div>
+                  <div data-wx-if="{{!m.pending && !m.typing}}" class="bubble-action-bar">
+                    <div class="bubble-action-left">
+                      <div class="bubble-action-btn" data-tap="onBubbleCopy" data-id="{{m.id}}">
+                        <img class="bubble-action-icon" src="{{chatActionIcons.copy}}" mode="aspectFit">
+                      </div>
+                      <div class="bubble-action-btn" data-tap="onBubbleSpeak" data-id="{{m.id}}">
+                        <img data-wx-if="{{!(ttsActiveId == m.id && ttsActivePhase != '')}}" class="bubble-action-icon" src="{{chatActionIcons.tts}}" mode="aspectFit">
+                        <div data-wx-else class="bubble-action-spinner"></div>
+                      </div>
+                    </div>
+                    <div class="bubble-action-right">
+                      <button class="bubble-action-btn bubble-action-share" open-type="share" data-id="{{m.id}}">
+                        <img class="bubble-action-icon" src="{{chatActionIcons.share}}" mode="aspectFit">
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-wx-if="{{m.id == quickReplyAnchorId && quickReplies && quickReplies.length}}" class="quick-reply-row">
+                <div class="quick-reply-spacer"></div>
+                <div class="quick-reply-list">
+                  <div
+                    data-wx-for="{{quickReplies}}"
+                    data-wx-key="*this"
+                    data-wx-for-item="q"
+                    class="quick-reply-chip"
+                    data-tap="onQuickReplyTap"
+                    data-text="{{q}}"
+                  >
+                    <span class="quick-reply-text">{{q}}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-wx-else class="message-row user-row">
+              <div class="message-bubble user-bubble">
+                <span class="message-text">{{m.text}}</span>
+                <span class="message-time">{{m.timeText}}</span>
+              </div>
+              <img class="message-avatar" src="{{m.avatar}}" mode="aspectFill">
+            </div>
+          </div>
+
+          <div data-wx-elif="{{m.systemMessageType == 'CAPABILITY_GUIDE'}}" class="sys-card cap-card">
+            <div class="sys-head">
+              <span class="sys-title">可做到，但当前未开启</span>
+              <span class="sys-time">{{m.timeText}}</span>
+            </div>
+            <span class="sys-body">{{m.text}}</span>
+            <div class="sys-actions">
+              <button class="sys-btn" data-tap="onOpenCapabilitySettings" data-capkey="{{m.snapshot.recognizedIntent.requiredCapability}}">去开启</button>
+              <button class="sys-btn ghost" data-tap="onShowSnapshot" data-id="{{m.id}}">查看原因</button>
+              <button class="sys-btn ghost" data-tap="onShowExplanation" data-id="{{m.id}}">查看元信息</button>
+            </div>
+          </div>
+
+          <div data-wx-elif="{{m.systemMessageType == 'ONBOARDING_GATE'}}" class="sys-card gate-card">
+            <div class="sys-head">
+              <span class="sys-title">开启系统能力（推荐）</span>
+              <span class="sys-time">{{m.timeText}}</span>
+            </div>
+            <span class="sys-body">{{m.text}}</span>
+            <div class="gate-meta">
+              <span class="gate-pill pill-{{m.statusPhase}}">{{m.statusText}}</span>
+              <span class="gate-sub">将开启：系统主动提醒、日终总结</span>
+            </div>
+            <div class="sys-actions">
+              <button data-wx-if="{{m.statusPhase != 'ENABLED'}}" class="sys-btn" data-tap="onEnableOnboardingGateTap">一键开启</button>
+              <button data-wx-if="{{m.statusPhase != 'ENABLED'}}" class="sys-btn ghost" data-tap="onSkipOnboardingGateTap">稍后再说</button>
+              <button data-wx-else class="sys-btn ghost" data-tap="onSkipOnboardingGateTap">继续</button>
+            </div>
+          </div>
+
+          <div data-wx-elif="{{m.systemMessageType == 'FEATURE_GUIDE'}}" class="sys-card feature-card">
+            <div class="sys-head">
+              <span class="sys-title">试试这三个能力</span>
+              <span class="sys-time">{{m.timeText}}</span>
+            </div>
+            <div class="feature-list">
+              <div data-wx-for="{{m.features}}" data-wx-key="title" data-wx-for-item="f">
+                <div class="feature-item">
+                  <div class="feature-top">
+                    <span class="feature-title">{{f.title}}</span>
+                    <span class="feature-desc">{{f.desc}}</span>
+                  </div>
+                  <div class="feature-example">
+                    <span class="feature-example-label">示例</span>
+                    <span class="feature-example-text">{{f.example}}</span>
+                  </div>
+                  <div class="feature-actions">
+                    <button data-wx-if="{{f.action == 'photo'}}" class="sys-btn ghost feature-btn" data-tap="onImageUpload">去拍照</button>
+                    <button data-wx-else class="sys-btn ghost feature-btn" data-tap="onFillFeatureExample" data-text="{{f.example}}">填入输入框</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div data-wx-elif="{{m.systemMessageType == 'PLAN_FEEDBACK'}}" class="sys-card plan-card">
+            <div class="sys-head">
+              <span class="sys-title">已记录你的安排</span>
+              <span class="sys-time">{{m.timeText}}</span>
+            </div>
+            <span class="sys-body">{{m.statusText}}</span>
+            <span data-wx-if="{{m.subject}}" class="image-sub">{{m.subject}}</span>
+            <span data-wx-if="{{m.timeSlot}}" class="image-sub">{{m.timeSlot}}</span>
+            <div class="sys-actions">
+              <button class="sys-btn ghost" data-tap="onShowSnapshot" data-id="{{m.id}}">查看记录</button>
+              <button class="sys-btn ghost" data-tap="onShowExplanation" data-id="{{m.id}}">查看元信息</button>
+            </div>
+          </div>
+
+          <div data-wx-elif="{{m.systemMessageType == 'REMINDER'}}" class="sys-card reminder-card reminder-{{m.reminderTone}}">
+            <div class="reminder-head">
+              <div class="reminder-head-left">
+                <div class="reminder-icon">
+                  <img class="reminder-icon-img" src="{{m.reminderIcon}}" mode="aspectFit">
+                </div>
+                <div class="reminder-head-text">
+                  <div class="reminder-title-row">
+                    <span class="reminder-title">{{m.reminderTitle || '系统提醒'}}</span>
+                    <span class="reminder-pill pill-{{m.statusPhase}}">{{m.reminderStatusPill || '提醒'}}</span>
+                  </div>
+                  <span data-wx-if="{{m.reminderSub}}" class="reminder-sub">{{m.reminderSub}}</span>
+                </div>
+              </div>
+              <span class="reminder-time">{{m.timeText}}</span>
+            </div>
+
+            <span data-wx-if="{{m.text}}" class="reminder-body">{{m.text}}</span>
+            <span data-wx-elif="{{m.statusText}}" class="reminder-body">{{m.statusText}}</span>
+
+            <div class="sys-actions reminder-actions">
+              <button data-wx-if="{{m.canComplete}}" class="sys-btn" data-tap="onReminderComplete" data-decisionkey="{{m.decisionKey}}">{{m.primaryActionLabel || '已完成'}}</button>
+              <button data-wx-if="{{m.canComplete}}" class="sys-btn ghost" data-tap="onReminderSkipToday" data-decisionkey="{{m.decisionKey}}">今天不需要</button>
+              <button data-wx-if="{{m.canComplete}}" class="sys-btn ghost" data-tap="onReminderDisable" data-decisionkey="{{m.decisionKey}}">不再提醒</button>
+              <button class="sys-btn ghost" data-tap="onShowExplanation" data-id="{{m.id}}">查看元信息</button>
+            </div>
+          </div>
+
+          <div data-wx-elif="{{m.systemMessageType == 'SYSTEM_ACK'}}" class="sys-card ack-card">
+            <div class="sys-head">
+              <span class="sys-title">系统提示</span>
+              <span class="sys-time">{{m.timeText}}</span>
+            </div>
+            <span class="sys-body">{{m.text}}</span>
+            <div class="sys-actions">
+              <button class="sys-btn ghost" data-tap="onShowExplanation" data-id="{{m.id}}">查看元信息</button>
+            </div>
+          </div>
+
+          <div data-wx-elif="{{m.systemMessageType == 'SUMMARY'}}" class="sys-card summary-card2">
+            <div class="summary-head">
+              <div class="summary-head-left">
+                <div class="summary-icon">
+                  <img class="summary-icon-img" src="/static/aiAgentPage/clock.svg" mode="aspectFit">
+                </div>
+                <div class="summary-head-text">
+                  <span class="summary-title">日终汇总</span>
+                  <span class="summary-sub">系统复盘</span>
+                </div>
+              </div>
+              <span class="sys-time">{{m.timeText}}</span>
+            </div>
+            <span class="sys-body">{{m.text}}</span>
+            <div class="sys-actions">
+              <button class="sys-btn ghost" data-tap="onBubbleCopy" data-id="{{m.id}}">复制</button>
+              <button class="sys-btn ghost" open-type="share" data-id="{{m.id}}">分享</button>
+              <button class="sys-btn ghost" data-tap="onShowExplanation" data-id="{{m.id}}">查看元信息</button>
+            </div>
+          </div>
+
+          <div data-wx-elif="{{m.systemMessageType == 'FACT_RECORD'}}" class="sys-card meal-card">
+            <div class="meal-head">
+              <div class="meal-head-left">
+                <div class="meal-icon">
+                  <img class="meal-icon-img" src="/static/aiAgentPage/camera.svg" mode="aspectFit">
+                </div>
+                <div class="meal-head-text">
+                  <span class="meal-title">记录饮食</span>
+                  <span class="meal-sub">拍照识别并自动写入营养册</span>
+                </div>
+              </div>
+              <span class="meal-time">{{m.timeText}}</span>
+            </div>
+            <div class="sys-actions meal-actions">
+              <button class="sys-btn" data-tap="onImageUpload">拍照识别</button>
+              <button class="sys-btn ghost" data-tap="onGoBrochure">去营养册</button>
+            </div>
+          </div>
+
+          <div data-wx-elif="{{m.systemMessageType == 'IMAGE_EVENT'}}" class="sys-card image-card">
+            <div class="sys-head">
+              <span class="sys-time">{{m.timeText}}</span>
+            </div>
+            <div class="image-status">
+              <img class="message-avatar" src="/images/icon_scan.png" mode="aspectFit">
+            </div>
+          </div>
+
+          <div data-wx-elif="{{m.systemMessageType == 'IMAGE_ANALYSIS'}}" class="sys-card analysis-card">
+            <div class="analysis-head">
+              <div class="analysis-head-left">
+                <div class="analysis-icon">
+                  <img class="analysis-icon-img" src="/images/icon_scan.png" mode="aspectFit">
+                </div>
+                <div class="analysis-head-text">
+                  <span class="analysis-title">影像识别完成</span>
+                  <span class="analysis-sub">{{m.timeText}}</span>
+                </div>
+              </div>
+              <div class="analysis-badges">
+                <span class="badge {{m.brochureRecorded ? 'ok' : 'pending'}}">{{m.brochureRecorded ? '营养册已写入' : '营养册写入中'}}</span>
+                <span class="badge {{m.recorded ? 'ok' : 'pending'}}">{{m.recorded ? '健康记录已写入' : '健康记录写入中'}}</span>
+              </div>
+            </div>
+            <div class="fact-items">
+              <div data-wx-for="{{(m.analysisItems && m.analysisItems.length) ? m.analysisItems : (m.payload && m.payload.items ? m.payload.items : [])}}" data-wx-key="name" data-wx-for-item="food">
+                <div class="fact-item">
+                  <span class="fact-name">{{food.name}}</span>
+                  <span class="fact-meta">{{food.calorieText || food.calorie}}</span>
+                  <span class="fact-meta">{{food.probabilityText || food.probability}}</span>
+                </div>
+              </div>
+            </div>
+            <div class="sys-actions analysis-actions">
+              <button class="sys-btn ghost" data-tap="onAskImageAnalysis" data-id="{{m.id}}">让 AI 分析</button>
+              <button class="sys-btn ghost" data-tap="onGoBrochure">去营养册</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 自定义tabbar -->
+  <nav class="original-bottom-nav" aria-label="主要导航"></nav>
+
+  <!-- 输入栏 -->
+  <div class="input-bar" style="bottom: {{inputBarBottomPx}}px;" data-wx-if="{{!isCalling}}">
+    <!-- 每日总结和操作按钮 -->
+    <div class="top-actions-bar">
+      <!-- 历史记录和电话按钮 -->
+      <div class="top-actions-left">
+        <div class="top-action-chip" data-tap="navigateToPlanTimeline">
+          <img class="top-action-icon" src="/static/aiAgentPage/clock.svg" mode="aspectFit">
+          <div class="top-action-text">
+            <span class="top-action-title">历史记录</span>
+          </div>
+        </div>
+        <div class="top-action-chip" data-tap="onStartAIPhoneCall">
+          <img class="top-action-icon" src="/static/aiAgentPage/phone.svg" mode="aspectFit">
+          <div class="top-action-text">
+            <span class="top-action-title">AI电话</span>
+          </div>
+        </div>
+      </div>
+      <!-- 每日总结 -->
+      <div data-wx-if="{{managerActions && managerActions.length}}" class="manager-actions-bar">
+        <div class="manager-scroll" scroll-x="true" show-scrollbar="{{false}}">
+          <div class="manager-list">
+            <div
+              data-wx-for="{{managerActions}}"
+              data-wx-key="id"
+              class="manager-chip"
+              data-tap="onManagerActionTap"
+              data-id="{{item.id}}"
+            >
+              <img data-wx-if="{{item.icon}}" class="manager-icon" src="{{item.icon}}" mode="aspectFit">
+              <div class="manager-text">
+                <span class="manager-title">{{item.title}}</span>
+                <span data-wx-if="{{item.subtitle}}" class="manager-sub">{{item.subtitle}}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="input-wrapper">
+      <!-- 附件按钮 -->
+      <button 
+        type="camera" 
+        icon="/static/aiAgentPage/camera.svg"
+        data-tap="onImageUpload"
+      ></button>
+      <!-- 万用键智能建议 -->
+      <div class="suggestions-area" data-wx-if="{{showSmartSuggestions}}">
+        <div
+          visible="{{showSmartSuggestions}}"
+          scenario="{{suggestionScenario}}"
+          last-ai-text="{{lastAiText}}"
+          user-has-messaged="{{userHasMessaged}}"
+          
+          
+        ></div>
+      </div>
+
+      <!-- 输入框 -->
+      <div class="input-area" style="padding-bottom: {{keyboardHeight + safeAreaBottom}}px;">
+        <div class="input-area-top-row">
+          <div data-wx-if="{{isVoiceMode}}" class="voice-hold-btn {{isHoldingVoice ? 'holding' : ''}}"   >
+            <div data-wx-if="{{isHoldingVoice}}" class="voice-ripple-container">
+              <div class="voice-ripple r1"></div>
+              <div class="voice-ripple r2"></div>
+              <div class="voice-ripple r3"></div>
+            </div>
+            <span class="voice-hold-text">{{isHoldingVoice ? '松开结束' : '按住 说话'}}</span>
+            <span data-wx-if="{{isHoldingVoice}}" class="voice-hold-hint">{{voiceRecordDuration}}s</span>
+          </div>
+          <textarea
+            data-wx-else
+            class="input-field"
+            placeholder="输入消息..."
+            value="{{inputText}}"
+            data-input="onInputChange"
+            
+            auto-height
+            maxlength="500"
+            show-confirm-bar="{{false}}"
+            cursor-spacing="10"
+          ></textarea>
+        </div>
+      </div>
+      
+      <!-- 右侧按钮 -->
+      <div class="input-actions">
+        <div data-wx-if="{{!isVoiceMode && inputText && inputText.length > 0}}">
+          <button 
+            type="send" 
+            icon="/static/aiAgentPage/inputButton.svg"
+            data-tap="onSendMessage"
+          ></button>
+        </div>
+        <div data-wx-else>
+          <button 
+            type="voice" 
+            icon="{{isVoiceMode ? '/static/aiAgentPage/键盘.svg' : '/static/aiAgentPage/语音.svg'}}"
+            data-tap="onToggleVoiceMode"
+          ></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- AI电话遮罩层 -->
+  <div data-wx-if="{{isCalling}}" class="call-overlay" style="padding-top: {{statusBarHeight + 16}}px;">
+    <div class="call-top">
+      <span class="call-title">AI电话</span>
+      <span class="call-status">{{callStatus === 'connecting' ? '正在接通…' : '已接通'}}</span>
+      <span data-wx-if="{{callStatus === 'connected'}}" class="call-timer">{{callDurationStr}}</span>
+      <div data-wx-if="{{callStatus === 'connecting'}}" class="connecting-loader"><div class="loader"></div></div>
+    </div>
+
+    <!-- 将频谱移至通话时长下方，单排反向彩色，彻底去除外边框并居中贴近时长 -->
+    <div class="spectrum">
+      <div class="bars user-bars invert">
+        <div data-wx-for="{{userSpectrum}}" data-wx-key="index" data-wx-for-index="i">
+          <div class="bar" style="transform: scaleY({{item/80}}); background: {{userColors[i]}};"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="call-center">
+      <div class="avatar-container {{(isAISpeaking || isUserSpeaking) ? 'speaking' : ''}}">
+        <div class="ring ring-1"></div>
+        <div class="ring ring-2"></div>
+        <div class="ring ring-3"></div>
+        <img class="call-avatar" src="{{callAvatarImageUrl}}" mode="aspectFill">
+        <video
+          id="callAvatarVideo"
+          class="call-avatar-video"
+          src="{{callAvatarVideoUrl}}"
+          autoplay="{{true}}"
+          loop="{{true}}"
+          muted="{{true}}"
+          controls="{{false}}"
+          show-center-play-btn="{{false}}"
+          show-fullscreen-btn="{{false}}"
+          show-mute-btn="{{false}}"
+          object-fit="cover"
+          plays-inline="{{true}}"
+          enable-play-gesture="{{false}}"
+        ></video>
+      </div>
+      <!-- 头像与底部按钮之间留空白 -->
+      <div class="center-spacer">
+        <div data-wx-if="{{isVoiceOnboarding}}" class="voice-onboarding-progress">
+          <div class="vob-steps-row">
+            <span class="vob-step-label">{{voiceOnboardingStepLabel}}</span>
+            <span class="vob-step-counter">{{voiceOnboardingProgress}}/{{voiceOnboardingTotal}}</span>
+          </div>
+          <div class="vob-bar-track">
+            <div class="vob-bar-fill" style="width: {{voiceOnboardingProgress / voiceOnboardingTotal * 100}}%"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 工作流入口：AI超级入口，联动其他页面 -->
+      <div class="workflow-ribbon" data-wx-if="{{callStatus === 'connected'}}">
+        <div data-wx-for="{{workflowItems}}" data-wx-key="index" data-wx-for-index="i">
+          <div class="workflow-chip" data-tap="onChipTap" data-url="{{item.url}}" style="animation-delay: {{(i % 3) * 0.2}}s;">
+            <img class="chip-icon" src="{{item.icon}}" mode="aspectFit">
+            <div class="chip-text">
+              <span class="chip-title">{{item.title}}</span>
+              <span class="chip-sub">{{item.subtitle}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="call-bottom" style="padding-bottom: {{safeAreaBottom + 24}}px;">
+      <div class="control-bar">
+        <div class="control-btn glass-btn mic-btn {{isMicMuted ? 'off' : 'on'}}" data-tap="toggleMicMute">
+          <img class="control-icon" src="/static/aiAgentPage/语音.svg" mode="aspectFit">
+          <div data-wx-if="{{isMicMuted}}" class="slash"></div>
+        </div>
+        <div class="hangup-btn glass-btn" data-tap="endAIPhoneCall">
+          <img class="hangup-icon" src="/static/aiAgentPage/hangup.svg" mode="aspectFit">
+        </div>
+        <div class="control-btn glass-btn speaker-btn {{isSpeakerOn ? 'on' : 'off'}}" data-tap="toggleSpeaker">
+          <img class="control-icon" src="/static/aiAgentPage/speaker.svg" mode="aspectFit">
+          <div data-wx-if="{{!isSpeakerOn}}" class="slash"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</template><script src="../shared/nutri-demo-core-registration-v3.js"></script><script src="../shared/nutri-registration-kernel-v1.js"></script><script src="health-demo-model.js"></script><script src="commerce-catalog.js"></script><script src="commerce-model-registration-v3.js"></script><script src="../shared/nutri-registration-store-v1.js"></script><script src="../shared/nutri-registration-entry-v3.js"></script><script src="../shared/llm-contract.js"></script><script src="../shared/llm-status.js"></script><script src="health-demo-ui-registration-v3.js"></script><nav class="nutri-primary-nav" data-shell-nav aria-label="主要页面"><a href="aiAgent.html" aria-current="page">助手</a><a href="diet.html">饮食</a><a href="shop.html">商城</a><a href="health-calendar.html">记录</a><a href="profile.html">我的</a></nav><script src="../shared/nutri-mobile-shell-v17.js"></script><script src="../shared/nutri-interaction-feedback.js"></script></body></html>
