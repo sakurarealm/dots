@@ -1,0 +1,49 @@
+/* Reference 15 home only. Existing chat, keyboard, dialog and 480px shell remain owners. */
+body[data-nutri-shell=aiAgent] .nutri-original-ai[data-hd-view=home]>.header,
+body[data-nutri-shell=aiAgent] .nutri-original-ai[data-hd-view=home]>.hd-demo-strip,
+body[data-nutri-shell=aiAgent] .nutri-original-ai[data-hd-view=home] .top-actions-bar{display:none}
+body[data-nutri-shell=aiAgent] .ai-home15{padding:20px 16px 10px;color:#293139;overflow-wrap:anywhere}
+.ai-home15 *{box-sizing:border-box}
+.ai-home15-heading{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.ai-home15-heading h1{margin:0;font-family:Georgia,'Songti SC','SimSun',serif;font-size:32px;line-height:1.2;letter-spacing:-1px;color:#20282d}
+.ai-home15-heading p{margin:5px 0 0;font-size:15px;color:#5d6366}
+.ai-home15-badge{flex:none;min-height:44px;border:1px solid #fff;border-radius:24px;padding:8px 10px;background:#fff3eddf;color:#963d30;font:12px/1.3 system-ui;box-shadow:inset 0 1px #fff,0 4px 16px #8f736310}
+.ai-home15-badge>span{font-size:22px;vertical-align:middle;margin-right:3px}
+.ai-home15-hero{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);align-items:center;gap:12px;margin:18px 0 0;min-height:220px}
+.ai-home15-hero>img{display:block;width:100%;height:auto;max-height:280px;object-fit:contain;object-position:center bottom;border-radius:70px 70px 22px 22px;filter:drop-shadow(0 8px 12px #57493716)}
+.ai-home15-intro h2{font-family:Georgia,'Songti SC','SimSun',serif;font-size:24px;line-height:1.5;margin:0 0 8px;color:#293139}
+.ai-home15-intro p{font-size:16px;line-height:1.7;margin:0 0 10px;color:#48535a}
+.ai-home15-intro small{font-size:12px;line-height:1.7;color:#5c6268}
+.ai-home15-status{display:flex;align-items:center;gap:10px;background:#fffaf4d9;border:1px solid #fff;border-radius:20px;padding:10px 14px;margin:10px 0;font:12px/1.65 system-ui;color:#5a6064;box-shadow:inset 0 1px #fff,0 5px 20px #62513c09}
+.ai-home15-status>span:first-child{display:grid;place-items:center;border-radius:50%;background:#ffebe2;color:#9a3d2d;width:32px;height:32px;flex:none;font-size:25px}
+.ai-home15-status strong{font-weight:500;color:#933d30}
+.ai-home15-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.ai-home15-action{position:relative;display:flex;align-items:flex-start;gap:10px;text-align:left;min-width:0;min-height:108px;padding:16px 18px 14px 12px;border:1px solid #fff;border-radius:22px;background:linear-gradient(120deg,#fffffff0,#fff9f1b8);color:#293139;box-shadow:inset 0 1px #fff,0 6px 18px #7865500b;font-family:inherit;cursor:pointer}
+.ai-home15-action strong{display:block;font-size:16px;font-weight:650;line-height:1.5;white-space:nowrap}
+.ai-home15-action small{display:block;margin-top:5px;font-size:12px;line-height:1.65;color:#606970}
+.ai-home15-icon{display:grid;place-items:center;flex:none;width:40px;height:44px;border-radius:50%;font:29px/1 system-ui;box-shadow:inset 0 1px #ffffffc9}
+.ai-home15-blue{background:linear-gradient(135deg,#e0f1ff,#c9dce9);color:#27628d}
+.ai-home15-orange{background:linear-gradient(135deg,#fff0df,#f4d8bb);color:#ad582d}
+.ai-home15-green{background:linear-gradient(135deg,#e2f6ed,#bfddd2);color:#287761}
+.ai-home15-chevron{position:absolute;right:10px;top:18px;font-size:19px;color:#606970}
+.ai-home15-more{display:flex;align-items:center;justify-content:space-between;width:100%;min-height:44px;background:transparent;border:0;padding:10px 5px;color:#365f7b;font:13px/1.5 system-ui;text-align:left}
+.ai-home15-disclosure{margin:0;font:11px/1.65 system-ui;color:#62676b}
+body[data-nutri-shell=aiAgent] .nutri-original-ai[data-hd-view=home] .input-bar{padding:8px 12px}
+body[data-nutri-shell=aiAgent] .nutri-original-ai[data-hd-view=home] .hd-composer{border-color:#fff}
+@media(max-width:360px){body[data-nutri-shell=aiAgent] .ai-home15{padding:16px 10px 8px}.ai-home15-heading h1{font-size:28px}.ai-home15-heading p{font-size:13px}.ai-home15-badge{font-size:11px;padding:6px 8px}.ai-home15-hero{gap:9px;min-height:190px;margin-top:14px}.ai-home15-intro h2{font-size:22px}.ai-home15-intro p{font-size:14px}.ai-home15-grid{gap:8px}.ai-home15-action{gap:7px;padding:14px 14px 12px 8px;min-height:100px;border-radius:18px}.ai-home15-icon{width:32px;height:38px;font-size:25px}.ai-home15-action strong{font-size:14px}.ai-home15-action small{font-size:11px}.ai-home15-chevron{right:7px;font-size:16px}}
+@media(prefers-reduced-transparency:reduce){.ai-home15-action,.ai-home15-status,.ai-home15-badge{background:#fffaf4}}
+@media(forced-colors:active){.ai-home15-action,.ai-home15-status,.ai-home15-badge{border:1px solid ButtonText}.ai-home15-icon{color:ButtonText}.ai-home15-more{color:LinkText}}
+/* v3 narrow chat/dashboard header: two deliberate rows, never a 104px action tower. */
+@media(max-width:380px){
+ body[data-nutri-shell=aiAgent] .nutri-original-ai[data-hd-view=chat]>.header,
+ body[data-nutri-shell=aiAgent] .nutri-original-ai[data-hd-view=dashboard]>.header{flex-direction:column;align-items:stretch;gap:4px;padding:6px 10px}
+ body[data-nutri-shell=aiAgent] .nutri-original-ai .digital-human-section{min-width:0;gap:8px}
+ body[data-nutri-shell=aiAgent] .nutri-original-ai .dh-info{min-width:0;flex:1}
+ body[data-nutri-shell=aiAgent] .nutri-original-ai .dh-name-row{flex-wrap:nowrap}
+ body[data-nutri-shell=aiAgent] .nutri-original-ai .dh-name{white-space:nowrap;flex-shrink:0}
+ body[data-nutri-shell=aiAgent] .nutri-original-ai .dh-greeting{display:block;max-width:none;font-size:11px;line-height:16px}
+ body[data-nutri-shell=aiAgent] .nutri-original-ai .header-actions{display:grid;grid-template-columns:repeat(5,minmax(44px,1fr));max-width:none;width:100%;gap:4px}
+ body[data-nutri-shell=aiAgent] .nutri-original-ai .header-action-chip{width:100%;height:44px;min-height:44px;padding:4px;font-size:13px;border-radius:12px;white-space:nowrap}
+ body[data-nutri-shell=aiAgent] .nutri-original-ai .hd-demo-strip{position:relative;box-sizing:border-box;min-height:52px;padding:5px 94px 5px 10px;text-align:left;font-size:11px;line-height:14px}
+ body[data-nutri-shell=aiAgent] .nutri-original-ai .hd-demo-strip>.nutri-sound-toggle{position:absolute;right:10px;top:4px;margin:0;min-width:76px;min-height:44px;padding:5px 7px;font-size:11px}
+}

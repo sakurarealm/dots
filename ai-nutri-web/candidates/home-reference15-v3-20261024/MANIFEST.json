@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "project": "AI-Nutri Web",
+  "candidate": "home-reference15-v3-20261024",
+  "kind": "three-file-source-delta-plus-original-dependency-not-standalone",
+  "status": "candidate-not-deployed",
+  "baseline": {
+    "sourceCommit": "f7d3c827a4c6aed02ebfa093cf77730e12a5d32c",
+    "releaseDirectory": "ai-nutri-web/releases/v36-f7d3c82",
+    "reviewedOverlayDirectory": "ai-nutri-web/candidates/reviewed26-20261023",
+    "reviewedOverlayCommit": "3f2d85360a60ecec77c179a9cb0b19ddc5a5633f",
+    "requiresCompleteRuntimeBaseline": true
+  },
+  "files": [
+    {
+      "path": "payload/dist/original-redo/pages/ai-home-reference15-v1.css",
+      "targetPath": "dist/original-redo/pages/ai-home-reference15-v1.css",
+      "bytes": 6253,
+      "sha256": "a06c7f9756d6291f575767249b3a7cc5ce83c3cfe5958e66a48397c218f48f5c",
+      "gitBlobSha1": "05eadb38aa42b5d4068953c81a47a1a2e5e527b1",
+      "change": "add",
+      "beforeSha256": null
+    },
+    {
+      "path": "payload/dist/original-redo/pages/aiAgent.html",
+      "targetPath": "dist/original-redo/pages/aiAgent.html",
+      "bytes": 34893,
+      "sha256": "8b5b006424391ae2f5bd5f9bd1dcf7b2eacc28e3c617a2173b7dcce4a547b4ac",
+      "gitBlobSha1": "fc01bbd0755924b88329b4344354fcafccdffb6c",
+      "change": "replace",
+      "beforeSha256": "2d2bfb4eb126dd879b4a4cd4c6e3280caaac4b1acaf924bd1d0a9f2f4e3f99bf"
+    },
+    {
+      "path": "payload/dist/original-redo/pages/health-demo-ui-registration-v3.js",
+      "targetPath": "dist/original-redo/pages/health-demo-ui-registration-v3.js",
+      "bytes": 64790,
+      "sha256": "2fe2e9b90fa45438ca5aef878b67ba1d1798c8a5a8730ad6e18903303f8bd09d",
+      "gitBlobSha1": "353f58ece19d9853bfb40429cb31075a334f8a90",
+      "change": "replace",
+      "beforeSha256": "11165364987f3fdba34fbdadd86eecf89ea357204528cb6d87cdcb9d23076ee1"
+    },
+    {
+      "path": "payload/dist/original-redo/pages/images/nutrition-companion-original.svg",
+      "targetPath": "dist/original-redo/pages/images/nutrition-companion-original.svg",
+      "bytes": 3071,
+      "sha256": "675e180682376a7085042148fcbfb8850b94b0826011adb0e4b59406d9bc8caa",
+      "gitBlobSha1": "afa4cf29a3ed3220e33d0e241a02598376c3c8ae",
+      "change": "add-public-dependency",
+      "beforeSha256": null,
+      "provenance": "Unchanged original fictional Xia He illustration from the reviewed v36 runtime baseline; separately reviewed for inclusion. Pure SVG geometry/gradients, no external or embedded image assets."
+    }
+  ],
+  "portraitDependency": {
+    "targetPath": "dist/original-redo/pages/images/nutrition-companion-original.svg",
+    "bytes": 3071,
+    "sha256": "675e180682376a7085042148fcbfb8850b94b0826011adb0e4b59406d9bc8caa",
+    "gitBlobSha1": "afa4cf29a3ed3220e33d0e241a02598376c3c8ae",
+    "included": true,
+    "publicNamedFilePresentAtReviewedCommit": false,
+    "note": "Unchanged original fictional illustration, newly included as a public dependency after separate provenance review. No matching named file exists in the AI-Nutri public tree at the pinned commit. No third-party image data or external asset links. Not a complete runnable backup; no new license grant."
+  },
+  "verification": {
+    "offlineTestsReportedPassed": 19,
+    "offlineTestKind": "DOM-double regression and source checks; not device acceptance",
+    "browserScopeReported": "Partial Edge checks at 320, 375 and 480 CSS px: home/cards, records sheet, local-rule hello send, narrow header. Not all eight modules, real devices or real services.",
+    "privacy": "Synthetic demo labels and runtime field handling only; no actual account records, photos or credentials included."
+  },
+  "license": "No new license grant. Preserve existing source rights; referenced asset rights are not supplied by this archive."
+}
