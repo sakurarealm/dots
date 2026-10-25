@@ -1,0 +1,62 @@
+/* Cart-only recovery layout. Keep the existing 480px shell and glass material. */
+body[data-commerce-page="shop"] #commerce-root #cart .cart-line {
+  grid-template-columns:minmax(0,1fr);
+  gap:12px;
+}
+body[data-commerce-page="shop"] #commerce-root #cart .cart-product {
+  display:grid;
+  grid-template-columns:88px minmax(0,1fr);
+  align-items:start;
+  gap:12px;
+}
+body[data-commerce-page="shop"] #commerce-root #cart .cart-product .product-illustration {
+  width:88px;
+  min-width:0;
+  margin:0;
+}
+body[data-commerce-page="shop"] #commerce-root #cart .cart-product>div {
+  min-width:0;
+}
+body[data-commerce-page="shop"] #commerce-root #cart .cart-product b {
+  display:block;
+  line-height:1.5;
+}
+body[data-commerce-page="shop"] #commerce-root #cart .cart-product>div>p:not(.notice) {
+  white-space:normal;
+  overflow-wrap:anywhere;
+  font-variant-numeric:tabular-nums;
+}
+body[data-commerce-page="shop"] #commerce-root #cart .qty {
+  width:100%;
+  min-width:0;
+  justify-content:flex-end;
+  flex-wrap:wrap;
+  gap:8px;
+}
+body[data-commerce-page="shop"] #commerce-root #cart .qty button {
+  flex:0 0 auto;
+  min-width:44px;
+  min-height:44px;
+  white-space:nowrap;
+}
+body[data-commerce-page="shop"] #commerce-root #cart .qty button[data-action="remove"] {
+  font-size:14px;
+  padding:8px 12px;
+  margin-inline-start:4px;
+}
+body[data-commerce-page="shop"] #commerce-root #cart .qty>span {
+  flex:0 0 auto;
+  white-space:nowrap;
+}
+@media(max-width:360px) {
+  body[data-commerce-page="shop"] #commerce-root #cart .cart-product {
+    grid-template-columns:64px minmax(0,1fr);
+  }
+  body[data-commerce-page="shop"] #commerce-root #cart .cart-product .product-illustration {
+    width:64px;
+  }
+  body[data-commerce-page="shop"] #commerce-root #cart .cart-product .product-illustration img {
+    width:64px;
+    height:64px;
+  }
+}

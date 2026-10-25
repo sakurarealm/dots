@@ -1,0 +1,33 @@
+/* Page-owned reference15 material. Original 430px booklet geometry/data retained. */
+body[data-nutri-booklet]{--ink:#303b43;--muted:#59646c;--dark-green:#315f78;--green:#bdd4e0;background:#e6e3df;color:var(--ink)}
+body[data-nutri-booklet] .app{max-width:430px;background:radial-gradient(ellipse at 100% 16%,#f1d5bf99,transparent 52%),radial-gradient(ellipse at 0 45%,#bacbd37d,transparent 57%),linear-gradient(145deg,#ebe7e2,#e0e3e4 58%,#eadfd4);border-color:#ffffff60;box-shadow:0 0 60px #51483b18}
+body[data-nutri-booklet] header{height:auto;min-height:60px;background:#f6f2ed70;border-bottom:1px solid #ffffffad;backdrop-filter:blur(9px);-webkit-backdrop-filter:blur(9px)}
+body[data-nutri-booklet] :is(.topics,.goal-card,.body-card,.diet-book-link,dialog){background:linear-gradient(125deg,#fffdf88a,#ffffff30 55%,#f8eee454);border:1px solid #ffffffc4;box-shadow:inset 0 1px 0 #fff9,0 7px 22px #4e443010;backdrop-filter:blur(9px);-webkit-backdrop-filter:blur(9px)}
+body[data-nutri-booklet] :is(.topics .selected,.topics #all-topics.selected){color:#244e68;background:#d9e6edbb;box-shadow:inset 0 1px #fff9}
+body[data-nutri-booklet] .topics #all-topics{background:#ffffff56;color:#315f78}
+body[data-nutri-booklet] .goal-card #goal-intro{color:#59646c}
+body[data-nutri-booklet] .care-tabs{background:#d6dfe34d;border:1px solid #ffffff80}
+body[data-nutri-booklet] .care-tabs button{color:#4b5b65}
+body[data-nutri-booklet] .care-tabs button[aria-selected=true]{background:#ffffffa1;color:#244e68}
+body[data-nutri-booklet] :is(.care-action,.care-sources a,.topic-part,.sheet-items button,.body-label,.part-detail){background:#ffffff63;border:1px solid #ffffffab;box-shadow:inset 0 1px #ffffff70}
+body[data-nutri-booklet] :is(.care-action b,.body-label b){color:#303b43}
+body[data-nutri-booklet] :is(.care-action p,.care-note,.sheet-copy,.data-note,.prototype-note,.care-source-limit){color:#59646c}
+body[data-nutri-booklet] :is(.body-label.related,.body-label.selected){background:#dae8edb3;border-color:#88a9bc}
+body[data-nutri-booklet] .atlas-halo{background:radial-gradient(ellipse,#f4f0e7a3,transparent 72%)}
+body[data-nutri-booklet] .orbit{border-color:#adbcc341}
+body[data-nutri-booklet] .leaders path{stroke:#809da9}
+body[data-nutri-booklet] .leaders path.selected{stroke:#407c98}
+body[data-nutri-booklet] .leaders .related-dot{fill:#568da8;filter:none}
+body[data-nutri-booklet] .body-label.related small{color:#315f78}
+body[data-nutri-booklet] :is(.care-pager,.stage-caption){border-color:#ffffff88}
+body[data-nutri-booklet] :is(.care-sources a,.care-extra summary,.care-pager button,.diet-book-link,.goal-summary-action,.section-head button){color:#315f78}
+body[data-nutri-booklet] :is(.tabbar,.nutri-primary-nav){max-width:430px;background:linear-gradient(120deg,#faf5edd9,#edf1f2d6);border-top:1px solid #ffffffbd;backdrop-filter:blur(9px);-webkit-backdrop-filter:blur(9px);box-shadow:0 -3px 18px #5147380d}
+body[data-nutri-booklet] dialog{max-width:430px;overflow:auto;padding-bottom:calc(22px + env(safe-area-inset-bottom));background:linear-gradient(130deg,#f8f4eced,#e6edf0ed)}
+body[data-nutri-booklet] dialog::backdrop{background:#25303c5c;backdrop-filter:blur(3px)}
+body[data-nutri-booklet] :is(button,a,summary):focus-visible{outline:3px solid #245f8c;outline-offset:3px}
+body[data-nutri-booklet] .booklet-image-status{font-size:13px;line-height:1.7;padding:10px 12px;margin-top:10px;border:1px solid #9faeb7;border-radius:12px;background:#f6f2eac9;color:#475764}
+body[data-nutri-booklet] .booklet-image-retry{min-height:44px;padding:10px 12px;margin-top:8px;border:1px solid #7c99ac;border-radius:12px;background:#eef3f5;color:#254f6a}
+body[data-nutri-booklet] .booklet-image-retry:disabled{opacity:.65;cursor:wait}
+body[data-nutri-booklet].large-mode .booklet-image-status{font-size:16px}
+@media(prefers-reduced-transparency:reduce){body[data-nutri-booklet] :is(header,.topics,.goal-card,.body-card,.diet-book-link,dialog,.tabbar,.nutri-primary-nav){background:#f1efeb;backdrop-filter:none;-webkit-backdrop-filter:none}}
+@media(forced-colors:active){body[data-nutri-booklet] :is(.topics,.goal-card,.body-card,.diet-book-link,.body-label,dialog){border:1px solid CanvasText;box-shadow:none}body[data-nutri-booklet] .topics .selected{outline:2px solid Highlight}}
