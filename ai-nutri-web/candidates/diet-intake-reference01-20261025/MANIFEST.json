@@ -1,0 +1,39 @@
+{
+  "status": "Independent source candidate; NOT integrated or deployed; browser acceptance pending",
+  "baselineSiteSourceCommit": "3f16ac2bb0c479819d5213e82db96a063de2b035",
+  "files": [
+    {
+      "path": "dist/original-redo/pages/health-demo-pages-registration-v3.js",
+      "bytes": 31393,
+      "sha256": "db7fc8791ba25ed7e90af40588d231d0c53bc9e175149e0a3b74290132e837eb"
+    },
+    {
+      "path": "dist/original-redo/pages/diet-reference01-view-v1.js",
+      "bytes": 10272,
+      "sha256": "4f143980ae59bc023dc013dd4d9ce28529ad9ead653808d11fc00e3dcc54333e"
+    },
+    {
+      "path": "dist/original-redo/pages/diet-reference01-v1.css",
+      "bytes": 19309,
+      "sha256": "7400697103319180b99546796e85405ac2312415d54270bcf70137e06c59947b"
+    },
+    {
+      "path": "dist/original-redo/pages/diet.html",
+      "bytes": 10340,
+      "sha256": "2a95bde74c9d2b77f779aee1980cd6dece3723d8f0d89f835c2f042aada6890e"
+    },
+    {
+      "path": "dist/original-redo/pages/intake.html",
+      "bytes": 14815,
+      "sha256": "140c4e0818d211e8ac0d2ec323ed73c4adcebfa7036808f0fcc112e0b0241fee"
+    },
+    {
+      "path": "dist/original-redo/pages/health-calendar.html",
+      "bytes": 7626,
+      "sha256": "fb83751fd4444179c0534089a4e934ac9a4474ebd5a46619f5de7418c82560fa"
+    }
+  ],
+  "offlineEvidence": "27/27 pure-view/model and small fake-DOM controller tests independently rerun. Not real-browser or end-to-end transaction evidence.",
+  "scope": "Reference01 first two diet/intake screens; calendar only shared-script hash. No third-screen redesign.",
+  "restoration": "Apply these six source files to matching baseline after review; retain prior versions. Referenced existing images are not included. This is not a standalone site backup."
+}

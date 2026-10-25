@@ -1,0 +1,157 @@
+/* Reference01: actual diet/intake presentation, not a screenshot overlay.
+   Static glass light fields; no added backdrop blur, animation or text filter.
+   Isolated legacy routes and the health calendar keep their previous style. */
+body[data-nutri-reference="01"].hdp-active {
+ --r01-ink:#242b30;--r01-muted:#58636c;--r01-edge:#ffffffe0;
+ --r01-glass:linear-gradient(125deg,#ffffffe0,#f4f7f2a8 48%,#fff0e4b0);
+ --r01-shadow:inset 0 1px 1px #fff,inset 0 -1px 1px #788a9220,0 8px 20px #3f535b13;
+ background:radial-gradient(ellipse at 0 12%,#adc0d08a,transparent 52%),radial-gradient(ellipse at 100% 35%,#efd1b2b3,transparent 57%),linear-gradient(125deg,#e9e9e5,#e3e7e9 56%,#eee4d7);
+}
+body[data-nutri-reference="01"][data-food-glass].hdp-active[data-nutri-shell]>.hdp-page {
+ width:100%;max-width:480px;margin-inline:auto;padding:8px 13px calc(100px + env(safe-area-inset-bottom));min-height:100dvh;background:transparent;color:var(--r01-ink);
+}
+/* Compact spacing only: preserve every account choice, error, pending command,
+   adoption and recovery action. No fixed height or hidden status content. */
+body[data-nutri-reference="01"].hdp-active>section.registration-entry-v3 {padding:5px 12px;font-size:12px;line-height:1.5;background:#eff4efed;border-bottom:1px solid #fff;}
+body[data-nutri-reference="01"].hdp-active>section.registration-entry-v3>p {margin:0;}
+body[data-nutri-reference="01"].hdp-active>.hdp-page>p.hdp-card:first-child {margin:0 0 8px;padding:6px 10px;border-radius:13px;font-size:11px;line-height:1.5;backdrop-filter:none;-webkit-backdrop-filter:none;box-shadow:inset 0 1px #fff;background:#f9faf4d9;}
+body[data-nutri-reference="01"] :is(.r01-diet-overview,.r01-intake-view) {overflow-wrap:anywhere;}
+body[data-nutri-reference="01"] :is(.r01-diet-overview,.r01-intake-view) * {box-sizing:border-box;min-width:0;}
+body[data-nutri-reference="01"] :is(.r01-heading,.r01-intake-heading) {display:grid;grid-template-columns:30px minmax(0,1fr) auto;align-items:center;gap:6px;margin:0;padding:4px 0;background:transparent;border:0;box-shadow:none;}
+body[data-nutri-reference="01"] .r01-heading h1 {margin:0;font:700 30px/1.3 Georgia,'Songti SC','SimSun',serif;color:#172026;letter-spacing:-.5px;}
+body[data-nutri-reference="01"] :is(.r01-heading,.r01-intake-heading) p {font-size:13px;line-height:1.5;margin:3px 0;color:var(--r01-muted);}
+body[data-nutri-reference="01"] .r01-heading>button {padding:5px 8px;min-height:44px;border:1px solid var(--r01-edge);border-radius:22px;background:#fff8;color:#3c5969;font-size:12px;}
+body[data-nutri-reference="01"] .r01-back {display:flex;align-items:center;justify-content:center;min-height:44px;font-size:30px;line-height:1;text-decoration:none;color:var(--r01-ink);}
+body[data-nutri-reference="01"] .r01-intake-heading {grid-template-columns:44px minmax(0,1fr) 44px;}
+body[data-nutri-reference="01"] .r01-intake-heading>div {text-align:center;}
+body[data-nutri-reference="01"] .r01-intake-heading h1 {font:700 28px/1.3 Georgia,'Songti SC','SimSun',serif;margin:0;}
+body[data-nutri-reference="01"] .r01-about {display:flex;align-items:center;justify-content:center;min-height:44px;text-decoration:none;font-size:12px;}
+body[data-nutri-reference="01"] .r01-utilities {display:flex;align-items:flex-start;justify-content:space-between;gap:8px;margin:2px 0 8px;}
+body[data-nutri-reference="01"] .r01-date-control {flex:1;background:transparent;border:0;box-shadow:none;}
+body[data-nutri-reference="01"] .r01-date-control>summary {display:flex;align-items:center;gap:7px;min-height:44px;cursor:pointer;font-size:12px;color:#465963;list-style:none;}
+body[data-nutri-reference="01"] .r01-date-control>summary::-webkit-details-marker {display:none;}
+body[data-nutri-reference="01"] .r01-date-fields {display:flex;align-items:end;flex-wrap:wrap;gap:6px;padding:8px;border:1px solid #fff;border-radius:14px;background:#f7f7f1e6;}
+body[data-nutri-reference="01"] .r01-date-fields label {flex:1;min-width:130px;margin:0;font-size:12px;}
+body[data-nutri-reference="01"] .r01-date-fields input {margin-top:3px;}
+body[data-nutri-reference="01"] .r01-date-fields button {font-size:12px;min-height:44px;}
+body[data-nutri-reference="01"] .r01-sound-slot {display:flex;flex:none;align-items:center;min-height:44px;}
+body[data-nutri-reference="01"] .r01-sound-slot>.nutri-sound-toggle {min-height:44px;margin:0;padding:5px 9px;font-size:11px;background:#fff9;border:1px solid #fff;border-radius:22px;}
+body[data-nutri-reference="01"] :is(.r01-day-card,.r01-total-card,.r01-more-nutrients,.r01-water-card,.r01-timeline) {padding:16px 13px;border:1px solid var(--r01-edge);border-radius:26px;background:var(--r01-glass);box-shadow:var(--r01-shadow);backdrop-filter:none;-webkit-backdrop-filter:none;}
+body[data-nutri-reference="01"] .r01-day-top {display:flex;justify-content:space-between;align-items:center;gap:8px;margin:0 0 10px;}
+body[data-nutri-reference="01"] .r01-day-top h2 {font:600 16px/1.4 Georgia,'Songti SC','SimSun',serif;margin:0 0 3px;}
+body[data-nutri-reference="01"] .r01-day-top time {display:block;font:700 26px/1.3 Georgia,'Songti SC','SimSun',serif;}
+body[data-nutri-reference="01"] .r01-day-top p {font-size:11px;line-height:1.5;margin:5px 0 0;}
+body[data-nutri-reference="01"] .r01-energy-link {position:relative;display:flex;flex-direction:column;align-items:flex-end;justify-content:center;gap:6px;max-width:50%;min-height:60px;padding-right:14px;text-decoration:none;}
+body[data-nutri-reference="01"] .r01-energy {display:flex;align-items:baseline;justify-content:flex-end;flex-wrap:wrap;gap:3px;color:#a34d23;}
+body[data-nutri-reference="01"] .r01-energy strong {font-size:27px;line-height:1.2;letter-spacing:-1px;color:inherit;}
+body[data-nutri-reference="01"] .r01-energy>span {font-size:12px;font-weight:650;}
+body[data-nutri-reference="01"] .r01-energy-link>small {font-size:10px;text-align:right;color:var(--r01-muted);}
+body[data-nutri-reference="01"] .r01-next {position:absolute;right:0;top:20px;font-size:21px;color:#5a666c;}
+body[data-nutri-reference="01"] .r01-day-card .r01-meals {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:stretch;gap:7px;padding:0;margin:0;border:0;background:none;}
+body[data-nutri-reference="01"] .r01-meal-card {display:flex;flex-direction:column;align-items:flex-start;gap:4px;padding:5px 7px 9px;border:1px solid #ffffffe8;border-radius:22px;background:linear-gradient(145deg,#fff9,#dce9f16b);box-shadow:inset 0 1px #fff,0 5px 12px #52616b0c;text-decoration:none;color:var(--r01-ink);}
+body[data-nutri-reference="01"] .r01-meal-card:nth-child(2) {background:linear-gradient(140deg,#fff9,#eed7d574);}
+body[data-nutri-reference="01"] .r01-meal-card:nth-child(3) {background:linear-gradient(140deg,#fff9,#d3e4d56b);}
+body[data-nutri-reference="01"] .r01-meal-art {position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;aspect-ratio:1;margin-bottom:2px;}
+body[data-nutri-reference="01"] .r01-meal-art img {display:block;width:100%;height:auto;aspect-ratio:1;object-fit:cover;border:2px solid #ffffffdb;border-radius:50%;background:#f1eee6;}
+body[data-nutri-reference="01"] .r01-meal-art>small {display:block;padding-top:3px;font-size:9px;line-height:1.25;color:#606b71;text-align:center;}
+body[data-nutri-reference="01"] .r01-neutral-art {border-radius:50%;background:radial-gradient(ellipse,#fffffff2,#dce3e88a);color:#627c8a;min-height:80px;}
+body[data-nutri-reference="01"] .r01-neutral-art svg {width:50px;height:50px;}
+body[data-nutri-reference="01"] .r01-meal-label {display:inline-block;font-size:11px;font-weight:550;line-height:1.4;padding:2px 8px;border-radius:12px;background:#ecd8b6;color:#6e542c;}
+body[data-nutri-reference="01"] .r01-meal-card:nth-child(2) .r01-meal-label {background:#edc6b7;color:#7a4838;}
+body[data-nutri-reference="01"] .r01-meal-card:nth-child(3) .r01-meal-label {background:#d0e1d2;color:#3d6653;}
+body[data-nutri-reference="01"] .r01-meal-energy {display:flex;flex-wrap:wrap;align-items:baseline;gap:2px;}
+body[data-nutri-reference="01"] .r01-meal-energy strong {font-size:20px;line-height:1.3;letter-spacing:-.5px;}
+body[data-nutri-reference="01"] .r01-meal-energy>span {font-size:10px;}
+body[data-nutri-reference="01"] .r01-meal-name {font-size:12px;line-height:1.5;}
+body[data-nutri-reference="01"] .r01-meal-card>small {font-size:9px;line-height:1.4;margin-top:auto;}
+body[data-nutri-reference="01"] .r01-art-note {font-size:10px;line-height:1.5;margin:8px 0 2px;}
+body[data-nutri-reference="01"] .r01-macro-details {margin-top:1px;border-top:1px solid #74899220;}
+body[data-nutri-reference="01"] .r01-macro-details summary {min-height:44px;display:flex;align-items:center;justify-content:space-between;font-size:11px;cursor:pointer;}
+body[data-nutri-reference="01"] .r01-macro-details>div {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;font-size:12px;}
+body[data-nutri-reference="01"] .r01-macro-details :is(b,small) {display:block;}
+body[data-nutri-reference="01"] .r01-macro-details small {font-size:10px;}
+body[data-nutri-reference="01"] .r01-macro-details p {font-size:11px;margin:8px 0 2px;}
+body[data-nutri-reference="01"] .r01-capture-actions {display:flex;align-items:center;justify-content:center;gap:18px;margin:18px 0;}
+body[data-nutri-reference="01"] .r01-side-action {display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;flex:0 1 72px;min-height:75px;padding:9px 5px;border:1px solid #fff;border-radius:22px;background:#faf7f0c9;box-shadow:var(--r01-shadow);font-size:11px;}
+body[data-nutri-reference="01"] .r01-side-action:disabled {color:#626d74;background:#eee9e3d9;opacity:1;box-shadow:var(--r01-shadow);}
+body[data-nutri-reference="01"] .r01-camera {display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;flex:none;width:136px;height:136px;padding:9px;border:2px solid #edfaff;border-radius:50%;background:radial-gradient(ellipse at 30% 12%,#d9e6eccf,transparent 40%),linear-gradient(135deg,#7398ae,#315c7b 65%,#84a8bb);box-shadow:inset 0 3px 3px #fff9,inset 0 -5px 9px #1c426b73,0 0 0 2px #7694aa6e,0 7px 17px #304b6133;color:#fff;}
+body[data-nutri-reference="01"] .r01-camera svg {width:34px;height:34px;}
+body[data-nutri-reference="01"] .r01-camera strong {font-size:15px;color:inherit;}
+body[data-nutri-reference="01"] .r01-camera small {font-size:9px;color:#f5f8fb;}
+body[data-nutri-reference="01"] .r01-weekly {display:flex;align-items:center;gap:11px;min-height:70px;margin:0 0 14px;padding:10px 13px;border:1px solid #fff;border-radius:23px;background:var(--r01-glass);box-shadow:var(--r01-shadow);text-decoration:none;color:var(--r01-ink);}
+body[data-nutri-reference="01"] .r01-weekly-symbol {flex:none;color:#bc746e;}
+body[data-nutri-reference="01"] .r01-weekly-symbol svg {width:34px;height:34px;stroke-width:4;}
+body[data-nutri-reference="01"] .r01-weekly>span:nth-child(2) {flex:1;}
+body[data-nutri-reference="01"] .r01-weekly strong {display:block;font-size:16px;}
+body[data-nutri-reference="01"] .r01-weekly small {display:block;font-size:11px;line-height:1.5;margin-top:3px;}
+body[data-nutri-reference="01"] .r01-total-card h2 {font-size:14px;margin:0 0 9px;}
+body[data-nutri-reference="01"] .r01-total-card h2 small {font-size:10px;font-weight:400;margin-left:6px;}
+body[data-nutri-reference="01"] .r01-total-card>div {display:flex;align-items:center;justify-content:space-between;gap:10px;}
+body[data-nutri-reference="01"] .r01-total-energy {display:flex;flex-wrap:wrap;align-items:baseline;gap:5px;}
+body[data-nutri-reference="01"] .r01-total-energy strong {font:700 clamp(35px,11vw,48px)/1.15 Georgia,'Songti SC','SimSun',serif;letter-spacing:-2px;}
+body[data-nutri-reference="01"] .r01-total-energy>span {font-size:17px;font-weight:600;}
+body[data-nutri-reference="01"] .r01-total-card p {font-size:11px;line-height:1.7;margin:0;}
+body[data-nutri-reference="01"] .r01-nutrients {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:10px 0 0;}
+body[data-nutri-reference="01"] .r01-nutrient {position:relative;padding:16px 12px 42px;border:1px solid #fff;border-radius:23px;background:linear-gradient(145deg,#ffffffe6,#cddfe4c2);box-shadow:var(--r01-shadow);}
+body[data-nutri-reference="01"] .r01-carb {background:linear-gradient(145deg,#fffef4e8,#f3efe3a8);}
+body[data-nutri-reference="01"] .r01-fat {background:linear-gradient(145deg,#fffef4e8,#f1d9ceab);}
+body[data-nutri-reference="01"] .r01-nutrient h2 {font-size:13px;line-height:1.5;margin:0 0 10px;min-height:20px;}
+body[data-nutri-reference="01"] .r01-nutrient-value {display:flex;align-items:baseline;flex-wrap:wrap;gap:3px;}
+body[data-nutri-reference="01"] .r01-nutrient-value strong {font-size:29px;line-height:1.3;letter-spacing:-1px;}
+body[data-nutri-reference="01"] .r01-nutrient-value>span {font-size:13px;}
+body[data-nutri-reference="01"] .r01-nutrient progress {width:100%;height:7px;margin:7px 0 12px;border:0;border-radius:6px;overflow:hidden;accent-color:#44768f;}
+body[data-nutri-reference="01"] .r01-nutrient progress::-webkit-progress-bar {background:#8699a52b;border-radius:6px;}
+body[data-nutri-reference="01"] .r01-nutrient progress::-webkit-progress-value {background:#44768f;border-radius:6px;}
+body[data-nutri-reference="01"] .r01-carb progress {accent-color:#b45f78;}body[data-nutri-reference="01"] .r01-carb progress::-webkit-progress-value {background:#b45f78;}
+body[data-nutri-reference="01"] .r01-fat progress {accent-color:#be744b;}body[data-nutri-reference="01"] .r01-fat progress::-webkit-progress-value {background:#be744b;}
+body[data-nutri-reference="01"] .r01-nutrient>small {display:block;font-size:10px;}
+body[data-nutri-reference="01"] .r01-nutrient-icon {position:absolute;right:10px;bottom:10px;display:grid;place-items:center;width:29px;height:29px;border:1px solid #fff;border-radius:50%;background:#fffc;color:#3677ad;}
+body[data-nutri-reference="01"] .r01-nutrient-icon svg {width:21px;height:21px;}
+body[data-nutri-reference="01"] .r01-carb .r01-nutrient-icon {color:#426b91;}body[data-nutri-reference="01"] .r01-fat .r01-nutrient-icon {color:#b76a63;}
+body[data-nutri-reference="01"] .r01-coverage-note {font-size:10px;margin:7px 3px 10px;line-height:1.6;}
+body[data-nutri-reference="01"] .r01-more-nutrients {padding:3px 13px 10px;}
+body[data-nutri-reference="01"] .r01-more-nutrients>details {padding:0;border:0;border-bottom:1px solid #7c878a24;background:none;box-shadow:none;}
+body[data-nutri-reference="01"] .r01-more-nutrients summary {display:flex;align-items:center;gap:11px;min-height:76px;padding:9px 0;list-style:none;cursor:pointer;}
+body[data-nutri-reference="01"] .r01-more-nutrients summary::-webkit-details-marker {display:none;}
+body[data-nutri-reference="01"] .r01-more-nutrients summary>span:nth-child(2) {flex:1;}
+body[data-nutri-reference="01"] .r01-more-nutrients strong {display:block;font-size:15px;}
+body[data-nutri-reference="01"] .r01-more-nutrients small {display:block;font-size:11px;margin-top:3px;}
+body[data-nutri-reference="01"] .r01-more-nutrients details>p {font-size:12px;line-height:1.7;margin:0 0 12px;}
+body[data-nutri-reference="01"] .r01-more-icon {display:grid;place-items:center;width:39px;height:39px;flex:none;border-radius:50%;color:#418f63;background:#d5e8c9;}
+body[data-nutri-reference="01"] .r01-more-nutrients details:nth-child(2) .r01-more-icon {color:#ca772f;background:#fff0bb;}
+body[data-nutri-reference="01"] .r01-more-nutrients details:nth-child(3) .r01-more-icon {color:#3c7db4;background:#d2e8fb;}
+body[data-nutri-reference="01"] .r01-origin-note {display:flex;align-items:center;gap:7px;font-size:10px;line-height:1.6;margin:10px 0 0;}
+body[data-nutri-reference="01"] .r01-origin-note svg {flex:none;width:18px;height:18px;}
+body[data-nutri-reference="01"] .r01-water-card {display:flex;align-items:center;gap:9px;margin-top:12px;padding:13px;}
+body[data-nutri-reference="01"] .r01-water-card h2 {font-size:14px;margin:0;}
+body[data-nutri-reference="01"] .r01-water-card p {font-size:11px;margin:4px 0 0;}
+body[data-nutri-reference="01"] .r01-water-card>div {flex:1;}
+body[data-nutri-reference="01"] .r01-water-icon {color:#397bac;}
+body[data-nutri-reference="01"] .r01-water-card button {font-size:12px;min-height:44px;padding:6px 9px;}
+body[data-nutri-reference="01"] .r01-record-tools {display:flex;gap:6px;flex-wrap:wrap;margin:12px 0;}
+body[data-nutri-reference="01"] .r01-record-tools>:is(a,button) {display:flex;align-items:center;justify-content:center;min-height:44px;padding:7px 10px;font-size:12px;border:1px solid #fff;border-radius:14px;background:#fff9;text-decoration:none;color:#3c6174;}
+body[data-nutri-reference="01"] .r01-timeline {margin-top:12px;}
+body[data-nutri-reference="01"] .r01-timeline h2 {font-size:18px;margin:0;}
+body[data-nutri-reference="01"] :is(.r01-diet-overview,.r01-intake-view) :is(a,button,summary,input,select):focus-visible {outline:3px solid #245f91;outline-offset:3px;}
+body[data-nutri-reference="01"] .diet-large :is(.r01-meal-name,.r01-art-note,.r01-macro-details,.r01-date-control summary,.r01-side-action,.r01-weekly small) {font-size:16px;}
+body[data-nutri-reference="01"] .diet-large .r01-meals {grid-template-columns:1fr;}
+body[data-nutri-reference="01"] .diet-large .r01-meal-art {width:120px;align-self:center;}
+body[data-nutri-reference="01"] .diet-large .r01-meal-energy strong {font-size:26px;}
+@media(max-width:360px){
+ body[data-nutri-reference="01"][data-food-glass].hdp-active[data-nutri-shell]>.hdp-page {padding-inline:10px;}
+ body[data-nutri-reference="01"] .r01-day-card {padding:13px 9px;}
+ body[data-nutri-reference="01"] .r01-day-top time {font-size:23px;}
+ body[data-nutri-reference="01"] .r01-energy strong {font-size:24px;}
+ body[data-nutri-reference="01"] .r01-meal-card {padding-inline:5px;border-radius:18px;}
+ body[data-nutri-reference="01"] .r01-meal-energy strong {font-size:18px;}
+ body[data-nutri-reference="01"] .r01-meal-name {font-size:11px;}
+ body[data-nutri-reference="01"] .r01-capture-actions {gap:12px;}
+ body[data-nutri-reference="01"] .r01-camera {width:124px;height:124px;}
+ body[data-nutri-reference="01"] .r01-side-action {flex-basis:64px;}
+ body[data-nutri-reference="01"] .r01-nutrients {gap:6px;}
+ body[data-nutri-reference="01"] .r01-nutrient {padding:13px 8px 40px;border-radius:21px;}
+ body[data-nutri-reference="01"] .r01-nutrient h2 {font-size:12px;min-height:36px;}
+ body[data-nutri-reference="01"] .r01-nutrient-value strong {font-size:25px;}
+}
+@media(prefers-reduced-transparency:reduce),(update:slow){body[data-nutri-reference="01"] :is(.r01-day-card,.r01-meal-card,.r01-total-card,.r01-nutrient,.r01-more-nutrients,.r01-water-card,.r01-timeline,.r01-weekly) {background:#f5f1e9;box-shadow:inset 0 1px #fff;border-color:#c8ccca;}}
+@media(forced-colors:active){body[data-nutri-reference="01"] :is(.r01-day-card,.r01-meal-card,.r01-total-card,.r01-nutrient,.r01-more-nutrients,.r01-water-card,.r01-timeline,.r01-weekly,.r01-camera,.r01-side-action,.r01-nutrient-icon,.r01-more-icon) {background:Canvas!important;color:CanvasText!important;border-color:CanvasText!important;box-shadow:none;}body[data-nutri-reference="01"] .r01-camera :is(strong,small) {color:CanvasText;}body[data-nutri-reference="01"] :is(a,button,input,select,summary):focus-visible {outline-color:Highlight;}}
