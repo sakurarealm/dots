@@ -1,0 +1,132 @@
+{
+  "kind": "incremental-code-backup-not-deployed",
+  "baseline_commit": "649b2c16298972404a92c7def5533663e084211a",
+  "complete_standalone_tree": false,
+  "files": [
+    {
+      "path": "dist/original-redo/booklet-reference-v1.css",
+      "sha256": "31f43259f2cd88c172fbafa09279f426cd641c7013962142fa302bb44f0feafc",
+      "bytes": 4281
+    },
+    {
+      "path": "dist/original-redo/booklet-ui-v1.js",
+      "sha256": "7a8772a73780b7c46592b3a81d08e331b691dfb8b70c6e268bb31cae7eb95d54",
+      "bytes": 1621
+    },
+    {
+      "path": "dist/original-redo/nutrition-booklet.html",
+      "sha256": "5dba8c9889444ef7981265fe203bd19d99c3fd35eef667831cb84349134cb351",
+      "bytes": 6972
+    },
+    {
+      "path": "dist/original-redo/pages/address.html",
+      "sha256": "d37ad1ff5ccf09e3c719cc7b9fd41a347fe96747618fc23e2102e56fb67d8e86",
+      "bytes": 2866
+    },
+    {
+      "path": "dist/original-redo/pages/aiAgent.html",
+      "sha256": "c7db83097f6a4c766057f0d4476c0acf790ea38167dbb25f12716112a1d7043d",
+      "bytes": 35585
+    },
+    {
+      "path": "dist/original-redo/pages/commerce-admin-glass-view-v1.js",
+      "sha256": "6f2739fed8964e2fb62f253bc25cf29f2971d11bc0c342a3db36c4a107f980ab",
+      "bytes": 11535
+    },
+    {
+      "path": "dist/original-redo/pages/commerce-admin-registration-v3.js",
+      "sha256": "cdfe3c445fa23921993e0d7af7370f98b327589d4fd4d396b073bbc057ce5375",
+      "bytes": 14332
+    },
+    {
+      "path": "dist/original-redo/pages/commerce-admin.html",
+      "sha256": "f6d4b0209cbcc96d3083f745c7fecd050ae6e81a428a3b4eb1dbf8ed8dae184c",
+      "bytes": 2883
+    },
+    {
+      "path": "dist/original-redo/pages/commerce-cart-recovery-v2.css",
+      "sha256": "a9e43e878c02f71a70e9b7bd934e3efb21bef208a7c459e3e4d1fb0a9e46a0f7",
+      "bytes": 1825
+    },
+    {
+      "path": "dist/original-redo/pages/commerce-model-registration-v3.js",
+      "sha256": "62f7b8c8096481f4d881199238492a01a1f7d025166de2bd1b006e685adc2f33",
+      "bytes": 14910
+    },
+    {
+      "path": "dist/original-redo/pages/commerce-ui-registration-v3.js",
+      "sha256": "560c5e9b0440d7403666b76b137d1591d28da840344ea6b95261097ad85e403d",
+      "bytes": 28813
+    },
+    {
+      "path": "dist/original-redo/pages/diet.html",
+      "sha256": "2ff7ff7d4ef3bead7b9b716d4a5c469fd9e25f14fd47650106b27bf3db168d74",
+      "bytes": 10163
+    },
+    {
+      "path": "dist/original-redo/pages/family.html",
+      "sha256": "24048aac01d01a25d42b1344763008247a89ebe7a07dc58e0657de19b858c5bd",
+      "bytes": 1690
+    },
+    {
+      "path": "dist/original-redo/pages/health-calendar.html",
+      "sha256": "3757c5f23365535e58fcb73042e76376361f28077e7c40f30c42f16a58c848e3",
+      "bytes": 7611
+    },
+    {
+      "path": "dist/original-redo/pages/health-demo-ui-registration-v3.js",
+      "sha256": "ce72250da9dc931f0d5d0ac9af1f985ccfaf79a15bf17c20a3bf63a7b775757d",
+      "bytes": 70294
+    },
+    {
+      "path": "dist/original-redo/pages/health-insights-glass-view-v1.js",
+      "sha256": "02ee2b947ba52eb3ff33a3fe241626aaa0429985c83453a755e939cc40e3f7f8",
+      "bytes": 15903
+    },
+    {
+      "path": "dist/original-redo/pages/intake.html",
+      "sha256": "dc19135a9f293f787f1bdae634fcf49361f2cba5a93e3f73095e357e620c2cbe",
+      "bytes": 14638
+    },
+    {
+      "path": "dist/original-redo/pages/orders.html",
+      "sha256": "a5b05a6213763085d4864456e7e3b45beeddd8bec9bac13dcb58d68a0b49d778",
+      "bytes": 2653
+    },
+    {
+      "path": "dist/original-redo/pages/profile-management.html",
+      "sha256": "cea2e136e58e831ed93dc14aa247790522f3df0e0af8539048ec306635e8fe0d",
+      "bytes": 2581
+    },
+    {
+      "path": "dist/original-redo/pages/profile.html",
+      "sha256": "8fd7956403e33502379e56a06b0a9a33d528f9c4a383d7f31faef84777eaf548",
+      "bytes": 5649
+    },
+    {
+      "path": "dist/original-redo/pages/settings.html",
+      "sha256": "f60009d51f2c31cde3510afc60bd493301875b5ba72fc27697ff3a0116b2e232",
+      "bytes": 2288
+    },
+    {
+      "path": "dist/original-redo/pages/shop.html",
+      "sha256": "3702d5f11927b03df7a48468c81ba294dbe3f1a0d6d82a4d8efa82a8d7db5757",
+      "bytes": 3466
+    },
+    {
+      "path": "dist/original-redo/pages/student-platform-v3.js",
+      "sha256": "fede380d275341fb39c2091bfb4a5677c9669b8ba4ae31899e0e5b833189b6a0",
+      "bytes": 25999
+    },
+    {
+      "path": "dist/original-redo/pages/student.html",
+      "sha256": "cabfdf1a4efc595e2214f47eab10c59da4dccd41a62babe1491164931c3afa28",
+      "bytes": 2275
+    },
+    {
+      "path": "dist/original-redo/pages/wallet.html",
+      "sha256": "4af717975f8ad9f26298b4b53eca647931c4ba445cf0251588a0215e8d84b1a2",
+      "bytes": 2534
+    }
+  ]
+}
