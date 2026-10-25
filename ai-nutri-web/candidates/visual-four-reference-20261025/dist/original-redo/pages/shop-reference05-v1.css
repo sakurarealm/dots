@@ -1,0 +1,81 @@
+/* Reference05 — visible catalog/detail/cart presentation only. No state or transactions. */
+body[data-commerce-reference05="v1"]{--c05-ink:#292826;--c05-muted:#64686b;--c05-glass:linear-gradient(122deg,#ffffffe0,#ffffff80 56%,#fff0e0ae);--c05-red:linear-gradient(145deg,#e47767,#b43d30);max-width:480px;background:radial-gradient(ellipse at 0 12%,#b9c5d19c,transparent 55%),radial-gradient(ellipse at 100% 28%,#efd0afa8,transparent 54%),linear-gradient(125deg,#e7e1d9,#e5e8e9);}
+body[data-commerce-reference05="v1"] .ccg{background:none;border-radius:0;padding:12px 13px 20px;color:var(--c05-ink)}
+body[data-commerce-reference05="v1"] .ccg05-heading{display:grid;grid-template-columns:minmax(0,1fr) 140px;gap:10px;align-items:center;margin:5px 0 4px}
+body[data-commerce-reference05="v1"] .ccg05-heading h1{font:700 28px/1.3 Georgia,'Songti SC','SimSun',serif;letter-spacing:0}
+body[data-commerce-reference05="v1"] .ccg05-heading p{font-size:13px;line-height:1.5;color:var(--c05-muted);margin-top:6px}
+body[data-commerce-reference05="v1"] .ccg-search input{min-width:0;min-height:44px;padding:8px 12px;background:var(--c05-glass);font-size:14px;border-color:#fff}
+body[data-commerce-reference05="v1"] .ccg05-tools{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:4px 0 7px;min-height:44px}
+body[data-commerce-reference05="v1"] .ccg05-tools .ccg-link{gap:7px;text-decoration:none;font-size:13px;color:#6b5546}
+body[data-commerce-reference05="v1"] .ccg05-tools svg,body[data-commerce-reference05="v1"] .ccg-detail-head svg{width:24px;height:24px;flex:none}
+body[data-commerce-reference05="v1"] [data-nutri-feedback-slot] .nutri-sound-toggle{margin:0;min-height:44px;border-color:#fff;background:var(--c05-glass);color:#58656b}
+body[data-commerce-reference05="v1"] .ccg-categories{gap:9px;padding:1px 1px 10px;margin:0}
+body[data-commerce-reference05="v1"] .ccg05-category{flex:1 0 76px;min-width:76px;min-height:86px;padding:9px 7px;border-radius:21px;background:var(--c05-glass);border-color:#fff;font-size:14px;color:#464747}
+body[data-commerce-reference05="v1"] .ccg05-category>span:last-child{font-size:14px;color:inherit;line-height:1.4;margin-top:5px}
+body[data-commerce-reference05="v1"] .ccg05-category .ccg05-category-icon{display:grid;place-items:center;width:38px;height:38px;margin:auto;border-radius:12px;background:#e1e9ef;color:#527f9d;box-shadow:inset 0 1px #fff}
+body[data-commerce-reference05="v1"] .ccg05-category-icon svg{width:27px;height:27px}
+body[data-commerce-reference05="v1"] .ccg05-category .ccg05-tone-1{background:#f6e2cf;color:#b6763f}
+body[data-commerce-reference05="v1"] .ccg05-category .ccg05-tone-2{background:#ddebdc;color:#68856b}
+body[data-commerce-reference05="v1"] .ccg05-category .ccg05-tone-3{background:#f3dbd3;color:#b36d5c}
+body[data-commerce-reference05="v1"] .ccg05-category[aria-pressed=true]{background:linear-gradient(130deg,#fff,#fff0df);box-shadow:inset 0 0 0 2px #fff,0 4px 12px #956f3e20;color:#a34122}
+body[data-commerce-reference05="v1"] .ccg-notice{margin:3px 0 13px;padding:9px 12px;font-size:11px;line-height:1.45;gap:3px;background:#fffcf4b8;border-color:#fff;border-radius:19px}
+body[data-commerce-reference05="v1"] .ccg-notice b{font-size:13px;color:#704936}
+body[data-commerce-reference05="v1"] .ccg-section-heading h2{font:650 21px/1.4 Georgia,'Songti SC','SimSun',serif}
+body[data-commerce-reference05="v1"] .ccg-card{background:var(--c05-glass);border-color:#fff;border-radius:24px;box-shadow:inset 0 1px 2px #fff,0 6px 18px #76604a12}
+body[data-commerce-reference05="v1"] .ccg05-product{grid-template-columns:minmax(116px,42%) minmax(0,1fr);gap:12px;padding:9px}
+body[data-commerce-reference05="v1"] .ccg05-product .ccg-product-copy{display:flex;flex-direction:column;min-width:0;padding:2px 1px}
+body[data-commerce-reference05="v1"] .ccg05-product h3{font:650 19px/1.35 Georgia,'Songti SC','SimSun',serif;overflow-wrap:anywhere}
+body[data-commerce-reference05="v1"] .ccg05-product .ccg-picture-frame{aspect-ratio:.94;border-radius:17px}
+body[data-commerce-reference05="v1"] .ccg05-product .ccg-picture figcaption{font-size:10px;line-height:1.4;margin-top:4px}
+body[data-commerce-reference05="v1"] .ccg05-product-bottom{display:flex;align-items:center;justify-content:space-between;gap:6px;margin-top:auto}
+body[data-commerce-reference05="v1"] .ccg-price{color:#b84923;font-size:24px;overflow-wrap:anywhere;white-space:normal}
+body[data-commerce-reference05="v1"] .ccg05-product .ccg-price small{display:block;font-size:10px;color:#786d65;line-height:1.2}
+body[data-commerce-reference05="v1"] .ccg05-add{display:grid;place-items:center;flex:none;min-width:46px;min-height:46px;width:46px;padding:9px;border-radius:50%;border-color:#fff;background:var(--c05-red);box-shadow:inset 0 1px #ffcfc5,0 3px 8px #a7432c22}
+body[data-commerce-reference05="v1"] .ccg05-add svg{width:25px;height:25px}
+body[data-commerce-reference05="v1"] .ccg05-product .ccg-product-copy>.ccg-button{min-height:44px;margin-top:0;padding:6px 0;text-align:left;background:none;border-color:transparent;box-shadow:none;color:#526676;font-size:12px}
+body[data-commerce-reference05="v1"] .ccg-detail-head{margin:0 0 9px}
+body[data-commerce-reference05="v1"] .ccg-detail-head>a{display:flex;align-items:center;gap:6px;min-height:44px;text-decoration:none}
+body[data-commerce-reference05="v1"] .ccg05-detail-media{margin:0 -13px 11px}
+body[data-commerce-reference05="v1"] .ccg05-detail-media .ccg-picture-frame{aspect-ratio:1.2;border-radius:0}
+body[data-commerce-reference05="v1"] .ccg05-detail-media figcaption{padding-inline:13px}
+body[data-commerce-reference05="v1"] .ccg05-detail-summary{margin-top:0}
+body[data-commerce-reference05="v1"] .ccg05-detail-summary h1{font:650 26px/1.35 Georgia,'Songti SC','SimSun',serif}
+body[data-commerce-reference05="v1"] .ccg05-detail-summary>.ccg-section-heading{margin-top:0}
+body[data-commerce-reference05="v1"] .ccg05-detail-summary>p{font-size:13px;line-height:1.65;color:#656665}
+body[data-commerce-reference05="v1"] .ccg05-real-facts{display:grid;grid-template-columns:1fr 1fr;margin-top:13px;background:#ffffff66;border:1px solid #fff;border-radius:17px;overflow:hidden}
+body[data-commerce-reference05="v1"] .ccg05-real-facts>div{padding:9px 11px;min-width:0;border-bottom:1px solid #fff8}
+body[data-commerce-reference05="v1"] .ccg05-real-facts>div:last-child{grid-column:1/-1;border-bottom:0}
+body[data-commerce-reference05="v1"] .ccg05-real-facts span{display:block;font-size:11px;color:#75716b}
+body[data-commerce-reference05="v1"] .ccg05-real-facts strong{font-size:13px;font-weight:550;overflow-wrap:anywhere}
+body[data-commerce-reference05="v1"] .ccg05-detail>.ccg-card{margin-bottom:10px}
+body[data-commerce-reference05="v1"] :is(.ccg05-ingredients,.ccg05-nutrition,.ccg05-source)>h2{font-size:17px;line-height:1.4;margin-bottom:7px}
+body[data-commerce-reference05="v1"] :is(.ccg05-ingredients,.ccg05-nutrition)>p{font-size:13px;line-height:1.65;color:#62676b}
+body[data-commerce-reference05="v1"] .ccg05-ingredients>.ccg-muted{margin-top:6px;font-size:11px}
+body[data-commerce-reference05="v1"] .ccg-facts{margin:5px 0}
+body[data-commerce-reference05="v1"] .ccg-detail-actions{position:sticky;bottom:8px;z-index:3;display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:10px;border-radius:28px;background:#f8f2e8ed}
+body[data-commerce-reference05="v1"] .ccg-detail-actions>*{min-height:48px;padding:10px 7px;font-size:13px;text-align:center;line-height:1.4}
+body[data-commerce-reference05="v1"] .ccg-detail-actions>.ccg-primary{background:var(--c05-red);border-color:#ffc5b6}
+/* Original cart DOM and all focus/version/quantity handlers stay untouched. */
+body[data-commerce-reference05="v1"] #cart{margin:10px 13px 20px;padding:15px 12px;border:1px solid #fff;border-radius:27px;background:var(--c05-glass);box-shadow:inset 0 1px 2px #fff,0 7px 22px #715c4314;scroll-margin-top:8px}
+body[data-commerce-reference05="v1"] #cart>h2{font:650 25px/1.4 Georgia,'Songti SC','SimSun',serif;margin:0 0 9px}
+body[data-commerce-reference05="v1"] #cart>.cart-line{padding:12px 8px;margin:10px 0;border:1px solid #fff;border-radius:21px;background:#ffffff7d;gap:8px}
+body[data-commerce-reference05="v1"] #cart .cart-product{gap:12px}
+body[data-commerce-reference05="v1"] #cart .cart-product>div>b{font-size:18px;line-height:1.4}
+body[data-commerce-reference05="v1"] #cart .cart-product>div>p:not(.notice){font-size:22px;color:#ad4629;margin:5px 0;white-space:normal;overflow-wrap:anywhere}
+body[data-commerce-reference05="v1"] #cart .qty{justify-content:flex-end;gap:6px}
+body[data-commerce-reference05="v1"] #cart .qty>button{min-width:44px;min-height:44px;border-radius:18px}
+body[data-commerce-reference05="v1"] #cart [data-action=checkout]{background:var(--c05-red);border-color:#f0ab9d;min-height:48px;border-radius:24px}
+body[data-commerce-reference05="v1"] .ccg05-sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+body[data-commerce-reference05="v1"] :is(.ccg,#cart) :is(button,a,input,select,summary):focus-visible{outline:3px solid #246d9c;outline-offset:3px}
+@media(max-width:350px){body[data-commerce-reference05="v1"] .ccg05-heading{grid-template-columns:minmax(0,1fr) 122px;gap:8px}body[data-commerce-reference05="v1"] .ccg05-heading h1{font-size:24px}body[data-commerce-reference05="v1"] .ccg05-product{grid-template-columns:110px minmax(0,1fr);gap:9px}body[data-commerce-reference05="v1"] .ccg05-product h3{font-size:17px}body[data-commerce-reference05="v1"] .ccg-price{font-size:21px}body[data-commerce-reference05="v1"] #cart .cart-product{gap:9px}}
+@media(prefers-reduced-transparency:reduce){body[data-commerce-reference05="v1"] :is(.ccg-card,.ccg-notice,.ccg-category,#cart){background:#f6f1e9;backdrop-filter:none;-webkit-backdrop-filter:none}}
+@media(forced-colors:active){body[data-commerce-reference05="v1"] :is(.ccg-card,.ccg-notice,.ccg-category,#cart,.ccg05-add,.ccg-detail-actions){background:Canvas;color:CanvasText;border:1px solid CanvasText;box-shadow:none}body[data-commerce-reference05="v1"] .ccg-price{color:CanvasText}}
+
+/* The new loaded catalog supplies order/settings links; the canonical bottom
+   nav retains home/my. Old duplicate rails remain for loading/error/no-script. */
+body[data-commerce-reference05="v1"]:has(.ccg05-catalog)>.app-head,
+body[data-commerce-reference05="v1"]:has(.ccg05-catalog)>.nutri-demo-label{display:none}
+body[data-commerce-reference05="v1"]:has(.ccg05-catalog)>section.registration-entry-v3{padding:5px 12px;font-size:12px;line-height:1.5}
+body[data-commerce-reference05="v1"]:has(.ccg05-catalog)>section.registration-entry-v3>p{margin:0;line-height:1.5}
+body[data-commerce-reference05="v1"] .ccg05-heading>.ccg-search{margin:0}
+body[data-commerce-reference05="v1"] .ccg05-tools>.ccg-link{font-size:12px;min-width:35px}

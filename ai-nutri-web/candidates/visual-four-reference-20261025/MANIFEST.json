@@ -1,0 +1,122 @@
+{
+  "kind": "incremental-visual-source-backup-not-deployed",
+  "baseline_site_source_commit": "3f16ac2bb0c479819d5213e82db96a063de2b035",
+  "files": [
+    {
+      "path": "dist/original-redo/pages/aiAgent.html",
+      "sha256": "6d92473cacbe1925e907bb0f0be622cd3d7370beef3f67e4340bc95a523d65f2",
+      "bytes": 36704,
+      "change": "modify",
+      "reference": "15"
+    },
+    {
+      "path": "dist/original-redo/pages/ai-home-reference15-v1.css",
+      "sha256": "61e24861b9604db3146378eaf1ddc01c356c97c63d2811183b34c309788a8745",
+      "bytes": 12728,
+      "change": "modify",
+      "reference": "15"
+    },
+    {
+      "path": "dist/original-redo/pages/student.html",
+      "sha256": "0e7bbe147ab9eec00afb9c558346ea4307fd94b3ab483da4ff38377071b3a712",
+      "bytes": 2387,
+      "change": "modify",
+      "reference": "09"
+    },
+    {
+      "path": "dist/original-redo/pages/student-platform-v3.js",
+      "sha256": "55f53178d567b7cfae022fd1e23ccc9a71247244505253351a8fed4fa25daee8",
+      "bytes": 31566,
+      "change": "modify",
+      "reference": "09"
+    },
+    {
+      "path": "dist/original-redo/pages/practitioner-ui-v3.js",
+      "sha256": "6e6dd972a995b702b78fe110d550e2d467e0a9cbd09d39660f850016c66026c1",
+      "bytes": 19070,
+      "change": "modify",
+      "reference": "09"
+    },
+    {
+      "path": "dist/original-redo/pages/practitioner-reference09-v1.css",
+      "sha256": "7abc8a758d525dd92f493b9be91d1eb1944a1c1478f1e4c213521065717eccf9",
+      "bytes": 15088,
+      "change": "add",
+      "reference": "09"
+    },
+    {
+      "path": "dist/original-redo/pages/commerce-catalog-orders-glass-view-v1.js",
+      "sha256": "c0507ee52681607d8a0c03af4800ba757074566c69e186ce9ca634aaf0ccbfd2",
+      "bytes": 12306,
+      "change": "modify",
+      "reference": "05"
+    },
+    {
+      "path": "dist/original-redo/pages/shop-reference05-v1.css",
+      "sha256": "6a222b43c72e9433a391d7eec517517db2bd23b26d9e55fc1a431cee62df204e",
+      "bytes": 10883,
+      "change": "add",
+      "reference": "05"
+    },
+    {
+      "path": "dist/original-redo/pages/shop.html",
+      "sha256": "0ef71f7bf17eab97b4032349bee5431b062eeaafc3c6d7e4d8f96be2e2b090c8",
+      "bytes": 3567,
+      "change": "modify",
+      "reference": "05"
+    },
+    {
+      "path": "dist/original-redo/pages/orders.html",
+      "sha256": "08a46f0cec330061a8059307571db2ebee8bfb1adb932e196239cc69e8d33d8e",
+      "bytes": 2653,
+      "change": "modify",
+      "reference": "05"
+    },
+    {
+      "path": "dist/original-redo/pages/account-reference20-v1.css",
+      "sha256": "b265e6895318ae5b132b9ab4777e2738d506b692fd9acf86bb4c56d5b3321a64",
+      "bytes": 15612,
+      "change": "add",
+      "reference": "20"
+    },
+    {
+      "path": "dist/original-redo/pages/demo-account-shell-registration-v3.js",
+      "sha256": "d5054e83fa8ee48a2be1beed8a56af1873cd82ae093bbe7bca7f4b6dc96249b6",
+      "bytes": 19603,
+      "change": "modify",
+      "reference": "20"
+    },
+    {
+      "path": "dist/original-redo/pages/profile-management.html",
+      "sha256": "ed053bb40c0b468c851894be455703412d758c6e41bae89f4579eb163f7bc9bf",
+      "bytes": 2596,
+      "change": "modify",
+      "reference": "20"
+    },
+    {
+      "path": "dist/original-redo/pages/profile.html",
+      "sha256": "294b394ad933b1096a40c32f63a3ede53d45dc8b76d0bce3d6ade946affe3504",
+      "bytes": 9802,
+      "change": "modify",
+      "reference": "20"
+    },
+    {
+      "path": "dist/original-redo/pages/settings.html",
+      "sha256": "e87bed0001a0ee799fe38e500f9ac858d92bf11c65cf4a3f172b2b4d4eaae048",
+      "bytes": 2406,
+      "change": "modify",
+      "reference": "20"
+    }
+  ],
+  "counts": {
+    "files": 15,
+    "bytes": 196971
+  },
+  "verification": {
+    "source_consistency": "fixed hashes and load references checked",
+    "offline": "bounded synthetic renderer checks; not real backend tests",
+    "browser": "reference15 partial official Edge responsive viewport evidence only; complete interaction and references09/05/20 browser acceptance remain incomplete",
+    "deployment": "not integrated or deployed"
+  },
+  "excluded": "images, references, QA files, internal audit records, credentials and private data are not included"
+}
