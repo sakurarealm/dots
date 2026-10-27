@@ -1,0 +1,16 @@
+.fc-panel{display:grid;gap:14px}.fc-panel nav{display:flex;gap:8px}.fc-preview{width:100%;max-height:280px;object-fit:contain;border-radius:24px;background:#202e2a}.fc-status{padding:12px;border-radius:16px;background:rgba(84,118,102,.12)}.fc-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.fc-grid label{display:grid;gap:5px}.fc-stickers{display:flex;flex-wrap:wrap;gap:14px}.fc-sticker{display:grid;gap:5px;padding:16px;border:6px solid white;border-radius:28px;background:#e5eee4;box-shadow:0 5px 15px #25392d19;color:#18382b}.fc-panel button{min-height:44px}.fc-panel [hidden]{display:none!important}.fc-panel input{min-width:0;max-width:100%}
+
+/* Reference03 manual ingredient detail; existing total nutrition remains independent. */
+.fc-panel .fc-ingredients{padding:16px;border:1px solid rgba(113,128,126,.3);border-radius:22px;background:rgba(250,249,246,.7);min-width:0}
+.fc-panel .fc-ingredients-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.fc-panel .fc-ingredients-heading h3{margin:0;font-size:18px;line-height:1.4}.fc-panel .fc-ingredients-heading h3 small{font-size:13px;font-weight:400}
+.fc-panel .fc-ingredients p{font-size:13px;line-height:1.6;margin:10px 0;overflow-wrap:anywhere}
+.fc-panel .fc-ingredient-list{padding:0;margin:12px 0;list-style:none;display:grid;gap:10px}
+.fc-panel .fc-ingredient-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(80px,.5fr) 44px;align-items:end;gap:8px;padding:10px;border:1px solid rgba(113,128,126,.25);border-radius:16px;background:rgba(255,255,255,.6);min-width:0}
+.fc-panel .fc-ingredient-row label{display:grid;gap:5px;font-size:13px;line-height:1.4;min-width:0}.fc-panel .fc-ingredient-row input{width:100%;box-sizing:border-box;min-width:0;font:inherit}
+.fc-panel .fc-ingredients button{min-width:44px;min-height:44px;max-width:100%;font:inherit}.fc-panel .fc-ingredient-row button{font-size:24px;line-height:1;padding:4px}
+.fc-panel .fc-ingredients-error{padding:10px;border:1px solid currentColor;border-radius:12px;font-weight:600}
+.fc-panel .fc-ingredients :focus-visible{outline:3px solid #315f80;outline-offset:3px}
+@media(max-width:360px){.fc-panel .fc-ingredients{padding:10px}.fc-panel .fc-ingredient-row{grid-template-columns:minmax(0,1fr) 44px}.fc-panel .fc-ingredient-row label{grid-column:1}.fc-panel .fc-ingredient-row button{grid-column:2;grid-row:1 / span 2}}
+@media(prefers-reduced-transparency:reduce){.fc-panel .fc-ingredients,.fc-panel .fc-ingredient-row{background:#f8f7f3}}
+@media(forced-colors:active){.fc-panel .fc-ingredients,.fc-panel .fc-ingredient-row{background:Canvas;color:CanvasText;border-color:CanvasText}.fc-panel .fc-ingredients :focus-visible{outline-color:Highlight}}

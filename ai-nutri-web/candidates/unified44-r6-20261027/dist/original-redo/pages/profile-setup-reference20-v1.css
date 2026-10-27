@@ -1,0 +1,73 @@
+/* Page-only extension of the actually viewed reference20 account glass.
+   Read-only structure: no account editing capability is implied. */
+:root{color-scheme:light;font-family:"Noto Sans CJK SC","PingFang SC","Microsoft YaHei",system-ui,sans-serif;color:#292e30;background:#dededa;font-synthesis:none}
+*{box-sizing:border-box}
+body[data-profile-setup-reference="20"]{--psp-ink:#292e30;--psp-muted:#606a70;--psp-blue:#1e5e8b;max-width:480px;width:100%;min-height:100vh;min-height:100dvh;margin:0 auto;background-color:#e7e1d9;background-image:radial-gradient(ellipse 28% 31% at 6% 10%,#c2ced7bd,transparent 80%),radial-gradient(ellipse 35% 42% at 95% 20%,#f7dfbfa6,transparent 85%),radial-gradient(ellipse 40% 38% at 6% 63%,#d0d9dfe0,transparent 80%),radial-gradient(ellipse 46% 28% at 83% 96%,#f2d5bbbf,transparent 80%),linear-gradient(112deg,#e0e1df,#eee6dc 40%,#d9e0e4 76%,#eee4d8);background-size:100% 100%;background-attachment:fixed;line-height:1.6;box-shadow:0 0 60px #26343c12;overflow-wrap:anywhere}
+.psp-header{display:grid;grid-template-columns:76px minmax(0,1fr) 76px;align-items:center;gap:4px;padding:calc(12px + env(safe-area-inset-top)) 12px 11px}
+.psp-header h1{font-family:"Noto Serif CJK SC","Songti SC",Georgia,serif;font-size:25px;font-weight:700;line-height:1.4;text-align:center;margin:0;letter-spacing:.03em}
+.psp-header a,.psp-header button{min-height:44px;text-decoration:none;color:var(--psp-ink)}
+.psp-back{display:flex;align-items:center;gap:6px;font-size:14px;border-radius:14px}
+.psp-back>span:first-child{font:38px/1 system-ui,sans-serif;margin-top:-3px}
+.psp-help{justify-self:end;width:44px;border:1px solid #ffffffbd;background:#ffffff5c;border-radius:50%;font-size:23px;cursor:pointer}
+.psp-help:disabled{opacity:.55;cursor:default}
+.psp-main{padding:0 max(13px,env(safe-area-inset-right)) max(22px,env(safe-area-inset-bottom)) max(13px,env(safe-area-inset-left));outline:none}
+h2,p{margin:0}
+.psp-boundary{display:flex;align-items:center;gap:12px;padding:12px 13px;margin:0 0 14px;background:#edf4f5c9;border:1px solid #ffffffca;border-radius:19px}
+.psp-boundary strong{font-size:16px;font-weight:650}
+.psp-boundary p{color:#52636c;font-size:14px;margin-top:2px;line-height:1.6}
+.psp-icon{width:43px;height:43px;flex:0 0 43px;display:inline-flex;align-items:center;justify-content:center;border-radius:50%;box-shadow:inset 0 1px 3px #ffffff8f}
+.psp-icon svg{width:25px;height:25px;display:block}
+.psp-blue{color:#3779a7;background:linear-gradient(145deg,#e7f0f7,#c8ddeb)}
+.psp-green{color:#4d7e58;background:linear-gradient(145deg,#edf6e8,#c9e1cb)}
+.psp-orange{color:#ad6924;background:linear-gradient(145deg,#fff0df,#ffe0b7)}
+.psp-card{padding:17px 16px 5px;margin:0 0 14px;border:1px solid #ffffffeb;border-bottom-color:#ffffffa1;border-radius:25px;background:linear-gradient(118deg,#ffffffb5,#fffdf998 52%,#fff1e6b3);box-shadow:inset 0 1px 3px #ffffffb0,inset 0 -2px 5px #ffffff3d,0 8px 25px #59482e0b;-webkit-backdrop-filter:blur(19px) saturate(114%);backdrop-filter:blur(19px) saturate(114%)}
+.psp-identity-top{display:flex;align-items:center;gap:15px;padding:3px 0 12px}
+.psp-identity-top>div{min-width:0}
+.psp-avatar{width:73px;height:73px;flex:0 0 73px;display:block}
+.psp-eyebrow{font-size:14px;color:#657078}
+.psp-identity h2{font-family:"Noto Serif CJK SC","Songti SC",Georgia,serif;font-size:23px;line-height:1.5;font-weight:700;color:#262b2d}
+.psp-identity-top p,.psp-identity-note{font-size:14px;color:var(--psp-muted);line-height:1.6}
+.psp-identity-note{border-radius:13px;padding:9px 11px;background:#ffffff65;margin:0 0 4px}
+.psp-section-title{display:flex;align-items:center;gap:11px;padding:0 0 10px}
+.psp-section-title>div{flex:1;min-width:0}
+.psp-section-title h2{font-size:18px;line-height:1.45;font-weight:650}
+.psp-section-title p{font-size:14px;color:var(--psp-muted);line-height:1.5;margin-top:3px}
+.psp-pill{font-size:13px;line-height:1.4;white-space:nowrap;padding:5px 9px;border-radius:20px;color:#53636d;background:#e4ebefbf;align-self:flex-start;margin-top:6px}
+.psp-fields{padding:0;margin:0}
+.psp-row{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:52px;padding:11px 1px;border-top:1px solid #ffffffa3;font-size:15px}
+.psp-row dt{font-weight:500;flex-shrink:0;color:#343e44}
+.psp-row dd{margin:0;display:flex;align-items:baseline;justify-content:flex-end;gap:14px;color:#69747b;text-align:right;min-width:0}
+.psp-unit{width:26px;flex-shrink:0;text-align:left;font-size:14px;color:#69747b}
+.psp-field-note{font-size:14px;color:#667078;line-height:1.55;border-top:1px solid #ffffffa3;padding:11px 1px 9px}
+.psp-details{background:#ffffff55;border:1px solid #ffffffc4;border-radius:19px;padding:0 14px;margin:17px 0 0;font-size:14px;color:var(--psp-muted)}
+.psp-details summary{min-height:48px;display:flex;align-items:center;justify-content:space-between;gap:12px;color:#43555f;cursor:pointer;list-style:none;font-weight:600;padding:8px 0}
+.psp-details summary::-webkit-details-marker{display:none}
+.psp-details summary span{font-size:22px;line-height:1;transition:transform .16s}
+.psp-details[open] summary span{transform:rotate(180deg)}
+.psp-details>div{padding:0 0 13px;border-top:1px solid #ffffff8f}
+.psp-details p{margin-top:10px;line-height:1.7}
+.psp-details a{display:flex;align-items:center;justify-content:space-between;min-height:44px;color:var(--psp-blue);text-decoration:underline;text-underline-offset:3px;margin-top:3px}
+.psp-status{margin:13px 6px 0;font-size:14px;line-height:1.6;color:#5e6971}
+.psp-status[data-state="error"],.psp-noscript{background:#fff1e6bd;border:1px solid #dfbd9e;padding:10px;border-radius:12px;color:#805021}
+.psp-noscript{font-size:14px;margin-top:10px}
+.psp-actions{text-align:center;padding-top:17px}
+.psp-save{width:100%;min-height:52px;border:1px solid #c9d2d7;border-radius:18px;background:linear-gradient(110deg,#d8e0e4,#e7ecee);color:#62717b;font:inherit;font-size:16px;line-height:1.5;font-weight:600;cursor:not-allowed}
+.psp-save:disabled{opacity:1;color:#62717b;-webkit-text-fill-color:#62717b}
+.psp-actions p{font-size:14px;color:#657078;margin:7px 3px 0}
+.psp-actions a{display:flex;min-height:48px;align-items:center;justify-content:center;color:var(--psp-blue);text-decoration:none;font-size:15px;margin-top:7px;border-radius:15px;background:#ffffff65;border:1px solid #ffffffb8}
+.psp-dialog{width:calc(100% - 28px);max-width:428px;max-height:calc(100vh - 48px);max-height:calc(100dvh - 48px);overflow:auto;padding:23px 20px 20px;border:1px solid #ffffffed;border-radius:26px;color:#2d363b;background:linear-gradient(118deg,#f7f7f3,#f6efe5);box-shadow:0 22px 65px #2a394441;font-size:15px;line-height:1.7}
+.psp-dialog:not([open]){display:none}
+.psp-dialog::backdrop{background:#26364261;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px)}
+.psp-dialog-heading{display:flex;gap:12px;align-items:center;margin-bottom:14px}
+.psp-dialog h2{font-family:"Noto Serif CJK SC","Songti SC",Georgia,serif;font-size:23px;font-weight:700;line-height:1.4}
+.psp-dialog p,.psp-dialog li{font-size:15px;color:#53616a}
+.psp-dialog ul{padding-left:22px;margin:13px 0 19px}
+.psp-dialog li{margin:9px 0}
+.psp-dialog-close{width:100%;min-height:49px;border:1px solid #a7c0d2;background:linear-gradient(120deg,#e7f1f7,#d2e3ef);color:#215c83;border-radius:16px;font:inherit;font-weight:600;cursor:pointer}
+.psp-skip{position:fixed;top:8px;left:50%;transform:translate(-50%,-150%);z-index:5;background:white;color:#244a65;padding:10px;border:2px solid #285f85;border-radius:8px}
+.psp-skip:focus{transform:translate(-50%,0)}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #2c719f;outline-offset:3px}
+a:hover,.psp-help:not(:disabled):hover,.psp-dialog-close:hover{background-color:#ffffffa3}
+@media(max-width:360px){.psp-header{grid-template-columns:65px minmax(0,1fr) 65px}.psp-header h1{font-size:23px}.psp-main{padding-right:11px;padding-left:11px}.psp-card{padding-right:13px;padding-left:13px}.psp-identity-top{gap:11px}.psp-avatar{width:64px;height:64px;flex-basis:64px}.psp-section-title{gap:9px}.psp-pill{display:none}}
+@media(prefers-reduced-motion:reduce){.psp-details summary span{transition:none}}
+@media(forced-colors:active){.psp-card,.psp-details,.psp-boundary,.psp-dialog,.psp-help,.psp-actions a{border:1px solid CanvasText;background:Canvas}.psp-save:disabled{color:GrayText;-webkit-text-fill-color:GrayText;border-color:GrayText}.psp-dialog::backdrop{background:#0009}}

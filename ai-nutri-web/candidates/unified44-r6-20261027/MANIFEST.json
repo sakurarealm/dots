@@ -1,0 +1,291 @@
+{
+  "schema": "ai-nutri-source-overlay-manifest-v1",
+  "candidate": "unified44-r6-20261027",
+  "status": "offline-source-candidate-not-deployment",
+  "requiredBase": {
+    "name": "AI-Nutri v43",
+    "commit": "d7cb8c08ae257c5c12ae7cf0b66f6297a6ce1838",
+    "root": "dist",
+    "trackedFileCount": 367,
+    "includedInThisOverlay": false
+  },
+  "composition": {
+    "overlaySourceFiles": 44,
+    "replacedBaseFiles": 30,
+    "newSourceFiles": 14,
+    "effectiveSourceTreeFiles": 381,
+    "payloadBytes": 792903
+  },
+  "verificationLimits": {
+    "browser": "not-verified",
+    "realBackend": "not-connected-or-verified",
+    "WeChatDevice": "not-verified",
+    "realUserStorage": "not-accessed-or-verified"
+  },
+  "files": [
+    {
+      "path": "dist/original-redo/pages/address.html",
+      "sha256": "ea53c14d55dd5dccf33126d2317dcf0f2e46584116f62436e7e6dfcd7d252bd8",
+      "gitBlobSHA1": "1405443a79f61cd6ebf07814a86ee1e42a8f9821",
+      "bytes": 3666
+    },
+    {
+      "path": "dist/original-redo/pages/aiAgent.html",
+      "sha256": "474ca401d53781a84c216c64ecfb38c9b7c2a447e2f473e577710e802c392d32",
+      "gitBlobSHA1": "e722a3a3fb237bb53cb07defb4076299b0412dfd",
+      "bytes": 38102
+    },
+    {
+      "path": "dist/original-redo/pages/commerce-admin-registration-v3.js",
+      "sha256": "4d1b096f8bfe9fd030957583c592ade0cbd1bcc8bd4349ca33b3df34b31fc9ab",
+      "gitBlobSHA1": "38182762168e748322d2e1451ecf120e6b630a9b",
+      "bytes": 14739
+    },
+    {
+      "path": "dist/original-redo/pages/commerce-admin.html",
+      "sha256": "fa2a34478a3127f8ee929782f22eb975f5ab82f19b59d3c2cc1eb4bbee1e79d8",
+      "gitBlobSHA1": "1309503edbe59297de828d699905828e24ccc2a6",
+      "bytes": 3683
+    },
+    {
+      "path": "dist/original-redo/pages/commerce-ui-registration-v3.js",
+      "sha256": "603569a6f0f4d2e0d4d34d302afdcc244fff1a4331055ae69313bb80460ba17d",
+      "gitBlobSHA1": "49ab38ccb487c3b08c4e96db1f8a915eeed71ad1",
+      "bytes": 32462
+    },
+    {
+      "path": "dist/original-redo/pages/demo-account-shell-registration-v3.js",
+      "sha256": "6cfa28fa9a201db04ab3fa54d3c782f981de30cfd46788e73f02150fbfb6dbfd",
+      "gitBlobSHA1": "b3575b6f3bd9920e038907757670e127602bd31a",
+      "bytes": 21914
+    },
+    {
+      "path": "dist/original-redo/pages/diet.html",
+      "sha256": "f386997ec90e6913f04bbb366a43ddbc3f73a29612e3b3a83bfb9d0ea75f9b1c",
+      "gitBlobSHA1": "f8ccb9366c980cb7faf3e5862c45bf3aa15acc70",
+      "bytes": 11170
+    },
+    {
+      "path": "dist/original-redo/pages/family-ui-v1.js",
+      "sha256": "8125d1315b2e8599f156a3610309f9ef2d45b28ff7c1d12f20be2c57ce919c57",
+      "gitBlobSHA1": "21df831fe9a926ab47fe2bc826f8f524ee2f4dce",
+      "bytes": 25392
+    },
+    {
+      "path": "dist/original-redo/pages/family.html",
+      "sha256": "006463ea06d4470ef6ce88e2c4f65a619faa8c0b633dbd928f749cab5ce42a8f",
+      "gitBlobSHA1": "0a259a26241a13fe80ba1d93d3c5a79e0e0610c1",
+      "bytes": 2471
+    },
+    {
+      "path": "dist/original-redo/pages/food-capture-view.css",
+      "sha256": "b64c30fa8ae8b77d471c7da39119a6c9a9e3242b20656db7bdf9a6e68ce11c55",
+      "gitBlobSHA1": "833da663c0747a3016f984c0ac3f8b42f9ed0b29",
+      "bytes": 2739
+    },
+    {
+      "path": "dist/original-redo/pages/food-capture-view.js",
+      "sha256": "03c5040042e452d4fcda9b09c88004df017e4ac615654dcd52154e4e615996c9",
+      "gitBlobSHA1": "53a8eea7f18dcd61592f4fc020c999a1cb855a21",
+      "bytes": 18177
+    },
+    {
+      "path": "dist/original-redo/pages/health-calendar.html",
+      "sha256": "9b90ee4b7d204ee38b0eef38f37e64b1bb22219412526e54325614a6183fa00d",
+      "gitBlobSHA1": "9a8b508131bce7858fd0f4989e86702e038899fa",
+      "bytes": 8456
+    },
+    {
+      "path": "dist/original-redo/pages/health-companion-glass-v1.css",
+      "sha256": "72cfe1634b2d79c5d44b608f1d6028ccd0e2b3ab8e22d820fc0ed7244aa395f4",
+      "gitBlobSHA1": "df4316fbb18bf54e6c5294978e2528dc057347db",
+      "bytes": 10248
+    },
+    {
+      "path": "dist/original-redo/pages/health-companion-glass-view-v1.js",
+      "sha256": "0f80b30e6f25924996518b76d00c6bb59a97279b8a89787fa9f24a3d65a05f3d",
+      "gitBlobSHA1": "4338abcd8b3276eef445d3987168ebdb938a2ac7",
+      "bytes": 19998
+    },
+    {
+      "path": "dist/original-redo/pages/health-demo-pages-registration-v3.js",
+      "sha256": "3131d8ea0aa4932df1d58a90818f2d4bb28115a7553b5cc5a755b6ca8d32698c",
+      "gitBlobSHA1": "f2786b7c53d615f9d4b8b1e91b84b977500a2dd5",
+      "bytes": 31751
+    },
+    {
+      "path": "dist/original-redo/pages/health-demo-ui-registration-v3.js",
+      "sha256": "c7c0ab849cc1a798d59ed57ed61ad07ed8b6a50da9790a7b318b20687d2696e4",
+      "gitBlobSHA1": "6fffe0dfdc59464eefbf08dbbc3a9036c498668d",
+      "bytes": 88591
+    },
+    {
+      "path": "dist/original-redo/pages/intake.html",
+      "sha256": "481a1d3ec6c92e1e4d88031dc95b7790f4987f1323e38e34e6f613b12bfd6a85",
+      "gitBlobSHA1": "7507d2a259fcf00ddc0db0a92b0e79f5d756916d",
+      "bytes": 15802
+    },
+    {
+      "path": "dist/original-redo/pages/management-reference20-v1.css",
+      "sha256": "32d19f7dc811547cdffd7555dd156e0e8d392c23160444e40d472d9474973bdc",
+      "gitBlobSHA1": "e590afdce0fa06679fce1dcac573718e829a3635",
+      "bytes": 8575
+    },
+    {
+      "path": "dist/original-redo/pages/orders.html",
+      "sha256": "906f3adc0af93a8021d43f5b49f609d9b52a82fecdb4fa189441702f39cb3564",
+      "gitBlobSHA1": "a86a95ada7e07ab5a869aa94a49227c314f30040",
+      "bytes": 3453
+    },
+    {
+      "path": "dist/original-redo/pages/personal-food-page.js",
+      "sha256": "7f3ac8a37d088947969e68fc9057822c02ceba939ad7e3d0319d8d134c63f2c5",
+      "gitBlobSHA1": "afc6dfb124d6adb5eabc475c717afced0d2fa716",
+      "bytes": 17003
+    },
+    {
+      "path": "dist/original-redo/pages/personal-food.html",
+      "sha256": "7a0e125918e87e958bce96d58fe0195eb40b19e3b8e52c19f7c8b691413168a2",
+      "gitBlobSHA1": "8fe913de9bea12c8d8abe6f2de9218dd2320a438",
+      "bytes": 6266
+    },
+    {
+      "path": "dist/original-redo/pages/practitioner-controller-v3.js",
+      "sha256": "dac9ac6c3734d192ab5d90552109c3a6b68962dbefd6958065a682ad739d1afd",
+      "gitBlobSHA1": "daeaf348991296b57e0b818d3004769033aaf783",
+      "bytes": 39372
+    },
+    {
+      "path": "dist/original-redo/pages/practitioner-reference10-v1.css",
+      "sha256": "abfd1a03d9a8b8a06f7a7b4297916c1614069e5cd4c467d6f693878ab4b465d4",
+      "gitBlobSHA1": "0163c602d5f83c30fa0e3a497465edacf67a26ff",
+      "bytes": 10116
+    },
+    {
+      "path": "dist/original-redo/pages/practitioner-ui-v3.js",
+      "sha256": "743cc7591dad3f4b9de5bae7aaa4ab34b945a110c5ea24572f71c250b5bc78a1",
+      "gitBlobSHA1": "8abec7397e588de1daef384241e0c650f44056b9",
+      "bytes": 19078
+    },
+    {
+      "path": "dist/original-redo/pages/profile-management.html",
+      "sha256": "0a10c1d801dbd9a94c5f8b3d2e7c11149cd256f7ade471c63692e603e0185a77",
+      "gitBlobSHA1": "e623c508090f10c0446d83291b1d6215023dc1e2",
+      "bytes": 3571
+    },
+    {
+      "path": "dist/original-redo/pages/profile-setup-reference20-v1.css",
+      "sha256": "17350c0f790d93fb684a1e494eceff9dd80c8be27d8208f7f9fb73824ca50327",
+      "gitBlobSHA1": "7f1526d473b083bb7ccbba5adce5234675745fc1",
+      "bytes": 8461
+    },
+    {
+      "path": "dist/original-redo/pages/profile-setup-view-v1.js",
+      "sha256": "c2b3b24c5d472ae706a2adb4aa6d70ded0e55851cce00ebb74136d80dcc6f593",
+      "gitBlobSHA1": "bfe5a2d6fe8ff39d5a05dbe56c00fa1d4f76e742",
+      "bytes": 3247
+    },
+    {
+      "path": "dist/original-redo/pages/profile-setup.html",
+      "sha256": "2b3442c12b855547d5bb14176121a104897ea2e4cec71f729529ad78c9139d6b",
+      "gitBlobSHA1": "a36727c63b7875a26684105ca3b2632a8b8b7ea1",
+      "bytes": 7966
+    },
+    {
+      "path": "dist/original-redo/pages/profile.html",
+      "sha256": "9f064b2d79be4bf886174b8a49dc85247604f94f622b0f1bb42b95fe545a115d",
+      "gitBlobSHA1": "b3acef42712adb8fc494b229d42f5ff951c42b6b",
+      "bytes": 10602
+    },
+    {
+      "path": "dist/original-redo/pages/settings.html",
+      "sha256": "27f1f33f07bac8d5b3f546888bb567ef9b71809c9d4625d1f18995e61a64558a",
+      "gitBlobSHA1": "bc0f36d137929625ee3f5936e0c952bc03a56713",
+      "bytes": 3206
+    },
+    {
+      "path": "dist/original-redo/pages/shop.html",
+      "sha256": "f2cc38e7535dc5736120dd1e674e7172338013a1a981f2fe16b9e0bafcf251cc",
+      "gitBlobSHA1": "ff182295ee14fce8796a4eb47adcf89802ea8005",
+      "bytes": 4367
+    },
+    {
+      "path": "dist/original-redo/pages/student-platform-v3.js",
+      "sha256": "215d60b2f367e688e1196780ae0e1f85e99b0f80d9c9cf1ef6ee3e70c35a5be6",
+      "gitBlobSHA1": "916e49b93e347ea4ce6ba067db0afe2178d1da7f",
+      "bytes": 46972
+    },
+    {
+      "path": "dist/original-redo/pages/student.html",
+      "sha256": "5f108e6cc23f38cd610f9b3a8a3a091f13cccbcb83e3a95672c5e71e5876fe2b",
+      "gitBlobSHA1": "9799f535bd80c7758fb90865137994c37f62ff83",
+      "bytes": 3321
+    },
+    {
+      "path": "dist/original-redo/pages/wallet.html",
+      "sha256": "8a40ecf621cf814647cc87d318ebc557c509c452e79c050952d8df7001b965d0",
+      "gitBlobSHA1": "c587b8a1059f584bec12132bdefbc39bb4047889",
+      "bytes": 3334
+    },
+    {
+      "path": "dist/original-redo/shared/nutri-demo-core-service-v4.js",
+      "sha256": "9a1af907003bbfcb26903623e383cf578cf9447f412f340af76ca5a91194859a",
+      "gitBlobSHA1": "7fe96e40b447fe72525c43c07e5d7e4b6e53a088",
+      "bytes": 38912
+    },
+    {
+      "path": "dist/original-redo/shared/nutri-registration-entry-service-v4.js",
+      "sha256": "330f46bd036376ec69cb5bb240e19e78b0c3676ef052db3fbcc13a84c47445a9",
+      "gitBlobSHA1": "abd77fa05e1809a7da5d0c675b3a0747f96d8d68",
+      "bytes": 44527
+    },
+    {
+      "path": "dist/original-redo/shared/nutri-registration-kernel-service-v2.js",
+      "sha256": "91657a32d062d37863608d8d8d6f270285310fd0418eeb6d9c589f6ece5bcd5f",
+      "gitBlobSHA1": "8b9dae2b0605c23732fade297ef35cf4a02cd6d3",
+      "bytes": 76132
+    },
+    {
+      "path": "dist/original-redo/shared/nutri-registration-store-service-v4.js",
+      "sha256": "2e26932b57e0303cb75cbb8672ba3cb9996ebd5c1d8fa65279618f9cdecb4ae3",
+      "gitBlobSHA1": "c9e53fb972abcd4b76c0b04e0f6c46e91d652a78",
+      "bytes": 18849
+    },
+    {
+      "path": "dist/original-redo/shared/nutri-service-hash-v1.js",
+      "sha256": "a5813582b537fb815a09e8d1dd3ee567253c0840f99117ef1643b921ad8d6881",
+      "gitBlobSHA1": "124d8543cb5f6801763f8e7ef2414251af39ed02",
+      "bytes": 3098
+    },
+    {
+      "path": "dist/original-redo/shared/nutri-service-legacy-validator-v1.js",
+      "sha256": "fa8e94a05ac117491f247486138b6ee75a3a101d1ef757292ae8cf69b2635b19",
+      "gitBlobSHA1": "c72fcc79447134e3433eb8681c4ccd3b2b46cf52",
+      "bytes": 9569
+    },
+    {
+      "path": "dist/original-redo/shared/nutri-service-migration-coordinator-v1.js",
+      "sha256": "9adbf87b70e3f8514a6dd1bb3f022ca4d68f99c884deae4ef0ba74ee644b6652",
+      "gitBlobSHA1": "78147bc898147fd7d92962acbce7135bd289eae2",
+      "bytes": 20277
+    },
+    {
+      "path": "dist/original-redo/shared/nutri-service-migration-pure-v1.js",
+      "sha256": "9019eb5be3da04d6555b7b62b7a8ab85f4a8620bf7f1eccd4e9aec7cce066a89",
+      "gitBlobSHA1": "fd5cbfe6d87f0b16b34b97d63d44edf7f0c7e78b",
+      "bytes": 13021
+    },
+    {
+      "path": "dist/original-redo/shared/nutri-service-ordinary-write-gate-v1.js",
+      "sha256": "984892ccb797be9abd4c88287df736645ad7d0519a92c14699d719205215eeca",
+      "gitBlobSHA1": "e55c633e0591cdcd5691a7fd282c4ffd46c30eb9",
+      "bytes": 6589
+    },
+    {
+      "path": "dist/original-redo/shared/nutri-service-plan-contract-v1.js",
+      "sha256": "76ac44a3d33864714b450e761a9da8c6d8145acaad1deeb861960e062252df67",
+      "gitBlobSHA1": "f6d37708037bf2c944b55c8cf82fbc3b648ad556",
+      "bytes": 13658
+    }
+  ]
+}
